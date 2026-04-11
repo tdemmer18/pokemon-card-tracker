@@ -57,7 +57,7 @@ st.set_page_config(
     page_title="Pokédex Checklist",
     page_icon="📘",
     layout="wide",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="expanded",
 )
 st.set_option("client.toolbarMode", "minimal")
 
@@ -284,17 +284,21 @@ def apply_theme(theme: str) -> None:
         .stApp, [data-testid="stSidebar"], [data-testid="stSidebar"] * {{
             color: var(--text);
         }}
-        /* Hide the default header strip so content isn’t cramped under Streamlit chrome. */
+        /* Keep the header visible so the sidebar open/close control stays available (it lives in the header). */
         [data-testid="stHeader"] {{
-            display: none !important;
+            background: linear-gradient(180deg, var(--surface), var(--muted)) !important;
+            border-bottom: 1px solid var(--border);
         }}
         [data-testid="stToolbar"] {{
             background: transparent !important;
         }}
+        [data-testid="stHeader"] button,
         [data-testid="stToolbar"] button,
+        [data-testid="stHeader"] a,
         [data-testid="stToolbar"] a {{
             color: var(--text) !important;
         }}
+        [data-testid="stHeader"] svg,
         [data-testid="stToolbar"] svg {{
             fill: var(--text) !important;
         }}
