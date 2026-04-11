@@ -30,8 +30,8 @@ GENERATION_NAMES = {
     9: "Paldea",
 }
 
-# Paginated grid: fixed page size or show everything.
-PAGE_SIZE_OPTIONS: list[int | str] = [16, "All"]
+# Paginated grid: keep page sizes bounded so cloud deploys do not render the full Pokédex at once.
+PAGE_SIZE_OPTIONS: list[int] = [16, 32, 64]
 
 # CSS variable bundles for apply_theme (light + dark + popular editor-style schemes).
 THEME_PALETTES: dict[str, dict[str, str]] = {
@@ -309,6 +309,13 @@ def write_progress_store(current_user: str, users: dict[str, dict[int, bool]]) -
         persistence.file_write_full(PROGRESS_PATH, current_user, users, prefs)
 
 
+def persist_active_user_only(username: str) -> None:
+    if persistence.db_engine_ready():
+        persistence.db_set_active_user(username)
+    else:
+        persistence.file_set_active_user(PROGRESS_PATH, DEFAULT_USER, username)
+
+
 def save_preferences_only() -> None:
     if st.session_state.shared_mode:
         return
@@ -372,7 +379,7 @@ def ensure_state() -> None:
         "selected_types": [],
         "compare_left_user": "",
         "compare_right_user": "",
-        "page_size": 16,
+        "page_size": PAGE_SIZE_OPTIONS[0],
         "grid_page": 1,
     }
     for key, value in defaults.items():
@@ -381,6 +388,8 @@ def ensure_state() -> None:
 
     if st.session_state.get("theme") not in THEME_PALETTES:
         st.session_state.theme = "tokyo_night"
+    if st.session_state.get("page_size") not in PAGE_SIZE_OPTIONS:
+        st.session_state.page_size = PAGE_SIZE_OPTIONS[0]
     if st.session_state.get("theme_picker") not in THEME_PALETTES:
         st.session_state.theme_picker = st.session_state.theme
     if "search_header" not in st.session_state:
@@ -435,13 +444,30 @@ def ensure_state() -> None:
     st.session_state.initialized = True
 
 
-def persist_current_progress() -> None:
+def persist_current_progress(pokemon_id: int | None = None, checked: bool | None = None) -> None:
     if st.session_state.shared_mode:
         return
     users = dict(st.session_state.users)
     users[st.session_state.active_user] = dict(st.session_state.progress)
     st.session_state.users = users
-    write_progress_store(st.session_state.active_user, users)
+    if pokemon_id is not None and checked is not None:
+        if persistence.db_engine_ready():
+            persistence.db_set_collection_entry(st.session_state.active_user, pokemon_id, checked)
+            persistence.db_save_preferences_only(
+                st.session_state.active_user,
+                gather_session_preferences(),
+            )
+            persist_active_user_only(st.session_state.active_user)
+        else:
+            persistence.file_set_collection_entry(
+                PROGRESS_PATH,
+                DEFAULT_USER,
+                st.session_state.active_user,
+                pokemon_id,
+                checked,
+            )
+    else:
+        write_progress_store(st.session_state.active_user, users)
 
 
 def get_current_page() -> str:
@@ -1265,12 +1291,12 @@ def render_sidebar(pokedex: list[dict], current_page: str) -> None:
                 users = dict(st.session_state.users)
                 users[st.session_state.active_user] = dict(st.session_state.progress)
                 st.session_state.users = users
-                write_progress_store(st.session_state.active_user, users)
+                save_preferences_only()
                 prefs_all = read_all_preferences_store()
                 st.session_state.active_user = selected_user
                 st.session_state.progress = dict(users[selected_user])
                 apply_session_preferences(prefs_all.get(selected_user, {}))
-                write_progress_store(selected_user, users)
+                persist_active_user_only(selected_user)
                 st.session_state._last_saved_prefs_snap = json.dumps(
                     gather_session_preferences(), sort_keys=True, default=str
                 )
@@ -1320,7 +1346,7 @@ def toggle_pokemon(pokemon_id: int, checked: bool) -> None:
         updated.pop(pokemon_id, None)
     st.session_state.progress = updated
     if not st.session_state.shared_mode:
-        persist_current_progress()
+        persist_current_progress(pokemon_id, checked)
 
 
 def toggle_pokemon_for_user(username: str, pokemon_id: int, checked: bool) -> None:
@@ -1334,7 +1360,11 @@ def toggle_pokemon_for_user(username: str, pokemon_id: int, checked: bool) -> No
     st.session_state.users = users
     if username == st.session_state.active_user:
         st.session_state.progress = dict(updated)
-    write_progress_store(st.session_state.active_user, users)
+    if persistence.db_engine_ready():
+        persistence.db_set_collection_entry(username, pokemon_id, checked)
+        persist_active_user_only(st.session_state.active_user)
+    else:
+        write_progress_store(st.session_state.active_user, users)
 
 
 def _dom_safe_fragment(value: str) -> str:
@@ -1588,13 +1618,9 @@ def render_pokemon_grid(entries: list[dict]) -> None:
         return
 
     if st.session_state.page_size not in PAGE_SIZE_OPTIONS:
-        st.session_state.page_size = 16
+        st.session_state.page_size = PAGE_SIZE_OPTIONS[0]
 
-    raw_page_size = st.session_state.page_size
-    if raw_page_size == "All":
-        page_size = len(entries)
-    else:
-        page_size = int(raw_page_size)
+    page_size = int(st.session_state.page_size)
 
     total_pages = max(1, (len(entries) + page_size - 1) // page_size)
 
@@ -1610,7 +1636,7 @@ def render_pokemon_grid(entries: list[dict]) -> None:
         st.selectbox(
             "Page size",
             options=PAGE_SIZE_OPTIONS,
-            format_func=lambda x: "All (every card)" if x == "All" else str(x),
+            format_func=lambda x: str(x),
             key="page_size",
         )
     with nav_right:
@@ -1666,7 +1692,7 @@ def render_pokemon_grid(entries: list[dict]) -> None:
                     toggle_pokemon(entry["id"], not checked)
                     st.rerun()
 
-    if raw_page_size != "All" and total_pages > 1:
+    if total_pages > 1:
         st.divider()
         prev_col, mid_col, next_col = st.columns([1, 2, 1])
         with prev_col:

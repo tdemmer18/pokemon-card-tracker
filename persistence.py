@@ -198,6 +198,38 @@ def db_save_preferences_only(username: str, prefs: dict[str, Any]) -> None:
         session.commit()
 
 
+def db_set_collection_entry(username: str, pokemon_id: int, checked: bool) -> None:
+    with get_session() as session:
+        user = session.scalar(select(TrackerUser).where(TrackerUser.username == username))
+        if user is None:
+            user = TrackerUser(username=username, preferences={})
+            session.add(user)
+            session.flush()
+
+        existing = session.scalar(
+            select(CollectionEntry).where(
+                CollectionEntry.user_id == user.id,
+                CollectionEntry.pokemon_id == int(pokemon_id),
+            )
+        )
+        if checked:
+            if existing is None:
+                session.add(CollectionEntry(user_id=user.id, pokemon_id=int(pokemon_id)))
+        elif existing is not None:
+            session.delete(existing)
+        session.commit()
+
+
+def db_set_active_user(username: str) -> None:
+    with get_session() as session:
+        row = session.scalar(select(AppSetting).where(AppSetting.key == "active_username"))
+        if row:
+            row.value = username
+        else:
+            session.add(AppSetting(key="active_username", value=username))
+        session.commit()
+
+
 def _sanitize_username(name: str) -> str:
     return " ".join(name.strip().split())
 
@@ -296,6 +328,47 @@ def file_save_preferences_only(
     }
     payload = {
         "current_user": current_user,
+        "users": serializable_users,
+        "user_preferences": {k: dict(v) for k, v in sorted(prefs_map.items())},
+    }
+    progress_path.parent.mkdir(parents=True, exist_ok=True)
+    progress_path.write_text(json.dumps(payload, indent=2, sort_keys=True))
+
+
+def file_set_collection_entry(
+    progress_path: Path,
+    default_user: str,
+    username: str,
+    pokemon_id: int,
+    checked: bool,
+) -> None:
+    current_user, users, prefs_map = file_read_full(progress_path, default_user)
+    users = dict(users)
+    progress = dict(users.get(username, {}))
+    if checked:
+        progress[int(pokemon_id)] = True
+    else:
+        progress.pop(int(pokemon_id), None)
+    users[username] = progress
+    serializable_users = {
+        u: {str(k): v for k, v in prog.items() if v} for u, prog in sorted(users.items())
+    }
+    payload = {
+        "current_user": current_user if current_user in users else username,
+        "users": serializable_users,
+        "user_preferences": {k: dict(v) for k, v in sorted(prefs_map.items())},
+    }
+    progress_path.parent.mkdir(parents=True, exist_ok=True)
+    progress_path.write_text(json.dumps(payload, indent=2, sort_keys=True))
+
+
+def file_set_active_user(progress_path: Path, default_user: str, username: str) -> None:
+    _, users, prefs_map = file_read_full(progress_path, default_user)
+    serializable_users = {
+        u: {str(k): v for k, v in prog.items() if v} for u, prog in sorted(users.items())
+    }
+    payload = {
+        "current_user": username if username in users else default_user,
         "users": serializable_users,
         "user_preferences": {k: dict(v) for k, v in sorted(prefs_map.items())},
     }
