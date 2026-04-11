@@ -310,10 +310,13 @@ def write_progress_store(current_user: str, users: dict[str, dict[int, bool]]) -
 
 
 def persist_active_user_only(username: str) -> None:
-    if persistence.db_engine_ready():
+    if persistence.db_engine_ready() and hasattr(persistence, "db_set_active_user"):
         persistence.db_set_active_user(username)
-    else:
+        return
+    if hasattr(persistence, "file_set_active_user"):
         persistence.file_set_active_user(PROGRESS_PATH, DEFAULT_USER, username)
+        return
+    write_progress_store(username, dict(st.session_state.users))
 
 
 def save_preferences_only() -> None:
@@ -451,14 +454,14 @@ def persist_current_progress(pokemon_id: int | None = None, checked: bool | None
     users[st.session_state.active_user] = dict(st.session_state.progress)
     st.session_state.users = users
     if pokemon_id is not None and checked is not None:
-        if persistence.db_engine_ready():
+        if persistence.db_engine_ready() and hasattr(persistence, "db_set_collection_entry"):
             persistence.db_set_collection_entry(st.session_state.active_user, pokemon_id, checked)
             persistence.db_save_preferences_only(
                 st.session_state.active_user,
                 gather_session_preferences(),
             )
             persist_active_user_only(st.session_state.active_user)
-        else:
+        elif hasattr(persistence, "file_set_collection_entry"):
             persistence.file_set_collection_entry(
                 PROGRESS_PATH,
                 DEFAULT_USER,
@@ -466,6 +469,8 @@ def persist_current_progress(pokemon_id: int | None = None, checked: bool | None
                 pokemon_id,
                 checked,
             )
+        else:
+            write_progress_store(st.session_state.active_user, users)
     else:
         write_progress_store(st.session_state.active_user, users)
 
@@ -1360,7 +1365,7 @@ def toggle_pokemon_for_user(username: str, pokemon_id: int, checked: bool) -> No
     st.session_state.users = users
     if username == st.session_state.active_user:
         st.session_state.progress = dict(updated)
-    if persistence.db_engine_ready():
+    if persistence.db_engine_ready() and hasattr(persistence, "db_set_collection_entry"):
         persistence.db_set_collection_entry(username, pokemon_id, checked)
         persist_active_user_only(st.session_state.active_user)
     else:
