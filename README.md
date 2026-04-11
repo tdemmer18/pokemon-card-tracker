@@ -31,7 +31,23 @@ git push -u origin main
 3. **New app** → pick the repo, branch `main`, main file **`app.py`**.
 4. Deploy. Cloud will install dependencies from `requirements.txt`.
 
+### Durable data (PostgreSQL)
+
+Streamlit Community Cloud’s filesystem is **not** reliable for `data/progress.json`. This app uses **PostgreSQL** when configured.
+
+1. Create a free database (e.g. [Neon](https://neon.tech) or [Supabase](https://supabase.com)) and copy the **connection string** (must start with `postgresql://` or `postgres://`).
+2. In Streamlit Cloud: **App settings → Secrets** and add:
+
+   ```toml
+   DATABASE_URL = "postgresql://USER:PASSWORD@HOST/DBNAME?sslmode=require"
+   ```
+
+3. Redeploy. Tables (`tracker_user`, `collection_entry`, `app_setting`) are created automatically on first run.
+
+If `DATABASE_URL` is missing, the app keeps using **`data/progress.json`** (good for local development).
+
+**Note:** The app does not implement login. Everyone hitting your public Streamlit URL shares the same database (same as sharing one `progress.json`). That is usually fine for a personal or household deployment; add authentication later if you need isolated cloud accounts.
+
 For **private** apps on the community tier, check Streamlit’s current docs for [app visibility](https://docs.streamlit.io/streamlit-community-cloud) and plans.
 
 Alternatives: **Railway**, **Render**, or **Fly.io** with `streamlit run app.py --server.port $PORT --server.address 0.0.0.0`.
-# pokemon-card-tracker

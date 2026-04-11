@@ -10,6 +10,8 @@ from typing import Iterable
 import streamlit as st
 import streamlit.components.v1 as components
 
+import persistence
+
 
 BASE_DIR = Path(__file__).parent
 DATA_PATH = BASE_DIR / "data" / "pokedex.json"
@@ -28,8 +30,145 @@ GENERATION_NAMES = {
     9: "Paldea",
 }
 
-# Paginated grid: 16, 32, … up to 1040, plus show-everything.
-PAGE_SIZE_OPTIONS: list[int | str] = [n for n in range(16, 16 * 65 + 1, 16)] + ["All"]
+# Paginated grid: fixed page size or show everything.
+PAGE_SIZE_OPTIONS: list[int | str] = [16, "All"]
+
+# CSS variable bundles for apply_theme (light + dark + popular editor-style schemes).
+THEME_PALETTES: dict[str, dict[str, str]] = {
+    "light": {
+        "bg": "#f8fafc",
+        "surface": "#ffffff",
+        "muted": "#eef2ff",
+        "card": "#ffffff",
+        "border": "#dbe4ff",
+        "text": "#0f172a",
+        "soft": "#475569",
+        "accent": "#2563eb",
+        "accent_2": "#10b981",
+        "success_bg": "rgba(220, 252, 231, 0.96)",
+        "success_bg_2": "rgba(240, 253, 244, 0.98)",
+        "success_border": "#22c55e",
+        "success_text": "#166534",
+        "track": "rgba(148, 163, 184, 0.18)",
+        "input_bg": "#ffffff",
+        "shadow": "0 18px 48px rgba(37, 99, 235, 0.14)",
+    },
+    "dark": {
+        "bg": "#303446",
+        "surface": "#414559",
+        "muted": "#51576d",
+        "card": "#3a3f55",
+        "border": "#626880",
+        "text": "#c6d0f5",
+        "soft": "#a5adce",
+        "accent": "#8caaee",
+        "accent_2": "#81c8be",
+        "success_bg": "rgba(129, 200, 190, 0.22)",
+        "success_bg_2": "rgba(166, 209, 137, 0.18)",
+        "success_border": "#a6d189",
+        "success_text": "#e5c890",
+        "track": "rgba(165, 173, 206, 0.26)",
+        "input_bg": "#292c3c",
+        "shadow": "0 20px 60px rgba(17, 17, 27, 0.34)",
+    },
+    "nord": {
+        "bg": "#2e3440",
+        "surface": "#3b4252",
+        "muted": "#434c5e",
+        "card": "#3b4252",
+        "border": "#4c566a",
+        "text": "#eceff4",
+        "soft": "#d8dee9",
+        "accent": "#88c0d0",
+        "accent_2": "#8fbcbb",
+        "success_bg": "rgba(163, 190, 140, 0.22)",
+        "success_bg_2": "rgba(143, 188, 187, 0.14)",
+        "success_border": "#a3be8c",
+        "success_text": "#eceff4",
+        "track": "rgba(216, 222, 233, 0.12)",
+        "input_bg": "#2e3440",
+        "shadow": "0 18px 44px rgba(46, 52, 64, 0.55)",
+    },
+    "everforest": {
+        "bg": "#2d353b",
+        "surface": "#343f44",
+        "muted": "#3d484d",
+        "card": "#343f44",
+        "border": "#475258",
+        "text": "#d3c6aa",
+        "soft": "#9da9a0",
+        "accent": "#a7c080",
+        "accent_2": "#7fbbb3",
+        "success_bg": "rgba(167, 192, 128, 0.18)",
+        "success_bg_2": "rgba(127, 187, 179, 0.12)",
+        "success_border": "#a7c080",
+        "success_text": "#d3c6aa",
+        "track": "rgba(157, 169, 160, 0.2)",
+        "input_bg": "#2d353b",
+        "shadow": "0 18px 48px rgba(20, 25, 28, 0.45)",
+    },
+    "tokyo_night": {
+        "bg": "#1a1b26",
+        "surface": "#24283b",
+        "muted": "#292e42",
+        "card": "#24283b",
+        "border": "#3b4261",
+        "text": "#c0caf5",
+        "soft": "#a9b1d6",
+        "accent": "#7aa2f7",
+        "accent_2": "#bb9af7",
+        "success_bg": "rgba(158, 206, 106, 0.16)",
+        "success_bg_2": "rgba(122, 162, 247, 0.1)",
+        "success_border": "#9ece6a",
+        "success_text": "#c0caf5",
+        "track": "rgba(86, 95, 137, 0.35)",
+        "input_bg": "#16161e",
+        "shadow": "0 20px 56px rgba(0, 0, 0, 0.5)",
+    },
+    "kanagawa": {
+        "bg": "#1f1f28",
+        "surface": "#2a2a37",
+        "muted": "#363646",
+        "card": "#2a2a37",
+        "border": "#54546d",
+        "text": "#dcd7ba",
+        "soft": "#c8c093",
+        "accent": "#7e9cd8",
+        "accent_2": "#957fb8",
+        "success_bg": "rgba(106, 149, 137, 0.2)",
+        "success_bg_2": "rgba(125, 103, 207, 0.12)",
+        "success_border": "#6a9589",
+        "success_text": "#dcd7ba",
+        "track": "rgba(200, 192, 147, 0.12)",
+        "input_bg": "#16161d",
+        "shadow": "0 20px 56px rgba(0, 0, 0, 0.55)",
+    },
+}
+
+THEME_LABELS: list[tuple[str, str]] = [
+    ("light", "Light"),
+    ("dark", "Catppuccin Frappe"),
+    ("nord", "Nord"),
+    ("everforest", "Everforest"),
+    ("tokyo_night", "Tokyo Night"),
+    ("kanagawa", "Kanagawa"),
+]
+
+THEME_LABEL_BY_KEY = dict(THEME_LABELS)
+
+# Persisted per active profile (Postgres JSON column or progress.json `user_preferences`).
+PREFS_KEYS: tuple[str, ...] = (
+    "theme",
+    "search",
+    "sort_by",
+    "generation",
+    "completion",
+    "selected_types",
+    "compare_left_user",
+    "compare_right_user",
+    "page_size",
+    "grid_page",
+)
 
 TYPE_COLORS = {
     "Normal": ("#d6d3d1", "#292524"),
@@ -62,59 +201,133 @@ st.set_page_config(
 st.set_option("client.toolbarMode", "minimal")
 
 
+@st.cache_resource
+def _ensure_database() -> bool:
+    """Initialize PostgreSQL engine when DATABASE_URL is configured; return True if using DB."""
+    url = persistence.get_database_url()
+    if not url:
+        return False
+    persistence.init_db_engine(url)
+    return True
+
+
 @st.cache_data
 def load_pokedex() -> list[dict]:
     return json.loads(DATA_PATH.read_text())
-
-
-def normalize_progress(raw_progress: dict) -> dict[int, bool]:
-    return {int(key): bool(value) for key, value in raw_progress.items() if value}
 
 
 def sanitize_username(name: str) -> str:
     return " ".join(name.strip().split())
 
 
-def read_progress_store() -> tuple[str, dict[str, dict[int, bool]]]:
-    if not PROGRESS_PATH.exists():
-        return DEFAULT_USER, {DEFAULT_USER: {}}
-    try:
-        raw = json.loads(PROGRESS_PATH.read_text())
-    except json.JSONDecodeError:
-        return DEFAULT_USER, {DEFAULT_USER: {}}
+def gather_session_preferences() -> dict[str, object]:
+    prefs = {k: st.session_state.get(k) for k in PREFS_KEYS}
+    if "search_header" in st.session_state and isinstance(st.session_state.search_header, str):
+        prefs["search"] = st.session_state.search_header
+    return prefs
 
-    if isinstance(raw, dict) and "users" in raw:
-        users_raw = raw.get("users", {})
-        users: dict[str, dict[int, bool]] = {}
-        if isinstance(users_raw, dict):
-            for username, user_progress in users_raw.items():
-                normalized_name = sanitize_username(str(username))
-                if not normalized_name or not isinstance(user_progress, dict):
-                    continue
-                users[normalized_name] = normalize_progress(user_progress)
-        if not users:
-            users = {DEFAULT_USER: {}}
-        current_user = sanitize_username(str(raw.get("current_user", DEFAULT_USER)))
-        if current_user not in users:
-            current_user = next(iter(users))
-        return current_user, users
 
-    if isinstance(raw, dict):
-        return DEFAULT_USER, {DEFAULT_USER: normalize_progress(raw)}
+def apply_session_preferences(prefs: dict[str, object]) -> None:
+    if not prefs:
+        return
+    t = prefs.get("theme")
+    if isinstance(t, str) and t in THEME_PALETTES:
+        st.session_state.theme = t
+        st.session_state.theme_picker = t
+    if "search" in prefs and isinstance(prefs["search"], str):
+        st.session_state.search = prefs["search"]
+        st.session_state.search_header = prefs["search"]
+    sb = prefs.get("sort_by")
+    if isinstance(sb, str) and sb in ("number-asc", "number-desc", "name-asc", "name-desc"):
+        st.session_state.sort_by = sb
+    gen = prefs.get("generation")
+    if isinstance(gen, str):
+        st.session_state.generation = gen
+    comp = prefs.get("completion")
+    if isinstance(comp, str):
+        st.session_state.completion = comp
+    stypes = prefs.get("selected_types")
+    if isinstance(stypes, list):
+        st.session_state.selected_types = [str(x) for x in stypes]
+    cl = prefs.get("compare_left_user")
+    if isinstance(cl, str):
+        st.session_state.compare_left_user = cl
+    cr = prefs.get("compare_right_user")
+    if isinstance(cr, str):
+        st.session_state.compare_right_user = cr
+    ps = prefs.get("page_size")
+    if ps in PAGE_SIZE_OPTIONS or (isinstance(ps, int) and ps in PAGE_SIZE_OPTIONS):
+        st.session_state.page_size = ps
+    elif isinstance(ps, str) and ps.isdigit():
+        n = int(ps)
+        if n in PAGE_SIZE_OPTIONS:
+            st.session_state.page_size = n
+    gp = prefs.get("grid_page")
+    if isinstance(gp, int) and gp >= 1:
+        st.session_state.grid_page = gp
+    elif isinstance(gp, str) and gp.isdigit():
+        st.session_state.grid_page = max(1, int(gp))
 
-    return DEFAULT_USER, {DEFAULT_USER: {}}
+
+def read_full_store() -> tuple[str, dict[str, dict[int, bool]], dict[str, dict[str, object]]]:
+    _ensure_database()
+    if persistence.db_engine_ready():
+        return persistence.db_read_full(DEFAULT_USER)
+    return persistence.file_read_full(PROGRESS_PATH, DEFAULT_USER)
+
+
+def read_all_preferences_store() -> dict[str, dict[str, object]]:
+    _ensure_database()
+    if persistence.db_engine_ready():
+        return persistence.db_read_all_prefs()
+    return persistence.file_read_full(PROGRESS_PATH, DEFAULT_USER)[2]
+
+
+def prune_placeholder_user(
+    current_user: str,
+    users: dict[str, dict[int, bool]],
+    prefs_map: dict[str, dict[str, object]] | None = None,
+) -> tuple[str, dict[str, dict[int, bool]], dict[str, dict[str, object]], bool]:
+    prefs = dict(prefs_map or {})
+    if DEFAULT_USER not in users or len(users) <= 1:
+        return current_user, users, prefs, False
+    if users.get(DEFAULT_USER):
+        return current_user, users, prefs, False
+
+    cleaned_users = dict(users)
+    cleaned_users.pop(DEFAULT_USER, None)
+    prefs.pop(DEFAULT_USER, None)
+    cleaned_current = current_user if current_user != DEFAULT_USER else next(iter(cleaned_users))
+    return cleaned_current, cleaned_users, prefs, True
 
 
 def write_progress_store(current_user: str, users: dict[str, dict[int, bool]]) -> None:
-    serializable_users = {
-        username: {str(key): value for key, value in progress.items() if value}
-        for username, progress in sorted(users.items())
-    }
-    payload = {
-        "current_user": current_user,
-        "users": serializable_users,
-    }
-    PROGRESS_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True))
+    prefs = gather_session_preferences()
+    if persistence.db_engine_ready():
+        persistence.db_write_full(current_user, users, prefs)
+    else:
+        persistence.file_write_full(PROGRESS_PATH, current_user, users, prefs)
+
+
+def save_preferences_only() -> None:
+    if st.session_state.shared_mode:
+        return
+    user = st.session_state.active_user
+    prefs = gather_session_preferences()
+    snap = json.dumps(prefs, sort_keys=True, default=str)
+    if persistence.db_engine_ready():
+        persistence.db_save_preferences_only(user, prefs)
+    else:
+        persistence.file_save_preferences_only(PROGRESS_PATH, DEFAULT_USER, user, prefs)
+    st.session_state._last_saved_prefs_snap = snap
+
+
+def autosave_preferences_if_needed() -> None:
+    if st.session_state.get("shared_mode"):
+        return
+    snap = json.dumps(gather_session_preferences(), sort_keys=True, default=str)
+    if snap != st.session_state.get("_last_saved_prefs_snap"):
+        save_preferences_only()
 
 
 def get_display_name(pokemon: dict, language: str) -> str:
@@ -151,7 +364,7 @@ def progress_to_csv(progress: dict[int, bool], pokemon: Iterable[dict], language
 
 def ensure_state() -> None:
     defaults = {
-        "theme": "dark",
+        "theme": "tokyo_night",
         "search": "",
         "sort_by": "number-asc",
         "generation": "All",
@@ -166,6 +379,13 @@ def ensure_state() -> None:
         if key not in st.session_state:
             st.session_state[key] = value
 
+    if st.session_state.get("theme") not in THEME_PALETTES:
+        st.session_state.theme = "tokyo_night"
+    if st.session_state.get("theme_picker") not in THEME_PALETTES:
+        st.session_state.theme_picker = st.session_state.theme
+    if "search_header" not in st.session_state:
+        st.session_state.search_header = st.session_state.search
+
     if "progress" not in st.session_state or "shared_mode" not in st.session_state:
         shared = st.query_params.get("shared")
         if shared:
@@ -175,17 +395,43 @@ def ensure_state() -> None:
                 st.session_state.active_user = "Shared view"
                 st.session_state.users = {}
             except Exception:
-                current_user, users = read_progress_store()
+                current_user, users, prefs_map = read_full_store()
+                current_user, users, prefs_map, changed = prune_placeholder_user(
+                    current_user,
+                    users,
+                    prefs_map,
+                )
                 st.session_state.progress = dict(users[current_user])
                 st.session_state.shared_mode = False
                 st.session_state.active_user = current_user
                 st.session_state.users = users
+                apply_session_preferences(prefs_map.get(current_user, {}))
+                if changed:
+                    if persistence.db_engine_ready():
+                        persistence.db_write_full(current_user, users, prefs_map.get(current_user, {}))
+                    else:
+                        persistence.file_write_full(PROGRESS_PATH, current_user, users, prefs_map.get(current_user, {}))
         else:
-            current_user, users = read_progress_store()
+            current_user, users, prefs_map = read_full_store()
+            current_user, users, prefs_map, changed = prune_placeholder_user(
+                current_user,
+                users,
+                prefs_map,
+            )
             st.session_state.progress = dict(users[current_user])
             st.session_state.shared_mode = False
             st.session_state.active_user = current_user
             st.session_state.users = users
+            apply_session_preferences(prefs_map.get(current_user, {}))
+            if changed:
+                if persistence.db_engine_ready():
+                    persistence.db_write_full(current_user, users, prefs_map.get(current_user, {}))
+                else:
+                    persistence.file_write_full(PROGRESS_PATH, current_user, users, prefs_map.get(current_user, {}))
+    if not st.session_state.shared_mode:
+        st.session_state._last_saved_prefs_snap = json.dumps(
+            gather_session_preferences(), sort_keys=True, default=str
+        )
     st.session_state.initialized = True
 
 
@@ -215,44 +461,7 @@ def set_current_page(page: str) -> None:
 
 
 def apply_theme(theme: str) -> None:
-    palette = {
-        "light": {
-            "bg": "#f8fafc",
-            "surface": "#ffffff",
-            "muted": "#eef2ff",
-            "card": "#ffffff",
-            "border": "#dbe4ff",
-            "text": "#0f172a",
-            "soft": "#475569",
-            "accent": "#2563eb",
-            "accent_2": "#10b981",
-            "success_bg": "rgba(220, 252, 231, 0.96)",
-            "success_bg_2": "rgba(240, 253, 244, 0.98)",
-            "success_border": "#22c55e",
-            "success_text": "#166534",
-            "track": "rgba(148, 163, 184, 0.18)",
-            "input_bg": "#ffffff",
-            "shadow": "0 18px 48px rgba(37, 99, 235, 0.14)",
-        },
-        "dark": {
-            "bg": "#303446",
-            "surface": "#414559",
-            "muted": "#51576d",
-            "card": "#3a3f55",
-            "border": "#626880",
-            "text": "#c6d0f5",
-            "soft": "#a5adce",
-            "accent": "#8caaee",
-            "accent_2": "#81c8be",
-            "success_bg": "rgba(129, 200, 190, 0.22)",
-            "success_bg_2": "rgba(166, 209, 137, 0.18)",
-            "success_border": "#a6d189",
-            "success_text": "#e5c890",
-            "track": "rgba(165, 173, 206, 0.26)",
-            "input_bg": "#292c3c",
-            "shadow": "0 20px 60px rgba(17, 17, 27, 0.34)",
-        },
-    }[theme]
+    palette = THEME_PALETTES.get(theme, THEME_PALETTES["tokyo_night"])
     st.markdown(
         f"""
         <style>
@@ -284,13 +493,16 @@ def apply_theme(theme: str) -> None:
         .stApp, [data-testid="stSidebar"], [data-testid="stSidebar"] * {{
             color: var(--text);
         }}
-        /* Keep the header visible so the sidebar open/close control stays available (it lives in the header). */
+        /* Keep only the sidebar toggle visible; remove the top bar chrome. */
         [data-testid="stHeader"] {{
-            background: linear-gradient(180deg, var(--surface), var(--muted)) !important;
-            border-bottom: 1px solid var(--border);
+            background: transparent !important;
+            border-bottom: 0 !important;
+            height: 2.75rem !important;
         }}
         [data-testid="stToolbar"] {{
             background: transparent !important;
+            display: block !important;
+            visibility: visible !important;
         }}
         [data-testid="stHeader"] button,
         [data-testid="stToolbar"] button,
@@ -301,6 +513,18 @@ def apply_theme(theme: str) -> None:
         [data-testid="stHeader"] svg,
         [data-testid="stToolbar"] svg {{
             fill: var(--text) !important;
+        }}
+        [data-testid="collapsedControl"] {{
+            position: fixed !important;
+            top: 0.85rem;
+            left: 0.85rem;
+            z-index: 1000;
+            display: flex !important;
+            visibility: visible !important;
+            background: color-mix(in srgb, var(--surface) 92%, transparent) !important;
+            border: 1px solid var(--border) !important;
+            border-radius: 12px !important;
+            box-shadow: var(--shadow);
         }}
         /* Top-of-app “running” / loading bar during reruns */
         [data-testid="stStatusWidget"] {{
@@ -316,7 +540,7 @@ def apply_theme(theme: str) -> None:
             flex-direction: column;
         }}
         .block-container {{
-            padding-top: 2.75rem;
+            padding-top: 1.4rem;
             padding-bottom: 2rem;
             max-width: 1100px;
         }}
@@ -342,25 +566,26 @@ def apply_theme(theme: str) -> None:
         .stat-grid {{
             display: grid;
             grid-template-columns: repeat(3, minmax(0, 1fr));
-            gap: 0.8rem;
-            margin-top: 1rem;
+            gap: 1.05rem;
+            margin-top: 1.15rem;
         }}
         .stat-card {{
             background: var(--card);
             border: 1px solid var(--border);
-            border-radius: 20px;
-            padding: 1rem;
+            border-radius: 22px;
+            padding: 1.35rem 1.25rem;
         }}
         .stat-label {{
-            font-size: 0.78rem;
+            font-size: 0.92rem;
             text-transform: uppercase;
             letter-spacing: 0.08em;
             color: var(--soft);
         }}
         .stat-value {{
-            font-size: 1.45rem;
+            font-size: 1.9rem;
             font-weight: 700;
-            margin-top: 0.2rem;
+            margin-top: 0.35rem;
+            line-height: 1.15;
             color: var(--text);
         }}
         .progress-shell {{
@@ -378,13 +603,20 @@ def apply_theme(theme: str) -> None:
         .pokemon-card {{
             background: linear-gradient(180deg, var(--card), var(--surface));
             border: 1px solid var(--border);
-            border-radius: 22px;
-            padding: 0.95rem 1rem 0.85rem;
+            border-radius: 18px;
+            padding: 0.72rem 0.82rem 0.62rem;
             box-shadow: var(--shadow);
-            margin-bottom: 1rem;
-            min-height: 0;
+            margin-bottom: 0.75rem;
+            margin-left: auto;
+            margin-right: auto;
+            width: min(100%, 15.5rem);
+            min-height: 10.25rem;
             transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
             position: relative;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }}
         .pokemon-card.collected {{
             background: linear-gradient(180deg, var(--success-bg), var(--success-bg-2));
@@ -392,57 +624,73 @@ def apply_theme(theme: str) -> None:
             box-shadow: 0 16px 38px color-mix(in srgb, var(--success-border) 18%, transparent);
         }}
         .pokemon-header {{
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            gap: 0.85rem;
+            width: 100%;
         }}
         .pokemon-main {{
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 0.85rem;
+            justify-content: center;
+            gap: 0.35rem;
             min-width: 0;
-            flex: 1;
+            width: 100%;
+            text-align: center;
         }}
         .pokemon-thumb {{
             width: 68px;
             height: 68px;
             image-rendering: pixelated;
-            filter: drop-shadow(0 12px 20px rgba(15, 23, 42, 0.18));
+            filter: drop-shadow(0 8px 14px rgba(15, 23, 42, 0.16));
+            transition: transform 0.18s ease;
+            transform-origin: center;
+        }}
+        .pokemon-thumb:hover {{
+            transform: scale(2);
         }}
         .pokemon-number {{
-            font-size: 0.9rem;
+            font-size: 1.1rem;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: var(--soft);
+            line-height: 1;
         }}
         .pokemon-name {{
             font-size: 1.2rem;
             font-weight: 700;
             color: var(--text);
-            margin: 0.15rem 0;
+            margin: 0;
+            line-height: 1.15;
         }}
         .pokemon-copy {{
             min-width: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.28rem;
+            width: 100%;
         }}
         .pokemon-gen {{
-            font-size: 0.96rem;
+            font-size: 0.95rem;
             color: var(--soft);
         }}
         .status-badge {{
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            border-radius: 999px;
-            padding: 0.38rem 0.65rem;
-            font-size: 0.72rem;
+            width: 1.7rem;
+            height: 1.7rem;
+            border-radius: 0.45rem;
+            padding: 0;
+            font-size: 0.95rem;
             font-weight: 800;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
             white-space: nowrap;
             border: 1px solid var(--border);
             color: var(--soft);
             background: color-mix(in srgb, var(--soft) 12%, transparent);
+            flex-shrink: 0;
+            position: absolute;
+            top: 0.72rem;
+            right: 0.72rem;
         }}
         .status-badge.collected {{
             background: color-mix(in srgb, var(--success-border) 22%, transparent);
@@ -451,28 +699,20 @@ def apply_theme(theme: str) -> None:
         }}
         .type-row {{
             display: flex;
-            gap: 0.35rem;
+            justify-content: center;
+            gap: 0.3rem;
             flex-wrap: wrap;
-            margin-top: 0.8rem;
+            margin-top: auto;
+            padding-top: 0.8rem;
+            width: 100%;
         }}
         .type-pill {{
             display: inline-flex;
             align-items: center;
             border-radius: 999px;
-            padding: 0.3rem 0.65rem;
-            font-size: 0.78rem;
+            padding: 0.22rem 0.52rem;
+            font-size: 0.82rem;
             font-weight: 700;
-        }}
-        .card-meta-row {{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 0.75rem;
-            margin-top: 0.75rem;
-        }}
-        .card-note {{
-            font-size: 0.9rem;
-            color: var(--soft);
         }}
         .pokemon-card {{
             cursor: pointer;
@@ -526,6 +766,9 @@ def apply_theme(theme: str) -> None:
             flex: 1 1 auto;
             min-height: 1rem;
         }}
+        .page-toggle-wrap {{
+            margin-bottom: 1rem;
+        }}
         .compare-grid {{
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -538,7 +781,7 @@ def apply_theme(theme: str) -> None:
         .compare-panel {{
             background: linear-gradient(180deg, var(--card), var(--surface));
             border: 1px solid var(--border);
-            border-radius: 22px;
+            border-radius: 18px;
             padding: 1rem;
             box-shadow: var(--shadow);
         }}
@@ -573,16 +816,23 @@ def apply_theme(theme: str) -> None:
             align-items: center;
             justify-content: space-between;
             gap: 0.8rem;
-            padding: 0.6rem 0.75rem;
+            padding: 0.72rem 0.82rem 0.62rem;
             border: 1px solid var(--border);
-            border-radius: 14px;
-            background: color-mix(in srgb, var(--surface) 88%, var(--muted));
+            border-radius: 18px;
+            background: linear-gradient(180deg, var(--card), var(--surface));
             content-visibility: auto;
             contain-intrinsic-size: auto 3.75rem;
+            cursor: pointer;
+            transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+            box-shadow: var(--shadow);
+        }}
+        .compact-row:hover {{
+            transform: translateY(-1px);
         }}
         .compact-row.collected {{
-            border-color: var(--success-border);
-            background: var(--success-bg);
+            background: linear-gradient(180deg, var(--success-bg), var(--success-bg_2));
+            border: 2px solid var(--success-border);
+            box-shadow: 0 16px 38px color-mix(in srgb, var(--success-border) 18%, transparent);
         }}
         .compact-copy {{
             min-width: 0;
@@ -609,11 +859,30 @@ def apply_theme(theme: str) -> None:
             font-weight: 700;
             border: 1px solid var(--border);
             color: var(--soft);
+            background: color-mix(in srgb, var(--soft) 12%, transparent);
         }}
         .compact-status.collected {{
             background: color-mix(in srgb, var(--success-bg) 90%, transparent);
             border-color: var(--success-border);
             color: var(--success-text);
+        }}
+        div[class*="st-key-compare_toggle_"] {{
+            min-height: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }}
+        div[class*="st-key-compare_toggle_"] button {{
+            position: absolute !important;
+            width: 1px !important;
+            height: 1px !important;
+            padding: 0 !important;
+            margin: -1px !important;
+            overflow: hidden !important;
+            clip: rect(0, 0, 0, 0) !important;
+            white-space: nowrap !important;
+            border: 0 !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
         }}
         .stTextInput label,
         .stSelectbox label,
@@ -642,6 +911,18 @@ def apply_theme(theme: str) -> None:
         .stTextInput [data-baseweb="base-input"],
         .stNumberInput [data-baseweb="base-input"] {{
             border-radius: 14px !important;
+            background: var(--input-bg) !important;
+        }}
+        .stTextInput [data-baseweb="base-input"] > div,
+        .stTextInput [data-baseweb="base-input"] > div > input,
+        .stTextInput div[data-baseweb="input"] > div,
+        .stTextInput div[data-baseweb="input"] input,
+        .stTextInput input[type="text"] {{
+            background: var(--input-bg) !important;
+            background-color: var(--input-bg) !important;
+            color: var(--text) !important;
+            -webkit-text-fill-color: var(--text) !important;
+            border-radius: 14px !important;
         }}
         .stTextInput input::placeholder,
         .stNumberInput input::placeholder {{
@@ -650,8 +931,17 @@ def apply_theme(theme: str) -> None:
         }}
         .stTextInput input,
         .stNumberInput input {{
+            background: var(--input-bg) !important;
+            background-color: var(--input-bg) !important;
             box-shadow: none !important;
             outline: none !important;
+        }}
+        .stTextInput input:-webkit-autofill,
+        .stTextInput input:-webkit-autofill:hover,
+        .stTextInput input:-webkit-autofill:focus {{
+            -webkit-text-fill-color: var(--text) !important;
+            -webkit-box-shadow: 0 0 0 1000px var(--input-bg) inset !important;
+            transition: background-color 9999s ease-out 0s;
         }}
         .stTextInput input:focus,
         .stNumberInput input:focus,
@@ -716,58 +1006,89 @@ def apply_theme(theme: str) -> None:
             }}
             .stat-grid {{
                 grid-template-columns: repeat(3, minmax(0, 1fr));
-                gap: 0.55rem;
+                gap: 0.7rem;
             }}
             .stat-card {{
-                padding: 0.8rem;
-                border-radius: 16px;
-            }}
-            .stat-value {{
-                font-size: 1.15rem;
-            }}
-            .pokemon-card {{
-                padding: 0.78rem 0.82rem;
+                padding: 1.05rem 0.9rem;
                 border-radius: 18px;
             }}
-            .pokemon-thumb {{
-                width: 56px;
-                height: 56px;
+            .stat-label {{
+                font-size: 0.82rem;
             }}
-            .pokemon-header {{
-                gap: 0.65rem;
+            .stat-value {{
+                font-size: 1.42rem;
             }}
-            .pokemon-main {{
-                gap: 0.65rem;
-            }}
-            .pokemon-name {{
-                font-size: 1.08rem;
-            }}
-            .pokemon-gen {{
-                font-size: 0.88rem;
-            }}
-            .status-badge {{
-                padding: 0.3rem 0.52rem;
-                font-size: 0.66rem;
-            }}
-
             .compare-grid,
             .compare-stats {{
                 grid-template-columns: 1fr;
             }}
-            .type-pill {{
-                padding: 0.22rem 0.5rem;
-                font-size: 0.72rem;
+        }}
+        @media (max-width: 1100px) {{
+            [data-testid="stHorizontalBlock"]:has(> [data-testid="column"]:nth-child(4)) {{
+                flex-wrap: wrap;
+                gap: 1rem;
+            }}
+            [data-testid="stHorizontalBlock"]:has(> [data-testid="column"]:nth-child(4)) > [data-testid="column"] {{
+                flex: 1 1 calc(50% - 0.5rem) !important;
+                min-width: calc(50% - 0.5rem) !important;
             }}
         }}
         @media (max-width: 640px) {{
             .stat-grid {{
                 grid-template-columns: 1fr;
             }}
+            [data-testid="stHorizontalBlock"]:has(> [data-testid="column"]:nth-child(4)) > [data-testid="column"] {{
+                flex-basis: 100% !important;
+                min-width: 100% !important;
+            }}
+            .pokemon-card {{
+                width: 100%;
+                min-height: 0;
+                padding: 0.95rem 1rem 0.9rem;
+                align-items: stretch;
+            }}
+            .pokemon-header {{
+                width: 100%;
+            }}
+            .pokemon-main {{
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 0.85rem;
+                text-align: left;
+                padding-right: 2.25rem;
+            }}
+            .pokemon-thumb {{
+                width: 72px;
+                height: 72px;
+                flex-shrink: 0;
+            }}
+            .pokemon-copy {{
+                align-items: flex-start;
+                gap: 0.2rem;
+            }}
+            .pokemon-number {{
+                font-size: 1rem;
+            }}
+            .pokemon-name {{
+                font-size: 1.05rem;
+            }}
+            .type-row {{
+                justify-content: flex-start;
+                margin-top: 0.7rem;
+                padding-top: 0;
+            }}
         }}
         </style>
         """,
         unsafe_allow_html=True,
     )
+
+
+def _sync_theme_from_picker() -> None:
+    picked = st.session_state.get("theme_picker")
+    if isinstance(picked, str) and picked in THEME_PALETTES:
+        st.session_state.theme = picked
 
 
 def render_hero(total: int, collected: int, percentage: float) -> None:
@@ -802,7 +1123,8 @@ def render_hero(total: int, collected: int, percentage: float) -> None:
 
 def filter_and_sort(pokedex: list[dict]) -> list[dict]:
     progress = st.session_state.progress
-    search = st.session_state.search.strip().lower()
+    raw_search = st.session_state.get("search_header", st.session_state.search)
+    search = str(raw_search).strip().lower()
     generation = st.session_state.generation
     completion = st.session_state.completion
     selected_types = st.session_state.selected_types
@@ -846,6 +1168,7 @@ def render_comparison_panel(username: str, progress: dict[int, bool], entries: l
     total = len(entries)
     missing = total - collected
     completion = (100 * collected / total) if total else 0
+    panel_key = _dom_safe_fragment(username)
     rows: list[str] = []
     for entry in entries:
         is_collected = progress.get(entry["id"], False)
@@ -854,7 +1177,7 @@ def render_comparison_panel(username: str, progress: dict[int, bool], entries: l
         status_text = "Owned" if is_collected else "Missing"
         rows.append(
             (
-                f'<div class="{row_class}">'
+                f'<div class="{row_class}" id="compare-card-{panel_key}-{entry["id"]}">'
                 f'<div class="compact-copy">'
                 f'<div class="compact-title">#{entry["number"]} {get_display_name(entry, "en")}</div>'
                 f'<div class="compact-meta">{GENERATION_NAMES[entry["generation"]]} · {", ".join(entry["types"])}</div>'
@@ -888,6 +1211,38 @@ def render_comparison_panel(username: str, progress: dict[int, bool], entries: l
         """,
         unsafe_allow_html=True,
     )
+    for entry in entries:
+        checked = progress.get(entry["id"], False)
+        if st.button(
+            f"CompareToggle::{username}::{entry['id']}",
+            key=f"compare_toggle_{panel_key}_{entry['id']}",
+        ):
+            toggle_pokemon_for_user(username, entry["id"], not checked)
+            st.rerun()
+
+
+def render_page_toggles(current_page: str) -> None:
+    st.markdown('<div class="page-toggle-wrap">', unsafe_allow_html=True)
+    nav_home, nav_compare = st.columns(2)
+    with nav_home:
+        if st.button(
+            "Home",
+            use_container_width=True,
+            type="primary" if current_page == "tracker" else "secondary",
+            key=f"top_nav_home_{current_page}",
+        ):
+            set_current_page("tracker")
+            st.rerun()
+    with nav_compare:
+        if st.button(
+            "Compare",
+            use_container_width=True,
+            type="primary" if current_page == "compare" else "secondary",
+            key=f"top_nav_compare_{current_page}",
+        ):
+            set_current_page("compare")
+            st.rerun()
+    st.markdown("</div>", unsafe_allow_html=True)
 
 
 def render_sidebar(pokedex: list[dict], current_page: str) -> None:
@@ -907,28 +1262,18 @@ def render_sidebar(pokedex: list[dict], current_page: str) -> None:
                 index=user_options.index(st.session_state.active_user),
             )
             if selected_user != st.session_state.active_user:
+                users = dict(st.session_state.users)
+                users[st.session_state.active_user] = dict(st.session_state.progress)
+                st.session_state.users = users
+                write_progress_store(st.session_state.active_user, users)
+                prefs_all = read_all_preferences_store()
                 st.session_state.active_user = selected_user
-                st.session_state.progress = dict(st.session_state.users[selected_user])
-                write_progress_store(st.session_state.active_user, st.session_state.users)
-                st.rerun()
-
-        st.subheader("Pages")
-        nav_home, nav_compare = st.columns(2)
-        with nav_home:
-            if st.button(
-                "Home",
-                use_container_width=True,
-                type="primary" if current_page == "tracker" else "secondary",
-            ):
-                set_current_page("tracker")
-                st.rerun()
-        with nav_compare:
-            if st.button(
-                "Compare",
-                use_container_width=True,
-                type="primary" if current_page == "compare" else "secondary",
-            ):
-                set_current_page("compare")
+                st.session_state.progress = dict(users[selected_user])
+                apply_session_preferences(prefs_all.get(selected_user, {}))
+                write_progress_store(selected_user, users)
+                st.session_state._last_saved_prefs_snap = json.dumps(
+                    gather_session_preferences(), sort_keys=True, default=str
+                )
                 st.rerun()
 
         if current_page == "tracker":
@@ -978,6 +1323,27 @@ def toggle_pokemon(pokemon_id: int, checked: bool) -> None:
         persist_current_progress()
 
 
+def toggle_pokemon_for_user(username: str, pokemon_id: int, checked: bool) -> None:
+    users = dict(st.session_state.users)
+    updated = dict(users.get(username, {}))
+    if checked:
+        updated[pokemon_id] = True
+    else:
+        updated.pop(pokemon_id, None)
+    users[username] = updated
+    st.session_state.users = users
+    if username == st.session_state.active_user:
+        st.session_state.progress = dict(updated)
+    write_progress_store(st.session_state.active_user, users)
+
+
+def _dom_safe_fragment(value: str) -> str:
+    safe = []
+    for ch in value.lower():
+        safe.append(ch if ch.isalnum() else "-")
+    return "".join(safe).strip("-") or "user"
+
+
 def render_settings_page(pokedex: list[dict]) -> None:
     st.markdown(
         """
@@ -990,7 +1356,17 @@ def render_settings_page(pokedex: list[dict]) -> None:
     )
 
     st.subheader("Appearance")
-    st.radio("Theme", options=["dark", "light"], key="theme", horizontal=True)
+    # Use a separate widget key so `theme` remains plain session state across pages.
+    _theme_options = [key for key, _ in THEME_LABELS]
+    if st.session_state.get("theme_picker") not in _theme_options:
+        st.session_state.theme_picker = st.session_state.theme
+    st.selectbox(
+        "Color theme",
+        options=_theme_options,
+        format_func=lambda k: THEME_LABEL_BY_KEY.get(k, k),
+        key="theme_picker",
+        on_change=_sync_theme_from_picker,
+    )
 
     st.subheader("Import / Export")
     csv_data = progress_to_csv(st.session_state.progress, pokedex, "en")
@@ -1126,6 +1502,85 @@ def render_compare_page(pokedex: list[dict]) -> None:
     with compare_right_col:
         render_comparison_panel(right_user, right_progress, entries)
 
+    components.html(
+        """
+        <script>
+        (function forwardCompareCardClicks() {
+            function appDocument() {
+                var w = window;
+                for (var depth = 0; depth < 10; depth++) {
+                    try {
+                        var d = w.document;
+                        if (d.querySelector('[id^="compare-card-"]')) {
+                            return d;
+                        }
+                    } catch (e) {}
+                    if (!w.parent || w.parent === w) {
+                        break;
+                    }
+                    w = w.parent;
+                }
+                try {
+                    return window.parent.document;
+                } catch (e2) {
+                    return document;
+                }
+            }
+
+            function bind(doc) {
+                var cards = doc.querySelectorAll('[id^="compare-card-"]');
+                for (var i = 0; i < cards.length; i++) {
+                    (function (card) {
+                        if (card.dataset.compareCardBound === "1") {
+                            return;
+                        }
+                        card.dataset.compareCardBound = "1";
+                        card.addEventListener(
+                            "click",
+                            function () {
+                                var suffix = card.id.replace("compare-card-", "");
+                                var lastDash = suffix.lastIndexOf("-");
+                                if (lastDash === -1) {
+                                    return;
+                                }
+                                var userKey = suffix.slice(0, lastDash);
+                                var pokemonId = suffix.slice(lastDash + 1);
+                                var buttons = doc.querySelectorAll("button");
+                                for (var j = 0; j < buttons.length; j++) {
+                                    var label = buttons[j].textContent || "";
+                                    if (label.indexOf("CompareToggle::") !== 0) {
+                                        continue;
+                                    }
+                                    var parts = label.split("::");
+                                    if (parts.length !== 3) {
+                                        continue;
+                                    }
+                                    var normalized = parts[1].toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "user";
+                                    if (normalized === userKey && parts[2] === pokemonId) {
+                                        buttons[j].click();
+                                        return;
+                                    }
+                                }
+                            },
+                            false
+                        );
+                    })(cards[i]);
+                }
+            }
+
+            function tick() {
+                bind(appDocument());
+            }
+
+            tick();
+            setTimeout(tick, 200);
+            setTimeout(tick, 800);
+        })();
+        </script>
+        """,
+        height=0,
+    )
+
 
 def render_pokemon_grid(entries: list[dict]) -> None:
     if not entries:
@@ -1148,16 +1603,9 @@ def render_pokemon_grid(entries: list[dict]) -> None:
         st.session_state.grid_page = int(st.session_state.pop("page", 1))
     st.session_state.pop("page", None)
 
-    if raw_page_size != "All" and st.session_state.pop("_grid_nav_dirty", False):
-        st.session_state.pop("grid_page_input", None)
-
     st.session_state.grid_page = int(min(max(1, int(st.session_state.grid_page)), total_pages))
-    if "grid_page_input" in st.session_state and raw_page_size != "All":
-        st.session_state.grid_page_input = int(
-            min(max(1, st.session_state.grid_page_input), total_pages)
-        )
 
-    nav_left, nav_mid, nav_right = st.columns([1, 1, 2])
+    nav_left, nav_right = st.columns([1, 2])
     with nav_left:
         st.selectbox(
             "Page size",
@@ -1165,74 +1613,49 @@ def render_pokemon_grid(entries: list[dict]) -> None:
             format_func=lambda x: "All (every card)" if x == "All" else str(x),
             key="page_size",
         )
-    with nav_mid:
-        if raw_page_size == "All":
-            st.number_input(
-                "Page",
-                min_value=1,
-                max_value=1,
-                step=1,
-                value=1,
-                disabled=True,
-                key="grid_page_input_idle",
-            )
-        else:
-            st.number_input(
-                "Page",
-                min_value=1,
-                max_value=total_pages,
-                value=st.session_state.grid_page,
-                step=1,
-                key="grid_page_input",
-            )
-            st.session_state.grid_page = int(st.session_state.grid_page_input)
     with nav_right:
-        if raw_page_size == "All":
-            meta = f'<p class="meta">Showing all {len(entries):,} Pokémon on one page.</p>'
-        else:
-            meta = f'<p class="meta">Showing {len(entries):,} Pokémon across {total_pages} pages.</p>'
-        st.markdown(meta, unsafe_allow_html=True)
+        if "search_header" not in st.session_state:
+            st.session_state.search_header = st.session_state.search
+        st.text_input(
+            "Search",
+            key="search_header",
+            placeholder="Search by name or number",
+        )
 
     start = (st.session_state.grid_page - 1) * page_size
     page_entries = entries[start : start + page_size]
 
-    for row_start in range(0, len(page_entries), 2):
-        cols = st.columns(2)
-        for col, entry in zip(cols, page_entries[row_start : row_start + 2]):
+    for row_start in range(0, len(page_entries), 4):
+        cols = st.columns(4)
+        for col, entry in zip(cols, page_entries[row_start : row_start + 4]):
             with col:
                 checked = st.session_state.progress.get(entry["id"], False)
                 name = get_display_name(entry, "en")
                 card_class = "pokemon-card collected" if checked else "pokemon-card"
-                status_class = "status-badge collected" if checked else "status-badge"
-                status_text = "Collected" if checked else "Open"
-                card_note = "Tap card to remove from collection" if checked else "Tap card to add this card"
+                status_markup = '<div class="status-badge collected" aria-label="Collected">✓</div>' if checked else ""
+                types_markup = "".join(
+                    f'<span class="type-pill" style="background:{TYPE_COLORS.get(ptype, ("#e2e8f0", "#0f172a"))[0]};color:{TYPE_COLORS.get(ptype, ("#e2e8f0", "#0f172a"))[1]};">{ptype}</span>'
+                    for ptype in entry["types"]
+                )
                 card_id = entry["id"]
                 readonly_class = " pokemon-card-readonly" if st.session_state.shared_mode else ""
+                card_markup = (
+                    f'<div class="{card_class}{readonly_class}" id="pokemon-card-{card_id}">'
+                    '<div class="pokemon-header">'
+                    '<div class="pokemon-main">'
+                    f'<img class="pokemon-thumb" src="{entry["imageUrl"]}" alt="{name}" />'
+                    '<div class="pokemon-copy">'
+                    f'<div class="pokemon-number">#{entry["number"]}</div>'
+                    f'<div class="pokemon-name">{name}</div>'
+                    '</div>'
+                    '</div>'
+                    f'{status_markup}'
+                    '</div>'
+                    f'<div class="type-row">{types_markup}</div>'
+                    '</div>'
+                )
                 st.markdown(
-                    f"""
-                    <div class="{card_class}{readonly_class}" id="pokemon-card-{card_id}">
-                        <div class="pokemon-header">
-                            <div class="pokemon-main">
-                                <img class="pokemon-thumb" src="{entry["imageUrl"]}" alt="{name}" />
-                                <div class="pokemon-copy">
-                                    <div class="pokemon-number">#{entry["number"]}</div>
-                                    <div class="pokemon-name">{name}</div>
-                                    <div class="pokemon-gen">{GENERATION_NAMES[entry["generation"]]} · Gen {entry["generation"]}</div>
-                                </div>
-                            </div>
-                            <div class="{status_class}">{status_text}</div>
-                        </div>
-                        <div class="type-row">
-                            {"".join(
-                                f'<span class="type-pill" style="background:{TYPE_COLORS.get(ptype, ("#e2e8f0", "#0f172a"))[0]};color:{TYPE_COLORS.get(ptype, ("#e2e8f0", "#0f172a"))[1]};">{ptype}</span>'
-                                for ptype in entry["types"]
-                            )}
-                        </div>
-                        <div class="card-meta-row">
-                            <div class="card-note">{card_note}</div>
-                        </div>
-                    </div>
-                    """,
+                    card_markup,
                     unsafe_allow_html=True,
                 )
                 if st.button(
@@ -1383,32 +1806,34 @@ def main() -> None:
     current_page = get_current_page()
     render_sidebar(pokedex, current_page)
 
-    if current_page == "settings":
-        render_settings_page(pokedex)
-        return
+    try:
+        if current_page == "settings":
+            render_settings_page(pokedex)
+        elif current_page == "compare":
+            render_page_toggles("compare")
+            if st.session_state.shared_mode:
+                st.markdown(
+                    '<div class="shared-banner">Shared view detected. Checklist editing is disabled until you remove the `shared` query parameter.</div>',
+                    unsafe_allow_html=True,
+                )
+            render_compare_page(pokedex)
+        else:
+            render_page_toggles("tracker")
+            total = len(pokedex)
+            collected = sum(1 for checked in st.session_state.progress.values() if checked)
+            percentage = 100 * collected / total if total else 0
 
-    if current_page == "compare":
-        if st.session_state.shared_mode:
-            st.markdown(
-                '<div class="shared-banner">Shared view detected. Checklist editing is disabled until you remove the `shared` query parameter.</div>',
-                unsafe_allow_html=True,
-            )
-        render_compare_page(pokedex)
-        return
+            if st.session_state.shared_mode:
+                st.markdown(
+                    '<div class="shared-banner">Shared view detected. Checklist editing is disabled until you remove the `shared` query parameter.</div>',
+                    unsafe_allow_html=True,
+                )
 
-    total = len(pokedex)
-    collected = sum(1 for checked in st.session_state.progress.values() if checked)
-    percentage = 100 * collected / total if total else 0
-
-    if st.session_state.shared_mode:
-        st.markdown(
-            '<div class="shared-banner">Shared view detected. Checklist editing is disabled until you remove the `shared` query parameter.</div>',
-            unsafe_allow_html=True,
-        )
-
-    render_hero(total, collected, percentage)
-    entries = filter_and_sort(pokedex)
-    render_pokemon_grid(entries)
+            render_hero(total, collected, percentage)
+            entries = filter_and_sort(pokedex)
+            render_pokemon_grid(entries)
+    finally:
+        autosave_preferences_if_needed()
 
 
 if __name__ == "__main__":
