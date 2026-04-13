@@ -928,14 +928,6 @@ def apply_theme(theme: str) -> None:
                     transparent
                 );
         }}
-        .st-key-number_filter.filter-stuck label,
-        .st-key-number_filter.filter-stuck [data-testid="stWidgetLabel"],
-        .st-key-number_filter.filter-stuck .stSelectbox label,
-        .st-key-number_filter.filter-stuck p {{
-            display: none !important;
-            margin: 0 !important;
-            padding: 0 !important;
-        }}
         div[class*="st-key-tracker_filters_row"] [data-testid="stHorizontalBlock"] {{
             flex-wrap: nowrap !important;
             align-items: end !important;
@@ -1429,11 +1421,6 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         """
         <script>
         (function forwardPokemonCardClicks() {
-            var SCROLL_KEY = "pokemon-scroll-current";
-            var PRE_SEARCH_SCROLL_KEY = "pokemon-scroll-before-search";
-            var PENDING_RESTORE_KEY = "pokemon-scroll-pending-restore";
-            var SEARCH_VALUE_KEY = "pokemon-search-value";
-
             function appDocument() {
                 var w = window;
                 for (var depth = 0; depth < 10; depth++) {
@@ -1486,90 +1473,9 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
                 }
             }
 
-            function appWindow(doc) {
-                try {
-                    return doc.defaultView || window.parent || window;
-                } catch (e) {
-                    return window;
-                }
-            }
-
-            function currentScrollY(doc) {
-                var w = appWindow(doc);
-                return Math.max(w.scrollY || 0, doc.documentElement ? doc.documentElement.scrollTop || 0 : 0);
-            }
-
-            function saveScroll(doc) {
-                try {
-                    window.sessionStorage.setItem(SCROLL_KEY, String(currentScrollY(doc)));
-                } catch (e) {}
-            }
-
-            function restoreScroll(doc) {
-                var target = null;
-                try {
-                    target = window.sessionStorage.getItem(PENDING_RESTORE_KEY);
-                    if (target !== null) {
-                        window.sessionStorage.removeItem(PENDING_RESTORE_KEY);
-                    } else {
-                        target = window.sessionStorage.getItem(SCROLL_KEY);
-                    }
-                } catch (e) {
-                    target = null;
-                }
-                if (target === null) {
-                    return;
-                }
-                var y = parseInt(target, 10);
-                if (isNaN(y)) {
-                    return;
-                }
-                var w = appWindow(doc);
-                w.scrollTo(0, y);
-                window.setTimeout(function () {
-                    w.scrollTo(0, y);
-                }, 60);
-            }
-
-            function bindScroll(doc) {
-                var w = appWindow(doc);
-                if (w.__pokemonScrollBound) {
-                    return;
-                }
-                w.__pokemonScrollBound = true;
-                var ticking = false;
-                w.addEventListener("scroll", function () {
-                    saveScroll(doc);
-                    if (ticking) {
-                        return;
-                    }
-                    ticking = true;
-                    w.requestAnimationFrame(function () {
-                        updateStickyFilterState(doc);
-                        ticking = false;
-                    });
-                }, { passive: true });
-            }
-
-            function updateStickyFilterState(doc) {
-                var filter = doc.querySelector('.st-key-number_filter');
-                if (!filter) {
-                    return;
-                }
-                var rect = filter.getBoundingClientRect();
-                if (rect.top <= 12) {
-                    filter.classList.add("filter-stuck");
-                } else {
-                    filter.classList.remove("filter-stuck");
-                }
-            }
-
             function tick() {
                 var doc = appDocument();
                 bind(doc);
-                bindScroll(doc);
-                updateStickyFilterState(doc);
-                restoreScroll(doc);
             }
 
             tick();
@@ -1577,7 +1483,7 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
             var timer = window.setInterval(function () {
                 passes += 1;
                 tick();
-                if (passes > 15) {
+                if (passes > 10) {
                     window.clearInterval(timer);
                 }
             }, 200);
