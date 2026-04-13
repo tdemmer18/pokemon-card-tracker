@@ -927,7 +927,6 @@ def apply_theme(theme: str) -> None:
                     color-mix(in srgb, var(--bg) 84%, transparent) 72%,
                     transparent
                 );
-            backdrop-filter: blur(10px);
         }}
         .st-key-number_filter.filter-stuck label,
         .st-key-number_filter.filter-stuck [data-testid="stWidgetLabel"],
@@ -1538,9 +1537,17 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
                     return;
                 }
                 w.__pokemonScrollBound = true;
+                var ticking = false;
                 w.addEventListener("scroll", function () {
                     saveScroll(doc);
-                    updateStickyFilterState(doc);
+                    if (ticking) {
+                        return;
+                    }
+                    ticking = true;
+                    w.requestAnimationFrame(function () {
+                        updateStickyFilterState(doc);
+                        ticking = false;
+                    });
                 }, { passive: true });
             }
 
@@ -1570,7 +1577,7 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
             var timer = window.setInterval(function () {
                 passes += 1;
                 tick();
-                if (passes > 60) {
+                if (passes > 15) {
                     window.clearInterval(timer);
                 }
             }, 200);
