@@ -6,9 +6,9 @@ import io
 import json
 from pathlib import Path
 from typing import Iterable
+from urllib.parse import urlencode
 
 import streamlit as st
-import streamlit.components.v1 as components
 
 import persistence
 
@@ -32,7 +32,7 @@ GENERATION_NAMES = {
 }
 
 # Paginated grid: keep page sizes bounded so cloud deploys do not render the full Pokédex at once.
-PAGE_SIZE_OPTIONS: list[int] = [16, 32, 64]
+PAGE_SIZE_OPTIONS: list[int] = [8, 16, 32]
 
 # CSS variable bundles for apply_theme (light + dark + popular editor-style schemes).
 THEME_PALETTES: dict[str, dict[str, str]] = {
@@ -552,48 +552,12 @@ def apply_theme(theme: str) -> None:
             margin-bottom: 1.2rem;
             position: relative;
         }}
-        .hero-actions {{
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            display: flex;
-            gap: 0.6rem;
-            align-items: center;
-        }}
-        .hero-action-button {{
-            width: 2.7rem;
-            height: 2.7rem;
-            border-radius: 999px;
-            border: 1px solid color-mix(in srgb, var(--accent) 24%, var(--border));
-            background: linear-gradient(180deg, color-mix(in srgb, var(--card) 92%, var(--surface)), var(--muted));
-            box-shadow: var(--shadow);
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.15rem;
-            line-height: 1;
-            color: var(--accent);
-            cursor: pointer;
-            user-select: none;
-            text-decoration: none;
-        }}
-        .hero-action-button svg {{
-            width: 1.35rem;
-            height: 1.35rem;
-            fill: currentColor;
-            display: block;
-        }}
-        .hero-action-button:hover {{
-            border-color: var(--accent);
-            transform: translateY(-1px);
-        }}
         .hero h1 {{
             margin: 0;
             font-size: 2.85rem;
             line-height: 1.1;
             color: var(--accent);
             text-align: left;
-            padding-right: 6.4rem;
         }}
         .hero p, .meta, .empty, .share-note {{
             color: var(--soft);
@@ -665,26 +629,12 @@ def apply_theme(theme: str) -> None:
             overflow: hidden;
             user-select: none;
             -webkit-tap-highlight-color: transparent;
-        }}
-        .pokemon-card::after {{
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: color-mix(in srgb, var(--accent) 12%, transparent);
-            opacity: 0;
-            transition: opacity 0.14s ease;
-            pointer-events: none;
+            text-decoration: none;
+            cursor: pointer;
         }}
         .pokemon-card:hover {{
             border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
             transform: translateY(-2px);
-        }}
-        .pokemon-card.is-pressing {{
-            transform: scale(0.975);
-            border-color: color-mix(in srgb, var(--accent) 68%, var(--border));
-        }}
-        .pokemon-card.is-pressing::after {{
-            opacity: 1;
         }}
         .pokemon-header {{
             width: 100%;
@@ -706,8 +656,6 @@ def apply_theme(theme: str) -> None:
         .pokemon-thumb {{
             width: clamp(74px, 6.2vw, 102px);
             height: clamp(74px, 6.2vw, 102px);
-            filter: drop-shadow(0 8px 14px rgba(15, 23, 42, 0.16));
-            transition: transform 0.18s ease;
             transform-origin: center;
             flex-shrink: 0;
             align-self: flex-start;
@@ -715,9 +663,6 @@ def apply_theme(theme: str) -> None:
             margin-left: 0.5rem;
             margin-bottom: 0.12rem;
             order: 2;
-        }}
-        .pokemon-thumb:hover {{
-            transform: scale(1.35);
         }}
         .pokemon-number {{
             font-size: clamp(1rem, 0.95vw, 1.18rem);
@@ -798,50 +743,10 @@ def apply_theme(theme: str) -> None:
             width: 100%;
             box-sizing: border-box;
         }}
-        .pokemon-card {{
-            cursor: pointer;
-        }}
         .pokemon-card-readonly {{
             cursor: not-allowed;
             pointer-events: none;
             opacity: 0.88;
-        }}
-        /* Card tap triggers a hidden Streamlit button (scripts in markdown do not run in Streamlit 1.40+). */
-        div[class*="st-key-card_toggle_"] {{
-            min-height: 0 !important;
-            margin: 0 !important;
-            padding: 0 !important;
-        }}
-        div[class*="st-key-card_toggle_"] button {{
-            position: absolute !important;
-            width: 1px !important;
-            height: 1px !important;
-            padding: 0 !important;
-            margin: -1px !important;
-            overflow: hidden !important;
-            clip: rect(0, 0, 0, 0) !important;
-            white-space: nowrap !important;
-            border: 0 !important;
-            opacity: 0 !important;
-            pointer-events: none !important;
-        }}
-        div[class*="st-key-hero_theme_toggle"] {{
-            min-height: 0 !important;
-            margin: 0 !important;
-            padding: 0 !important;
-        }}
-        div[class*="st-key-hero_theme_toggle"] button {{
-            position: absolute !important;
-            width: 1px !important;
-            height: 1px !important;
-            padding: 0 !important;
-            margin: -1px !important;
-            overflow: hidden !important;
-            clip: rect(0, 0, 0, 0) !important;
-            white-space: nowrap !important;
-            border: 0 !important;
-            opacity: 0 !important;
-            pointer-events: none !important;
         }}
         .shared-banner {{
             background: color-mix(in srgb, #e5c890 20%, transparent);
@@ -1071,6 +976,22 @@ def apply_theme(theme: str) -> None:
             }}
         }}
         @media (max-width: 640px) {{
+            .stApp {{
+                background: var(--bg) !important;
+            }}
+            .hero,
+            .stat-card,
+            .pokemon-card,
+            [data-testid="collapsedControl"] {{
+                background: var(--surface) !important;
+                box-shadow: none !important;
+            }}
+            .st-key-number_filter {{
+                position: static;
+                top: auto;
+                background: transparent;
+                padding-top: 0;
+            }}
             div[class*="st-key-tracker_filters_row"] [data-testid="stHorizontalBlock"] {{
                 flex-wrap: wrap !important;
                 gap: 0.55rem !important;
@@ -1090,6 +1011,7 @@ def apply_theme(theme: str) -> None:
                 height: 9.6rem;
                 padding: 0.8rem 0.9rem 0.8rem;
                 align-items: stretch;
+                transition: none;
             }}
             .pokemon-header {{
                 width: 100%;
@@ -1103,9 +1025,10 @@ def apply_theme(theme: str) -> None:
                 padding-right: 2.05rem;
             }}
             .pokemon-thumb {{
-                width: 112px;
-                height: 112px;
+                width: 96px;
+                height: 96px;
                 flex-shrink: 0;
+                filter: none;
             }}
             .pokemon-copy {{
                 align-items: flex-start;
@@ -1122,6 +1045,9 @@ def apply_theme(theme: str) -> None:
                 right: 0.45rem;
                 bottom: 0.45rem;
             }}
+            .status-badge.collected {{
+                box-shadow: none;
+            }}
         }}
         </style>
         """,
@@ -1135,42 +1061,11 @@ def _sync_theme_from_picker() -> None:
         st.session_state.theme = picked
 
 
-def _sync_theme_from_mode_toggle() -> None:
-    dark_enabled = bool(st.session_state.get("theme_mode_toggle", True))
-    st.session_state.theme = "tokyo_night" if dark_enabled else "light"
-    st.session_state.theme_picker = st.session_state.theme
-
-
-def toggle_theme() -> None:
-    st.session_state.theme = "light" if st.session_state.theme != "light" else "tokyo_night"
-    st.session_state.theme_picker = st.session_state.theme
-
-
-def hero_actions_markup() -> str:
-    is_dark = st.session_state.theme != "light"
-    theme_icon = (
-        '<svg viewBox="0 -960 960 960" aria-hidden="true">'
-        '<path d="M480-240q100 0 170-70t70-170q0-100-70-170t-170-70q-100 0-170 70t-70 170q0 100 70 170t170 70Zm0 80q-134 0-227-93t-93-227q0-134 93-227t227-93q134 0 227 93t93 227q0 134-93 227t-227 93Zm0-520Zm0 680q-17 0-28.5-11.5T440-40v-80q0-17 11.5-28.5T480-160q17 0 28.5 11.5T520-120v80q0 17-11.5 28.5T480 0Zm0-800q-17 0-28.5-11.5T440-840v-80q0-17 11.5-28.5T480-960q17 0 28.5 11.5T520-920v80q0 17-11.5 28.5T480-800ZM160-440H80q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h80q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440Zm720 0h-80q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440ZM256-664l-56-56q-12-12-12-28t12-28q12-12 28-12t28 12l56 56q12 12 12 28t-12 28q-12 12-28 12t-28-12Zm448 448-56-56q-12-12-12-28t12-28q12-12 28-12t28 12l56 56q12 12 12 28t-12 28q-12 12-28 12t-28-12ZM200-172q-12-12-12-28t12-28l56-56q12-12 28-12t28 12q12 12 12 28t-12 28l-56 56q-12 12-28 12t-28-12Zm448-448q-12-12-12-28t12-28l56-56q12-12 28-12t28 12q12 12 12 28t-12 28l-56 56q-12 12-28 12t-28-12Z"/>'
-        '</svg>'
-        if is_dark
-        else '<svg viewBox="0 -960 960 960" aria-hidden="true"><path d="M484-80q-84 0-157-31.5T200-197.5q-54-54-85-127T84-482q0-115 55-214.5T287-863q5-3 10.5-1t7.5 7q2 5 0 10t-7 8q-42 34-66 85.5T208-640q0 113 79.5 192.5T480-368q65 0 122-27.5T698-473q3-5 8-7t10 0q5 2 7 7.5t-1 10.5q-67 93-166 148.5T484-80Z"/></svg>'
-    )
-    theme_label = "Switch to Light Mode" if is_dark else "Switch to Tokyo Night"
-    return (
-        '<div class="hero-actions">'
-        '<button type="button" class="hero-action-button hero-theme-button" '
-        f'aria-label="{theme_label}" '
-        f'title="{theme_label}">{theme_icon}</button>'
-        '</div>'
-    )
-
-
 def render_hero(total: int, collected: int, percentage: float) -> None:
     active_user = st.session_state.active_user or "Trainer"
     st.markdown(
         f"""
         <section class="hero">
-            {hero_actions_markup()}
             <h1>{active_user}&#39;s Pokémon Card Tracker</h1>
             <div class="stat-grid">
                 <div class="stat-card">
@@ -1192,54 +1087,6 @@ def render_hero(total: int, collected: int, percentage: float) -> None:
         </section>
         """,
         unsafe_allow_html=True,
-    )
-    if st.button("ThemeToggle", key="hero_theme_toggle"):
-        toggle_theme()
-        st.rerun()
-    components.html(
-        """
-        <script>
-        (function bindHeroThemeToggle() {
-            function appDocument() {
-                var w = window;
-                for (var depth = 0; depth < 10; depth++) {
-                    try {
-                        var d = w.document;
-                        if (d.querySelector(".hero-theme-button")) {
-                            return d;
-                        }
-                    } catch (e) {}
-                    if (!w.parent || w.parent === w) {
-                        break;
-                    }
-                    w = w.parent;
-                }
-                try {
-                    return window.parent.document;
-                } catch (e2) {
-                    return document;
-                }
-            }
-
-            function bind(doc) {
-                var trigger = doc.querySelector(".hero-theme-button");
-                if (!trigger || trigger.dataset.themeToggleBound === "1") {
-                    return;
-                }
-                trigger.dataset.themeToggleBound = "1";
-                trigger.addEventListener("click", function () {
-                    var hiddenButton = doc.querySelector('div[class*="st-key-hero_theme_toggle"] button');
-                    if (hiddenButton) {
-                        hiddenButton.click();
-                    }
-                });
-            }
-
-            bind(appDocument());
-        })();
-        </script>
-        """,
-        height=0,
     )
 
 
@@ -1327,6 +1174,14 @@ def render_sidebar(pokedex: list[dict], current_page: str) -> None:
         if st.session_state.shared_mode:
             st.caption("Shared view is read-only.")
 
+        st.selectbox(
+            "Color theme",
+            options=["light", "tokyo_night"],
+            format_func=lambda k: THEME_LABEL_BY_KEY.get(k, k),
+            key="theme_picker",
+            on_change=_sync_theme_from_picker,
+        )
+
         if current_page == "tracker":
             st.selectbox(
                 "Sort by",
@@ -1354,6 +1209,17 @@ def toggle_pokemon(pokemon_id: int, checked: bool) -> None:
     st.session_state.progress = updated
     if not st.session_state.shared_mode:
         persist_current_progress(pokemon_id, checked)
+
+
+def build_toggle_href(pokemon_id: int) -> str:
+    params: dict[str, str] = {"toggle": str(pokemon_id), "_tc": str(pokemon_id)}
+    shared = st.query_params.get("shared")
+    if shared:
+        params["shared"] = str(shared)
+    current_page = get_current_page()
+    if current_page != "tracker":
+        params["page"] = current_page
+    return f"?{urlencode(params)}"
 
 
 def render_settings_page(pokedex: list[dict]) -> None:
@@ -1459,8 +1325,10 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         )
         card_id = entry["id"]
         readonly_class = " pokemon-card-readonly" if st.session_state.shared_mode else ""
+        tag_name = "div" if st.session_state.shared_mode else "a"
+        href_attr = "" if st.session_state.shared_mode else f' href="{build_toggle_href(card_id)}"'
         card_markup_parts.append(
-            f'<div class="{card_class}{readonly_class}" id="pokemon-card-{card_id}">'
+            f'<{tag_name} class="{card_class}{readonly_class}" id="pokemon-card-{card_id}"{href_attr}>'
             '<div class="pokemon-header">'
             '<div class="pokemon-main">'
             '<div class="pokemon-copy">'
@@ -1472,135 +1340,10 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
             f'{status_markup}'
             '</div>'
             f'<div class="type-row">{types_markup}</div>'
-            '</div>'
+            f'</{tag_name}>'
         )
     card_markup_parts.append("</div>")
     st.markdown("".join(card_markup_parts), unsafe_allow_html=True)
-
-    for entry in paged_entries:
-        checked = st.session_state.progress.get(entry["id"], False)
-        if st.button(
-            f"Toggle##{entry['id']}",
-            key=f"card_toggle_{entry['id']}",
-            disabled=st.session_state.shared_mode,
-        ):
-            toggle_pokemon(entry["id"], not checked)
-            st.rerun()
-
-    components.html(
-        """
-        <script>
-        (function forwardPokemonCardClicks() {
-            function appDocument() {
-                var w = window;
-                for (var depth = 0; depth < 10; depth++) {
-                    try {
-                        var d = w.document;
-                        if (d.querySelector('[id^="pokemon-card-"]')) {
-                            return d;
-                        }
-                    } catch (e) {}
-                    if (!w.parent || w.parent === w) {
-                        break;
-                    }
-                    w = w.parent;
-                }
-                try {
-                    return window.parent.document;
-                } catch (e2) {
-                    return document;
-                }
-            }
-
-            function bind(doc) {
-                var cards = doc.querySelectorAll('[id^="pokemon-card-"]');
-                for (var i = 0; i < cards.length; i++) {
-                    (function (card) {
-                        if (card.dataset.pokemonCardBound === "1") {
-                            return;
-                        }
-                        if (card.classList.contains("pokemon-card-readonly")) {
-                            return;
-                        }
-                        function setPressingState(pressing) {
-                            if (pressing) {
-                                card.classList.add("is-pressing");
-                            } else {
-                                card.classList.remove("is-pressing");
-                            }
-                        }
-                        card.dataset.pokemonCardBound = "1";
-                        card.style.cursor = "pointer";
-                        card.setAttribute("role", "button");
-                        card.setAttribute("tabindex", "0");
-                        card.addEventListener("pointerdown", function () {
-                            setPressingState(true);
-                        });
-                        card.addEventListener("pointerup", function () {
-                            setPressingState(false);
-                        });
-                        card.addEventListener("pointerleave", function () {
-                            setPressingState(false);
-                        });
-                        card.addEventListener("pointercancel", function () {
-                            setPressingState(false);
-                        });
-                        card.addEventListener("blur", function () {
-                            setPressingState(false);
-                        });
-                        card.addEventListener("keydown", function (event) {
-                            if (event.key === "Enter" || event.key === " ") {
-                                if (event.key === " ") {
-                                    event.preventDefault();
-                                }
-                                setPressingState(true);
-                            }
-                        });
-                        card.addEventListener("keyup", function (event) {
-                            if (event.key === "Enter" || event.key === " ") {
-                                setPressingState(false);
-                                card.click();
-                            }
-                        });
-                        card.addEventListener(
-                            "click",
-                            function () {
-                                setPressingState(false);
-                                var cardId = card.id.replace("pokemon-card-", "");
-                                var buttons = doc.querySelectorAll("button");
-                                for (var j = 0; j < buttons.length; j++) {
-                                    var label = buttons[j].textContent || "";
-                                    if (label.indexOf("Toggle##" + cardId) !== -1) {
-                                        buttons[j].click();
-                                        return;
-                                    }
-                                }
-                            },
-                            false
-                        );
-                    })(cards[i]);
-                }
-            }
-
-            function tick() {
-                var doc = appDocument();
-                bind(doc);
-            }
-
-            tick();
-            var passes = 0;
-            var timer = window.setInterval(function () {
-                passes += 1;
-                tick();
-                if (passes > 10) {
-                    window.clearInterval(timer);
-                }
-            }, 200);
-        })();
-        </script>
-        """,
-        height=1,
-    )
 
 
 def handle_toggle_query() -> None:
