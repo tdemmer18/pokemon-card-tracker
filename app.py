@@ -9,6 +9,7 @@ from typing import Iterable
 from urllib.parse import urlencode
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 import persistence
 
@@ -748,6 +749,10 @@ def apply_theme(theme: str) -> None:
             pointer-events: none;
             opacity: 0.88;
         }}
+        div[class*="st-key-card_toggle_"],
+        [data-testid="element-container"]:has(> div[class*="st-key-card_toggle_"]) {{
+            display: none !important;
+        }}
         .shared-banner {{
             background: color-mix(in srgb, #e5c890 20%, transparent);
             border: 1px solid color-mix(in srgb, #e5c890 45%, transparent);
@@ -969,10 +974,10 @@ def apply_theme(theme: str) -> None:
                 order: 2;
             }}
             .pokemon-number {{
-                font-size: 1.3rem;
+                font-size: 1.1rem;
             }}
             .pokemon-name {{
-                font-size: 2.15rem;
+                font-size: 1.75rem;
             }}
         }}
         @media (max-width: 640px) {{
@@ -1344,6 +1349,69 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         )
     card_markup_parts.append("</div>")
     st.markdown("".join(card_markup_parts), unsafe_allow_html=True)
+
+    if not st.session_state.shared_mode:
+        for entry in paged_entries:
+            cid = entry["id"]
+            if st.button(
+                "Toggle",
+                key=f"card_toggle_{cid}",
+            ):
+                toggle_pokemon(cid, not st.session_state.progress.get(cid, False))
+                st.rerun()
+
+        components.html(
+            """
+            <script>
+            (function () {
+                var doc = window.parent.document;
+                if (doc.__pokemonCardDelegationBound) { return; }
+                doc.__pokemonCardDelegationBound = true;
+                doc.addEventListener("click", function (ev) {
+                    if (ev.defaultPrevented) { return; }
+                    if (ev.button !== undefined && ev.button !== 0) { return; }
+                    if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) { return; }
+                    var target = ev.target;
+                    if (!target || !target.closest) { return; }
+                    var card = target.closest("a.pokemon-card, div.pokemon-card");
+                    if (!card) { return; }
+                    if (card.classList.contains("pokemon-card-readonly")) { return; }
+                    var id = card.id && card.id.indexOf("pokemon-card-") === 0
+                        ? card.id.slice("pokemon-card-".length)
+                        : null;
+                    if (!id) { return; }
+                    var host = doc.querySelector('div[class*="st-key-card_toggle_' + id + '"]');
+                    var btn = host ? host.querySelector("button") : null;
+                    if (!btn) { return; }
+                    ev.preventDefault();
+                    btn.click();
+                }, true);
+            })();
+            </script>
+            """,
+            height=0,
+        )
+
+    if total_pages > 1:
+        bottom_prev, bottom_next = st.columns(2)
+        with bottom_prev:
+            if st.button(
+                "Previous",
+                key="grid_page_prev_bottom",
+                disabled=current_page <= 1,
+                use_container_width=True,
+            ):
+                st.session_state.grid_page = current_page - 1
+                st.rerun()
+        with bottom_next:
+            if st.button(
+                "Next",
+                key="grid_page_next_bottom",
+                disabled=current_page >= total_pages,
+                use_container_width=True,
+            ):
+                st.session_state.grid_page = current_page + 1
+                st.rerun()
 
 
 def handle_toggle_query() -> None:
