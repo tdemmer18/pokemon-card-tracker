@@ -33,7 +33,8 @@ GENERATION_NAMES = {
 }
 
 # Paginated grid: keep page sizes bounded so cloud deploys do not render the full Pokédex at once.
-PAGE_SIZE_OPTIONS: list[int] = [8, 16, 32]
+PAGE_SIZE_OPTIONS: list[int] = [32, 16, 8, 0]
+PAGE_SIZE_ALL_SENTINEL = 0
 
 # CSS variable bundles for apply_theme (light + dark + popular editor-style schemes).
 THEME_PALETTES: dict[str, dict[str, str]] = {
@@ -1235,6 +1236,10 @@ def paginate_entries(entries: list[dict]) -> tuple[list[dict], int, int]:
         page_size = PAGE_SIZE_OPTIONS[0]
         st.session_state.page_size = page_size
 
+    if page_size == PAGE_SIZE_ALL_SENTINEL:
+        st.session_state.grid_page = 1
+        return entries, 1, 1
+
     total_pages = max(1, (len(entries) + page_size - 1) // page_size)
     current_page = st.session_state.get("grid_page", 1)
     if not isinstance(current_page, int):
@@ -1418,6 +1423,7 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         st.selectbox(
             "Cards per page",
             options=PAGE_SIZE_OPTIONS,
+            format_func=lambda n: "All" if n == PAGE_SIZE_ALL_SENTINEL else str(n),
             key="page_size",
         )
         if total_pages < st.session_state.grid_page:
