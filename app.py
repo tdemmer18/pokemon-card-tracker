@@ -559,6 +559,36 @@ def apply_theme(theme: str) -> None:
             line-height: 1.1;
             color: var(--accent);
             text-align: left;
+            padding-right: 3.5rem;
+        }}
+        .hero-actions {{
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }}
+        .hero-theme-btn {{
+            width: 2.6rem;
+            height: 2.6rem;
+            border-radius: 999px;
+            border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--border));
+            background: linear-gradient(180deg, var(--card), var(--surface));
+            color: var(--accent);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: var(--shadow);
+        }}
+        .hero-theme-btn:hover {{
+            border-color: var(--accent);
+            transform: translateY(-1px);
+        }}
+        .hero-theme-btn svg {{
+            width: 1.3rem;
+            height: 1.3rem;
+            display: block;
         }}
         .hero p, .meta, .empty, .share-note {{
             color: var(--soft);
@@ -748,6 +778,35 @@ def apply_theme(theme: str) -> None:
             cursor: not-allowed;
             pointer-events: none;
             opacity: 0.88;
+        }}
+        .grid-pager-bottom {{
+            display: flex;
+            gap: 0.6rem;
+            margin-top: 0.8rem;
+            width: 100%;
+            box-sizing: border-box;
+        }}
+        .grid-pager-btn {{
+            flex: 1 1 0;
+            min-width: 0;
+            text-align: center;
+            padding: 0.65rem 0.75rem;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            background: linear-gradient(180deg, var(--card), var(--surface));
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 600;
+            box-sizing: border-box;
+        }}
+        .grid-pager-btn:hover {{
+            border-color: var(--accent);
+            color: var(--accent);
+        }}
+        .grid-pager-btn.is-disabled {{
+            opacity: 0.5;
+            pointer-events: none;
+            cursor: not-allowed;
         }}
         div[class*="st-key-card_toggle_"],
         [data-testid="element-container"]:has(> div[class*="st-key-card_toggle_"]) {{
@@ -1001,23 +1060,12 @@ def apply_theme(theme: str) -> None:
                 flex-wrap: wrap !important;
                 gap: 0.55rem !important;
             }}
-            div[class*="st-key-grid_pager_bottom"] {{
-                width: 100% !important;
-                overflow: hidden;
+            .grid-pager-bottom {{
+                gap: 0.45rem;
             }}
-            div[class*="st-key-grid_pager_bottom"] [data-testid="stHorizontalBlock"] {{
-                flex-wrap: nowrap !important;
-                gap: 0.5rem !important;
-                width: 100% !important;
-            }}
-            div[class*="st-key-grid_pager_bottom"] [data-testid="stHorizontalBlock"] > [data-testid="column"] {{
-                flex: 1 1 50% !important;
-                width: 50% !important;
-                min-width: 0 !important;
-            }}
-            div[class*="st-key-grid_pager_bottom"] .stButton button {{
-                width: 100% !important;
-                min-width: 0 !important;
+            .grid-pager-btn {{
+                padding: 0.6rem 0.5rem;
+                font-size: 0.95rem;
             }}
             div[class*="st-key-tracker_filters_row"] [data-testid="stHorizontalBlock"] > [data-testid="column"] {{
                 flex: 1 1 100% !important;
@@ -1084,11 +1132,47 @@ def _sync_theme_from_picker() -> None:
         st.session_state.theme = picked
 
 
+def build_theme_toggle_href() -> str:
+    next_theme = "light" if st.session_state.theme != "light" else "tokyo_night"
+    params: dict[str, str] = {"theme": next_theme, "_th": next_theme}
+    shared = st.query_params.get("shared")
+    if shared:
+        params["shared"] = str(shared)
+    current = get_current_page()
+    if current != "tracker":
+        params["page"] = current
+    return f"?{urlencode(params)}"
+
+
 def render_hero(total: int, collected: int, percentage: float) -> None:
     active_user = st.session_state.active_user or "Trainer"
+    is_dark = st.session_state.theme != "light"
+    if is_dark:
+        icon_svg = (
+            '<svg viewBox="0 0 24 24" aria-hidden="true">'
+            '<circle cx="12" cy="12" r="4.2" fill="currentColor"/>'
+            '<g stroke="currentColor" stroke-width="1.8" stroke-linecap="round">'
+            '<line x1="12" y1="2.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="21.5"/>'
+            '<line x1="2.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="21.5" y2="12"/>'
+            '<line x1="4.8" y1="4.8" x2="6.6" y2="6.6"/><line x1="17.4" y1="17.4" x2="19.2" y2="19.2"/>'
+            '<line x1="4.8" y1="19.2" x2="6.6" y2="17.4"/><line x1="17.4" y1="6.6" x2="19.2" y2="4.8"/>'
+            '</g></svg>'
+        )
+        aria = "Switch to light mode"
+    else:
+        icon_svg = (
+            '<svg viewBox="0 0 24 24" aria-hidden="true">'
+            '<path fill="currentColor" d="M21 13.3A8.5 8.5 0 0 1 10.7 3a.8.8 0 0 0-1-1A10 10 0 1 0 22 14.3a.8.8 0 0 0-1-1Z"/>'
+            '</svg>'
+        )
+        aria = "Switch to dark mode"
+    theme_href = build_theme_toggle_href()
     st.markdown(
         f"""
         <section class="hero">
+            <div class="hero-actions">
+                <a class="hero-theme-btn" href="{theme_href}" target="_self" rel="noopener" aria-label="{aria}" title="{aria}">{icon_svg}</a>
+            </div>
             <h1>{active_user}&#39;s Pokémon Card Tracker</h1>
             <div class="stat-grid">
                 <div class="stat-card">
@@ -1234,6 +1318,21 @@ def toggle_pokemon(pokemon_id: int, checked: bool) -> None:
         persist_current_progress(pokemon_id, checked)
 
 
+def build_page_nav_href(target_page: int) -> str:
+    params: dict[str, str] = {"grid_page": str(target_page), "_pg": str(target_page)}
+    shared = st.query_params.get("shared")
+    if shared:
+        params["shared"] = str(shared)
+    current = get_current_page()
+    if current != "tracker":
+        params["page"] = current
+    theme = st.session_state.get("theme")
+    if isinstance(theme, str) and theme in THEME_PALETTES:
+        params["theme"] = theme
+        params["_th"] = theme
+    return f"?{urlencode(params)}"
+
+
 def build_toggle_href(pokemon_id: int) -> str:
     params: dict[str, str] = {"toggle": str(pokemon_id), "_tc": str(pokemon_id)}
     shared = st.query_params.get("shared")
@@ -1242,6 +1341,10 @@ def build_toggle_href(pokemon_id: int) -> str:
     current_page = get_current_page()
     if current_page != "tracker":
         params["page"] = current_page
+    theme = st.session_state.get("theme")
+    if isinstance(theme, str) and theme in THEME_PALETTES:
+        params["theme"] = theme
+        params["_th"] = theme
     return f"?{urlencode(params)}"
 
 
@@ -1310,7 +1413,7 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         return
 
     paged_entries, current_page, total_pages = paginate_entries(entries)
-    pager_left, pager_center, pager_right = st.columns([1, 1.4, 1])
+    pager_left, pager_center = st.columns([1, 1.8])
     with pager_left:
         st.selectbox(
             "Cards per page",
@@ -1325,16 +1428,6 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         st.caption(
             f"Showing {len(paged_entries)} of {len(entries)} Pokémon | Page {current_page} of {total_pages}"
         )
-    with pager_right:
-        nav_prev, nav_next = st.columns(2)
-        with nav_prev:
-            if st.button("Previous", disabled=current_page <= 1, use_container_width=True):
-                st.session_state.grid_page = current_page - 1
-                st.rerun()
-        with nav_next:
-            if st.button("Next", disabled=current_page >= total_pages, use_container_width=True):
-                st.session_state.grid_page = current_page + 1
-                st.rerun()
 
     card_markup_parts: list[str] = ['<div class="pokemon-grid">']
     for entry in paged_entries:
@@ -1411,26 +1504,23 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         )
 
     if total_pages > 1:
-        with st.container(key="grid_pager_bottom"):
-            bottom_prev, bottom_next = st.columns(2, gap="small")
-            with bottom_prev:
-                if st.button(
-                    "Previous",
-                    key="grid_page_prev_bottom",
-                    disabled=current_page <= 1,
-                    use_container_width=True,
-                ):
-                    st.session_state.grid_page = current_page - 1
-                    st.rerun()
-            with bottom_next:
-                if st.button(
-                    "Next",
-                    key="grid_page_next_bottom",
-                    disabled=current_page >= total_pages,
-                    use_container_width=True,
-                ):
-                    st.session_state.grid_page = current_page + 1
-                    st.rerun()
+        prev_disabled = current_page <= 1
+        next_disabled = current_page >= total_pages
+        prev_href = build_page_nav_href(current_page - 1) if not prev_disabled else "#"
+        next_href = build_page_nav_href(current_page + 1) if not next_disabled else "#"
+        prev_cls = "grid-pager-btn" + (" is-disabled" if prev_disabled else "")
+        next_cls = "grid-pager-btn" + (" is-disabled" if next_disabled else "")
+        st.markdown(
+            f"""
+            <div class="grid-pager-bottom">
+                <a class="{prev_cls}" href="{prev_href}" target="_self" rel="noopener"
+                   {'aria-disabled="true"' if prev_disabled else ''}>Previous</a>
+                <a class="{next_cls}" href="{next_href}" target="_self" rel="noopener"
+                   {'aria-disabled="true"' if next_disabled else ''}>Next</a>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
 
 
 def handle_toggle_query() -> None:
@@ -1458,10 +1548,47 @@ def handle_toggle_query() -> None:
     st.query_params.pop("toggle", None)
     st.query_params.pop("_tc", None)
 
+def handle_theme_query() -> None:
+    """Apply ?theme=<name> from the hero theme toggle, then strip from URL."""
+    try:
+        val = st.query_params.get("theme")
+    except Exception:
+        val = None
+    if not val:
+        return
+    if isinstance(val, str) and val in THEME_PALETTES:
+        st.session_state.theme = val
+        st.session_state.theme_picker = val
+    st.query_params.pop("theme", None)
+    st.query_params.pop("_th", None)
+
+
+def handle_page_nav_query() -> None:
+    """Apply ?grid_page=<n> from pager anchor clicks, then strip from URL."""
+    try:
+        val = st.query_params.get("grid_page")
+    except Exception:
+        val = None
+    if not val:
+        return
+    try:
+        n = int(val)
+    except (TypeError, ValueError):
+        st.query_params.pop("grid_page", None)
+        st.query_params.pop("_pg", None)
+        return
+    if n >= 1:
+        st.session_state.grid_page = n
+    st.query_params.pop("grid_page", None)
+    st.query_params.pop("_pg", None)
+
+
 def main() -> None:
     ensure_state()
+    handle_theme_query()
     apply_theme(st.session_state.theme)
     handle_toggle_query()
+    handle_page_nav_query()
     pokedex = load_pokedex(DATA_PATH.stat().st_mtime_ns)
     current_page = get_current_page()
 
