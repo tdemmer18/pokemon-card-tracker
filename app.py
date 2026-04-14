@@ -663,6 +663,28 @@ def apply_theme(theme: str) -> None:
             flex-direction: column;
             align-items: center;
             overflow: hidden;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }}
+        .pokemon-card::after {{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: color-mix(in srgb, var(--accent) 12%, transparent);
+            opacity: 0;
+            transition: opacity 0.14s ease;
+            pointer-events: none;
+        }}
+        .pokemon-card:hover {{
+            border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+            transform: translateY(-2px);
+        }}
+        .pokemon-card.is-pressing {{
+            transform: scale(0.975);
+            border-color: color-mix(in srgb, var(--accent) 68%, var(--border));
+        }}
+        .pokemon-card.is-pressing::after {{
+            opacity: 1;
         }}
         .pokemon-header {{
             width: 100%;
@@ -1253,6 +1275,27 @@ def filter_and_sort(pokedex: list[dict]) -> list[dict]:
     return results
 
 
+def paginate_entries(entries: list[dict]) -> tuple[list[dict], int, int]:
+    page_size = st.session_state.get("page_size", PAGE_SIZE_OPTIONS[0])
+    if page_size not in PAGE_SIZE_OPTIONS:
+        page_size = PAGE_SIZE_OPTIONS[0]
+        st.session_state.page_size = page_size
+
+    total_pages = max(1, (len(entries) + page_size - 1) // page_size)
+    current_page = st.session_state.get("grid_page", 1)
+    if not isinstance(current_page, int):
+        try:
+            current_page = int(current_page)
+        except (TypeError, ValueError):
+            current_page = 1
+    current_page = min(max(1, current_page), total_pages)
+    st.session_state.grid_page = current_page
+
+    start_index = (current_page - 1) * page_size
+    end_index = start_index + page_size
+    return entries[start_index:end_index], current_page, total_pages
+
+
 def render_tracker_filters(all_types: list[str]) -> None:
     if st.session_state.get("type_filter") not in {"All Types", *all_types}:
         st.session_state.type_filter = "All Types"
@@ -1377,8 +1420,35 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         st.markdown('<p class="empty">No Pokémon found for the current filters.</p>', unsafe_allow_html=True)
         return
 
+    paged_entries, current_page, total_pages = paginate_entries(entries)
+    pager_left, pager_center, pager_right = st.columns([1, 1.4, 1])
+    with pager_left:
+        st.selectbox(
+            "Cards per page",
+            options=PAGE_SIZE_OPTIONS,
+            key="page_size",
+        )
+        if total_pages < st.session_state.grid_page:
+            st.session_state.grid_page = total_pages
+            current_page = total_pages
+            paged_entries, current_page, total_pages = paginate_entries(entries)
+    with pager_center:
+        st.caption(
+            f"Showing {len(paged_entries)} of {len(entries)} Pokémon | Page {current_page} of {total_pages}"
+        )
+    with pager_right:
+        nav_prev, nav_next = st.columns(2)
+        with nav_prev:
+            if st.button("Previous", disabled=current_page <= 1, use_container_width=True):
+                st.session_state.grid_page = current_page - 1
+                st.rerun()
+        with nav_next:
+            if st.button("Next", disabled=current_page >= total_pages, use_container_width=True):
+                st.session_state.grid_page = current_page + 1
+                st.rerun()
+
     card_markup_parts: list[str] = ['<div class="pokemon-grid">']
-    for entry in entries:
+    for entry in paged_entries:
         checked = st.session_state.progress.get(entry["id"], False)
         name = get_display_name(entry, "en")
         card_class = "pokemon-card collected" if checked else "pokemon-card"
@@ -1397,7 +1467,7 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
             f'<div class="pokemon-number">#{entry["number"]}</div>'
             f'<div class="pokemon-name">{name}</div>'
             '</div>'
-            f'<img class="pokemon-thumb" src="{entry["imageUrl"]}" alt="{name}" />'
+            f'<img class="pokemon-thumb" src="{entry["imageUrl"]}" alt="{name}" loading="lazy" decoding="async" />'
             '</div>'
             f'{status_markup}'
             '</div>'
@@ -1407,7 +1477,7 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
     card_markup_parts.append("</div>")
     st.markdown("".join(card_markup_parts), unsafe_allow_html=True)
 
-    for entry in entries:
+    for entry in paged_entries:
         checked = st.session_state.progress.get(entry["id"], False)
         if st.button(
             f"Toggle##{entry['id']}",
@@ -1452,11 +1522,50 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
                         if (card.classList.contains("pokemon-card-readonly")) {
                             return;
                         }
+                        function setPressingState(pressing) {
+                            if (pressing) {
+                                card.classList.add("is-pressing");
+                            } else {
+                                card.classList.remove("is-pressing");
+                            }
+                        }
                         card.dataset.pokemonCardBound = "1";
                         card.style.cursor = "pointer";
+                        card.setAttribute("role", "button");
+                        card.setAttribute("tabindex", "0");
+                        card.addEventListener("pointerdown", function () {
+                            setPressingState(true);
+                        });
+                        card.addEventListener("pointerup", function () {
+                            setPressingState(false);
+                        });
+                        card.addEventListener("pointerleave", function () {
+                            setPressingState(false);
+                        });
+                        card.addEventListener("pointercancel", function () {
+                            setPressingState(false);
+                        });
+                        card.addEventListener("blur", function () {
+                            setPressingState(false);
+                        });
+                        card.addEventListener("keydown", function (event) {
+                            if (event.key === "Enter" || event.key === " ") {
+                                if (event.key === " ") {
+                                    event.preventDefault();
+                                }
+                                setPressingState(true);
+                            }
+                        });
+                        card.addEventListener("keyup", function (event) {
+                            if (event.key === "Enter" || event.key === " ") {
+                                setPressingState(false);
+                                card.click();
+                            }
+                        });
                         card.addEventListener(
                             "click",
                             function () {
+                                setPressingState(false);
                                 var cardId = card.id.replace("pokemon-card-", "");
                                 var buttons = doc.querySelectorAll("button");
                                 for (var j = 0; j < buttons.length; j++) {
