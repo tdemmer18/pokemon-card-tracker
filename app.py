@@ -1001,6 +1001,24 @@ def apply_theme(theme: str) -> None:
                 flex-wrap: wrap !important;
                 gap: 0.55rem !important;
             }}
+            div[class*="st-key-grid_pager_bottom"] {{
+                width: 100% !important;
+                overflow: hidden;
+            }}
+            div[class*="st-key-grid_pager_bottom"] [data-testid="stHorizontalBlock"] {{
+                flex-wrap: nowrap !important;
+                gap: 0.5rem !important;
+                width: 100% !important;
+            }}
+            div[class*="st-key-grid_pager_bottom"] [data-testid="stHorizontalBlock"] > [data-testid="column"] {{
+                flex: 1 1 50% !important;
+                width: 50% !important;
+                min-width: 0 !important;
+            }}
+            div[class*="st-key-grid_pager_bottom"] .stButton button {{
+                width: 100% !important;
+                min-width: 0 !important;
+            }}
             div[class*="st-key-tracker_filters_row"] [data-testid="stHorizontalBlock"] > [data-testid="column"] {{
                 flex: 1 1 100% !important;
                 width: 100% !important;
@@ -1393,25 +1411,26 @@ def render_pokemon_grid(entries: list[dict], all_types: list[str]) -> None:
         )
 
     if total_pages > 1:
-        bottom_prev, bottom_next = st.columns(2)
-        with bottom_prev:
-            if st.button(
-                "Previous",
-                key="grid_page_prev_bottom",
-                disabled=current_page <= 1,
-                use_container_width=True,
-            ):
-                st.session_state.grid_page = current_page - 1
-                st.rerun()
-        with bottom_next:
-            if st.button(
-                "Next",
-                key="grid_page_next_bottom",
-                disabled=current_page >= total_pages,
-                use_container_width=True,
-            ):
-                st.session_state.grid_page = current_page + 1
-                st.rerun()
+        with st.container(key="grid_pager_bottom"):
+            bottom_prev, bottom_next = st.columns(2, gap="small")
+            with bottom_prev:
+                if st.button(
+                    "Previous",
+                    key="grid_page_prev_bottom",
+                    disabled=current_page <= 1,
+                    use_container_width=True,
+                ):
+                    st.session_state.grid_page = current_page - 1
+                    st.rerun()
+            with bottom_next:
+                if st.button(
+                    "Next",
+                    key="grid_page_next_bottom",
+                    disabled=current_page >= total_pages,
+                    use_container_width=True,
+                ):
+                    st.session_state.grid_page = current_page + 1
+                    st.rerun()
 
 
 def handle_toggle_query() -> None:
