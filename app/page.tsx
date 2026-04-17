@@ -75,8 +75,9 @@ function clampPage(page: number, totalPages: number) {
 }
 
 function completionLabel(caught: number, total: number) {
-  if (!total) return "0% complete";
-  return `${Math.round((caught / total) * 100)}% complete`;
+  const missing = Math.max(total - caught, 0);
+  if (!total) return "0% complete (0 missing)";
+  return `${Math.round((caught / total) * 100)}% complete (${missing} missing)`;
 }
 
 export default function HomePage() {
