@@ -95,6 +95,7 @@ export default function HomePage() {
   const [pageSize, setPageSize] = useState<number>(PAGE_SIZE_OPTIONS[0]);
   const [page, setPage] = useState(1);
   const [selectedUserColor, setSelectedUserColor] = useState<string>(USER_COLOR_OPTIONS[0]);
+  const [userAlias, setUserAlias] = useState(DEFAULT_USER);
   const [newUserName, setNewUserName] = useState("");
   const [status, setStatus] = useState("Ready.");
   const [isSyncing, setIsSyncing] = useState(false);
@@ -138,6 +139,7 @@ export default function HomePage() {
     if (typeof saved.pageSize === "number") setPageSize(saved.pageSize);
     if (typeof saved.page === "number") setPage(saved.page);
     if (saved.userColor) setSelectedUserColor(saved.userColor);
+    if (saved.userAlias) setUserAlias(saved.userAlias);
   }, []);
 
   useEffect(() => {
@@ -229,9 +231,10 @@ export default function HomePage() {
         pageSize,
         page,
         userColor: selectedUserColor,
+        userAlias,
       } satisfies PersistedState),
     );
-  }, [isHydrated, users, currentUser, caughtByUser, theme, search, sortBy, generation, completion, typeFilter, pageSize, page, selectedUserColor]);
+  }, [isHydrated, users, currentUser, caughtByUser, theme, search, sortBy, generation, completion, typeFilter, pageSize, page, selectedUserColor, userAlias]);
 
   useEffect(() => {
     if (!isHydrated || !isRemoteProgressReady || !isRemoteProgressEnabled || !authUser) return;
@@ -249,6 +252,7 @@ export default function HomePage() {
       pageSize,
       page,
       userColor: selectedUserColor,
+      userAlias,
     };
 
     const timeout = window.setTimeout(() => {
@@ -264,7 +268,7 @@ export default function HomePage() {
     }, 500);
 
     return () => window.clearTimeout(timeout);
-  }, [authUser, caughtByUser, completion, currentUser, generation, isHydrated, isRemoteProgressEnabled, isRemoteProgressReady, page, pageSize, search, selectedUserColor, sortBy, theme, typeFilter, users]);
+  }, [authUser, caughtByUser, completion, currentUser, generation, isHydrated, isRemoteProgressEnabled, isRemoteProgressReady, page, pageSize, search, selectedUserColor, sortBy, theme, typeFilter, userAlias, users]);
 
   const syncPokedex = async () => {
     setIsSyncing(true);
@@ -406,6 +410,31 @@ export default function HomePage() {
     setStatus(`Added ${name}.`);
   };
 
+  const displayName = userAlias.trim() || currentUser;
+  const pagerControls = pageSize === 0 ? null : (
+    <div className="pager">
+      <button
+        type="button"
+        className="pager-button"
+        onClick={() => setPage((current) => clampPage(current - 1, totalPages))}
+        disabled={safePage <= 1}
+      >
+        Prev
+      </button>
+      <span className="pager-meta">
+        Page {safePage} / {totalPages}
+      </span>
+      <button
+        type="button"
+        className="pager-button"
+        onClick={() => setPage((current) => clampPage(current + 1, totalPages))}
+        disabled={safePage >= totalPages}
+      >
+        Next
+      </button>
+    </div>
+  );
+
   const submitAuth = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setIsAuthLoading(true);
@@ -529,16 +558,16 @@ export default function HomePage() {
               setCurrentUser(next);
               setStatus(`Switched to ${next}.`);
             }}
-            aria-label={users.length > 1 ? "Switch trainer" : `Tracking as ${currentUser}`}
+            aria-label={users.length > 1 ? "Switch trainer" : `Tracking as ${displayName}`}
             disabled={users.length <= 1}
           >
             <span className="picker-chip-avatar" aria-hidden="true" style={{ background: selectedUserColor }}>
-              {currentUser.charAt(0).toUpperCase()}
+              {displayName.charAt(0).toUpperCase()}
             </span>
             <span className="picker-chip-body">
               <span className="picker-chip-label">Tracking as</span>
               <span className="picker-chip-name" style={{ color: selectedUserColor }}>
-                {currentUser}
+                {displayName}
               </span>
             </span>
           </button>
@@ -661,6 +690,22 @@ export default function HomePage() {
                   Sign Out
                 </button>
               ) : null}
+            </section>
+
+            <section className="sidebar-section">
+              <h2 className="sidebar-heading">Alias</h2>
+              <input
+                className="control"
+                type="text"
+                value={userAlias}
+                maxLength={24}
+                onChange={(event) => {
+                  setUserAlias(event.target.value);
+                  setStatus("Alias updated.");
+                }}
+                placeholder={currentUser}
+                aria-label="Trainer alias"
+              />
             </section>
 
             <section className="sidebar-section">
@@ -850,29 +895,7 @@ export default function HomePage() {
           </div>
 
           <div className="page-header">
-            {pageSize === 0 ? null : (
-              <div className="pager">
-                <button
-                  type="button"
-                  className="pager-button"
-                  onClick={() => setPage((current) => clampPage(current - 1, totalPages))}
-                  disabled={safePage <= 1}
-                >
-                  Prev
-                </button>
-                <span className="pager-meta">
-                  Page {safePage} / {totalPages}
-                </span>
-                <button
-                  type="button"
-                  className="pager-button"
-                  onClick={() => setPage((current) => clampPage(current + 1, totalPages))}
-                  disabled={safePage >= totalPages}
-                >
-                  Next
-                </button>
-              </div>
-            )}
+            {pagerControls}
           </div>
 
           <div className="pokemon-grid">
@@ -932,6 +955,7 @@ export default function HomePage() {
               <div className="empty-state">No Pokemon match this filter set.</div>
             )}
           </div>
+          {pagerControls ? <div className="page-footer">{pagerControls}</div> : null}
         </section>
       </div>
     </main>

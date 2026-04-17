@@ -13,6 +13,7 @@ export type ProgressState = {
   pageSize: number;
   page: number;
   userColor: string;
+  userAlias: string;
 };
 
 const DEFAULT_USER = "Owen";
@@ -34,6 +35,7 @@ export const defaultProgressState: ProgressState = {
   pageSize: 32,
   page: 1,
   userColor: "#ff4f6d",
+  userAlias: DEFAULT_USER,
 };
 
 export function defaultProgressStateForUser(user: string): ProgressState {
@@ -43,6 +45,7 @@ export function defaultProgressStateForUser(user: string): ProgressState {
     users: [name],
     currentUser: name,
     caughtByUser: { [name]: {} },
+    userAlias: name,
   };
 }
 
@@ -106,5 +109,8 @@ export function normalizeProgressState(value: unknown): ProgressState {
     pageSize: typeof source.pageSize === "number" ? source.pageSize : defaultProgressState.pageSize,
     page: typeof source.page === "number" ? source.page : defaultProgressState.page,
     userColor: normalizeColor(source.userColor),
+    userAlias: typeof source.userAlias === "string" && source.userAlias.trim()
+      ? source.userAlias.trim().slice(0, 24)
+      : currentUser,
   };
 }
