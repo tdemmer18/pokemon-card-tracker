@@ -373,6 +373,46 @@ button {
   box-shadow: var(--shadow);
 }
 
+.viewing-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin: -2px 0 18px;
+  padding: 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 16px;
+  background: var(--accent-soft);
+}
+
+.viewing-banner-copy {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.viewing-banner-kicker {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.viewing-banner-copy strong {
+  overflow: hidden;
+  color: var(--accent);
+  font-size: 1.02rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.viewing-banner-button {
+  width: auto;
+  min-width: 150px;
+  padding: 0 14px;
+}
+
 .hero-value {
   margin: 0;
   font-size: clamp(2rem, 4vw, 3rem);
@@ -739,6 +779,83 @@ a {
   font-weight: 700;
 }
 
+.people-panel {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.people-status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.people-list {
+  display: grid;
+  gap: 8px;
+}
+
+.person-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-strong);
+}
+
+.person-row.is-current {
+  border-color: var(--line-strong);
+  background: var(--accent-soft);
+}
+
+.person-meta {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.person-name,
+.person-progress {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.person-name {
+  font-weight: 800;
+}
+
+.person-progress {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.person-view-button {
+  min-height: 36px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.person-view-button:hover:not(:disabled) {
+  border-color: var(--line-strong);
+  color: var(--accent);
+}
+
+.person-view-button:disabled {
+  cursor: default;
+  opacity: 0.65;
+}
+
 .main-card {
   padding: 18px;
 }
@@ -886,6 +1003,14 @@ a {
 
 .pokemon-card-toggle.is-caught .pokemon-image {
   filter: drop-shadow(0 16px 18px rgba(0, 0, 0, 0.16)) saturate(1.05);
+}
+
+.pokemon-card-toggle.is-read-only {
+  cursor: default;
+}
+
+.pokemon-card-toggle.is-read-only:hover {
+  transform: none;
 }
 
 .pokemon-image-wrap {
@@ -1076,6 +1201,25 @@ a {
   .quick-toggle-row {
     gap: 8px;
     margin-bottom: 14px;
+  }
+
+  .viewing-banner {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .viewing-banner-button {
+    width: 100%;
+  }
+
+  .person-row {
+    grid-template-columns: 1fr;
+  }
+
+  .person-view-button {
+    width: 100%;
   }
 
   .status-chip {

@@ -59,6 +59,14 @@ type AuthUser = {
   username: string;
 };
 
+type CommunityAccount = {
+  id: string;
+  username: string;
+  createdAt: string | null;
+  updatedAt: string | null;
+  progress: ProgressState;
+};
+
 function userColor(name: string): string {
   if (name.trim().toLowerCase() === "owen") {
     return "#ff4f6d";
@@ -110,6 +118,11 @@ export default function HomePage() {
   const [authPassword, setAuthPassword] = useState("");
   const [isAuthLoading, setIsAuthLoading] = useState(false);
   const [authStatus, setAuthStatus] = useState("");
+  const [isPeopleOpen, setIsPeopleOpen] = useState(false);
+  const [isPeopleLoading, setIsPeopleLoading] = useState(false);
+  const [peopleStatus, setPeopleStatus] = useState("");
+  const [communityAccounts, setCommunityAccounts] = useState<CommunityAccount[]>([]);
+  const [viewingAccount, setViewingAccount] = useState<CommunityAccount | null>(null);
 
   useEffect(() => {
     if (!isSettingsOpen) return;
@@ -125,7 +138,12 @@ export default function HomePage() {
     };
   }, [isSettingsOpen]);
 
-  const caught = caughtByUser[currentUser] ?? {};
+  const ownCaught = caughtByUser[currentUser] ?? {};
+  const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
+  const viewedCaught = viewingAccount
+    ? viewingAccount.progress.caughtByUser[viewingTrainer] ?? {}
+    : ownCaught;
+  const isViewingReadOnly = Boolean(viewingAccount);
 
   const applyProgressState = useCallback((saved: PersistedState) => {
     if (saved.users?.length) setUsers(saved.users);
@@ -316,7 +334,7 @@ export default function HomePage() {
       const matchesGeneration =
         generation === "All" || entry.generation === Number(generation.replace("Gen ", ""));
 
-      const isCaught = Boolean(caught[entry.id]);
+      const isCaught = Boolean(viewedCaught[entry.id]);
       const matchesCompletion =
         completion === "all" ||
         (completion === "completed" && isCaught) ||
@@ -342,7 +360,7 @@ export default function HomePage() {
     });
 
     return next;
-  }, [caught, completion, entries, generation, search, sortBy, typeFilter]);
+  }, [completion, entries, generation, search, sortBy, typeFilter, viewedCaught]);
 
   const totalPages = pageSize === 0 ? 1 : Math.max(1, Math.ceil(filteredEntries.length / pageSize));
   const safePage = clampPage(page, totalPages);
@@ -370,14 +388,14 @@ export default function HomePage() {
   }, [caughtByUser, entries.length, users]);
 
   const stats = useMemo(() => {
-    const totalCaught = Object.values(caught).filter(Boolean).length;
+    const totalCaught = Object.values(viewedCaught).filter(Boolean).length;
     return {
       totalCaught,
       total: entries.length,
       percentage: entries.length ? Math.round((totalCaught / entries.length) * 100) : 0,
       visible: filteredEntries.length,
     };
-  }, [caught, entries.length, filteredEntries.length]);
+  }, [entries.length, filteredEntries.length, viewedCaught]);
 
   const generationOptions = useMemo(
     () => ["All", ...[...new Set(entries.map((entry) => entry.generation))].sort((left, right) => left - right).map((value) => `Gen ${value}`)],
@@ -412,6 +430,12 @@ export default function HomePage() {
   };
 
   const displayName = userAlias.trim() || currentUser;
+  const viewedDisplayName = viewingAccount
+    ? viewingAccount.progress.userAlias.trim() || viewingAccount.progress.currentUser || viewingAccount.username
+    : displayName;
+  const headerChipName = isViewingReadOnly ? viewedDisplayName : displayName;
+  const headerChipLabel = isViewingReadOnly ? "Viewing" : "Tracking as";
+  const headerChipColor = isViewingReadOnly ? userColor(headerChipName) : selectedUserColor;
   const pagerControls = pageSize === 0 ? null : (
     <div className="pager">
       <button
@@ -475,9 +499,55 @@ export default function HomePage() {
     }
   };
 
+  const loadPeople = async () => {
+    setIsPeopleOpen(true);
+    setIsPeopleLoading(true);
+    setPeopleStatus("");
+
+    try {
+      const response = await fetch("/api/community", { cache: "no-store" });
+      const payload = (await response.json()) as {
+        people?: CommunityAccount[];
+        message?: string;
+        error?: string;
+      };
+
+      if (!response.ok) {
+        throw new Error(payload.message ?? payload.error ?? "Could not load other people.");
+      }
+
+      const people = payload.people ?? [];
+      setCommunityAccounts(people);
+      setPeopleStatus(people.length ? `${people.length} ${people.length === 1 ? "person" : "people"} found.` : "No other people have signed in yet.");
+    } catch (error) {
+      setPeopleStatus(error instanceof Error ? error.message : "Could not load other people.");
+    } finally {
+      setIsPeopleLoading(false);
+    }
+  };
+
+  const viewCommunityAccount = (account: CommunityAccount) => {
+    setViewingAccount(account);
+    setPage(1);
+    setIsSettingsOpen(false);
+    setStatus(`Viewing ${account.username}'s cards.`);
+  };
+
+  const stopViewingAccount = () => {
+    if (viewingAccount) {
+      setStatus(`Back to ${currentUser}'s cards.`);
+    }
+    setViewingAccount(null);
+    setPage(1);
+  };
+
   const signOut = async () => {
     await fetch("/api/auth", { method: "DELETE" }).catch(() => undefined);
     setAuthUser(null);
+    setViewingAccount(null);
+    setCommunityAccounts([]);
+    setIsPeopleOpen(false);
+    setPeopleStatus("");
     setStatus("Signed out. Local browser progress is still available.");
     setIsSettingsOpen(false);
   };
@@ -551,24 +621,25 @@ export default function HomePage() {
           <button
             type="button"
             className="picker-chip"
-            style={{ borderColor: selectedUserColor }}
+            style={{ borderColor: headerChipColor }}
             onClick={() => {
+              if (isViewingReadOnly) return;
               if (users.length <= 1) return;
               const idx = users.indexOf(currentUser);
               const next = users[(idx + 1) % users.length];
               setCurrentUser(next);
               setStatus(`Switched to ${next}.`);
             }}
-            aria-label={users.length > 1 ? "Switch trainer" : `Tracking as ${displayName}`}
-            disabled={users.length <= 1}
+            aria-label={isViewingReadOnly ? `Viewing ${headerChipName}` : users.length > 1 ? "Switch trainer" : `Tracking as ${displayName}`}
+            disabled={isViewingReadOnly || users.length <= 1}
           >
-            <span className="picker-chip-avatar" aria-hidden="true" style={{ background: selectedUserColor }}>
-              {displayName.charAt(0).toUpperCase()}
+            <span className="picker-chip-avatar" aria-hidden="true" style={{ background: headerChipColor }}>
+              {headerChipName.charAt(0).toUpperCase()}
             </span>
             <span className="picker-chip-body">
-              <span className="picker-chip-label">Tracking as</span>
-              <span className="picker-chip-name" style={{ color: selectedUserColor }}>
-                {displayName}
+              <span className="picker-chip-label">{headerChipLabel}</span>
+              <span className="picker-chip-name" style={{ color: headerChipColor }}>
+                {headerChipName}
               </span>
             </span>
           </button>
@@ -594,7 +665,7 @@ export default function HomePage() {
       </header>
 
       <section className="hero-card">
-        <p className="hero-kicker">Progress</p>
+        <p className="hero-kicker">{isViewingReadOnly && viewingAccount ? `Viewing ${viewingAccount.username}` : "Progress"}</p>
         <div className="hero-row">
           <h2 className="hero-value">
             {stats.totalCaught}
@@ -643,6 +714,18 @@ export default function HomePage() {
         </button>
       </div>
 
+      {isViewingReadOnly && viewingAccount ? (
+        <section className="viewing-banner" aria-live="polite">
+          <div className="viewing-banner-copy">
+            <span className="viewing-banner-kicker">Read-only cards</span>
+            <strong>{viewedDisplayName}</strong>
+          </div>
+          <button type="button" className="action-button viewing-banner-button" onClick={stopViewingAccount}>
+            Back to My Cards
+          </button>
+        </section>
+      ) : null}
+
       {isSettingsOpen ? (
         <div
           className="settings-overlay"
@@ -690,6 +773,52 @@ export default function HomePage() {
                 <button type="button" className="action-button action-button-wide sign-out-button" onClick={() => void signOut()}>
                   Sign Out
                 </button>
+              ) : null}
+            </section>
+
+            <section className="sidebar-section">
+              <h2 className="sidebar-heading">People</h2>
+              <button
+                type="button"
+                className="action-button action-button-wide"
+                onClick={() => void loadPeople()}
+                disabled={isPeopleLoading}
+              >
+                {isPeopleLoading ? "Loading People..." : isPeopleOpen ? "Refresh People" : "Show People"}
+              </button>
+              {isPeopleOpen ? (
+                <div className="people-panel">
+                  {peopleStatus ? <p className="people-status">{peopleStatus}</p> : null}
+                  {communityAccounts.length ? (
+                    <div className="people-list">
+                      {communityAccounts.map((account) => {
+                        const accountTrainer = account.progress.currentUser;
+                        const accountDisplayName = account.progress.userAlias.trim() || accountTrainer || account.username;
+                        const accountCaught = Object.values(account.progress.caughtByUser[accountTrainer] ?? {}).filter(Boolean).length;
+                        const isViewingAccount = viewingAccount?.id === account.id;
+
+                        return (
+                          <div key={account.id} className={`person-row ${isViewingAccount ? "is-current" : ""}`}>
+                            <div className="person-meta">
+                              <span className="person-name">{account.username}</span>
+                              <span className="person-progress">
+                                {accountDisplayName} · {accountCaught} caught
+                              </span>
+                            </div>
+                            <button
+                              type="button"
+                              className="person-view-button"
+                              onClick={() => viewCommunityAccount(account)}
+                              disabled={isViewingAccount}
+                            >
+                              {isViewingAccount ? "Viewing" : "View Cards"}
+                            </button>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ) : null}
+                </div>
               ) : null}
             </section>
 
@@ -902,16 +1031,9 @@ export default function HomePage() {
           <div className="pokemon-grid">
             {visibleEntries.length ? (
               visibleEntries.map((entry, index) => {
-                const isCaught = Boolean(caught[entry.id]);
-                return (
-                  <button
-                    key={entry.id}
-                    type="button"
-                    className={`pokemon-card pokemon-card-toggle ${isCaught ? "is-caught" : ""}`}
-                    onClick={() => setCaughtStatus(entry.id, !isCaught)}
-                    aria-pressed={isCaught}
-                    aria-label={`${isCaught ? "Unmark" : "Mark"} ${entry.name} as caught`}
-                  >
+                const isCaught = Boolean(viewedCaught[entry.id]);
+                const cardContent = (
+                  <>
                     <div className="pokemon-card-top">
                       <span className="pokemon-number">#{entry.number}</span>
                       <span className={`capture-pill ${isCaught ? "is-caught" : ""}`}>
@@ -949,6 +1071,31 @@ export default function HomePage() {
                         </div>
                       </div>
                     </div>
+                  </>
+                );
+
+                if (isViewingReadOnly) {
+                  return (
+                    <article
+                      key={entry.id}
+                      className={`pokemon-card pokemon-card-toggle is-read-only ${isCaught ? "is-caught" : ""}`}
+                      aria-label={`${entry.name} is ${isCaught ? "caught" : "missing"} for ${viewedDisplayName}`}
+                    >
+                      {cardContent}
+                    </article>
+                  );
+                }
+
+                return (
+                  <button
+                    key={entry.id}
+                    type="button"
+                    className={`pokemon-card pokemon-card-toggle ${isCaught ? "is-caught" : ""}`}
+                    onClick={() => setCaughtStatus(entry.id, !isCaught)}
+                    aria-pressed={isCaught}
+                    aria-label={`${isCaught ? "Unmark" : "Mark"} ${entry.name} as caught`}
+                  >
+                    {cardContent}
                   </button>
                 );
               })
