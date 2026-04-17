@@ -231,6 +231,10 @@ button {
 }
 
 .auth-user-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 160px;
   min-height: 44px;
   padding: 0 14px;
   border: 1px solid var(--line);
@@ -239,6 +243,9 @@ button {
   color: var(--text);
   cursor: pointer;
   font-weight: 800;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .sign-out-button {
@@ -284,6 +291,7 @@ button {
   font-size: clamp(2.5rem, 5vw, 4.75rem);
   line-height: 0.92;
   letter-spacing: -0.06em;
+  overflow-wrap: normal;
 }
 
 .app-subtitle,
@@ -413,6 +421,9 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 12px;
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 190px;
   padding: 10px 14px 10px 10px;
   border-radius: 999px;
   border: 1px solid var(--line-strong);
@@ -450,6 +461,7 @@ button {
 .picker-chip-body {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .picker-chip-label {
@@ -462,6 +474,9 @@ button {
 .picker-chip-name {
   font-size: 1rem;
   font-weight: 800;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .shell-grid {
@@ -474,6 +489,8 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+  justify-content: flex-end;
+  min-width: 0;
   flex-shrink: 0;
 }
 
@@ -960,16 +977,27 @@ a {
   }
 
   .app-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
     gap: 10px;
     margin-bottom: 14px;
     align-items: center;
   }
 
+  .app-header-main {
+    min-width: 0;
+  }
+
   .app-title {
-    font-size: clamp(1.8rem, 8vw, 2.6rem);
+    font-size: 2rem;
+    letter-spacing: -0.03em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .picker-chip {
+    max-width: 98px;
     padding: 6px 10px 6px 6px;
     gap: 8px;
   }
@@ -985,15 +1013,22 @@ a {
   }
 
   .picker-chip-name {
-    font-size: 0.88rem;
+    font-size: 0.82rem;
+    max-width: 52px;
   }
 
   .app-header-actions {
     gap: 8px;
   }
 
-  .app-title {
-    font-size: clamp(2.1rem, 11vw, 3rem);
+  .auth-user-chip {
+    display: none;
+  }
+
+  .settings-toggle {
+    width: 42px;
+    height: 42px;
+    border-radius: 13px;
   }
 
   .app-subtitle {
