@@ -654,6 +654,33 @@ a {
   color: var(--accent);
 }
 
+.color-options {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.color-option {
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at center, var(--swatch-color) 0 42%, transparent 44%),
+    var(--surface-strong);
+  cursor: pointer;
+}
+
+.color-option.is-active {
+  border-color: var(--swatch-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--swatch-color) 24%, transparent);
+}
+
+.color-input {
+  margin-top: 10px;
+  padding: 4px;
+  cursor: pointer;
+}
+
 .action-button,
 .pager-button {
   position: relative;

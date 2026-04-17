@@ -12,6 +12,7 @@ export type ProgressState = {
   typeFilter: string;
   pageSize: number;
   page: number;
+  userColor: string;
 };
 
 const DEFAULT_USER = "Owen";
@@ -32,6 +33,7 @@ export const defaultProgressState: ProgressState = {
   typeFilter: "All Types",
   pageSize: 32,
   page: 1,
+  userColor: "#ff4f6d",
 };
 
 export function defaultProgressStateForUser(user: string): ProgressState {
@@ -46,6 +48,12 @@ export function defaultProgressStateForUser(user: string): ProgressState {
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return Boolean(value && typeof value === "object" && !Array.isArray(value));
+}
+
+function normalizeColor(value: unknown) {
+  return typeof value === "string" && /^#[0-9a-fA-F]{6}$/.test(value)
+    ? value
+    : defaultProgressState.userColor;
 }
 
 function normalizeCaughtByUser(value: unknown, users: string[]) {
@@ -97,5 +105,6 @@ export function normalizeProgressState(value: unknown): ProgressState {
     typeFilter: typeof source.typeFilter === "string" ? source.typeFilter : defaultProgressState.typeFilter,
     pageSize: typeof source.pageSize === "number" ? source.pageSize : defaultProgressState.pageSize,
     page: typeof source.page === "number" ? source.page : defaultProgressState.page,
+    userColor: normalizeColor(source.userColor),
   };
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import type { FormEvent } from "react";
+import type { CSSProperties, FormEvent } from "react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   allTypes,
@@ -41,6 +41,17 @@ const TYPE_ACCENTS: Record<string, string> = {
   Steel: "#8fa3b7",
   Water: "#5aa9f6",
 };
+
+const USER_COLOR_OPTIONS = [
+  "#ff4f6d",
+  "#f7768e",
+  "#e0af68",
+  "#9ece6a",
+  "#5aa9f6",
+  "#7aa2f7",
+  "#bb9af7",
+  "#f3a6d5",
+] as const;
 
 type PersistedState = Partial<ProgressState>;
 type AuthUser = {
@@ -83,6 +94,7 @@ export default function HomePage() {
   const [typeFilter, setTypeFilter] = useState("All Types");
   const [pageSize, setPageSize] = useState<number>(PAGE_SIZE_OPTIONS[0]);
   const [page, setPage] = useState(1);
+  const [selectedUserColor, setSelectedUserColor] = useState<string>(USER_COLOR_OPTIONS[0]);
   const [newUserName, setNewUserName] = useState("");
   const [status, setStatus] = useState("Ready.");
   const [isSyncing, setIsSyncing] = useState(false);
@@ -125,6 +137,7 @@ export default function HomePage() {
     if (saved.typeFilter) setTypeFilter(saved.typeFilter);
     if (typeof saved.pageSize === "number") setPageSize(saved.pageSize);
     if (typeof saved.page === "number") setPage(saved.page);
+    if (saved.userColor) setSelectedUserColor(saved.userColor);
   }, []);
 
   useEffect(() => {
@@ -215,9 +228,10 @@ export default function HomePage() {
         typeFilter,
         pageSize,
         page,
+        userColor: selectedUserColor,
       } satisfies PersistedState),
     );
-  }, [isHydrated, users, currentUser, caughtByUser, theme, search, sortBy, generation, completion, typeFilter, pageSize, page]);
+  }, [isHydrated, users, currentUser, caughtByUser, theme, search, sortBy, generation, completion, typeFilter, pageSize, page, selectedUserColor]);
 
   useEffect(() => {
     if (!isHydrated || !isRemoteProgressReady || !isRemoteProgressEnabled || !authUser) return;
@@ -234,6 +248,7 @@ export default function HomePage() {
       typeFilter,
       pageSize,
       page,
+      userColor: selectedUserColor,
     };
 
     const timeout = window.setTimeout(() => {
@@ -249,7 +264,7 @@ export default function HomePage() {
     }, 500);
 
     return () => window.clearTimeout(timeout);
-  }, [authUser, caughtByUser, completion, currentUser, generation, isHydrated, isRemoteProgressEnabled, isRemoteProgressReady, page, pageSize, search, sortBy, theme, typeFilter, users]);
+  }, [authUser, caughtByUser, completion, currentUser, generation, isHydrated, isRemoteProgressEnabled, isRemoteProgressReady, page, pageSize, search, selectedUserColor, sortBy, theme, typeFilter, users]);
 
   const syncPokedex = async () => {
     setIsSyncing(true);
@@ -506,7 +521,7 @@ export default function HomePage() {
           <button
             type="button"
             className="picker-chip"
-            style={{ borderColor: userColor(currentUser) }}
+            style={{ borderColor: selectedUserColor }}
             onClick={() => {
               if (users.length <= 1) return;
               const idx = users.indexOf(currentUser);
@@ -517,12 +532,12 @@ export default function HomePage() {
             aria-label={users.length > 1 ? "Switch trainer" : `Tracking as ${currentUser}`}
             disabled={users.length <= 1}
           >
-            <span className="picker-chip-avatar" aria-hidden="true" style={{ background: userColor(currentUser) }}>
+            <span className="picker-chip-avatar" aria-hidden="true" style={{ background: selectedUserColor }}>
               {currentUser.charAt(0).toUpperCase()}
             </span>
             <span className="picker-chip-body">
               <span className="picker-chip-label">Tracking as</span>
-              <span className="picker-chip-name" style={{ color: userColor(currentUser) }}>
+              <span className="picker-chip-name" style={{ color: selectedUserColor }}>
                 {currentUser}
               </span>
             </span>
@@ -646,6 +661,37 @@ export default function HomePage() {
                   Sign Out
                 </button>
               ) : null}
+            </section>
+
+            <section className="sidebar-section">
+              <h2 className="sidebar-heading">Trainer Color</h2>
+              <div className="color-options" role="radiogroup" aria-label="Trainer color">
+                {USER_COLOR_OPTIONS.map((color) => (
+                  <button
+                    key={color}
+                    type="button"
+                    role="radio"
+                    aria-checked={selectedUserColor === color}
+                    className={`color-option ${selectedUserColor === color ? "is-active" : ""}`}
+                    style={{ "--swatch-color": color } as CSSProperties}
+                    onClick={() => {
+                      setSelectedUserColor(color);
+                      setStatus("Trainer color updated.");
+                    }}
+                    aria-label={`Use color ${color}`}
+                  />
+                ))}
+              </div>
+              <input
+                className="control color-input"
+                type="color"
+                value={selectedUserColor}
+                onChange={(event) => {
+                  setSelectedUserColor(event.target.value);
+                  setStatus("Trainer color updated.");
+                }}
+                aria-label="Custom trainer color"
+              />
             </section>
 
             <section className="sidebar-section">
