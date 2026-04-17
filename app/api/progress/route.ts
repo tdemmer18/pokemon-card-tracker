@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
+import { getCurrentUser } from "@/lib/auth";
 import { createSupabaseAdmin, isSupabaseConfigured } from "@/lib/supabase-admin";
-import { defaultProgressState, normalizeProgressState, type ProgressState } from "@/lib/progress";
-
-const PROGRESS_ID = "shared";
+import { defaultProgressState, defaultProgressStateForUser, normalizeProgressState, type ProgressState } from "@/lib/progress";
 
 type ProgressRow = {
   state: ProgressState | null;
@@ -18,11 +17,21 @@ export async function GET() {
     });
   }
 
+  const user = await getCurrentUser();
+  if (!user) {
+    return NextResponse.json({
+      configured: true,
+      authenticated: false,
+      progress: null,
+      message: "Sign in to save progress to the database.",
+    }, { status: 401 });
+  }
+
   const supabase = createSupabaseAdmin();
   const { data, error } = await supabase
     .from("pokemon_progress")
     .select("state, updated_at")
-    .eq("id", PROGRESS_ID)
+    .eq("id", user.id)
     .maybeSingle<ProgressRow>();
 
   if (error) {
@@ -31,7 +40,9 @@ export async function GET() {
 
   return NextResponse.json({
     configured: true,
-    progress: normalizeProgressState(data?.state ?? defaultProgressState),
+    authenticated: true,
+    user,
+    progress: normalizeProgressState(data?.state ?? defaultProgressStateForUser(user.username)),
     updatedAt: data?.updated_at ?? null,
   });
 }
@@ -44,12 +55,21 @@ export async function PUT(request: Request) {
     });
   }
 
+  const user = await getCurrentUser();
+  if (!user) {
+    return NextResponse.json({
+      configured: true,
+      authenticated: false,
+      message: "Sign in to save progress to the database.",
+    }, { status: 401 });
+  }
+
   const progress = normalizeProgressState(await request.json());
   const supabase = createSupabaseAdmin();
   const { error } = await supabase
     .from("pokemon_progress")
     .upsert({
-      id: PROGRESS_ID,
+      id: user.id,
       state: progress,
       updated_at: new Date().toISOString(),
     });
@@ -60,6 +80,8 @@ export async function PUT(request: Request) {
 
   return NextResponse.json({
     configured: true,
+    authenticated: true,
+    user,
     progress,
     message: "Progress saved.",
   });

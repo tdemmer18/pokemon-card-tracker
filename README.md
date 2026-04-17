@@ -1,53 +1,57 @@
-# Pokémon Card Tracker
+# Pokemon Card Tracker
 
-Streamlit checklist for tracking your Pokédex. Run locally:
+Next.js Pokedex checklist with Supabase-backed accounts and per-user progress.
 
-```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## GitHub (private repo)
-
-1. On [github.com/new](https://github.com/new): choose **Private**, create the repo (no README if you already have this folder).
-2. In a terminal on your machine:
+## Run Locally
 
 ```bash
-cd /path/to/pokemon
-git init -b main
-git add app.py requirements.txt .streamlit/config.toml data/pokedex.json .gitignore README.md
-git commit -m "Initial commit: Pokémon Card Tracker"
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
+npm install
+npm run build
+npm start
 ```
 
-`data/progress.json` is ignored so each clone (and the cloud app) starts with its own progress unless you add persistence later.
+Open:
 
-## Publish to a URL (Streamlit Community Cloud)
+```text
+http://localhost:3000
+```
 
-1. Push the repo to GitHub (steps above).
-2. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub.
-3. **New app** → pick the repo, branch `main`, main file **`app.py`**.
-4. Deploy. Cloud will install dependencies from `requirements.txt`.
+For local database-backed login and progress, create `.env.local`:
 
-### Durable data (PostgreSQL)
+```bash
+SUPABASE_URL=https://your-project-ref.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your-secret-service-role-key
+```
 
-Streamlit Community Cloud’s filesystem is **not** reliable for `data/progress.json`. This app uses **PostgreSQL** when configured.
+## Supabase Setup
 
-1. Create a free database (e.g. [Neon](https://neon.tech) or [Supabase](https://supabase.com)) and copy the **connection string** (must start with `postgresql://` or `postgres://`).
-2. In Streamlit Cloud: **App settings → Secrets** and add:
+1. Create a Supabase project.
+2. Open **SQL Editor**.
+3. Run `supabase/schema.sql`.
+4. Copy the project API URL into `SUPABASE_URL`.
+5. Copy the secret/service-role key into `SUPABASE_SERVICE_ROLE_KEY`.
 
-   ```toml
-   DATABASE_URL = "postgresql://USER:PASSWORD@HOST/DBNAME?sslmode=require"
-   ```
+The service-role key must only be used on the server. Do not expose it in browser code.
 
-3. Redeploy. Tables (`tracker_user`, `collection_entry`, `app_setting`) are created automatically on first run.
+## Deploy
 
-If `DATABASE_URL` is missing, the app keeps using **`data/progress.json`** (good for local development).
+Deploy the GitHub repo on Vercel as a Next.js project.
 
-**Note:** The app does not implement login. Everyone hitting your public Streamlit URL shares the same database (same as sharing one `progress.json`). That is usually fine for a personal or household deployment; add authentication later if you need isolated cloud accounts.
+Use these environment variables in Vercel:
 
-For **private** apps on the community tier, check Streamlit’s current docs for [app visibility](https://docs.streamlit.io/streamlit-community-cloud) and plans.
+```bash
+SUPABASE_URL=https://your-project-ref.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your-secret-service-role-key
+```
 
-Alternatives: **Railway**, **Render**, or **Fly.io** with `streamlit run app.py --server.port $PORT --server.address 0.0.0.0`.
+Add them for Production before deploying. If you change environment variables later, redeploy the project.
+
+## Updating The Live App
+
+```bash
+git add -A
+git commit -m "Describe the change"
+git push origin main
+```
+
+Vercel will deploy the latest `main` branch automatically when the project is connected to GitHub.

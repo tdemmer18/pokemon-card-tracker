@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import type { FormEvent } from "react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   allTypes,
@@ -42,6 +43,10 @@ const TYPE_ACCENTS: Record<string, string> = {
 };
 
 type PersistedState = Partial<ProgressState>;
+type AuthUser = {
+  id: string;
+  username: string;
+};
 
 function userColor(name: string): string {
   if (name.trim().toLowerCase() === "owen") {
@@ -85,6 +90,12 @@ export default function HomePage() {
   const [isRemoteProgressEnabled, setIsRemoteProgressEnabled] = useState(false);
   const [isRemoteProgressReady, setIsRemoteProgressReady] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [authUser, setAuthUser] = useState<AuthUser | null>(null);
+  const [authMode, setAuthMode] = useState<"login" | "signup">("login");
+  const [authUsername, setAuthUsername] = useState("");
+  const [authPassword, setAuthPassword] = useState("");
+  const [isAuthLoading, setIsAuthLoading] = useState(false);
+  const [authStatus, setAuthStatus] = useState("");
 
   useEffect(() => {
     if (!isSettingsOpen) return;
@@ -137,26 +148,31 @@ export default function HomePage() {
     setIsHydrated(true);
   }, [applyProgressState]);
 
-  useEffect(() => {
-    if (!isHydrated) return;
-
-    let isCancelled = false;
-
-    async function loadProgress() {
+  const loadRemoteProgress = useCallback(async () => {
       try {
         const response = await fetch("/api/progress", { cache: "no-store" });
-        if (!response.ok) {
-          throw new Error(`Progress sync failed with status ${response.status}`);
-        }
-
         const payload = (await response.json()) as {
           configured: boolean;
-          progress?: ProgressState;
+          authenticated?: boolean;
+          user?: AuthUser;
+          progress?: ProgressState | null;
           message?: string;
         };
 
-        if (isCancelled) return;
         setIsRemoteProgressEnabled(payload.configured);
+
+        if (!response.ok) {
+          if (response.status === 401 && payload.configured) {
+            setAuthUser(null);
+            setStatus(payload.message ?? "Sign in to save progress to the database.");
+            return;
+          }
+          throw new Error(`Progress sync failed with status ${response.status}`);
+        }
+
+        if (payload.user) {
+          setAuthUser(payload.user);
+        }
         if (payload.configured && payload.progress) {
           applyProgressState(payload.progress);
           setStatus("Loaded shared progress from database.");
@@ -164,22 +180,24 @@ export default function HomePage() {
           setStatus(payload.message);
         }
       } catch {
-        if (!isCancelled) {
-          setIsRemoteProgressEnabled(false);
-          setStatus("Using local browser progress.");
-        }
+        setIsRemoteProgressEnabled(false);
+        setStatus("Using local browser progress.");
       } finally {
-        if (!isCancelled) {
-          setIsRemoteProgressReady(true);
-        }
+        setIsRemoteProgressReady(true);
       }
-    }
+  }, [applyProgressState]);
 
-    void loadProgress();
+  useEffect(() => {
+    if (!isHydrated) return;
+
+    let isCancelled = false;
+    void loadRemoteProgress().then(() => {
+      if (isCancelled) return;
+    });
     return () => {
       isCancelled = true;
     };
-  }, [applyProgressState, isHydrated]);
+  }, [isHydrated, loadRemoteProgress]);
 
   useEffect(() => {
     if (!isHydrated) return;
@@ -202,7 +220,7 @@ export default function HomePage() {
   }, [isHydrated, users, currentUser, caughtByUser, theme, search, sortBy, generation, completion, typeFilter, pageSize, page]);
 
   useEffect(() => {
-    if (!isHydrated || !isRemoteProgressReady || !isRemoteProgressEnabled) return;
+    if (!isHydrated || !isRemoteProgressReady || !isRemoteProgressEnabled || !authUser) return;
 
     const progress: ProgressState = {
       users,
@@ -231,7 +249,7 @@ export default function HomePage() {
     }, 500);
 
     return () => window.clearTimeout(timeout);
-  }, [caughtByUser, completion, currentUser, generation, isHydrated, isRemoteProgressEnabled, isRemoteProgressReady, page, pageSize, search, sortBy, theme, typeFilter, users]);
+  }, [authUser, caughtByUser, completion, currentUser, generation, isHydrated, isRemoteProgressEnabled, isRemoteProgressReady, page, pageSize, search, sortBy, theme, typeFilter, users]);
 
   const syncPokedex = async () => {
     setIsSyncing(true);
@@ -373,6 +391,111 @@ export default function HomePage() {
     setStatus(`Added ${name}.`);
   };
 
+  const submitAuth = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setIsAuthLoading(true);
+    setAuthStatus("");
+
+    try {
+      const response = await fetch("/api/auth", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          mode: authMode,
+          username: authUsername,
+          password: authPassword,
+        }),
+      });
+      const payload = (await response.json()) as {
+        user?: AuthUser;
+        error?: string;
+        message?: string;
+      };
+
+      if (!response.ok || !payload.user) {
+        throw new Error(payload.error ?? "Could not sign in.");
+      }
+
+      setAuthUser(payload.user);
+      setAuthPassword("");
+      setAuthStatus(payload.message ?? "Signed in.");
+      setStatus(`Signed in as ${payload.user.username}.`);
+      await loadRemoteProgress();
+    } catch (error) {
+      setAuthStatus(error instanceof Error ? error.message : "Could not sign in.");
+    } finally {
+      setIsAuthLoading(false);
+    }
+  };
+
+  const signOut = async () => {
+    await fetch("/api/auth", { method: "DELETE" }).catch(() => undefined);
+    setAuthUser(null);
+    setStatus("Signed out. Local browser progress is still available.");
+    setIsSettingsOpen(false);
+  };
+
+  if (isRemoteProgressEnabled && isRemoteProgressReady && !authUser) {
+    return (
+      <main className="app-shell auth-shell">
+        <section className="auth-card">
+          <h1 className="app-title">Pokedex</h1>
+          <p className="auth-copy">Sign in to save your progress from any device.</p>
+          <form className="auth-form" onSubmit={submitAuth}>
+            <div className="auth-tabs" role="tablist" aria-label="Account mode">
+              <button
+                type="button"
+                className={`auth-tab ${authMode === "login" ? "is-active" : ""}`}
+                onClick={() => {
+                  setAuthMode("login");
+                  setAuthStatus("");
+                }}
+              >
+                Sign In
+              </button>
+              <button
+                type="button"
+                className={`auth-tab ${authMode === "signup" ? "is-active" : ""}`}
+                onClick={() => {
+                  setAuthMode("signup");
+                  setAuthStatus("");
+                }}
+              >
+                Create Account
+              </button>
+            </div>
+            <input
+              className="control"
+              type="text"
+              value={authUsername}
+              onChange={(event) => setAuthUsername(event.target.value)}
+              placeholder="Username"
+              autoComplete="username"
+            />
+            <input
+              className="control"
+              type="password"
+              value={authPassword}
+              onChange={(event) => setAuthPassword(event.target.value)}
+              placeholder="Password"
+              autoComplete={authMode === "signup" ? "new-password" : "current-password"}
+            />
+            <button
+              type="submit"
+              className="action-button action-button-wide"
+              disabled={isAuthLoading || !authUsername.trim() || authPassword.length < 8}
+            >
+              {isAuthLoading ? "Working..." : authMode === "signup" ? "Create Account" : "Sign In"}
+            </button>
+            {authStatus ? <p className="auth-status">{authStatus}</p> : null}
+          </form>
+        </section>
+      </main>
+    );
+  }
+
   return (
     <main className="app-shell">
       <header className="app-header">
@@ -404,6 +527,11 @@ export default function HomePage() {
               </span>
             </span>
           </button>
+          {authUser ? (
+            <button type="button" className="auth-user-chip" onClick={() => setIsSettingsOpen(true)}>
+              {authUser.username}
+            </button>
+          ) : null}
           <button
             type="button"
             className="settings-toggle"
@@ -513,6 +641,11 @@ export default function HomePage() {
                   <option key={user} value={user}>{user}</option>
                 ))}
               </select>
+              {authUser ? (
+                <button type="button" className="action-button action-button-wide sign-out-button" onClick={() => void signOut()}>
+                  Sign Out
+                </button>
+              ) : null}
             </section>
 
             <section className="sidebar-section">

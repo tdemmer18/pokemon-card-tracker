@@ -34,6 +34,16 @@ export const defaultProgressState: ProgressState = {
   page: 1,
 };
 
+export function defaultProgressStateForUser(user: string): ProgressState {
+  const name = user.trim() || DEFAULT_USER;
+  return {
+    ...defaultProgressState,
+    users: [name],
+    currentUser: name,
+    caughtByUser: { [name]: {} },
+  };
+}
+
 function isRecord(value: unknown): value is Record<string, unknown> {
   return Boolean(value && typeof value === "object" && !Array.isArray(value));
 }
