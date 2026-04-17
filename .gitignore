@@ -1,16 +1,4 @@
-# Python
-__pycache__/
-*.py[cod]
-.Python
-.venv/
-venv/
-.env
-.env.*
-
-# Local user progress (created at runtime; don’t commit personal collections)
-data/progress.json
-
-# OS / editor
-.DS_Store
-.idea/
-.vscode/
+node_modules
+.next
+.env*.local
+*.tsbuildinfo
