@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "assets.pokemon.com",
       },
+      {
+        protocol: "https",
+        hostname: "images.pokemontcg.io",
+      },
     ],
   },
   turbopack: {

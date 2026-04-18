@@ -913,6 +913,8 @@ a {
 }
 
 .pokemon-card {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -931,8 +933,9 @@ a {
   position: relative;
   z-index: 1;
   display: block;
+  flex: 1;
   width: 100%;
-  min-height: 100%;
+  min-height: 0;
   padding: 16px;
   background: transparent;
   color: inherit;
@@ -1044,12 +1047,245 @@ a {
   margin-top: 12px;
 }
 
+.pokemon-action-row {
+  padding: 0 16px 16px;
+  align-items: center;
+}
+
 .type-pill {
   min-height: 30px;
   padding: 0 11px;
   color: var(--text);
   font-size: 0.8rem;
   font-weight: 700;
+}
+
+.pokemon-variations-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 74px;
+  height: 30px;
+  margin-left: auto;
+  padding: 0 14px;
+  border: 1px solid color-mix(in srgb, var(--accent-2) 78%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-2) 18%, var(--surface-strong));
+  color: var(--accent-2);
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 900;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+
+.pokemon-variations-link:hover,
+.pokemon-variations-link:focus-visible {
+  border-color: var(--accent-2);
+  background: color-mix(in srgb, var(--accent-2) 28%, var(--surface-strong));
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.tcg-gallery-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: color-mix(in srgb, var(--crust) 78%, transparent);
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  overflow-y: auto;
+  animation: settings-overlay-in 160ms ease;
+}
+
+.tcg-gallery-panel {
+  min-height: calc(100vh - 40px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+
+.tcg-gallery-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 14px;
+  margin: -18px -18px 18px;
+  padding: 18px;
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface-strong) 92%, transparent);
+  backdrop-filter: blur(18px);
+}
+
+.tcg-gallery-title {
+  margin: 4px 0 0;
+  font-size: clamp(1.8rem, 4vw, 3.4rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
+
+.tcg-gallery-status {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.tcg-gallery-back {
+  min-width: 84px;
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
+.tcg-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.tcg-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface-strong);
+}
+
+.tcg-card.is-caught {
+  border-color: color-mix(in srgb, var(--success) 80%, var(--line));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--success) 24%, transparent);
+}
+
+.tcg-card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tcg-card-meta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 10px;
+  padding: 10px 12px 44px;
+}
+
+.tcg-card-meta h3,
+.tcg-card-meta p {
+  margin: 0;
+}
+
+.tcg-card-meta h3 {
+  font-size: 0.96rem;
+}
+
+.tcg-card-meta p {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.tcg-card-copy {
+  min-width: 0;
+}
+
+.tcg-card-copy h3,
+.tcg-card-copy p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tcg-card-view-button {
+  min-height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 800;
+  transition: transform 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+
+.tcg-card-view-button:hover,
+.tcg-card-view-button:focus-visible {
+  border-color: var(--line-strong);
+  color: var(--accent);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.tcg-card-status-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  min-height: 28px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.74rem;
+  font-weight: 800;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease, color 140ms ease;
+}
+
+.tcg-card-status-button.is-caught {
+  border-color: color-mix(in srgb, var(--success) 56%, var(--line));
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+.tcg-card-status-button:hover,
+.tcg-card-status-button:focus-visible {
+  border-color: var(--line-strong);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.tcg-preview-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  background: color-mix(in srgb, var(--crust) 84%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.tcg-preview-close {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 1;
+}
+
+.tcg-preview-image {
+  width: auto;
+  max-width: min(92vw, 520px);
+  max-height: 92vh;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+.tcg-gallery-empty {
+  display: grid;
+  place-items: center;
+  min-height: 320px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-strong);
+  color: var(--muted);
+  text-align: center;
+  padding: 24px;
 }
 
 .empty-state {
@@ -1290,10 +1526,79 @@ a {
     margin-top: 8px;
   }
 
+  .pokemon-action-row {
+    max-width: none;
+    padding: 0 10px 10px;
+  }
+
   .type-pill {
     min-height: 24px;
     padding: 0 8px;
     font-size: 0.68rem;
+  }
+
+  .pokemon-variations-link {
+    min-width: 64px;
+    height: 24px;
+    padding: 0 10px;
+    font-size: 0.68rem;
+  }
+
+  .tcg-gallery-overlay {
+    padding: 0;
+  }
+
+  .tcg-gallery-panel {
+    min-height: 100vh;
+    border-width: 0;
+    border-radius: 0;
+    padding: 12px;
+  }
+
+  .tcg-gallery-header {
+    margin: -12px -12px 12px;
+    padding: 12px;
+  }
+
+  .tcg-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .tcg-card-meta {
+    padding: 8px;
+  }
+
+  .tcg-card-meta {
+    grid-template-columns: 1fr;
+    padding-bottom: 42px;
+  }
+
+  .tcg-card-meta h3 {
+    font-size: 0.82rem;
+  }
+
+  .tcg-card-meta p {
+    font-size: 0.7rem;
+  }
+
+  .tcg-card-view-button {
+    min-height: 28px;
+    justify-self: start;
+    padding: 0 8px;
+    font-size: 0.7rem;
+  }
+
+  .tcg-card-status-button {
+    right: 8px;
+    bottom: 8px;
+    min-height: 26px;
+    padding: 0 8px;
+    font-size: 0.68rem;
+  }
+
+  .tcg-preview-overlay {
+    padding: 12px;
   }
 
   .capture-pill {
@@ -1319,5 +1624,9 @@ a {
 
   .type-row {
     max-width: 150px;
+  }
+
+  .pokemon-action-row {
+    max-width: none;
   }
 }

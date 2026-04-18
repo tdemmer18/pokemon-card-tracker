@@ -19,6 +19,7 @@ import {
 import type { ProgressState } from "@/lib/progress";
 
 const STORAGE_KEY = "pokemon-web:v1";
+const TCG_STORAGE_KEY = "pokemon-web:tcg-cards:v1";
 const DEFAULT_USER = "Owen";
 
 const TYPE_ACCENTS: Record<string, string> = {
@@ -66,6 +67,18 @@ type CommunityAccount = {
   updatedAt: string | null;
   progress: ProgressState;
 };
+
+type TcgCard = {
+  id: string;
+  name: string;
+  setName: string;
+  number: string;
+  rarity: string | null;
+  artist: string | null;
+  imageUrl: string;
+};
+
+type TcgGalleryPokemon = Pick<PokemonEntry, "id" | "name" | "number">;
 
 function userColor(name: string): string {
   if (name.trim().toLowerCase() === "owen") {
@@ -123,6 +136,14 @@ export default function HomePage() {
   const [peopleStatus, setPeopleStatus] = useState("");
   const [communityAccounts, setCommunityAccounts] = useState<CommunityAccount[]>([]);
   const [viewingAccount, setViewingAccount] = useState<CommunityAccount | null>(null);
+  const [tcgGalleryPokemon, setTcgGalleryPokemon] = useState<TcgGalleryPokemon | null>(null);
+  const [tcgCards, setTcgCards] = useState<TcgCard[]>([]);
+  const [isTcgLoading, setIsTcgLoading] = useState(false);
+  const [tcgStatus, setTcgStatus] = useState("");
+  const [tcgCaughtByUser, setTcgCaughtByUser] = useState<Record<string, Record<string, boolean>>>({
+    [DEFAULT_USER]: {},
+  });
+  const [previewTcgCard, setPreviewTcgCard] = useState<TcgCard | null>(null);
 
   useEffect(() => {
     if (!isSettingsOpen) return;
@@ -137,6 +158,25 @@ export default function HomePage() {
       document.body.style.overflow = prevOverflow;
     };
   }, [isSettingsOpen]);
+
+  useEffect(() => {
+    if (!tcgGalleryPokemon) return;
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      if (previewTcgCard) {
+        setPreviewTcgCard(null);
+        return;
+      }
+      setTcgGalleryPokemon(null);
+    };
+    window.addEventListener("keydown", onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [previewTcgCard, tcgGalleryPokemon]);
 
   const ownCaught = caughtByUser[currentUser] ?? {};
   const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
@@ -175,6 +215,13 @@ export default function HomePage() {
       const raw = window.localStorage.getItem(STORAGE_KEY);
       if (raw) {
         applyProgressState(JSON.parse(raw) as PersistedState);
+      }
+      const rawTcg = window.localStorage.getItem(TCG_STORAGE_KEY);
+      if (rawTcg) {
+        const parsed = JSON.parse(rawTcg) as Record<string, Record<string, boolean>>;
+        if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+          setTcgCaughtByUser(parsed);
+        }
       }
     } catch {
       // ignore bad local state
@@ -254,6 +301,11 @@ export default function HomePage() {
       } satisfies PersistedState),
     );
   }, [isHydrated, users, currentUser, caughtByUser, theme, search, sortBy, generation, completion, typeFilter, pageSize, page, selectedUserColor, userAlias]);
+
+  useEffect(() => {
+    if (!isHydrated) return;
+    window.localStorage.setItem(TCG_STORAGE_KEY, JSON.stringify(tcgCaughtByUser));
+  }, [isHydrated, tcgCaughtByUser]);
 
   useEffect(() => {
     if (!isHydrated || !isRemoteProgressReady || !isRemoteProgressEnabled || !authUser) return;
@@ -416,6 +468,56 @@ export default function HomePage() {
     const entry = entries.find((item) => item.id === pokemonId);
     if (entry) {
       setStatus(`${currentUser}: ${nextCaught ? "caught" : "removed"} ${entry.name}.`);
+    }
+  };
+
+  const setTcgCaughtStatus = (cardId: string, nextCaught: boolean) => {
+    setTcgCaughtByUser((current) => {
+      const currentUserCaught = { ...(current[currentUser] ?? {}) };
+      if (nextCaught) {
+        currentUserCaught[cardId] = true;
+      } else {
+        delete currentUserCaught[cardId];
+      }
+
+      return {
+        ...current,
+        [currentUser]: currentUserCaught,
+      };
+    });
+
+    const card = tcgCards.find((item) => item.id === cardId);
+    if (card) {
+      setTcgStatus(`${nextCaught ? "Caught" : "Missing"} ${card.name} from ${card.setName}.`);
+    }
+  };
+
+  const openTcgGallery = async (entry: PokemonEntry) => {
+    setTcgGalleryPokemon({ id: entry.id, name: entry.name, number: entry.number });
+    setTcgCards([]);
+    setIsTcgLoading(true);
+    setTcgStatus(`Loading ${entry.name} card images...`);
+
+    try {
+      const response = await fetch(`/api/tcg?number=${entry.id}&name=${encodeURIComponent(entry.name)}`, {
+        cache: "no-store",
+      });
+      const payload = (await response.json()) as {
+        cards?: TcgCard[];
+        message?: string;
+      };
+
+      if (!response.ok) {
+        throw new Error(payload.message ?? "Could not load cards.");
+      }
+
+      setTcgCards(payload.cards ?? []);
+      setTcgStatus(payload.message ?? `Loaded ${payload.cards?.length ?? 0} card images.`);
+    } catch {
+      setTcgCards([]);
+      setTcgStatus("Could not load card images right now.");
+    } finally {
+      setIsTcgLoading(false);
     }
   };
 
@@ -1008,6 +1110,112 @@ export default function HomePage() {
         </div>
       ) : null}
 
+      {tcgGalleryPokemon ? (
+        <section
+          className="tcg-gallery-overlay"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="tcg-gallery-title"
+        >
+          <div className="tcg-gallery-panel">
+            <header className="tcg-gallery-header">
+              <div>
+                <p className="hero-kicker">TCG Cards</p>
+                <h2 id="tcg-gallery-title" className="tcg-gallery-title">
+                  {tcgGalleryPokemon.name} #{tcgGalleryPokemon.number}
+                </h2>
+                <p className="tcg-gallery-status">{tcgStatus}</p>
+              </div>
+              <button
+                type="button"
+                className="action-button tcg-gallery-back"
+                onClick={() => {
+                  setPreviewTcgCard(null);
+                  setTcgGalleryPokemon(null);
+                }}
+              >
+                Back
+              </button>
+            </header>
+
+            {isTcgLoading ? (
+              <div className="tcg-gallery-empty">Loading card images...</div>
+            ) : tcgCards.length ? (
+              <div className="tcg-card-grid">
+                {tcgCards.map((card) => {
+                  const isTcgCaught = Boolean(tcgCaughtByUser[currentUser]?.[card.id]);
+
+                  return (
+                    <article className={`tcg-card ${isTcgCaught ? "is-caught" : ""}`} key={card.id}>
+                      <Image
+                        src={card.imageUrl}
+                        alt={`${card.name} from ${card.setName}`}
+                        width={488}
+                        height={680}
+                        className="tcg-card-image"
+                        sizes="(max-width: 700px) 45vw, (max-width: 1100px) 28vw, 220px"
+                      />
+                      <div className="tcg-card-meta">
+                        <div className="tcg-card-copy">
+                          <h3>{card.name}</h3>
+                          <p>{card.setName} · {card.number}</p>
+                          <p>{[card.rarity, card.artist].filter(Boolean).join(" · ")}</p>
+                        </div>
+                        <button
+                          type="button"
+                          className="tcg-card-view-button"
+                          onClick={() => setPreviewTcgCard(card)}
+                        >
+                          View
+                        </button>
+                      </div>
+                      <button
+                        type="button"
+                        className={`tcg-card-status-button ${isTcgCaught ? "is-caught" : ""}`}
+                        onClick={() => setTcgCaughtStatus(card.id, !isTcgCaught)}
+                        aria-pressed={isTcgCaught}
+                        aria-label={`${isTcgCaught ? "Mark" : "Unmark"} ${card.name} from ${card.setName} ${isTcgCaught ? "missing" : "caught"}`}
+                      >
+                        {isTcgCaught ? "Caught" : "Missing"}
+                      </button>
+                    </article>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="tcg-gallery-empty">{tcgStatus}</div>
+            )}
+          </div>
+        </section>
+      ) : null}
+
+      {previewTcgCard ? (
+        <section
+          className="tcg-preview-overlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${previewTcgCard.name} card preview`}
+          onClick={() => setPreviewTcgCard(null)}
+        >
+          <button
+            type="button"
+            className="settings-close tcg-preview-close"
+            onClick={() => setPreviewTcgCard(null)}
+            aria-label="Close card preview"
+          >
+            ×
+          </button>
+          <Image
+            src={previewTcgCard.imageUrl}
+            alt={`${previewTcgCard.name} from ${previewTcgCard.setName}`}
+            width={734}
+            height={1024}
+            className="tcg-preview-image"
+            onClick={(event) => event.stopPropagation()}
+          />
+        </section>
+      ) : null}
+
       <div className="shell-grid">
         <section className="main-card">
           <div className="main-toolbar">
@@ -1058,45 +1266,64 @@ export default function HomePage() {
                         <p className="pokemon-region">
                           Gen {entry.generation} · {GENERATION_NAMES[entry.generation]}
                         </p>
-                        <div className="type-row">
-                          {entry.types.map((type) => (
-                            <span
-                              key={type}
-                              className="type-pill"
-                              style={{ background: `color-mix(in srgb, ${TYPE_ACCENTS[type] ?? "#94a3b8"} 18%, var(--surface-strong))`, borderColor: TYPE_ACCENTS[type] ?? "#94a3b8" }}
-                            >
-                              {type}
-                            </span>
-                          ))}
-                        </div>
                       </div>
                     </div>
                   </>
+                );
+                const typeActions = (
+                  <div className="type-row pokemon-action-row">
+                    {entry.types.map((type) => (
+                      <span
+                        key={type}
+                        className="type-pill"
+                        style={{ background: `color-mix(in srgb, ${TYPE_ACCENTS[type] ?? "#94a3b8"} 18%, var(--surface-strong))`, borderColor: TYPE_ACCENTS[type] ?? "#94a3b8" }}
+                      >
+                        {type}
+                      </span>
+                    ))}
+                    <button
+                      type="button"
+                      className="pokemon-variations-link"
+                      onClick={() => void openTcgGallery(entry)}
+                      title={`Show ${entry.name} TCG cards`}
+                      aria-label={`Show ${entry.name} TCG card images in this app`}
+                    >
+                      Cards
+                    </button>
+                  </div>
                 );
 
                 if (isViewingReadOnly) {
                   return (
                     <article
                       key={entry.id}
-                      className={`pokemon-card pokemon-card-toggle is-read-only ${isCaught ? "is-caught" : ""}`}
+                      className={`pokemon-card ${isCaught ? "is-caught" : ""}`}
                       aria-label={`${entry.name} is ${isCaught ? "caught" : "missing"} for ${viewedDisplayName}`}
                     >
-                      {cardContent}
+                      <div className={`pokemon-card-toggle is-read-only ${isCaught ? "is-caught" : ""}`}>
+                        {cardContent}
+                      </div>
+                      {typeActions}
                     </article>
                   );
                 }
 
                 return (
-                  <button
+                  <article
                     key={entry.id}
-                    type="button"
-                    className={`pokemon-card pokemon-card-toggle ${isCaught ? "is-caught" : ""}`}
-                    onClick={() => setCaughtStatus(entry.id, !isCaught)}
-                    aria-pressed={isCaught}
-                    aria-label={`${isCaught ? "Unmark" : "Mark"} ${entry.name} as caught`}
+                    className={`pokemon-card ${isCaught ? "is-caught" : ""}`}
                   >
-                    {cardContent}
-                  </button>
+                    <button
+                      type="button"
+                      className={`pokemon-card-toggle ${isCaught ? "is-caught" : ""}`}
+                      onClick={() => setCaughtStatus(entry.id, !isCaught)}
+                      aria-pressed={isCaught}
+                      aria-label={`${isCaught ? "Unmark" : "Mark"} ${entry.name} as caught`}
+                    >
+                      {cardContent}
+                    </button>
+                    {typeActions}
+                  </article>
                 );
               })
             ) : (
