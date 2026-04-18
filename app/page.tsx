@@ -144,6 +144,23 @@ export default function HomePage() {
     [DEFAULT_USER]: {},
   });
   const [previewTcgCard, setPreviewTcgCard] = useState<TcgCard | null>(null);
+  const [isCombinedProgress, setIsCombinedProgress] = useState(false);
+  const ownCaught = caughtByUser[currentUser] ?? {};
+  const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
+  const viewedCaught = viewingAccount
+    ? viewingAccount.progress.caughtByUser[viewingTrainer] ?? {}
+    : ownCaught;
+  const isViewingReadOnly = Boolean(viewingAccount);
+  const previewTcgCardIndex = previewTcgCard
+    ? tcgCards.findIndex((card) => card.id === previewTcgCard.id)
+    : -1;
+  const canCyclePreview = previewTcgCardIndex >= 0 && tcgCards.length > 1;
+
+  const cyclePreviewTcgCard = useCallback((direction: -1 | 1) => {
+    if (previewTcgCardIndex < 0 || tcgCards.length < 2) return;
+    const nextIndex = (previewTcgCardIndex + direction + tcgCards.length) % tcgCards.length;
+    setPreviewTcgCard(tcgCards[nextIndex]);
+  }, [previewTcgCardIndex, tcgCards]);
 
   useEffect(() => {
     if (!isSettingsOpen) return;
@@ -162,12 +179,23 @@ export default function HomePage() {
   useEffect(() => {
     if (!tcgGalleryPokemon) return;
     const onKey = (event: KeyboardEvent) => {
-      if (event.key !== "Escape") return;
-      if (previewTcgCard) {
+      if (event.key === "Escape" && previewTcgCard) {
         setPreviewTcgCard(null);
         return;
       }
-      setTcgGalleryPokemon(null);
+      if (event.key === "Escape") {
+        setTcgGalleryPokemon(null);
+        return;
+      }
+      if (!previewTcgCard) return;
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        cyclePreviewTcgCard(-1);
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        cyclePreviewTcgCard(1);
+      }
     };
     window.addEventListener("keydown", onKey);
     const prevOverflow = document.body.style.overflow;
@@ -176,14 +204,7 @@ export default function HomePage() {
       window.removeEventListener("keydown", onKey);
       document.body.style.overflow = prevOverflow;
     };
-  }, [previewTcgCard, tcgGalleryPokemon]);
-
-  const ownCaught = caughtByUser[currentUser] ?? {};
-  const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
-  const viewedCaught = viewingAccount
-    ? viewingAccount.progress.caughtByUser[viewingTrainer] ?? {}
-    : ownCaught;
-  const isViewingReadOnly = Boolean(viewingAccount);
+  }, [cyclePreviewTcgCard, previewTcgCard, tcgGalleryPokemon]);
 
   const applyProgressState = useCallback((saved: PersistedState) => {
     if (saved.users?.length) setUsers(saved.users);
@@ -448,6 +469,9 @@ export default function HomePage() {
       visible: filteredEntries.length,
     };
   }, [entries.length, filteredEntries.length, viewedCaught]);
+  const tcgCaughtTotal = Object.values(tcgCaughtByUser[currentUser] ?? {}).filter(Boolean).length;
+  const combinedCaughtTotal = stats.totalCaught + tcgCaughtTotal;
+  const heroModeLabel = isCombinedProgress ? "Pokedex" : "All caught";
 
   const generationOptions = useMemo(
     () => ["All", ...[...new Set(entries.map((entry) => entry.generation))].sort((left, right) => left - right).map((value) => `Gen ${value}`)],
@@ -766,18 +790,36 @@ export default function HomePage() {
         </div>
       </header>
 
-      <section className="hero-card">
-        <p className="hero-kicker">{isViewingReadOnly && viewingAccount ? `Viewing ${viewingAccount.username}` : "Progress"}</p>
+      <section className={`hero-card ${isCombinedProgress ? "is-combined" : ""}`}>
+        <button
+          type="button"
+          className="hero-mode-toggle"
+          onClick={() => setIsCombinedProgress((current) => !current)}
+          aria-pressed={isCombinedProgress}
+        >
+          {heroModeLabel}
+        </button>
+        <p className="hero-kicker">
+          {isCombinedProgress
+            ? "All Caught"
+            : isViewingReadOnly && viewingAccount
+              ? `Viewing ${viewingAccount.username}`
+              : "Progress"}
+        </p>
         <div className="hero-row">
           <h2 className="hero-value">
-            {stats.totalCaught}
-            <span> / {stats.total}</span>
+            {isCombinedProgress ? combinedCaughtTotal : stats.totalCaught}
+            <span>{isCombinedProgress ? " total" : ` / ${stats.total}`}</span>
           </h2>
           <div className="hero-meter">
-            <div className="hero-meter-bar" style={{ width: `${stats.percentage}%` }} />
+            <div className="hero-meter-bar" style={{ width: `${isCombinedProgress ? stats.percentage : stats.percentage}%` }} />
           </div>
         </div>
-        <p className="hero-meta">{completionLabel(stats.totalCaught, stats.total)}</p>
+        <p className="hero-meta">
+          {isCombinedProgress
+            ? `${stats.totalCaught} Pokemon caught + ${tcgCaughtTotal} card variants caught`
+            : completionLabel(stats.totalCaught, stats.total)}
+        </p>
       </section>
 
       <div className="quick-toggle-row" aria-label="Pokemon visibility filter">
@@ -1146,7 +1188,20 @@ export default function HomePage() {
                   const isTcgCaught = Boolean(tcgCaughtByUser[currentUser]?.[card.id]);
 
                   return (
-                    <article className={`tcg-card ${isTcgCaught ? "is-caught" : ""}`} key={card.id}>
+                    <article
+                      className={`tcg-card ${isTcgCaught ? "is-caught" : ""}`}
+                      key={card.id}
+                      onClick={() => setPreviewTcgCard(card)}
+                      role="button"
+                      tabIndex={0}
+                      onKeyDown={(event) => {
+                        if (event.key === "Enter" || event.key === " ") {
+                          event.preventDefault();
+                          setPreviewTcgCard(card);
+                        }
+                      }}
+                      aria-label={`View ${card.name} from ${card.setName}`}
+                    >
                       <Image
                         src={card.imageUrl}
                         alt={`${card.name} from ${card.setName}`}
@@ -1163,21 +1218,17 @@ export default function HomePage() {
                         </div>
                         <button
                           type="button"
-                          className="tcg-card-view-button"
-                          onClick={() => setPreviewTcgCard(card)}
+                          className={`tcg-card-status-button ${isTcgCaught ? "is-caught" : ""}`}
+                          onClick={(event) => {
+                            event.stopPropagation();
+                            setTcgCaughtStatus(card.id, !isTcgCaught);
+                          }}
+                          aria-pressed={isTcgCaught}
+                          aria-label={`${isTcgCaught ? "Mark" : "Unmark"} ${card.name} from ${card.setName} ${isTcgCaught ? "missing" : "caught"}`}
                         >
-                          View
+                          {isTcgCaught ? "Caught" : "Missing"}
                         </button>
                       </div>
-                      <button
-                        type="button"
-                        className={`tcg-card-status-button ${isTcgCaught ? "is-caught" : ""}`}
-                        onClick={() => setTcgCaughtStatus(card.id, !isTcgCaught)}
-                        aria-pressed={isTcgCaught}
-                        aria-label={`${isTcgCaught ? "Mark" : "Unmark"} ${card.name} from ${card.setName} ${isTcgCaught ? "missing" : "caught"}`}
-                      >
-                        {isTcgCaught ? "Caught" : "Missing"}
-                      </button>
                     </article>
                   );
                 })}
@@ -1205,6 +1256,32 @@ export default function HomePage() {
           >
             ×
           </button>
+          {canCyclePreview ? (
+            <>
+              <button
+                type="button"
+                className="tcg-preview-nav tcg-preview-nav-prev"
+                onClick={(event) => {
+                  event.stopPropagation();
+                  cyclePreviewTcgCard(-1);
+                }}
+                aria-label="View previous card"
+              >
+                ‹
+              </button>
+              <button
+                type="button"
+                className="tcg-preview-nav tcg-preview-nav-next"
+                onClick={(event) => {
+                  event.stopPropagation();
+                  cyclePreviewTcgCard(1);
+                }}
+                aria-label="View next card"
+              >
+                ›
+              </button>
+            </>
+          ) : null}
           <Image
             src={previewTcgCard.imageUrl}
             alt={`${previewTcgCard.name} from ${previewTcgCard.setName}`}

@@ -317,6 +317,51 @@ button {
   margin-bottom: 18px;
   padding: 20px 22px;
   display: block;
+  min-height: 156px;
+  transform-style: preserve-3d;
+  transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
+}
+
+.hero-card.is-combined {
+  border-color: color-mix(in srgb, var(--accent-2) 70%, var(--line));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent-2) 14%, transparent), transparent 46%),
+    var(--surface);
+}
+
+.hero-mode-toggle {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  z-index: 1;
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-strong);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.76rem;
+  font-weight: 900;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease, color 140ms ease;
+}
+
+.hero-mode-toggle:hover,
+.hero-mode-toggle:focus-visible {
+  border-color: var(--line-strong);
+  color: var(--accent);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.hero-mode-toggle[aria-pressed="true"] {
+  border-color: color-mix(in srgb, var(--accent-2) 76%, var(--line));
+  background: color-mix(in srgb, var(--accent-2) 18%, var(--surface-strong));
+  color: var(--accent-2);
+}
+
+.hero-card .hero-kicker {
+  padding-right: 112px;
 }
 
 .hero-row {
@@ -1154,11 +1199,20 @@ a {
   border: 1px solid var(--line);
   border-radius: 16px;
   background: var(--surface-strong);
+  cursor: pointer;
+  transition: transform 140ms ease, border-color 140ms ease;
 }
 
 .tcg-card.is-caught {
   border-color: color-mix(in srgb, var(--success) 80%, var(--line));
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--success) 24%, transparent);
+}
+
+.tcg-card:hover,
+.tcg-card:focus-visible {
+  border-color: var(--line-strong);
+  outline: none;
+  transform: translateY(-1px);
 }
 
 .tcg-card-image {
@@ -1170,9 +1224,9 @@ a {
 .tcg-card-meta {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  align-items: start;
+  align-items: center;
   gap: 10px;
-  padding: 10px 12px 44px;
+  padding: 10px 12px 12px;
 }
 
 .tcg-card-meta h3,
@@ -1199,31 +1253,9 @@ a {
   text-overflow: ellipsis;
 }
 
-.tcg-card-view-button {
-  min-height: 32px;
-  padding: 0 10px;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: var(--surface);
-  color: var(--text);
-  cursor: pointer;
-  font-size: 0.78rem;
-  font-weight: 800;
-  transition: transform 140ms ease, border-color 140ms ease, color 140ms ease;
-}
-
-.tcg-card-view-button:hover,
-.tcg-card-view-button:focus-visible {
-  border-color: var(--line-strong);
-  color: var(--accent);
-  outline: none;
-  transform: translateY(-1px);
-}
-
 .tcg-card-status-button {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
+  position: static;
+  align-self: center;
   min-height: 28px;
   padding: 0 10px;
   border: 1px solid var(--line);
@@ -1265,6 +1297,42 @@ a {
   top: 18px;
   right: 18px;
   z-index: 1;
+}
+
+.tcg-preview-nav {
+  position: fixed;
+  top: 50%;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 72px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--surface-strong) 88%, transparent);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 3rem;
+  line-height: 1;
+  transform: translateY(-50%);
+  transition: border-color 140ms ease, color 140ms ease, background 140ms ease;
+}
+
+.tcg-preview-nav:hover,
+.tcg-preview-nav:focus-visible {
+  border-color: var(--line-strong);
+  background: color-mix(in srgb, var(--accent-soft) 55%, var(--surface-strong));
+  color: var(--accent);
+  outline: none;
+}
+
+.tcg-preview-nav-prev {
+  left: max(18px, calc(50vw - 332px));
+}
+
+.tcg-preview-nav-next {
+  right: max(18px, calc(50vw - 332px));
 }
 
 .tcg-preview-image {
@@ -1434,6 +1502,18 @@ a {
     padding: 14px;
   }
 
+  .hero-card .hero-kicker {
+    padding-right: 96px;
+  }
+
+  .hero-mode-toggle {
+    top: 12px;
+    right: 12px;
+    min-height: 30px;
+    padding: 0 10px;
+    font-size: 0.68rem;
+  }
+
   .quick-toggle-row {
     gap: 8px;
     margin-bottom: 14px;
@@ -1570,8 +1650,9 @@ a {
   }
 
   .tcg-card-meta {
-    grid-template-columns: 1fr;
-    padding-bottom: 42px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    padding-bottom: 8px;
   }
 
   .tcg-card-meta h3 {
@@ -1582,23 +1663,30 @@ a {
     font-size: 0.7rem;
   }
 
-  .tcg-card-view-button {
-    min-height: 28px;
-    justify-self: start;
-    padding: 0 8px;
-    font-size: 0.7rem;
-  }
-
   .tcg-card-status-button {
-    right: 8px;
-    bottom: 8px;
+    justify-self: end;
     min-height: 26px;
-    padding: 0 8px;
-    font-size: 0.68rem;
+    padding: 0 7px;
+    font-size: 0.64rem;
   }
 
   .tcg-preview-overlay {
     padding: 12px;
+  }
+
+  .tcg-preview-nav {
+    width: 40px;
+    height: 58px;
+    border-radius: 14px;
+    font-size: 2.4rem;
+  }
+
+  .tcg-preview-nav-prev {
+    left: 10px;
+  }
+
+  .tcg-preview-nav-next {
+    right: 10px;
   }
 
   .capture-pill {
