@@ -1,6 +1,6 @@
 import pokedex from "@/data/pokedex.json";
 
-export type ThemeId = "auto" | "light" | "frappe" | "nord" | "everforest" | "tokyo-night";
+export type ThemeId = "tokyo-night" | "one-dark-pro" | "github-dark" | "github-light";
 
 export type SortId = "number-asc" | "number-desc" | "name-asc" | "name-desc";
 
@@ -31,12 +31,10 @@ export const GENERATION_NAMES: Record<number, string> = {
 export const PAGE_SIZE_OPTIONS = [32, 16, 8, 0] as const;
 
 export const THEMES: Array<{ id: ThemeId; label: string }> = [
-  { id: "auto", label: "Auto (system)" },
-  { id: "light", label: "Light" },
-  { id: "frappe", label: "Catppuccin Frappé" },
-  { id: "nord", label: "Nord" },
-  { id: "everforest", label: "Everforest" },
   { id: "tokyo-night", label: "Tokyo Night" },
+  { id: "one-dark-pro", label: "One Dark Pro" },
+  { id: "github-dark", label: "GitHub Dark" },
+  { id: "github-light", label: "GitHub Light" },
 ];
 
 export const SORT_OPTIONS: Array<{ id: SortId; label: string }> = [

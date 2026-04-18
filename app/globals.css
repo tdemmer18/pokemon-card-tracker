@@ -41,86 +41,6 @@
   }
 }
 
-:root[data-theme="light"] {
-  --bg: #f6f0e8;
-  --mantle: #efe6db;
-  --crust: #e2d5c6;
-  --surface: rgba(255, 252, 247, 0.7);
-  --surface-strong: rgba(255, 251, 245, 0.94);
-  --line: rgba(90, 74, 57, 0.12);
-  --line-strong: rgba(219, 58, 89, 0.35);
-  --text: #33261d;
-  --muted: #715a4a;
-  --accent: #db3a59;
-  --accent-soft: rgba(219, 58, 89, 0.12);
-  --accent-2: #ffb347;
-  --success: #2d8f5b;
-  --success-soft: rgba(45, 143, 91, 0.14);
-  --shadow: 0 22px 48px rgba(89, 64, 38, 0.12);
-  --hero-glow: rgba(219, 58, 89, 0.18);
-  --hero-glow-2: rgba(255, 179, 71, 0.14);
-}
-
-:root[data-theme="frappe"] {
-  --bg: #303446;
-  --mantle: #292c3c;
-  --crust: #232634;
-  --surface: rgba(65, 69, 89, 0.66);
-  --surface-strong: rgba(81, 87, 109, 0.95);
-  --line: rgba(198, 208, 245, 0.1);
-  --line-strong: rgba(239, 159, 118, 0.48);
-  --text: #c6d0f5;
-  --muted: #a5adce;
-  --accent: #ef9f76;
-  --accent-soft: rgba(239, 159, 118, 0.16);
-  --accent-2: #e5c890;
-  --success: #a6d189;
-  --success-soft: rgba(166, 209, 137, 0.16);
-  --shadow: 0 22px 54px rgba(35, 38, 52, 0.52);
-  --hero-glow: rgba(140, 170, 238, 0.16);
-  --hero-glow-2: rgba(239, 159, 118, 0.12);
-}
-
-:root[data-theme="nord"] {
-  --bg: #2e3440;
-  --mantle: #3b4252;
-  --crust: #242933;
-  --surface: rgba(67, 76, 94, 0.66);
-  --surface-strong: rgba(76, 86, 106, 0.94);
-  --line: rgba(236, 239, 244, 0.1);
-  --line-strong: rgba(191, 97, 106, 0.5);
-  --text: #eceff4;
-  --muted: #d8dee9;
-  --accent: #bf616a;
-  --accent-soft: rgba(191, 97, 106, 0.18);
-  --accent-2: #ebcb8b;
-  --success: #a3be8c;
-  --success-soft: rgba(163, 190, 140, 0.16);
-  --shadow: 0 22px 54px rgba(36, 41, 51, 0.5);
-  --hero-glow: rgba(136, 192, 208, 0.16);
-  --hero-glow-2: rgba(191, 97, 106, 0.12);
-}
-
-:root[data-theme="everforest"] {
-  --bg: #2d353b;
-  --mantle: #343f44;
-  --crust: #232a2e;
-  --surface: rgba(52, 63, 68, 0.72);
-  --surface-strong: rgba(61, 72, 77, 0.95);
-  --line: rgba(211, 198, 170, 0.1);
-  --line-strong: rgba(230, 126, 108, 0.46);
-  --text: #d3c6aa;
-  --muted: #9da9a0;
-  --accent: #e67e6c;
-  --accent-soft: rgba(230, 126, 108, 0.16);
-  --accent-2: #dbbc7f;
-  --success: #a7c080;
-  --success-soft: rgba(167, 192, 128, 0.16);
-  --shadow: 0 22px 54px rgba(20, 25, 28, 0.45);
-  --hero-glow: rgba(167, 192, 128, 0.14);
-  --hero-glow-2: rgba(230, 126, 108, 0.12);
-}
-
 :root[data-theme="tokyo-night"] {
   --bg: #1a1b26;
   --mantle: #16161e;
@@ -139,6 +59,66 @@
   --shadow: 0 22px 54px rgba(13, 13, 20, 0.62);
   --hero-glow: rgba(122, 162, 247, 0.18);
   --hero-glow-2: rgba(247, 118, 142, 0.12);
+}
+
+:root[data-theme="one-dark-pro"] {
+  --bg: #282c34;
+  --mantle: #21252b;
+  --crust: #1e2227;
+  --surface: rgba(49, 54, 63, 0.72);
+  --surface-strong: rgba(62, 68, 81, 0.96);
+  --line: rgba(171, 178, 191, 0.12);
+  --line-strong: rgba(97, 175, 239, 0.48);
+  --text: #abb2bf;
+  --muted: #828997;
+  --accent: #61afef;
+  --accent-soft: rgba(97, 175, 239, 0.16);
+  --accent-2: #e5c07b;
+  --success: #98c379;
+  --success-soft: rgba(152, 195, 121, 0.16);
+  --shadow: 0 22px 54px rgba(15, 17, 20, 0.58);
+  --hero-glow: rgba(97, 175, 239, 0.16);
+  --hero-glow-2: rgba(198, 120, 221, 0.12);
+}
+
+:root[data-theme="github-dark"] {
+  --bg: #0d1117;
+  --mantle: #010409;
+  --crust: #010409;
+  --surface: rgba(22, 27, 34, 0.74);
+  --surface-strong: rgba(33, 38, 45, 0.96);
+  --line: rgba(139, 148, 158, 0.18);
+  --line-strong: rgba(88, 166, 255, 0.5);
+  --text: #c9d1d9;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-soft: rgba(88, 166, 255, 0.16);
+  --accent-2: #d29922;
+  --success: #3fb950;
+  --success-soft: rgba(63, 185, 80, 0.16);
+  --shadow: 0 22px 54px rgba(1, 4, 9, 0.68);
+  --hero-glow: rgba(88, 166, 255, 0.16);
+  --hero-glow-2: rgba(210, 153, 34, 0.12);
+}
+
+:root[data-theme="github-light"] {
+  --bg: #ffffff;
+  --mantle: #f6f8fa;
+  --crust: #d0d7de;
+  --surface: rgba(246, 248, 250, 0.78);
+  --surface-strong: rgba(255, 255, 255, 0.96);
+  --line: rgba(31, 35, 40, 0.14);
+  --line-strong: rgba(9, 105, 218, 0.42);
+  --text: #24292f;
+  --muted: #57606a;
+  --accent: #0969da;
+  --accent-soft: rgba(9, 105, 218, 0.12);
+  --accent-2: #bf8700;
+  --success: #1a7f37;
+  --success-soft: rgba(26, 127, 55, 0.14);
+  --shadow: 0 22px 48px rgba(31, 35, 40, 0.12);
+  --hero-glow: rgba(9, 105, 218, 0.14);
+  --hero-glow-2: rgba(191, 135, 0, 0.12);
 }
 
 * {
@@ -315,14 +295,15 @@ button {
 
 .hero-card {
   margin-bottom: 18px;
-  padding: 20px 22px;
+  padding: 20px 22px 18px;
   display: block;
-  min-height: 156px;
   transform-style: preserve-3d;
   transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
 }
 
 .hero-card.is-combined {
+  min-height: 0;
+  padding-bottom: 18px;
   border-color: color-mix(in srgb, var(--accent-2) 70%, var(--line));
   background:
     linear-gradient(135deg, color-mix(in srgb, var(--accent-2) 14%, transparent), transparent 46%),
@@ -698,11 +679,6 @@ button {
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
 }
 
-.user-add {
-  display: grid;
-  gap: 10px;
-}
-
 button,
 [role="button"],
 [role="radio"],
@@ -717,6 +693,10 @@ a {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 6px;
+}
+
+.trainer-alias-control {
+  margin-top: 10px;
 }
 
 .theme-option {
@@ -737,6 +717,46 @@ a {
   border-color: var(--line-strong);
   background: var(--accent-soft);
   color: var(--accent);
+}
+
+.color-picker-toggle {
+  width: 100%;
+  min-height: 54px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-strong);
+  cursor: pointer;
+  transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.color-picker-toggle::before {
+  content: "";
+  display: block;
+  width: 100%;
+  min-height: 34px;
+  border-radius: 8px;
+  background: var(--selected-color);
+}
+
+.color-picker-toggle:hover,
+.color-picker-toggle:focus-visible,
+.color-picker-toggle[aria-expanded="true"] {
+  border-color: var(--line-strong);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--selected-color) 20%, transparent);
+  outline: none;
+}
+
+.color-picker-toggle:hover {
+  transform: translateY(-1px);
+}
+
+.color-picker-panel {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-strong);
 }
 
 .color-options {
@@ -790,38 +810,6 @@ a {
 
 .action-button-wide {
   min-height: 46px;
-}
-
-.leaderboard {
-  display: grid;
-  gap: 8px;
-}
-
-.leaderboard-row {
-  display: grid;
-  grid-template-columns: 28px minmax(0, 1fr) auto auto;
-  gap: 10px;
-  align-items: center;
-  padding: 10px 12px;
-  border-radius: 14px;
-  border: 1px solid var(--line);
-  background: var(--surface-strong);
-}
-
-.leaderboard-row.is-current {
-  border-color: var(--line-strong);
-  background: var(--accent-soft);
-}
-
-.leaderboard-rank,
-.leaderboard-score,
-.leaderboard-pct {
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.leaderboard-user {
-  font-weight: 700;
 }
 
 .people-panel {
@@ -1299,6 +1287,37 @@ a {
   z-index: 1;
 }
 
+.tcg-preview-status-button {
+  position: fixed;
+  top: max(18px, calc(50vh - 390px));
+  left: 50%;
+  z-index: 1;
+  min-height: 38px;
+  min-width: 112px;
+  padding: 0 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface-strong) 90%, transparent);
+  color: var(--muted);
+  cursor: pointer;
+  font-weight: 900;
+  transform: translateX(-50%);
+  transition: border-color 140ms ease, background 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+.tcg-preview-status-button.is-caught {
+  border-color: color-mix(in srgb, var(--success) 56%, var(--line));
+  background: color-mix(in srgb, var(--success-soft) 90%, var(--surface-strong));
+  color: var(--success);
+}
+
+.tcg-preview-status-button:hover,
+.tcg-preview-status-button:focus-visible {
+  border-color: var(--line-strong);
+  outline: none;
+  transform: translateX(-50%) translateY(-1px);
+}
+
 .tcg-preview-nav {
   position: fixed;
   top: 50%;
@@ -1672,6 +1691,14 @@ a {
 
   .tcg-preview-overlay {
     padding: 12px;
+  }
+
+  .tcg-preview-status-button {
+    top: 78px;
+    min-height: 34px;
+    min-width: 100px;
+    padding: 0 12px;
+    font-size: 0.82rem;
   }
 
   .tcg-preview-nav {

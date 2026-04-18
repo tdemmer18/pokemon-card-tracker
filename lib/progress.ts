@@ -18,7 +18,7 @@ export type ProgressState = {
 
 const DEFAULT_USER = "Owen";
 
-const THEME_IDS = new Set<ThemeId>(["auto", "light", "frappe", "nord", "everforest", "tokyo-night"]);
+const THEME_IDS = new Set<ThemeId>(["tokyo-night", "one-dark-pro", "github-dark", "github-light"]);
 const SORT_IDS = new Set<SortId>(["number-asc", "number-desc", "name-asc", "name-desc"]);
 const COMPLETION_IDS = new Set<CompletionId>(["all", "completed", "missing"]);
 
@@ -26,7 +26,7 @@ export const defaultProgressState: ProgressState = {
   users: [DEFAULT_USER],
   currentUser: DEFAULT_USER,
   caughtByUser: { [DEFAULT_USER]: {} },
-  theme: "tokyo-night",
+  theme: "github-dark",
   search: "",
   sortBy: "number-asc",
   generation: "All",

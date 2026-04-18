@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 const THEME_BOOTSTRAP = `
 try {
   var raw = localStorage.getItem("pokemon-web:v1");
-  var theme = "tokyo-night";
+  var theme = "github-dark";
   if (raw) {
     var saved = JSON.parse(raw);
     if (saved && saved.theme) theme = saved.theme;

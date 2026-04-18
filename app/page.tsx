@@ -108,7 +108,7 @@ export default function HomePage() {
   const [caughtByUser, setCaughtByUser] = useState<Record<string, Record<string, boolean>>>({
     [DEFAULT_USER]: {},
   });
-  const [theme, setTheme] = useState<ThemeId>("tokyo-night");
+  const [theme, setTheme] = useState<ThemeId>("github-dark");
   const [search, setSearch] = useState("");
   const [sortBy, setSortBy] = useState<SortId>("number-asc");
   const [generation, setGeneration] = useState("All");
@@ -118,7 +118,6 @@ export default function HomePage() {
   const [page, setPage] = useState(1);
   const [selectedUserColor, setSelectedUserColor] = useState<string>(USER_COLOR_OPTIONS[0]);
   const [userAlias, setUserAlias] = useState(DEFAULT_USER);
-  const [newUserName, setNewUserName] = useState("");
   const [status, setStatus] = useState("Ready.");
   const [isSyncing, setIsSyncing] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
@@ -136,6 +135,7 @@ export default function HomePage() {
   const [peopleStatus, setPeopleStatus] = useState("");
   const [communityAccounts, setCommunityAccounts] = useState<CommunityAccount[]>([]);
   const [viewingAccount, setViewingAccount] = useState<CommunityAccount | null>(null);
+  const [isColorPickerOpen, setIsColorPickerOpen] = useState(false);
   const [tcgGalleryPokemon, setTcgGalleryPokemon] = useState<TcgGalleryPokemon | null>(null);
   const [tcgCards, setTcgCards] = useState<TcgCard[]>([]);
   const [isTcgLoading, setIsTcgLoading] = useState(false);
@@ -224,11 +224,7 @@ export default function HomePage() {
 
   useEffect(() => {
     const root = document.documentElement;
-    if (theme === "auto") {
-      root.removeAttribute("data-theme");
-    } else {
-      root.setAttribute("data-theme", theme);
-    }
+    root.setAttribute("data-theme", theme);
   }, [theme]);
 
   useEffect(() => {
@@ -450,16 +446,6 @@ export default function HomePage() {
     return filteredEntries.slice(start, start + pageSize);
   }, [filteredEntries, pageSize, safePage]);
 
-  const leaderboard = useMemo(() => {
-    return users
-      .map((user) => {
-        const userCaught = Object.values(caughtByUser[user] ?? {}).filter(Boolean).length;
-        const pct = entries.length ? Math.round((userCaught / entries.length) * 100) : 0;
-        return { user, caught: userCaught, total: entries.length, pct };
-      })
-      .sort((left, right) => right.caught - left.caught || right.pct - left.pct || left.user.localeCompare(right.user));
-  }, [caughtByUser, entries.length, users]);
-
   const stats = useMemo(() => {
     const totalCaught = Object.values(viewedCaught).filter(Boolean).length;
     return {
@@ -543,16 +529,6 @@ export default function HomePage() {
     } finally {
       setIsTcgLoading(false);
     }
-  };
-
-  const addUser = () => {
-    const name = newUserName.trim();
-    if (!name || users.includes(name)) return;
-    setUsers((current) => [...current, name]);
-    setCaughtByUser((current) => ({ ...current, [name]: {} }));
-    setCurrentUser(name);
-    setNewUserName("");
-    setStatus(`Added ${name}.`);
   };
 
   const displayName = userAlias.trim() || currentUser;
@@ -913,6 +889,18 @@ export default function HomePage() {
                   <option key={user} value={user}>{user}</option>
                 ))}
               </select>
+              <input
+                className="control trainer-alias-control"
+                type="text"
+                value={userAlias}
+                maxLength={24}
+                onChange={(event) => {
+                  setUserAlias(event.target.value);
+                  setStatus("Alias updated.");
+                }}
+                placeholder={currentUser}
+                aria-label="Trainer alias"
+              />
               {authUser ? (
                 <button type="button" className="action-button action-button-wide sign-out-button" onClick={() => void signOut()}>
                   Sign Out
@@ -967,50 +955,48 @@ export default function HomePage() {
             </section>
 
             <section className="sidebar-section">
-              <h2 className="sidebar-heading">Alias</h2>
-              <input
-                className="control"
-                type="text"
-                value={userAlias}
-                maxLength={24}
-                onChange={(event) => {
-                  setUserAlias(event.target.value);
-                  setStatus("Alias updated.");
-                }}
-                placeholder={currentUser}
-                aria-label="Trainer alias"
-              />
-            </section>
-
-            <section className="sidebar-section">
               <h2 className="sidebar-heading">Trainer Color</h2>
-              <div className="color-options" role="radiogroup" aria-label="Trainer color">
-                {USER_COLOR_OPTIONS.map((color) => (
-                  <button
-                    key={color}
-                    type="button"
-                    role="radio"
-                    aria-checked={selectedUserColor === color}
-                    className={`color-option ${selectedUserColor === color ? "is-active" : ""}`}
-                    style={{ "--swatch-color": color } as CSSProperties}
-                    onClick={() => {
-                      setSelectedUserColor(color);
+              <button
+                type="button"
+                className="color-picker-toggle"
+                onClick={() => setIsColorPickerOpen((current) => !current)}
+                aria-expanded={isColorPickerOpen}
+                aria-controls="trainer-color-options"
+                aria-label="Choose trainer color"
+                style={{ "--selected-color": selectedUserColor } as CSSProperties}
+              />
+              {isColorPickerOpen ? (
+                <div id="trainer-color-options" className="color-picker-panel">
+                  <div className="color-options" role="radiogroup" aria-label="Trainer color">
+                    {USER_COLOR_OPTIONS.map((color) => (
+                      <button
+                        key={color}
+                        type="button"
+                        role="radio"
+                        aria-checked={selectedUserColor === color}
+                        className={`color-option ${selectedUserColor === color ? "is-active" : ""}`}
+                        style={{ "--swatch-color": color } as CSSProperties}
+                        onClick={() => {
+                          setSelectedUserColor(color);
+                          setIsColorPickerOpen(false);
+                          setStatus("Trainer color updated.");
+                        }}
+                        aria-label={`Use color ${color}`}
+                      />
+                    ))}
+                  </div>
+                  <input
+                    className="control color-input"
+                    type="color"
+                    value={selectedUserColor}
+                    onChange={(event) => {
+                      setSelectedUserColor(event.target.value);
                       setStatus("Trainer color updated.");
                     }}
-                    aria-label={`Use color ${color}`}
+                    aria-label="Custom trainer color"
                   />
-                ))}
-              </div>
-              <input
-                className="control color-input"
-                type="color"
-                value={selectedUserColor}
-                onChange={(event) => {
-                  setSelectedUserColor(event.target.value);
-                  setStatus("Trainer color updated.");
-                }}
-                aria-label="Custom trainer color"
-              />
+                </div>
+              ) : null}
             </section>
 
             <section className="sidebar-section">
@@ -1082,20 +1068,6 @@ export default function HomePage() {
             </section>
 
             <section className="sidebar-section">
-              <h2 className="sidebar-heading">Leaderboard</h2>
-              <div className="leaderboard">
-                {leaderboard.map((row, index) => (
-                  <div key={row.user} className={`leaderboard-row ${row.user === currentUser ? "is-current" : ""}`}>
-                    <span className="leaderboard-rank">{index + 1}</span>
-                    <span className="leaderboard-user">{row.user}</span>
-                    <span className="leaderboard-score">{row.caught}</span>
-                    <span className="leaderboard-pct">{row.pct}%</span>
-                  </div>
-                ))}
-              </div>
-            </section>
-
-            <section className="sidebar-section">
               <h2 className="sidebar-heading">Theme</h2>
               <div className="theme-options" role="radiogroup" aria-label="Theme">
                 {THEMES.map((option) => (
@@ -1114,28 +1086,6 @@ export default function HomePage() {
                   </button>
                 ))}
               </div>
-            </section>
-
-            <section className="sidebar-section">
-              <h2 className="sidebar-heading">Add Trainer</h2>
-              <form
-                className="user-add"
-                onSubmit={(event) => {
-                  event.preventDefault();
-                  addUser();
-                }}
-              >
-                <input
-                  className="control"
-                  type="text"
-                  placeholder="Name"
-                  value={newUserName}
-                  onChange={(event) => setNewUserName(event.target.value)}
-                />
-                <button type="submit" className="action-button" disabled={!newUserName.trim()}>
-                  Add
-                </button>
-              </form>
             </section>
 
             <section className="sidebar-section">
@@ -1255,6 +1205,18 @@ export default function HomePage() {
             aria-label="Close card preview"
           >
             ×
+          </button>
+          <button
+            type="button"
+            className={`tcg-preview-status-button ${tcgCaughtByUser[currentUser]?.[previewTcgCard.id] ? "is-caught" : ""}`}
+            onClick={(event) => {
+              event.stopPropagation();
+              setTcgCaughtStatus(previewTcgCard.id, !tcgCaughtByUser[currentUser]?.[previewTcgCard.id]);
+            }}
+            aria-pressed={Boolean(tcgCaughtByUser[currentUser]?.[previewTcgCard.id])}
+            aria-label={`${tcgCaughtByUser[currentUser]?.[previewTcgCard.id] ? "Mark" : "Unmark"} ${previewTcgCard.name} from ${previewTcgCard.setName} ${tcgCaughtByUser[currentUser]?.[previewTcgCard.id] ? "missing" : "caught"}`}
+          >
+            {tcgCaughtByUser[currentUser]?.[previewTcgCard.id] ? "Caught" : "Missing"}
           </button>
           {canCyclePreview ? (
             <>
