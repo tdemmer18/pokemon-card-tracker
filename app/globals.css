@@ -153,7 +153,7 @@ button {
 .app-shell {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 32px 24px 56px;
+  padding: 32px 24px calc(120px + env(safe-area-inset-bottom));
 }
 
 .auth-shell {
@@ -893,6 +893,58 @@ a {
   padding: 18px;
 }
 
+.bottom-nav {
+  position: fixed;
+  left: 50%;
+  bottom: max(14px, env(safe-area-inset-bottom));
+  z-index: 45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: min(360px, calc(100vw - 32px));
+  min-height: 66px;
+  padding: 8px 12px;
+  border: 1px solid color-mix(in srgb, var(--line) 82%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface-strong) 88%, transparent);
+  box-shadow:
+    0 18px 42px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 color-mix(in srgb, white 36%, transparent);
+  backdrop-filter: blur(20px);
+  transform: translateX(-50%);
+}
+
+.bottom-nav-button {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 50px;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: transform 140ms ease, background 140ms ease, color 140ms ease, box-shadow 140ms ease;
+}
+
+.bottom-nav-button svg {
+  display: block;
+}
+
+.bottom-nav-button:hover,
+.bottom-nav-button:focus-visible {
+  background: color-mix(in srgb, var(--accent-soft) 70%, transparent);
+  color: var(--accent);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.bottom-nav-button.is-active {
+  background: color-mix(in srgb, var(--accent) 18%, var(--surface-strong));
+  color: var(--accent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 24%, transparent);
+}
+
 .search-control {
   max-width: 420px;
 }
@@ -908,6 +960,154 @@ a {
   gap: 14px;
   margin-top: 14px;
   margin-bottom: 22px;
+}
+
+.expansions-card {
+  display: grid;
+  gap: 16px;
+}
+
+.expansions-header,
+.expansions-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.expansions-refresh-button {
+  width: auto;
+  min-width: 96px;
+  min-height: 42px;
+  padding: 0 16px;
+}
+
+.expansions-search-control {
+  max-width: 520px;
+}
+
+.expansions-list {
+  display: grid;
+  gap: 12px;
+}
+
+.expansion-row {
+  display: grid;
+  grid-template-columns: 164px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  min-height: 112px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface-strong);
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+
+.expansion-row:hover,
+.expansion-row:focus-visible {
+  border-color: var(--line-strong);
+  background: color-mix(in srgb, var(--accent-soft) 24%, var(--surface-strong));
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.expansion-art {
+  display: grid;
+  place-items: center;
+  width: 148px;
+  height: 84px;
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent 58%),
+    color-mix(in srgb, var(--surface) 78%, var(--mantle));
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  overflow: hidden;
+}
+
+.expansion-logo,
+.expansion-symbol {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.18));
+}
+
+.expansion-logo {
+  max-width: 132px;
+  max-height: 64px;
+}
+
+.expansion-symbol {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.expansion-copy {
+  min-width: 0;
+}
+
+.expansion-copy h3,
+.expansion-copy p {
+  margin: 0;
+}
+
+.expansion-copy h3 {
+  font-size: 1.18rem;
+  line-height: 1.15;
+}
+
+.expansion-copy p {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.expansion-selected-title {
+  margin: 6px 0 0;
+  color: var(--text);
+  font-size: 1.55rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.expansion-cards-status {
+  margin: -6px 0 0;
+  color: var(--muted);
+}
+
+.expansion-card-grid {
+  margin-top: 2px;
+}
+
+.expansion-code {
+  justify-self: end;
+  min-width: 44px;
+  padding: 5px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.expansions-empty {
+  display: grid;
+  place-items: center;
+  min-height: 300px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-strong);
+  color: var(--muted);
+  padding: 24px;
+  text-align: center;
 }
 
 .section-title {
@@ -1447,14 +1647,29 @@ a {
   .app-shell {
     width: 100%;
     max-width: 100%;
-    padding: 18px 12px 36px;
+    padding: 18px 12px calc(116px + env(safe-area-inset-bottom));
     overflow-x: clip;
   }
 
   .page-header,
-  .main-toolbar {
+  .main-toolbar,
+  .expansions-header,
+  .expansions-toolbar {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .bottom-nav {
+    width: min(330px, calc(100vw - 24px));
+    min-height: 62px;
+    padding: 7px 10px;
+  }
+
+  .bottom-nav-button {
+    flex: 1;
+    width: auto;
+    max-width: 76px;
+    height: 48px;
   }
 
   .app-header {
@@ -1590,6 +1805,43 @@ a {
   .pager-meta {
     text-align: center;
     min-width: 88px;
+  }
+
+  .expansion-row {
+    grid-template-columns: 120px minmax(0, 1fr) auto;
+    gap: 10px;
+    min-height: 96px;
+    padding: 10px;
+    border-radius: 16px;
+  }
+
+  .expansion-art {
+    width: 110px;
+    height: 76px;
+    border-radius: 14px;
+  }
+
+  .expansion-logo {
+    max-width: 96px;
+    max-height: 54px;
+  }
+
+  .expansion-copy h3 {
+    font-size: 1rem;
+  }
+
+  .expansion-copy p {
+    font-size: 0.78rem;
+  }
+
+  .expansion-code {
+    min-width: 34px;
+    padding: 4px 5px;
+    font-size: 0.58rem;
+  }
+
+  .expansions-refresh-button {
+    width: 100%;
   }
 
   .pokemon-grid {

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import type { CSSProperties, FormEvent } from "react";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   allTypes,
   COMPLETION_OPTIONS,
@@ -79,6 +79,60 @@ type TcgCard = {
 };
 
 type TcgGalleryPokemon = Pick<PokemonEntry, "id" | "name" | "number">;
+type AppView = "deck" | "expansions";
+type BottomNavIconName = "deck" | "expansions" | "search";
+
+type TcgExpansion = {
+  id: string;
+  name: string;
+  series: string;
+  printedTotal: number | null;
+  total: number | null;
+  code: string;
+  releaseDate: string | null;
+  logoUrl: string | null;
+  symbolUrl: string | null;
+};
+
+function BottomNavIcon({ name }: { name: BottomNavIconName }) {
+  if (name === "deck") {
+    return (
+      <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+        <rect x="6" y="3" width="12" height="18" rx="2.5" fill="none" stroke="currentColor" strokeWidth="2" />
+        <path d="M9 7h6M9 17h6" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="2" />
+        <circle cx="12" cy="12" r="2.4" fill="none" stroke="currentColor" strokeWidth="2" />
+      </svg>
+    );
+  }
+
+  if (name === "expansions") {
+    return (
+      <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+        <path d="m12 3 8 4-8 4-8-4 8-4Z" fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth="2" />
+        <path d="m4 12 8 4 8-4M4 17l8 4 8-4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+      <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" strokeWidth="2" />
+      <path d="m16.5 16.5 4 4" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="2" />
+    </svg>
+  );
+}
+
+function formatExpansionDate(value: string | null) {
+  if (!value) return "No release date";
+
+  const date = new Date(`${value.replace(/\//g, "-")}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return value;
+
+  return new Intl.DateTimeFormat("en", {
+    month: "short",
+    year: "numeric",
+  }).format(date);
+}
 
 function userColor(name: string): string {
   if (name.trim().toLowerCase() === "owen") {
@@ -114,7 +168,7 @@ export default function HomePage() {
   const [generation, setGeneration] = useState("All");
   const [completion, setCompletion] = useState<CompletionId>("all");
   const [typeFilter, setTypeFilter] = useState("All Types");
-  const [pageSize, setPageSize] = useState<number>(PAGE_SIZE_OPTIONS[0]);
+  const [pageSize, setPageSize] = useState<number>(0);
   const [page, setPage] = useState(1);
   const [selectedUserColor, setSelectedUserColor] = useState<string>(USER_COLOR_OPTIONS[0]);
   const [userAlias, setUserAlias] = useState(DEFAULT_USER);
@@ -145,6 +199,16 @@ export default function HomePage() {
   });
   const [previewTcgCard, setPreviewTcgCard] = useState<TcgCard | null>(null);
   const [isCombinedProgress, setIsCombinedProgress] = useState(false);
+  const [activeView, setActiveView] = useState<AppView>("deck");
+  const [expansions, setExpansions] = useState<TcgExpansion[]>([]);
+  const [selectedExpansion, setSelectedExpansion] = useState<TcgExpansion | null>(null);
+  const [expansionSearch, setExpansionSearch] = useState("");
+  const [isExpansionsLoading, setIsExpansionsLoading] = useState(false);
+  const [expansionsStatus, setExpansionsStatus] = useState("Expansion packs ready.");
+  const [isExpansionCardsLoading, setIsExpansionCardsLoading] = useState(false);
+  const [expansionCardsStatus, setExpansionCardsStatus] = useState("");
+  const deckSearchInputRef = useRef<HTMLInputElement>(null);
+  const expansionSearchInputRef = useRef<HTMLInputElement>(null);
   const ownCaught = caughtByUser[currentUser] ?? {};
   const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
   const viewedCaught = viewingAccount
@@ -226,6 +290,23 @@ export default function HomePage() {
     const root = document.documentElement;
     root.setAttribute("data-theme", theme);
   }, [theme]);
+
+  useEffect(() => {
+    if (process.env.NODE_ENV !== "development" || !("serviceWorker" in navigator)) return;
+
+    void navigator.serviceWorker.getRegistrations().then((registrations) => {
+      if (!registrations.length) return;
+
+      registrations.forEach((registration) => {
+        void registration.unregister();
+      });
+
+      if (navigator.serviceWorker.controller && !window.sessionStorage.getItem("pokemon-web:sw-cleaned")) {
+        window.sessionStorage.setItem("pokemon-web:sw-cleaned", "true");
+        window.location.reload();
+      }
+    });
+  }, []);
 
   useEffect(() => {
     try {
@@ -464,6 +545,19 @@ export default function HomePage() {
     [entries],
   );
 
+  const filteredExpansions = useMemo(() => {
+    const normalizedSearch = expansionSearch.trim().toLowerCase();
+    if (!normalizedSearch) return expansions;
+
+    return expansions.filter((expansion) => {
+      return (
+        expansion.name.toLowerCase().includes(normalizedSearch) ||
+        expansion.series.toLowerCase().includes(normalizedSearch) ||
+        expansion.code.toLowerCase().includes(normalizedSearch)
+      );
+    });
+  }, [expansionSearch, expansions]);
+
   const setCaughtStatus = (pokemonId: number, nextCaught: boolean) => {
     setCaughtByUser((current) => {
       const currentUserCaught = { ...(current[currentUser] ?? {}) };
@@ -498,7 +592,11 @@ export default function HomePage() {
 
     const card = tcgCards.find((item) => item.id === cardId);
     if (card) {
-      setTcgStatus(`${nextCaught ? "Caught" : "Missing"} ${card.name} from ${card.setName}.`);
+      const message = `${nextCaught ? "Caught" : "Missing"} ${card.name} from ${card.setName}.`;
+      setTcgStatus(message);
+      if (selectedExpansion) {
+        setExpansionCardsStatus(message);
+      }
     }
   };
 
@@ -528,6 +626,85 @@ export default function HomePage() {
       setTcgStatus("Could not load card images right now.");
     } finally {
       setIsTcgLoading(false);
+    }
+  };
+
+  const showDeck = () => {
+    setActiveView("deck");
+    setSelectedExpansion(null);
+    setStatus(`Viewing ${currentUser}'s deck.`);
+  };
+
+  const showSearch = () => {
+    if (activeView === "expansions") {
+      expansionSearchInputRef.current?.focus();
+      expansionSearchInputRef.current?.select();
+      return;
+    }
+
+    setActiveView("deck");
+    window.setTimeout(() => {
+      deckSearchInputRef.current?.focus();
+      deckSearchInputRef.current?.select();
+    }, 0);
+  };
+
+  const loadExpansions = async () => {
+    setActiveView("expansions");
+    setSelectedExpansion(null);
+    setIsExpansionsLoading(true);
+    setExpansionsStatus("Loading expansion packs...");
+
+    try {
+      const response = await fetch("/api/expansions", { cache: "no-store" });
+      const payload = (await response.json()) as {
+        expansions?: TcgExpansion[];
+        message?: string;
+      };
+
+      if (!response.ok) {
+        throw new Error(payload.message ?? "Could not load expansion packs.");
+      }
+
+      setExpansions(payload.expansions ?? []);
+      setExpansionsStatus(payload.message ?? `Loaded ${payload.expansions?.length ?? 0} expansion packs.`);
+    } catch {
+      setExpansions([]);
+      setExpansionsStatus("Could not load expansion packs right now.");
+    } finally {
+      setIsExpansionsLoading(false);
+    }
+  };
+
+  const openExpansionCards = async (expansion: TcgExpansion) => {
+    setSelectedExpansion(expansion);
+    setPreviewTcgCard(null);
+    setTcgCards([]);
+    setIsExpansionCardsLoading(true);
+    setExpansionCardsStatus(`Loading ${expansion.name} cards...`);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+    try {
+      const response = await fetch(
+        `/api/expansion-cards?setId=${encodeURIComponent(expansion.id)}&setName=${encodeURIComponent(expansion.name)}`,
+        { cache: "no-store" },
+      );
+      const payload = (await response.json()) as {
+        cards?: TcgCard[];
+        message?: string;
+      };
+
+      if (!response.ok) {
+        throw new Error(payload.message ?? "Could not load cards.");
+      }
+
+      setTcgCards(payload.cards ?? []);
+      setExpansionCardsStatus(payload.message ?? `Loaded ${payload.cards?.length ?? 0} ${expansion.name} cards.`);
+    } catch {
+      setTcgCards([]);
+      setExpansionCardsStatus("Could not load cards right now.");
+    } finally {
+      setIsExpansionCardsLoading(false);
     }
   };
 
@@ -715,135 +892,139 @@ export default function HomePage() {
 
   return (
     <main className="app-shell">
-      <header className="app-header">
-        <div className="app-header-main">
-          <h1 className="app-title">Pokedex</h1>
-        </div>
-        <div className="app-header-actions">
-          <button
-            type="button"
-            className="picker-chip"
-            style={{ borderColor: headerChipColor }}
-            onClick={() => {
-              if (isViewingReadOnly) return;
-              if (users.length <= 1) return;
-              const idx = users.indexOf(currentUser);
-              const next = users[(idx + 1) % users.length];
-              setCurrentUser(next);
-              setStatus(`Switched to ${next}.`);
-            }}
-            aria-label={isViewingReadOnly ? `Viewing ${headerChipName}` : users.length > 1 ? "Switch trainer" : `Tracking as ${displayName}`}
-            disabled={isViewingReadOnly || users.length <= 1}
-          >
-            <span className="picker-chip-avatar" aria-hidden="true" style={{ background: headerChipColor }}>
-              {headerChipName.charAt(0).toUpperCase()}
-            </span>
-            <span className="picker-chip-body">
-              <span className="picker-chip-label">{headerChipLabel}</span>
-              <span className="picker-chip-name" style={{ color: headerChipColor }}>
-                {headerChipName}
-              </span>
-            </span>
-          </button>
-          {authUser ? (
-            <button type="button" className="auth-user-chip" onClick={() => setIsSettingsOpen(true)}>
-              {authUser.username}
+      {activeView === "deck" ? (
+        <>
+          <header className="app-header">
+            <div className="app-header-main">
+              <h1 className="app-title">Pokedex</h1>
+            </div>
+            <div className="app-header-actions">
+              <button
+                type="button"
+                className="picker-chip"
+                style={{ borderColor: headerChipColor }}
+                onClick={() => {
+                  if (isViewingReadOnly) return;
+                  if (users.length <= 1) return;
+                  const idx = users.indexOf(currentUser);
+                  const next = users[(idx + 1) % users.length];
+                  setCurrentUser(next);
+                  setStatus(`Switched to ${next}.`);
+                }}
+                aria-label={isViewingReadOnly ? `Viewing ${headerChipName}` : users.length > 1 ? "Switch trainer" : `Tracking as ${displayName}`}
+                disabled={isViewingReadOnly || users.length <= 1}
+              >
+                <span className="picker-chip-avatar" aria-hidden="true" style={{ background: headerChipColor }}>
+                  {headerChipName.charAt(0).toUpperCase()}
+                </span>
+                <span className="picker-chip-body">
+                  <span className="picker-chip-label">{headerChipLabel}</span>
+                  <span className="picker-chip-name" style={{ color: headerChipColor }}>
+                    {headerChipName}
+                  </span>
+                </span>
+              </button>
+              {authUser ? (
+                <button type="button" className="auth-user-chip" onClick={() => setIsSettingsOpen(true)}>
+                  {authUser.username}
+                </button>
+              ) : null}
+              <button
+                type="button"
+                className="settings-toggle"
+                onClick={() => setIsSettingsOpen(true)}
+                aria-label="Open settings"
+              >
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.56-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94 0 .31.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <section className={`hero-card ${isCombinedProgress ? "is-combined" : ""}`}>
+            <button
+              type="button"
+              className="hero-mode-toggle"
+              onClick={() => setIsCombinedProgress((current) => !current)}
+              aria-pressed={isCombinedProgress}
+            >
+              {heroModeLabel}
             </button>
+            <p className="hero-kicker">
+              {isCombinedProgress
+                ? "All Caught"
+                : isViewingReadOnly && viewingAccount
+                  ? `Viewing ${viewingAccount.username}`
+                  : "Progress"}
+            </p>
+            <div className="hero-row">
+              <h2 className="hero-value">
+                {isCombinedProgress ? combinedCaughtTotal : stats.totalCaught}
+                <span>{isCombinedProgress ? " total" : ` / ${stats.total}`}</span>
+              </h2>
+              <div className="hero-meter">
+                <div className="hero-meter-bar" style={{ width: `${isCombinedProgress ? stats.percentage : stats.percentage}%` }} />
+              </div>
+            </div>
+            <p className="hero-meta">
+              {isCombinedProgress
+                ? `${stats.totalCaught} Pokemon caught + ${tcgCaughtTotal} card variants caught`
+                : completionLabel(stats.totalCaught, stats.total)}
+            </p>
+          </section>
+
+          <div className="quick-toggle-row" aria-label="Pokemon visibility filter">
+            <button
+              type="button"
+              className={`quick-toggle-button ${completion === "all" ? "is-active" : ""}`}
+              onClick={() => {
+                setCompletion("all");
+                setPage(1);
+              }}
+              aria-pressed={completion === "all"}
+            >
+              ALL
+            </button>
+            <button
+              type="button"
+              className={`quick-toggle-button ${completion === "completed" ? "is-active" : ""}`}
+              onClick={() => {
+                setCompletion("completed");
+                setPage(1);
+              }}
+              aria-pressed={completion === "completed"}
+            >
+              CAUGHT
+            </button>
+            <button
+              type="button"
+              className={`quick-toggle-button ${completion === "missing" ? "is-active" : ""}`}
+              onClick={() => {
+                setCompletion("missing");
+                setPage(1);
+              }}
+              aria-pressed={completion === "missing"}
+            >
+              MISSING
+            </button>
+          </div>
+
+          {isViewingReadOnly && viewingAccount ? (
+            <section className="viewing-banner" aria-live="polite">
+              <div className="viewing-banner-copy">
+                <span className="viewing-banner-kicker">Read-only cards</span>
+                <strong>{viewedDisplayName}</strong>
+              </div>
+              <button type="button" className="action-button viewing-banner-button" onClick={stopViewingAccount}>
+                Back to My Cards
+              </button>
+            </section>
           ) : null}
-          <button
-            type="button"
-            className="settings-toggle"
-            onClick={() => setIsSettingsOpen(true)}
-            aria-label="Open settings"
-          >
-            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
-              <path
-                fill="currentColor"
-                d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.56-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94 0 .31.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
-              />
-            </svg>
-          </button>
-        </div>
-      </header>
-
-      <section className={`hero-card ${isCombinedProgress ? "is-combined" : ""}`}>
-        <button
-          type="button"
-          className="hero-mode-toggle"
-          onClick={() => setIsCombinedProgress((current) => !current)}
-          aria-pressed={isCombinedProgress}
-        >
-          {heroModeLabel}
-        </button>
-        <p className="hero-kicker">
-          {isCombinedProgress
-            ? "All Caught"
-            : isViewingReadOnly && viewingAccount
-              ? `Viewing ${viewingAccount.username}`
-              : "Progress"}
-        </p>
-        <div className="hero-row">
-          <h2 className="hero-value">
-            {isCombinedProgress ? combinedCaughtTotal : stats.totalCaught}
-            <span>{isCombinedProgress ? " total" : ` / ${stats.total}`}</span>
-          </h2>
-          <div className="hero-meter">
-            <div className="hero-meter-bar" style={{ width: `${isCombinedProgress ? stats.percentage : stats.percentage}%` }} />
-          </div>
-        </div>
-        <p className="hero-meta">
-          {isCombinedProgress
-            ? `${stats.totalCaught} Pokemon caught + ${tcgCaughtTotal} card variants caught`
-            : completionLabel(stats.totalCaught, stats.total)}
-        </p>
-      </section>
-
-      <div className="quick-toggle-row" aria-label="Pokemon visibility filter">
-        <button
-          type="button"
-          className={`quick-toggle-button ${completion === "all" ? "is-active" : ""}`}
-          onClick={() => {
-            setCompletion("all");
-            setPage(1);
-          }}
-          aria-pressed={completion === "all"}
-        >
-          ALL
-        </button>
-        <button
-          type="button"
-          className={`quick-toggle-button ${completion === "completed" ? "is-active" : ""}`}
-          onClick={() => {
-            setCompletion("completed");
-            setPage(1);
-          }}
-          aria-pressed={completion === "completed"}
-        >
-          CAUGHT
-        </button>
-        <button
-          type="button"
-          className={`quick-toggle-button ${completion === "missing" ? "is-active" : ""}`}
-          onClick={() => {
-            setCompletion("missing");
-            setPage(1);
-          }}
-          aria-pressed={completion === "missing"}
-        >
-          MISSING
-        </button>
-      </div>
-
-      {isViewingReadOnly && viewingAccount ? (
-        <section className="viewing-banner" aria-live="polite">
-          <div className="viewing-banner-copy">
-            <span className="viewing-banner-kicker">Read-only cards</span>
-            <strong>{viewedDisplayName}</strong>
-          </div>
-          <button type="button" className="action-button viewing-banner-button" onClick={stopViewingAccount}>
-            Back to My Cards
-          </button>
-        </section>
+        </>
       ) : null}
 
       {isSettingsOpen ? (
@@ -1256,122 +1437,328 @@ export default function HomePage() {
       ) : null}
 
       <div className="shell-grid">
-        <section className="main-card">
-          <div className="main-toolbar">
-            <input
-              className="control search-control"
-              type="search"
-              value={search}
-              onChange={(event) => {
-                setSearch(event.target.value);
-                setPage(1);
-              }}
-              placeholder="Search by name, number, or type"
-            />
-            <div className="toolbar-meta">{stats.visible} visible</div>
-          </div>
+        {activeView === "expansions" ? (
+          <section className="main-card expansions-card">
+            <header className="expansions-header">
+              <div>
+                <p className="hero-kicker">{selectedExpansion ? "Expansion Cards" : "Expansion Packs"}</p>
+                <h2 className="section-title">All Expansions</h2>
+                {selectedExpansion ? (
+                  <p className="expansion-selected-title">{selectedExpansion.name}</p>
+                ) : null}
+              </div>
+              <button
+                type="button"
+                className="action-button expansions-refresh-button"
+                onClick={() => {
+                  if (selectedExpansion) {
+                    setSelectedExpansion(null);
+                    setTcgCards([]);
+                    setPreviewTcgCard(null);
+                    setExpansionCardsStatus("");
+                    return;
+                  }
 
-          <div className="page-header">
-            {pagerControls}
-          </div>
+                  void loadExpansions();
+                }}
+                disabled={isExpansionsLoading || isExpansionCardsLoading}
+              >
+                {selectedExpansion ? "Back" : isExpansionsLoading ? "Loading..." : "Refresh"}
+              </button>
+            </header>
 
-          <div className="pokemon-grid">
-            {visibleEntries.length ? (
-              visibleEntries.map((entry, index) => {
-                const isCaught = Boolean(viewedCaught[entry.id]);
-                const cardContent = (
-                  <>
-                    <div className="pokemon-card-top">
-                      <span className="pokemon-number">#{entry.number}</span>
-                      <span className={`capture-pill ${isCaught ? "is-caught" : ""}`}>
-                        {isCaught ? "Caught" : "Missing"}
-                      </span>
-                    </div>
+            {selectedExpansion ? (
+              <>
+                <p className="expansion-cards-status">
+                  {isExpansionCardsLoading ? "Loading cards..." : expansionCardsStatus}
+                </p>
+                {isExpansionCardsLoading ? (
+                  <div className="expansions-empty">Loading cards...</div>
+                ) : tcgCards.length ? (
+                  <div className="tcg-card-grid expansion-card-grid">
+                    {tcgCards.map((card) => {
+                      const isTcgCaught = Boolean(tcgCaughtByUser[currentUser]?.[card.id]);
 
-                    <div className="pokemon-card-content">
-                      <div className="pokemon-image-wrap">
-                        <Image
-                          src={entry.imageUrl}
-                          alt={entry.name}
-                          width={132}
-                          height={132}
-                          className="pokemon-image"
-                          priority={index < 8}
-                        />
-                      </div>
-
-                      <div className="pokemon-card-body">
-                        <h3 className="pokemon-name">{entry.name}</h3>
-                        <p className="pokemon-region">
-                          Gen {entry.generation} · {GENERATION_NAMES[entry.generation]}
-                        </p>
-                      </div>
-                    </div>
-                  </>
-                );
-                const typeActions = (
-                  <div className="type-row pokemon-action-row">
-                    {entry.types.map((type) => (
-                      <span
-                        key={type}
-                        className="type-pill"
-                        style={{ background: `color-mix(in srgb, ${TYPE_ACCENTS[type] ?? "#94a3b8"} 18%, var(--surface-strong))`, borderColor: TYPE_ACCENTS[type] ?? "#94a3b8" }}
-                      >
-                        {type}
-                      </span>
-                    ))}
-                    <button
-                      type="button"
-                      className="pokemon-variations-link"
-                      onClick={() => void openTcgGallery(entry)}
-                      title={`Show ${entry.name} TCG cards`}
-                      aria-label={`Show ${entry.name} TCG card images in this app`}
-                    >
-                      Cards
-                    </button>
+                      return (
+                        <article
+                          className={`tcg-card ${isTcgCaught ? "is-caught" : ""}`}
+                          key={card.id}
+                          onClick={() => setPreviewTcgCard(card)}
+                          role="button"
+                          tabIndex={0}
+                          onKeyDown={(event) => {
+                            if (event.key === "Enter" || event.key === " ") {
+                              event.preventDefault();
+                              setPreviewTcgCard(card);
+                            }
+                          }}
+                          aria-label={`View ${card.name} from ${card.setName}`}
+                        >
+                          <Image
+                            src={card.imageUrl}
+                            alt={`${card.name} from ${card.setName}`}
+                            width={488}
+                            height={680}
+                            className="tcg-card-image"
+                            sizes="(max-width: 700px) 45vw, (max-width: 1100px) 28vw, 220px"
+                          />
+                          <div className="tcg-card-meta">
+                            <div className="tcg-card-copy">
+                              <h3>{card.name}</h3>
+                              <p>{card.setName} · {card.number}</p>
+                              <p>{[card.rarity, card.artist].filter(Boolean).join(" · ")}</p>
+                            </div>
+                            <button
+                              type="button"
+                              className={`tcg-card-status-button ${isTcgCaught ? "is-caught" : ""}`}
+                              onClick={(event) => {
+                                event.stopPropagation();
+                                setTcgCaughtStatus(card.id, !isTcgCaught);
+                              }}
+                              aria-pressed={isTcgCaught}
+                              aria-label={`${isTcgCaught ? "Mark" : "Unmark"} ${card.name} from ${card.setName} ${isTcgCaught ? "missing" : "caught"}`}
+                            >
+                              {isTcgCaught ? "Caught" : "Missing"}
+                            </button>
+                          </div>
+                        </article>
+                      );
+                    })}
                   </div>
-                );
+                ) : (
+                  <div className="expansions-empty">{expansionCardsStatus || "No cards loaded."}</div>
+                )}
+              </>
+            ) : (
+              <>
+                <div className="expansions-toolbar">
+                  <input
+                    ref={expansionSearchInputRef}
+                    className="control expansions-search-control"
+                    type="search"
+                    value={expansionSearch}
+                    onChange={(event) => setExpansionSearch(event.target.value)}
+                    placeholder="Search by name, series, or code"
+                  />
+                  <div className="toolbar-meta">
+                    {isExpansionsLoading ? "Loading" : `${filteredExpansions.length} visible`}
+                  </div>
+                </div>
 
-                if (isViewingReadOnly) {
+                {isExpansionsLoading ? (
+                  <div className="expansions-empty">Loading expansion packs...</div>
+                ) : filteredExpansions.length ? (
+                  <div className="expansions-list">
+                    {filteredExpansions.map((expansion) => {
+                      const cardTotal = expansion.printedTotal ?? expansion.total;
+
+                      return (
+                        <article
+                          className="expansion-row"
+                          key={expansion.id}
+                          onClick={() => void openExpansionCards(expansion)}
+                          role="button"
+                          tabIndex={0}
+                          onKeyDown={(event) => {
+                            if (event.key === "Enter" || event.key === " ") {
+                              event.preventDefault();
+                              void openExpansionCards(expansion);
+                            }
+                          }}
+                          aria-label={`View all cards in ${expansion.name}`}
+                        >
+                          <div className="expansion-art">
+                            {expansion.logoUrl ? (
+                              <Image
+                                src={expansion.logoUrl}
+                                alt={`${expansion.name} logo`}
+                                width={176}
+                                height={72}
+                                className="expansion-logo"
+                              />
+                            ) : expansion.symbolUrl ? (
+                              <Image
+                                src={expansion.symbolUrl}
+                                alt={`${expansion.name} symbol`}
+                                width={56}
+                                height={56}
+                                className="expansion-symbol"
+                              />
+                            ) : (
+                              <span>{expansion.code.slice(0, 3)}</span>
+                            )}
+                          </div>
+                          <div className="expansion-copy">
+                            <h3>{expansion.name}</h3>
+                            <p>{expansion.series}</p>
+                            <p>
+                              {[cardTotal ? `${cardTotal} cards` : null, formatExpansionDate(expansion.releaseDate)]
+                                .filter(Boolean)
+                                .join(" · ")}
+                            </p>
+                          </div>
+                          <span className="expansion-code">{expansion.code}</span>
+                        </article>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  <div className="expansions-empty">{expansionsStatus}</div>
+                )}
+              </>
+            )}
+          </section>
+        ) : (
+          <section className="main-card">
+            <div className="main-toolbar">
+              <input
+                ref={deckSearchInputRef}
+                className="control search-control"
+                type="search"
+                value={search}
+                onChange={(event) => {
+                  setSearch(event.target.value);
+                  setPage(1);
+                }}
+                placeholder="Search by name, number, or type"
+              />
+              <div className="toolbar-meta">{stats.visible} visible</div>
+            </div>
+
+            <div className="page-header">
+              {pagerControls}
+            </div>
+
+            <div className="pokemon-grid">
+              {visibleEntries.length ? (
+                visibleEntries.map((entry, index) => {
+                  const isCaught = Boolean(viewedCaught[entry.id]);
+                  const cardContent = (
+                    <>
+                      <div className="pokemon-card-top">
+                        <span className="pokemon-number">#{entry.number}</span>
+                        <span className={`capture-pill ${isCaught ? "is-caught" : ""}`}>
+                          {isCaught ? "Caught" : "Missing"}
+                        </span>
+                      </div>
+
+                      <div className="pokemon-card-content">
+                        <div className="pokemon-image-wrap">
+                          <Image
+                            src={entry.imageUrl}
+                            alt={entry.name}
+                            width={132}
+                            height={132}
+                            className="pokemon-image"
+                            priority={index < 8}
+                          />
+                        </div>
+
+                        <div className="pokemon-card-body">
+                          <h3 className="pokemon-name">{entry.name}</h3>
+                          <p className="pokemon-region">
+                            Gen {entry.generation} · {GENERATION_NAMES[entry.generation]}
+                          </p>
+                        </div>
+                      </div>
+                    </>
+                  );
+                  const typeActions = (
+                    <div className="type-row pokemon-action-row">
+                      {entry.types.map((type) => (
+                        <span
+                          key={type}
+                          className="type-pill"
+                          style={{ background: `color-mix(in srgb, ${TYPE_ACCENTS[type] ?? "#94a3b8"} 18%, var(--surface-strong))`, borderColor: TYPE_ACCENTS[type] ?? "#94a3b8" }}
+                        >
+                          {type}
+                        </span>
+                      ))}
+                      <button
+                        type="button"
+                        className="pokemon-variations-link"
+                        onClick={() => void openTcgGallery(entry)}
+                        title={`Show ${entry.name} TCG cards`}
+                        aria-label={`Show ${entry.name} TCG card images in this app`}
+                      >
+                        Cards
+                      </button>
+                    </div>
+                  );
+
+                  if (isViewingReadOnly) {
+                    return (
+                      <article
+                        key={entry.id}
+                        className={`pokemon-card ${isCaught ? "is-caught" : ""}`}
+                        aria-label={`${entry.name} is ${isCaught ? "caught" : "missing"} for ${viewedDisplayName}`}
+                      >
+                        <div className={`pokemon-card-toggle is-read-only ${isCaught ? "is-caught" : ""}`}>
+                          {cardContent}
+                        </div>
+                        {typeActions}
+                      </article>
+                    );
+                  }
+
                   return (
                     <article
                       key={entry.id}
                       className={`pokemon-card ${isCaught ? "is-caught" : ""}`}
-                      aria-label={`${entry.name} is ${isCaught ? "caught" : "missing"} for ${viewedDisplayName}`}
                     >
-                      <div className={`pokemon-card-toggle is-read-only ${isCaught ? "is-caught" : ""}`}>
+                      <button
+                        type="button"
+                        className={`pokemon-card-toggle ${isCaught ? "is-caught" : ""}`}
+                        onClick={() => setCaughtStatus(entry.id, !isCaught)}
+                        aria-pressed={isCaught}
+                        aria-label={`${isCaught ? "Unmark" : "Mark"} ${entry.name} as caught`}
+                      >
                         {cardContent}
-                      </div>
+                      </button>
                       {typeActions}
                     </article>
                   );
-                }
-
-                return (
-                  <article
-                    key={entry.id}
-                    className={`pokemon-card ${isCaught ? "is-caught" : ""}`}
-                  >
-                    <button
-                      type="button"
-                      className={`pokemon-card-toggle ${isCaught ? "is-caught" : ""}`}
-                      onClick={() => setCaughtStatus(entry.id, !isCaught)}
-                      aria-pressed={isCaught}
-                      aria-label={`${isCaught ? "Unmark" : "Mark"} ${entry.name} as caught`}
-                    >
-                      {cardContent}
-                    </button>
-                    {typeActions}
-                  </article>
-                );
-              })
-            ) : (
-              <div className="empty-state">No Pokemon match this filter set.</div>
-            )}
-          </div>
-          {pagerControls ? <div className="page-footer">{pagerControls}</div> : null}
-        </section>
+                })
+              ) : (
+                <div className="empty-state">No Pokemon match this filter set.</div>
+              )}
+            </div>
+            {pagerControls ? <div className="page-footer">{pagerControls}</div> : null}
+          </section>
+        )}
       </div>
+
+      <nav className="bottom-nav" aria-label="Primary card navigation">
+        <button
+          type="button"
+          className={`bottom-nav-button ${activeView === "deck" ? "is-active" : ""}`}
+          onClick={showDeck}
+          aria-label="My deck"
+          aria-pressed={activeView === "deck"}
+          title="My deck"
+        >
+          <BottomNavIcon name="deck" />
+        </button>
+        <button
+          type="button"
+          className={`bottom-nav-button ${activeView === "expansions" ? "is-active" : ""}`}
+          onClick={() => void loadExpansions()}
+          aria-label="All expansion packs"
+          aria-pressed={activeView === "expansions"}
+          title="All expansion packs"
+        >
+          <BottomNavIcon name="expansions" />
+        </button>
+        <button
+          type="button"
+          className="bottom-nav-button"
+          onClick={showSearch}
+          aria-label="Search"
+          title="Search"
+        >
+          <BottomNavIcon name="search" />
+        </button>
+      </nav>
     </main>
   );
 }
