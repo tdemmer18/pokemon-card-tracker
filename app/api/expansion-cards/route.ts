@@ -1,3 +1,5 @@
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 import { NextRequest, NextResponse } from "next/server";
 
 type PokemonTcgApiCard = {
@@ -41,6 +43,16 @@ const PAGE_SIZE = 250;
 const MAX_FETCH_ATTEMPTS = 3;
 const cachedPayloads = new Map<string, ExpansionCardsPayload>();
 
+async function readArchivedCards(setId: string): Promise<TcgCard[] | null> {
+  try {
+    const file = path.join(process.cwd(), "data", "cards", `${setId}.json`);
+    const cards = JSON.parse(await readFile(file, "utf8")) as TcgCard[];
+    return Array.isArray(cards) && cards.length > 0 ? cards : null;
+  } catch {
+    return null;
+  }
+}
+
 async function fetchCardPage(setId: string, page: number) {
   const apiUrl = `https://api.pokemontcg.io/v2/cards?q=set.id:${setId}&pageSize=${PAGE_SIZE}&page=${page}&select=id,name,number,artist,rarity,images`;
 
@@ -83,6 +95,18 @@ export async function GET(request: NextRequest) {
   const cachedPayload = cachedPayloads.get(cacheKey);
   if (cachedPayload) {
     return NextResponse.json(cachedPayload);
+  }
+
+  const archived = await readArchivedCards(setId);
+  if (archived) {
+    const payload = {
+      cards: archived,
+      message: `Loaded ${archived.length} ${setName} cards.`,
+      source: "local-archive",
+      total: archived.length,
+    };
+    cachedPayloads.set(cacheKey, payload);
+    return NextResponse.json(payload);
   }
 
   try {

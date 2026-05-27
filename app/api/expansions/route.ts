@@ -1,3 +1,5 @@
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 import { NextResponse } from "next/server";
 
 type PokemonTcgApiSet = {
@@ -42,6 +44,16 @@ const PAGE_SIZE = 50;
 const MAX_FETCH_ATTEMPTS = 3;
 let cachedPayload: ExpansionsPayload | null = null;
 
+async function readArchivedExpansions(): Promise<TcgExpansion[] | null> {
+  try {
+    const file = path.join(process.cwd(), "data", "expansions.json");
+    const expansions = JSON.parse(await readFile(file, "utf8")) as TcgExpansion[];
+    return Array.isArray(expansions) && expansions.length > 0 ? expansions : null;
+  } catch {
+    return null;
+  }
+}
+
 async function fetchSetPage(page: number) {
   const apiUrl = new URL("https://api.pokemontcg.io/v2/sets");
   apiUrl.searchParams.set("orderBy", "-releaseDate");
@@ -78,6 +90,17 @@ async function fetchSetPage(page: number) {
 
 export async function GET() {
   if (cachedPayload) {
+    return NextResponse.json(cachedPayload);
+  }
+
+  const archived = await readArchivedExpansions();
+  if (archived) {
+    cachedPayload = {
+      expansions: archived,
+      message: `Loaded ${archived.length} expansion packs.`,
+      source: "local-archive",
+      total: archived.length,
+    };
     return NextResponse.json(cachedPayload);
   }
 

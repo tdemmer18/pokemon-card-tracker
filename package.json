@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fetch:tcg": "node scripts/fetch-tcg-data.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.103.3",
