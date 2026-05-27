@@ -47,6 +47,7 @@ async function fetchSetPage(page: number) {
   apiUrl.searchParams.set("orderBy", "-releaseDate");
   apiUrl.searchParams.set("pageSize", String(PAGE_SIZE));
   apiUrl.searchParams.set("page", String(page));
+  apiUrl.searchParams.set("select", "id,name,series,printedTotal,total,ptcgoCode,releaseDate,images");
 
   for (let attempt = 1; attempt <= MAX_FETCH_ATTEMPTS; attempt += 1) {
     try {

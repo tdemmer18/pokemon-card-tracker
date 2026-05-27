@@ -42,7 +42,7 @@ const MAX_FETCH_ATTEMPTS = 3;
 const cachedPayloads = new Map<string, ExpansionCardsPayload>();
 
 async function fetchCardPage(setId: string, page: number) {
-  const apiUrl = `https://api.pokemontcg.io/v2/cards?q=set.id:${setId}&pageSize=${PAGE_SIZE}&page=${page}&orderBy=number`;
+  const apiUrl = `https://api.pokemontcg.io/v2/cards?q=set.id:${setId}&pageSize=${PAGE_SIZE}&page=${page}&select=id,name,number,artist,rarity,images`;
 
   for (let attempt = 1; attempt <= MAX_FETCH_ATTEMPTS; attempt += 1) {
     try {

@@ -209,6 +209,7 @@ export default function HomePage() {
   const [expansionCardsStatus, setExpansionCardsStatus] = useState("");
   const deckSearchInputRef = useRef<HTMLInputElement>(null);
   const expansionSearchInputRef = useRef<HTMLInputElement>(null);
+  const expansionCardsCacheRef = useRef<Map<string, { cards: TcgCard[]; status: string }>>(new Map());
   const ownCaught = caughtByUser[currentUser] ?? {};
   const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
   const viewedCaught = viewingAccount
@@ -649,9 +650,14 @@ export default function HomePage() {
     }, 0);
   };
 
-  const loadExpansions = async () => {
+  const loadExpansions = async (force = false) => {
     setActiveView("expansions");
     setSelectedExpansion(null);
+
+    if (!force && expansions.length > 0) {
+      return;
+    }
+
     setIsExpansionsLoading(true);
     setExpansionsStatus("Loading expansion packs...");
 
@@ -679,10 +685,19 @@ export default function HomePage() {
   const openExpansionCards = async (expansion: TcgExpansion) => {
     setSelectedExpansion(expansion);
     setPreviewTcgCard(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+    const cached = expansionCardsCacheRef.current.get(expansion.id);
+    if (cached) {
+      setTcgCards(cached.cards);
+      setExpansionCardsStatus(cached.status);
+      setIsExpansionCardsLoading(false);
+      return;
+    }
+
     setTcgCards([]);
     setIsExpansionCardsLoading(true);
     setExpansionCardsStatus(`Loading ${expansion.name} cards...`);
-    window.scrollTo({ top: 0, behavior: "smooth" });
 
     try {
       const response = await fetch(
@@ -698,8 +713,11 @@ export default function HomePage() {
         throw new Error(payload.message ?? "Could not load cards.");
       }
 
-      setTcgCards(payload.cards ?? []);
-      setExpansionCardsStatus(payload.message ?? `Loaded ${payload.cards?.length ?? 0} ${expansion.name} cards.`);
+      const cards = payload.cards ?? [];
+      const status = payload.message ?? `Loaded ${cards.length} ${expansion.name} cards.`;
+      expansionCardsCacheRef.current.set(expansion.id, { cards, status });
+      setTcgCards(cards);
+      setExpansionCardsStatus(status);
     } catch {
       setTcgCards([]);
       setExpansionCardsStatus("Could not load cards right now.");
@@ -1459,7 +1477,7 @@ export default function HomePage() {
                     return;
                   }
 
-                  void loadExpansions();
+                  void loadExpansions(true);
                 }}
                 disabled={isExpansionsLoading || isExpansionCardsLoading}
               >
