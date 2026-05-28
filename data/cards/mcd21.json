@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": null,
     "artist": "Mizue",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/1_hires.png",
+    "price": {
+      "market": 5.22,
+      "low": 3.54,
+      "high": 89.94
+    }
   },
   {
     "id": "mcd21-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": null,
     "artist": "sowsow",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/2_hires.png",
+    "price": {
+      "market": 1.56,
+      "low": 0.8,
+      "high": 25.6
+    }
   },
   {
     "id": "mcd21-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": null,
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/3_hires.png",
+    "price": {
+      "market": 3.38,
+      "low": 1.9,
+      "high": 36.5
+    }
   },
   {
     "id": "mcd21-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": null,
     "artist": "OOYAMA",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/4_hires.png",
+    "price": {
+      "market": 1.7,
+      "low": 0.98,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": null,
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/5_hires.png",
+    "price": {
+      "market": 1.25,
+      "low": 0.72,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/6_hires.png",
+    "price": {
+      "market": 1.25,
+      "low": 0.25,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": null,
     "artist": "Megumi Mizutani",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/7_hires.png",
+    "price": {
+      "market": 1.4,
+      "low": 0.75,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": null,
     "artist": "kirisAki",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/8_hires.png",
+    "price": {
+      "market": 1.24,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": null,
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/9_hires.png",
+    "price": {
+      "market": 4.69,
+      "low": 2,
+      "high": 96.93
+    }
   },
   {
     "id": "mcd21-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": null,
     "artist": "kirisAki",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/10_hires.png",
+    "price": {
+      "market": 2.38,
+      "low": 0.25,
+      "high": 31
+    }
   },
   {
     "id": "mcd21-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": null,
     "artist": "sui",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/11_hires.png",
+    "price": {
+      "market": 1.2,
+      "low": 0.62,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-12",
@@ -105,7 +160,12 @@
     "number": "12",
     "rarity": null,
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/12_hires.png",
+    "price": {
+      "market": 1.16,
+      "low": 0.52,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-13",
@@ -114,7 +174,12 @@
     "number": "13",
     "rarity": null,
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/13_hires.png",
+    "price": {
+      "market": 1.3,
+      "low": 0.5,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-14",
@@ -123,7 +188,12 @@
     "number": "14",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/14_hires.png",
+    "price": {
+      "market": 1.24,
+      "low": 0.47,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-15",
@@ -132,7 +202,12 @@
     "number": "15",
     "rarity": null,
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/15_hires.png",
+    "price": {
+      "market": 1.21,
+      "low": 0.44,
+      "high": 9.99
+    }
   },
   {
     "id": "mcd21-16",
@@ -141,7 +216,12 @@
     "number": "16",
     "rarity": null,
     "artist": "Hitoshi Ariga",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/16_hires.png",
+    "price": {
+      "market": 1.24,
+      "low": 0.49,
+      "high": 9.99
+    }
   },
   {
     "id": "mcd21-17",
@@ -150,7 +230,12 @@
     "number": "17",
     "rarity": null,
     "artist": "tetsuya koizumi",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/17_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/17_hires.png",
+    "price": {
+      "market": 6.07,
+      "low": 4.68,
+      "high": 79.99
+    }
   },
   {
     "id": "mcd21-18",
@@ -159,7 +244,12 @@
     "number": "18",
     "rarity": null,
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/18_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/18_hires.png",
+    "price": {
+      "market": 3.44,
+      "low": 1.85,
+      "high": 96.95
+    }
   },
   {
     "id": "mcd21-19",
@@ -168,7 +258,12 @@
     "number": "19",
     "rarity": null,
     "artist": "Aya Kusube",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/19_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/19_hires.png",
+    "price": {
+      "market": 6.21,
+      "low": 2.99,
+      "high": 104.4
+    }
   },
   {
     "id": "mcd21-20",
@@ -177,7 +272,12 @@
     "number": "20",
     "rarity": null,
     "artist": "Shibuzoh.",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/20_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/20_hires.png",
+    "price": {
+      "market": 4.8,
+      "low": 2.02,
+      "high": 106
+    }
   },
   {
     "id": "mcd21-21",
@@ -186,7 +286,12 @@
     "number": "21",
     "rarity": null,
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/21_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/21_hires.png",
+    "price": {
+      "market": 2.07,
+      "low": 0.42,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-22",
@@ -195,7 +300,12 @@
     "number": "22",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/22_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/22_hires.png",
+    "price": {
+      "market": 1.69,
+      "low": 0.42,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd21-23",
@@ -204,7 +314,12 @@
     "number": "23",
     "rarity": null,
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/23_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/23_hires.png",
+    "price": {
+      "market": 2.64,
+      "low": 1.5,
+      "high": 27.4
+    }
   },
   {
     "id": "mcd21-24",
@@ -213,7 +328,12 @@
     "number": "24",
     "rarity": null,
     "artist": "Mizue",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/24_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/24_hires.png",
+    "price": {
+      "market": 3.57,
+      "low": 1.99,
+      "high": 96.95
+    }
   },
   {
     "id": "mcd21-25",
@@ -222,6 +342,11 @@
     "number": "25",
     "rarity": null,
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/mcd21/25_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd21/25_hires.png",
+    "price": {
+      "market": 23.73,
+      "low": 20.45,
+      "high": 148.01
+    }
   }
 ]

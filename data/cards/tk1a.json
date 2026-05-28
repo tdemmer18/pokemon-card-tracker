@@ -6,7 +6,8 @@
     "number": "1",
     "rarity": null,
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/1_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-2",
@@ -15,7 +16,8 @@
     "number": "2",
     "rarity": null,
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/2_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-3",
@@ -24,7 +26,8 @@
     "number": "3",
     "rarity": null,
     "artist": "Midori Harada",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/3_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-4",
@@ -33,7 +36,8 @@
     "number": "4",
     "rarity": null,
     "artist": "Nakaoka",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/4_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-5",
@@ -42,7 +46,8 @@
     "number": "5",
     "rarity": null,
     "artist": "Yuka Morii",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/5_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-6",
@@ -51,7 +56,8 @@
     "number": "6",
     "rarity": null,
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/6_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-7",
@@ -60,7 +66,8 @@
     "number": "7",
     "rarity": null,
     "artist": "Hironobu Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/7_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-8",
@@ -69,7 +76,8 @@
     "number": "8",
     "rarity": null,
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/8_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-9",
@@ -78,7 +86,8 @@
     "number": "9",
     "rarity": null,
     "artist": "Kai Ishikawa",
-    "imageUrl": "https://images.pokemontcg.io/tk1a/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/9_hires.png",
+    "price": null
   },
   {
     "id": "tk1a-10",
@@ -87,6 +96,7 @@
     "number": "10",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/tk1a/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/tk1a/10_hires.png",
+    "price": null
   }
 ]

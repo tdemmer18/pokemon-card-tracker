@@ -17,6 +17,7 @@ import {
   type ThemeId,
 } from "@/lib/seed";
 import type { ProgressState } from "@/lib/progress";
+import type { TcgCardPrice } from "@/lib/tcg-price";
 
 const STORAGE_KEY = "pokemon-web:v1";
 const TCG_STORAGE_KEY = "pokemon-web:tcg-cards:v1";
@@ -76,6 +77,7 @@ type TcgCard = {
   rarity: string | null;
   artist: string | null;
   imageUrl: string;
+  price?: TcgCardPrice | null;
 };
 
 type TcgGalleryPokemon = Pick<PokemonEntry, "id" | "name" | "number">;
@@ -147,6 +149,17 @@ function userColor(name: string): string {
 
 function clampPage(page: number, totalPages: number) {
   return Math.min(Math.max(page, 1), Math.max(totalPages, 1));
+}
+
+function formatTcgPrice(price?: TcgCardPrice | null): string | null {
+  if (!price) return null;
+  const usd = (value: number) => `$${value.toFixed(2)}`;
+  const { market, low, high } = price;
+  const range = low != null && high != null && low !== high ? `${usd(low)}–${usd(high)}` : null;
+  if (market != null) return range ? `${usd(market)} · ${range}` : usd(market);
+  if (range) return range;
+  const single = low ?? high;
+  return single != null ? usd(single) : null;
 }
 
 function completionLabel(caught: number, total: number) {
@@ -1335,6 +1348,7 @@ export default function HomePage() {
               <div className="tcg-card-grid">
                 {tcgCards.map((card) => {
                   const isTcgCaught = Boolean(tcgCaughtByUser[currentUser]?.[card.id]);
+                  const priceLabel = formatTcgPrice(card.price);
 
                   return (
                     <article
@@ -1364,6 +1378,7 @@ export default function HomePage() {
                           <h3>{card.name}</h3>
                           <p>{card.setName} · {card.number}</p>
                           <p>{[card.rarity, card.artist].filter(Boolean).join(" · ")}</p>
+                          {priceLabel ? <p className="tcg-card-price">{priceLabel}</p> : null}
                         </div>
                         <button
                           type="button"
@@ -1496,6 +1511,7 @@ export default function HomePage() {
                   <div className="tcg-card-grid expansion-card-grid">
                     {tcgCards.map((card) => {
                       const isTcgCaught = Boolean(tcgCaughtByUser[currentUser]?.[card.id]);
+                      const priceLabel = formatTcgPrice(card.price);
 
                       return (
                         <article
@@ -1525,6 +1541,7 @@ export default function HomePage() {
                               <h3>{card.name}</h3>
                               <p>{card.setName} · {card.number}</p>
                               <p>{[card.rarity, card.artist].filter(Boolean).join(" · ")}</p>
+                              {priceLabel ? <p className="tcg-card-price">{priceLabel}</p> : null}
                             </div>
                             <button
                               type="button"

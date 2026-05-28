@@ -44,7 +44,17 @@ import path from "node:path";
 
 const API_BASE = "https://api.pokemontcg.io/v2";
 const SETS_SELECT = "id,name,series,printedTotal,total,ptcgoCode,releaseDate,images";
-const CARDS_SELECT = "id,name,number,artist,rarity,images";
+const CARDS_SELECT = "id,name,number,artist,rarity,images,tcgplayer";
+const TCGPLAYER_VARIANT_PRIORITY = [
+  "holofoil",
+  "reverseHolofoil",
+  "normal",
+  "1stEditionHolofoil",
+  "1stEditionNormal",
+  "1stEdition",
+  "unlimitedHolofoil",
+  "unlimited",
+];
 const PAGE_SIZE = 250;
 const MAX_ATTEMPTS = 4;
 
@@ -105,6 +115,21 @@ function toExpansion(set) {
   };
 }
 
+function extractPrice(card) {
+  const prices = card.tcgplayer?.prices;
+  if (!prices) return null;
+  const keys = Object.keys(prices);
+  if (keys.length === 0) return null;
+  const variantKey = TCGPLAYER_VARIANT_PRIORITY.find((key) => prices[key]) ?? keys[0];
+  const variant = prices[variantKey];
+  if (!variant) return null;
+  const market = variant.market ?? variant.mid ?? null;
+  const low = variant.low ?? null;
+  const high = variant.high ?? null;
+  if (market === null && low === null && high === null) return null;
+  return { market, low, high };
+}
+
 function toCard(card, setName) {
   return {
     id: card.id,
@@ -114,6 +139,7 @@ function toCard(card, setName) {
     rarity: card.rarity ?? null,
     artist: card.artist ?? null,
     imageUrl: card.images?.large ?? card.images?.small ?? "",
+    price: extractPrice(card),
   };
 }
 

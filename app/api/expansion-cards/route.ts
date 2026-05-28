@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { NextRequest, NextResponse } from "next/server";
+import { extractTcgPrice, type TcgCardPrice, type Tcgplayer } from "@/lib/tcg-price";
 
 type PokemonTcgApiCard = {
   id: string;
@@ -15,6 +16,7 @@ type PokemonTcgApiCard = {
     large?: string;
     small?: string;
   };
+  tcgplayer?: Tcgplayer;
 };
 
 type PokemonTcgApiResponse = {
@@ -30,6 +32,7 @@ type TcgCard = {
   rarity: string | null;
   artist: string | null;
   imageUrl: string;
+  price: TcgCardPrice | null;
 };
 
 type ExpansionCardsPayload = {
@@ -54,7 +57,7 @@ async function readArchivedCards(setId: string): Promise<TcgCard[] | null> {
 }
 
 async function fetchCardPage(setId: string, page: number) {
-  const apiUrl = `https://api.pokemontcg.io/v2/cards?q=set.id:${setId}&pageSize=${PAGE_SIZE}&page=${page}&select=id,name,number,artist,rarity,images`;
+  const apiUrl = `https://api.pokemontcg.io/v2/cards?q=set.id:${setId}&pageSize=${PAGE_SIZE}&page=${page}&select=id,name,number,artist,rarity,images,tcgplayer`;
 
   for (let attempt = 1; attempt <= MAX_FETCH_ATTEMPTS; attempt += 1) {
     try {
@@ -131,6 +134,7 @@ export async function GET(request: NextRequest) {
         rarity: card.rarity ?? null,
         artist: card.artist ?? null,
         imageUrl: card.images?.large ?? card.images?.small ?? "",
+        price: extractTcgPrice(card.tcgplayer),
       }));
     const payload = {
       cards,

@@ -6,7 +6,8 @@
     "number": "1",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/1_hires.png",
+    "price": null
   },
   {
     "id": "sve-2",
@@ -15,7 +16,8 @@
     "number": "2",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/2_hires.png",
+    "price": null
   },
   {
     "id": "sve-3",
@@ -24,7 +26,8 @@
     "number": "3",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/3_hires.png",
+    "price": null
   },
   {
     "id": "sve-4",
@@ -33,7 +36,8 @@
     "number": "4",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/4_hires.png",
+    "price": null
   },
   {
     "id": "sve-5",
@@ -42,7 +46,8 @@
     "number": "5",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/5_hires.png",
+    "price": null
   },
   {
     "id": "sve-6",
@@ -51,7 +56,8 @@
     "number": "6",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/6_hires.png",
+    "price": null
   },
   {
     "id": "sve-7",
@@ -60,7 +66,8 @@
     "number": "7",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/7_hires.png",
+    "price": null
   },
   {
     "id": "sve-8",
@@ -69,7 +76,8 @@
     "number": "8",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/8_hires.png",
+    "price": null
   },
   {
     "id": "sve-9",
@@ -78,7 +86,8 @@
     "number": "9",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/9_hires.png",
+    "price": null
   },
   {
     "id": "sve-10",
@@ -87,7 +96,8 @@
     "number": "10",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/10_hires.png",
+    "price": null
   },
   {
     "id": "sve-11",
@@ -96,7 +106,8 @@
     "number": "11",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/11_hires.png",
+    "price": null
   },
   {
     "id": "sve-12",
@@ -105,7 +116,8 @@
     "number": "12",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/12_hires.png",
+    "price": null
   },
   {
     "id": "sve-13",
@@ -114,7 +126,8 @@
     "number": "13",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/13_hires.png",
+    "price": null
   },
   {
     "id": "sve-14",
@@ -123,7 +136,8 @@
     "number": "14",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/14_hires.png",
+    "price": null
   },
   {
     "id": "sve-15",
@@ -132,7 +146,8 @@
     "number": "15",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/15_hires.png",
+    "price": null
   },
   {
     "id": "sve-16",
@@ -141,6 +156,7 @@
     "number": "16",
     "rarity": null,
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sve/16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sve/16_hires.png",
+    "price": null
   }
 ]

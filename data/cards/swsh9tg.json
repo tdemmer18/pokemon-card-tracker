@@ -6,7 +6,12 @@
     "number": "TG01",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "You Iribi",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG01_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG01_hires.png",
+    "price": {
+      "market": 22.92,
+      "low": 17.76,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG02",
@@ -15,7 +20,12 @@
     "number": "TG02",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "Jiro Sasumo",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG02_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG02_hires.png",
+    "price": {
+      "market": 27.37,
+      "low": 20,
+      "high": 5000
+    }
   },
   {
     "id": "swsh9tg-TG03",
@@ -24,7 +34,12 @@
     "number": "TG03",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "Shinya Komatsu",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG03_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG03_hires.png",
+    "price": {
+      "market": 2.97,
+      "low": 1.31,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG04",
@@ -33,7 +48,12 @@
     "number": "TG04",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "DOM",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG04_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG04_hires.png",
+    "price": {
+      "market": 18.88,
+      "low": 14.49,
+      "high": 9999
+    }
   },
   {
     "id": "swsh9tg-TG05",
@@ -42,7 +62,12 @@
     "number": "TG05",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "AKIRA EGAWA",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG05_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG05_hires.png",
+    "price": {
+      "market": 14.71,
+      "low": 11.8,
+      "high": 100
+    }
   },
   {
     "id": "swsh9tg-TG06",
@@ -51,7 +76,12 @@
     "number": "TG06",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "Megumi Higuchi",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG06_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG06_hires.png",
+    "price": {
+      "market": 2.72,
+      "low": 1.62,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG07",
@@ -60,7 +90,12 @@
     "number": "TG07",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "kurumitsu",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG07_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG07_hires.png",
+    "price": {
+      "market": 8.83,
+      "low": 4.58,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG08",
@@ -69,7 +104,12 @@
     "number": "TG08",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "OKACHEKE",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG08_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG08_hires.png",
+    "price": {
+      "market": 3.14,
+      "low": 2.25,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG09",
@@ -78,7 +118,12 @@
     "number": "TG09",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "Shiburingaru",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG09_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG09_hires.png",
+    "price": {
+      "market": 2.34,
+      "low": 1.29,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG10",
@@ -87,7 +132,12 @@
     "number": "TG10",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "NC Empire",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG10_hires.png",
+    "price": {
+      "market": 3.43,
+      "low": 1,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG11",
@@ -96,7 +146,12 @@
     "number": "TG11",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "Souichirou Gunjima",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG11_hires.png",
+    "price": {
+      "market": 22.03,
+      "low": 17.99,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG12",
@@ -105,7 +160,12 @@
     "number": "TG12",
     "rarity": "Trainer Gallery Rare Holo",
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG12_hires.png",
+    "price": {
+      "market": 2.63,
+      "low": 1,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG13",
@@ -114,7 +174,12 @@
     "number": "TG13",
     "rarity": "Rare Holo V",
     "artist": "GIDORA",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG13_hires.png",
+    "price": {
+      "market": 13.95,
+      "low": 10.23,
+      "high": 104.42
+    }
   },
   {
     "id": "swsh9tg-TG14",
@@ -123,7 +188,12 @@
     "number": "TG14",
     "rarity": "Rare Holo V",
     "artist": "Megumi Mizutani",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG14_hires.png",
+    "price": {
+      "market": 82.04,
+      "low": 60,
+      "high": 500
+    }
   },
   {
     "id": "swsh9tg-TG15",
@@ -132,7 +202,12 @@
     "number": "TG15",
     "rarity": "Rare Holo VMAX",
     "artist": "sui",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG15_hires.png",
+    "price": {
+      "market": 77.44,
+      "low": 68.14,
+      "high": 175.38
+    }
   },
   {
     "id": "swsh9tg-TG16",
@@ -141,7 +216,12 @@
     "number": "TG16",
     "rarity": "Rare Holo V",
     "artist": "saino misaki",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG16_hires.png",
+    "price": {
+      "market": 86.87,
+      "low": 72.99,
+      "high": 150
+    }
   },
   {
     "id": "swsh9tg-TG17",
@@ -150,7 +230,12 @@
     "number": "TG17",
     "rarity": "Rare Holo VMAX",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG17_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG17_hires.png",
+    "price": {
+      "market": 75.95,
+      "low": 53.14,
+      "high": 169.99
+    }
   },
   {
     "id": "swsh9tg-TG18",
@@ -159,7 +244,12 @@
     "number": "TG18",
     "rarity": "Rare Holo V",
     "artist": "Yuu Nishida",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG18_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG18_hires.png",
+    "price": {
+      "market": 5.62,
+      "low": 3.9,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG19",
@@ -168,7 +258,12 @@
     "number": "TG19",
     "rarity": "Rare Holo VMAX",
     "artist": "kodama",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG19_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG19_hires.png",
+    "price": {
+      "market": 9.17,
+      "low": 6.68,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG20",
@@ -177,7 +272,12 @@
     "number": "TG20",
     "rarity": "Rare Holo V",
     "artist": "takuyoa",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG20_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG20_hires.png",
+    "price": {
+      "market": 5.38,
+      "low": 3.7,
+      "high": 42.74
+    }
   },
   {
     "id": "swsh9tg-TG21",
@@ -186,7 +286,12 @@
     "number": "TG21",
     "rarity": "Rare Holo VMAX",
     "artist": "Scav",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG21_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG21_hires.png",
+    "price": {
+      "market": 11.37,
+      "low": 8.5,
+      "high": 30
+    }
   },
   {
     "id": "swsh9tg-TG22",
@@ -195,7 +300,12 @@
     "number": "TG22",
     "rarity": "Rare Holo V",
     "artist": "Ligton",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG22_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG22_hires.png",
+    "price": {
+      "market": 72.91,
+      "low": 60.98,
+      "high": 149.99
+    }
   },
   {
     "id": "swsh9tg-TG23",
@@ -204,7 +314,12 @@
     "number": "TG23",
     "rarity": "Rare Holo VMAX",
     "artist": "kawayoo",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG23_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG23_hires.png",
+    "price": {
+      "market": 110.47,
+      "low": 91.01,
+      "high": 999
+    }
   },
   {
     "id": "swsh9tg-TG24",
@@ -213,7 +328,12 @@
     "number": "TG24",
     "rarity": "Rare Ultra",
     "artist": "yuu",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG24_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG24_hires.png",
+    "price": {
+      "market": 8.42,
+      "low": 6,
+      "high": 80.56
+    }
   },
   {
     "id": "swsh9tg-TG25",
@@ -222,7 +342,12 @@
     "number": "TG25",
     "rarity": "Rare Ultra",
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG25_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG25_hires.png",
+    "price": {
+      "market": 2.3,
+      "low": 1.2,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG26",
@@ -231,7 +356,12 @@
     "number": "TG26",
     "rarity": "Rare Ultra",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG26_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG26_hires.png",
+    "price": {
+      "market": 5.68,
+      "low": 4.75,
+      "high": 59.95
+    }
   },
   {
     "id": "swsh9tg-TG27",
@@ -240,7 +370,12 @@
     "number": "TG27",
     "rarity": "Rare Ultra",
     "artist": "KIYOTAKA OSHIYAMA",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG27_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG27_hires.png",
+    "price": {
+      "market": 1.73,
+      "low": 1,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG28",
@@ -249,7 +384,12 @@
     "number": "TG28",
     "rarity": "Rare Ultra",
     "artist": "Souichirou Gunjima",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG28_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG28_hires.png",
+    "price": {
+      "market": 1.62,
+      "low": 0.64,
+      "high": 999.99
+    }
   },
   {
     "id": "swsh9tg-TG29",
@@ -258,7 +398,12 @@
     "number": "TG29",
     "rarity": "Rare Secret",
     "artist": "PLANETA Tsuji",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG29_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG29_hires.png",
+    "price": {
+      "market": 4.72,
+      "low": 3.5,
+      "high": 96.95
+    }
   },
   {
     "id": "swsh9tg-TG30",
@@ -267,6 +412,11 @@
     "number": "TG30",
     "rarity": "Rare Secret",
     "artist": "PLANETA Tsuji",
-    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG30_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh9tg/TG30_hires.png",
+    "price": {
+      "market": 4.92,
+      "low": 3.89,
+      "high": 999.99
+    }
   }
 ]

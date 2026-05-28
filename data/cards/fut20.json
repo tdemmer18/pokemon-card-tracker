@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": null,
     "artist": "The Pokémon Company Art Team",
-    "imageUrl": "https://images.pokemontcg.io/fut20/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/fut20/1_hires.png",
+    "price": {
+      "market": 86.29,
+      "low": 43,
+      "high": 500
+    }
   },
   {
     "id": "fut20-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": null,
     "artist": "The Pokémon Company Art Team",
-    "imageUrl": "https://images.pokemontcg.io/fut20/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/fut20/2_hires.png",
+    "price": {
+      "market": 52.38,
+      "low": 42,
+      "high": 59.95
+    }
   },
   {
     "id": "fut20-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": null,
     "artist": "The Pokémon Company Art Team",
-    "imageUrl": "https://images.pokemontcg.io/fut20/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/fut20/3_hires.png",
+    "price": {
+      "market": 36.07,
+      "low": 40,
+      "high": 99.99
+    }
   },
   {
     "id": "fut20-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": null,
     "artist": "The Pokémon Company Art Team",
-    "imageUrl": "https://images.pokemontcg.io/fut20/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/fut20/4_hires.png",
+    "price": {
+      "market": 37.08,
+      "low": null,
+      "high": null
+    }
   },
   {
     "id": "fut20-5",
@@ -42,6 +62,11 @@
     "number": "5",
     "rarity": null,
     "artist": "The Pokémon Company Art Team",
-    "imageUrl": "https://images.pokemontcg.io/fut20/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/fut20/5_hires.png",
+    "price": {
+      "market": 55.31,
+      "low": 48,
+      "high": 99.99
+    }
   }
 ]

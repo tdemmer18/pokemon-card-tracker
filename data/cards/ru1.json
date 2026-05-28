@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/1_hires.png",
+    "price": {
+      "market": 264.96,
+      "low": 199.99,
+      "high": 279.96
+    }
   },
   {
     "id": "ru1-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/2_hires.png",
+    "price": {
+      "market": 53.96,
+      "low": 51.84,
+      "high": 899.9
+    }
   },
   {
     "id": "ru1-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/3_hires.png",
+    "price": {
+      "market": 249.99,
+      "low": 369.63,
+      "high": 1750
+    }
   },
   {
     "id": "ru1-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/4_hires.png",
+    "price": {
+      "market": 46.9,
+      "low": 104.99,
+      "high": 109.98
+    }
   },
   {
     "id": "ru1-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/5_hires.png",
+    "price": {
+      "market": 119.98,
+      "low": 148.97,
+      "high": 1499.8
+    }
   },
   {
     "id": "ru1-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/6_hires.png",
+    "price": {
+      "market": 270.44,
+      "low": 308.96,
+      "high": 399.99
+    }
   },
   {
     "id": "ru1-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/7_hires.png",
+    "price": {
+      "market": 600,
+      "low": 350,
+      "high": 405.99
+    }
   },
   {
     "id": "ru1-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/8_hires.png",
+    "price": {
+      "market": 107.81,
+      "low": 266.66,
+      "high": 299.98
+    }
   },
   {
     "id": "ru1-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/9_hires.png",
+    "price": {
+      "market": 450,
+      "low": 204.98,
+      "high": 359.99
+    }
   },
   {
     "id": "ru1-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/10_hires.png",
+    "price": {
+      "market": 253.32,
+      "low": 499.98,
+      "high": 999.99
+    }
   },
   {
     "id": "ru1-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/11_hires.png",
+    "price": {
+      "market": 80.07,
+      "low": 80.07,
+      "high": 969.9
+    }
   },
   {
     "id": "ru1-12",
@@ -105,7 +160,12 @@
     "number": "12",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/12_hires.png",
+    "price": {
+      "market": 280.48,
+      "low": 148.67,
+      "high": 2999.19
+    }
   },
   {
     "id": "ru1-13",
@@ -114,7 +174,12 @@
     "number": "13",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/13_hires.png",
+    "price": {
+      "market": 52.38,
+      "low": 53.19,
+      "high": 999.8
+    }
   },
   {
     "id": "ru1-14",
@@ -123,7 +188,12 @@
     "number": "14",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/14_hires.png",
+    "price": {
+      "market": 62.69,
+      "low": 69.99,
+      "high": 669.9
+    }
   },
   {
     "id": "ru1-15",
@@ -132,7 +202,12 @@
     "number": "15",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/15_hires.png",
+    "price": {
+      "market": 88.89,
+      "low": 89.99,
+      "high": 1119.8
+    }
   },
   {
     "id": "ru1-16",
@@ -141,6 +216,11 @@
     "number": "16",
     "rarity": null,
     "artist": "Pokemon Rumble",
-    "imageUrl": "https://images.pokemontcg.io/ru1/16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/ru1/16_hires.png",
+    "price": {
+      "market": 74.99,
+      "low": 59.98,
+      "high": 1099.8
+    }
   }
 ]

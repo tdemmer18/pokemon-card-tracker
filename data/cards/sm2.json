@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": "Common",
     "artist": "Aya Kusube",
-    "imageUrl": "https://images.pokemontcg.io/sm2/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/1_hires.png",
+    "price": {
+      "market": 0.35,
+      "low": 0.12,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": "Uncommon",
     "artist": "Mina Nakai",
-    "imageUrl": "https://images.pokemontcg.io/sm2/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/2_hires.png",
+    "price": {
+      "market": 0.36,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": "Rare",
     "artist": "TOKIYA",
-    "imageUrl": "https://images.pokemontcg.io/sm2/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/3_hires.png",
+    "price": {
+      "market": 0.49,
+      "low": 0.03,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": "Common",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/4_hires.png",
+    "price": {
+      "market": 0.28,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": "Rare",
     "artist": "You Iribi",
-    "imageUrl": "https://images.pokemontcg.io/sm2/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/5_hires.png",
+    "price": {
+      "market": 0.42,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": "Common",
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/sm2/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/6_hires.png",
+    "price": {
+      "market": 0.68,
+      "low": 0.19,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": "Rare",
     "artist": "Hiroyuki Yamamoto",
-    "imageUrl": "https://images.pokemontcg.io/sm2/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/7_hires.png",
+    "price": {
+      "market": 0.34,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": "Common",
     "artist": "match",
-    "imageUrl": "https://images.pokemontcg.io/sm2/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/8_hires.png",
+    "price": {
+      "market": 0.28,
+      "low": 0.06,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": "Rare Holo",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/sm2/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/9_hires.png",
+    "price": {
+      "market": 0.44,
+      "low": 0.1,
+      "high": 19.32
+    }
   },
   {
     "id": "sm2-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": "Rare Holo",
     "artist": "kodama",
-    "imageUrl": "https://images.pokemontcg.io/sm2/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/10_hires.png",
+    "price": {
+      "market": 1.03,
+      "low": 0.48,
+      "high": 19.37
+    }
   },
   {
     "id": "sm2-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": "Common",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/sm2/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/11_hires.png",
+    "price": {
+      "market": 0.4,
+      "low": 0.15,
+      "high": 18.24
+    }
   },
   {
     "id": "sm2-12",
@@ -105,7 +160,12 @@
     "number": "12",
     "rarity": "Uncommon",
     "artist": "0313",
-    "imageUrl": "https://images.pokemontcg.io/sm2/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/12_hires.png",
+    "price": {
+      "market": 0.37,
+      "low": 0.13,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-13",
@@ -114,7 +174,12 @@
     "number": "13",
     "rarity": "Rare Holo",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/sm2/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/13_hires.png",
+    "price": {
+      "market": 0.51,
+      "low": 0.12,
+      "high": 19.9
+    }
   },
   {
     "id": "sm2-14",
@@ -123,7 +188,12 @@
     "number": "14",
     "rarity": "Rare",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/14_hires.png",
+    "price": {
+      "market": 0.38,
+      "low": 0.12,
+      "high": 501.5
+    }
   },
   {
     "id": "sm2-15",
@@ -132,7 +202,12 @@
     "number": "15",
     "rarity": "Common",
     "artist": "TOKIYA",
-    "imageUrl": "https://images.pokemontcg.io/sm2/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/15_hires.png",
+    "price": {
+      "market": 0.32,
+      "low": 0.06,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-16",
@@ -141,7 +216,12 @@
     "number": "16",
     "rarity": "Rare",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/sm2/16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/16_hires.png",
+    "price": {
+      "market": 0.42,
+      "low": 0.2,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-17",
@@ -150,7 +230,12 @@
     "number": "17",
     "rarity": "Rare",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/17_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/17_hires.png",
+    "price": {
+      "market": 0.28,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-18",
@@ -159,7 +244,12 @@
     "number": "18",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/18_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/18_hires.png",
+    "price": {
+      "market": 1.91,
+      "low": 1,
+      "high": 4321
+    }
   },
   {
     "id": "sm2-19",
@@ -168,7 +258,12 @@
     "number": "19",
     "rarity": "Common",
     "artist": "Mizue",
-    "imageUrl": "https://images.pokemontcg.io/sm2/19_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/19_hires.png",
+    "price": {
+      "market": 0.55,
+      "low": 0.19,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-19a",
@@ -177,7 +272,8 @@
     "number": "19a",
     "rarity": "Common",
     "artist": "Hideki Ishikawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/19a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/19a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-20",
@@ -186,7 +282,12 @@
     "number": "20",
     "rarity": "Rare",
     "artist": "TOKIYA",
-    "imageUrl": "https://images.pokemontcg.io/sm2/20_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/20_hires.png",
+    "price": {
+      "market": 0.91,
+      "low": 0.35,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-21",
@@ -195,7 +296,12 @@
     "number": "21",
     "rarity": "Common",
     "artist": "You Iribi",
-    "imageUrl": "https://images.pokemontcg.io/sm2/21_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/21_hires.png",
+    "price": {
+      "market": 1.81,
+      "low": 0.65,
+      "high": 19.58
+    }
   },
   {
     "id": "sm2-21a",
@@ -204,7 +310,8 @@
     "number": "21a",
     "rarity": "Common",
     "artist": "kirisAki",
-    "imageUrl": "https://images.pokemontcg.io/sm2/21a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/21a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-22",
@@ -213,7 +320,12 @@
     "number": "22",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/22_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/22_hires.png",
+    "price": {
+      "market": 5.64,
+      "low": 3.48,
+      "high": 4321
+    }
   },
   {
     "id": "sm2-23",
@@ -222,7 +334,12 @@
     "number": "23",
     "rarity": "Common",
     "artist": "Shibuzoh.",
-    "imageUrl": "https://images.pokemontcg.io/sm2/23_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/23_hires.png",
+    "price": {
+      "market": 0.32,
+      "low": 0.11,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-24",
@@ -231,7 +348,12 @@
     "number": "24",
     "rarity": "Uncommon",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/sm2/24_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/24_hires.png",
+    "price": {
+      "market": 0.3,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-25",
@@ -240,7 +362,12 @@
     "number": "25",
     "rarity": "Rare Holo",
     "artist": "Saya Tsuruta",
-    "imageUrl": "https://images.pokemontcg.io/sm2/25_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/25_hires.png",
+    "price": {
+      "market": 2.08,
+      "low": 1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-26",
@@ -249,7 +376,12 @@
     "number": "26",
     "rarity": "Common",
     "artist": "sui",
-    "imageUrl": "https://images.pokemontcg.io/sm2/26_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/26_hires.png",
+    "price": {
+      "market": 0.44,
+      "low": 0.07,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-27",
@@ -258,7 +390,12 @@
     "number": "27",
     "rarity": "Common",
     "artist": "Hideki Ishikawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/27_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/27_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.07,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-28",
@@ -267,7 +404,12 @@
     "number": "28",
     "rarity": "Rare",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/28_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/28_hires.png",
+    "price": {
+      "market": 0.42,
+      "low": 0.25,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-29",
@@ -276,7 +418,12 @@
     "number": "29",
     "rarity": "Common",
     "artist": "Miki Tanaka",
-    "imageUrl": "https://images.pokemontcg.io/sm2/29_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/29_hires.png",
+    "price": {
+      "market": 0.37,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-30",
@@ -285,7 +432,12 @@
     "number": "30",
     "rarity": "Rare",
     "artist": "OOYAMA",
-    "imageUrl": "https://images.pokemontcg.io/sm2/30_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/30_hires.png",
+    "price": {
+      "market": 2.3,
+      "low": 0.37,
+      "high": 96
+    }
   },
   {
     "id": "sm2-31",
@@ -294,7 +446,12 @@
     "number": "31",
     "rarity": "Common",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/sm2/31_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/31_hires.png",
+    "price": {
+      "market": 0.8,
+      "low": 0.25,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-32",
@@ -303,7 +460,12 @@
     "number": "32",
     "rarity": "Uncommon",
     "artist": "so-taro",
-    "imageUrl": "https://images.pokemontcg.io/sm2/32_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/32_hires.png",
+    "price": {
+      "market": 0.35,
+      "low": 0.2,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-33",
@@ -312,7 +474,12 @@
     "number": "33",
     "rarity": "Common",
     "artist": "OOYAMA",
-    "imageUrl": "https://images.pokemontcg.io/sm2/33_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/33_hires.png",
+    "price": {
+      "market": 0.4,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-34",
@@ -321,7 +488,12 @@
     "number": "34",
     "rarity": "Uncommon",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/34_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/34_hires.png",
+    "price": {
+      "market": 0.28,
+      "low": 0.05,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-35",
@@ -330,7 +502,12 @@
     "number": "35",
     "rarity": "Rare",
     "artist": "kawayoo",
-    "imageUrl": "https://images.pokemontcg.io/sm2/35_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/35_hires.png",
+    "price": {
+      "market": 0.43,
+      "low": 0.13,
+      "high": 19.7
+    }
   },
   {
     "id": "sm2-36",
@@ -339,7 +516,12 @@
     "number": "36",
     "rarity": "Uncommon",
     "artist": "Aya Kusube",
-    "imageUrl": "https://images.pokemontcg.io/sm2/36_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/36_hires.png",
+    "price": {
+      "market": 0.31,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-37",
@@ -348,7 +530,12 @@
     "number": "37",
     "rarity": "Common",
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/sm2/37_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/37_hires.png",
+    "price": {
+      "market": 0.29,
+      "low": 0.05,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-38",
@@ -357,7 +544,12 @@
     "number": "38",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/38_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/38_hires.png",
+    "price": {
+      "market": 2.32,
+      "low": 0.8,
+      "high": 5.82
+    }
   },
   {
     "id": "sm2-39",
@@ -366,7 +558,12 @@
     "number": "39",
     "rarity": "Uncommon",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/39_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/39_hires.png",
+    "price": {
+      "market": 0.34,
+      "low": 0.15,
+      "high": 2.23
+    }
   },
   {
     "id": "sm2-40",
@@ -375,7 +572,12 @@
     "number": "40",
     "rarity": "Common",
     "artist": "Hitoshi Ariga",
-    "imageUrl": "https://images.pokemontcg.io/sm2/40_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/40_hires.png",
+    "price": {
+      "market": 0.32,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-41",
@@ -384,7 +586,12 @@
     "number": "41",
     "rarity": "Uncommon",
     "artist": "match",
-    "imageUrl": "https://images.pokemontcg.io/sm2/41_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/41_hires.png",
+    "price": {
+      "market": 0.3,
+      "low": 0.17,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-42",
@@ -393,7 +600,12 @@
     "number": "42",
     "rarity": "Rare Holo",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/42_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/42_hires.png",
+    "price": {
+      "market": 0.61,
+      "low": 0.19,
+      "high": 19.08
+    }
   },
   {
     "id": "sm2-43",
@@ -402,7 +614,12 @@
     "number": "43",
     "rarity": "Common",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/sm2/43_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/43_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.03,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-44",
@@ -411,7 +628,12 @@
     "number": "44",
     "rarity": "Rare",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/44_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/44_hires.png",
+    "price": {
+      "market": 0.32,
+      "low": 0.1,
+      "high": 18.24
+    }
   },
   {
     "id": "sm2-45",
@@ -420,7 +642,12 @@
     "number": "45",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/45_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/45_hires.png",
+    "price": {
+      "market": 1.38,
+      "low": 0.99,
+      "high": 7.5
+    }
   },
   {
     "id": "sm2-46",
@@ -429,7 +656,12 @@
     "number": "46",
     "rarity": "Rare",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/46_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/46_hires.png",
+    "price": {
+      "market": 0.41,
+      "low": 0.07,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-47",
@@ -438,7 +670,12 @@
     "number": "47",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/47_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/47_hires.png",
+    "price": {
+      "market": 1.73,
+      "low": 0.99,
+      "high": 5
+    }
   },
   {
     "id": "sm2-48",
@@ -447,7 +684,12 @@
     "number": "48",
     "rarity": "Common",
     "artist": "Mina Nakai",
-    "imageUrl": "https://images.pokemontcg.io/sm2/48_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/48_hires.png",
+    "price": {
+      "market": 1.61,
+      "low": 0.62,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-49",
@@ -456,7 +698,12 @@
     "number": "49",
     "rarity": "Uncommon",
     "artist": "Shibuzoh.",
-    "imageUrl": "https://images.pokemontcg.io/sm2/49_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/49_hires.png",
+    "price": {
+      "market": 1.59,
+      "low": 0.36,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-50",
@@ -465,7 +712,12 @@
     "number": "50",
     "rarity": "Common",
     "artist": "Yuka Morii",
-    "imageUrl": "https://images.pokemontcg.io/sm2/50_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/50_hires.png",
+    "price": {
+      "market": 2.15,
+      "low": 0.5,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-51",
@@ -474,7 +726,12 @@
     "number": "51",
     "rarity": "Rare",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/sm2/51_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/51_hires.png",
+    "price": {
+      "market": 0.65,
+      "low": 0.22,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-51a",
@@ -483,7 +740,8 @@
     "number": "51a",
     "rarity": "Rare",
     "artist": "nagimiso",
-    "imageUrl": "https://images.pokemontcg.io/sm2/51a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/51a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-52",
@@ -492,7 +750,12 @@
     "number": "52",
     "rarity": "Common",
     "artist": "Yuka Morii",
-    "imageUrl": "https://images.pokemontcg.io/sm2/52_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/52_hires.png",
+    "price": {
+      "market": 0.52,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-53",
@@ -501,7 +764,12 @@
     "number": "53",
     "rarity": "Uncommon",
     "artist": "kawayoo",
-    "imageUrl": "https://images.pokemontcg.io/sm2/53_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/53_hires.png",
+    "price": {
+      "market": 0.48,
+      "low": 0.07,
+      "high": 19.12
+    }
   },
   {
     "id": "sm2-54",
@@ -510,7 +778,12 @@
     "number": "54",
     "rarity": "Rare",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/sm2/54_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/54_hires.png",
+    "price": {
+      "market": 0.45,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-55",
@@ -519,7 +792,12 @@
     "number": "55",
     "rarity": "Rare",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/sm2/55_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/55_hires.png",
+    "price": {
+      "market": 0.36,
+      "low": 0.2,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-56",
@@ -528,7 +806,12 @@
     "number": "56",
     "rarity": "Rare",
     "artist": "TOKIYA",
-    "imageUrl": "https://images.pokemontcg.io/sm2/56_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/56_hires.png",
+    "price": {
+      "market": 0.36,
+      "low": 0.18,
+      "high": 2.39
+    }
   },
   {
     "id": "sm2-57",
@@ -537,7 +820,12 @@
     "number": "57",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/57_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/57_hires.png",
+    "price": {
+      "market": 2.27,
+      "low": 1,
+      "high": 29.3
+    }
   },
   {
     "id": "sm2-58",
@@ -546,7 +834,12 @@
     "number": "58",
     "rarity": "Rare Holo",
     "artist": "Megumi Mizutani",
-    "imageUrl": "https://images.pokemontcg.io/sm2/58_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/58_hires.png",
+    "price": {
+      "market": 7.67,
+      "low": 7,
+      "high": 62.78
+    }
   },
   {
     "id": "sm2-59",
@@ -555,7 +848,12 @@
     "number": "59",
     "rarity": "Rare Holo",
     "artist": "Hasuno",
-    "imageUrl": "https://images.pokemontcg.io/sm2/59_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/59_hires.png",
+    "price": {
+      "market": 0.35,
+      "low": 0.19,
+      "high": 19.52
+    }
   },
   {
     "id": "sm2-60",
@@ -564,7 +862,12 @@
     "number": "60",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/60_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/60_hires.png",
+    "price": {
+      "market": 4.88,
+      "low": 3.63,
+      "high": 46.47
+    }
   },
   {
     "id": "sm2-60a",
@@ -573,7 +876,8 @@
     "number": "60a",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/60a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/60a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-61",
@@ -582,7 +886,12 @@
     "number": "61",
     "rarity": "Rare",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/61_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/61_hires.png",
+    "price": {
+      "market": 0.72,
+      "low": 0.25,
+      "high": 3.84
+    }
   },
   {
     "id": "sm2-62",
@@ -591,7 +900,12 @@
     "number": "62",
     "rarity": "Common",
     "artist": "Kyoko Umemoto",
-    "imageUrl": "https://images.pokemontcg.io/sm2/62_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/62_hires.png",
+    "price": {
+      "market": 0.33,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-63",
@@ -600,7 +914,12 @@
     "number": "63",
     "rarity": "Common",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/sm2/63_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/63_hires.png",
+    "price": {
+      "market": 0.33,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-64",
@@ -609,7 +928,12 @@
     "number": "64",
     "rarity": "Uncommon",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/sm2/64_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/64_hires.png",
+    "price": {
+      "market": 0.57,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-65",
@@ -618,7 +942,12 @@
     "number": "65",
     "rarity": "Rare Holo",
     "artist": "Hitoshi Ariga",
-    "imageUrl": "https://images.pokemontcg.io/sm2/65_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/65_hires.png",
+    "price": {
+      "market": 0.47,
+      "low": 0.2,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-66",
@@ -627,7 +956,12 @@
     "number": "66",
     "rarity": "Uncommon",
     "artist": "Hajime Kusajima",
-    "imageUrl": "https://images.pokemontcg.io/sm2/66_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/66_hires.png",
+    "price": {
+      "market": 0.38,
+      "low": 0.11,
+      "high": 99.99
+    }
   },
   {
     "id": "sm2-67",
@@ -636,7 +970,12 @@
     "number": "67",
     "rarity": "Common",
     "artist": "Mina Nakai",
-    "imageUrl": "https://images.pokemontcg.io/sm2/67_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/67_hires.png",
+    "price": {
+      "market": 0.3,
+      "low": 0.13,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-68",
@@ -645,7 +984,12 @@
     "number": "68",
     "rarity": "Uncommon",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/68_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/68_hires.png",
+    "price": {
+      "market": 0.29,
+      "low": 0.1,
+      "high": 2.33
+    }
   },
   {
     "id": "sm2-69",
@@ -654,7 +998,12 @@
     "number": "69",
     "rarity": "Common",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/sm2/69_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/69_hires.png",
+    "price": {
+      "market": 0.52,
+      "low": 0.14,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-70",
@@ -663,7 +1012,12 @@
     "number": "70",
     "rarity": "Common",
     "artist": "sui",
-    "imageUrl": "https://images.pokemontcg.io/sm2/70_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/70_hires.png",
+    "price": {
+      "market": 0.3,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-71",
@@ -672,7 +1026,12 @@
     "number": "71",
     "rarity": "Rare",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/sm2/71_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/71_hires.png",
+    "price": {
+      "market": 0.31,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-72",
@@ -681,7 +1040,12 @@
     "number": "72",
     "rarity": "Common",
     "artist": "TOKIYA",
-    "imageUrl": "https://images.pokemontcg.io/sm2/72_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/72_hires.png",
+    "price": {
+      "market": 0.29,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-73",
@@ -690,7 +1054,12 @@
     "number": "73",
     "rarity": "Common",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/73_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/73_hires.png",
+    "price": {
+      "market": 0.33,
+      "low": 0.09,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-74",
@@ -699,7 +1068,12 @@
     "number": "74",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/74_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/74_hires.png",
+    "price": {
+      "market": 2.6,
+      "low": 1.5,
+      "high": 27.23
+    }
   },
   {
     "id": "sm2-75",
@@ -708,7 +1082,12 @@
     "number": "75",
     "rarity": "Common",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/sm2/75_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/75_hires.png",
+    "price": {
+      "market": 0.29,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-76",
@@ -717,7 +1096,12 @@
     "number": "76",
     "rarity": "Rare Holo",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/sm2/76_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/76_hires.png",
+    "price": {
+      "market": 0.49,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-77",
@@ -726,7 +1110,12 @@
     "number": "77",
     "rarity": "Rare Holo",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/77_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/77_hires.png",
+    "price": {
+      "market": 0.52,
+      "low": 0.2,
+      "high": 19.28
+    }
   },
   {
     "id": "sm2-78",
@@ -735,7 +1124,12 @@
     "number": "78",
     "rarity": "Common",
     "artist": "Sekio",
-    "imageUrl": "https://images.pokemontcg.io/sm2/78_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/78_hires.png",
+    "price": {
+      "market": 0.34,
+      "low": 0.19,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-79",
@@ -744,7 +1138,12 @@
     "number": "79",
     "rarity": "Rare",
     "artist": "Hideki Ishikawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/79_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/79_hires.png",
+    "price": {
+      "market": 0.44,
+      "low": 0.2,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-80",
@@ -753,7 +1152,12 @@
     "number": "80",
     "rarity": "Uncommon",
     "artist": "Aya Kusube",
-    "imageUrl": "https://images.pokemontcg.io/sm2/80_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/80_hires.png",
+    "price": {
+      "market": 0.35,
+      "low": 0.14,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-81",
@@ -762,7 +1166,12 @@
     "number": "81",
     "rarity": "Rare Holo",
     "artist": "Anesaki Dynamic",
-    "imageUrl": "https://images.pokemontcg.io/sm2/81_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/81_hires.png",
+    "price": {
+      "market": 0.81,
+      "low": 0.4,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-82",
@@ -771,7 +1180,12 @@
     "number": "82",
     "rarity": "Rare",
     "artist": "kodama",
-    "imageUrl": "https://images.pokemontcg.io/sm2/82_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/82_hires.png",
+    "price": {
+      "market": 0.37,
+      "low": 0.12,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-83",
@@ -780,7 +1194,12 @@
     "number": "83",
     "rarity": "Common",
     "artist": "Kyoko Umemoto",
-    "imageUrl": "https://images.pokemontcg.io/sm2/83_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/83_hires.png",
+    "price": {
+      "market": 0.36,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-84",
@@ -789,7 +1208,12 @@
     "number": "84",
     "rarity": "Uncommon",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/sm2/84_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/84_hires.png",
+    "price": {
+      "market": 0.3,
+      "low": 0.14,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-85",
@@ -798,7 +1222,12 @@
     "number": "85",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/85_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/85_hires.png",
+    "price": {
+      "market": 2.56,
+      "low": 2,
+      "high": 32.66
+    }
   },
   {
     "id": "sm2-86",
@@ -807,7 +1236,12 @@
     "number": "86",
     "rarity": "Rare",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/86_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/86_hires.png",
+    "price": {
+      "market": 0.36,
+      "low": 0.14,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-87",
@@ -816,7 +1250,12 @@
     "number": "87",
     "rarity": "Rare",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/87_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/87_hires.png",
+    "price": {
+      "market": 0.61,
+      "low": 0.3,
+      "high": 4.99
+    }
   },
   {
     "id": "sm2-88",
@@ -825,7 +1264,12 @@
     "number": "88",
     "rarity": "Common",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/sm2/88_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/88_hires.png",
+    "price": {
+      "market": 0.73,
+      "low": 0.2,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-89",
@@ -834,7 +1278,12 @@
     "number": "89",
     "rarity": "Uncommon",
     "artist": "Miki Tanaka",
-    "imageUrl": "https://images.pokemontcg.io/sm2/89_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/89_hires.png",
+    "price": {
+      "market": 0.55,
+      "low": 0.2,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-90",
@@ -843,7 +1292,12 @@
     "number": "90",
     "rarity": "Common",
     "artist": "Megumi Mizutani",
-    "imageUrl": "https://images.pokemontcg.io/sm2/90_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/90_hires.png",
+    "price": {
+      "market": 0.33,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-91",
@@ -852,7 +1306,12 @@
     "number": "91",
     "rarity": "Uncommon",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/sm2/91_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/91_hires.png",
+    "price": {
+      "market": 0.4,
+      "low": 0.18,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-92",
@@ -861,7 +1320,12 @@
     "number": "92",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/92_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/92_hires.png",
+    "price": {
+      "market": 27.55,
+      "low": 18.01,
+      "high": 449.2
+    }
   },
   {
     "id": "sm2-92a",
@@ -870,7 +1334,8 @@
     "number": "92a",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/92a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/92a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-93",
@@ -879,7 +1344,12 @@
     "number": "93",
     "rarity": "Rare Holo",
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/sm2/93_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/93_hires.png",
+    "price": {
+      "market": 1.39,
+      "low": 0.5,
+      "high": 3.01
+    }
   },
   {
     "id": "sm2-94",
@@ -888,7 +1358,12 @@
     "number": "94",
     "rarity": "Common",
     "artist": "Asako Ito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/94_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/94_hires.png",
+    "price": {
+      "market": 6.16,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-95",
@@ -897,7 +1372,12 @@
     "number": "95",
     "rarity": "Uncommon",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/sm2/95_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/95_hires.png",
+    "price": {
+      "market": 0.67,
+      "low": 0.54,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-96",
@@ -906,7 +1386,12 @@
     "number": "96",
     "rarity": "Rare Holo",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/96_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/96_hires.png",
+    "price": {
+      "market": 0.59,
+      "low": 0.24,
+      "high": 4321
+    }
   },
   {
     "id": "sm2-97",
@@ -915,7 +1400,12 @@
     "number": "97",
     "rarity": "Rare Holo",
     "artist": "match",
-    "imageUrl": "https://images.pokemontcg.io/sm2/97_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/97_hires.png",
+    "price": {
+      "market": 0.49,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-98",
@@ -924,7 +1414,12 @@
     "number": "98",
     "rarity": "Common",
     "artist": "match",
-    "imageUrl": "https://images.pokemontcg.io/sm2/98_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/98_hires.png",
+    "price": {
+      "market": 0.35,
+      "low": 0.07,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-99",
@@ -933,7 +1428,12 @@
     "number": "99",
     "rarity": "Uncommon",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/99_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/99_hires.png",
+    "price": {
+      "market": 0.6,
+      "low": 0.18,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-100",
@@ -942,7 +1442,12 @@
     "number": "100",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/100_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/100_hires.png",
+    "price": {
+      "market": 3.54,
+      "low": 1.96,
+      "high": 104.46
+    }
   },
   {
     "id": "sm2-101",
@@ -951,7 +1456,12 @@
     "number": "101",
     "rarity": "Common",
     "artist": "Megumi Mizutani",
-    "imageUrl": "https://images.pokemontcg.io/sm2/101_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/101_hires.png",
+    "price": {
+      "market": 0.43,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-102",
@@ -960,7 +1470,12 @@
     "number": "102",
     "rarity": "Rare Holo",
     "artist": "Hideki Ishikawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/102_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/102_hires.png",
+    "price": {
+      "market": 1.54,
+      "low": 0.3,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-103",
@@ -969,7 +1484,12 @@
     "number": "103",
     "rarity": "Common",
     "artist": "Ayaka Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/sm2/103_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/103_hires.png",
+    "price": {
+      "market": 0.32,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-104",
@@ -978,7 +1498,12 @@
     "number": "104",
     "rarity": "Rare",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/sm2/104_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/104_hires.png",
+    "price": {
+      "market": 0.32,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-105",
@@ -987,7 +1512,12 @@
     "number": "105",
     "rarity": "Common",
     "artist": "sui",
-    "imageUrl": "https://images.pokemontcg.io/sm2/105_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/105_hires.png",
+    "price": {
+      "market": 0.33,
+      "low": 0.11,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-106",
@@ -996,7 +1526,12 @@
     "number": "106",
     "rarity": "Rare",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/106_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/106_hires.png",
+    "price": {
+      "market": 10.62,
+      "low": 3,
+      "high": 49.99
+    }
   },
   {
     "id": "sm2-107",
@@ -1005,7 +1540,12 @@
     "number": "107",
     "rarity": "Common",
     "artist": "Ayaka Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/sm2/107_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/107_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.09,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-108",
@@ -1014,7 +1554,12 @@
     "number": "108",
     "rarity": "Uncommon",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/sm2/108_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/108_hires.png",
+    "price": {
+      "market": 0.35,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-109",
@@ -1023,7 +1568,12 @@
     "number": "109",
     "rarity": "Common",
     "artist": "You Iribi",
-    "imageUrl": "https://images.pokemontcg.io/sm2/109_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/109_hires.png",
+    "price": {
+      "market": 0.31,
+      "low": 0.19,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-110",
@@ -1032,7 +1582,12 @@
     "number": "110",
     "rarity": "Uncommon",
     "artist": "kawayoo",
-    "imageUrl": "https://images.pokemontcg.io/sm2/110_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/110_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.08,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-111",
@@ -1041,7 +1596,12 @@
     "number": "111",
     "rarity": "Rare",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/111_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/111_hires.png",
+    "price": {
+      "market": 0.37,
+      "low": 0.19,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-112",
@@ -1050,7 +1610,12 @@
     "number": "112",
     "rarity": "Common",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/sm2/112_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/112_hires.png",
+    "price": {
+      "market": 0.35,
+      "low": 0.12,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-113",
@@ -1059,7 +1624,12 @@
     "number": "113",
     "rarity": "Uncommon",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/sm2/113_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/113_hires.png",
+    "price": {
+      "market": 0.34,
+      "low": 0.08,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-114",
@@ -1068,7 +1638,12 @@
     "number": "114",
     "rarity": "Uncommon",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/sm2/114_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/114_hires.png",
+    "price": {
+      "market": 0.3,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-115",
@@ -1077,7 +1652,12 @@
     "number": "115",
     "rarity": "Rare Holo GX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/115_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/115_hires.png",
+    "price": {
+      "market": 2.04,
+      "low": 0.98,
+      "high": 57.4
+    }
   },
   {
     "id": "sm2-116",
@@ -1086,7 +1666,12 @@
     "number": "116",
     "rarity": "Uncommon",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/116_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/116_hires.png",
+    "price": {
+      "market": 0.29,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-117",
@@ -1095,7 +1680,12 @@
     "number": "117",
     "rarity": "Uncommon",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/117_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/117_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.09,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-118",
@@ -1104,7 +1694,12 @@
     "number": "118",
     "rarity": "Uncommon",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/118_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/118_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.05,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-119",
@@ -1113,7 +1708,12 @@
     "number": "119",
     "rarity": "Uncommon",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/119_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/119_hires.png",
+    "price": {
+      "market": 0.42,
+      "low": 0.22,
+      "high": 100
+    }
   },
   {
     "id": "sm2-120",
@@ -1122,7 +1722,12 @@
     "number": "120",
     "rarity": "Uncommon",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/120_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/120_hires.png",
+    "price": {
+      "market": 0.58,
+      "low": 0.33,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-121",
@@ -1131,7 +1736,12 @@
     "number": "121",
     "rarity": "Uncommon",
     "artist": "Eske Yoshinob",
-    "imageUrl": "https://images.pokemontcg.io/sm2/121_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/121_hires.png",
+    "price": {
+      "market": 0.43,
+      "low": 0.21,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-121a",
@@ -1140,7 +1750,8 @@
     "number": "121a",
     "rarity": "Uncommon",
     "artist": "Eske Yoshinob",
-    "imageUrl": "https://images.pokemontcg.io/sm2/121a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/121a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-122",
@@ -1149,7 +1760,12 @@
     "number": "122",
     "rarity": "Uncommon",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/122_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/122_hires.png",
+    "price": {
+      "market": 0.37,
+      "low": 0.18,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-123",
@@ -1158,7 +1774,12 @@
     "number": "123",
     "rarity": "Uncommon",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/123_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/123_hires.png",
+    "price": {
+      "market": 0.39,
+      "low": 0.19,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-124",
@@ -1167,7 +1788,12 @@
     "number": "124",
     "rarity": "Uncommon",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/124_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/124_hires.png",
+    "price": {
+      "market": 0.31,
+      "low": 0.19,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-124a",
@@ -1176,7 +1802,8 @@
     "number": "124a",
     "rarity": "Uncommon",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/124a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/124a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-125",
@@ -1185,7 +1812,12 @@
     "number": "125",
     "rarity": "Uncommon",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/125_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/125_hires.png",
+    "price": {
+      "market": 2.91,
+      "low": 1.3,
+      "high": 5
+    }
   },
   {
     "id": "sm2-125a",
@@ -1194,7 +1826,8 @@
     "number": "125a",
     "rarity": "Uncommon",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/125a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/125a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-126",
@@ -1203,7 +1836,12 @@
     "number": "126",
     "rarity": "Uncommon",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/sm2/126_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/126_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.02,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-127",
@@ -1212,7 +1850,12 @@
     "number": "127",
     "rarity": "Uncommon",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/sm2/127_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/127_hires.png",
+    "price": {
+      "market": 0.41,
+      "low": 0.25,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-128",
@@ -1221,7 +1864,12 @@
     "number": "128",
     "rarity": "Uncommon",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/128_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/128_hires.png",
+    "price": {
+      "market": 0.29,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-128a",
@@ -1230,7 +1878,8 @@
     "number": "128a",
     "rarity": "Uncommon",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/128a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/128a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-129",
@@ -1239,7 +1888,12 @@
     "number": "129",
     "rarity": "Uncommon",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/129_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/129_hires.png",
+    "price": {
+      "market": 0.32,
+      "low": 0.08,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-130",
@@ -1248,7 +1902,12 @@
     "number": "130",
     "rarity": "Uncommon",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/130_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/130_hires.png",
+    "price": {
+      "market": 1.64,
+      "low": 0.67,
+      "high": 19.98
+    }
   },
   {
     "id": "sm2-130a",
@@ -1257,7 +1916,8 @@
     "number": "130a",
     "rarity": "Uncommon",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/130a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/130a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-131",
@@ -1266,7 +1926,12 @@
     "number": "131",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/131_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/131_hires.png",
+    "price": {
+      "market": 4.29,
+      "low": 3.38,
+      "high": 48
+    }
   },
   {
     "id": "sm2-132",
@@ -1275,7 +1940,12 @@
     "number": "132",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/132_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/132_hires.png",
+    "price": {
+      "market": 23.07,
+      "low": 21,
+      "high": 199.83
+    }
   },
   {
     "id": "sm2-133",
@@ -1284,7 +1954,12 @@
     "number": "133",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/133_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/133_hires.png",
+    "price": {
+      "market": 4.18,
+      "low": 3.16,
+      "high": 42.08
+    }
   },
   {
     "id": "sm2-134",
@@ -1293,7 +1968,12 @@
     "number": "134",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/134_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/134_hires.png",
+    "price": {
+      "market": 3.72,
+      "low": 2,
+      "high": 9.99
+    }
   },
   {
     "id": "sm2-135",
@@ -1302,7 +1982,12 @@
     "number": "135",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/135_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/135_hires.png",
+    "price": {
+      "market": 5.18,
+      "low": 3.11,
+      "high": 48
+    }
   },
   {
     "id": "sm2-136",
@@ -1311,7 +1996,12 @@
     "number": "136",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/136_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/136_hires.png",
+    "price": {
+      "market": 4.39,
+      "low": 3,
+      "high": 96.95
+    }
   },
   {
     "id": "sm2-137",
@@ -1320,7 +2010,12 @@
     "number": "137",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/137_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/137_hires.png",
+    "price": {
+      "market": 8.81,
+      "low": 8,
+      "high": 29.34
+    }
   },
   {
     "id": "sm2-138",
@@ -1329,7 +2024,12 @@
     "number": "138",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/138_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/138_hires.png",
+    "price": {
+      "market": 5.59,
+      "low": 3.2,
+      "high": 20
+    }
   },
   {
     "id": "sm2-139",
@@ -1338,7 +2038,12 @@
     "number": "139",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/139_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/139_hires.png",
+    "price": {
+      "market": 9.4,
+      "low": 5.38,
+      "high": 95.87
+    }
   },
   {
     "id": "sm2-140",
@@ -1347,7 +2052,12 @@
     "number": "140",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/140_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/140_hires.png",
+    "price": {
+      "market": 53.36,
+      "low": 48,
+      "high": 495.89
+    }
   },
   {
     "id": "sm2-141",
@@ -1356,7 +2066,12 @@
     "number": "141",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/141_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/141_hires.png",
+    "price": {
+      "market": 5.35,
+      "low": 3.94,
+      "high": 96.42
+    }
   },
   {
     "id": "sm2-142",
@@ -1365,7 +2080,12 @@
     "number": "142",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/142_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/142_hires.png",
+    "price": {
+      "market": 4.63,
+      "low": 2.48,
+      "high": 54.26
+    }
   },
   {
     "id": "sm2-143",
@@ -1374,7 +2094,12 @@
     "number": "143",
     "rarity": "Rare Ultra",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/143_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/143_hires.png",
+    "price": {
+      "market": 4.21,
+      "low": 3,
+      "high": 20
+    }
   },
   {
     "id": "sm2-144",
@@ -1383,7 +2108,12 @@
     "number": "144",
     "rarity": "Rare Ultra",
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/sm2/144_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/144_hires.png",
+    "price": {
+      "market": 19.42,
+      "low": 14.99,
+      "high": 162
+    }
   },
   {
     "id": "sm2-145",
@@ -1392,7 +2122,12 @@
     "number": "145",
     "rarity": "Rare Ultra",
     "artist": "Megumi Mizutani",
-    "imageUrl": "https://images.pokemontcg.io/sm2/145_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/145_hires.png",
+    "price": {
+      "market": 32.59,
+      "low": 25.99,
+      "high": 276.8
+    }
   },
   {
     "id": "sm2-146",
@@ -1401,7 +2136,12 @@
     "number": "146",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/146_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/146_hires.png",
+    "price": {
+      "market": 34.22,
+      "low": 28.17,
+      "high": 358.7
+    }
   },
   {
     "id": "sm2-147",
@@ -1410,7 +2150,12 @@
     "number": "147",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/147_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/147_hires.png",
+    "price": {
+      "market": 28.18,
+      "low": 28.68,
+      "high": 259
+    }
   },
   {
     "id": "sm2-148",
@@ -1419,7 +2164,12 @@
     "number": "148",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/148_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/148_hires.png",
+    "price": {
+      "market": 9.08,
+      "low": 8.65,
+      "high": 86.64
+    }
   },
   {
     "id": "sm2-149",
@@ -1428,7 +2178,12 @@
     "number": "149",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/149_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/149_hires.png",
+    "price": {
+      "market": 30.56,
+      "low": 21.13,
+      "high": 492.99
+    }
   },
   {
     "id": "sm2-150",
@@ -1437,7 +2192,12 @@
     "number": "150",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/150_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/150_hires.png",
+    "price": {
+      "market": 72.48,
+      "low": 68.9,
+      "high": 662.9
+    }
   },
   {
     "id": "sm2-151",
@@ -1446,7 +2206,12 @@
     "number": "151",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/151_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/151_hires.png",
+    "price": {
+      "market": 10.08,
+      "low": 8.64,
+      "high": 109.76
+    }
   },
   {
     "id": "sm2-152",
@@ -1455,7 +2220,12 @@
     "number": "152",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/152_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/152_hires.png",
+    "price": {
+      "market": 10.44,
+      "low": 9.91,
+      "high": 109
+    }
   },
   {
     "id": "sm2-153",
@@ -1464,7 +2234,12 @@
     "number": "153",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/153_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/153_hires.png",
+    "price": {
+      "market": 14.96,
+      "low": 10.33,
+      "high": 142.23
+    }
   },
   {
     "id": "sm2-154",
@@ -1473,7 +2248,12 @@
     "number": "154",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/154_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/154_hires.png",
+    "price": {
+      "market": 8.24,
+      "low": 6.89,
+      "high": 95
+    }
   },
   {
     "id": "sm2-155",
@@ -1482,7 +2262,12 @@
     "number": "155",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/155_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/155_hires.png",
+    "price": {
+      "market": 20.44,
+      "low": 15,
+      "high": 1500.99
+    }
   },
   {
     "id": "sm2-156",
@@ -1491,7 +2276,12 @@
     "number": "156",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/156_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/156_hires.png",
+    "price": {
+      "market": 18.81,
+      "low": 14.22,
+      "high": 306
+    }
   },
   {
     "id": "sm2-157",
@@ -1500,7 +2290,12 @@
     "number": "157",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/157_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/157_hires.png",
+    "price": {
+      "market": 28.19,
+      "low": 25.18,
+      "high": 137.42
+    }
   },
   {
     "id": "sm2-157a",
@@ -1509,7 +2304,8 @@
     "number": "157a",
     "rarity": "Rare Ultra",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/157a_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/157a_hires.png",
+    "price": null
   },
   {
     "id": "sm2-158",
@@ -1518,7 +2314,12 @@
     "number": "158",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/158_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/158_hires.png",
+    "price": {
+      "market": 142.31,
+      "low": 142,
+      "high": 2018.68
+    }
   },
   {
     "id": "sm2-159",
@@ -1527,7 +2328,12 @@
     "number": "159",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/159_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/159_hires.png",
+    "price": {
+      "market": 15.66,
+      "low": 13.28,
+      "high": 197.6
+    }
   },
   {
     "id": "sm2-160",
@@ -1536,7 +2342,12 @@
     "number": "160",
     "rarity": "Rare Rainbow",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/sm2/160_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/160_hires.png",
+    "price": {
+      "market": 14.37,
+      "low": 14.23,
+      "high": 103
+    }
   },
   {
     "id": "sm2-161",
@@ -1545,7 +2356,12 @@
     "number": "161",
     "rarity": "Rare Secret",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/161_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/161_hires.png",
+    "price": {
+      "market": 7.07,
+      "low": 5.99,
+      "high": 96.95
+    }
   },
   {
     "id": "sm2-162",
@@ -1554,7 +2370,12 @@
     "number": "162",
     "rarity": "Rare Secret",
     "artist": "Yoshinobu Saito",
-    "imageUrl": "https://images.pokemontcg.io/sm2/162_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/162_hires.png",
+    "price": {
+      "market": 8.07,
+      "low": 5.13,
+      "high": 64.7
+    }
   },
   {
     "id": "sm2-163",
@@ -1563,7 +2384,12 @@
     "number": "163",
     "rarity": "Rare Secret",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/163_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/163_hires.png",
+    "price": {
+      "market": 17.49,
+      "low": 14.99,
+      "high": 4321
+    }
   },
   {
     "id": "sm2-164",
@@ -1572,7 +2398,12 @@
     "number": "164",
     "rarity": "Rare Secret",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/164_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/164_hires.png",
+    "price": {
+      "market": 6.81,
+      "low": 4.8,
+      "high": 72.5
+    }
   },
   {
     "id": "sm2-165",
@@ -1581,7 +2412,12 @@
     "number": "165",
     "rarity": "Rare Secret",
     "artist": "Toyste Beach",
-    "imageUrl": "https://images.pokemontcg.io/sm2/165_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/165_hires.png",
+    "price": {
+      "market": 27.47,
+      "low": 24.49,
+      "high": 284.9
+    }
   },
   {
     "id": "sm2-166",
@@ -1590,7 +2426,12 @@
     "number": "166",
     "rarity": "Rare Secret",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sm2/166_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/166_hires.png",
+    "price": {
+      "market": 17.64,
+      "low": 15,
+      "high": 160
+    }
   },
   {
     "id": "sm2-167",
@@ -1599,7 +2440,12 @@
     "number": "167",
     "rarity": "Rare Secret",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sm2/167_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/167_hires.png",
+    "price": {
+      "market": 20.98,
+      "low": 18.99,
+      "high": 224
+    }
   },
   {
     "id": "sm2-168",
@@ -1608,7 +2454,12 @@
     "number": "168",
     "rarity": "Rare Secret",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sm2/168_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/168_hires.png",
+    "price": {
+      "market": 20.05,
+      "low": 15.19,
+      "high": 206.94
+    }
   },
   {
     "id": "sm2-169",
@@ -1617,6 +2468,11 @@
     "number": "169",
     "rarity": "Rare Secret",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sm2/169_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sm2/169_hires.png",
+    "price": {
+      "market": 24.83,
+      "low": 22.11,
+      "high": 31.95
+    }
   }
 ]

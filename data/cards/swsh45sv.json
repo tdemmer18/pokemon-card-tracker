@@ -6,7 +6,12 @@
     "number": "SV001",
     "rarity": "Rare Shiny",
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV001_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV001_hires.png",
+    "price": {
+      "market": 4.04,
+      "low": 1.6,
+      "high": 30.28
+    }
   },
   {
     "id": "swsh45sv-SV002",
@@ -15,7 +20,12 @@
     "number": "SV002",
     "rarity": "Rare Shiny",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV002_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV002_hires.png",
+    "price": {
+      "market": 3.42,
+      "low": 2.4,
+      "high": 34.88
+    }
   },
   {
     "id": "swsh45sv-SV003",
@@ -24,7 +34,12 @@
     "number": "SV003",
     "rarity": "Rare Shiny",
     "artist": "nagimiso",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV003_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV003_hires.png",
+    "price": {
+      "market": 5.41,
+      "low": 3.39,
+      "high": 49.99
+    }
   },
   {
     "id": "swsh45sv-SV004",
@@ -33,7 +48,12 @@
     "number": "SV004",
     "rarity": "Rare Shiny",
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV004_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV004_hires.png",
+    "price": {
+      "market": 2.29,
+      "low": 1,
+      "high": 9.99
+    }
   },
   {
     "id": "swsh45sv-SV005",
@@ -42,7 +62,12 @@
     "number": "SV005",
     "rarity": "Rare Shiny",
     "artist": "tetsuya koizumi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV005_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV005_hires.png",
+    "price": {
+      "market": 2.67,
+      "low": 1.5,
+      "high": 32.85
+    }
   },
   {
     "id": "swsh45sv-SV006",
@@ -51,7 +76,12 @@
     "number": "SV006",
     "rarity": "Rare Shiny",
     "artist": "Ryuta Fuse",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV006_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV006_hires.png",
+    "price": {
+      "market": 2.96,
+      "low": 1.5,
+      "high": 30.66
+    }
   },
   {
     "id": "swsh45sv-SV007",
@@ -60,7 +90,12 @@
     "number": "SV007",
     "rarity": "Rare Shiny",
     "artist": "Kyoko Umemoto",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV007_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV007_hires.png",
+    "price": {
+      "market": 1.59,
+      "low": 1,
+      "high": 5
+    }
   },
   {
     "id": "swsh45sv-SV008",
@@ -69,7 +104,12 @@
     "number": "SV008",
     "rarity": "Rare Shiny",
     "artist": "tetsuya koizumi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV008_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV008_hires.png",
+    "price": {
+      "market": 1.46,
+      "low": 0.54,
+      "high": 18.5
+    }
   },
   {
     "id": "swsh45sv-SV009",
@@ -78,7 +118,12 @@
     "number": "SV009",
     "rarity": "Rare Shiny",
     "artist": "SATOSHI NAKAI",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV009_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV009_hires.png",
+    "price": {
+      "market": 1.91,
+      "low": 1.2,
+      "high": 10
+    }
   },
   {
     "id": "swsh45sv-SV010",
@@ -87,7 +132,12 @@
     "number": "SV010",
     "rarity": "Rare Shiny",
     "artist": "Kyoko Umemoto",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV010_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV010_hires.png",
+    "price": {
+      "market": 1.98,
+      "low": 1.42,
+      "high": 501.63
+    }
   },
   {
     "id": "swsh45sv-SV011",
@@ -96,7 +146,12 @@
     "number": "SV011",
     "rarity": "Rare Shiny",
     "artist": "Mizue",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV011_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV011_hires.png",
+    "price": {
+      "market": 1.51,
+      "low": 0.99,
+      "high": 10
+    }
   },
   {
     "id": "swsh45sv-SV012",
@@ -105,7 +160,12 @@
     "number": "SV012",
     "rarity": "Rare Shiny",
     "artist": "otumami",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV012_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV012_hires.png",
+    "price": {
+      "market": 6.43,
+      "low": 5,
+      "high": 60.56
+    }
   },
   {
     "id": "swsh45sv-SV013",
@@ -114,7 +174,12 @@
     "number": "SV013",
     "rarity": "Rare Shiny",
     "artist": "Shigenori Negishi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV013_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV013_hires.png",
+    "price": {
+      "market": 3.14,
+      "low": 2.5,
+      "high": 95.41
+    }
   },
   {
     "id": "swsh45sv-SV014",
@@ -123,7 +188,12 @@
     "number": "SV014",
     "rarity": "Rare Shiny",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV014_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV014_hires.png",
+    "price": {
+      "market": 6.12,
+      "low": 3.25,
+      "high": 54.14
+    }
   },
   {
     "id": "swsh45sv-SV015",
@@ -132,7 +202,12 @@
     "number": "SV015",
     "rarity": "Rare Shiny",
     "artist": "MAHOU",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV015_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV015_hires.png",
+    "price": {
+      "market": 3.47,
+      "low": 2.72,
+      "high": 96.41
+    }
   },
   {
     "id": "swsh45sv-SV016",
@@ -141,7 +216,12 @@
     "number": "SV016",
     "rarity": "Rare Shiny",
     "artist": "Lee HyunJung",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV016_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV016_hires.png",
+    "price": {
+      "market": 5.26,
+      "low": 3.79,
+      "high": 49.98
+    }
   },
   {
     "id": "swsh45sv-SV017",
@@ -150,7 +230,12 @@
     "number": "SV017",
     "rarity": "Rare Shiny",
     "artist": "Hitoshi Ariga",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV017_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV017_hires.png",
+    "price": {
+      "market": 6.28,
+      "low": 4.36,
+      "high": 49.99
+    }
   },
   {
     "id": "swsh45sv-SV018",
@@ -159,7 +244,12 @@
     "number": "SV018",
     "rarity": "Rare Shiny",
     "artist": "Shigenori Negishi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV018_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV018_hires.png",
+    "price": {
+      "market": 2.03,
+      "low": 1.25,
+      "high": 4.99
+    }
   },
   {
     "id": "swsh45sv-SV019",
@@ -168,7 +258,12 @@
     "number": "SV019",
     "rarity": "Rare Shiny",
     "artist": "SATOSHI NAKAI",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV019_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV019_hires.png",
+    "price": {
+      "market": 2.31,
+      "low": 1.5,
+      "high": 501.62
+    }
   },
   {
     "id": "swsh45sv-SV020",
@@ -177,7 +272,12 @@
     "number": "SV020",
     "rarity": "Rare Shiny",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV020_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV020_hires.png",
+    "price": {
+      "market": 1.9,
+      "low": 1,
+      "high": 9.99
+    }
   },
   {
     "id": "swsh45sv-SV021",
@@ -186,7 +286,12 @@
     "number": "SV021",
     "rarity": "Rare Shiny",
     "artist": "Hideki Ishikawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV021_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV021_hires.png",
+    "price": {
+      "market": 1.12,
+      "low": 0.5,
+      "high": 9.99
+    }
   },
   {
     "id": "swsh45sv-SV022",
@@ -195,7 +300,12 @@
     "number": "SV022",
     "rarity": "Rare Shiny",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV022_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV022_hires.png",
+    "price": {
+      "market": 15.74,
+      "low": 14.67,
+      "high": 110
+    }
   },
   {
     "id": "swsh45sv-SV023",
@@ -204,7 +314,12 @@
     "number": "SV023",
     "rarity": "Rare Shiny",
     "artist": "SATOSHI NAKAI",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV023_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV023_hires.png",
+    "price": {
+      "market": 1.92,
+      "low": 1.25,
+      "high": 9.99
+    }
   },
   {
     "id": "swsh45sv-SV024",
@@ -213,7 +328,12 @@
     "number": "SV024",
     "rarity": "Rare Shiny",
     "artist": "nagimiso",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV024_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV024_hires.png",
+    "price": {
+      "market": 1.52,
+      "low": 0.99,
+      "high": 5
+    }
   },
   {
     "id": "swsh45sv-SV025",
@@ -222,7 +342,12 @@
     "number": "SV025",
     "rarity": "Rare Shiny",
     "artist": "Saya Tsuruta",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV025_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV025_hires.png",
+    "price": {
+      "market": 2.05,
+      "low": 1.17,
+      "high": 96.83
+    }
   },
   {
     "id": "swsh45sv-SV026",
@@ -231,7 +356,12 @@
     "number": "SV026",
     "rarity": "Rare Shiny",
     "artist": "Ryuta Fuse",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV026_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV026_hires.png",
+    "price": {
+      "market": 4.03,
+      "low": 2.7,
+      "high": 215.6
+    }
   },
   {
     "id": "swsh45sv-SV027",
@@ -240,7 +370,12 @@
     "number": "SV027",
     "rarity": "Rare Shiny",
     "artist": "nagimiso",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV027_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV027_hires.png",
+    "price": {
+      "market": 4.39,
+      "low": 3,
+      "high": 47.85
+    }
   },
   {
     "id": "swsh45sv-SV028",
@@ -249,7 +384,12 @@
     "number": "SV028",
     "rarity": "Rare Shiny",
     "artist": "otumami",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV028_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV028_hires.png",
+    "price": {
+      "market": 2.05,
+      "low": 1,
+      "high": 8.55
+    }
   },
   {
     "id": "swsh45sv-SV029",
@@ -258,7 +398,12 @@
     "number": "SV029",
     "rarity": "Rare Shiny",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV029_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV029_hires.png",
+    "price": {
+      "market": 1.85,
+      "low": 1.2,
+      "high": 5
+    }
   },
   {
     "id": "swsh45sv-SV030",
@@ -267,7 +412,12 @@
     "number": "SV030",
     "rarity": "Rare Shiny",
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV030_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV030_hires.png",
+    "price": {
+      "market": 1.06,
+      "low": 0.5,
+      "high": 19.92
+    }
   },
   {
     "id": "swsh45sv-SV031",
@@ -276,7 +426,12 @@
     "number": "SV031",
     "rarity": "Rare Shiny",
     "artist": "Shigenori Negishi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV031_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV031_hires.png",
+    "price": {
+      "market": 1.72,
+      "low": 1,
+      "high": 10
+    }
   },
   {
     "id": "swsh45sv-SV032",
@@ -285,7 +440,12 @@
     "number": "SV032",
     "rarity": "Rare Shiny",
     "artist": "Misa Tsutsui",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV032_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV032_hires.png",
+    "price": {
+      "market": 1.79,
+      "low": 1,
+      "high": 7.99
+    }
   },
   {
     "id": "swsh45sv-SV033",
@@ -294,7 +454,12 @@
     "number": "SV033",
     "rarity": "Rare Shiny",
     "artist": "Yumi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV033_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV033_hires.png",
+    "price": {
+      "market": 4.41,
+      "low": 1.93,
+      "high": 34.99
+    }
   },
   {
     "id": "swsh45sv-SV034",
@@ -303,7 +468,12 @@
     "number": "SV034",
     "rarity": "Rare Shiny",
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV034_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV034_hires.png",
+    "price": {
+      "market": 3.47,
+      "low": 2.54,
+      "high": 32.74
+    }
   },
   {
     "id": "swsh45sv-SV035",
@@ -312,7 +482,12 @@
     "number": "SV035",
     "rarity": "Rare Shiny",
     "artist": "Shigenori Negishi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV035_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV035_hires.png",
+    "price": {
+      "market": 3.56,
+      "low": 2.28,
+      "high": 40.12
+    }
   },
   {
     "id": "swsh45sv-SV036",
@@ -321,7 +496,12 @@
     "number": "SV036",
     "rarity": "Rare Shiny",
     "artist": "SATOSHI NAKAI",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV036_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV036_hires.png",
+    "price": {
+      "market": 3.39,
+      "low": 2,
+      "high": 49.99
+    }
   },
   {
     "id": "swsh45sv-SV037",
@@ -330,7 +510,12 @@
     "number": "SV037",
     "rarity": "Rare Shiny",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV037_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV037_hires.png",
+    "price": {
+      "market": 2.06,
+      "low": 1.49,
+      "high": 11.95
+    }
   },
   {
     "id": "swsh45sv-SV038",
@@ -339,7 +524,12 @@
     "number": "SV038",
     "rarity": "Rare Shiny",
     "artist": "kirisAki",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV038_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV038_hires.png",
+    "price": {
+      "market": 6.36,
+      "low": 3.97,
+      "high": 51.24
+    }
   },
   {
     "id": "swsh45sv-SV039",
@@ -348,7 +538,12 @@
     "number": "SV039",
     "rarity": "Rare Shiny",
     "artist": "sowsow",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV039_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV039_hires.png",
+    "price": {
+      "market": 17.16,
+      "low": 8.95,
+      "high": 95.1
+    }
   },
   {
     "id": "swsh45sv-SV040",
@@ -357,7 +552,12 @@
     "number": "SV040",
     "rarity": "Rare Shiny",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV040_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV040_hires.png",
+    "price": {
+      "market": 2.77,
+      "low": 1.7,
+      "high": 12.55
+    }
   },
   {
     "id": "swsh45sv-SV041",
@@ -366,7 +566,12 @@
     "number": "SV041",
     "rarity": "Rare Shiny",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV041_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV041_hires.png",
+    "price": {
+      "market": 3.97,
+      "low": 2.4,
+      "high": 42.49
+    }
   },
   {
     "id": "swsh45sv-SV042",
@@ -375,7 +580,12 @@
     "number": "SV042",
     "rarity": "Rare Shiny",
     "artist": "Hideki Ishikawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV042_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV042_hires.png",
+    "price": {
+      "market": 1.94,
+      "low": 0.99,
+      "high": 26.39
+    }
   },
   {
     "id": "swsh45sv-SV043",
@@ -384,7 +594,12 @@
     "number": "SV043",
     "rarity": "Rare Shiny",
     "artist": "Motofumi Fujiwara",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV043_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV043_hires.png",
+    "price": {
+      "market": 2.16,
+      "low": 1.19,
+      "high": 9.99
+    }
   },
   {
     "id": "swsh45sv-SV044",
@@ -393,7 +608,12 @@
     "number": "SV044",
     "rarity": "Rare Shiny",
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV044_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV044_hires.png",
+    "price": {
+      "market": 12.59,
+      "low": 7.24,
+      "high": 483.41
+    }
   },
   {
     "id": "swsh45sv-SV045",
@@ -402,7 +622,12 @@
     "number": "SV045",
     "rarity": "Rare Shiny",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV045_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV045_hires.png",
+    "price": {
+      "market": 2.37,
+      "low": 1.2,
+      "high": 31.64
+    }
   },
   {
     "id": "swsh45sv-SV046",
@@ -411,7 +636,12 @@
     "number": "SV046",
     "rarity": "Rare Shiny",
     "artist": "nagimiso",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV046_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV046_hires.png",
+    "price": {
+      "market": 5.42,
+      "low": 2.86,
+      "high": 96.52
+    }
   },
   {
     "id": "swsh45sv-SV047",
@@ -420,7 +650,12 @@
     "number": "SV047",
     "rarity": "Rare Shiny",
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV047_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV047_hires.png",
+    "price": {
+      "market": 11.75,
+      "low": 9.31,
+      "high": 97.6
+    }
   },
   {
     "id": "swsh45sv-SV048",
@@ -429,7 +664,12 @@
     "number": "SV048",
     "rarity": "Rare Shiny",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV048_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV048_hires.png",
+    "price": {
+      "market": 9.19,
+      "low": 7.5,
+      "high": 118.63
+    }
   },
   {
     "id": "swsh45sv-SV049",
@@ -438,7 +678,12 @@
     "number": "SV049",
     "rarity": "Rare Shiny",
     "artist": "Mizue",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV049_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV049_hires.png",
+    "price": {
+      "market": 2.02,
+      "low": 1,
+      "high": 96.4
+    }
   },
   {
     "id": "swsh45sv-SV050",
@@ -447,7 +692,12 @@
     "number": "SV050",
     "rarity": "Rare Shiny",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV050_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV050_hires.png",
+    "price": {
+      "market": 1.79,
+      "low": 1,
+      "high": 96.4
+    }
   },
   {
     "id": "swsh45sv-SV051",
@@ -456,7 +706,12 @@
     "number": "SV051",
     "rarity": "Rare Shiny",
     "artist": "Mizue",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV051_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV051_hires.png",
+    "price": {
+      "market": 5.01,
+      "low": 2.95,
+      "high": 34.99
+    }
   },
   {
     "id": "swsh45sv-SV052",
@@ -465,7 +720,12 @@
     "number": "SV052",
     "rarity": "Rare Shiny",
     "artist": "MAHOU",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV052_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV052_hires.png",
+    "price": {
+      "market": 3.18,
+      "low": 1.74,
+      "high": 36.17
+    }
   },
   {
     "id": "swsh45sv-SV053",
@@ -474,7 +734,12 @@
     "number": "SV053",
     "rarity": "Rare Shiny",
     "artist": "Sanosuke Sakuma",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV053_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV053_hires.png",
+    "price": {
+      "market": 1.23,
+      "low": 0.6,
+      "high": 19.98
+    }
   },
   {
     "id": "swsh45sv-SV054",
@@ -483,7 +748,12 @@
     "number": "SV054",
     "rarity": "Rare Shiny",
     "artist": "otumami",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV054_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV054_hires.png",
+    "price": {
+      "market": 2.2,
+      "low": 1.5,
+      "high": 30.9
+    }
   },
   {
     "id": "swsh45sv-SV055",
@@ -492,7 +762,12 @@
     "number": "SV055",
     "rarity": "Rare Shiny",
     "artist": "Lee HyunJung",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV055_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV055_hires.png",
+    "price": {
+      "market": 3.08,
+      "low": 2.25,
+      "high": 50
+    }
   },
   {
     "id": "swsh45sv-SV056",
@@ -501,7 +776,12 @@
     "number": "SV056",
     "rarity": "Rare Shiny",
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV056_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV056_hires.png",
+    "price": {
+      "market": 2.79,
+      "low": 1.32,
+      "high": 9.99
+    }
   },
   {
     "id": "swsh45sv-SV057",
@@ -510,7 +790,12 @@
     "number": "SV057",
     "rarity": "Rare Shiny",
     "artist": "Motofumi Fujiwara",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV057_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV057_hires.png",
+    "price": {
+      "market": 5.4,
+      "low": 3.49,
+      "high": 49.99
+    }
   },
   {
     "id": "swsh45sv-SV058",
@@ -519,7 +804,12 @@
     "number": "SV058",
     "rarity": "Rare Shiny",
     "artist": "MAHOU",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV058_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV058_hires.png",
+    "price": {
+      "market": 5.69,
+      "low": 4.5,
+      "high": 94.99
+    }
   },
   {
     "id": "swsh45sv-SV059",
@@ -528,7 +818,12 @@
     "number": "SV059",
     "rarity": "Rare Shiny",
     "artist": "Saya Tsuruta",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV059_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV059_hires.png",
+    "price": {
+      "market": 2.2,
+      "low": 1.3,
+      "high": 7.5
+    }
   },
   {
     "id": "swsh45sv-SV060",
@@ -537,7 +832,12 @@
     "number": "SV060",
     "rarity": "Rare Shiny",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV060_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV060_hires.png",
+    "price": {
+      "market": 6.44,
+      "low": 4,
+      "high": 96.44
+    }
   },
   {
     "id": "swsh45sv-SV061",
@@ -546,7 +846,12 @@
     "number": "SV061",
     "rarity": "Rare Shiny",
     "artist": "tetsuya koizumi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV061_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV061_hires.png",
+    "price": {
+      "market": 3.85,
+      "low": 2.98,
+      "high": 54.99
+    }
   },
   {
     "id": "swsh45sv-SV062",
@@ -555,7 +860,12 @@
     "number": "SV062",
     "rarity": "Rare Shiny",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV062_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV062_hires.png",
+    "price": {
+      "market": 2.52,
+      "low": 1.53,
+      "high": 502.08
+    }
   },
   {
     "id": "swsh45sv-SV063",
@@ -564,7 +874,12 @@
     "number": "SV063",
     "rarity": "Rare Shiny",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV063_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV063_hires.png",
+    "price": {
+      "market": 3.06,
+      "low": 1.8,
+      "high": 33.72
+    }
   },
   {
     "id": "swsh45sv-SV064",
@@ -573,7 +888,12 @@
     "number": "SV064",
     "rarity": "Rare Shiny",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV064_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV064_hires.png",
+    "price": {
+      "market": 1.56,
+      "low": 0.8,
+      "high": 19.06
+    }
   },
   {
     "id": "swsh45sv-SV065",
@@ -582,7 +902,12 @@
     "number": "SV065",
     "rarity": "Rare Shiny",
     "artist": "sowsow",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV065_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV065_hires.png",
+    "price": {
+      "market": 2.05,
+      "low": 0.75,
+      "high": 6.99
+    }
   },
   {
     "id": "swsh45sv-SV066",
@@ -591,7 +916,12 @@
     "number": "SV066",
     "rarity": "Rare Shiny",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV066_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV066_hires.png",
+    "price": {
+      "market": 3.45,
+      "low": 1.75,
+      "high": 96.81
+    }
   },
   {
     "id": "swsh45sv-SV067",
@@ -600,7 +930,12 @@
     "number": "SV067",
     "rarity": "Rare Shiny",
     "artist": "Shigenori Negishi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV067_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV067_hires.png",
+    "price": {
+      "market": 1.54,
+      "low": 1,
+      "high": 7.35
+    }
   },
   {
     "id": "swsh45sv-SV068",
@@ -609,7 +944,12 @@
     "number": "SV068",
     "rarity": "Rare Shiny",
     "artist": "tetsuya koizumi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV068_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV068_hires.png",
+    "price": {
+      "market": 1.66,
+      "low": 1.07,
+      "high": 25.7
+    }
   },
   {
     "id": "swsh45sv-SV069",
@@ -618,7 +958,12 @@
     "number": "SV069",
     "rarity": "Rare Shiny",
     "artist": "nagimiso",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV069_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV069_hires.png",
+    "price": {
+      "market": 1.89,
+      "low": 1.39,
+      "high": 9.95
+    }
   },
   {
     "id": "swsh45sv-SV070",
@@ -627,7 +972,12 @@
     "number": "SV070",
     "rarity": "Rare Shiny",
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV070_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV070_hires.png",
+    "price": {
+      "market": 1.93,
+      "low": 1,
+      "high": 25.5
+    }
   },
   {
     "id": "swsh45sv-SV071",
@@ -636,7 +986,12 @@
     "number": "SV071",
     "rarity": "Rare Shiny",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV071_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV071_hires.png",
+    "price": {
+      "market": 1.62,
+      "low": 0.97,
+      "high": 7
+    }
   },
   {
     "id": "swsh45sv-SV072",
@@ -645,7 +1000,12 @@
     "number": "SV072",
     "rarity": "Rare Shiny",
     "artist": "Kyoko Umemoto",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV072_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV072_hires.png",
+    "price": {
+      "market": 1.87,
+      "low": 1.3,
+      "high": 29.2
+    }
   },
   {
     "id": "swsh45sv-SV073",
@@ -654,7 +1014,12 @@
     "number": "SV073",
     "rarity": "Rare Shiny",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV073_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV073_hires.png",
+    "price": {
+      "market": 1.97,
+      "low": 1,
+      "high": 19.53
+    }
   },
   {
     "id": "swsh45sv-SV074",
@@ -663,7 +1028,12 @@
     "number": "SV074",
     "rarity": "Rare Shiny",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV074_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV074_hires.png",
+    "price": {
+      "market": 1.19,
+      "low": 0.7,
+      "high": 18.9
+    }
   },
   {
     "id": "swsh45sv-SV075",
@@ -672,7 +1042,12 @@
     "number": "SV075",
     "rarity": "Rare Shiny",
     "artist": "Hitoshi Ariga",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV075_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV075_hires.png",
+    "price": {
+      "market": 1.31,
+      "low": 0.76,
+      "high": 18.78
+    }
   },
   {
     "id": "swsh45sv-SV076",
@@ -681,7 +1056,12 @@
     "number": "SV076",
     "rarity": "Rare Shiny",
     "artist": "Yumi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV076_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV076_hires.png",
+    "price": {
+      "market": 16.53,
+      "low": 13.64,
+      "high": 551.81
+    }
   },
   {
     "id": "swsh45sv-SV077",
@@ -690,7 +1070,12 @@
     "number": "SV077",
     "rarity": "Rare Shiny",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV077_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV077_hires.png",
+    "price": {
+      "market": 3.76,
+      "low": 2.64,
+      "high": 40.89
+    }
   },
   {
     "id": "swsh45sv-SV078",
@@ -699,7 +1084,12 @@
     "number": "SV078",
     "rarity": "Rare Shiny",
     "artist": "Misa Tsutsui",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV078_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV078_hires.png",
+    "price": {
+      "market": 1.73,
+      "low": 0.98,
+      "high": 12.99
+    }
   },
   {
     "id": "swsh45sv-SV079",
@@ -708,7 +1098,12 @@
     "number": "SV079",
     "rarity": "Rare Shiny",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV079_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV079_hires.png",
+    "price": {
+      "market": 2.28,
+      "low": 1.4,
+      "high": 29.61
+    }
   },
   {
     "id": "swsh45sv-SV080",
@@ -717,7 +1112,12 @@
     "number": "SV080",
     "rarity": "Rare Shiny",
     "artist": "Ryuta Fuse",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV080_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV080_hires.png",
+    "price": {
+      "market": 3.06,
+      "low": 2.33,
+      "high": 95.68
+    }
   },
   {
     "id": "swsh45sv-SV081",
@@ -726,7 +1126,12 @@
     "number": "SV081",
     "rarity": "Rare Shiny",
     "artist": "Saya Tsuruta",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV081_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV081_hires.png",
+    "price": {
+      "market": 2.12,
+      "low": 1.59,
+      "high": 18.53
+    }
   },
   {
     "id": "swsh45sv-SV082",
@@ -735,7 +1140,12 @@
     "number": "SV082",
     "rarity": "Rare Shiny",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV082_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV082_hires.png",
+    "price": {
+      "market": 1.93,
+      "low": 1,
+      "high": 19.71
+    }
   },
   {
     "id": "swsh45sv-SV083",
@@ -744,7 +1154,12 @@
     "number": "SV083",
     "rarity": "Rare Shiny",
     "artist": "Misa Tsutsui",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV083_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV083_hires.png",
+    "price": {
+      "market": 2.27,
+      "low": 1.25,
+      "high": 19.98
+    }
   },
   {
     "id": "swsh45sv-SV084",
@@ -753,7 +1168,12 @@
     "number": "SV084",
     "rarity": "Rare Shiny",
     "artist": "SATOSHI NAKAI",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV084_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV084_hires.png",
+    "price": {
+      "market": 2.15,
+      "low": 1.45,
+      "high": 26.76
+    }
   },
   {
     "id": "swsh45sv-SV085",
@@ -762,7 +1182,12 @@
     "number": "SV085",
     "rarity": "Rare Shiny",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV085_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV085_hires.png",
+    "price": {
+      "market": 2.09,
+      "low": 1.74,
+      "high": 28.12
+    }
   },
   {
     "id": "swsh45sv-SV086",
@@ -771,7 +1196,12 @@
     "number": "SV086",
     "rarity": "Rare Shiny",
     "artist": "Shigenori Negishi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV086_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV086_hires.png",
+    "price": {
+      "market": 5.03,
+      "low": 2.99,
+      "high": 69.69
+    }
   },
   {
     "id": "swsh45sv-SV087",
@@ -780,7 +1210,12 @@
     "number": "SV087",
     "rarity": "Rare Shiny",
     "artist": "Ryuta Fuse",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV087_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV087_hires.png",
+    "price": {
+      "market": 2.5,
+      "low": 1.5,
+      "high": 33.14
+    }
   },
   {
     "id": "swsh45sv-SV088",
@@ -789,7 +1224,12 @@
     "number": "SV088",
     "rarity": "Rare Shiny",
     "artist": "tetsuya koizumi",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV088_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV088_hires.png",
+    "price": {
+      "market": 1.63,
+      "low": 1,
+      "high": 12
+    }
   },
   {
     "id": "swsh45sv-SV089",
@@ -798,7 +1238,12 @@
     "number": "SV089",
     "rarity": "Rare Shiny",
     "artist": "kirisAki",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV089_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV089_hires.png",
+    "price": {
+      "market": 1.28,
+      "low": 0.96,
+      "high": 19.9
+    }
   },
   {
     "id": "swsh45sv-SV090",
@@ -807,7 +1252,12 @@
     "number": "SV090",
     "rarity": "Rare Shiny",
     "artist": "sowsow",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV090_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV090_hires.png",
+    "price": {
+      "market": 2.25,
+      "low": 1.6,
+      "high": 27.66
+    }
   },
   {
     "id": "swsh45sv-SV091",
@@ -816,7 +1266,12 @@
     "number": "SV091",
     "rarity": "Rare Shiny",
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV091_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV091_hires.png",
+    "price": {
+      "market": 1.68,
+      "low": 1,
+      "high": 19.84
+    }
   },
   {
     "id": "swsh45sv-SV092",
@@ -825,7 +1280,12 @@
     "number": "SV092",
     "rarity": "Rare Shiny",
     "artist": "Souichirou Gunjima",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV092_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV092_hires.png",
+    "price": {
+      "market": 2.49,
+      "low": 1.75,
+      "high": 502.23
+    }
   },
   {
     "id": "swsh45sv-SV093",
@@ -834,7 +1294,12 @@
     "number": "SV093",
     "rarity": "Rare Shiny",
     "artist": "MAHOU",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV093_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV093_hires.png",
+    "price": {
+      "market": 9,
+      "low": 6,
+      "high": 96.8
+    }
   },
   {
     "id": "swsh45sv-SV094",
@@ -843,7 +1308,12 @@
     "number": "SV094",
     "rarity": "Rare Shiny",
     "artist": "kirisAki",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV094_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV094_hires.png",
+    "price": {
+      "market": 9.48,
+      "low": 8.91,
+      "high": 49.99
+    }
   },
   {
     "id": "swsh45sv-SV095",
@@ -852,7 +1322,12 @@
     "number": "SV095",
     "rarity": "Rare Shiny",
     "artist": "Kyoko Umemoto",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV095_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV095_hires.png",
+    "price": {
+      "market": 3.68,
+      "low": 2.82,
+      "high": 96.95
+    }
   },
   {
     "id": "swsh45sv-SV096",
@@ -861,7 +1336,12 @@
     "number": "SV096",
     "rarity": "Rare Shiny",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV096_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV096_hires.png",
+    "price": {
+      "market": 2.22,
+      "low": 1.41,
+      "high": 9.5
+    }
   },
   {
     "id": "swsh45sv-SV097",
@@ -870,7 +1350,12 @@
     "number": "SV097",
     "rarity": "Rare Shiny",
     "artist": "Misa Tsutsui",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV097_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV097_hires.png",
+    "price": {
+      "market": 1.19,
+      "low": 0.75,
+      "high": 19.9
+    }
   },
   {
     "id": "swsh45sv-SV098",
@@ -879,7 +1364,12 @@
     "number": "SV098",
     "rarity": "Rare Shiny",
     "artist": "nagimiso",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV098_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV098_hires.png",
+    "price": {
+      "market": 1.75,
+      "low": 1.27,
+      "high": 8.98
+    }
   },
   {
     "id": "swsh45sv-SV099",
@@ -888,7 +1378,12 @@
     "number": "SV099",
     "rarity": "Rare Shiny",
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV099_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV099_hires.png",
+    "price": {
+      "market": 2.36,
+      "low": 1.28,
+      "high": 6.99
+    }
   },
   {
     "id": "swsh45sv-SV100",
@@ -897,7 +1392,12 @@
     "number": "SV100",
     "rarity": "Rare Shiny",
     "artist": "Hideki Ishikawa",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV100_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV100_hires.png",
+    "price": {
+      "market": 2.02,
+      "low": 1.2,
+      "high": 6.87
+    }
   },
   {
     "id": "swsh45sv-SV101",
@@ -906,7 +1406,12 @@
     "number": "SV101",
     "rarity": "Rare Shiny",
     "artist": "Lee HyunJung",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV101_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV101_hires.png",
+    "price": {
+      "market": 2.32,
+      "low": 1.15,
+      "high": 14.99
+    }
   },
   {
     "id": "swsh45sv-SV102",
@@ -915,7 +1420,12 @@
     "number": "SV102",
     "rarity": "Rare Shiny",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV102_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV102_hires.png",
+    "price": {
+      "market": 2.59,
+      "low": 1.29,
+      "high": 31.36
+    }
   },
   {
     "id": "swsh45sv-SV103",
@@ -924,7 +1434,12 @@
     "number": "SV103",
     "rarity": "Rare Shiny",
     "artist": "Kyoko Umemoto",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV103_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV103_hires.png",
+    "price": {
+      "market": 2.94,
+      "low": 1.99,
+      "high": 34.58
+    }
   },
   {
     "id": "swsh45sv-SV104",
@@ -933,7 +1448,12 @@
     "number": "SV104",
     "rarity": "Rare Shiny",
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV104_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV104_hires.png",
+    "price": {
+      "market": 1.42,
+      "low": 1,
+      "high": 25.06
+    }
   },
   {
     "id": "swsh45sv-SV105",
@@ -942,7 +1462,12 @@
     "number": "SV105",
     "rarity": "Rare Holo V",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV105_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV105_hires.png",
+    "price": {
+      "market": 1.38,
+      "low": 0.22,
+      "high": 10
+    }
   },
   {
     "id": "swsh45sv-SV106",
@@ -951,7 +1476,12 @@
     "number": "SV106",
     "rarity": "Rare Holo VMAX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV106_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV106_hires.png",
+    "price": {
+      "market": 2.42,
+      "low": 1.69,
+      "high": 25.99
+    }
   },
   {
     "id": "swsh45sv-SV107",
@@ -960,7 +1490,12 @@
     "number": "SV107",
     "rarity": "Rare Holo VMAX",
     "artist": "aky CG Works",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV107_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV107_hires.png",
+    "price": {
+      "market": 156.98,
+      "low": 144.66,
+      "high": 349.95
+    }
   },
   {
     "id": "swsh45sv-SV108",
@@ -969,7 +1504,12 @@
     "number": "SV108",
     "rarity": "Rare Holo V",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV108_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV108_hires.png",
+    "price": {
+      "market": 1.33,
+      "low": 0.7,
+      "high": 19.95
+    }
   },
   {
     "id": "swsh45sv-SV109",
@@ -978,7 +1518,12 @@
     "number": "SV109",
     "rarity": "Rare Holo VMAX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV109_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV109_hires.png",
+    "price": {
+      "market": 1.86,
+      "low": 1.2,
+      "high": 14.97
+    }
   },
   {
     "id": "swsh45sv-SV110",
@@ -987,7 +1532,12 @@
     "number": "SV110",
     "rarity": "Rare Holo V",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV110_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV110_hires.png",
+    "price": {
+      "market": 4.26,
+      "low": 3.16,
+      "high": 20
+    }
   },
   {
     "id": "swsh45sv-SV111",
@@ -996,7 +1546,12 @@
     "number": "SV111",
     "rarity": "Rare Holo VMAX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV111_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV111_hires.png",
+    "price": {
+      "market": 8.49,
+      "low": 5.5,
+      "high": 39.99
+    }
   },
   {
     "id": "swsh45sv-SV112",
@@ -1005,7 +1560,12 @@
     "number": "SV112",
     "rarity": "Rare Holo V",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV112_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV112_hires.png",
+    "price": {
+      "market": 1.7,
+      "low": 1.03,
+      "high": 9.99
+    }
   },
   {
     "id": "swsh45sv-SV113",
@@ -1014,7 +1574,12 @@
     "number": "SV113",
     "rarity": "Rare Holo VMAX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV113_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV113_hires.png",
+    "price": {
+      "market": 4.32,
+      "low": 2.5,
+      "high": 69.28
+    }
   },
   {
     "id": "swsh45sv-SV114",
@@ -1023,7 +1588,12 @@
     "number": "SV114",
     "rarity": "Rare Holo V",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV114_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV114_hires.png",
+    "price": {
+      "market": 1.27,
+      "low": 0.78,
+      "high": 19.7
+    }
   },
   {
     "id": "swsh45sv-SV115",
@@ -1032,7 +1602,12 @@
     "number": "SV115",
     "rarity": "Rare Holo V",
     "artist": "aky CG Works",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV115_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV115_hires.png",
+    "price": {
+      "market": 1.53,
+      "low": 0.82,
+      "high": 19.9
+    }
   },
   {
     "id": "swsh45sv-SV116",
@@ -1041,7 +1616,12 @@
     "number": "SV116",
     "rarity": "Rare Holo V",
     "artist": "PLANETA Mochizuki",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV116_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV116_hires.png",
+    "price": {
+      "market": 1.72,
+      "low": 1.09,
+      "high": 20
+    }
   },
   {
     "id": "swsh45sv-SV117",
@@ -1050,7 +1630,12 @@
     "number": "SV117",
     "rarity": "Rare Holo VMAX",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV117_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV117_hires.png",
+    "price": {
+      "market": 4.26,
+      "low": 2.49,
+      "high": 49.99
+    }
   },
   {
     "id": "swsh45sv-SV118",
@@ -1059,7 +1644,12 @@
     "number": "SV118",
     "rarity": "Rare Holo V",
     "artist": "Saki Hayashiro",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV118_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV118_hires.png",
+    "price": {
+      "market": 8.45,
+      "low": 7,
+      "high": 70.4
+    }
   },
   {
     "id": "swsh45sv-SV119",
@@ -1068,7 +1658,12 @@
     "number": "SV119",
     "rarity": "Rare Holo VMAX",
     "artist": "PLANETA Tsuji",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV119_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV119_hires.png",
+    "price": {
+      "market": 16.26,
+      "low": 14.67,
+      "high": 9999
+    }
   },
   {
     "id": "swsh45sv-SV120",
@@ -1077,7 +1672,12 @@
     "number": "SV120",
     "rarity": "Rare Holo V",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV120_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV120_hires.png",
+    "price": {
+      "market": 1.4,
+      "low": 0.49,
+      "high": 501.5
+    }
   },
   {
     "id": "swsh45sv-SV121",
@@ -1086,7 +1686,12 @@
     "number": "SV121",
     "rarity": "Rare Secret",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV121_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV121_hires.png",
+    "price": {
+      "market": 6.19,
+      "low": 4.5,
+      "high": 96.95
+    }
   },
   {
     "id": "swsh45sv-SV122",
@@ -1095,6 +1700,11 @@
     "number": "SV122",
     "rarity": "Rare Secret",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV122_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/swsh45sv/SV122_hires.png",
+    "price": {
+      "market": 7.17,
+      "low": 5,
+      "high": 151.6
+    }
   }
 ]

@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": null,
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/1_hires.png",
+    "price": {
+      "market": 5.57,
+      "low": 3.25,
+      "high": 45.6
+    }
   },
   {
     "id": "mcd12-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": null,
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/2_hires.png",
+    "price": {
+      "market": 4.06,
+      "low": 2.39,
+      "high": 52.8
+    }
   },
   {
     "id": "mcd12-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": null,
     "artist": "MAHOU",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/3_hires.png",
+    "price": {
+      "market": 8.7,
+      "low": 6,
+      "high": 429.61
+    }
   },
   {
     "id": "mcd12-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": null,
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/4_hires.png",
+    "price": {
+      "market": 11.25,
+      "low": 4.97,
+      "high": 229.33
+    }
   },
   {
     "id": "mcd12-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": null,
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/5_hires.png",
+    "price": {
+      "market": 6.2,
+      "low": 3.09,
+      "high": 100
+    }
   },
   {
     "id": "mcd12-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": null,
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/6_hires.png",
+    "price": {
+      "market": 10.49,
+      "low": 5.96,
+      "high": 113.1
+    }
   },
   {
     "id": "mcd12-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": null,
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/7_hires.png",
+    "price": {
+      "market": 8.45,
+      "low": 6.99,
+      "high": 199.9
+    }
   },
   {
     "id": "mcd12-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": null,
     "artist": "match",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/8_hires.png",
+    "price": {
+      "market": 4.64,
+      "low": 2.75,
+      "high": 133
+    }
   },
   {
     "id": "mcd12-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": null,
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/9_hires.png",
+    "price": {
+      "market": 13.63,
+      "low": 7.31,
+      "high": 174.1
+    }
   },
   {
     "id": "mcd12-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": null,
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/10_hires.png",
+    "price": {
+      "market": 11.54,
+      "low": 7.59,
+      "high": 87.9
+    }
   },
   {
     "id": "mcd12-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": null,
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/11_hires.png",
+    "price": {
+      "market": 4.8,
+      "low": 1.81,
+      "high": 53.1
+    }
   },
   {
     "id": "mcd12-12",
@@ -105,6 +160,11 @@
     "number": "12",
     "rarity": null,
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/mcd12/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd12/12_hires.png",
+    "price": {
+      "market": 8.47,
+      "low": 4.7,
+      "high": 59.9
+    }
   }
 ]

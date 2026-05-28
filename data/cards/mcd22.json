@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": null,
     "artist": "Naoyo Kimura",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/1_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd22-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": null,
     "artist": "HYOGONOSUKE",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/2_hires.png",
+    "price": {
+      "market": 0.68,
+      "low": 0.19,
+      "high": 165
+    }
   },
   {
     "id": "mcd22-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": null,
     "artist": "Mizue",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/3_hires.png",
+    "price": {
+      "market": 0.39,
+      "low": 0.1,
+      "high": 165
+    }
   },
   {
     "id": "mcd22-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": null,
     "artist": "Narumi Sato",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/4_hires.png",
+    "price": {
+      "market": 1.35,
+      "low": 0.01,
+      "high": 165
+    }
   },
   {
     "id": "mcd22-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": null,
     "artist": "Teeziro",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/5_hires.png",
+    "price": {
+      "market": 1.18,
+      "low": 0.25,
+      "high": 500
+    }
   },
   {
     "id": "mcd22-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": null,
     "artist": "Atsushi Furusawa",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/6_hires.png",
+    "price": {
+      "market": 0.36,
+      "low": 0.15,
+      "high": 22.99
+    }
   },
   {
     "id": "mcd22-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": null,
     "artist": "chibi",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/7_hires.png",
+    "price": {
+      "market": 5.23,
+      "low": 1.82,
+      "high": 165
+    }
   },
   {
     "id": "mcd22-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": null,
     "artist": "sowsow",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/8_hires.png",
+    "price": {
+      "market": 0.26,
+      "low": 0.05,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd22-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": null,
     "artist": "sui",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/9_hires.png",
+    "price": {
+      "market": 0.26,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd22-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": null,
     "artist": "sowsow",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/10_hires.png",
+    "price": {
+      "market": 0.28,
+      "low": 0.07,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd22-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": null,
     "artist": "Yukiko Baba",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/11_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.05,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd22-12",
@@ -105,7 +160,12 @@
     "number": "12",
     "rarity": null,
     "artist": "Shigenori Negishi",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/12_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.08,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd22-13",
@@ -114,7 +174,12 @@
     "number": "13",
     "rarity": null,
     "artist": "HYOGONOSUKE",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/13_hires.png",
+    "price": {
+      "market": 0.22,
+      "low": 0.09,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd22-14",
@@ -123,7 +188,12 @@
     "number": "14",
     "rarity": null,
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/14_hires.png",
+    "price": {
+      "market": 0.4,
+      "low": 0.12,
+      "high": 19.98
+    }
   },
   {
     "id": "mcd22-15",
@@ -132,6 +202,11 @@
     "number": "15",
     "rarity": null,
     "artist": "Kouki Saitou",
-    "imageUrl": "https://images.pokemontcg.io/mcd22/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd22/15_hires.png",
+    "price": {
+      "market": 1.05,
+      "low": 0.29,
+      "high": 19.98
+    }
   }
 ]

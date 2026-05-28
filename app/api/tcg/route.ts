@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { extractTcgPrice, type Tcgplayer } from "@/lib/tcg-price";
 
 type PokemonTcgApiCard = {
   id: string;
@@ -14,6 +15,7 @@ type PokemonTcgApiCard = {
     large?: string;
     small?: string;
   };
+  tcgplayer?: Tcgplayer;
 };
 
 type PokemonTcgApiResponse = {
@@ -76,6 +78,7 @@ export async function GET(request: NextRequest) {
         rarity: card.rarity ?? null,
         artist: card.artist ?? null,
         imageUrl: card.images?.large ?? card.images?.small ?? "",
+        price: extractTcgPrice(card.tcgplayer),
       }));
 
     return NextResponse.json({

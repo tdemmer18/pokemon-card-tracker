@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/1_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.01,
+      "high": 1000.19
+    }
   },
   {
     "id": "sv8-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/2_hires.png",
+    "price": {
+      "market": 0.19,
+      "low": 0.05,
+      "high": 1000.24
+    }
   },
   {
     "id": "sv8-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/3_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.01,
+      "high": 1000.25
+    }
   },
   {
     "id": "sv8-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/4_hires.png",
+    "price": {
+      "market": 0.5,
+      "low": 0.2,
+      "high": 999
+    }
   },
   {
     "id": "sv8-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/5_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.01,
+      "high": 1000.14
+    }
   },
   {
     "id": "sv8-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/6_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.01,
+      "high": 1000.13
+    }
   },
   {
     "id": "sv8-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/7_hires.png",
+    "price": {
+      "market": 0.31,
+      "low": 0.05,
+      "high": 1000.29
+    }
   },
   {
     "id": "sv8-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/8_hires.png",
+    "price": {
+      "market": 0.13,
+      "low": 0.01,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/9_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.04,
+      "high": 1.53
+    }
   },
   {
     "id": "sv8-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/10_hires.png",
+    "price": {
+      "market": 0.14,
+      "low": 0.01,
+      "high": 1000.13
+    }
   },
   {
     "id": "sv8-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/11_hires.png",
+    "price": {
+      "market": 0.07,
+      "low": 0.01,
+      "high": 1000.06
+    }
   },
   {
     "id": "sv8-12",
@@ -105,7 +160,12 @@
     "number": "12",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/12_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.03,
+      "high": 1000.12
+    }
   },
   {
     "id": "sv8-13",
@@ -114,7 +174,12 @@
     "number": "13",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/13_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.01,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-14",
@@ -123,7 +188,12 @@
     "number": "14",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/14_hires.png",
+    "price": {
+      "market": 0.05,
+      "low": 0.01,
+      "high": 1000.09
+    }
   },
   {
     "id": "sv8-15",
@@ -132,7 +202,12 @@
     "number": "15",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/15_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.01,
+      "high": 1000.22
+    }
   },
   {
     "id": "sv8-16",
@@ -141,7 +216,12 @@
     "number": "16",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/16_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.01,
+      "high": 1000.25
+    }
   },
   {
     "id": "sv8-17",
@@ -150,7 +230,12 @@
     "number": "17",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/17_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/17_hires.png",
+    "price": {
+      "market": 0.34,
+      "low": 0.1,
+      "high": 1000.3
+    }
   },
   {
     "id": "sv8-18",
@@ -159,7 +244,12 @@
     "number": "18",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/18_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/18_hires.png",
+    "price": {
+      "market": 0.26,
+      "low": 0.01,
+      "high": 1000.26
+    }
   },
   {
     "id": "sv8-19",
@@ -168,7 +258,12 @@
     "number": "19",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/19_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/19_hires.png",
+    "price": {
+      "market": 0.31,
+      "low": 0.03,
+      "high": 25
+    }
   },
   {
     "id": "sv8-20",
@@ -177,7 +272,12 @@
     "number": "20",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/20_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/20_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.01,
+      "high": 1000.19
+    }
   },
   {
     "id": "sv8-21",
@@ -186,7 +286,12 @@
     "number": "21",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/21_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/21_hires.png",
+    "price": {
+      "market": 0.28,
+      "low": 0.1,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-22",
@@ -195,7 +300,12 @@
     "number": "22",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/22_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/22_hires.png",
+    "price": {
+      "market": 0.13,
+      "low": 0.02,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-23",
@@ -204,7 +314,12 @@
     "number": "23",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/23_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/23_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.01,
+      "high": 1000.13
+    }
   },
   {
     "id": "sv8-24",
@@ -213,7 +328,12 @@
     "number": "24",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/24_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/24_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.01,
+      "high": 1000.12
+    }
   },
   {
     "id": "sv8-25",
@@ -222,7 +342,12 @@
     "number": "25",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/25_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/25_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.02,
+      "high": 1000.14
+    }
   },
   {
     "id": "sv8-26",
@@ -231,7 +356,12 @@
     "number": "26",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/26_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/26_hires.png",
+    "price": {
+      "market": 0.13,
+      "low": 0.01,
+      "high": 1000.2
+    }
   },
   {
     "id": "sv8-27",
@@ -240,7 +370,12 @@
     "number": "27",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/27_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/27_hires.png",
+    "price": {
+      "market": 0.14,
+      "low": 0.01,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-28",
@@ -249,7 +384,12 @@
     "number": "28",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/28_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/28_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.01,
+      "high": 1000.13
+    }
   },
   {
     "id": "sv8-29",
@@ -258,7 +398,12 @@
     "number": "29",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/29_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/29_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.01,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-30",
@@ -267,7 +412,12 @@
     "number": "30",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/30_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/30_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.01,
+      "high": 1000.19
+    }
   },
   {
     "id": "sv8-31",
@@ -276,7 +426,12 @@
     "number": "31",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/31_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/31_hires.png",
+    "price": {
+      "market": 0.12,
+      "low": 0.01,
+      "high": 1000.13
+    }
   },
   {
     "id": "sv8-32",
@@ -285,7 +440,12 @@
     "number": "32",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/32_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/32_hires.png",
+    "price": {
+      "market": 0.22,
+      "low": 0.03,
+      "high": 18.84
+    }
   },
   {
     "id": "sv8-33",
@@ -294,7 +454,12 @@
     "number": "33",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/33_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/33_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.01,
+      "high": 1000.13
+    }
   },
   {
     "id": "sv8-34",
@@ -303,7 +468,12 @@
     "number": "34",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/34_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/34_hires.png",
+    "price": {
+      "market": 0.28,
+      "low": 0.05,
+      "high": 2.25
+    }
   },
   {
     "id": "sv8-35",
@@ -312,7 +482,12 @@
     "number": "35",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/35_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/35_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.02,
+      "high": 1000.26
+    }
   },
   {
     "id": "sv8-36",
@@ -321,7 +496,12 @@
     "number": "36",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/36_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/36_hires.png",
+    "price": {
+      "market": 1.39,
+      "low": 0.4,
+      "high": 19.93
+    }
   },
   {
     "id": "sv8-37",
@@ -330,7 +510,12 @@
     "number": "37",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/37_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/37_hires.png",
+    "price": {
+      "market": 0.62,
+      "low": 0.07,
+      "high": 999
+    }
   },
   {
     "id": "sv8-38",
@@ -339,7 +524,12 @@
     "number": "38",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/38_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/38_hires.png",
+    "price": {
+      "market": 0.12,
+      "low": 0.01,
+      "high": 1000.1
+    }
   },
   {
     "id": "sv8-39",
@@ -348,7 +538,12 @@
     "number": "39",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/39_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/39_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.09,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-40",
@@ -357,7 +552,12 @@
     "number": "40",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/40_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/40_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.08,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-41",
@@ -366,7 +566,12 @@
     "number": "41",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/41_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/41_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.04,
+      "high": 1000.21
+    }
   },
   {
     "id": "sv8-42",
@@ -375,7 +580,12 @@
     "number": "42",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/42_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/42_hires.png",
+    "price": {
+      "market": 0.7,
+      "low": 0.25,
+      "high": 999
+    }
   },
   {
     "id": "sv8-43",
@@ -384,7 +594,12 @@
     "number": "43",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/43_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/43_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.01,
+      "high": 1000.2
+    }
   },
   {
     "id": "sv8-44",
@@ -393,7 +608,12 @@
     "number": "44",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/44_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/44_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.01,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-45",
@@ -402,7 +622,12 @@
     "number": "45",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/45_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/45_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.06,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-46",
@@ -411,7 +636,12 @@
     "number": "46",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/46_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/46_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.01,
+      "high": 1000.2
+    }
   },
   {
     "id": "sv8-47",
@@ -420,7 +650,12 @@
     "number": "47",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/47_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/47_hires.png",
+    "price": {
+      "market": 0.11,
+      "low": 0.01,
+      "high": 1000.08
+    }
   },
   {
     "id": "sv8-48",
@@ -429,7 +664,12 @@
     "number": "48",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/48_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/48_hires.png",
+    "price": {
+      "market": 0.58,
+      "low": 0.3,
+      "high": 999
+    }
   },
   {
     "id": "sv8-49",
@@ -438,7 +678,12 @@
     "number": "49",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/49_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/49_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.02,
+      "high": 1000.22
+    }
   },
   {
     "id": "sv8-50",
@@ -447,7 +692,12 @@
     "number": "50",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/50_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/50_hires.png",
+    "price": {
+      "market": 0.13,
+      "low": 0.01,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-51",
@@ -456,7 +706,12 @@
     "number": "51",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/51_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/51_hires.png",
+    "price": {
+      "market": 0.14,
+      "low": 0.01,
+      "high": 1000.14
+    }
   },
   {
     "id": "sv8-52",
@@ -465,7 +720,12 @@
     "number": "52",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/52_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/52_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.05,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-53",
@@ -474,7 +734,12 @@
     "number": "53",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/53_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/53_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.02,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-54",
@@ -483,7 +748,12 @@
     "number": "54",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/54_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/54_hires.png",
+    "price": {
+      "market": 0.11,
+      "low": 0.01,
+      "high": 1000.1
+    }
   },
   {
     "id": "sv8-55",
@@ -492,7 +762,12 @@
     "number": "55",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/55_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/55_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.08,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-56",
@@ -501,7 +776,12 @@
     "number": "56",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/56_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/56_hires.png",
+    "price": {
+      "market": 0.19,
+      "low": 0.01,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-57",
@@ -510,7 +790,12 @@
     "number": "57",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/57_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/57_hires.png",
+    "price": {
+      "market": 4.62,
+      "low": 3,
+      "high": 96.95
+    }
   },
   {
     "id": "sv8-58",
@@ -519,7 +804,12 @@
     "number": "58",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/58_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/58_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.01,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-59",
@@ -528,7 +818,12 @@
     "number": "59",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/59_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/59_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.04,
+      "high": 1000.26
+    }
   },
   {
     "id": "sv8-60",
@@ -537,7 +832,12 @@
     "number": "60",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/60_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/60_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.01,
+      "high": 1000.24
+    }
   },
   {
     "id": "sv8-61",
@@ -546,7 +846,12 @@
     "number": "61",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/61_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/61_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.01,
+      "high": 1000.14
+    }
   },
   {
     "id": "sv8-62",
@@ -555,7 +860,12 @@
     "number": "62",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/62_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/62_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.02,
+      "high": 40
+    }
   },
   {
     "id": "sv8-63",
@@ -564,7 +874,12 @@
     "number": "63",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/63_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/63_hires.png",
+    "price": {
+      "market": 0.1,
+      "low": 0.01,
+      "high": 1000.12
+    }
   },
   {
     "id": "sv8-64",
@@ -573,7 +888,12 @@
     "number": "64",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/64_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/64_hires.png",
+    "price": {
+      "market": 0.08,
+      "low": 0.01,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-65",
@@ -582,7 +902,12 @@
     "number": "65",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/65_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/65_hires.png",
+    "price": {
+      "market": 0.07,
+      "low": 0.01,
+      "high": 1000.04
+    }
   },
   {
     "id": "sv8-66",
@@ -591,7 +916,12 @@
     "number": "66",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/66_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/66_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.01,
+      "high": 1000.14
+    }
   },
   {
     "id": "sv8-67",
@@ -600,7 +930,12 @@
     "number": "67",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/67_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/67_hires.png",
+    "price": {
+      "market": 0.19,
+      "low": 0.01,
+      "high": 1000.21
+    }
   },
   {
     "id": "sv8-68",
@@ -609,7 +944,12 @@
     "number": "68",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/68_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/68_hires.png",
+    "price": {
+      "market": 0.54,
+      "low": 0.18,
+      "high": 40
+    }
   },
   {
     "id": "sv8-69",
@@ -618,7 +958,12 @@
     "number": "69",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/69_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/69_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.05,
+      "high": 1000.24
+    }
   },
   {
     "id": "sv8-70",
@@ -627,7 +972,12 @@
     "number": "70",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/70_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/70_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.01,
+      "high": 1000.22
+    }
   },
   {
     "id": "sv8-71",
@@ -636,7 +986,12 @@
     "number": "71",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/71_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/71_hires.png",
+    "price": {
+      "market": 0.19,
+      "low": 0.01,
+      "high": 1000.14
+    }
   },
   {
     "id": "sv8-72",
@@ -645,7 +1000,12 @@
     "number": "72",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/72_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/72_hires.png",
+    "price": {
+      "market": 0.22,
+      "low": 0.01,
+      "high": 1000.21
+    }
   },
   {
     "id": "sv8-73",
@@ -654,7 +1014,12 @@
     "number": "73",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/73_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/73_hires.png",
+    "price": {
+      "market": 0.2,
+      "low": 0.02,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-74",
@@ -663,7 +1028,12 @@
     "number": "74",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/74_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/74_hires.png",
+    "price": {
+      "market": 0.33,
+      "low": 0.07,
+      "high": 2.25
+    }
   },
   {
     "id": "sv8-75",
@@ -672,7 +1042,12 @@
     "number": "75",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/75_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/75_hires.png",
+    "price": {
+      "market": 0.32,
+      "low": 0.07,
+      "high": 1000.33
+    }
   },
   {
     "id": "sv8-76",
@@ -681,7 +1056,12 @@
     "number": "76",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/76_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/76_hires.png",
+    "price": {
+      "market": 5.31,
+      "low": 3.66,
+      "high": 4321
+    }
   },
   {
     "id": "sv8-77",
@@ -690,7 +1070,12 @@
     "number": "77",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/77_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/77_hires.png",
+    "price": {
+      "market": 0.2,
+      "low": 0.05,
+      "high": 28
+    }
   },
   {
     "id": "sv8-78",
@@ -699,7 +1084,12 @@
     "number": "78",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/78_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/78_hires.png",
+    "price": {
+      "market": 0.36,
+      "low": 0.01,
+      "high": 1000.32
+    }
   },
   {
     "id": "sv8-79",
@@ -708,7 +1098,12 @@
     "number": "79",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/79_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/79_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.09,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-80",
@@ -717,7 +1112,12 @@
     "number": "80",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/80_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/80_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.06,
+      "high": 1000.26
+    }
   },
   {
     "id": "sv8-81",
@@ -726,7 +1126,12 @@
     "number": "81",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/81_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/81_hires.png",
+    "price": {
+      "market": 0.3,
+      "low": 0.05,
+      "high": 1000.24
+    }
   },
   {
     "id": "sv8-82",
@@ -735,7 +1140,12 @@
     "number": "82",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/82_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/82_hires.png",
+    "price": {
+      "market": 0.22,
+      "low": 0.01,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-83",
@@ -744,7 +1154,12 @@
     "number": "83",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/83_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/83_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.01,
+      "high": 1000.11
+    }
   },
   {
     "id": "sv8-84",
@@ -753,7 +1168,12 @@
     "number": "84",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/84_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/84_hires.png",
+    "price": {
+      "market": 0.3,
+      "low": 0.02,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-85",
@@ -762,7 +1182,12 @@
     "number": "85",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/85_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/85_hires.png",
+    "price": {
+      "market": 0.2,
+      "low": 0.05,
+      "high": 1.87
+    }
   },
   {
     "id": "sv8-86",
@@ -771,7 +1196,12 @@
     "number": "86",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/86_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/86_hires.png",
+    "price": {
+      "market": 1.98,
+      "low": 0.9,
+      "high": 39
+    }
   },
   {
     "id": "sv8-87",
@@ -780,7 +1210,12 @@
     "number": "87",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/87_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/87_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.03,
+      "high": 1000.18
+    }
   },
   {
     "id": "sv8-88",
@@ -789,7 +1224,12 @@
     "number": "88",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/88_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/88_hires.png",
+    "price": {
+      "market": 0.26,
+      "low": 0.05,
+      "high": 1000.25
+    }
   },
   {
     "id": "sv8-89",
@@ -798,7 +1238,12 @@
     "number": "89",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/89_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/89_hires.png",
+    "price": {
+      "market": 0.09,
+      "low": 0.02,
+      "high": 1000.08
+    }
   },
   {
     "id": "sv8-90",
@@ -807,7 +1252,12 @@
     "number": "90",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/90_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/90_hires.png",
+    "price": {
+      "market": 0.12,
+      "low": 0.01,
+      "high": 1000.1
+    }
   },
   {
     "id": "sv8-91",
@@ -816,7 +1266,12 @@
     "number": "91",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/91_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/91_hires.png",
+    "price": {
+      "market": 0.56,
+      "low": 0.2,
+      "high": 999
+    }
   },
   {
     "id": "sv8-92",
@@ -825,7 +1280,12 @@
     "number": "92",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/92_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/92_hires.png",
+    "price": {
+      "market": 0.05,
+      "low": 0.01,
+      "high": 1000.1
+    }
   },
   {
     "id": "sv8-93",
@@ -834,7 +1294,12 @@
     "number": "93",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/93_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/93_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.04,
+      "high": 1000.19
+    }
   },
   {
     "id": "sv8-94",
@@ -843,7 +1308,12 @@
     "number": "94",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/94_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/94_hires.png",
+    "price": {
+      "market": 0.13,
+      "low": 0.02,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-95",
@@ -852,7 +1322,12 @@
     "number": "95",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/95_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/95_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.1,
+      "high": 1.83
+    }
   },
   {
     "id": "sv8-96",
@@ -861,7 +1336,12 @@
     "number": "96",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/96_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/96_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.08,
+      "high": 1000.21
+    }
   },
   {
     "id": "sv8-97",
@@ -870,7 +1350,12 @@
     "number": "97",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/97_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/97_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.02,
+      "high": 20
+    }
   },
   {
     "id": "sv8-98",
@@ -879,7 +1364,12 @@
     "number": "98",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/98_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/98_hires.png",
+    "price": {
+      "market": 0.1,
+      "low": 0.01,
+      "high": 1000.11
+    }
   },
   {
     "id": "sv8-99",
@@ -888,7 +1378,12 @@
     "number": "99",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/99_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/99_hires.png",
+    "price": {
+      "market": 0.14,
+      "low": 0.02,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-100",
@@ -897,7 +1392,12 @@
     "number": "100",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/100_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/100_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.05,
+      "high": 1000.26
+    }
   },
   {
     "id": "sv8-101",
@@ -906,7 +1406,12 @@
     "number": "101",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/101_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/101_hires.png",
+    "price": {
+      "market": 0.26,
+      "low": 0.01,
+      "high": 1000.25
+    }
   },
   {
     "id": "sv8-102",
@@ -915,7 +1420,12 @@
     "number": "102",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/102_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/102_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.01,
+      "high": 1000.18
+    }
   },
   {
     "id": "sv8-103",
@@ -924,7 +1434,12 @@
     "number": "103",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/103_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/103_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.01,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-104",
@@ -933,7 +1448,12 @@
     "number": "104",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/104_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/104_hires.png",
+    "price": {
+      "market": 0.13,
+      "low": 0.01,
+      "high": 1000.1
+    }
   },
   {
     "id": "sv8-105",
@@ -942,7 +1462,12 @@
     "number": "105",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/105_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/105_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.03,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-106",
@@ -951,7 +1476,12 @@
     "number": "106",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/106_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/106_hires.png",
+    "price": {
+      "market": 0.84,
+      "low": 0.35,
+      "high": 999
+    }
   },
   {
     "id": "sv8-107",
@@ -960,7 +1490,12 @@
     "number": "107",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/107_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/107_hires.png",
+    "price": {
+      "market": 0.14,
+      "low": 0.01,
+      "high": 1000.1
+    }
   },
   {
     "id": "sv8-108",
@@ -969,7 +1504,12 @@
     "number": "108",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/108_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/108_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.02,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-109",
@@ -978,7 +1518,12 @@
     "number": "109",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/109_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/109_hires.png",
+    "price": {
+      "market": 0.08,
+      "low": 0.01,
+      "high": 1000.09
+    }
   },
   {
     "id": "sv8-110",
@@ -987,7 +1532,12 @@
     "number": "110",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/110_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/110_hires.png",
+    "price": {
+      "market": 0.09,
+      "low": 0.01,
+      "high": 1000.09
+    }
   },
   {
     "id": "sv8-111",
@@ -996,7 +1546,12 @@
     "number": "111",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/111_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/111_hires.png",
+    "price": {
+      "market": 0.22,
+      "low": 0.05,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-112",
@@ -1005,7 +1560,12 @@
     "number": "112",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/112_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/112_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.01,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-113",
@@ -1014,7 +1574,12 @@
     "number": "113",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/113_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/113_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.01,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-114",
@@ -1023,7 +1588,12 @@
     "number": "114",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/114_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/114_hires.png",
+    "price": {
+      "market": 0.08,
+      "low": 0.01,
+      "high": 1000.12
+    }
   },
   {
     "id": "sv8-115",
@@ -1032,7 +1602,12 @@
     "number": "115",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/115_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/115_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.01,
+      "high": 1000.13
+    }
   },
   {
     "id": "sv8-116",
@@ -1041,7 +1616,12 @@
     "number": "116",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/116_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/116_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.09,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-117",
@@ -1050,7 +1630,12 @@
     "number": "117",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/117_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/117_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.02,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-118",
@@ -1059,7 +1644,12 @@
     "number": "118",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/118_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/118_hires.png",
+    "price": {
+      "market": 0.14,
+      "low": 0.02,
+      "high": 1000.12
+    }
   },
   {
     "id": "sv8-119",
@@ -1068,7 +1658,12 @@
     "number": "119",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/119_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/119_hires.png",
+    "price": {
+      "market": 0.84,
+      "low": 0.22,
+      "high": 50
+    }
   },
   {
     "id": "sv8-120",
@@ -1077,7 +1672,12 @@
     "number": "120",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/120_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/120_hires.png",
+    "price": {
+      "market": 0.11,
+      "low": 0.01,
+      "high": 1000.12
+    }
   },
   {
     "id": "sv8-121",
@@ -1086,7 +1686,12 @@
     "number": "121",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/121_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/121_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.01,
+      "high": 1000.24
+    }
   },
   {
     "id": "sv8-122",
@@ -1095,7 +1700,12 @@
     "number": "122",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/122_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/122_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.02,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-123",
@@ -1104,7 +1714,12 @@
     "number": "123",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/123_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/123_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.01,
+      "high": 1000.2
+    }
   },
   {
     "id": "sv8-124",
@@ -1113,7 +1728,12 @@
     "number": "124",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/124_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/124_hires.png",
+    "price": {
+      "market": 0.11,
+      "low": 0.03,
+      "high": 1000.12
+    }
   },
   {
     "id": "sv8-125",
@@ -1122,7 +1742,12 @@
     "number": "125",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/125_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/125_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.04,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-126",
@@ -1131,7 +1756,12 @@
     "number": "126",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/126_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/126_hires.png",
+    "price": {
+      "market": 0.12,
+      "low": 0.01,
+      "high": 1000.07
+    }
   },
   {
     "id": "sv8-127",
@@ -1140,7 +1770,12 @@
     "number": "127",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/127_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/127_hires.png",
+    "price": {
+      "market": 0.1,
+      "low": 0.01,
+      "high": 1000.1
+    }
   },
   {
     "id": "sv8-128",
@@ -1149,7 +1784,12 @@
     "number": "128",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/128_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/128_hires.png",
+    "price": {
+      "market": 0.11,
+      "low": 0.01,
+      "high": 1000.14
+    }
   },
   {
     "id": "sv8-129",
@@ -1158,7 +1798,12 @@
     "number": "129",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/129_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/129_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.01,
+      "high": 1000.18
+    }
   },
   {
     "id": "sv8-130",
@@ -1167,7 +1812,12 @@
     "number": "130",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/130_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/130_hires.png",
+    "price": {
+      "market": 0.66,
+      "low": 0.15,
+      "high": 4321
+    }
   },
   {
     "id": "sv8-131",
@@ -1176,7 +1826,12 @@
     "number": "131",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/131_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/131_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.05,
+      "high": 1000.27
+    }
   },
   {
     "id": "sv8-132",
@@ -1185,7 +1840,12 @@
     "number": "132",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/132_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/132_hires.png",
+    "price": {
+      "market": 0.12,
+      "low": 0.01,
+      "high": 1000.11
+    }
   },
   {
     "id": "sv8-133",
@@ -1194,7 +1854,12 @@
     "number": "133",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/133_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/133_hires.png",
+    "price": {
+      "market": 0.68,
+      "low": 0.3,
+      "high": 70
+    }
   },
   {
     "id": "sv8-134",
@@ -1203,7 +1868,12 @@
     "number": "134",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/134_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/134_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.02,
+      "high": 1000.26
+    }
   },
   {
     "id": "sv8-135",
@@ -1212,7 +1882,12 @@
     "number": "135",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/135_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/135_hires.png",
+    "price": {
+      "market": 0.12,
+      "low": 0.01,
+      "high": 1000.15
+    }
   },
   {
     "id": "sv8-136",
@@ -1221,7 +1896,12 @@
     "number": "136",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/136_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/136_hires.png",
+    "price": {
+      "market": 0.11,
+      "low": 0.01,
+      "high": 1000.11
+    }
   },
   {
     "id": "sv8-137",
@@ -1230,7 +1910,12 @@
     "number": "137",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/137_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/137_hires.png",
+    "price": {
+      "market": 0.13,
+      "low": 0.01,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-138",
@@ -1239,7 +1924,12 @@
     "number": "138",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/138_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/138_hires.png",
+    "price": {
+      "market": 0.22,
+      "low": 0.01,
+      "high": 1000.22
+    }
   },
   {
     "id": "sv8-139",
@@ -1248,7 +1938,12 @@
     "number": "139",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/139_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/139_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.04,
+      "high": 1000.22
+    }
   },
   {
     "id": "sv8-140",
@@ -1257,7 +1952,12 @@
     "number": "140",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/140_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/140_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.05,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-141",
@@ -1266,7 +1966,12 @@
     "number": "141",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/141_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/141_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.01,
+      "high": 1000.18
+    }
   },
   {
     "id": "sv8-142",
@@ -1275,7 +1980,12 @@
     "number": "142",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/142_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/142_hires.png",
+    "price": {
+      "market": 0.73,
+      "low": 0.38,
+      "high": 999
+    }
   },
   {
     "id": "sv8-143",
@@ -1284,7 +1994,12 @@
     "number": "143",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/143_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/143_hires.png",
+    "price": {
+      "market": 0.37,
+      "low": 0.09,
+      "high": 10
+    }
   },
   {
     "id": "sv8-144",
@@ -1293,7 +2008,12 @@
     "number": "144",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/144_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/144_hires.png",
+    "price": {
+      "market": 0.49,
+      "low": 0.09,
+      "high": 30
+    }
   },
   {
     "id": "sv8-145",
@@ -1302,7 +2022,12 @@
     "number": "145",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/145_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/145_hires.png",
+    "price": {
+      "market": 0.17,
+      "low": 0.02,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-146",
@@ -1311,7 +2036,12 @@
     "number": "146",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/146_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/146_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.09,
+      "high": 1000.26
+    }
   },
   {
     "id": "sv8-147",
@@ -1320,7 +2050,12 @@
     "number": "147",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/147_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/147_hires.png",
+    "price": {
+      "market": 0.53,
+      "low": 0.25,
+      "high": 999
+    }
   },
   {
     "id": "sv8-148",
@@ -1329,7 +2064,12 @@
     "number": "148",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/148_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/148_hires.png",
+    "price": {
+      "market": 0.19,
+      "low": 0.01,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-149",
@@ -1338,7 +2078,12 @@
     "number": "149",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/149_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/149_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.02,
+      "high": 1000.16
+    }
   },
   {
     "id": "sv8-150",
@@ -1347,7 +2092,12 @@
     "number": "150",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/150_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/150_hires.png",
+    "price": {
+      "market": 0.24,
+      "low": 0.05,
+      "high": 1000.26
+    }
   },
   {
     "id": "sv8-151",
@@ -1356,7 +2106,12 @@
     "number": "151",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/151_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/151_hires.png",
+    "price": {
+      "market": 0.25,
+      "low": 0.01,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-152",
@@ -1365,7 +2120,12 @@
     "number": "152",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/152_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/152_hires.png",
+    "price": {
+      "market": 0.2,
+      "low": 0.02,
+      "high": 1000.18
+    }
   },
   {
     "id": "sv8-153",
@@ -1374,7 +2134,12 @@
     "number": "153",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/153_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/153_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.03,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-154",
@@ -1383,7 +2148,12 @@
     "number": "154",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/154_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/154_hires.png",
+    "price": {
+      "market": 0.14,
+      "low": 0.03,
+      "high": 1000.12
+    }
   },
   {
     "id": "sv8-155",
@@ -1392,7 +2162,12 @@
     "number": "155",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/155_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/155_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.05,
+      "high": 2.37
+    }
   },
   {
     "id": "sv8-156",
@@ -1401,7 +2176,12 @@
     "number": "156",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/156_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/156_hires.png",
+    "price": {
+      "market": 0.13,
+      "low": 0.02,
+      "high": 1000.14
+    }
   },
   {
     "id": "sv8-157",
@@ -1410,7 +2190,12 @@
     "number": "157",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/157_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/157_hires.png",
+    "price": {
+      "market": 0.26,
+      "low": 0.01,
+      "high": 1000.2
+    }
   },
   {
     "id": "sv8-158",
@@ -1419,7 +2204,12 @@
     "number": "158",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/158_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/158_hires.png",
+    "price": {
+      "market": 0.34,
+      "low": 0.05,
+      "high": 19.72
+    }
   },
   {
     "id": "sv8-159",
@@ -1428,7 +2218,12 @@
     "number": "159",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/159_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/159_hires.png",
+    "price": {
+      "market": 0.8,
+      "low": 0.25,
+      "high": 999
+    }
   },
   {
     "id": "sv8-160",
@@ -1437,7 +2232,12 @@
     "number": "160",
     "rarity": "Double Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/160_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/160_hires.png",
+    "price": {
+      "market": 0.54,
+      "low": 0.11,
+      "high": 19.26
+    }
   },
   {
     "id": "sv8-161",
@@ -1446,7 +2246,12 @@
     "number": "161",
     "rarity": "Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/161_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/161_hires.png",
+    "price": {
+      "market": 0.19,
+      "low": 0.01,
+      "high": 1000.17
+    }
   },
   {
     "id": "sv8-162",
@@ -1455,7 +2260,12 @@
     "number": "162",
     "rarity": "ACE SPEC Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/162_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/162_hires.png",
+    "price": {
+      "market": 0.45,
+      "low": 0.1,
+      "high": 19.74
+    }
   },
   {
     "id": "sv8-163",
@@ -1464,7 +2274,12 @@
     "number": "163",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/163_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/163_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.02,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-164",
@@ -1473,7 +2288,12 @@
     "number": "164",
     "rarity": "ACE SPEC Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/164_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/164_hires.png",
+    "price": {
+      "market": 0.51,
+      "low": 0.1,
+      "high": 19.88
+    }
   },
   {
     "id": "sv8-165",
@@ -1482,7 +2302,12 @@
     "number": "165",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/165_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/165_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.01,
+      "high": 1000.2
+    }
   },
   {
     "id": "sv8-166",
@@ -1491,7 +2316,12 @@
     "number": "166",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/166_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/166_hires.png",
+    "price": {
+      "market": 0.22,
+      "low": 0.01,
+      "high": 1000.27
+    }
   },
   {
     "id": "sv8-167",
@@ -1500,7 +2330,12 @@
     "number": "167",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/167_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/167_hires.png",
+    "price": {
+      "market": 0.22,
+      "low": 0.01,
+      "high": 1000.22
+    }
   },
   {
     "id": "sv8-168",
@@ -1509,7 +2344,12 @@
     "number": "168",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/168_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/168_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.04,
+      "high": 19.82
+    }
   },
   {
     "id": "sv8-169",
@@ -1518,7 +2358,12 @@
     "number": "169",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/169_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/169_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.04,
+      "high": 19.86
+    }
   },
   {
     "id": "sv8-170",
@@ -1527,7 +2372,12 @@
     "number": "170",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/170_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/170_hires.png",
+    "price": {
+      "market": 0.66,
+      "low": 0.08,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-171",
@@ -1536,7 +2386,12 @@
     "number": "171",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/171_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/171_hires.png",
+    "price": {
+      "market": 0.2,
+      "low": 0.01,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-172",
@@ -1545,7 +2400,12 @@
     "number": "172",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/172_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/172_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.01,
+      "high": 1000.22
+    }
   },
   {
     "id": "sv8-173",
@@ -1554,7 +2414,12 @@
     "number": "173",
     "rarity": "Common",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/173_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/173_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.02,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-174",
@@ -1563,7 +2428,12 @@
     "number": "174",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/174_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/174_hires.png",
+    "price": {
+      "market": 0.27,
+      "low": 0.04,
+      "high": 1000.31
+    }
   },
   {
     "id": "sv8-175",
@@ -1572,7 +2442,12 @@
     "number": "175",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/175_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/175_hires.png",
+    "price": {
+      "market": 0.21,
+      "low": 0.01,
+      "high": 1000.21
+    }
   },
   {
     "id": "sv8-176",
@@ -1581,7 +2456,12 @@
     "number": "176",
     "rarity": "ACE SPEC Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/176_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/176_hires.png",
+    "price": {
+      "market": 0.55,
+      "low": 0.1,
+      "high": 19.88
+    }
   },
   {
     "id": "sv8-177",
@@ -1590,7 +2470,12 @@
     "number": "177",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/177_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/177_hires.png",
+    "price": {
+      "market": 0.28,
+      "low": 0.11,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-178",
@@ -1599,7 +2484,12 @@
     "number": "178",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/178_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/178_hires.png",
+    "price": {
+      "market": 0.26,
+      "low": 0.04,
+      "high": 1000.23
+    }
   },
   {
     "id": "sv8-179",
@@ -1608,7 +2498,12 @@
     "number": "179",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/179_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/179_hires.png",
+    "price": {
+      "market": 0.26,
+      "low": 0.01,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-180",
@@ -1617,7 +2512,12 @@
     "number": "180",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/180_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/180_hires.png",
+    "price": {
+      "market": 0.29,
+      "low": 0.05,
+      "high": 1000.31
+    }
   },
   {
     "id": "sv8-181",
@@ -1626,7 +2526,12 @@
     "number": "181",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/181_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/181_hires.png",
+    "price": {
+      "market": 0.18,
+      "low": 0.07,
+      "high": 1000.2
+    }
   },
   {
     "id": "sv8-182",
@@ -1635,7 +2540,12 @@
     "number": "182",
     "rarity": "ACE SPEC Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/182_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/182_hires.png",
+    "price": {
+      "market": 0.41,
+      "low": 0.09,
+      "high": 27.99
+    }
   },
   {
     "id": "sv8-183",
@@ -1644,7 +2554,12 @@
     "number": "183",
     "rarity": "ACE SPEC Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/183_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/183_hires.png",
+    "price": {
+      "market": 0.81,
+      "low": 0.15,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-184",
@@ -1653,7 +2568,12 @@
     "number": "184",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/184_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/184_hires.png",
+    "price": {
+      "market": 0.15,
+      "low": 0.05,
+      "high": 1.9
+    }
   },
   {
     "id": "sv8-185",
@@ -1662,7 +2582,12 @@
     "number": "185",
     "rarity": "ACE SPEC Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/185_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/185_hires.png",
+    "price": {
+      "market": 2.07,
+      "low": 1.21,
+      "high": 45
+    }
   },
   {
     "id": "sv8-186",
@@ -1671,7 +2596,12 @@
     "number": "186",
     "rarity": "ACE SPEC Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/186_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/186_hires.png",
+    "price": {
+      "market": 0.45,
+      "low": 0.01,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-187",
@@ -1680,7 +2610,12 @@
     "number": "187",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/187_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/187_hires.png",
+    "price": {
+      "market": 0.16,
+      "low": 0.01,
+      "high": 1000.19
+    }
   },
   {
     "id": "sv8-188",
@@ -1689,7 +2624,12 @@
     "number": "188",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/188_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/188_hires.png",
+    "price": {
+      "market": 0.19,
+      "low": 0.03,
+      "high": 1000.22
+    }
   },
   {
     "id": "sv8-189",
@@ -1698,7 +2638,12 @@
     "number": "189",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/189_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/189_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.04,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-190",
@@ -1707,7 +2652,12 @@
     "number": "190",
     "rarity": "Uncommon",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/190_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/190_hires.png",
+    "price": {
+      "market": 0.23,
+      "low": 0.04,
+      "high": 1000.2
+    }
   },
   {
     "id": "sv8-191",
@@ -1716,7 +2666,12 @@
     "number": "191",
     "rarity": "ACE SPEC Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/191_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/191_hires.png",
+    "price": {
+      "market": 3.32,
+      "low": 1.99,
+      "high": 50
+    }
   },
   {
     "id": "sv8-192",
@@ -1725,7 +2680,12 @@
     "number": "192",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/192_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/192_hires.png",
+    "price": {
+      "market": 7.78,
+      "low": 5.41,
+      "high": 4321
+    }
   },
   {
     "id": "sv8-193",
@@ -1734,7 +2694,12 @@
     "number": "193",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/193_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/193_hires.png",
+    "price": {
+      "market": 5.02,
+      "low": 2.98,
+      "high": 39.38
+    }
   },
   {
     "id": "sv8-194",
@@ -1743,7 +2708,12 @@
     "number": "194",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/194_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/194_hires.png",
+    "price": {
+      "market": 3.33,
+      "low": 2.39,
+      "high": 37
+    }
   },
   {
     "id": "sv8-195",
@@ -1752,7 +2722,12 @@
     "number": "195",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/195_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/195_hires.png",
+    "price": {
+      "market": 8.67,
+      "low": 5,
+      "high": 67
+    }
   },
   {
     "id": "sv8-196",
@@ -1761,7 +2736,12 @@
     "number": "196",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/196_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/196_hires.png",
+    "price": {
+      "market": 2.36,
+      "low": 1,
+      "high": 200
+    }
   },
   {
     "id": "sv8-197",
@@ -1770,7 +2750,12 @@
     "number": "197",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/197_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/197_hires.png",
+    "price": {
+      "market": 20.86,
+      "low": 19,
+      "high": 999
+    }
   },
   {
     "id": "sv8-198",
@@ -1779,7 +2764,12 @@
     "number": "198",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/198_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/198_hires.png",
+    "price": {
+      "market": 7.67,
+      "low": 5.69,
+      "high": 67
+    }
   },
   {
     "id": "sv8-199",
@@ -1788,7 +2778,12 @@
     "number": "199",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/199_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/199_hires.png",
+    "price": {
+      "market": 10.49,
+      "low": 7,
+      "high": 506.2
+    }
   },
   {
     "id": "sv8-200",
@@ -1797,7 +2792,12 @@
     "number": "200",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/200_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/200_hires.png",
+    "price": {
+      "market": 2.82,
+      "low": 0.57,
+      "high": 200
+    }
   },
   {
     "id": "sv8-201",
@@ -1806,7 +2806,12 @@
     "number": "201",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/201_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/201_hires.png",
+    "price": {
+      "market": 2.48,
+      "low": 2,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-202",
@@ -1815,7 +2820,12 @@
     "number": "202",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/202_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/202_hires.png",
+    "price": {
+      "market": 2.09,
+      "low": 1.34,
+      "high": 4321
+    }
   },
   {
     "id": "sv8-203",
@@ -1824,7 +2834,12 @@
     "number": "203",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/203_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/203_hires.png",
+    "price": {
+      "market": 35.36,
+      "low": 28.61,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-204",
@@ -1833,7 +2848,12 @@
     "number": "204",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/204_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/204_hires.png",
+    "price": {
+      "market": 12.94,
+      "low": 8.24,
+      "high": 4321
+    }
   },
   {
     "id": "sv8-205",
@@ -1842,7 +2862,12 @@
     "number": "205",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/205_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/205_hires.png",
+    "price": {
+      "market": 9.27,
+      "low": 4,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-206",
@@ -1851,7 +2876,12 @@
     "number": "206",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/206_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/206_hires.png",
+    "price": {
+      "market": 3.12,
+      "low": 2,
+      "high": 4321
+    }
   },
   {
     "id": "sv8-207",
@@ -1860,7 +2890,12 @@
     "number": "207",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/207_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/207_hires.png",
+    "price": {
+      "market": 8.72,
+      "low": 5,
+      "high": 99.98
+    }
   },
   {
     "id": "sv8-208",
@@ -1869,7 +2904,12 @@
     "number": "208",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/208_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/208_hires.png",
+    "price": {
+      "market": 8.47,
+      "low": 5.76,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-209",
@@ -1878,7 +2918,12 @@
     "number": "209",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/209_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/209_hires.png",
+    "price": {
+      "market": 10.08,
+      "low": 7.82,
+      "high": 74.76
+    }
   },
   {
     "id": "sv8-210",
@@ -1887,7 +2932,12 @@
     "number": "210",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/210_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/210_hires.png",
+    "price": {
+      "market": 4.03,
+      "low": 2.91,
+      "high": 40.94
+    }
   },
   {
     "id": "sv8-211",
@@ -1896,7 +2946,12 @@
     "number": "211",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/211_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/211_hires.png",
+    "price": {
+      "market": 8.08,
+      "low": 5,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-212",
@@ -1905,7 +2960,12 @@
     "number": "212",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/212_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/212_hires.png",
+    "price": {
+      "market": 13.97,
+      "low": 10.79,
+      "high": 89.64
+    }
   },
   {
     "id": "sv8-213",
@@ -1914,7 +2974,12 @@
     "number": "213",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/213_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/213_hires.png",
+    "price": {
+      "market": 6.31,
+      "low": 4.94,
+      "high": 52.34
+    }
   },
   {
     "id": "sv8-214",
@@ -1923,7 +2988,12 @@
     "number": "214",
     "rarity": "Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/214_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/214_hires.png",
+    "price": {
+      "market": 5.48,
+      "low": 3,
+      "high": 51.7
+    }
   },
   {
     "id": "sv8-215",
@@ -1932,7 +3002,12 @@
     "number": "215",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/215_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/215_hires.png",
+    "price": {
+      "market": 1.13,
+      "low": 0.49,
+      "high": 999
+    }
   },
   {
     "id": "sv8-216",
@@ -1941,7 +3016,12 @@
     "number": "216",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/216_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/216_hires.png",
+    "price": {
+      "market": 1.13,
+      "low": 0.7,
+      "high": 40
+    }
   },
   {
     "id": "sv8-217",
@@ -1950,7 +3030,12 @@
     "number": "217",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/217_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/217_hires.png",
+    "price": {
+      "market": 2.43,
+      "low": 1.25,
+      "high": 502.2
+    }
   },
   {
     "id": "sv8-218",
@@ -1959,7 +3044,12 @@
     "number": "218",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/218_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/218_hires.png",
+    "price": {
+      "market": 2.86,
+      "low": 1.8,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-219",
@@ -1968,7 +3058,12 @@
     "number": "219",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/219_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/219_hires.png",
+    "price": {
+      "market": 28.96,
+      "low": 26.44,
+      "high": 202.4
+    }
   },
   {
     "id": "sv8-220",
@@ -1977,7 +3072,12 @@
     "number": "220",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/220_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/220_hires.png",
+    "price": {
+      "market": 7.33,
+      "low": 5.7,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-221",
@@ -1986,7 +3086,12 @@
     "number": "221",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/221_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/221_hires.png",
+    "price": {
+      "market": 1.69,
+      "low": 0.01,
+      "high": 39
+    }
   },
   {
     "id": "sv8-222",
@@ -1995,7 +3100,12 @@
     "number": "222",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/222_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/222_hires.png",
+    "price": {
+      "market": 2.6,
+      "low": 1.99,
+      "high": 4321
+    }
   },
   {
     "id": "sv8-223",
@@ -2004,7 +3114,12 @@
     "number": "223",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/223_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/223_hires.png",
+    "price": {
+      "market": 4.86,
+      "low": 3,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-224",
@@ -2013,7 +3128,12 @@
     "number": "224",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/224_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/224_hires.png",
+    "price": {
+      "market": 1.12,
+      "low": 0.55,
+      "high": 50
+    }
   },
   {
     "id": "sv8-225",
@@ -2022,7 +3142,12 @@
     "number": "225",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/225_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/225_hires.png",
+    "price": {
+      "market": 2.47,
+      "low": 1.38,
+      "high": 4321
+    }
   },
   {
     "id": "sv8-226",
@@ -2031,7 +3156,12 @@
     "number": "226",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/226_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/226_hires.png",
+    "price": {
+      "market": 2.22,
+      "low": 1.25,
+      "high": 43
+    }
   },
   {
     "id": "sv8-227",
@@ -2040,7 +3170,12 @@
     "number": "227",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/227_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/227_hires.png",
+    "price": {
+      "market": 1,
+      "low": 0.5,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-228",
@@ -2049,7 +3184,12 @@
     "number": "228",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/228_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/228_hires.png",
+    "price": {
+      "market": 2,
+      "low": 0.98,
+      "high": 1001.43
+    }
   },
   {
     "id": "sv8-229",
@@ -2058,7 +3198,12 @@
     "number": "229",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/229_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/229_hires.png",
+    "price": {
+      "market": 1.23,
+      "low": 0.56,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-230",
@@ -2067,7 +3212,12 @@
     "number": "230",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/230_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/230_hires.png",
+    "price": {
+      "market": 4.65,
+      "low": 3.51,
+      "high": 68.92
+    }
   },
   {
     "id": "sv8-231",
@@ -2076,7 +3226,12 @@
     "number": "231",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/231_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/231_hires.png",
+    "price": {
+      "market": 1.15,
+      "low": 0.48,
+      "high": 40
+    }
   },
   {
     "id": "sv8-232",
@@ -2085,7 +3240,12 @@
     "number": "232",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/232_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/232_hires.png",
+    "price": {
+      "market": 1.18,
+      "low": 0.44,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-233",
@@ -2094,7 +3254,12 @@
     "number": "233",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/233_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/233_hires.png",
+    "price": {
+      "market": 1.75,
+      "low": 0.99,
+      "high": 25.7
+    }
   },
   {
     "id": "sv8-234",
@@ -2103,7 +3268,12 @@
     "number": "234",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/234_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/234_hires.png",
+    "price": {
+      "market": 3.97,
+      "low": 2,
+      "high": 52.32
+    }
   },
   {
     "id": "sv8-235",
@@ -2112,7 +3282,12 @@
     "number": "235",
     "rarity": "Ultra Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/235_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/235_hires.png",
+    "price": {
+      "market": 1.29,
+      "low": 0.71,
+      "high": 19.98
+    }
   },
   {
     "id": "sv8-236",
@@ -2121,7 +3296,12 @@
     "number": "236",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/236_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/236_hires.png",
+    "price": {
+      "market": 29.82,
+      "low": 26,
+      "high": 269.9
+    }
   },
   {
     "id": "sv8-237",
@@ -2130,7 +3310,12 @@
     "number": "237",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/237_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/237_hires.png",
+    "price": {
+      "market": 130.58,
+      "low": 130,
+      "high": 969.9
+    }
   },
   {
     "id": "sv8-238",
@@ -2139,7 +3324,12 @@
     "number": "238",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/238_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/238_hires.png",
+    "price": {
+      "market": 339.31,
+      "low": 275,
+      "high": 549.95
+    }
   },
   {
     "id": "sv8-239",
@@ -2148,7 +3338,12 @@
     "number": "239",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/239_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/239_hires.png",
+    "price": {
+      "market": 182.92,
+      "low": 159.02,
+      "high": 1754.9
+    }
   },
   {
     "id": "sv8-240",
@@ -2157,7 +3352,12 @@
     "number": "240",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/240_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/240_hires.png",
+    "price": {
+      "market": 40.86,
+      "low": 38,
+      "high": 394
+    }
   },
   {
     "id": "sv8-241",
@@ -2166,7 +3366,12 @@
     "number": "241",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/241_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/241_hires.png",
+    "price": {
+      "market": 13.27,
+      "low": 9.99,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-242",
@@ -2175,7 +3380,12 @@
     "number": "242",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/242_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/242_hires.png",
+    "price": {
+      "market": 32.49,
+      "low": 26.99,
+      "high": 9999
+    }
   },
   {
     "id": "sv8-243",
@@ -2184,7 +3394,12 @@
     "number": "243",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/243_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/243_hires.png",
+    "price": {
+      "market": 9.19,
+      "low": 7.91,
+      "high": 92.1
+    }
   },
   {
     "id": "sv8-244",
@@ -2193,7 +3408,12 @@
     "number": "244",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/244_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/244_hires.png",
+    "price": {
+      "market": 7.67,
+      "low": 5.99,
+      "high": 94.5
+    }
   },
   {
     "id": "sv8-245",
@@ -2202,7 +3422,12 @@
     "number": "245",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/245_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/245_hires.png",
+    "price": {
+      "market": 23.17,
+      "low": 18,
+      "high": 200.9
+    }
   },
   {
     "id": "sv8-246",
@@ -2211,7 +3436,12 @@
     "number": "246",
     "rarity": "Special Illustration Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/246_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/246_hires.png",
+    "price": {
+      "market": 33.23,
+      "low": 28.08,
+      "high": 269.9
+    }
   },
   {
     "id": "sv8-247",
@@ -2220,7 +3450,12 @@
     "number": "247",
     "rarity": "Hyper Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/247_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/247_hires.png",
+    "price": {
+      "market": 90.73,
+      "low": 87,
+      "high": 568.7
+    }
   },
   {
     "id": "sv8-248",
@@ -2229,7 +3464,12 @@
     "number": "248",
     "rarity": "Hyper Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/248_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/248_hires.png",
+    "price": {
+      "market": 10.6,
+      "low": 9.38,
+      "high": 109.9
+    }
   },
   {
     "id": "sv8-249",
@@ -2238,7 +3478,12 @@
     "number": "249",
     "rarity": "Hyper Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/249_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/249_hires.png",
+    "price": {
+      "market": 4.17,
+      "low": 2.89,
+      "high": 46.9
+    }
   },
   {
     "id": "sv8-250",
@@ -2247,7 +3492,12 @@
     "number": "250",
     "rarity": "Hyper Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/250_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/250_hires.png",
+    "price": {
+      "market": 10.52,
+      "low": 7,
+      "high": 109.9
+    }
   },
   {
     "id": "sv8-251",
@@ -2256,7 +3506,12 @@
     "number": "251",
     "rarity": "Hyper Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/251_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/251_hires.png",
+    "price": {
+      "market": 10.4,
+      "low": 9.15,
+      "high": 113.7
+    }
   },
   {
     "id": "sv8-252",
@@ -2265,6 +3520,11 @@
     "number": "252",
     "rarity": "Hyper Rare",
     "artist": null,
-    "imageUrl": "https://images.pokemontcg.io/sv8/252_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/sv8/252_hires.png",
+    "price": {
+      "market": 4.91,
+      "low": 4,
+      "high": 70
+    }
   }
 ]

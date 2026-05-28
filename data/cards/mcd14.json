@@ -6,7 +6,8 @@
     "number": "1",
     "rarity": null,
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/1_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-2",
@@ -15,7 +16,8 @@
     "number": "2",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/2_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-3",
@@ -24,7 +26,8 @@
     "number": "3",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/3_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-4",
@@ -33,7 +36,8 @@
     "number": "4",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/4_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-5",
@@ -42,7 +46,8 @@
     "number": "5",
     "rarity": null,
     "artist": "MAHOU",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/5_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-6",
@@ -51,7 +56,8 @@
     "number": "6",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/6_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-7",
@@ -60,7 +66,8 @@
     "number": "7",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/7_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-8",
@@ -69,7 +76,8 @@
     "number": "8",
     "rarity": null,
     "artist": "Naoki Saito",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/8_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-9",
@@ -78,7 +86,8 @@
     "number": "9",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/9_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-10",
@@ -87,7 +96,8 @@
     "number": "10",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/10_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-11",
@@ -96,7 +106,8 @@
     "number": "11",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/11_hires.png",
+    "price": null
   },
   {
     "id": "mcd14-12",
@@ -105,6 +116,7 @@
     "number": "12",
     "rarity": null,
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/mcd14/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd14/12_hires.png",
+    "price": null
   }
 ]

@@ -6,7 +6,12 @@
     "number": "2",
     "rarity": "Classic Collection",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/2_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/2_A_hires.png",
+    "price": {
+      "market": 17.49,
+      "low": 14,
+      "high": 4321
+    }
   },
   {
     "id": "cel25c-4_A",
@@ -15,7 +20,12 @@
     "number": "4",
     "rarity": "Classic Collection",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/4_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/4_A_hires.png",
+    "price": {
+      "market": 188.84,
+      "low": 159.99,
+      "high": 9999
+    }
   },
   {
     "id": "cel25c-8_A",
@@ -24,7 +34,12 @@
     "number": "8",
     "rarity": "Classic Collection",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/8_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/8_A_hires.png",
+    "price": {
+      "market": 6.09,
+      "low": 5,
+      "high": 8888
+    }
   },
   {
     "id": "cel25c-9_A",
@@ -33,7 +48,12 @@
     "number": "9",
     "rarity": "Classic Collection",
     "artist": "Kazuo Yazawa",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/9_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/9_A_hires.png",
+    "price": {
+      "market": 1.74,
+      "low": 0.9,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-15_A1",
@@ -42,7 +62,12 @@
     "number": "15",
     "rarity": "Classic Collection",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/15_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/15_A_hires.png",
+    "price": {
+      "market": 11.44,
+      "low": 9.95,
+      "high": 1000
+    }
   },
   {
     "id": "cel25c-15_A2",
@@ -51,7 +76,12 @@
     "number": "15",
     "rarity": "Classic Collection",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/15_B_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/15_B_hires.png",
+    "price": {
+      "market": 1.1,
+      "low": 0.39,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-15_A4",
@@ -60,7 +90,12 @@
     "number": "15",
     "rarity": "Classic Collection",
     "artist": "Midori Harada",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/15_D_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/15_D_hires.png",
+    "price": {
+      "market": 0.4,
+      "low": 0.1,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-15_A3",
@@ -69,7 +104,12 @@
     "number": "15",
     "rarity": "Classic Collection",
     "artist": "Shin-ichi Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/15_C_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/15_C_hires.png",
+    "price": {
+      "market": 4.83,
+      "low": 3,
+      "high": 9999
+    }
   },
   {
     "id": "cel25c-17_A",
@@ -78,7 +118,12 @@
     "number": "17",
     "rarity": "Classic Collection",
     "artist": "Masakazu Fukuda",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/17_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/17_A_hires.png",
+    "price": {
+      "market": 91.77,
+      "low": 83,
+      "high": 299.99
+    }
   },
   {
     "id": "cel25c-20_A",
@@ -87,7 +132,12 @@
     "number": "20",
     "rarity": "Classic Collection",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/20_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/20_A_hires.png",
+    "price": {
+      "market": 1.79,
+      "low": 1.39,
+      "high": 9999
+    }
   },
   {
     "id": "cel25c-24_A",
@@ -96,7 +146,12 @@
     "number": "24",
     "rarity": "Classic Collection",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/24_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/24_A_hires.png",
+    "price": {
+      "market": 38.38,
+      "low": 33.34,
+      "high": 1000
+    }
   },
   {
     "id": "cel25c-54_A",
@@ -105,7 +160,12 @@
     "number": "54",
     "rarity": "Classic Collection",
     "artist": "Shizurow",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/54_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/54_A_hires.png",
+    "price": {
+      "market": 14.29,
+      "low": 10.35,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-60_A",
@@ -114,7 +174,12 @@
     "number": "60",
     "rarity": "Classic Collection",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/60_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/60_A_hires.png",
+    "price": {
+      "market": 5.1,
+      "low": 3,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-66_A",
@@ -123,7 +188,12 @@
     "number": "66",
     "rarity": "Classic Collection",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/66_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/66_A_hires.png",
+    "price": {
+      "market": 41.93,
+      "low": 35,
+      "high": 5000
+    }
   },
   {
     "id": "cel25c-73_A",
@@ -132,7 +202,12 @@
     "number": "73",
     "rarity": "Classic Collection",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/73_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/73_A_hires.png",
+    "price": {
+      "market": 0.38,
+      "low": 0.1,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-76_A",
@@ -141,7 +216,12 @@
     "number": "76",
     "rarity": "Classic Collection",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/76_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/76_A_hires.png",
+    "price": {
+      "market": 51.85,
+      "low": 40,
+      "high": 5000
+    }
   },
   {
     "id": "cel25c-86_A",
@@ -150,7 +230,12 @@
     "number": "86",
     "rarity": "Classic Collection",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/86_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/86_A_hires.png",
+    "price": {
+      "market": 0.46,
+      "low": 0.17,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-88_A",
@@ -159,7 +244,12 @@
     "number": "88",
     "rarity": "Classic Collection",
     "artist": "Ryo Ueda",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/88_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/88_A_hires.png",
+    "price": {
+      "market": 20.41,
+      "low": 16.58,
+      "high": 2000
+    }
   },
   {
     "id": "cel25c-93_A",
@@ -168,7 +258,12 @@
     "number": "93",
     "rarity": "Classic Collection",
     "artist": "Masahiko Ishii",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/93_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/93_A_hires.png",
+    "price": {
+      "market": 9.35,
+      "low": 7,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-97_A",
@@ -177,7 +272,12 @@
     "number": "97",
     "rarity": "Classic Collection",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/97_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/97_A_hires.png",
+    "price": {
+      "market": 3.77,
+      "low": 3,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-107_A",
@@ -186,7 +286,12 @@
     "number": "107",
     "rarity": "Classic Collection",
     "artist": "Kent Kanetsuna",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/107_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/107_A_hires.png",
+    "price": {
+      "market": 1.49,
+      "low": 0.65,
+      "high": 3300
+    }
   },
   {
     "id": "cel25c-109_A",
@@ -195,7 +300,12 @@
     "number": "109",
     "rarity": "Classic Collection",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/109_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/109_A_hires.png",
+    "price": {
+      "market": 3.05,
+      "low": 2.5,
+      "high": 999.99
+    }
   },
   {
     "id": "cel25c-113_A",
@@ -204,7 +314,12 @@
     "number": "113",
     "rarity": "Classic Collection",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/113_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/113_A_hires.png",
+    "price": {
+      "market": 18.09,
+      "low": 13.99,
+      "high": 2000
+    }
   },
   {
     "id": "cel25c-114_A",
@@ -213,7 +328,12 @@
     "number": "114",
     "rarity": "Classic Collection",
     "artist": "5ban Graphics",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/114_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/114_A_hires.png",
+    "price": {
+      "market": 22,
+      "low": 15.62,
+      "high": 1000
+    }
   },
   {
     "id": "cel25c-145_A",
@@ -222,6 +342,11 @@
     "number": "145",
     "rarity": "Classic Collection",
     "artist": "Shizurow",
-    "imageUrl": "https://images.pokemontcg.io/cel25c/145_A_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/cel25c/145_A_hires.png",
+    "price": {
+      "market": 6.58,
+      "low": 4.87,
+      "high": 999.99
+    }
   }
 ]

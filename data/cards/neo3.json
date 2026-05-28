@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": "Rare Holo",
     "artist": "Toshinao Aoki",
-    "imageUrl": "https://images.pokemontcg.io/neo3/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/1_hires.png",
+    "price": {
+      "market": 90.46,
+      "low": 149.99,
+      "high": 999.98
+    }
   },
   {
     "id": "neo3-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": "Rare Holo",
     "artist": "Yuka Morii",
-    "imageUrl": "https://images.pokemontcg.io/neo3/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/2_hires.png",
+    "price": {
+      "market": 172.5,
+      "low": 269.99,
+      "high": 1703.5
+    }
   },
   {
     "id": "neo3-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": "Rare Holo",
     "artist": "Hironobu Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/3_hires.png",
+    "price": {
+      "market": 349.99,
+      "low": 199.95,
+      "high": 199.95
+    }
   },
   {
     "id": "neo3-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": "Rare Holo",
     "artist": "Shin-ichi Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/4_hires.png",
+    "price": {
+      "market": 86.97,
+      "low": 179.95,
+      "high": 1199.9
+    }
   },
   {
     "id": "neo3-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": "Rare Holo",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/neo3/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/5_hires.png",
+    "price": {
+      "market": 70.35,
+      "low": 99,
+      "high": 135
+    }
   },
   {
     "id": "neo3-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": "Rare Holo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/neo3/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/6_hires.png",
+    "price": {
+      "market": 324.68,
+      "low": 500,
+      "high": 10000
+    }
   },
   {
     "id": "neo3-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": "Rare Holo",
     "artist": "Kimiya Masago",
-    "imageUrl": "https://images.pokemontcg.io/neo3/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/7_hires.png",
+    "price": {
+      "market": 350,
+      "low": 414.99,
+      "high": 488.52
+    }
   },
   {
     "id": "neo3-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": "Rare Holo",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/neo3/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/8_hires.png",
+    "price": {
+      "market": 429.99,
+      "low": 499,
+      "high": 999.96
+    }
   },
   {
     "id": "neo3-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": "Rare Holo",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/neo3/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/9_hires.png",
+    "price": {
+      "market": 45.33,
+      "low": 46.12,
+      "high": 459.9
+    }
   },
   {
     "id": "neo3-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": "Rare Holo",
     "artist": "\"Big Mama\" Tagawa, CR CG gangs",
-    "imageUrl": "https://images.pokemontcg.io/neo3/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/10_hires.png",
+    "price": {
+      "market": 57.08,
+      "low": 49.99,
+      "high": 804.76
+    }
   },
   {
     "id": "neo3-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": "Rare Holo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/neo3/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/11_hires.png",
+    "price": {
+      "market": 138.74,
+      "low": 99.99,
+      "high": 9999.5
+    }
   },
   {
     "id": "neo3-12",
@@ -105,7 +160,12 @@
     "number": "12",
     "rarity": "Rare Holo",
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/neo3/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/12_hires.png",
+    "price": {
+      "market": 98.5,
+      "low": 70,
+      "high": 9999
+    }
   },
   {
     "id": "neo3-13",
@@ -114,7 +174,12 @@
     "number": "13",
     "rarity": "Rare Holo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/neo3/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/13_hires.png",
+    "price": {
+      "market": 499.5,
+      "low": 498,
+      "high": 9999
+    }
   },
   {
     "id": "neo3-14",
@@ -123,7 +188,12 @@
     "number": "14",
     "rarity": "Rare Holo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/neo3/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/14_hires.png",
+    "price": {
+      "market": 461.45,
+      "low": 339.99,
+      "high": 9999
+    }
   },
   {
     "id": "neo3-15",
@@ -132,7 +202,12 @@
     "number": "15",
     "rarity": "Rare",
     "artist": "Shin-ichi Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/15_hires.png",
+    "price": {
+      "market": 25.06,
+      "low": 46.01,
+      "high": 245.8
+    }
   },
   {
     "id": "neo3-16",
@@ -141,7 +216,12 @@
     "number": "16",
     "rarity": "Rare",
     "artist": "Sumiyoshi Kizuki",
-    "imageUrl": "https://images.pokemontcg.io/neo3/16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/16_hires.png",
+    "price": {
+      "market": 27.96,
+      "low": 55,
+      "high": 229.9
+    }
   },
   {
     "id": "neo3-17",
@@ -150,7 +230,12 @@
     "number": "17",
     "rarity": "Rare",
     "artist": "Naoyo Kimura",
-    "imageUrl": "https://images.pokemontcg.io/neo3/17_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/17_hires.png",
+    "price": {
+      "market": 45.64,
+      "low": 22.5,
+      "high": 849
+    }
   },
   {
     "id": "neo3-18",
@@ -159,7 +244,12 @@
     "number": "18",
     "rarity": "Rare",
     "artist": "Aya Kusube",
-    "imageUrl": "https://images.pokemontcg.io/neo3/18_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/18_hires.png",
+    "price": {
+      "market": 48.19,
+      "low": 44.99,
+      "high": 9999
+    }
   },
   {
     "id": "neo3-19",
@@ -168,7 +258,12 @@
     "number": "19",
     "rarity": "Rare",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/neo3/19_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/19_hires.png",
+    "price": {
+      "market": 15.39,
+      "low": 19.8,
+      "high": 249.37
+    }
   },
   {
     "id": "neo3-20",
@@ -177,7 +272,12 @@
     "number": "20",
     "rarity": "Rare",
     "artist": "Aya Kusube",
-    "imageUrl": "https://images.pokemontcg.io/neo3/20_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/20_hires.png",
+    "price": {
+      "market": 91.63,
+      "low": 474.97,
+      "high": 9999
+    }
   },
   {
     "id": "neo3-21",
@@ -186,7 +286,12 @@
     "number": "21",
     "rarity": "Rare",
     "artist": "Masako Yamashita",
-    "imageUrl": "https://images.pokemontcg.io/neo3/21_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/21_hires.png",
+    "price": {
+      "market": 30.57,
+      "low": 19.71,
+      "high": 382.49
+    }
   },
   {
     "id": "neo3-22",
@@ -195,7 +300,12 @@
     "number": "22",
     "rarity": "Rare",
     "artist": "Naoyo Kimura",
-    "imageUrl": "https://images.pokemontcg.io/neo3/22_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/22_hires.png",
+    "price": {
+      "market": 47.96,
+      "low": 66.57,
+      "high": 263.1
+    }
   },
   {
     "id": "neo3-23",
@@ -204,7 +314,12 @@
     "number": "23",
     "rarity": "Rare",
     "artist": "Aya Kusube",
-    "imageUrl": "https://images.pokemontcg.io/neo3/23_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/23_hires.png",
+    "price": {
+      "market": 23.96,
+      "low": 30,
+      "high": 281.08
+    }
   },
   {
     "id": "neo3-24",
@@ -213,7 +328,12 @@
     "number": "24",
     "rarity": "Rare",
     "artist": "Sumiyoshi Kizuki",
-    "imageUrl": "https://images.pokemontcg.io/neo3/24_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/24_hires.png",
+    "price": {
+      "market": 12.38,
+      "low": 25,
+      "high": 82.5
+    }
   },
   {
     "id": "neo3-25",
@@ -222,7 +342,12 @@
     "number": "25",
     "rarity": "Rare",
     "artist": "Keita Komatsuya, CR CG gangs",
-    "imageUrl": "https://images.pokemontcg.io/neo3/25_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/25_hires.png",
+    "price": {
+      "market": 11.35,
+      "low": 7.76,
+      "high": 112.05
+    }
   },
   {
     "id": "neo3-26",
@@ -231,7 +356,12 @@
     "number": "26",
     "rarity": "Rare",
     "artist": "Sumiyoshi Kizuki",
-    "imageUrl": "https://images.pokemontcg.io/neo3/26_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/26_hires.png",
+    "price": {
+      "market": 15.11,
+      "low": 25,
+      "high": 212
+    }
   },
   {
     "id": "neo3-27",
@@ -240,7 +370,12 @@
     "number": "27",
     "rarity": "Rare",
     "artist": "Naoyo Kimura",
-    "imageUrl": "https://images.pokemontcg.io/neo3/27_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/27_hires.png",
+    "price": {
+      "market": 46.13,
+      "low": 55,
+      "high": 632.5
+    }
   },
   {
     "id": "neo3-28",
@@ -249,7 +384,12 @@
     "number": "28",
     "rarity": "Uncommon",
     "artist": "Toshinao Aoki",
-    "imageUrl": "https://images.pokemontcg.io/neo3/28_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/28_hires.png",
+    "price": {
+      "market": 4.05,
+      "low": 2.75,
+      "high": 53.1
+    }
   },
   {
     "id": "neo3-29",
@@ -258,7 +398,12 @@
     "number": "29",
     "rarity": "Uncommon",
     "artist": "Masako Yamashita",
-    "imageUrl": "https://images.pokemontcg.io/neo3/29_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/29_hires.png",
+    "price": {
+      "market": 2.91,
+      "low": 1.35,
+      "high": 34.2
+    }
   },
   {
     "id": "neo3-30",
@@ -267,7 +412,12 @@
     "number": "30",
     "rarity": "Uncommon",
     "artist": "Yukiko Baba",
-    "imageUrl": "https://images.pokemontcg.io/neo3/30_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/30_hires.png",
+    "price": {
+      "market": 2.44,
+      "low": 1.49,
+      "high": 31.3
+    }
   },
   {
     "id": "neo3-31",
@@ -276,7 +426,12 @@
     "number": "31",
     "rarity": "Uncommon",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/neo3/31_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/31_hires.png",
+    "price": {
+      "market": 10.65,
+      "low": 6,
+      "high": 88.64
+    }
   },
   {
     "id": "neo3-32",
@@ -285,7 +440,12 @@
     "number": "32",
     "rarity": "Uncommon",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/neo3/32_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/32_hires.png",
+    "price": {
+      "market": 2.36,
+      "low": 1.6,
+      "high": 29.1
+    }
   },
   {
     "id": "neo3-33",
@@ -294,7 +454,12 @@
     "number": "33",
     "rarity": "Uncommon",
     "artist": "Shin-ichi Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/33_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/33_hires.png",
+    "price": {
+      "market": 4.53,
+      "low": 2.7,
+      "high": 179.7
+    }
   },
   {
     "id": "neo3-34",
@@ -303,7 +468,12 @@
     "number": "34",
     "rarity": "Uncommon",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/neo3/34_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/34_hires.png",
+    "price": {
+      "market": 6.31,
+      "low": 3,
+      "high": 59.9
+    }
   },
   {
     "id": "neo3-35",
@@ -312,7 +482,12 @@
     "number": "35",
     "rarity": "Uncommon",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/35_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/35_hires.png",
+    "price": {
+      "market": 2.71,
+      "low": 1.69,
+      "high": 33.1
+    }
   },
   {
     "id": "neo3-36",
@@ -321,7 +496,12 @@
     "number": "36",
     "rarity": "Uncommon",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/36_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/36_hires.png",
+    "price": {
+      "market": 2.6,
+      "low": 1.41,
+      "high": 33.1
+    }
   },
   {
     "id": "neo3-37",
@@ -330,7 +510,12 @@
     "number": "37",
     "rarity": "Uncommon",
     "artist": "Miki Tanaka",
-    "imageUrl": "https://images.pokemontcg.io/neo3/37_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/37_hires.png",
+    "price": {
+      "market": 2.37,
+      "low": 1.75,
+      "high": 31.7
+    }
   },
   {
     "id": "neo3-38",
@@ -339,7 +524,12 @@
     "number": "38",
     "rarity": "Uncommon",
     "artist": "Yukiko Baba",
-    "imageUrl": "https://images.pokemontcg.io/neo3/38_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/38_hires.png",
+    "price": {
+      "market": 2.37,
+      "low": 1,
+      "high": 32.1
+    }
   },
   {
     "id": "neo3-39",
@@ -348,7 +538,12 @@
     "number": "39",
     "rarity": "Uncommon",
     "artist": "CR CG gangs",
-    "imageUrl": "https://images.pokemontcg.io/neo3/39_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/39_hires.png",
+    "price": {
+      "market": 3.59,
+      "low": 1.87,
+      "high": 62.5
+    }
   },
   {
     "id": "neo3-40",
@@ -357,7 +552,12 @@
     "number": "40",
     "rarity": "Uncommon",
     "artist": "CR CG gangs",
-    "imageUrl": "https://images.pokemontcg.io/neo3/40_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/40_hires.png",
+    "price": {
+      "market": 3.5,
+      "low": 2.25,
+      "high": 44.07
+    }
   },
   {
     "id": "neo3-41",
@@ -366,7 +566,12 @@
     "number": "41",
     "rarity": "Common",
     "artist": "Sumiyoshi Kizuki",
-    "imageUrl": "https://images.pokemontcg.io/neo3/41_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/41_hires.png",
+    "price": {
+      "market": 1.89,
+      "low": 1.5,
+      "high": 25.1
+    }
   },
   {
     "id": "neo3-42",
@@ -375,7 +580,12 @@
     "number": "42",
     "rarity": "Common",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/42_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/42_hires.png",
+    "price": {
+      "market": 1.5,
+      "low": 1,
+      "high": 25.8
+    }
   },
   {
     "id": "neo3-43",
@@ -384,7 +594,12 @@
     "number": "43",
     "rarity": "Common",
     "artist": "Miki Tanaka",
-    "imageUrl": "https://images.pokemontcg.io/neo3/43_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/43_hires.png",
+    "price": {
+      "market": 2.1,
+      "low": 1.2,
+      "high": 30.7
+    }
   },
   {
     "id": "neo3-44",
@@ -393,7 +608,12 @@
     "number": "44",
     "rarity": "Common",
     "artist": "Masako Yamashita",
-    "imageUrl": "https://images.pokemontcg.io/neo3/44_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/44_hires.png",
+    "price": {
+      "market": 1.62,
+      "low": 0.95,
+      "high": 25.6
+    }
   },
   {
     "id": "neo3-45",
@@ -402,7 +622,12 @@
     "number": "45",
     "rarity": "Common",
     "artist": "Yuka Morii",
-    "imageUrl": "https://images.pokemontcg.io/neo3/45_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/45_hires.png",
+    "price": {
+      "market": 3.16,
+      "low": 2.15,
+      "high": 38
+    }
   },
   {
     "id": "neo3-46",
@@ -411,7 +636,12 @@
     "number": "46",
     "rarity": "Common",
     "artist": "Hironobu Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/46_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/46_hires.png",
+    "price": {
+      "market": 2.69,
+      "low": 1.6,
+      "high": 39.8
+    }
   },
   {
     "id": "neo3-47",
@@ -420,7 +650,12 @@
     "number": "47",
     "rarity": "Common",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/neo3/47_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/47_hires.png",
+    "price": {
+      "market": 2.47,
+      "low": 1.22,
+      "high": 31.4
+    }
   },
   {
     "id": "neo3-48",
@@ -429,7 +664,12 @@
     "number": "48",
     "rarity": "Common",
     "artist": "Yuka Morii",
-    "imageUrl": "https://images.pokemontcg.io/neo3/48_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/48_hires.png",
+    "price": {
+      "market": 7.28,
+      "low": 13.9,
+      "high": 57.44
+    }
   },
   {
     "id": "neo3-49",
@@ -438,7 +678,12 @@
     "number": "49",
     "rarity": "Common",
     "artist": "Sumiyoshi Kizuki",
-    "imageUrl": "https://images.pokemontcg.io/neo3/49_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/49_hires.png",
+    "price": {
+      "market": 1.82,
+      "low": 1.27,
+      "high": 33
+    }
   },
   {
     "id": "neo3-50",
@@ -447,7 +692,12 @@
     "number": "50",
     "rarity": "Common",
     "artist": "Miki Tanaka",
-    "imageUrl": "https://images.pokemontcg.io/neo3/50_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/50_hires.png",
+    "price": {
+      "market": 1.68,
+      "low": 0.99,
+      "high": 26.2
+    }
   },
   {
     "id": "neo3-51",
@@ -456,7 +706,12 @@
     "number": "51",
     "rarity": "Common",
     "artist": "Yuka Morii",
-    "imageUrl": "https://images.pokemontcg.io/neo3/51_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/51_hires.png",
+    "price": {
+      "market": 12.32,
+      "low": 6.62,
+      "high": 113.1
+    }
   },
   {
     "id": "neo3-52",
@@ -465,7 +720,12 @@
     "number": "52",
     "rarity": "Common",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/neo3/52_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/52_hires.png",
+    "price": {
+      "market": 3.26,
+      "low": 1.15,
+      "high": 39.99
+    }
   },
   {
     "id": "neo3-53",
@@ -474,7 +734,12 @@
     "number": "53",
     "rarity": "Common",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/neo3/53_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/53_hires.png",
+    "price": {
+      "market": 1.74,
+      "low": 1.07,
+      "high": 19.98
+    }
   },
   {
     "id": "neo3-54",
@@ -483,7 +748,12 @@
     "number": "54",
     "rarity": "Common",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/neo3/54_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/54_hires.png",
+    "price": {
+      "market": 2.7,
+      "low": 1.37,
+      "high": 96.41
+    }
   },
   {
     "id": "neo3-55",
@@ -492,7 +762,12 @@
     "number": "55",
     "rarity": "Common",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/neo3/55_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/55_hires.png",
+    "price": {
+      "market": 2.69,
+      "low": 1.6,
+      "high": 36.34
+    }
   },
   {
     "id": "neo3-56",
@@ -501,7 +776,12 @@
     "number": "56",
     "rarity": "Common",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/neo3/56_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/56_hires.png",
+    "price": {
+      "market": 2.38,
+      "low": 1,
+      "high": 35.1
+    }
   },
   {
     "id": "neo3-57",
@@ -510,7 +790,12 @@
     "number": "57",
     "rarity": "Common",
     "artist": "Miki Tanaka",
-    "imageUrl": "https://images.pokemontcg.io/neo3/57_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/57_hires.png",
+    "price": {
+      "market": 1.73,
+      "low": 1,
+      "high": 19.98
+    }
   },
   {
     "id": "neo3-58",
@@ -519,7 +804,12 @@
     "number": "58",
     "rarity": "Common",
     "artist": "CR CG gangs",
-    "imageUrl": "https://images.pokemontcg.io/neo3/58_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/58_hires.png",
+    "price": {
+      "market": 2.37,
+      "low": 1.3,
+      "high": 28.04
+    }
   },
   {
     "id": "neo3-59",
@@ -528,7 +818,12 @@
     "number": "59",
     "rarity": "Common",
     "artist": "Yukiko Baba",
-    "imageUrl": "https://images.pokemontcg.io/neo3/59_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/59_hires.png",
+    "price": {
+      "market": 2.36,
+      "low": 1.2,
+      "high": 33.9
+    }
   },
   {
     "id": "neo3-60",
@@ -537,7 +832,12 @@
     "number": "60",
     "rarity": "Uncommon",
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/neo3/60_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/60_hires.png",
+    "price": {
+      "market": 1.14,
+      "low": 0.5,
+      "high": 19.98
+    }
   },
   {
     "id": "neo3-61",
@@ -546,7 +846,12 @@
     "number": "61",
     "rarity": "Uncommon",
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/neo3/61_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/61_hires.png",
+    "price": {
+      "market": 1.29,
+      "low": 0.75,
+      "high": 19.98
+    }
   },
   {
     "id": "neo3-62",
@@ -555,7 +860,12 @@
     "number": "62",
     "rarity": "Uncommon",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/neo3/62_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/62_hires.png",
+    "price": {
+      "market": 11.06,
+      "low": 3.49,
+      "high": 242.7
+    }
   },
   {
     "id": "neo3-63",
@@ -564,7 +874,12 @@
     "number": "63",
     "rarity": "Uncommon",
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/neo3/63_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/63_hires.png",
+    "price": {
+      "market": 36.06,
+      "low": 16.42,
+      "high": 2500
+    }
   },
   {
     "id": "neo3-64",
@@ -573,7 +888,12 @@
     "number": "64",
     "rarity": "Common",
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/neo3/64_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/64_hires.png",
+    "price": {
+      "market": 0.85,
+      "low": 0.4,
+      "high": 10
+    }
   },
   {
     "id": "neo3-65",
@@ -582,7 +902,12 @@
     "number": "65",
     "rarity": "Rare Shining",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/neo3/65_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/65_hires.png",
+    "price": {
+      "market": 573.61,
+      "low": 407,
+      "high": 796.04
+    }
   },
   {
     "id": "neo3-66",
@@ -591,6 +916,11 @@
     "number": "66",
     "rarity": "Rare Shining",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/neo3/66_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/neo3/66_hires.png",
+    "price": {
+      "market": 447.5,
+      "low": 400,
+      "high": 475
+    }
   }
 ]

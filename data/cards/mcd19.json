@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": null,
     "artist": "Sekio",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/1_hires.png",
+    "price": {
+      "market": 12.75,
+      "low": 12,
+      "high": 581.88
+    }
   },
   {
     "id": "mcd19-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": null,
     "artist": "Satoshi Shirai",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/2_hires.png",
+    "price": {
+      "market": 6.96,
+      "low": 2.99,
+      "high": 132.03
+    }
   },
   {
     "id": "mcd19-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": null,
     "artist": "Yumi",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/3_hires.png",
+    "price": {
+      "market": 9.94,
+      "low": 4.24,
+      "high": 113.3
+    }
   },
   {
     "id": "mcd19-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": null,
     "artist": "Shin Nagasawa",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/4_hires.png",
+    "price": {
+      "market": 5.59,
+      "low": 3.49,
+      "high": 115.4
+    }
   },
   {
     "id": "mcd19-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": null,
     "artist": "Saya Tsuruta",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/5_hires.png",
+    "price": {
+      "market": 17.53,
+      "low": 12.43,
+      "high": 200.31
+    }
   },
   {
     "id": "mcd19-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": null,
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/6_hires.png",
+    "price": {
+      "market": 30.06,
+      "low": 9.41,
+      "high": 499.87
+    }
   },
   {
     "id": "mcd19-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": null,
     "artist": "Shibuzoh.",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/7_hires.png",
+    "price": {
+      "market": 11.8,
+      "low": 5,
+      "high": 10.81
+    }
   },
   {
     "id": "mcd19-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": null,
     "artist": "Miki Tanaka",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/8_hires.png",
+    "price": {
+      "market": 6.96,
+      "low": 2.45,
+      "high": 79.9
+    }
   },
   {
     "id": "mcd19-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": null,
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/9_hires.png",
+    "price": {
+      "market": 9.31,
+      "low": 2.2,
+      "high": 52.5
+    }
   },
   {
     "id": "mcd19-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": null,
     "artist": "Akira Komayama",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/10_hires.png",
+    "price": {
+      "market": 15.91,
+      "low": 6.11,
+      "high": 193.1
+    }
   },
   {
     "id": "mcd19-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": null,
     "artist": "Megumi Mizutani",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/11_hires.png",
+    "price": {
+      "market": 9.26,
+      "low": 4.24,
+      "high": 47.5
+    }
   },
   {
     "id": "mcd19-12",
@@ -105,6 +160,11 @@
     "number": "12",
     "rarity": null,
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/mcd19/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/mcd19/12_hires.png",
+    "price": {
+      "market": 18.22,
+      "low": 9.99,
+      "high": 159.9
+    }
   }
 ]

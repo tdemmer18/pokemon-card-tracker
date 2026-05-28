@@ -6,7 +6,12 @@
     "number": "1",
     "rarity": "Common",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/1_hires.png",
+    "price": {
+      "market": 0.73,
+      "low": 0.03,
+      "high": 39.53
+    }
   },
   {
     "id": "det1-2",
@@ -15,7 +20,12 @@
     "number": "2",
     "rarity": "Rare",
     "artist": "Framestore",
-    "imageUrl": "https://images.pokemontcg.io/det1/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/2_hires.png",
+    "price": {
+      "market": 1.13,
+      "low": 0.45,
+      "high": 18.66
+    }
   },
   {
     "id": "det1-3",
@@ -24,7 +34,12 @@
     "number": "3",
     "rarity": "Common",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/3_hires.png",
+    "price": {
+      "market": 0.35,
+      "low": 0.09,
+      "high": 4321
+    }
   },
   {
     "id": "det1-4",
@@ -33,7 +48,12 @@
     "number": "4",
     "rarity": "Common",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/4_hires.png",
+    "price": {
+      "market": 0.81,
+      "low": 0.15,
+      "high": 501.5
+    }
   },
   {
     "id": "det1-5",
@@ -42,7 +62,12 @@
     "number": "5",
     "rarity": "Rare Ultra",
     "artist": "Framestore",
-    "imageUrl": "https://images.pokemontcg.io/det1/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/5_hires.png",
+    "price": {
+      "market": 9.71,
+      "low": 5,
+      "high": 118.97
+    }
   },
   {
     "id": "det1-6",
@@ -51,7 +76,12 @@
     "number": "6",
     "rarity": "Rare",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/6_hires.png",
+    "price": {
+      "market": 2.87,
+      "low": 0.56,
+      "high": 25.6
+    }
   },
   {
     "id": "det1-7",
@@ -60,7 +90,12 @@
     "number": "7",
     "rarity": "Common",
     "artist": "Framestore",
-    "imageUrl": "https://images.pokemontcg.io/det1/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/7_hires.png",
+    "price": {
+      "market": 0.86,
+      "low": 0.2,
+      "high": 4.99
+    }
   },
   {
     "id": "det1-8",
@@ -69,7 +104,12 @@
     "number": "8",
     "rarity": "Common",
     "artist": "Framestore",
-    "imageUrl": "https://images.pokemontcg.io/det1/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/8_hires.png",
+    "price": {
+      "market": 0.44,
+      "low": 0.05,
+      "high": 4.03
+    }
   },
   {
     "id": "det1-9",
@@ -78,7 +118,12 @@
     "number": "9",
     "rarity": "Rare Ultra",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/9_hires.png",
+    "price": {
+      "market": 7.22,
+      "low": 3,
+      "high": 4321
+    }
   },
   {
     "id": "det1-10",
@@ -87,7 +132,12 @@
     "number": "10",
     "rarity": "Rare",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/10_hires.png",
+    "price": {
+      "market": 10.08,
+      "low": 5.5,
+      "high": 98.91
+    }
   },
   {
     "id": "det1-11",
@@ -96,7 +146,12 @@
     "number": "11",
     "rarity": "Rare",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/11_hires.png",
+    "price": {
+      "market": 2.02,
+      "low": 0.75,
+      "high": 96.56
+    }
   },
   {
     "id": "det1-12",
@@ -105,7 +160,12 @@
     "number": "12",
     "rarity": "Rare Ultra",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/12_hires.png",
+    "price": {
+      "market": 8.13,
+      "low": 3.82,
+      "high": 155.8
+    }
   },
   {
     "id": "det1-13",
@@ -114,7 +174,12 @@
     "number": "13",
     "rarity": "Rare",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/13_hires.png",
+    "price": {
+      "market": 1.41,
+      "low": 0.5,
+      "high": 4.97
+    }
   },
   {
     "id": "det1-14",
@@ -123,7 +188,12 @@
     "number": "14",
     "rarity": "Common",
     "artist": "Framestore",
-    "imageUrl": "https://images.pokemontcg.io/det1/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/14_hires.png",
+    "price": {
+      "market": 0.4,
+      "low": 0.07,
+      "high": 5
+    }
   },
   {
     "id": "det1-15",
@@ -132,7 +202,12 @@
     "number": "15",
     "rarity": "Common",
     "artist": "Framestore",
-    "imageUrl": "https://images.pokemontcg.io/det1/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/15_hires.png",
+    "price": {
+      "market": 0.4,
+      "low": 0.05,
+      "high": 19.98
+    }
   },
   {
     "id": "det1-16",
@@ -141,7 +216,12 @@
     "number": "16",
     "rarity": "Common",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/16_hires.png",
+    "price": {
+      "market": 0.34,
+      "low": 0.04,
+      "high": 5
+    }
   },
   {
     "id": "det1-17",
@@ -150,7 +230,12 @@
     "number": "17",
     "rarity": "Rare Ultra",
     "artist": "MPC Film",
-    "imageUrl": "https://images.pokemontcg.io/det1/17_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/17_hires.png",
+    "price": {
+      "market": 11.17,
+      "low": 5,
+      "high": 146.82
+    }
   },
   {
     "id": "det1-18",
@@ -159,6 +244,11 @@
     "number": "18",
     "rarity": "Rare",
     "artist": "Framestore",
-    "imageUrl": "https://images.pokemontcg.io/det1/18_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/det1/18_hires.png",
+    "price": {
+      "market": 1.04,
+      "low": 0.2,
+      "high": 19.96
+    }
   }
 ]

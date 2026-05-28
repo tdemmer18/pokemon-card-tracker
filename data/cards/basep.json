@@ -6,7 +6,8 @@
     "number": "1",
     "rarity": "Promo",
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/basep/1_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/1_hires.png",
+    "price": null
   },
   {
     "id": "basep-2",
@@ -15,7 +16,12 @@
     "number": "2",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/2_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/2_hires.png",
+    "price": {
+      "market": 11.6,
+      "low": 4.1,
+      "high": 9999
+    }
   },
   {
     "id": "basep-3",
@@ -24,7 +30,12 @@
     "number": "3",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/3_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/3_hires.png",
+    "price": {
+      "market": 43.94,
+      "low": 23,
+      "high": 9999
+    }
   },
   {
     "id": "basep-4",
@@ -33,7 +44,12 @@
     "number": "4",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/4_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/4_hires.png",
+    "price": {
+      "market": 47.54,
+      "low": 24.68,
+      "high": 9999
+    }
   },
   {
     "id": "basep-5",
@@ -42,7 +58,12 @@
     "number": "5",
     "rarity": "Promo",
     "artist": "Toshinao Aoki",
-    "imageUrl": "https://images.pokemontcg.io/basep/5_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/5_hires.png",
+    "price": {
+      "market": 64.83,
+      "low": 44.29,
+      "high": 148.67
+    }
   },
   {
     "id": "basep-6",
@@ -51,7 +72,12 @@
     "number": "6",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/6_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/6_hires.png",
+    "price": {
+      "market": 27.99,
+      "low": 18.99,
+      "high": 9999
+    }
   },
   {
     "id": "basep-7",
@@ -60,7 +86,12 @@
     "number": "7",
     "rarity": "Promo",
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/basep/7_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/7_hires.png",
+    "price": {
+      "market": 32.9,
+      "low": 29.99,
+      "high": 50
+    }
   },
   {
     "id": "basep-8",
@@ -69,7 +100,12 @@
     "number": "8",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/8_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/8_hires.png",
+    "price": {
+      "market": 10.73,
+      "low": 4.98,
+      "high": 9999
+    }
   },
   {
     "id": "basep-9",
@@ -78,7 +114,12 @@
     "number": "9",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/9_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/9_hires.png",
+    "price": {
+      "market": 107.27,
+      "low": 74.75,
+      "high": 1499.98
+    }
   },
   {
     "id": "basep-10",
@@ -87,7 +128,12 @@
     "number": "10",
     "rarity": "Promo",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/basep/10_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/10_hires.png",
+    "price": {
+      "market": 61.86,
+      "low": 35,
+      "high": 550.38
+    }
   },
   {
     "id": "basep-11",
@@ -96,7 +142,12 @@
     "number": "11",
     "rarity": "Promo",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/basep/11_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/11_hires.png",
+    "price": {
+      "market": 50.03,
+      "low": 38,
+      "high": 9999
+    }
   },
   {
     "id": "basep-12",
@@ -105,7 +156,12 @@
     "number": "12",
     "rarity": "Promo",
     "artist": "Christopher Rush",
-    "imageUrl": "https://images.pokemontcg.io/basep/12_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/12_hires.png",
+    "price": {
+      "market": 111.52,
+      "low": 95,
+      "high": 3699.99
+    }
   },
   {
     "id": "basep-13",
@@ -114,7 +170,12 @@
     "number": "13",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/13_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/13_hires.png",
+    "price": {
+      "market": 217.55,
+      "low": 169.95,
+      "high": 9999
+    }
   },
   {
     "id": "basep-14",
@@ -123,7 +184,12 @@
     "number": "14",
     "rarity": "Promo",
     "artist": "Benimaru Itoh",
-    "imageUrl": "https://images.pokemontcg.io/basep/14_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/14_hires.png",
+    "price": {
+      "market": 29.04,
+      "low": 15,
+      "high": 279.8
+    }
   },
   {
     "id": "basep-15",
@@ -132,7 +198,12 @@
     "number": "15",
     "rarity": "Promo",
     "artist": "Hiromichi Sugiyama",
-    "imageUrl": "https://images.pokemontcg.io/basep/15_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/15_hires.png",
+    "price": {
+      "market": 87.38,
+      "low": 84.99,
+      "high": 909.19
+    }
   },
   {
     "id": "basep-16",
@@ -141,7 +212,12 @@
     "number": "16",
     "rarity": "Promo",
     "artist": "Sumiyoshi Kizuki",
-    "imageUrl": "https://images.pokemontcg.io/basep/16_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/16_hires.png",
+    "price": {
+      "market": 5.64,
+      "low": 4.2,
+      "high": 94
+    }
   },
   {
     "id": "basep-17",
@@ -150,7 +226,12 @@
     "number": "17",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/17_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/17_hires.png",
+    "price": {
+      "market": 84.9,
+      "low": 90,
+      "high": 9999
+    }
   },
   {
     "id": "basep-18",
@@ -159,7 +240,12 @@
     "number": "18",
     "rarity": "Promo",
     "artist": "Kunihiko Yuyama",
-    "imageUrl": "https://images.pokemontcg.io/basep/18_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/18_hires.png",
+    "price": {
+      "market": 30.18,
+      "low": 19,
+      "high": 9999
+    }
   },
   {
     "id": "basep-19",
@@ -168,7 +254,12 @@
     "number": "19",
     "rarity": "Promo",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/basep/19_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/19_hires.png",
+    "price": {
+      "market": 47.94,
+      "low": 40,
+      "high": 469.4
+    }
   },
   {
     "id": "basep-20",
@@ -177,7 +268,12 @@
     "number": "20",
     "rarity": "Promo",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/basep/20_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/20_hires.png",
+    "price": {
+      "market": 75.43,
+      "low": 69.95,
+      "high": 668.5
+    }
   },
   {
     "id": "basep-21",
@@ -186,7 +282,12 @@
     "number": "21",
     "rarity": "Promo",
     "artist": "Toshinao Aoki",
-    "imageUrl": "https://images.pokemontcg.io/basep/21_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/21_hires.png",
+    "price": {
+      "market": 22.34,
+      "low": 11.99,
+      "high": 9999
+    }
   },
   {
     "id": "basep-22",
@@ -195,7 +296,12 @@
     "number": "22",
     "rarity": "Promo",
     "artist": "Toshinao Aoki",
-    "imageUrl": "https://images.pokemontcg.io/basep/22_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/22_hires.png",
+    "price": {
+      "market": 18.19,
+      "low": 9.99,
+      "high": 9999
+    }
   },
   {
     "id": "basep-23",
@@ -204,7 +310,12 @@
     "number": "23",
     "rarity": "Promo",
     "artist": "Toshinao Aoki",
-    "imageUrl": "https://images.pokemontcg.io/basep/23_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/23_hires.png",
+    "price": {
+      "market": 16.68,
+      "low": 11.57,
+      "high": 9999
+    }
   },
   {
     "id": "basep-24",
@@ -213,7 +324,12 @@
     "number": "24",
     "rarity": "Promo",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/basep/24_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/24_hires.png",
+    "price": {
+      "market": 254.1,
+      "low": 300,
+      "high": 9999
+    }
   },
   {
     "id": "basep-25",
@@ -222,7 +338,12 @@
     "number": "25",
     "rarity": "Promo",
     "artist": "Toshinao Aoki",
-    "imageUrl": "https://images.pokemontcg.io/basep/25_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/25_hires.png",
+    "price": {
+      "market": 68.78,
+      "low": 95,
+      "high": 9999
+    }
   },
   {
     "id": "basep-26",
@@ -231,7 +352,12 @@
     "number": "26",
     "rarity": "Promo",
     "artist": "Gakuji Nomoto",
-    "imageUrl": "https://images.pokemontcg.io/basep/26_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/26_hires.png",
+    "price": {
+      "market": 69.72,
+      "low": 83.7,
+      "high": 799.9
+    }
   },
   {
     "id": "basep-27",
@@ -240,7 +366,12 @@
     "number": "27",
     "rarity": "Promo",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/basep/27_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/27_hires.png",
+    "price": {
+      "market": 24.22,
+      "low": 15,
+      "high": 168.92
+    }
   },
   {
     "id": "basep-28",
@@ -249,7 +380,12 @@
     "number": "28",
     "rarity": "Promo",
     "artist": "Toshinao Aoki",
-    "imageUrl": "https://images.pokemontcg.io/basep/28_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/28_hires.png",
+    "price": {
+      "market": 54.82,
+      "low": 53.99,
+      "high": 539.91
+    }
   },
   {
     "id": "basep-29",
@@ -258,7 +394,12 @@
     "number": "29",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/29_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/29_hires.png",
+    "price": {
+      "market": 7.03,
+      "low": 2.99,
+      "high": 56.53
+    }
   },
   {
     "id": "basep-30",
@@ -267,7 +408,12 @@
     "number": "30",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/30_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/30_hires.png",
+    "price": {
+      "market": 22.44,
+      "low": 15,
+      "high": 9999
+    }
   },
   {
     "id": "basep-31",
@@ -276,7 +422,12 @@
     "number": "31",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/31_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/31_hires.png",
+    "price": {
+      "market": 11.77,
+      "low": 10,
+      "high": 96.51
+    }
   },
   {
     "id": "basep-32",
@@ -285,7 +436,8 @@
     "number": "32",
     "rarity": "Promo",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/basep/32_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/32_hires.png",
+    "price": null
   },
   {
     "id": "basep-33",
@@ -294,7 +446,12 @@
     "number": "33",
     "rarity": "Promo",
     "artist": "Hironobu Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/basep/33_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/33_hires.png",
+    "price": {
+      "market": 17.76,
+      "low": 10,
+      "high": 172.22
+    }
   },
   {
     "id": "basep-34",
@@ -303,7 +460,12 @@
     "number": "34",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/34_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/34_hires.png",
+    "price": {
+      "market": 32.17,
+      "low": 13.67,
+      "high": 120
+    }
   },
   {
     "id": "basep-35",
@@ -312,7 +474,12 @@
     "number": "35",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/35_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/35_hires.png",
+    "price": {
+      "market": 55.73,
+      "low": 68.99,
+      "high": 999.31
+    }
   },
   {
     "id": "basep-36",
@@ -321,7 +488,12 @@
     "number": "36",
     "rarity": "Promo",
     "artist": "Kagemaru Himeno",
-    "imageUrl": "https://images.pokemontcg.io/basep/36_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/36_hires.png",
+    "price": {
+      "market": 12.45,
+      "low": 10.92,
+      "high": 96.55
+    }
   },
   {
     "id": "basep-37",
@@ -330,7 +502,12 @@
     "number": "37",
     "rarity": "Promo",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/basep/37_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/37_hires.png",
+    "price": {
+      "market": 10.5,
+      "low": 5.99,
+      "high": 96.38
+    }
   },
   {
     "id": "basep-38",
@@ -339,7 +516,12 @@
     "number": "38",
     "rarity": "Promo",
     "artist": "Hideki Kazama",
-    "imageUrl": "https://images.pokemontcg.io/basep/38_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/38_hires.png",
+    "price": {
+      "market": 23.19,
+      "low": 13.19,
+      "high": 202.6
+    }
   },
   {
     "id": "basep-39",
@@ -348,7 +530,12 @@
     "number": "39",
     "rarity": "Promo",
     "artist": "Shin-ichi Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/basep/39_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/39_hires.png",
+    "price": {
+      "market": 10.65,
+      "low": 5.5,
+      "high": 96.95
+    }
   },
   {
     "id": "basep-40",
@@ -357,7 +544,12 @@
     "number": "40",
     "rarity": "Promo",
     "artist": "\"Big Mama\" Tagawa",
-    "imageUrl": "https://images.pokemontcg.io/basep/40_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/40_hires.png",
+    "price": {
+      "market": 1108,
+      "low": 7777,
+      "high": 7777
+    }
   },
   {
     "id": "basep-41",
@@ -366,7 +558,12 @@
     "number": "41",
     "rarity": "Promo",
     "artist": "\"Big Mama\" Tagawa",
-    "imageUrl": "https://images.pokemontcg.io/basep/41_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/41_hires.png",
+    "price": {
+      "market": 1050.33,
+      "low": 1700,
+      "high": 1700
+    }
   },
   {
     "id": "basep-42",
@@ -375,7 +572,12 @@
     "number": "42",
     "rarity": "Promo",
     "artist": "Keiji Kinebuchi",
-    "imageUrl": "https://images.pokemontcg.io/basep/42_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/42_hires.png",
+    "price": {
+      "market": 13.15,
+      "low": 8.62,
+      "high": 104.7
+    }
   },
   {
     "id": "basep-43",
@@ -384,7 +586,12 @@
     "number": "43",
     "rarity": "Promo",
     "artist": "Tomokazu Komiya",
-    "imageUrl": "https://images.pokemontcg.io/basep/43_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/43_hires.png",
+    "price": {
+      "market": 49.95,
+      "low": 109,
+      "high": 1803.6
+    }
   },
   {
     "id": "basep-44",
@@ -393,7 +600,12 @@
     "number": "44",
     "rarity": "Promo",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/basep/44_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/44_hires.png",
+    "price": {
+      "market": 26.61,
+      "low": 68.95,
+      "high": 499.99
+    }
   },
   {
     "id": "basep-45",
@@ -402,7 +614,12 @@
     "number": "45",
     "rarity": "Promo",
     "artist": "Hironobu Yoshida",
-    "imageUrl": "https://images.pokemontcg.io/basep/45_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/45_hires.png",
+    "price": {
+      "market": 42.67,
+      "low": 36.7,
+      "high": 426.73
+    }
   },
   {
     "id": "basep-46",
@@ -411,7 +628,12 @@
     "number": "46",
     "rarity": "Promo",
     "artist": "Miki Tanaka",
-    "imageUrl": "https://images.pokemontcg.io/basep/46_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/46_hires.png",
+    "price": {
+      "market": 38.58,
+      "low": 40,
+      "high": 1153.51
+    }
   },
   {
     "id": "basep-47",
@@ -420,7 +642,12 @@
     "number": "47",
     "rarity": "Promo",
     "artist": "Ken Sugimori",
-    "imageUrl": "https://images.pokemontcg.io/basep/47_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/47_hires.png",
+    "price": {
+      "market": 128.82,
+      "low": 157.49,
+      "high": 9999
+    }
   },
   {
     "id": "basep-48",
@@ -429,7 +656,12 @@
     "number": "48",
     "rarity": "Promo",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/basep/48_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/48_hires.png",
+    "price": {
+      "market": 84.09,
+      "low": 81.99,
+      "high": 229.99
+    }
   },
   {
     "id": "basep-49",
@@ -438,7 +670,12 @@
     "number": "49",
     "rarity": "Promo",
     "artist": "Craig Turvey",
-    "imageUrl": "https://images.pokemontcg.io/basep/49_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/49_hires.png",
+    "price": {
+      "market": 273.52,
+      "low": 305,
+      "high": 2499.97
+    }
   },
   {
     "id": "basep-50",
@@ -447,7 +684,12 @@
     "number": "50",
     "rarity": "Promo",
     "artist": "Hajime Kusajima",
-    "imageUrl": "https://images.pokemontcg.io/basep/50_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/50_hires.png",
+    "price": {
+      "market": 52.64,
+      "low": 99.99,
+      "high": 720
+    }
   },
   {
     "id": "basep-51",
@@ -456,7 +698,12 @@
     "number": "51",
     "rarity": "Promo",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/basep/51_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/51_hires.png",
+    "price": {
+      "market": 40.61,
+      "low": 35.99,
+      "high": 9999
+    }
   },
   {
     "id": "basep-52",
@@ -465,7 +712,12 @@
     "number": "52",
     "rarity": "Promo",
     "artist": "Mitsuhiro Arita",
-    "imageUrl": "https://images.pokemontcg.io/basep/52_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/52_hires.png",
+    "price": {
+      "market": 44.95,
+      "low": 75,
+      "high": 499.94
+    }
   },
   {
     "id": "basep-53",
@@ -474,6 +726,11 @@
     "number": "53",
     "rarity": "Promo",
     "artist": "Atsuko Nishida",
-    "imageUrl": "https://images.pokemontcg.io/basep/53_hires.png"
+    "imageUrl": "https://images.pokemontcg.io/basep/53_hires.png",
+    "price": {
+      "market": 44.91,
+      "low": 50,
+      "high": 9999
+    }
   }
 ]
