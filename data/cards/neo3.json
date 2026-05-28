@@ -1,0 +1,596 @@
+[
+  {
+    "id": "neo3-1",
+    "name": "Ampharos",
+    "setName": "Neo Revelation",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/neo3/1_hires.png"
+  },
+  {
+    "id": "neo3-2",
+    "name": "Blissey",
+    "setName": "Neo Revelation",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/neo3/2_hires.png"
+  },
+  {
+    "id": "neo3-3",
+    "name": "Celebi",
+    "setName": "Neo Revelation",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/3_hires.png"
+  },
+  {
+    "id": "neo3-4",
+    "name": "Crobat",
+    "setName": "Neo Revelation",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/4_hires.png"
+  },
+  {
+    "id": "neo3-5",
+    "name": "Delibird",
+    "setName": "Neo Revelation",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/neo3/5_hires.png"
+  },
+  {
+    "id": "neo3-6",
+    "name": "Entei",
+    "setName": "Neo Revelation",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/neo3/6_hires.png"
+  },
+  {
+    "id": "neo3-7",
+    "name": "Ho-oh",
+    "setName": "Neo Revelation",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/neo3/7_hires.png"
+  },
+  {
+    "id": "neo3-8",
+    "name": "Houndoom",
+    "setName": "Neo Revelation",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/neo3/8_hires.png"
+  },
+  {
+    "id": "neo3-9",
+    "name": "Jumpluff",
+    "setName": "Neo Revelation",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/neo3/9_hires.png"
+  },
+  {
+    "id": "neo3-10",
+    "name": "Magneton",
+    "setName": "Neo Revelation",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "\"Big Mama\" Tagawa, CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo3/10_hires.png"
+  },
+  {
+    "id": "neo3-11",
+    "name": "Misdreavus",
+    "setName": "Neo Revelation",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/neo3/11_hires.png"
+  },
+  {
+    "id": "neo3-12",
+    "name": "Porygon2",
+    "setName": "Neo Revelation",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/neo3/12_hires.png"
+  },
+  {
+    "id": "neo3-13",
+    "name": "Raikou",
+    "setName": "Neo Revelation",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/neo3/13_hires.png"
+  },
+  {
+    "id": "neo3-14",
+    "name": "Suicune",
+    "setName": "Neo Revelation",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/neo3/14_hires.png"
+  },
+  {
+    "id": "neo3-15",
+    "name": "Aerodactyl",
+    "setName": "Neo Revelation",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/15_hires.png"
+  },
+  {
+    "id": "neo3-16",
+    "name": "Celebi",
+    "setName": "Neo Revelation",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo3/16_hires.png"
+  },
+  {
+    "id": "neo3-17",
+    "name": "Entei",
+    "setName": "Neo Revelation",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/neo3/17_hires.png"
+  },
+  {
+    "id": "neo3-18",
+    "name": "Ho-oh",
+    "setName": "Neo Revelation",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/neo3/18_hires.png"
+  },
+  {
+    "id": "neo3-19",
+    "name": "Kingdra",
+    "setName": "Neo Revelation",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/neo3/19_hires.png"
+  },
+  {
+    "id": "neo3-20",
+    "name": "Lugia",
+    "setName": "Neo Revelation",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/neo3/20_hires.png"
+  },
+  {
+    "id": "neo3-21",
+    "name": "Raichu",
+    "setName": "Neo Revelation",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Masako Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/neo3/21_hires.png"
+  },
+  {
+    "id": "neo3-22",
+    "name": "Raikou",
+    "setName": "Neo Revelation",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/neo3/22_hires.png"
+  },
+  {
+    "id": "neo3-23",
+    "name": "Skarmory",
+    "setName": "Neo Revelation",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/neo3/23_hires.png"
+  },
+  {
+    "id": "neo3-24",
+    "name": "Sneasel",
+    "setName": "Neo Revelation",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo3/24_hires.png"
+  },
+  {
+    "id": "neo3-25",
+    "name": "Starmie",
+    "setName": "Neo Revelation",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Keita Komatsuya, CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo3/25_hires.png"
+  },
+  {
+    "id": "neo3-26",
+    "name": "Sudowoodo",
+    "setName": "Neo Revelation",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo3/26_hires.png"
+  },
+  {
+    "id": "neo3-27",
+    "name": "Suicune",
+    "setName": "Neo Revelation",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/neo3/27_hires.png"
+  },
+  {
+    "id": "neo3-28",
+    "name": "Flaaffy",
+    "setName": "Neo Revelation",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/neo3/28_hires.png"
+  },
+  {
+    "id": "neo3-29",
+    "name": "Golbat",
+    "setName": "Neo Revelation",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Masako Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/neo3/29_hires.png"
+  },
+  {
+    "id": "neo3-30",
+    "name": "Graveler",
+    "setName": "Neo Revelation",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/neo3/30_hires.png"
+  },
+  {
+    "id": "neo3-31",
+    "name": "Jynx",
+    "setName": "Neo Revelation",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/neo3/31_hires.png"
+  },
+  {
+    "id": "neo3-32",
+    "name": "Lanturn",
+    "setName": "Neo Revelation",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/neo3/32_hires.png"
+  },
+  {
+    "id": "neo3-33",
+    "name": "Magcargo",
+    "setName": "Neo Revelation",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/33_hires.png"
+  },
+  {
+    "id": "neo3-34",
+    "name": "Octillery",
+    "setName": "Neo Revelation",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/neo3/34_hires.png"
+  },
+  {
+    "id": "neo3-35",
+    "name": "Parasect",
+    "setName": "Neo Revelation",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/35_hires.png"
+  },
+  {
+    "id": "neo3-36",
+    "name": "Piloswine",
+    "setName": "Neo Revelation",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/36_hires.png"
+  },
+  {
+    "id": "neo3-37",
+    "name": "Seaking",
+    "setName": "Neo Revelation",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/neo3/37_hires.png"
+  },
+  {
+    "id": "neo3-38",
+    "name": "Stantler",
+    "setName": "Neo Revelation",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/neo3/38_hires.png"
+  },
+  {
+    "id": "neo3-39",
+    "name": "Unown [B]",
+    "setName": "Neo Revelation",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo3/39_hires.png"
+  },
+  {
+    "id": "neo3-40",
+    "name": "Unown [Y]",
+    "setName": "Neo Revelation",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo3/40_hires.png"
+  },
+  {
+    "id": "neo3-41",
+    "name": "Aipom",
+    "setName": "Neo Revelation",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo3/41_hires.png"
+  },
+  {
+    "id": "neo3-42",
+    "name": "Chinchou",
+    "setName": "Neo Revelation",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/42_hires.png"
+  },
+  {
+    "id": "neo3-43",
+    "name": "Farfetch'd",
+    "setName": "Neo Revelation",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/neo3/43_hires.png"
+  },
+  {
+    "id": "neo3-44",
+    "name": "Geodude",
+    "setName": "Neo Revelation",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Masako Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/neo3/44_hires.png"
+  },
+  {
+    "id": "neo3-45",
+    "name": "Goldeen",
+    "setName": "Neo Revelation",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/neo3/45_hires.png"
+  },
+  {
+    "id": "neo3-46",
+    "name": "Murkrow",
+    "setName": "Neo Revelation",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/46_hires.png"
+  },
+  {
+    "id": "neo3-47",
+    "name": "Paras",
+    "setName": "Neo Revelation",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/neo3/47_hires.png"
+  },
+  {
+    "id": "neo3-48",
+    "name": "Quagsire",
+    "setName": "Neo Revelation",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/neo3/48_hires.png"
+  },
+  {
+    "id": "neo3-49",
+    "name": "Qwilfish",
+    "setName": "Neo Revelation",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo3/49_hires.png"
+  },
+  {
+    "id": "neo3-50",
+    "name": "Remoraid",
+    "setName": "Neo Revelation",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/neo3/50_hires.png"
+  },
+  {
+    "id": "neo3-51",
+    "name": "Shuckle",
+    "setName": "Neo Revelation",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/neo3/51_hires.png"
+  },
+  {
+    "id": "neo3-52",
+    "name": "Skiploom",
+    "setName": "Neo Revelation",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/neo3/52_hires.png"
+  },
+  {
+    "id": "neo3-53",
+    "name": "Slugma",
+    "setName": "Neo Revelation",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/neo3/53_hires.png"
+  },
+  {
+    "id": "neo3-54",
+    "name": "Smoochum",
+    "setName": "Neo Revelation",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo3/54_hires.png"
+  },
+  {
+    "id": "neo3-55",
+    "name": "Snubbull",
+    "setName": "Neo Revelation",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/neo3/55_hires.png"
+  },
+  {
+    "id": "neo3-56",
+    "name": "Staryu",
+    "setName": "Neo Revelation",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/neo3/56_hires.png"
+  },
+  {
+    "id": "neo3-57",
+    "name": "Swinub",
+    "setName": "Neo Revelation",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/neo3/57_hires.png"
+  },
+  {
+    "id": "neo3-58",
+    "name": "Unown [K]",
+    "setName": "Neo Revelation",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo3/58_hires.png"
+  },
+  {
+    "id": "neo3-59",
+    "name": "Zubat",
+    "setName": "Neo Revelation",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/neo3/59_hires.png"
+  },
+  {
+    "id": "neo3-60",
+    "name": "Balloon Berry",
+    "setName": "Neo Revelation",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/neo3/60_hires.png"
+  },
+  {
+    "id": "neo3-61",
+    "name": "Healing Field",
+    "setName": "Neo Revelation",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/neo3/61_hires.png"
+  },
+  {
+    "id": "neo3-62",
+    "name": "Pokémon Breeder Fields",
+    "setName": "Neo Revelation",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/neo3/62_hires.png"
+  },
+  {
+    "id": "neo3-63",
+    "name": "Rocket's Hideout",
+    "setName": "Neo Revelation",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/neo3/63_hires.png"
+  },
+  {
+    "id": "neo3-64",
+    "name": "Old Rod",
+    "setName": "Neo Revelation",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/neo3/64_hires.png"
+  },
+  {
+    "id": "neo3-65",
+    "name": "Shining Gyarados",
+    "setName": "Neo Revelation",
+    "number": "65",
+    "rarity": "Rare Shining",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/neo3/65_hires.png"
+  },
+  {
+    "id": "neo3-66",
+    "name": "Shining Magikarp",
+    "setName": "Neo Revelation",
+    "number": "66",
+    "rarity": "Rare Shining",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/neo3/66_hires.png"
+  }
+]

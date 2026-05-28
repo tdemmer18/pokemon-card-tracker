@@ -1,0 +1,920 @@
+[
+  {
+    "id": "ex5-1",
+    "name": "Banette",
+    "setName": "Hidden Legends",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex5/1_hires.png"
+  },
+  {
+    "id": "ex5-2",
+    "name": "Claydol",
+    "setName": "Hidden Legends",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex5/2_hires.png"
+  },
+  {
+    "id": "ex5-3",
+    "name": "Crobat",
+    "setName": "Hidden Legends",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex5/3_hires.png"
+  },
+  {
+    "id": "ex5-4",
+    "name": "Dark Celebi",
+    "setName": "Hidden Legends",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex5/4_hires.png"
+  },
+  {
+    "id": "ex5-5",
+    "name": "Electrode",
+    "setName": "Hidden Legends",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex5/5_hires.png"
+  },
+  {
+    "id": "ex5-6",
+    "name": "Exploud",
+    "setName": "Hidden Legends",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex5/6_hires.png"
+  },
+  {
+    "id": "ex5-7",
+    "name": "Heracross",
+    "setName": "Hidden Legends",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex5/7_hires.png"
+  },
+  {
+    "id": "ex5-8",
+    "name": "Jirachi",
+    "setName": "Hidden Legends",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex5/8_hires.png"
+  },
+  {
+    "id": "ex5-9",
+    "name": "Machamp",
+    "setName": "Hidden Legends",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex5/9_hires.png"
+  },
+  {
+    "id": "ex5-10",
+    "name": "Medicham",
+    "setName": "Hidden Legends",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex5/10_hires.png"
+  },
+  {
+    "id": "ex5-11",
+    "name": "Metagross",
+    "setName": "Hidden Legends",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex5/11_hires.png"
+  },
+  {
+    "id": "ex5-12",
+    "name": "Milotic",
+    "setName": "Hidden Legends",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex5/12_hires.png"
+  },
+  {
+    "id": "ex5-13",
+    "name": "Pinsir",
+    "setName": "Hidden Legends",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex5/13_hires.png"
+  },
+  {
+    "id": "ex5-14",
+    "name": "Shiftry",
+    "setName": "Hidden Legends",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex5/14_hires.png"
+  },
+  {
+    "id": "ex5-15",
+    "name": "Walrein",
+    "setName": "Hidden Legends",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex5/15_hires.png"
+  },
+  {
+    "id": "ex5-16",
+    "name": "Bellossom",
+    "setName": "Hidden Legends",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex5/16_hires.png"
+  },
+  {
+    "id": "ex5-17",
+    "name": "Chimecho",
+    "setName": "Hidden Legends",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex5/17_hires.png"
+  },
+  {
+    "id": "ex5-18",
+    "name": "Gorebyss",
+    "setName": "Hidden Legends",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex5/18_hires.png"
+  },
+  {
+    "id": "ex5-19",
+    "name": "Huntail",
+    "setName": "Hidden Legends",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex5/19_hires.png"
+  },
+  {
+    "id": "ex5-20",
+    "name": "Masquerain",
+    "setName": "Hidden Legends",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/ex5/20_hires.png"
+  },
+  {
+    "id": "ex5-21",
+    "name": "Metang",
+    "setName": "Hidden Legends",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/21_hires.png"
+  },
+  {
+    "id": "ex5-22",
+    "name": "Ninetales",
+    "setName": "Hidden Legends",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/ex5/22_hires.png"
+  },
+  {
+    "id": "ex5-23",
+    "name": "Rain Castform",
+    "setName": "Hidden Legends",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex5/23_hires.png"
+  },
+  {
+    "id": "ex5-24",
+    "name": "Relicanth",
+    "setName": "Hidden Legends",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex5/24_hires.png"
+  },
+  {
+    "id": "ex5-25",
+    "name": "Snow-cloud Castform",
+    "setName": "Hidden Legends",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex5/25_hires.png"
+  },
+  {
+    "id": "ex5-26",
+    "name": "Sunny Castform",
+    "setName": "Hidden Legends",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex5/26_hires.png"
+  },
+  {
+    "id": "ex5-27",
+    "name": "Tropius",
+    "setName": "Hidden Legends",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex5/27_hires.png"
+  },
+  {
+    "id": "ex5-28",
+    "name": "Beldum",
+    "setName": "Hidden Legends",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex5/28_hires.png"
+  },
+  {
+    "id": "ex5-29",
+    "name": "Beldum",
+    "setName": "Hidden Legends",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/29_hires.png"
+  },
+  {
+    "id": "ex5-30",
+    "name": "Castform",
+    "setName": "Hidden Legends",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex5/30_hires.png"
+  },
+  {
+    "id": "ex5-31",
+    "name": "Claydol",
+    "setName": "Hidden Legends",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex5/31_hires.png"
+  },
+  {
+    "id": "ex5-32",
+    "name": "Corsola",
+    "setName": "Hidden Legends",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex5/32_hires.png"
+  },
+  {
+    "id": "ex5-33",
+    "name": "Dodrio",
+    "setName": "Hidden Legends",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex5/33_hires.png"
+  },
+  {
+    "id": "ex5-34",
+    "name": "Glalie",
+    "setName": "Hidden Legends",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex5/34_hires.png"
+  },
+  {
+    "id": "ex5-35",
+    "name": "Gloom",
+    "setName": "Hidden Legends",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex5/35_hires.png"
+  },
+  {
+    "id": "ex5-36",
+    "name": "Golbat",
+    "setName": "Hidden Legends",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex5/36_hires.png"
+  },
+  {
+    "id": "ex5-37",
+    "name": "Igglybuff",
+    "setName": "Hidden Legends",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex5/37_hires.png"
+  },
+  {
+    "id": "ex5-38",
+    "name": "Lanturn",
+    "setName": "Hidden Legends",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex5/38_hires.png"
+  },
+  {
+    "id": "ex5-39",
+    "name": "Loudred",
+    "setName": "Hidden Legends",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex5/39_hires.png"
+  },
+  {
+    "id": "ex5-40",
+    "name": "Luvdisc",
+    "setName": "Hidden Legends",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex5/40_hires.png"
+  },
+  {
+    "id": "ex5-41",
+    "name": "Machoke",
+    "setName": "Hidden Legends",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex5/41_hires.png"
+  },
+  {
+    "id": "ex5-42",
+    "name": "Medicham",
+    "setName": "Hidden Legends",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex5/42_hires.png"
+  },
+  {
+    "id": "ex5-43",
+    "name": "Metang",
+    "setName": "Hidden Legends",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex5/43_hires.png"
+  },
+  {
+    "id": "ex5-44",
+    "name": "Metang",
+    "setName": "Hidden Legends",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex5/44_hires.png"
+  },
+  {
+    "id": "ex5-45",
+    "name": "Nuzleaf",
+    "setName": "Hidden Legends",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex5/45_hires.png"
+  },
+  {
+    "id": "ex5-46",
+    "name": "Rhydon",
+    "setName": "Hidden Legends",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex5/46_hires.png"
+  },
+  {
+    "id": "ex5-47",
+    "name": "Sealeo",
+    "setName": "Hidden Legends",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex5/47_hires.png"
+  },
+  {
+    "id": "ex5-48",
+    "name": "Spinda",
+    "setName": "Hidden Legends",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex5/48_hires.png"
+  },
+  {
+    "id": "ex5-49",
+    "name": "Starmie",
+    "setName": "Hidden Legends",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex5/49_hires.png"
+  },
+  {
+    "id": "ex5-50",
+    "name": "Swalot",
+    "setName": "Hidden Legends",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex5/50_hires.png"
+  },
+  {
+    "id": "ex5-51",
+    "name": "Tentacruel",
+    "setName": "Hidden Legends",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex5/51_hires.png"
+  },
+  {
+    "id": "ex5-52",
+    "name": "Baltoy",
+    "setName": "Hidden Legends",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex5/52_hires.png"
+  },
+  {
+    "id": "ex5-53",
+    "name": "Baltoy",
+    "setName": "Hidden Legends",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex5/53_hires.png"
+  },
+  {
+    "id": "ex5-54",
+    "name": "Beldum",
+    "setName": "Hidden Legends",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex5/54_hires.png"
+  },
+  {
+    "id": "ex5-55",
+    "name": "Chikorita",
+    "setName": "Hidden Legends",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex5/55_hires.png"
+  },
+  {
+    "id": "ex5-56",
+    "name": "Chinchou",
+    "setName": "Hidden Legends",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex5/56_hires.png"
+  },
+  {
+    "id": "ex5-57",
+    "name": "Chinchou",
+    "setName": "Hidden Legends",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex5/57_hires.png"
+  },
+  {
+    "id": "ex5-58",
+    "name": "Clamperl",
+    "setName": "Hidden Legends",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex5/58_hires.png"
+  },
+  {
+    "id": "ex5-59",
+    "name": "Cyndaquil",
+    "setName": "Hidden Legends",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex5/59_hires.png"
+  },
+  {
+    "id": "ex5-60",
+    "name": "Doduo",
+    "setName": "Hidden Legends",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex5/60_hires.png"
+  },
+  {
+    "id": "ex5-61",
+    "name": "Feebas",
+    "setName": "Hidden Legends",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex5/61_hires.png"
+  },
+  {
+    "id": "ex5-62",
+    "name": "Gulpin",
+    "setName": "Hidden Legends",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex5/62_hires.png"
+  },
+  {
+    "id": "ex5-63",
+    "name": "Jigglypuff",
+    "setName": "Hidden Legends",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex5/63_hires.png"
+  },
+  {
+    "id": "ex5-64",
+    "name": "Machop",
+    "setName": "Hidden Legends",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex5/64_hires.png"
+  },
+  {
+    "id": "ex5-65",
+    "name": "Meditite",
+    "setName": "Hidden Legends",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex5/65_hires.png"
+  },
+  {
+    "id": "ex5-66",
+    "name": "Meditite",
+    "setName": "Hidden Legends",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex5/66_hires.png"
+  },
+  {
+    "id": "ex5-67",
+    "name": "Minun",
+    "setName": "Hidden Legends",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex5/67_hires.png"
+  },
+  {
+    "id": "ex5-68",
+    "name": "Oddish",
+    "setName": "Hidden Legends",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex5/68_hires.png"
+  },
+  {
+    "id": "ex5-69",
+    "name": "Plusle",
+    "setName": "Hidden Legends",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex5/69_hires.png"
+  },
+  {
+    "id": "ex5-70",
+    "name": "Rhyhorn",
+    "setName": "Hidden Legends",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex5/70_hires.png"
+  },
+  {
+    "id": "ex5-71",
+    "name": "Seedot",
+    "setName": "Hidden Legends",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex5/71_hires.png"
+  },
+  {
+    "id": "ex5-72",
+    "name": "Shuppet",
+    "setName": "Hidden Legends",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex5/72_hires.png"
+  },
+  {
+    "id": "ex5-73",
+    "name": "Snorunt",
+    "setName": "Hidden Legends",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex5/73_hires.png"
+  },
+  {
+    "id": "ex5-74",
+    "name": "Spheal",
+    "setName": "Hidden Legends",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex5/74_hires.png"
+  },
+  {
+    "id": "ex5-75",
+    "name": "Staryu",
+    "setName": "Hidden Legends",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex5/75_hires.png"
+  },
+  {
+    "id": "ex5-76",
+    "name": "Surskit",
+    "setName": "Hidden Legends",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/ex5/76_hires.png"
+  },
+  {
+    "id": "ex5-77",
+    "name": "Tentacool",
+    "setName": "Hidden Legends",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex5/77_hires.png"
+  },
+  {
+    "id": "ex5-78",
+    "name": "Togepi",
+    "setName": "Hidden Legends",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex5/78_hires.png"
+  },
+  {
+    "id": "ex5-79",
+    "name": "Totodile",
+    "setName": "Hidden Legends",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex5/79_hires.png"
+  },
+  {
+    "id": "ex5-80",
+    "name": "Voltorb",
+    "setName": "Hidden Legends",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex5/80_hires.png"
+  },
+  {
+    "id": "ex5-81",
+    "name": "Vulpix",
+    "setName": "Hidden Legends",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/ex5/81_hires.png"
+  },
+  {
+    "id": "ex5-82",
+    "name": "Whismur",
+    "setName": "Hidden Legends",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex5/82_hires.png"
+  },
+  {
+    "id": "ex5-83",
+    "name": "Zubat",
+    "setName": "Hidden Legends",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex5/83_hires.png"
+  },
+  {
+    "id": "ex5-84",
+    "name": "Ancient Technical Machine [Ice]",
+    "setName": "Hidden Legends",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/84_hires.png"
+  },
+  {
+    "id": "ex5-85",
+    "name": "Ancient Technical Machine [Rock]",
+    "setName": "Hidden Legends",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/85_hires.png"
+  },
+  {
+    "id": "ex5-86",
+    "name": "Ancient Technical Machine [Steel]",
+    "setName": "Hidden Legends",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/86_hires.png"
+  },
+  {
+    "id": "ex5-87",
+    "name": "Ancient Tomb",
+    "setName": "Hidden Legends",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex5/87_hires.png"
+  },
+  {
+    "id": "ex5-88",
+    "name": "Desert Ruins",
+    "setName": "Hidden Legends",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex5/88_hires.png"
+  },
+  {
+    "id": "ex5-89",
+    "name": "Island Cave",
+    "setName": "Hidden Legends",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex5/89_hires.png"
+  },
+  {
+    "id": "ex5-90",
+    "name": "Life Herb",
+    "setName": "Hidden Legends",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex5/90_hires.png"
+  },
+  {
+    "id": "ex5-91",
+    "name": "Magnetic Storm",
+    "setName": "Hidden Legends",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex5/91_hires.png"
+  },
+  {
+    "id": "ex5-92",
+    "name": "Steven's Advice",
+    "setName": "Hidden Legends",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex5/92_hires.png"
+  },
+  {
+    "id": "ex5-93",
+    "name": "Groudon ex",
+    "setName": "Hidden Legends",
+    "number": "93",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex5/93_hires.png"
+  },
+  {
+    "id": "ex5-94",
+    "name": "Kyogre ex",
+    "setName": "Hidden Legends",
+    "number": "94",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex5/94_hires.png"
+  },
+  {
+    "id": "ex5-95",
+    "name": "Metagross ex",
+    "setName": "Hidden Legends",
+    "number": "95",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/95_hires.png"
+  },
+  {
+    "id": "ex5-96",
+    "name": "Ninetales ex",
+    "setName": "Hidden Legends",
+    "number": "96",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex5/96_hires.png"
+  },
+  {
+    "id": "ex5-97",
+    "name": "Regice ex",
+    "setName": "Hidden Legends",
+    "number": "97",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/97_hires.png"
+  },
+  {
+    "id": "ex5-98",
+    "name": "Regirock ex",
+    "setName": "Hidden Legends",
+    "number": "98",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/98_hires.png"
+  },
+  {
+    "id": "ex5-99",
+    "name": "Registeel ex",
+    "setName": "Hidden Legends",
+    "number": "99",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/99_hires.png"
+  },
+  {
+    "id": "ex5-100",
+    "name": "Vileplume ex",
+    "setName": "Hidden Legends",
+    "number": "100",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex5/100_hires.png"
+  },
+  {
+    "id": "ex5-101",
+    "name": "Wigglytuff ex",
+    "setName": "Hidden Legends",
+    "number": "101",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex5/101_hires.png"
+  },
+  {
+    "id": "ex5-102",
+    "name": "Groudon",
+    "setName": "Hidden Legends",
+    "number": "102",
+    "rarity": "Rare Secret",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex5/102_hires.png"
+  }
+]

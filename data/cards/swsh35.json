@@ -1,0 +1,722 @@
+[
+  {
+    "id": "swsh35-1",
+    "name": "Venusaur V",
+    "setName": "Champion's Path",
+    "number": "1",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/1_hires.png"
+  },
+  {
+    "id": "swsh35-2",
+    "name": "Weedle",
+    "setName": "Champion's Path",
+    "number": "2",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/2_hires.png"
+  },
+  {
+    "id": "swsh35-3",
+    "name": "Kakuna",
+    "setName": "Champion's Path",
+    "number": "3",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/3_hires.png"
+  },
+  {
+    "id": "swsh35-4",
+    "name": "Beedrill",
+    "setName": "Champion's Path",
+    "number": "4",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/4_hires.png"
+  },
+  {
+    "id": "swsh35-5",
+    "name": "Eldegoss V",
+    "setName": "Champion's Path",
+    "number": "5",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/5_hires.png"
+  },
+  {
+    "id": "swsh35-6",
+    "name": "Vulpix",
+    "setName": "Champion's Path",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/6_hires.png"
+  },
+  {
+    "id": "swsh35-7",
+    "name": "Victini",
+    "setName": "Champion's Path",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/7_hires.png"
+  },
+  {
+    "id": "swsh35-8",
+    "name": "Incineroar V",
+    "setName": "Champion's Path",
+    "number": "8",
+    "rarity": "Rare Holo V",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/8_hires.png"
+  },
+  {
+    "id": "swsh35-9",
+    "name": "Sizzlipede",
+    "setName": "Champion's Path",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/9_hires.png"
+  },
+  {
+    "id": "swsh35-10",
+    "name": "Centiskorch",
+    "setName": "Champion's Path",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/10_hires.png"
+  },
+  {
+    "id": "swsh35-11",
+    "name": "Carvanha",
+    "setName": "Champion's Path",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/11_hires.png"
+  },
+  {
+    "id": "swsh35-12",
+    "name": "Sharpedo",
+    "setName": "Champion's Path",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/12_hires.png"
+  },
+  {
+    "id": "swsh35-13",
+    "name": "Wailord V",
+    "setName": "Champion's Path",
+    "number": "13",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/13_hires.png"
+  },
+  {
+    "id": "swsh35-14",
+    "name": "Drednaw V",
+    "setName": "Champion's Path",
+    "number": "14",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/14_hires.png"
+  },
+  {
+    "id": "swsh35-15",
+    "name": "Drednaw VMAX",
+    "setName": "Champion's Path",
+    "number": "15",
+    "rarity": "Rare Holo VMAX",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/15_hires.png"
+  },
+  {
+    "id": "swsh35-16",
+    "name": "Gardevoir V",
+    "setName": "Champion's Path",
+    "number": "16",
+    "rarity": "Rare Holo V",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/16_hires.png"
+  },
+  {
+    "id": "swsh35-17",
+    "name": "Gardevoir VMAX",
+    "setName": "Champion's Path",
+    "number": "17",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/17_hires.png"
+  },
+  {
+    "id": "swsh35-18",
+    "name": "Hatenna",
+    "setName": "Champion's Path",
+    "number": "18",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/18_hires.png"
+  },
+  {
+    "id": "swsh35-19",
+    "name": "Hattrem",
+    "setName": "Champion's Path",
+    "number": "19",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/19_hires.png"
+  },
+  {
+    "id": "swsh35-20",
+    "name": "Hatterene",
+    "setName": "Champion's Path",
+    "number": "20",
+    "rarity": "Rare Holo",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/20_hires.png"
+  },
+  {
+    "id": "swsh35-21",
+    "name": "Galarian Cursola V",
+    "setName": "Champion's Path",
+    "number": "21",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/21_hires.png"
+  },
+  {
+    "id": "swsh35-22",
+    "name": "Alcremie V",
+    "setName": "Champion's Path",
+    "number": "22",
+    "rarity": "Rare Holo V",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/22_hires.png"
+  },
+  {
+    "id": "swsh35-23",
+    "name": "Alcremie VMAX",
+    "setName": "Champion's Path",
+    "number": "23",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/23_hires.png"
+  },
+  {
+    "id": "swsh35-24",
+    "name": "Machop",
+    "setName": "Champion's Path",
+    "number": "24",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/24_hires.png"
+  },
+  {
+    "id": "swsh35-25",
+    "name": "Machoke",
+    "setName": "Champion's Path",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/25_hires.png"
+  },
+  {
+    "id": "swsh35-26",
+    "name": "Machamp",
+    "setName": "Champion's Path",
+    "number": "26",
+    "rarity": "Rare Holo",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/26_hires.png"
+  },
+  {
+    "id": "swsh35-27",
+    "name": "Lucario V",
+    "setName": "Champion's Path",
+    "number": "27",
+    "rarity": "Rare Holo V",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/27_hires.png"
+  },
+  {
+    "id": "swsh35-28",
+    "name": "Zygarde",
+    "setName": "Champion's Path",
+    "number": "28",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/28_hires.png"
+  },
+  {
+    "id": "swsh35-29",
+    "name": "Rockruff",
+    "setName": "Champion's Path",
+    "number": "29",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/29_hires.png"
+  },
+  {
+    "id": "swsh35-30",
+    "name": "Lycanroc",
+    "setName": "Champion's Path",
+    "number": "30",
+    "rarity": "Rare Holo",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/30_hires.png"
+  },
+  {
+    "id": "swsh35-31",
+    "name": "Rolycoly",
+    "setName": "Champion's Path",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/31_hires.png"
+  },
+  {
+    "id": "swsh35-32",
+    "name": "Grapploct V",
+    "setName": "Champion's Path",
+    "number": "32",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/32_hires.png"
+  },
+  {
+    "id": "swsh35-33",
+    "name": "Ekans",
+    "setName": "Champion's Path",
+    "number": "33",
+    "rarity": "Common",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/33_hires.png"
+  },
+  {
+    "id": "swsh35-34",
+    "name": "Arbok",
+    "setName": "Champion's Path",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/34_hires.png"
+  },
+  {
+    "id": "swsh35-35",
+    "name": "Galarian Zigzagoon",
+    "setName": "Champion's Path",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/35_hires.png"
+  },
+  {
+    "id": "swsh35-36",
+    "name": "Galarian Linoone",
+    "setName": "Champion's Path",
+    "number": "36",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/36_hires.png"
+  },
+  {
+    "id": "swsh35-37",
+    "name": "Galarian Obstagoon",
+    "setName": "Champion's Path",
+    "number": "37",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/37_hires.png"
+  },
+  {
+    "id": "swsh35-38",
+    "name": "Absol",
+    "setName": "Champion's Path",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/38_hires.png"
+  },
+  {
+    "id": "swsh35-39",
+    "name": "Purrloin",
+    "setName": "Champion's Path",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/39_hires.png"
+  },
+  {
+    "id": "swsh35-40",
+    "name": "Liepard",
+    "setName": "Champion's Path",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/40_hires.png"
+  },
+  {
+    "id": "swsh35-41",
+    "name": "Scraggy",
+    "setName": "Champion's Path",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/41_hires.png"
+  },
+  {
+    "id": "swsh35-42",
+    "name": "Scrafty",
+    "setName": "Champion's Path",
+    "number": "42",
+    "rarity": "Rare Holo",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/42_hires.png"
+  },
+  {
+    "id": "swsh35-43",
+    "name": "Trubbish",
+    "setName": "Champion's Path",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/43_hires.png"
+  },
+  {
+    "id": "swsh35-44",
+    "name": "Inkay",
+    "setName": "Champion's Path",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/44_hires.png"
+  },
+  {
+    "id": "swsh35-45",
+    "name": "Malamar",
+    "setName": "Champion's Path",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/45_hires.png"
+  },
+  {
+    "id": "swsh35-46",
+    "name": "Nickit",
+    "setName": "Champion's Path",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/46_hires.png"
+  },
+  {
+    "id": "swsh35-47",
+    "name": "Duraludon V",
+    "setName": "Champion's Path",
+    "number": "47",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/47_hires.png"
+  },
+  {
+    "id": "swsh35-48",
+    "name": "Swablu",
+    "setName": "Champion's Path",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/48_hires.png"
+  },
+  {
+    "id": "swsh35-49",
+    "name": "Altaria",
+    "setName": "Champion's Path",
+    "number": "49",
+    "rarity": "Rare Holo",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/49_hires.png"
+  },
+  {
+    "id": "swsh35-50",
+    "name": "Bede",
+    "setName": "Champion's Path",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/50_hires.png"
+  },
+  {
+    "id": "swsh35-51",
+    "name": "Full Heal",
+    "setName": "Champion's Path",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Yoshinobu Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/51_hires.png"
+  },
+  {
+    "id": "swsh35-52",
+    "name": "Great Ball",
+    "setName": "Champion's Path",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/52_hires.png"
+  },
+  {
+    "id": "swsh35-53",
+    "name": "Hop",
+    "setName": "Champion's Path",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/53_hires.png"
+  },
+  {
+    "id": "swsh35-54",
+    "name": "Hyper Potion",
+    "setName": "Champion's Path",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/54_hires.png"
+  },
+  {
+    "id": "swsh35-55",
+    "name": "Kabu",
+    "setName": "Champion's Path",
+    "number": "55",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/55_hires.png"
+  },
+  {
+    "id": "swsh35-56",
+    "name": "Marnie",
+    "setName": "Champion's Path",
+    "number": "56",
+    "rarity": "Rare Holo",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/56_hires.png"
+  },
+  {
+    "id": "swsh35-57",
+    "name": "Milo",
+    "setName": "Champion's Path",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/57_hires.png"
+  },
+  {
+    "id": "swsh35-58",
+    "name": "Piers",
+    "setName": "Champion's Path",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/58_hires.png"
+  },
+  {
+    "id": "swsh35-59",
+    "name": "Poké Ball",
+    "setName": "Champion's Path",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/59_hires.png"
+  },
+  {
+    "id": "swsh35-60",
+    "name": "Pokémon Center Lady",
+    "setName": "Champion's Path",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/60_hires.png"
+  },
+  {
+    "id": "swsh35-61",
+    "name": "Potion",
+    "setName": "Champion's Path",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/61_hires.png"
+  },
+  {
+    "id": "swsh35-62",
+    "name": "Professor's Research (Professor Magnolia)",
+    "setName": "Champion's Path",
+    "number": "62",
+    "rarity": "Rare Holo",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/62_hires.png"
+  },
+  {
+    "id": "swsh35-63",
+    "name": "Rotom Bike",
+    "setName": "Champion's Path",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/63_hires.png"
+  },
+  {
+    "id": "swsh35-64",
+    "name": "Rotom Phone",
+    "setName": "Champion's Path",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/64_hires.png"
+  },
+  {
+    "id": "swsh35-65",
+    "name": "Sonia",
+    "setName": "Champion's Path",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/65_hires.png"
+  },
+  {
+    "id": "swsh35-66",
+    "name": "Suspicious Food Tin",
+    "setName": "Champion's Path",
+    "number": "66",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/66_hires.png"
+  },
+  {
+    "id": "swsh35-67",
+    "name": "Team Yell Grunt",
+    "setName": "Champion's Path",
+    "number": "67",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/67_hires.png"
+  },
+  {
+    "id": "swsh35-68",
+    "name": "Turffield Stadium",
+    "setName": "Champion's Path",
+    "number": "68",
+    "rarity": "Uncommon",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/68_hires.png"
+  },
+  {
+    "id": "swsh35-69",
+    "name": "Drednaw V",
+    "setName": "Champion's Path",
+    "number": "69",
+    "rarity": "Rare Ultra",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/69_hires.png"
+  },
+  {
+    "id": "swsh35-70",
+    "name": "Gardevoir V",
+    "setName": "Champion's Path",
+    "number": "70",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/70_hires.png"
+  },
+  {
+    "id": "swsh35-71",
+    "name": "Galarian Cursola V",
+    "setName": "Champion's Path",
+    "number": "71",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/71_hires.png"
+  },
+  {
+    "id": "swsh35-72",
+    "name": "Grapploct V",
+    "setName": "Champion's Path",
+    "number": "72",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/72_hires.png"
+  },
+  {
+    "id": "swsh35-73",
+    "name": "Hop",
+    "setName": "Champion's Path",
+    "number": "73",
+    "rarity": "Rare Ultra",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/73_hires.png"
+  },
+  {
+    "id": "swsh35-74",
+    "name": "Charizard VMAX",
+    "setName": "Champion's Path",
+    "number": "74",
+    "rarity": "Rare Rainbow",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/74_hires.png"
+  },
+  {
+    "id": "swsh35-75",
+    "name": "Drednaw VMAX",
+    "setName": "Champion's Path",
+    "number": "75",
+    "rarity": "Rare Rainbow",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/75_hires.png"
+  },
+  {
+    "id": "swsh35-76",
+    "name": "Gardevoir VMAX",
+    "setName": "Champion's Path",
+    "number": "76",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/76_hires.png"
+  },
+  {
+    "id": "swsh35-77",
+    "name": "Kabu",
+    "setName": "Champion's Path",
+    "number": "77",
+    "rarity": "Rare Rainbow",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/77_hires.png"
+  },
+  {
+    "id": "swsh35-78",
+    "name": "Piers",
+    "setName": "Champion's Path",
+    "number": "78",
+    "rarity": "Rare Rainbow",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/78_hires.png"
+  },
+  {
+    "id": "swsh35-79",
+    "name": "Charizard V",
+    "setName": "Champion's Path",
+    "number": "79",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/79_hires.png"
+  },
+  {
+    "id": "swsh35-80",
+    "name": "Suspicious Food Tin",
+    "setName": "Champion's Path",
+    "number": "80",
+    "rarity": "Rare Secret",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh35/80_hires.png"
+  }
+]

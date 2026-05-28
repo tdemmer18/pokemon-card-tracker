@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ex14-1",
+    "name": "Banette",
+    "setName": "Crystal Guardians",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex14/1_hires.png"
+  },
+  {
+    "id": "ex14-2",
+    "name": "Blastoise δ",
+    "setName": "Crystal Guardians",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/2_hires.png"
+  },
+  {
+    "id": "ex14-3",
+    "name": "Camerupt",
+    "setName": "Crystal Guardians",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex14/3_hires.png"
+  },
+  {
+    "id": "ex14-4",
+    "name": "Charizard δ",
+    "setName": "Crystal Guardians",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex14/4_hires.png"
+  },
+  {
+    "id": "ex14-5",
+    "name": "Dugtrio",
+    "setName": "Crystal Guardians",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex14/5_hires.png"
+  },
+  {
+    "id": "ex14-6",
+    "name": "Ludicolo δ",
+    "setName": "Crystal Guardians",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/6_hires.png"
+  },
+  {
+    "id": "ex14-7",
+    "name": "Luvdisc",
+    "setName": "Crystal Guardians",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex14/7_hires.png"
+  },
+  {
+    "id": "ex14-8",
+    "name": "Manectric",
+    "setName": "Crystal Guardians",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex14/8_hires.png"
+  },
+  {
+    "id": "ex14-9",
+    "name": "Mawile",
+    "setName": "Crystal Guardians",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex14/9_hires.png"
+  },
+  {
+    "id": "ex14-10",
+    "name": "Sableye",
+    "setName": "Crystal Guardians",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex14/10_hires.png"
+  },
+  {
+    "id": "ex14-11",
+    "name": "Swalot",
+    "setName": "Crystal Guardians",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex14/11_hires.png"
+  },
+  {
+    "id": "ex14-12",
+    "name": "Tauros",
+    "setName": "Crystal Guardians",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex14/12_hires.png"
+  },
+  {
+    "id": "ex14-13",
+    "name": "Wigglytuff",
+    "setName": "Crystal Guardians",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex14/13_hires.png"
+  },
+  {
+    "id": "ex14-14",
+    "name": "Blastoise",
+    "setName": "Crystal Guardians",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex14/14_hires.png"
+  },
+  {
+    "id": "ex14-15",
+    "name": "Cacturne δ",
+    "setName": "Crystal Guardians",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex14/15_hires.png"
+  },
+  {
+    "id": "ex14-16",
+    "name": "Combusken",
+    "setName": "Crystal Guardians",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/ex14/16_hires.png"
+  },
+  {
+    "id": "ex14-17",
+    "name": "Dusclops",
+    "setName": "Crystal Guardians",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex14/17_hires.png"
+  },
+  {
+    "id": "ex14-18",
+    "name": "Fearow δ",
+    "setName": "Crystal Guardians",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex14/18_hires.png"
+  },
+  {
+    "id": "ex14-19",
+    "name": "Grovyle δ",
+    "setName": "Crystal Guardians",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/19_hires.png"
+  },
+  {
+    "id": "ex14-20",
+    "name": "Grumpig",
+    "setName": "Crystal Guardians",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex14/20_hires.png"
+  },
+  {
+    "id": "ex14-21",
+    "name": "Igglybuff",
+    "setName": "Crystal Guardians",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex14/21_hires.png"
+  },
+  {
+    "id": "ex14-22",
+    "name": "Kingler δ",
+    "setName": "Crystal Guardians",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/22_hires.png"
+  },
+  {
+    "id": "ex14-23",
+    "name": "Loudred",
+    "setName": "Crystal Guardians",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex14/23_hires.png"
+  },
+  {
+    "id": "ex14-24",
+    "name": "Marshtomp",
+    "setName": "Crystal Guardians",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex14/24_hires.png"
+  },
+  {
+    "id": "ex14-25",
+    "name": "Medicham",
+    "setName": "Crystal Guardians",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex14/25_hires.png"
+  },
+  {
+    "id": "ex14-26",
+    "name": "Pelipper δ",
+    "setName": "Crystal Guardians",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/26_hires.png"
+  },
+  {
+    "id": "ex14-27",
+    "name": "Swampert",
+    "setName": "Crystal Guardians",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex14/27_hires.png"
+  },
+  {
+    "id": "ex14-28",
+    "name": "Venusaur",
+    "setName": "Crystal Guardians",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex14/28_hires.png"
+  },
+  {
+    "id": "ex14-29",
+    "name": "Charmeleon",
+    "setName": "Crystal Guardians",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex14/29_hires.png"
+  },
+  {
+    "id": "ex14-30",
+    "name": "Charmeleon δ",
+    "setName": "Crystal Guardians",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex14/30_hires.png"
+  },
+  {
+    "id": "ex14-31",
+    "name": "Combusken",
+    "setName": "Crystal Guardians",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex14/31_hires.png"
+  },
+  {
+    "id": "ex14-32",
+    "name": "Grovyle",
+    "setName": "Crystal Guardians",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex14/32_hires.png"
+  },
+  {
+    "id": "ex14-33",
+    "name": "Gulpin",
+    "setName": "Crystal Guardians",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex14/33_hires.png"
+  },
+  {
+    "id": "ex14-34",
+    "name": "Ivysaur",
+    "setName": "Crystal Guardians",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex14/34_hires.png"
+  },
+  {
+    "id": "ex14-35",
+    "name": "Ivysaur",
+    "setName": "Crystal Guardians",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex14/35_hires.png"
+  },
+  {
+    "id": "ex14-36",
+    "name": "Lairon",
+    "setName": "Crystal Guardians",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex14/36_hires.png"
+  },
+  {
+    "id": "ex14-37",
+    "name": "Lombre",
+    "setName": "Crystal Guardians",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex14/37_hires.png"
+  },
+  {
+    "id": "ex14-38",
+    "name": "Marshtomp",
+    "setName": "Crystal Guardians",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex14/38_hires.png"
+  },
+  {
+    "id": "ex14-39",
+    "name": "Nuzleaf",
+    "setName": "Crystal Guardians",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex14/39_hires.png"
+  },
+  {
+    "id": "ex14-40",
+    "name": "Shuppet",
+    "setName": "Crystal Guardians",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex14/40_hires.png"
+  },
+  {
+    "id": "ex14-41",
+    "name": "Skitty",
+    "setName": "Crystal Guardians",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex14/41_hires.png"
+  },
+  {
+    "id": "ex14-42",
+    "name": "Wartortle",
+    "setName": "Crystal Guardians",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex14/42_hires.png"
+  },
+  {
+    "id": "ex14-43",
+    "name": "Wartortle",
+    "setName": "Crystal Guardians",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex14/43_hires.png"
+  },
+  {
+    "id": "ex14-44",
+    "name": "Aron",
+    "setName": "Crystal Guardians",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex14/44_hires.png"
+  },
+  {
+    "id": "ex14-45",
+    "name": "Bulbasaur",
+    "setName": "Crystal Guardians",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex14/45_hires.png"
+  },
+  {
+    "id": "ex14-46",
+    "name": "Bulbasaur",
+    "setName": "Crystal Guardians",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex14/46_hires.png"
+  },
+  {
+    "id": "ex14-47",
+    "name": "Cacnea",
+    "setName": "Crystal Guardians",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex14/47_hires.png"
+  },
+  {
+    "id": "ex14-48",
+    "name": "Charmander",
+    "setName": "Crystal Guardians",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex14/48_hires.png"
+  },
+  {
+    "id": "ex14-49",
+    "name": "Charmander δ",
+    "setName": "Crystal Guardians",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex14/49_hires.png"
+  },
+  {
+    "id": "ex14-50",
+    "name": "Diglett",
+    "setName": "Crystal Guardians",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex14/50_hires.png"
+  },
+  {
+    "id": "ex14-51",
+    "name": "Duskull",
+    "setName": "Crystal Guardians",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex14/51_hires.png"
+  },
+  {
+    "id": "ex14-52",
+    "name": "Electrike",
+    "setName": "Crystal Guardians",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex14/52_hires.png"
+  },
+  {
+    "id": "ex14-53",
+    "name": "Jigglypuff",
+    "setName": "Crystal Guardians",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex14/53_hires.png"
+  },
+  {
+    "id": "ex14-54",
+    "name": "Krabby",
+    "setName": "Crystal Guardians",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex14/54_hires.png"
+  },
+  {
+    "id": "ex14-55",
+    "name": "Lotad",
+    "setName": "Crystal Guardians",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex14/55_hires.png"
+  },
+  {
+    "id": "ex14-56",
+    "name": "Meditite",
+    "setName": "Crystal Guardians",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex14/56_hires.png"
+  },
+  {
+    "id": "ex14-57",
+    "name": "Mudkip",
+    "setName": "Crystal Guardians",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex14/57_hires.png"
+  },
+  {
+    "id": "ex14-58",
+    "name": "Mudkip",
+    "setName": "Crystal Guardians",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex14/58_hires.png"
+  },
+  {
+    "id": "ex14-59",
+    "name": "Numel",
+    "setName": "Crystal Guardians",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex14/59_hires.png"
+  },
+  {
+    "id": "ex14-60",
+    "name": "Seedot",
+    "setName": "Crystal Guardians",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex14/60_hires.png"
+  },
+  {
+    "id": "ex14-61",
+    "name": "Spearow",
+    "setName": "Crystal Guardians",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex14/61_hires.png"
+  },
+  {
+    "id": "ex14-62",
+    "name": "Spoink",
+    "setName": "Crystal Guardians",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex14/62_hires.png"
+  },
+  {
+    "id": "ex14-63",
+    "name": "Squirtle",
+    "setName": "Crystal Guardians",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex14/63_hires.png"
+  },
+  {
+    "id": "ex14-64",
+    "name": "Squirtle",
+    "setName": "Crystal Guardians",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex14/64_hires.png"
+  },
+  {
+    "id": "ex14-65",
+    "name": "Torchic",
+    "setName": "Crystal Guardians",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex14/65_hires.png"
+  },
+  {
+    "id": "ex14-66",
+    "name": "Torchic",
+    "setName": "Crystal Guardians",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex14/66_hires.png"
+  },
+  {
+    "id": "ex14-67",
+    "name": "Treecko",
+    "setName": "Crystal Guardians",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex14/67_hires.png"
+  },
+  {
+    "id": "ex14-68",
+    "name": "Treecko δ",
+    "setName": "Crystal Guardians",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/68_hires.png"
+  },
+  {
+    "id": "ex14-69",
+    "name": "Whismur",
+    "setName": "Crystal Guardians",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex14/69_hires.png"
+  },
+  {
+    "id": "ex14-70",
+    "name": "Wingull",
+    "setName": "Crystal Guardians",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex14/70_hires.png"
+  },
+  {
+    "id": "ex14-71",
+    "name": "Bill's Maintenance",
+    "setName": "Crystal Guardians",
+    "number": "71",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex14/71_hires.png"
+  },
+  {
+    "id": "ex14-72",
+    "name": "Castaway",
+    "setName": "Crystal Guardians",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex14/72_hires.png"
+  },
+  {
+    "id": "ex14-73",
+    "name": "Celio's Network",
+    "setName": "Crystal Guardians",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex14/73_hires.png"
+  },
+  {
+    "id": "ex14-74",
+    "name": "Cessation Crystal",
+    "setName": "Crystal Guardians",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex14/74_hires.png"
+  },
+  {
+    "id": "ex14-75",
+    "name": "Crystal Beach",
+    "setName": "Crystal Guardians",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex14/75_hires.png"
+  },
+  {
+    "id": "ex14-76",
+    "name": "Crystal Shard",
+    "setName": "Crystal Guardians",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex14/76_hires.png"
+  },
+  {
+    "id": "ex14-77",
+    "name": "Double Full Heal",
+    "setName": "Crystal Guardians",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/77_hires.png"
+  },
+  {
+    "id": "ex14-78",
+    "name": "Dual Ball",
+    "setName": "Crystal Guardians",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "\"Big Mama\" Tagawa",
+    "imageUrl": "https://images.pokemontcg.io/ex14/78_hires.png"
+  },
+  {
+    "id": "ex14-79",
+    "name": "Holon Circle",
+    "setName": "Crystal Guardians",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/79_hires.png"
+  },
+  {
+    "id": "ex14-80",
+    "name": "Memory Berry",
+    "setName": "Crystal Guardians",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex14/80_hires.png"
+  },
+  {
+    "id": "ex14-81",
+    "name": "Mysterious Shard",
+    "setName": "Crystal Guardians",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex14/81_hires.png"
+  },
+  {
+    "id": "ex14-82",
+    "name": "Poké Ball",
+    "setName": "Crystal Guardians",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex14/82_hires.png"
+  },
+  {
+    "id": "ex14-83",
+    "name": "PokéNav",
+    "setName": "Crystal Guardians",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex14/83_hires.png"
+  },
+  {
+    "id": "ex14-84",
+    "name": "Warp Point",
+    "setName": "Crystal Guardians",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex14/84_hires.png"
+  },
+  {
+    "id": "ex14-85",
+    "name": "Windstorm",
+    "setName": "Crystal Guardians",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/85_hires.png"
+  },
+  {
+    "id": "ex14-86",
+    "name": "Energy Search",
+    "setName": "Crystal Guardians",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Kai Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex14/86_hires.png"
+  },
+  {
+    "id": "ex14-87",
+    "name": "Potion",
+    "setName": "Crystal Guardians",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex14/87_hires.png"
+  },
+  {
+    "id": "ex14-88",
+    "name": "Double Rainbow Energy",
+    "setName": "Crystal Guardians",
+    "number": "88",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex14/88_hires.png"
+  },
+  {
+    "id": "ex14-89",
+    "name": "Aggron ex",
+    "setName": "Crystal Guardians",
+    "number": "89",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/89_hires.png"
+  },
+  {
+    "id": "ex14-90",
+    "name": "Blaziken ex",
+    "setName": "Crystal Guardians",
+    "number": "90",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex14/90_hires.png"
+  },
+  {
+    "id": "ex14-91",
+    "name": "Delcatty ex",
+    "setName": "Crystal Guardians",
+    "number": "91",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex14/91_hires.png"
+  },
+  {
+    "id": "ex14-92",
+    "name": "Exploud ex",
+    "setName": "Crystal Guardians",
+    "number": "92",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex14/92_hires.png"
+  },
+  {
+    "id": "ex14-93",
+    "name": "Groudon ex",
+    "setName": "Crystal Guardians",
+    "number": "93",
+    "rarity": "Rare Holo EX",
+    "artist": "Takabon",
+    "imageUrl": "https://images.pokemontcg.io/ex14/93_hires.png"
+  },
+  {
+    "id": "ex14-94",
+    "name": "Jirachi ex",
+    "setName": "Crystal Guardians",
+    "number": "94",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex14/94_hires.png"
+  },
+  {
+    "id": "ex14-95",
+    "name": "Kyogre ex",
+    "setName": "Crystal Guardians",
+    "number": "95",
+    "rarity": "Rare Holo EX",
+    "artist": "Yasuki Watanabe",
+    "imageUrl": "https://images.pokemontcg.io/ex14/95_hires.png"
+  },
+  {
+    "id": "ex14-96",
+    "name": "Sceptile ex δ",
+    "setName": "Crystal Guardians",
+    "number": "96",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex14/96_hires.png"
+  },
+  {
+    "id": "ex14-97",
+    "name": "Shiftry ex",
+    "setName": "Crystal Guardians",
+    "number": "97",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/97_hires.png"
+  },
+  {
+    "id": "ex14-98",
+    "name": "Swampert ex",
+    "setName": "Crystal Guardians",
+    "number": "98",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/98_hires.png"
+  },
+  {
+    "id": "ex14-99",
+    "name": "Alakazam ★",
+    "setName": "Crystal Guardians",
+    "number": "99",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/99_hires.png"
+  },
+  {
+    "id": "ex14-100",
+    "name": "Celebi ★",
+    "setName": "Crystal Guardians",
+    "number": "100",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex14/100_hires.png"
+  }
+]

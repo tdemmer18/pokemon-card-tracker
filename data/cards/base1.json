@@ -1,0 +1,920 @@
+[
+  {
+    "id": "base1-1",
+    "name": "Alakazam",
+    "setName": "Base",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/1_hires.png"
+  },
+  {
+    "id": "base1-2",
+    "name": "Blastoise",
+    "setName": "Base",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/2_hires.png"
+  },
+  {
+    "id": "base1-3",
+    "name": "Chansey",
+    "setName": "Base",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/3_hires.png"
+  },
+  {
+    "id": "base1-4",
+    "name": "Charizard",
+    "setName": "Base",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/4_hires.png"
+  },
+  {
+    "id": "base1-5",
+    "name": "Clefairy",
+    "setName": "Base",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/5_hires.png"
+  },
+  {
+    "id": "base1-6",
+    "name": "Gyarados",
+    "setName": "Base",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/6_hires.png"
+  },
+  {
+    "id": "base1-7",
+    "name": "Hitmonchan",
+    "setName": "Base",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/7_hires.png"
+  },
+  {
+    "id": "base1-8",
+    "name": "Machamp",
+    "setName": "Base",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/8_hires.png"
+  },
+  {
+    "id": "base1-9",
+    "name": "Magneton",
+    "setName": "Base",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/9_hires.png"
+  },
+  {
+    "id": "base1-10",
+    "name": "Mewtwo",
+    "setName": "Base",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/10_hires.png"
+  },
+  {
+    "id": "base1-11",
+    "name": "Nidoking",
+    "setName": "Base",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/11_hires.png"
+  },
+  {
+    "id": "base1-12",
+    "name": "Ninetales",
+    "setName": "Base",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/12_hires.png"
+  },
+  {
+    "id": "base1-13",
+    "name": "Poliwrath",
+    "setName": "Base",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/13_hires.png"
+  },
+  {
+    "id": "base1-14",
+    "name": "Raichu",
+    "setName": "Base",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/14_hires.png"
+  },
+  {
+    "id": "base1-15",
+    "name": "Venusaur",
+    "setName": "Base",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/15_hires.png"
+  },
+  {
+    "id": "base1-16",
+    "name": "Zapdos",
+    "setName": "Base",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/16_hires.png"
+  },
+  {
+    "id": "base1-17",
+    "name": "Beedrill",
+    "setName": "Base",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/17_hires.png"
+  },
+  {
+    "id": "base1-18",
+    "name": "Dragonair",
+    "setName": "Base",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/18_hires.png"
+  },
+  {
+    "id": "base1-19",
+    "name": "Dugtrio",
+    "setName": "Base",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/19_hires.png"
+  },
+  {
+    "id": "base1-20",
+    "name": "Electabuzz",
+    "setName": "Base",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/20_hires.png"
+  },
+  {
+    "id": "base1-21",
+    "name": "Electrode",
+    "setName": "Base",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/21_hires.png"
+  },
+  {
+    "id": "base1-22",
+    "name": "Pidgeotto",
+    "setName": "Base",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/22_hires.png"
+  },
+  {
+    "id": "base1-23",
+    "name": "Arcanine",
+    "setName": "Base",
+    "number": "23",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/23_hires.png"
+  },
+  {
+    "id": "base1-24",
+    "name": "Charmeleon",
+    "setName": "Base",
+    "number": "24",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/24_hires.png"
+  },
+  {
+    "id": "base1-25",
+    "name": "Dewgong",
+    "setName": "Base",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/25_hires.png"
+  },
+  {
+    "id": "base1-26",
+    "name": "Dratini",
+    "setName": "Base",
+    "number": "26",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/26_hires.png"
+  },
+  {
+    "id": "base1-27",
+    "name": "Farfetch'd",
+    "setName": "Base",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/27_hires.png"
+  },
+  {
+    "id": "base1-28",
+    "name": "Growlithe",
+    "setName": "Base",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/28_hires.png"
+  },
+  {
+    "id": "base1-29",
+    "name": "Haunter",
+    "setName": "Base",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/29_hires.png"
+  },
+  {
+    "id": "base1-30",
+    "name": "Ivysaur",
+    "setName": "Base",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/30_hires.png"
+  },
+  {
+    "id": "base1-31",
+    "name": "Jynx",
+    "setName": "Base",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/31_hires.png"
+  },
+  {
+    "id": "base1-32",
+    "name": "Kadabra",
+    "setName": "Base",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/32_hires.png"
+  },
+  {
+    "id": "base1-33",
+    "name": "Kakuna",
+    "setName": "Base",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/33_hires.png"
+  },
+  {
+    "id": "base1-34",
+    "name": "Machoke",
+    "setName": "Base",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/34_hires.png"
+  },
+  {
+    "id": "base1-35",
+    "name": "Magikarp",
+    "setName": "Base",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/35_hires.png"
+  },
+  {
+    "id": "base1-36",
+    "name": "Magmar",
+    "setName": "Base",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/36_hires.png"
+  },
+  {
+    "id": "base1-37",
+    "name": "Nidorino",
+    "setName": "Base",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/37_hires.png"
+  },
+  {
+    "id": "base1-38",
+    "name": "Poliwhirl",
+    "setName": "Base",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/38_hires.png"
+  },
+  {
+    "id": "base1-39",
+    "name": "Porygon",
+    "setName": "Base",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Tomoaki Imakuni",
+    "imageUrl": "https://images.pokemontcg.io/base1/39_hires.png"
+  },
+  {
+    "id": "base1-40",
+    "name": "Raticate",
+    "setName": "Base",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/40_hires.png"
+  },
+  {
+    "id": "base1-41",
+    "name": "Seel",
+    "setName": "Base",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/41_hires.png"
+  },
+  {
+    "id": "base1-42",
+    "name": "Wartortle",
+    "setName": "Base",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/42_hires.png"
+  },
+  {
+    "id": "base1-43",
+    "name": "Abra",
+    "setName": "Base",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/43_hires.png"
+  },
+  {
+    "id": "base1-44",
+    "name": "Bulbasaur",
+    "setName": "Base",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/44_hires.png"
+  },
+  {
+    "id": "base1-45",
+    "name": "Caterpie",
+    "setName": "Base",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/45_hires.png"
+  },
+  {
+    "id": "base1-46",
+    "name": "Charmander",
+    "setName": "Base",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/46_hires.png"
+  },
+  {
+    "id": "base1-47",
+    "name": "Diglett",
+    "setName": "Base",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/47_hires.png"
+  },
+  {
+    "id": "base1-48",
+    "name": "Doduo",
+    "setName": "Base",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/48_hires.png"
+  },
+  {
+    "id": "base1-49",
+    "name": "Drowzee",
+    "setName": "Base",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/49_hires.png"
+  },
+  {
+    "id": "base1-50",
+    "name": "Gastly",
+    "setName": "Base",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/50_hires.png"
+  },
+  {
+    "id": "base1-51",
+    "name": "Koffing",
+    "setName": "Base",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/51_hires.png"
+  },
+  {
+    "id": "base1-52",
+    "name": "Machop",
+    "setName": "Base",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/52_hires.png"
+  },
+  {
+    "id": "base1-53",
+    "name": "Magnemite",
+    "setName": "Base",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/53_hires.png"
+  },
+  {
+    "id": "base1-54",
+    "name": "Metapod",
+    "setName": "Base",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/54_hires.png"
+  },
+  {
+    "id": "base1-55",
+    "name": "Nidoran ♂",
+    "setName": "Base",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/55_hires.png"
+  },
+  {
+    "id": "base1-56",
+    "name": "Onix",
+    "setName": "Base",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/56_hires.png"
+  },
+  {
+    "id": "base1-57",
+    "name": "Pidgey",
+    "setName": "Base",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/57_hires.png"
+  },
+  {
+    "id": "base1-58",
+    "name": "Pikachu",
+    "setName": "Base",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/58_hires.png"
+  },
+  {
+    "id": "base1-59",
+    "name": "Poliwag",
+    "setName": "Base",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/59_hires.png"
+  },
+  {
+    "id": "base1-60",
+    "name": "Ponyta",
+    "setName": "Base",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/60_hires.png"
+  },
+  {
+    "id": "base1-61",
+    "name": "Rattata",
+    "setName": "Base",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/61_hires.png"
+  },
+  {
+    "id": "base1-62",
+    "name": "Sandshrew",
+    "setName": "Base",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/62_hires.png"
+  },
+  {
+    "id": "base1-63",
+    "name": "Squirtle",
+    "setName": "Base",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/63_hires.png"
+  },
+  {
+    "id": "base1-64",
+    "name": "Starmie",
+    "setName": "Base",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/64_hires.png"
+  },
+  {
+    "id": "base1-65",
+    "name": "Staryu",
+    "setName": "Base",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/65_hires.png"
+  },
+  {
+    "id": "base1-66",
+    "name": "Tangela",
+    "setName": "Base",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/66_hires.png"
+  },
+  {
+    "id": "base1-67",
+    "name": "Voltorb",
+    "setName": "Base",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/67_hires.png"
+  },
+  {
+    "id": "base1-68",
+    "name": "Vulpix",
+    "setName": "Base",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/68_hires.png"
+  },
+  {
+    "id": "base1-69",
+    "name": "Weedle",
+    "setName": "Base",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base1/69_hires.png"
+  },
+  {
+    "id": "base1-70",
+    "name": "Clefairy Doll",
+    "setName": "Base",
+    "number": "70",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/70_hires.png"
+  },
+  {
+    "id": "base1-71",
+    "name": "Computer Search",
+    "setName": "Base",
+    "number": "71",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/71_hires.png"
+  },
+  {
+    "id": "base1-72",
+    "name": "Devolution Spray",
+    "setName": "Base",
+    "number": "72",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/72_hires.png"
+  },
+  {
+    "id": "base1-73",
+    "name": "Impostor Professor Oak",
+    "setName": "Base",
+    "number": "73",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/73_hires.png"
+  },
+  {
+    "id": "base1-74",
+    "name": "Item Finder",
+    "setName": "Base",
+    "number": "74",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/74_hires.png"
+  },
+  {
+    "id": "base1-75",
+    "name": "Lass",
+    "setName": "Base",
+    "number": "75",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/75_hires.png"
+  },
+  {
+    "id": "base1-76",
+    "name": "Pokémon Breeder",
+    "setName": "Base",
+    "number": "76",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/76_hires.png"
+  },
+  {
+    "id": "base1-77",
+    "name": "Pokémon Trader",
+    "setName": "Base",
+    "number": "77",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/77_hires.png"
+  },
+  {
+    "id": "base1-78",
+    "name": "Scoop Up",
+    "setName": "Base",
+    "number": "78",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/78_hires.png"
+  },
+  {
+    "id": "base1-79",
+    "name": "Super Energy Removal",
+    "setName": "Base",
+    "number": "79",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/79_hires.png"
+  },
+  {
+    "id": "base1-80",
+    "name": "Defender",
+    "setName": "Base",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/80_hires.png"
+  },
+  {
+    "id": "base1-81",
+    "name": "Energy Retrieval",
+    "setName": "Base",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/81_hires.png"
+  },
+  {
+    "id": "base1-82",
+    "name": "Full Heal",
+    "setName": "Base",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/82_hires.png"
+  },
+  {
+    "id": "base1-83",
+    "name": "Maintenance",
+    "setName": "Base",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/83_hires.png"
+  },
+  {
+    "id": "base1-84",
+    "name": "PlusPower",
+    "setName": "Base",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/84_hires.png"
+  },
+  {
+    "id": "base1-85",
+    "name": "Pokémon Center",
+    "setName": "Base",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/85_hires.png"
+  },
+  {
+    "id": "base1-86",
+    "name": "Pokémon Flute",
+    "setName": "Base",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/86_hires.png"
+  },
+  {
+    "id": "base1-87",
+    "name": "Pokédex",
+    "setName": "Base",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/87_hires.png"
+  },
+  {
+    "id": "base1-88",
+    "name": "Professor Oak",
+    "setName": "Base",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/88_hires.png"
+  },
+  {
+    "id": "base1-89",
+    "name": "Revive",
+    "setName": "Base",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/89_hires.png"
+  },
+  {
+    "id": "base1-90",
+    "name": "Super Potion",
+    "setName": "Base",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/90_hires.png"
+  },
+  {
+    "id": "base1-91",
+    "name": "Bill",
+    "setName": "Base",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base1/91_hires.png"
+  },
+  {
+    "id": "base1-92",
+    "name": "Energy Removal",
+    "setName": "Base",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/92_hires.png"
+  },
+  {
+    "id": "base1-93",
+    "name": "Gust of Wind",
+    "setName": "Base",
+    "number": "93",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/93_hires.png"
+  },
+  {
+    "id": "base1-94",
+    "name": "Potion",
+    "setName": "Base",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/94_hires.png"
+  },
+  {
+    "id": "base1-95",
+    "name": "Switch",
+    "setName": "Base",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/95_hires.png"
+  },
+  {
+    "id": "base1-96",
+    "name": "Double Colorless Energy",
+    "setName": "Base",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/96_hires.png"
+  },
+  {
+    "id": "base1-97",
+    "name": "Fighting Energy",
+    "setName": "Base",
+    "number": "97",
+    "rarity": null,
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/97_hires.png"
+  },
+  {
+    "id": "base1-98",
+    "name": "Fire Energy",
+    "setName": "Base",
+    "number": "98",
+    "rarity": null,
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/98_hires.png"
+  },
+  {
+    "id": "base1-99",
+    "name": "Grass Energy",
+    "setName": "Base",
+    "number": "99",
+    "rarity": null,
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/99_hires.png"
+  },
+  {
+    "id": "base1-100",
+    "name": "Lightning Energy",
+    "setName": "Base",
+    "number": "100",
+    "rarity": null,
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/100_hires.png"
+  },
+  {
+    "id": "base1-101",
+    "name": "Psychic Energy",
+    "setName": "Base",
+    "number": "101",
+    "rarity": null,
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/101_hires.png"
+  },
+  {
+    "id": "base1-102",
+    "name": "Water Energy",
+    "setName": "Base",
+    "number": "102",
+    "rarity": null,
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base1/102_hires.png"
+  }
+]

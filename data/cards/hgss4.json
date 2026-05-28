@@ -1,0 +1,929 @@
+[
+  {
+    "id": "hgss4-1",
+    "name": "Aggron",
+    "setName": "HS—Triumphant",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/1_hires.png"
+  },
+  {
+    "id": "hgss4-2",
+    "name": "Altaria",
+    "setName": "HS—Triumphant",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/2_hires.png"
+  },
+  {
+    "id": "hgss4-3",
+    "name": "Celebi",
+    "setName": "HS—Triumphant",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/3_hires.png"
+  },
+  {
+    "id": "hgss4-4",
+    "name": "Drapion",
+    "setName": "HS—Triumphant",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/4_hires.png"
+  },
+  {
+    "id": "hgss4-5",
+    "name": "Mamoswine",
+    "setName": "HS—Triumphant",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/5_hires.png"
+  },
+  {
+    "id": "hgss4-6",
+    "name": "Nidoking",
+    "setName": "HS—Triumphant",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/6_hires.png"
+  },
+  {
+    "id": "hgss4-7",
+    "name": "Porygon-Z",
+    "setName": "HS—Triumphant",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/7_hires.png"
+  },
+  {
+    "id": "hgss4-8",
+    "name": "Rapidash",
+    "setName": "HS—Triumphant",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/8_hires.png"
+  },
+  {
+    "id": "hgss4-9",
+    "name": "Solrock",
+    "setName": "HS—Triumphant",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/9_hires.png"
+  },
+  {
+    "id": "hgss4-10",
+    "name": "Spiritomb",
+    "setName": "HS—Triumphant",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/10_hires.png"
+  },
+  {
+    "id": "hgss4-11",
+    "name": "Venomoth",
+    "setName": "HS—Triumphant",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/11_hires.png"
+  },
+  {
+    "id": "hgss4-12",
+    "name": "Victreebel",
+    "setName": "HS—Triumphant",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/12_hires.png"
+  },
+  {
+    "id": "hgss4-13",
+    "name": "Ambipom",
+    "setName": "HS—Triumphant",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/13_hires.png"
+  },
+  {
+    "id": "hgss4-14",
+    "name": "Banette",
+    "setName": "HS—Triumphant",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/14_hires.png"
+  },
+  {
+    "id": "hgss4-15",
+    "name": "Bronzong",
+    "setName": "HS—Triumphant",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/15_hires.png"
+  },
+  {
+    "id": "hgss4-16",
+    "name": "Carnivine",
+    "setName": "HS—Triumphant",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/16_hires.png"
+  },
+  {
+    "id": "hgss4-17",
+    "name": "Ditto",
+    "setName": "HS—Triumphant",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/17_hires.png"
+  },
+  {
+    "id": "hgss4-18",
+    "name": "Dragonite",
+    "setName": "HS—Triumphant",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/18_hires.png"
+  },
+  {
+    "id": "hgss4-19",
+    "name": "Dugtrio",
+    "setName": "HS—Triumphant",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/19_hires.png"
+  },
+  {
+    "id": "hgss4-20",
+    "name": "Electivire",
+    "setName": "HS—Triumphant",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/20_hires.png"
+  },
+  {
+    "id": "hgss4-21",
+    "name": "Elekid",
+    "setName": "HS—Triumphant",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/21_hires.png"
+  },
+  {
+    "id": "hgss4-22",
+    "name": "Golduck",
+    "setName": "HS—Triumphant",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/22_hires.png"
+  },
+  {
+    "id": "hgss4-23",
+    "name": "Grumpig",
+    "setName": "HS—Triumphant",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/23_hires.png"
+  },
+  {
+    "id": "hgss4-24",
+    "name": "Kricketune",
+    "setName": "HS—Triumphant",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/24_hires.png"
+  },
+  {
+    "id": "hgss4-25",
+    "name": "Lunatone",
+    "setName": "HS—Triumphant",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/25_hires.png"
+  },
+  {
+    "id": "hgss4-26",
+    "name": "Machamp",
+    "setName": "HS—Triumphant",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/26_hires.png"
+  },
+  {
+    "id": "hgss4-27",
+    "name": "Magmortar",
+    "setName": "HS—Triumphant",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/27_hires.png"
+  },
+  {
+    "id": "hgss4-28",
+    "name": "Nidoqueen",
+    "setName": "HS—Triumphant",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/28_hires.png"
+  },
+  {
+    "id": "hgss4-29",
+    "name": "Pidgeot",
+    "setName": "HS—Triumphant",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/29_hires.png"
+  },
+  {
+    "id": "hgss4-30",
+    "name": "Sharpedo",
+    "setName": "HS—Triumphant",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/30_hires.png"
+  },
+  {
+    "id": "hgss4-31",
+    "name": "Wailord",
+    "setName": "HS—Triumphant",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/31_hires.png"
+  },
+  {
+    "id": "hgss4-32",
+    "name": "Dragonair",
+    "setName": "HS—Triumphant",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/32_hires.png"
+  },
+  {
+    "id": "hgss4-33",
+    "name": "Electabuzz",
+    "setName": "HS—Triumphant",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/33_hires.png"
+  },
+  {
+    "id": "hgss4-34",
+    "name": "Electrode",
+    "setName": "HS—Triumphant",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/34_hires.png"
+  },
+  {
+    "id": "hgss4-35",
+    "name": "Haunter",
+    "setName": "HS—Triumphant",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Takashi Yamaguchi",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/35_hires.png"
+  },
+  {
+    "id": "hgss4-36",
+    "name": "Kangaskhan",
+    "setName": "HS—Triumphant",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/36_hires.png"
+  },
+  {
+    "id": "hgss4-37",
+    "name": "Lairon",
+    "setName": "HS—Triumphant",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/37_hires.png"
+  },
+  {
+    "id": "hgss4-38",
+    "name": "Lickilicky",
+    "setName": "HS—Triumphant",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/38_hires.png"
+  },
+  {
+    "id": "hgss4-39",
+    "name": "Luvdisc",
+    "setName": "HS—Triumphant",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/39_hires.png"
+  },
+  {
+    "id": "hgss4-40",
+    "name": "Machoke",
+    "setName": "HS—Triumphant",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/40_hires.png"
+  },
+  {
+    "id": "hgss4-41",
+    "name": "Magby",
+    "setName": "HS—Triumphant",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/41_hires.png"
+  },
+  {
+    "id": "hgss4-42",
+    "name": "Magmar",
+    "setName": "HS—Triumphant",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/42_hires.png"
+  },
+  {
+    "id": "hgss4-43",
+    "name": "Magneton",
+    "setName": "HS—Triumphant",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/43_hires.png"
+  },
+  {
+    "id": "hgss4-44",
+    "name": "Marowak",
+    "setName": "HS—Triumphant",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/44_hires.png"
+  },
+  {
+    "id": "hgss4-45",
+    "name": "Nidorina",
+    "setName": "HS—Triumphant",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/45_hires.png"
+  },
+  {
+    "id": "hgss4-46",
+    "name": "Nidorino",
+    "setName": "HS—Triumphant",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/46_hires.png"
+  },
+  {
+    "id": "hgss4-47",
+    "name": "Pidgeotto",
+    "setName": "HS—Triumphant",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/47_hires.png"
+  },
+  {
+    "id": "hgss4-48",
+    "name": "Piloswine",
+    "setName": "HS—Triumphant",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/48_hires.png"
+  },
+  {
+    "id": "hgss4-49",
+    "name": "Porygon2",
+    "setName": "HS—Triumphant",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/49_hires.png"
+  },
+  {
+    "id": "hgss4-50",
+    "name": "Tentacruel",
+    "setName": "HS—Triumphant",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/50_hires.png"
+  },
+  {
+    "id": "hgss4-51",
+    "name": "Unown",
+    "setName": "HS—Triumphant",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/51_hires.png"
+  },
+  {
+    "id": "hgss4-52",
+    "name": "Wailmer",
+    "setName": "HS—Triumphant",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/52_hires.png"
+  },
+  {
+    "id": "hgss4-53",
+    "name": "Weepinbell",
+    "setName": "HS—Triumphant",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/53_hires.png"
+  },
+  {
+    "id": "hgss4-54",
+    "name": "Yanmega",
+    "setName": "HS—Triumphant",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/54_hires.png"
+  },
+  {
+    "id": "hgss4-55",
+    "name": "Aipom",
+    "setName": "HS—Triumphant",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/55_hires.png"
+  },
+  {
+    "id": "hgss4-56",
+    "name": "Aron",
+    "setName": "HS—Triumphant",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/56_hires.png"
+  },
+  {
+    "id": "hgss4-57",
+    "name": "Bellsprout",
+    "setName": "HS—Triumphant",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/57_hires.png"
+  },
+  {
+    "id": "hgss4-58",
+    "name": "Bronzor",
+    "setName": "HS—Triumphant",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/58_hires.png"
+  },
+  {
+    "id": "hgss4-59",
+    "name": "Carvanha",
+    "setName": "HS—Triumphant",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/59_hires.png"
+  },
+  {
+    "id": "hgss4-60",
+    "name": "Cubone",
+    "setName": "HS—Triumphant",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/60_hires.png"
+  },
+  {
+    "id": "hgss4-61",
+    "name": "Diglett",
+    "setName": "HS—Triumphant",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/61_hires.png"
+  },
+  {
+    "id": "hgss4-62",
+    "name": "Dratini",
+    "setName": "HS—Triumphant",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/62_hires.png"
+  },
+  {
+    "id": "hgss4-63",
+    "name": "Gastly",
+    "setName": "HS—Triumphant",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Takashi Yamaguchi",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/63_hires.png"
+  },
+  {
+    "id": "hgss4-64",
+    "name": "Illumise",
+    "setName": "HS—Triumphant",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/64_hires.png"
+  },
+  {
+    "id": "hgss4-65",
+    "name": "Kricketot",
+    "setName": "HS—Triumphant",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/65_hires.png"
+  },
+  {
+    "id": "hgss4-66",
+    "name": "Lickitung",
+    "setName": "HS—Triumphant",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/66_hires.png"
+  },
+  {
+    "id": "hgss4-67",
+    "name": "Machop",
+    "setName": "HS—Triumphant",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/67_hires.png"
+  },
+  {
+    "id": "hgss4-68",
+    "name": "Magnemite",
+    "setName": "HS—Triumphant",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/68_hires.png"
+  },
+  {
+    "id": "hgss4-69",
+    "name": "Nidoran ♀",
+    "setName": "HS—Triumphant",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/69_hires.png"
+  },
+  {
+    "id": "hgss4-70",
+    "name": "Nidoran ♂",
+    "setName": "HS—Triumphant",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/70_hires.png"
+  },
+  {
+    "id": "hgss4-71",
+    "name": "Pidgey",
+    "setName": "HS—Triumphant",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/71_hires.png"
+  },
+  {
+    "id": "hgss4-72",
+    "name": "Ponyta",
+    "setName": "HS—Triumphant",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/72_hires.png"
+  },
+  {
+    "id": "hgss4-73",
+    "name": "Porygon",
+    "setName": "HS—Triumphant",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/73_hires.png"
+  },
+  {
+    "id": "hgss4-74",
+    "name": "Psyduck",
+    "setName": "HS—Triumphant",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/74_hires.png"
+  },
+  {
+    "id": "hgss4-75",
+    "name": "Shuppet",
+    "setName": "HS—Triumphant",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/75_hires.png"
+  },
+  {
+    "id": "hgss4-76",
+    "name": "Skorupi",
+    "setName": "HS—Triumphant",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/76_hires.png"
+  },
+  {
+    "id": "hgss4-77",
+    "name": "Spoink",
+    "setName": "HS—Triumphant",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/77_hires.png"
+  },
+  {
+    "id": "hgss4-78",
+    "name": "Swablu",
+    "setName": "HS—Triumphant",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/78_hires.png"
+  },
+  {
+    "id": "hgss4-79",
+    "name": "Swinub",
+    "setName": "HS—Triumphant",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/79_hires.png"
+  },
+  {
+    "id": "hgss4-80",
+    "name": "Tentacool",
+    "setName": "HS—Triumphant",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/80_hires.png"
+  },
+  {
+    "id": "hgss4-81",
+    "name": "Venonat",
+    "setName": "HS—Triumphant",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/81_hires.png"
+  },
+  {
+    "id": "hgss4-82",
+    "name": "Volbeat",
+    "setName": "HS—Triumphant",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/82_hires.png"
+  },
+  {
+    "id": "hgss4-83",
+    "name": "Voltorb",
+    "setName": "HS—Triumphant",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/83_hires.png"
+  },
+  {
+    "id": "hgss4-84",
+    "name": "Yanma",
+    "setName": "HS—Triumphant",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/84_hires.png"
+  },
+  {
+    "id": "hgss4-85",
+    "name": "Black Belt",
+    "setName": "HS—Triumphant",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/85_hires.png"
+  },
+  {
+    "id": "hgss4-86",
+    "name": "Indigo Plateau",
+    "setName": "HS—Triumphant",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/86_hires.png"
+  },
+  {
+    "id": "hgss4-87",
+    "name": "Junk Arm",
+    "setName": "HS—Triumphant",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/87_hires.png"
+  },
+  {
+    "id": "hgss4-88",
+    "name": "Seeker",
+    "setName": "HS—Triumphant",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/88_hires.png"
+  },
+  {
+    "id": "hgss4-89",
+    "name": "Twins",
+    "setName": "HS—Triumphant",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/89_hires.png"
+  },
+  {
+    "id": "hgss4-90",
+    "name": "Rescue Energy",
+    "setName": "HS—Triumphant",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/90_hires.png"
+  },
+  {
+    "id": "hgss4-91",
+    "name": "Absol",
+    "setName": "HS—Triumphant",
+    "number": "91",
+    "rarity": "Rare Prime",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/91_hires.png"
+  },
+  {
+    "id": "hgss4-92",
+    "name": "Celebi",
+    "setName": "HS—Triumphant",
+    "number": "92",
+    "rarity": "Rare Prime",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/92_hires.png"
+  },
+  {
+    "id": "hgss4-93",
+    "name": "Electrode",
+    "setName": "HS—Triumphant",
+    "number": "93",
+    "rarity": "Rare Prime",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/93_hires.png"
+  },
+  {
+    "id": "hgss4-94",
+    "name": "Gengar",
+    "setName": "HS—Triumphant",
+    "number": "94",
+    "rarity": "Rare Prime",
+    "artist": "Takashi Yamaguchi",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/94_hires.png"
+  },
+  {
+    "id": "hgss4-95",
+    "name": "Machamp",
+    "setName": "HS—Triumphant",
+    "number": "95",
+    "rarity": "Rare Prime",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/95_hires.png"
+  },
+  {
+    "id": "hgss4-96",
+    "name": "Magnezone",
+    "setName": "HS—Triumphant",
+    "number": "96",
+    "rarity": "Rare Prime",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/96_hires.png"
+  },
+  {
+    "id": "hgss4-97",
+    "name": "Mew",
+    "setName": "HS—Triumphant",
+    "number": "97",
+    "rarity": "Rare Prime",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/97_hires.png"
+  },
+  {
+    "id": "hgss4-98",
+    "name": "Yanmega",
+    "setName": "HS—Triumphant",
+    "number": "98",
+    "rarity": "Rare Prime",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/98_hires.png"
+  },
+  {
+    "id": "hgss4-99",
+    "name": "Darkrai & Cresselia LEGEND",
+    "setName": "HS—Triumphant",
+    "number": "99",
+    "rarity": "LEGEND",
+    "artist": "Shinji Higuchi + Noriko Takaya",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/99_hires.png"
+  },
+  {
+    "id": "hgss4-100",
+    "name": "Darkrai & Cresselia LEGEND",
+    "setName": "HS—Triumphant",
+    "number": "100",
+    "rarity": "LEGEND",
+    "artist": "Shinji Higuchi + Noriko Takaya",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/100_hires.png"
+  },
+  {
+    "id": "hgss4-101",
+    "name": "Palkia & Dialga LEGEND",
+    "setName": "HS—Triumphant",
+    "number": "101",
+    "rarity": "LEGEND",
+    "artist": "Shinji Higuchi + Sachiko Eba",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/101_hires.png"
+  },
+  {
+    "id": "hgss4-102",
+    "name": "Palkia & Dialga LEGEND",
+    "setName": "HS—Triumphant",
+    "number": "102",
+    "rarity": "LEGEND",
+    "artist": "Shinji Higuchi + Sachiko Eba",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/102_hires.png"
+  },
+  {
+    "id": "hgss4-FOUR",
+    "name": "Alph Lithograph",
+    "setName": "HS—Triumphant",
+    "number": "FOUR",
+    "rarity": "Rare Secret",
+    "artist": "Milky Isobe",
+    "imageUrl": "https://images.pokemontcg.io/hgss4/FOUR_hires.png"
+  }
+]

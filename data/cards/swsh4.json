@@ -1,0 +1,1829 @@
+[
+  {
+    "id": "swsh4-1",
+    "name": "Weedle",
+    "setName": "Vivid Voltage",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/1_hires.png"
+  },
+  {
+    "id": "swsh4-2",
+    "name": "Kakuna",
+    "setName": "Vivid Voltage",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/2_hires.png"
+  },
+  {
+    "id": "swsh4-3",
+    "name": "Beedrill",
+    "setName": "Vivid Voltage",
+    "number": "3",
+    "rarity": "Rare",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/3_hires.png"
+  },
+  {
+    "id": "swsh4-4",
+    "name": "Exeggcute",
+    "setName": "Vivid Voltage",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/4_hires.png"
+  },
+  {
+    "id": "swsh4-5",
+    "name": "Exeggutor",
+    "setName": "Vivid Voltage",
+    "number": "5",
+    "rarity": "Rare",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/5_hires.png"
+  },
+  {
+    "id": "swsh4-6",
+    "name": "Yanma",
+    "setName": "Vivid Voltage",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/6_hires.png"
+  },
+  {
+    "id": "swsh4-7",
+    "name": "Yanmega",
+    "setName": "Vivid Voltage",
+    "number": "7",
+    "rarity": "Rare",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/7_hires.png"
+  },
+  {
+    "id": "swsh4-8",
+    "name": "Pineco",
+    "setName": "Vivid Voltage",
+    "number": "8",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/8_hires.png"
+  },
+  {
+    "id": "swsh4-9",
+    "name": "Celebi",
+    "setName": "Vivid Voltage",
+    "number": "9",
+    "rarity": "Amazing Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/9_hires.png"
+  },
+  {
+    "id": "swsh4-10",
+    "name": "Seedot",
+    "setName": "Vivid Voltage",
+    "number": "10",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/10_hires.png"
+  },
+  {
+    "id": "swsh4-11",
+    "name": "Nuzleaf",
+    "setName": "Vivid Voltage",
+    "number": "11",
+    "rarity": "Uncommon",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/11_hires.png"
+  },
+  {
+    "id": "swsh4-12",
+    "name": "Shiftry",
+    "setName": "Vivid Voltage",
+    "number": "12",
+    "rarity": "Rare",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/12_hires.png"
+  },
+  {
+    "id": "swsh4-13",
+    "name": "Nincada",
+    "setName": "Vivid Voltage",
+    "number": "13",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/13_hires.png"
+  },
+  {
+    "id": "swsh4-14",
+    "name": "Ninjask",
+    "setName": "Vivid Voltage",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/14_hires.png"
+  },
+  {
+    "id": "swsh4-15",
+    "name": "Shaymin",
+    "setName": "Vivid Voltage",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/15_hires.png"
+  },
+  {
+    "id": "swsh4-16",
+    "name": "Genesect",
+    "setName": "Vivid Voltage",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/16_hires.png"
+  },
+  {
+    "id": "swsh4-17",
+    "name": "Skiddo",
+    "setName": "Vivid Voltage",
+    "number": "17",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/17_hires.png"
+  },
+  {
+    "id": "swsh4-18",
+    "name": "Gogoat",
+    "setName": "Vivid Voltage",
+    "number": "18",
+    "rarity": "Uncommon",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/18_hires.png"
+  },
+  {
+    "id": "swsh4-19",
+    "name": "Dhelmise",
+    "setName": "Vivid Voltage",
+    "number": "19",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/19_hires.png"
+  },
+  {
+    "id": "swsh4-20",
+    "name": "Orbeetle V",
+    "setName": "Vivid Voltage",
+    "number": "20",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/20_hires.png"
+  },
+  {
+    "id": "swsh4-21",
+    "name": "Orbeetle VMAX",
+    "setName": "Vivid Voltage",
+    "number": "21",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/21_hires.png"
+  },
+  {
+    "id": "swsh4-22",
+    "name": "Zarude V",
+    "setName": "Vivid Voltage",
+    "number": "22",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/22_hires.png"
+  },
+  {
+    "id": "swsh4-23",
+    "name": "Charmander",
+    "setName": "Vivid Voltage",
+    "number": "23",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/23_hires.png"
+  },
+  {
+    "id": "swsh4-24",
+    "name": "Charmeleon",
+    "setName": "Vivid Voltage",
+    "number": "24",
+    "rarity": "Uncommon",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/24_hires.png"
+  },
+  {
+    "id": "swsh4-25",
+    "name": "Charizard",
+    "setName": "Vivid Voltage",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/25_hires.png"
+  },
+  {
+    "id": "swsh4-26",
+    "name": "Flareon",
+    "setName": "Vivid Voltage",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/26_hires.png"
+  },
+  {
+    "id": "swsh4-27",
+    "name": "Slugma",
+    "setName": "Vivid Voltage",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/27_hires.png"
+  },
+  {
+    "id": "swsh4-28",
+    "name": "Magcargo",
+    "setName": "Vivid Voltage",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/28_hires.png"
+  },
+  {
+    "id": "swsh4-29",
+    "name": "Talonflame V",
+    "setName": "Vivid Voltage",
+    "number": "29",
+    "rarity": "Rare Holo V",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/29_hires.png"
+  },
+  {
+    "id": "swsh4-30",
+    "name": "Vaporeon",
+    "setName": "Vivid Voltage",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/30_hires.png"
+  },
+  {
+    "id": "swsh4-31",
+    "name": "Wailmer",
+    "setName": "Vivid Voltage",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/31_hires.png"
+  },
+  {
+    "id": "swsh4-32",
+    "name": "Wailord",
+    "setName": "Vivid Voltage",
+    "number": "32",
+    "rarity": "Rare Holo",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/32_hires.png"
+  },
+  {
+    "id": "swsh4-33",
+    "name": "Oshawott",
+    "setName": "Vivid Voltage",
+    "number": "33",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/33_hires.png"
+  },
+  {
+    "id": "swsh4-34",
+    "name": "Dewott",
+    "setName": "Vivid Voltage",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Megumi Higuchi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/34_hires.png"
+  },
+  {
+    "id": "swsh4-35",
+    "name": "Samurott",
+    "setName": "Vivid Voltage",
+    "number": "35",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/35_hires.png"
+  },
+  {
+    "id": "swsh4-36",
+    "name": "Galarian Darmanitan V",
+    "setName": "Vivid Voltage",
+    "number": "36",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/36_hires.png"
+  },
+  {
+    "id": "swsh4-37",
+    "name": "Galarian Darmanitan VMAX",
+    "setName": "Vivid Voltage",
+    "number": "37",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/37_hires.png"
+  },
+  {
+    "id": "swsh4-38",
+    "name": "Chewtle",
+    "setName": "Vivid Voltage",
+    "number": "38",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/38_hires.png"
+  },
+  {
+    "id": "swsh4-39",
+    "name": "Drednaw",
+    "setName": "Vivid Voltage",
+    "number": "39",
+    "rarity": "Rare",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/39_hires.png"
+  },
+  {
+    "id": "swsh4-40",
+    "name": "Cramorant",
+    "setName": "Vivid Voltage",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/40_hires.png"
+  },
+  {
+    "id": "swsh4-41",
+    "name": "Arrokuda",
+    "setName": "Vivid Voltage",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/41_hires.png"
+  },
+  {
+    "id": "swsh4-42",
+    "name": "Barraskewda",
+    "setName": "Vivid Voltage",
+    "number": "42",
+    "rarity": "Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/42_hires.png"
+  },
+  {
+    "id": "swsh4-43",
+    "name": "Pikachu V",
+    "setName": "Vivid Voltage",
+    "number": "43",
+    "rarity": "Rare Holo V",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/43_hires.png"
+  },
+  {
+    "id": "swsh4-44",
+    "name": "Pikachu VMAX",
+    "setName": "Vivid Voltage",
+    "number": "44",
+    "rarity": "Rare Holo VMAX",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/44_hires.png"
+  },
+  {
+    "id": "swsh4-45",
+    "name": "Voltorb",
+    "setName": "Vivid Voltage",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/45_hires.png"
+  },
+  {
+    "id": "swsh4-46",
+    "name": "Electrode",
+    "setName": "Vivid Voltage",
+    "number": "46",
+    "rarity": "Rare Holo",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/46_hires.png"
+  },
+  {
+    "id": "swsh4-47",
+    "name": "Jolteon",
+    "setName": "Vivid Voltage",
+    "number": "47",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/47_hires.png"
+  },
+  {
+    "id": "swsh4-48",
+    "name": "Zapdos",
+    "setName": "Vivid Voltage",
+    "number": "48",
+    "rarity": "Rare Holo",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/48_hires.png"
+  },
+  {
+    "id": "swsh4-49",
+    "name": "Ampharos V",
+    "setName": "Vivid Voltage",
+    "number": "49",
+    "rarity": "Rare Holo V",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/49_hires.png"
+  },
+  {
+    "id": "swsh4-50",
+    "name": "Raikou",
+    "setName": "Vivid Voltage",
+    "number": "50",
+    "rarity": "Amazing Rare",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/50_hires.png"
+  },
+  {
+    "id": "swsh4-51",
+    "name": "Electrike",
+    "setName": "Vivid Voltage",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/51_hires.png"
+  },
+  {
+    "id": "swsh4-52",
+    "name": "Manectric",
+    "setName": "Vivid Voltage",
+    "number": "52",
+    "rarity": "Rare",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/52_hires.png"
+  },
+  {
+    "id": "swsh4-53",
+    "name": "Blitzle",
+    "setName": "Vivid Voltage",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/53_hires.png"
+  },
+  {
+    "id": "swsh4-54",
+    "name": "Zebstrika",
+    "setName": "Vivid Voltage",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/54_hires.png"
+  },
+  {
+    "id": "swsh4-55",
+    "name": "Joltik",
+    "setName": "Vivid Voltage",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/55_hires.png"
+  },
+  {
+    "id": "swsh4-56",
+    "name": "Galvantula",
+    "setName": "Vivid Voltage",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/56_hires.png"
+  },
+  {
+    "id": "swsh4-57",
+    "name": "Tynamo",
+    "setName": "Vivid Voltage",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/57_hires.png"
+  },
+  {
+    "id": "swsh4-58",
+    "name": "Eelektrik",
+    "setName": "Vivid Voltage",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/58_hires.png"
+  },
+  {
+    "id": "swsh4-59",
+    "name": "Eelektross",
+    "setName": "Vivid Voltage",
+    "number": "59",
+    "rarity": "Rare",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/59_hires.png"
+  },
+  {
+    "id": "swsh4-60",
+    "name": "Zekrom",
+    "setName": "Vivid Voltage",
+    "number": "60",
+    "rarity": "Rare Holo",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/60_hires.png"
+  },
+  {
+    "id": "swsh4-61",
+    "name": "Zeraora",
+    "setName": "Vivid Voltage",
+    "number": "61",
+    "rarity": "Rare Holo",
+    "artist": "so-taro",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/61_hires.png"
+  },
+  {
+    "id": "swsh4-62",
+    "name": "Pincurchin",
+    "setName": "Vivid Voltage",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/62_hires.png"
+  },
+  {
+    "id": "swsh4-63",
+    "name": "Clefairy",
+    "setName": "Vivid Voltage",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/63_hires.png"
+  },
+  {
+    "id": "swsh4-64",
+    "name": "Clefable",
+    "setName": "Vivid Voltage",
+    "number": "64",
+    "rarity": "Rare",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/64_hires.png"
+  },
+  {
+    "id": "swsh4-65",
+    "name": "Girafarig",
+    "setName": "Vivid Voltage",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/65_hires.png"
+  },
+  {
+    "id": "swsh4-66",
+    "name": "Shedinja",
+    "setName": "Vivid Voltage",
+    "number": "66",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/66_hires.png"
+  },
+  {
+    "id": "swsh4-67",
+    "name": "Shuppet",
+    "setName": "Vivid Voltage",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/67_hires.png"
+  },
+  {
+    "id": "swsh4-68",
+    "name": "Banette",
+    "setName": "Vivid Voltage",
+    "number": "68",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/68_hires.png"
+  },
+  {
+    "id": "swsh4-69",
+    "name": "Duskull",
+    "setName": "Vivid Voltage",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/69_hires.png"
+  },
+  {
+    "id": "swsh4-70",
+    "name": "Dusclops",
+    "setName": "Vivid Voltage",
+    "number": "70",
+    "rarity": "Uncommon",
+    "artist": "Kazuma Koda",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/70_hires.png"
+  },
+  {
+    "id": "swsh4-71",
+    "name": "Dusknoir",
+    "setName": "Vivid Voltage",
+    "number": "71",
+    "rarity": "Rare Holo",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/71_hires.png"
+  },
+  {
+    "id": "swsh4-72",
+    "name": "Chimecho",
+    "setName": "Vivid Voltage",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Asako Ito",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/72_hires.png"
+  },
+  {
+    "id": "swsh4-73",
+    "name": "Woobat",
+    "setName": "Vivid Voltage",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/73_hires.png"
+  },
+  {
+    "id": "swsh4-74",
+    "name": "Swoobat",
+    "setName": "Vivid Voltage",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/74_hires.png"
+  },
+  {
+    "id": "swsh4-75",
+    "name": "Cottonee",
+    "setName": "Vivid Voltage",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/75_hires.png"
+  },
+  {
+    "id": "swsh4-76",
+    "name": "Whimsicott",
+    "setName": "Vivid Voltage",
+    "number": "76",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/76_hires.png"
+  },
+  {
+    "id": "swsh4-77",
+    "name": "Dedenne",
+    "setName": "Vivid Voltage",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/77_hires.png"
+  },
+  {
+    "id": "swsh4-78",
+    "name": "Xerneas",
+    "setName": "Vivid Voltage",
+    "number": "78",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/78_hires.png"
+  },
+  {
+    "id": "swsh4-79",
+    "name": "Diancie",
+    "setName": "Vivid Voltage",
+    "number": "79",
+    "rarity": "Rare Holo",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/79_hires.png"
+  },
+  {
+    "id": "swsh4-80",
+    "name": "Milcery",
+    "setName": "Vivid Voltage",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/80_hires.png"
+  },
+  {
+    "id": "swsh4-81",
+    "name": "Alcremie",
+    "setName": "Vivid Voltage",
+    "number": "81",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/81_hires.png"
+  },
+  {
+    "id": "swsh4-82",
+    "name": "Zacian",
+    "setName": "Vivid Voltage",
+    "number": "82",
+    "rarity": "Amazing Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/82_hires.png"
+  },
+  {
+    "id": "swsh4-83",
+    "name": "Wooper",
+    "setName": "Vivid Voltage",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/83_hires.png"
+  },
+  {
+    "id": "swsh4-84",
+    "name": "Quagsire",
+    "setName": "Vivid Voltage",
+    "number": "84",
+    "rarity": "Rare",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/84_hires.png"
+  },
+  {
+    "id": "swsh4-85",
+    "name": "Shuckle",
+    "setName": "Vivid Voltage",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/85_hires.png"
+  },
+  {
+    "id": "swsh4-86",
+    "name": "Phanpy",
+    "setName": "Vivid Voltage",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/86_hires.png"
+  },
+  {
+    "id": "swsh4-87",
+    "name": "Donphan",
+    "setName": "Vivid Voltage",
+    "number": "87",
+    "rarity": "Rare",
+    "artist": "Hasegawa Saki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/87_hires.png"
+  },
+  {
+    "id": "swsh4-88",
+    "name": "Hitmontop",
+    "setName": "Vivid Voltage",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/88_hires.png"
+  },
+  {
+    "id": "swsh4-89",
+    "name": "Regirock",
+    "setName": "Vivid Voltage",
+    "number": "89",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/89_hires.png"
+  },
+  {
+    "id": "swsh4-90",
+    "name": "Riolu",
+    "setName": "Vivid Voltage",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/90_hires.png"
+  },
+  {
+    "id": "swsh4-91",
+    "name": "Drilbur",
+    "setName": "Vivid Voltage",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/91_hires.png"
+  },
+  {
+    "id": "swsh4-92",
+    "name": "Terrakion",
+    "setName": "Vivid Voltage",
+    "number": "92",
+    "rarity": "Rare",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/92_hires.png"
+  },
+  {
+    "id": "swsh4-93",
+    "name": "Zygarde",
+    "setName": "Vivid Voltage",
+    "number": "93",
+    "rarity": "Rare Holo",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/93_hires.png"
+  },
+  {
+    "id": "swsh4-94",
+    "name": "Rockruff",
+    "setName": "Vivid Voltage",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/94_hires.png"
+  },
+  {
+    "id": "swsh4-95",
+    "name": "Lycanroc",
+    "setName": "Vivid Voltage",
+    "number": "95",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/95_hires.png"
+  },
+  {
+    "id": "swsh4-96",
+    "name": "Mudbray",
+    "setName": "Vivid Voltage",
+    "number": "96",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/96_hires.png"
+  },
+  {
+    "id": "swsh4-97",
+    "name": "Mudsdale",
+    "setName": "Vivid Voltage",
+    "number": "97",
+    "rarity": "Rare",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/97_hires.png"
+  },
+  {
+    "id": "swsh4-98",
+    "name": "Coalossal V",
+    "setName": "Vivid Voltage",
+    "number": "98",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/98_hires.png"
+  },
+  {
+    "id": "swsh4-99",
+    "name": "Coalossal VMAX",
+    "setName": "Vivid Voltage",
+    "number": "99",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/99_hires.png"
+  },
+  {
+    "id": "swsh4-100",
+    "name": "Clobbopus",
+    "setName": "Vivid Voltage",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/100_hires.png"
+  },
+  {
+    "id": "swsh4-101",
+    "name": "Grapploct",
+    "setName": "Vivid Voltage",
+    "number": "101",
+    "rarity": "Rare",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/101_hires.png"
+  },
+  {
+    "id": "swsh4-102",
+    "name": "Zamazenta",
+    "setName": "Vivid Voltage",
+    "number": "102",
+    "rarity": "Amazing Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/102_hires.png"
+  },
+  {
+    "id": "swsh4-103",
+    "name": "Poochyena",
+    "setName": "Vivid Voltage",
+    "number": "103",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/103_hires.png"
+  },
+  {
+    "id": "swsh4-104",
+    "name": "Mightyena",
+    "setName": "Vivid Voltage",
+    "number": "104",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/104_hires.png"
+  },
+  {
+    "id": "swsh4-105",
+    "name": "Sableye",
+    "setName": "Vivid Voltage",
+    "number": "105",
+    "rarity": "Uncommon",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/105_hires.png"
+  },
+  {
+    "id": "swsh4-106",
+    "name": "Drapion V",
+    "setName": "Vivid Voltage",
+    "number": "106",
+    "rarity": "Rare Holo V",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/106_hires.png"
+  },
+  {
+    "id": "swsh4-107",
+    "name": "Sandile",
+    "setName": "Vivid Voltage",
+    "number": "107",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/107_hires.png"
+  },
+  {
+    "id": "swsh4-108",
+    "name": "Krokorok",
+    "setName": "Vivid Voltage",
+    "number": "108",
+    "rarity": "Uncommon",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/108_hires.png"
+  },
+  {
+    "id": "swsh4-109",
+    "name": "Krookodile",
+    "setName": "Vivid Voltage",
+    "number": "109",
+    "rarity": "Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/109_hires.png"
+  },
+  {
+    "id": "swsh4-110",
+    "name": "Trubbish",
+    "setName": "Vivid Voltage",
+    "number": "110",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/110_hires.png"
+  },
+  {
+    "id": "swsh4-111",
+    "name": "Garbodor",
+    "setName": "Vivid Voltage",
+    "number": "111",
+    "rarity": "Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/111_hires.png"
+  },
+  {
+    "id": "swsh4-112",
+    "name": "Galarian Meowth",
+    "setName": "Vivid Voltage",
+    "number": "112",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/112_hires.png"
+  },
+  {
+    "id": "swsh4-113",
+    "name": "Galarian Perrserker",
+    "setName": "Vivid Voltage",
+    "number": "113",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/113_hires.png"
+  },
+  {
+    "id": "swsh4-114",
+    "name": "Forretress",
+    "setName": "Vivid Voltage",
+    "number": "114",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/114_hires.png"
+  },
+  {
+    "id": "swsh4-115",
+    "name": "Steelix V",
+    "setName": "Vivid Voltage",
+    "number": "115",
+    "rarity": "Rare Holo V",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/115_hires.png"
+  },
+  {
+    "id": "swsh4-116",
+    "name": "Beldum",
+    "setName": "Vivid Voltage",
+    "number": "116",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/116_hires.png"
+  },
+  {
+    "id": "swsh4-117",
+    "name": "Metang",
+    "setName": "Vivid Voltage",
+    "number": "117",
+    "rarity": "Uncommon",
+    "artist": "Kazuma Koda",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/117_hires.png"
+  },
+  {
+    "id": "swsh4-118",
+    "name": "Metagross",
+    "setName": "Vivid Voltage",
+    "number": "118",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/118_hires.png"
+  },
+  {
+    "id": "swsh4-119",
+    "name": "Jirachi",
+    "setName": "Vivid Voltage",
+    "number": "119",
+    "rarity": "Amazing Rare",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/119_hires.png"
+  },
+  {
+    "id": "swsh4-120",
+    "name": "Lucario",
+    "setName": "Vivid Voltage",
+    "number": "120",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/120_hires.png"
+  },
+  {
+    "id": "swsh4-121",
+    "name": "Dialga",
+    "setName": "Vivid Voltage",
+    "number": "121",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/121_hires.png"
+  },
+  {
+    "id": "swsh4-122",
+    "name": "Excadrill",
+    "setName": "Vivid Voltage",
+    "number": "122",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/122_hires.png"
+  },
+  {
+    "id": "swsh4-123",
+    "name": "Ferroseed",
+    "setName": "Vivid Voltage",
+    "number": "123",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/123_hires.png"
+  },
+  {
+    "id": "swsh4-124",
+    "name": "Ferrothorn",
+    "setName": "Vivid Voltage",
+    "number": "124",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/124_hires.png"
+  },
+  {
+    "id": "swsh4-125",
+    "name": "Galarian Stunfisk",
+    "setName": "Vivid Voltage",
+    "number": "125",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/125_hires.png"
+  },
+  {
+    "id": "swsh4-126",
+    "name": "Aegislash V",
+    "setName": "Vivid Voltage",
+    "number": "126",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/126_hires.png"
+  },
+  {
+    "id": "swsh4-127",
+    "name": "Aegislash VMAX",
+    "setName": "Vivid Voltage",
+    "number": "127",
+    "rarity": "Rare Holo VMAX",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/127_hires.png"
+  },
+  {
+    "id": "swsh4-128",
+    "name": "Magearna",
+    "setName": "Vivid Voltage",
+    "number": "128",
+    "rarity": "Rare Holo",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/128_hires.png"
+  },
+  {
+    "id": "swsh4-129",
+    "name": "Duraludon",
+    "setName": "Vivid Voltage",
+    "number": "129",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/129_hires.png"
+  },
+  {
+    "id": "swsh4-130",
+    "name": "Eevee",
+    "setName": "Vivid Voltage",
+    "number": "130",
+    "rarity": "Common",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/130_hires.png"
+  },
+  {
+    "id": "swsh4-131",
+    "name": "Snorlax",
+    "setName": "Vivid Voltage",
+    "number": "131",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/131_hires.png"
+  },
+  {
+    "id": "swsh4-132",
+    "name": "Lugia",
+    "setName": "Vivid Voltage",
+    "number": "132",
+    "rarity": "Rare Holo",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/132_hires.png"
+  },
+  {
+    "id": "swsh4-133",
+    "name": "Taillow",
+    "setName": "Vivid Voltage",
+    "number": "133",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/133_hires.png"
+  },
+  {
+    "id": "swsh4-134",
+    "name": "Swellow",
+    "setName": "Vivid Voltage",
+    "number": "134",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/134_hires.png"
+  },
+  {
+    "id": "swsh4-135",
+    "name": "Whismur",
+    "setName": "Vivid Voltage",
+    "number": "135",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/135_hires.png"
+  },
+  {
+    "id": "swsh4-136",
+    "name": "Loudred",
+    "setName": "Vivid Voltage",
+    "number": "136",
+    "rarity": "Uncommon",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/136_hires.png"
+  },
+  {
+    "id": "swsh4-137",
+    "name": "Exploud",
+    "setName": "Vivid Voltage",
+    "number": "137",
+    "rarity": "Rare",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/137_hires.png"
+  },
+  {
+    "id": "swsh4-138",
+    "name": "Rayquaza",
+    "setName": "Vivid Voltage",
+    "number": "138",
+    "rarity": "Amazing Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/138_hires.png"
+  },
+  {
+    "id": "swsh4-139",
+    "name": "Chatot",
+    "setName": "Vivid Voltage",
+    "number": "139",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/139_hires.png"
+  },
+  {
+    "id": "swsh4-140",
+    "name": "Togekiss V",
+    "setName": "Vivid Voltage",
+    "number": "140",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/140_hires.png"
+  },
+  {
+    "id": "swsh4-141",
+    "name": "Togekiss VMAX",
+    "setName": "Vivid Voltage",
+    "number": "141",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/141_hires.png"
+  },
+  {
+    "id": "swsh4-142",
+    "name": "Tornadus",
+    "setName": "Vivid Voltage",
+    "number": "142",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/142_hires.png"
+  },
+  {
+    "id": "swsh4-143",
+    "name": "Pikipek",
+    "setName": "Vivid Voltage",
+    "number": "143",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/143_hires.png"
+  },
+  {
+    "id": "swsh4-144",
+    "name": "Trumbeak",
+    "setName": "Vivid Voltage",
+    "number": "144",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/144_hires.png"
+  },
+  {
+    "id": "swsh4-145",
+    "name": "Toucannon",
+    "setName": "Vivid Voltage",
+    "number": "145",
+    "rarity": "Rare",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/145_hires.png"
+  },
+  {
+    "id": "swsh4-146",
+    "name": "Allister",
+    "setName": "Vivid Voltage",
+    "number": "146",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/146_hires.png"
+  },
+  {
+    "id": "swsh4-147",
+    "name": "Bea",
+    "setName": "Vivid Voltage",
+    "number": "147",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/147_hires.png"
+  },
+  {
+    "id": "swsh4-148",
+    "name": "Beauty",
+    "setName": "Vivid Voltage",
+    "number": "148",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/148_hires.png"
+  },
+  {
+    "id": "swsh4-149",
+    "name": "Cara Liss",
+    "setName": "Vivid Voltage",
+    "number": "149",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/149_hires.png"
+  },
+  {
+    "id": "swsh4-150",
+    "name": "Circhester Bath",
+    "setName": "Vivid Voltage",
+    "number": "150",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/150_hires.png"
+  },
+  {
+    "id": "swsh4-151",
+    "name": "Drone Rotom",
+    "setName": "Vivid Voltage",
+    "number": "151",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/151_hires.png"
+  },
+  {
+    "id": "swsh4-152",
+    "name": "Hero's Medal",
+    "setName": "Vivid Voltage",
+    "number": "152",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/152_hires.png"
+  },
+  {
+    "id": "swsh4-153",
+    "name": "League Staff",
+    "setName": "Vivid Voltage",
+    "number": "153",
+    "rarity": "Uncommon",
+    "artist": "Emi Ando",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/153_hires.png"
+  },
+  {
+    "id": "swsh4-154",
+    "name": "Leon",
+    "setName": "Vivid Voltage",
+    "number": "154",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/154_hires.png"
+  },
+  {
+    "id": "swsh4-155",
+    "name": "Memory Capsule",
+    "setName": "Vivid Voltage",
+    "number": "155",
+    "rarity": "Uncommon",
+    "artist": "sadaji",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/155_hires.png"
+  },
+  {
+    "id": "swsh4-156",
+    "name": "Moomoo Cheese",
+    "setName": "Vivid Voltage",
+    "number": "156",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/156_hires.png"
+  },
+  {
+    "id": "swsh4-157",
+    "name": "Nessa",
+    "setName": "Vivid Voltage",
+    "number": "157",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/157_hires.png"
+  },
+  {
+    "id": "swsh4-158",
+    "name": "Opal",
+    "setName": "Vivid Voltage",
+    "number": "158",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/158_hires.png"
+  },
+  {
+    "id": "swsh4-159",
+    "name": "Rocky Helmet",
+    "setName": "Vivid Voltage",
+    "number": "159",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/159_hires.png"
+  },
+  {
+    "id": "swsh4-160",
+    "name": "Telescopic Sight",
+    "setName": "Vivid Voltage",
+    "number": "160",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/160_hires.png"
+  },
+  {
+    "id": "swsh4-161",
+    "name": "Wyndon Stadium",
+    "setName": "Vivid Voltage",
+    "number": "161",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/161_hires.png"
+  },
+  {
+    "id": "swsh4-162",
+    "name": "Aromatic Grass Energy",
+    "setName": "Vivid Voltage",
+    "number": "162",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh4/162_hires.png"
+  },
+  {
+    "id": "swsh4-163",
+    "name": "Coating Metal Energy",
+    "setName": "Vivid Voltage",
+    "number": "163",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh4/163_hires.png"
+  },
+  {
+    "id": "swsh4-164",
+    "name": "Stone Fighting Energy",
+    "setName": "Vivid Voltage",
+    "number": "164",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh4/164_hires.png"
+  },
+  {
+    "id": "swsh4-165",
+    "name": "Wash Water Energy",
+    "setName": "Vivid Voltage",
+    "number": "165",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh4/165_hires.png"
+  },
+  {
+    "id": "swsh4-166",
+    "name": "Orbeetle V",
+    "setName": "Vivid Voltage",
+    "number": "166",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/166_hires.png"
+  },
+  {
+    "id": "swsh4-167",
+    "name": "Zarude V",
+    "setName": "Vivid Voltage",
+    "number": "167",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/167_hires.png"
+  },
+  {
+    "id": "swsh4-168",
+    "name": "Talonflame V",
+    "setName": "Vivid Voltage",
+    "number": "168",
+    "rarity": "Rare Ultra",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/168_hires.png"
+  },
+  {
+    "id": "swsh4-169",
+    "name": "Galarian Darmanitan V",
+    "setName": "Vivid Voltage",
+    "number": "169",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/169_hires.png"
+  },
+  {
+    "id": "swsh4-170",
+    "name": "Pikachu V",
+    "setName": "Vivid Voltage",
+    "number": "170",
+    "rarity": "Rare Ultra",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/170_hires.png"
+  },
+  {
+    "id": "swsh4-171",
+    "name": "Ampharos V",
+    "setName": "Vivid Voltage",
+    "number": "171",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/171_hires.png"
+  },
+  {
+    "id": "swsh4-172",
+    "name": "Alakazam V",
+    "setName": "Vivid Voltage",
+    "number": "172",
+    "rarity": "Rare Ultra",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/172_hires.png"
+  },
+  {
+    "id": "swsh4-173",
+    "name": "Coalossal V",
+    "setName": "Vivid Voltage",
+    "number": "173",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/173_hires.png"
+  },
+  {
+    "id": "swsh4-174",
+    "name": "Galarian Sirfetch'd V",
+    "setName": "Vivid Voltage",
+    "number": "174",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/174_hires.png"
+  },
+  {
+    "id": "swsh4-175",
+    "name": "Drapion V",
+    "setName": "Vivid Voltage",
+    "number": "175",
+    "rarity": "Rare Ultra",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/175_hires.png"
+  },
+  {
+    "id": "swsh4-176",
+    "name": "Steelix V",
+    "setName": "Vivid Voltage",
+    "number": "176",
+    "rarity": "Rare Ultra",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/176_hires.png"
+  },
+  {
+    "id": "swsh4-177",
+    "name": "Aegislash V",
+    "setName": "Vivid Voltage",
+    "number": "177",
+    "rarity": "Rare Ultra",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/177_hires.png"
+  },
+  {
+    "id": "swsh4-178",
+    "name": "Togekiss V",
+    "setName": "Vivid Voltage",
+    "number": "178",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/178_hires.png"
+  },
+  {
+    "id": "swsh4-179",
+    "name": "Allister",
+    "setName": "Vivid Voltage",
+    "number": "179",
+    "rarity": "Rare Ultra",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/179_hires.png"
+  },
+  {
+    "id": "swsh4-180",
+    "name": "Bea",
+    "setName": "Vivid Voltage",
+    "number": "180",
+    "rarity": "Rare Ultra",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/180_hires.png"
+  },
+  {
+    "id": "swsh4-181",
+    "name": "Beauty",
+    "setName": "Vivid Voltage",
+    "number": "181",
+    "rarity": "Rare Ultra",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/181_hires.png"
+  },
+  {
+    "id": "swsh4-182",
+    "name": "Leon",
+    "setName": "Vivid Voltage",
+    "number": "182",
+    "rarity": "Rare Ultra",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/182_hires.png"
+  },
+  {
+    "id": "swsh4-183",
+    "name": "Nessa",
+    "setName": "Vivid Voltage",
+    "number": "183",
+    "rarity": "Rare Ultra",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/183_hires.png"
+  },
+  {
+    "id": "swsh4-184",
+    "name": "Opal",
+    "setName": "Vivid Voltage",
+    "number": "184",
+    "rarity": "Rare Ultra",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/184_hires.png"
+  },
+  {
+    "id": "swsh4-185",
+    "name": "Pokémon Center Lady",
+    "setName": "Vivid Voltage",
+    "number": "185",
+    "rarity": "Rare Ultra",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/185_hires.png"
+  },
+  {
+    "id": "swsh4-186",
+    "name": "Orbeetle VMAX",
+    "setName": "Vivid Voltage",
+    "number": "186",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/186_hires.png"
+  },
+  {
+    "id": "swsh4-187",
+    "name": "Galarian Darmanitan VMAX",
+    "setName": "Vivid Voltage",
+    "number": "187",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/187_hires.png"
+  },
+  {
+    "id": "swsh4-188",
+    "name": "Pikachu VMAX",
+    "setName": "Vivid Voltage",
+    "number": "188",
+    "rarity": "Rare Rainbow",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/188_hires.png"
+  },
+  {
+    "id": "swsh4-189",
+    "name": "Coalossal VMAX",
+    "setName": "Vivid Voltage",
+    "number": "189",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/189_hires.png"
+  },
+  {
+    "id": "swsh4-190",
+    "name": "Aegislash VMAX",
+    "setName": "Vivid Voltage",
+    "number": "190",
+    "rarity": "Rare Rainbow",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/190_hires.png"
+  },
+  {
+    "id": "swsh4-191",
+    "name": "Togekiss VMAX",
+    "setName": "Vivid Voltage",
+    "number": "191",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/191_hires.png"
+  },
+  {
+    "id": "swsh4-192",
+    "name": "Allister",
+    "setName": "Vivid Voltage",
+    "number": "192",
+    "rarity": "Rare Rainbow",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/192_hires.png"
+  },
+  {
+    "id": "swsh4-193",
+    "name": "Bea",
+    "setName": "Vivid Voltage",
+    "number": "193",
+    "rarity": "Rare Rainbow",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/193_hires.png"
+  },
+  {
+    "id": "swsh4-194",
+    "name": "Beauty",
+    "setName": "Vivid Voltage",
+    "number": "194",
+    "rarity": "Rare Rainbow",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/194_hires.png"
+  },
+  {
+    "id": "swsh4-195",
+    "name": "Leon",
+    "setName": "Vivid Voltage",
+    "number": "195",
+    "rarity": "Rare Rainbow",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/195_hires.png"
+  },
+  {
+    "id": "swsh4-196",
+    "name": "Nessa",
+    "setName": "Vivid Voltage",
+    "number": "196",
+    "rarity": "Rare Rainbow",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/196_hires.png"
+  },
+  {
+    "id": "swsh4-197",
+    "name": "Opal",
+    "setName": "Vivid Voltage",
+    "number": "197",
+    "rarity": "Rare Rainbow",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/197_hires.png"
+  },
+  {
+    "id": "swsh4-198",
+    "name": "Galarian Obstagoon",
+    "setName": "Vivid Voltage",
+    "number": "198",
+    "rarity": "Rare Secret",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/198_hires.png"
+  },
+  {
+    "id": "swsh4-199",
+    "name": "Oranguru",
+    "setName": "Vivid Voltage",
+    "number": "199",
+    "rarity": "Rare Secret",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/199_hires.png"
+  },
+  {
+    "id": "swsh4-200",
+    "name": "Cape of Toughness",
+    "setName": "Vivid Voltage",
+    "number": "200",
+    "rarity": "Rare Secret",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/200_hires.png"
+  },
+  {
+    "id": "swsh4-201",
+    "name": "Hero's Medal",
+    "setName": "Vivid Voltage",
+    "number": "201",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/201_hires.png"
+  },
+  {
+    "id": "swsh4-202",
+    "name": "Memory Capsule",
+    "setName": "Vivid Voltage",
+    "number": "202",
+    "rarity": "Rare Secret",
+    "artist": "sadaji",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/202_hires.png"
+  },
+  {
+    "id": "swsh4-203",
+    "name": "Telescopic Sight",
+    "setName": "Vivid Voltage",
+    "number": "203",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/203_hires.png"
+  }
+]

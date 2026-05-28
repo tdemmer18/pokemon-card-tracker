@@ -1,0 +1,965 @@
+[
+  {
+    "id": "ex9-1",
+    "name": "Blaziken",
+    "setName": "Emerald",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex9/1_hires.png"
+  },
+  {
+    "id": "ex9-2",
+    "name": "Deoxys",
+    "setName": "Emerald",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/2_hires.png"
+  },
+  {
+    "id": "ex9-3",
+    "name": "Exploud",
+    "setName": "Emerald",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex9/3_hires.png"
+  },
+  {
+    "id": "ex9-4",
+    "name": "Gardevoir",
+    "setName": "Emerald",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/4_hires.png"
+  },
+  {
+    "id": "ex9-5",
+    "name": "Groudon",
+    "setName": "Emerald",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/5_hires.png"
+  },
+  {
+    "id": "ex9-6",
+    "name": "Kyogre",
+    "setName": "Emerald",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/6_hires.png"
+  },
+  {
+    "id": "ex9-7",
+    "name": "Manectric",
+    "setName": "Emerald",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/7_hires.png"
+  },
+  {
+    "id": "ex9-8",
+    "name": "Milotic",
+    "setName": "Emerald",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/8_hires.png"
+  },
+  {
+    "id": "ex9-9",
+    "name": "Rayquaza",
+    "setName": "Emerald",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/9_hires.png"
+  },
+  {
+    "id": "ex9-10",
+    "name": "Sceptile",
+    "setName": "Emerald",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/10_hires.png"
+  },
+  {
+    "id": "ex9-11",
+    "name": "Swampert",
+    "setName": "Emerald",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/11_hires.png"
+  },
+  {
+    "id": "ex9-12",
+    "name": "Chimecho",
+    "setName": "Emerald",
+    "number": "12",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/12_hires.png"
+  },
+  {
+    "id": "ex9-13",
+    "name": "Glalie",
+    "setName": "Emerald",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/13_hires.png"
+  },
+  {
+    "id": "ex9-14",
+    "name": "Groudon",
+    "setName": "Emerald",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/14_hires.png"
+  },
+  {
+    "id": "ex9-15",
+    "name": "Kyogre",
+    "setName": "Emerald",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/15_hires.png"
+  },
+  {
+    "id": "ex9-16",
+    "name": "Manectric",
+    "setName": "Emerald",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/16_hires.png"
+  },
+  {
+    "id": "ex9-17",
+    "name": "Nosepass",
+    "setName": "Emerald",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/17_hires.png"
+  },
+  {
+    "id": "ex9-18",
+    "name": "Relicanth",
+    "setName": "Emerald",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/18_hires.png"
+  },
+  {
+    "id": "ex9-19",
+    "name": "Rhydon",
+    "setName": "Emerald",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/19_hires.png"
+  },
+  {
+    "id": "ex9-20",
+    "name": "Seviper",
+    "setName": "Emerald",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/20_hires.png"
+  },
+  {
+    "id": "ex9-21",
+    "name": "Zangoose",
+    "setName": "Emerald",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex9/21_hires.png"
+  },
+  {
+    "id": "ex9-22",
+    "name": "Breloom",
+    "setName": "Emerald",
+    "number": "22",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/22_hires.png"
+  },
+  {
+    "id": "ex9-23",
+    "name": "Camerupt",
+    "setName": "Emerald",
+    "number": "23",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/23_hires.png"
+  },
+  {
+    "id": "ex9-24",
+    "name": "Claydol",
+    "setName": "Emerald",
+    "number": "24",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex9/24_hires.png"
+  },
+  {
+    "id": "ex9-25",
+    "name": "Combusken",
+    "setName": "Emerald",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex9/25_hires.png"
+  },
+  {
+    "id": "ex9-26",
+    "name": "Dodrio",
+    "setName": "Emerald",
+    "number": "26",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex9/26_hires.png"
+  },
+  {
+    "id": "ex9-27",
+    "name": "Electrode",
+    "setName": "Emerald",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/27_hires.png"
+  },
+  {
+    "id": "ex9-28",
+    "name": "Grovyle",
+    "setName": "Emerald",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/28_hires.png"
+  },
+  {
+    "id": "ex9-29",
+    "name": "Grumpig",
+    "setName": "Emerald",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/29_hires.png"
+  },
+  {
+    "id": "ex9-30",
+    "name": "Grumpig",
+    "setName": "Emerald",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/30_hires.png"
+  },
+  {
+    "id": "ex9-31",
+    "name": "Hariyama",
+    "setName": "Emerald",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/31_hires.png"
+  },
+  {
+    "id": "ex9-32",
+    "name": "Illumise",
+    "setName": "Emerald",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/32_hires.png"
+  },
+  {
+    "id": "ex9-33",
+    "name": "Kirlia",
+    "setName": "Emerald",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/33_hires.png"
+  },
+  {
+    "id": "ex9-34",
+    "name": "Linoone",
+    "setName": "Emerald",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex9/34_hires.png"
+  },
+  {
+    "id": "ex9-35",
+    "name": "Loudred",
+    "setName": "Emerald",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex9/35_hires.png"
+  },
+  {
+    "id": "ex9-36",
+    "name": "Marshtomp",
+    "setName": "Emerald",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/36_hires.png"
+  },
+  {
+    "id": "ex9-37",
+    "name": "Minun",
+    "setName": "Emerald",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex9/37_hires.png"
+  },
+  {
+    "id": "ex9-38",
+    "name": "Ninetales",
+    "setName": "Emerald",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex9/38_hires.png"
+  },
+  {
+    "id": "ex9-39",
+    "name": "Plusle",
+    "setName": "Emerald",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex9/39_hires.png"
+  },
+  {
+    "id": "ex9-40",
+    "name": "Swalot",
+    "setName": "Emerald",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/40_hires.png"
+  },
+  {
+    "id": "ex9-41",
+    "name": "Swellow",
+    "setName": "Emerald",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex9/41_hires.png"
+  },
+  {
+    "id": "ex9-42",
+    "name": "Volbeat",
+    "setName": "Emerald",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/42_hires.png"
+  },
+  {
+    "id": "ex9-43",
+    "name": "Baltoy",
+    "setName": "Emerald",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex9/43_hires.png"
+  },
+  {
+    "id": "ex9-44",
+    "name": "Cacnea",
+    "setName": "Emerald",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/44_hires.png"
+  },
+  {
+    "id": "ex9-45",
+    "name": "Doduo",
+    "setName": "Emerald",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex9/45_hires.png"
+  },
+  {
+    "id": "ex9-46",
+    "name": "Duskull",
+    "setName": "Emerald",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/46_hires.png"
+  },
+  {
+    "id": "ex9-47",
+    "name": "Electrike",
+    "setName": "Emerald",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/47_hires.png"
+  },
+  {
+    "id": "ex9-48",
+    "name": "Electrike",
+    "setName": "Emerald",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/48_hires.png"
+  },
+  {
+    "id": "ex9-49",
+    "name": "Feebas",
+    "setName": "Emerald",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/49_hires.png"
+  },
+  {
+    "id": "ex9-50",
+    "name": "Feebas",
+    "setName": "Emerald",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/50_hires.png"
+  },
+  {
+    "id": "ex9-51",
+    "name": "Gulpin",
+    "setName": "Emerald",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/51_hires.png"
+  },
+  {
+    "id": "ex9-52",
+    "name": "Larvitar",
+    "setName": "Emerald",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex9/52_hires.png"
+  },
+  {
+    "id": "ex9-53",
+    "name": "Luvdisc",
+    "setName": "Emerald",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex9/53_hires.png"
+  },
+  {
+    "id": "ex9-54",
+    "name": "Makuhita",
+    "setName": "Emerald",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/54_hires.png"
+  },
+  {
+    "id": "ex9-55",
+    "name": "Meditite",
+    "setName": "Emerald",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/55_hires.png"
+  },
+  {
+    "id": "ex9-56",
+    "name": "Mudkip",
+    "setName": "Emerald",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/56_hires.png"
+  },
+  {
+    "id": "ex9-57",
+    "name": "Numel",
+    "setName": "Emerald",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex9/57_hires.png"
+  },
+  {
+    "id": "ex9-58",
+    "name": "Numel",
+    "setName": "Emerald",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/58_hires.png"
+  },
+  {
+    "id": "ex9-59",
+    "name": "Pichu",
+    "setName": "Emerald",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex9/59_hires.png"
+  },
+  {
+    "id": "ex9-60",
+    "name": "Pikachu",
+    "setName": "Emerald",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/60_hires.png"
+  },
+  {
+    "id": "ex9-61",
+    "name": "Ralts",
+    "setName": "Emerald",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/61_hires.png"
+  },
+  {
+    "id": "ex9-62",
+    "name": "Rhyhorn",
+    "setName": "Emerald",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex9/62_hires.png"
+  },
+  {
+    "id": "ex9-63",
+    "name": "Shroomish",
+    "setName": "Emerald",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/63_hires.png"
+  },
+  {
+    "id": "ex9-64",
+    "name": "Snorunt",
+    "setName": "Emerald",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/64_hires.png"
+  },
+  {
+    "id": "ex9-65",
+    "name": "Spoink",
+    "setName": "Emerald",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex9/65_hires.png"
+  },
+  {
+    "id": "ex9-66",
+    "name": "Spoink",
+    "setName": "Emerald",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex9/66_hires.png"
+  },
+  {
+    "id": "ex9-67",
+    "name": "Swablu",
+    "setName": "Emerald",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex9/67_hires.png"
+  },
+  {
+    "id": "ex9-68",
+    "name": "Taillow",
+    "setName": "Emerald",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex9/68_hires.png"
+  },
+  {
+    "id": "ex9-69",
+    "name": "Torchic",
+    "setName": "Emerald",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex9/69_hires.png"
+  },
+  {
+    "id": "ex9-70",
+    "name": "Treecko",
+    "setName": "Emerald",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/70_hires.png"
+  },
+  {
+    "id": "ex9-71",
+    "name": "Voltorb",
+    "setName": "Emerald",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/71_hires.png"
+  },
+  {
+    "id": "ex9-72",
+    "name": "Vulpix",
+    "setName": "Emerald",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex9/72_hires.png"
+  },
+  {
+    "id": "ex9-73",
+    "name": "Whismur",
+    "setName": "Emerald",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex9/73_hires.png"
+  },
+  {
+    "id": "ex9-74",
+    "name": "Zigzagoon",
+    "setName": "Emerald",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex9/74_hires.png"
+  },
+  {
+    "id": "ex9-75",
+    "name": "Battle Frontier",
+    "setName": "Emerald",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex9/75_hires.png"
+  },
+  {
+    "id": "ex9-76",
+    "name": "Double Full Heal",
+    "setName": "Emerald",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/76_hires.png"
+  },
+  {
+    "id": "ex9-77",
+    "name": "Lanette's Net Search",
+    "setName": "Emerald",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex9/77_hires.png"
+  },
+  {
+    "id": "ex9-78",
+    "name": "Lum Berry",
+    "setName": "Emerald",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Kazuo Yazawa",
+    "imageUrl": "https://images.pokemontcg.io/ex9/78_hires.png"
+  },
+  {
+    "id": "ex9-79",
+    "name": "Mr. Stone's Project",
+    "setName": "Emerald",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex9/79_hires.png"
+  },
+  {
+    "id": "ex9-80",
+    "name": "Oran Berry",
+    "setName": "Emerald",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Kazuo Yazawa",
+    "imageUrl": "https://images.pokemontcg.io/ex9/80_hires.png"
+  },
+  {
+    "id": "ex9-81",
+    "name": "PokéNav",
+    "setName": "Emerald",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex9/81_hires.png"
+  },
+  {
+    "id": "ex9-82",
+    "name": "Professor Birch",
+    "setName": "Emerald",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex9/82_hires.png"
+  },
+  {
+    "id": "ex9-83",
+    "name": "Rare Candy",
+    "setName": "Emerald",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/83_hires.png"
+  },
+  {
+    "id": "ex9-84",
+    "name": "Scott",
+    "setName": "Emerald",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex9/84_hires.png"
+  },
+  {
+    "id": "ex9-85",
+    "name": "Wally's Training",
+    "setName": "Emerald",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex9/85_hires.png"
+  },
+  {
+    "id": "ex9-86",
+    "name": "Darkness Energy",
+    "setName": "Emerald",
+    "number": "86",
+    "rarity": "Rare",
+    "artist": "Milky Isobe",
+    "imageUrl": "https://images.pokemontcg.io/ex9/86_hires.png"
+  },
+  {
+    "id": "ex9-87",
+    "name": "Double Rainbow Energy",
+    "setName": "Emerald",
+    "number": "87",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex9/87_hires.png"
+  },
+  {
+    "id": "ex9-88",
+    "name": "Metal Energy",
+    "setName": "Emerald",
+    "number": "88",
+    "rarity": "Rare",
+    "artist": "Milky Isobe",
+    "imageUrl": "https://images.pokemontcg.io/ex9/88_hires.png"
+  },
+  {
+    "id": "ex9-89",
+    "name": "Multi Energy",
+    "setName": "Emerald",
+    "number": "89",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex9/89_hires.png"
+  },
+  {
+    "id": "ex9-90",
+    "name": "Altaria ex",
+    "setName": "Emerald",
+    "number": "90",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/90_hires.png"
+  },
+  {
+    "id": "ex9-91",
+    "name": "Cacturne ex",
+    "setName": "Emerald",
+    "number": "91",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex9/91_hires.png"
+  },
+  {
+    "id": "ex9-92",
+    "name": "Camerupt ex",
+    "setName": "Emerald",
+    "number": "92",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/92_hires.png"
+  },
+  {
+    "id": "ex9-93",
+    "name": "Deoxys ex",
+    "setName": "Emerald",
+    "number": "93",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/93_hires.png"
+  },
+  {
+    "id": "ex9-94",
+    "name": "Dusclops ex",
+    "setName": "Emerald",
+    "number": "94",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/94_hires.png"
+  },
+  {
+    "id": "ex9-95",
+    "name": "Medicham ex",
+    "setName": "Emerald",
+    "number": "95",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex9/95_hires.png"
+  },
+  {
+    "id": "ex9-96",
+    "name": "Milotic ex",
+    "setName": "Emerald",
+    "number": "96",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/96_hires.png"
+  },
+  {
+    "id": "ex9-97",
+    "name": "Raichu ex",
+    "setName": "Emerald",
+    "number": "97",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex9/97_hires.png"
+  },
+  {
+    "id": "ex9-98",
+    "name": "Regice ex",
+    "setName": "Emerald",
+    "number": "98",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex9/98_hires.png"
+  },
+  {
+    "id": "ex9-99",
+    "name": "Regirock ex",
+    "setName": "Emerald",
+    "number": "99",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex9/99_hires.png"
+  },
+  {
+    "id": "ex9-100",
+    "name": "Registeel ex",
+    "setName": "Emerald",
+    "number": "100",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex9/100_hires.png"
+  },
+  {
+    "id": "ex9-101",
+    "name": "Grass Energy",
+    "setName": "Emerald",
+    "number": "101",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex9/101_hires.png"
+  },
+  {
+    "id": "ex9-102",
+    "name": "Fire Energy",
+    "setName": "Emerald",
+    "number": "102",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex9/102_hires.png"
+  },
+  {
+    "id": "ex9-103",
+    "name": "Water Energy",
+    "setName": "Emerald",
+    "number": "103",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex9/103_hires.png"
+  },
+  {
+    "id": "ex9-104",
+    "name": "Lightning Energy",
+    "setName": "Emerald",
+    "number": "104",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex9/104_hires.png"
+  },
+  {
+    "id": "ex9-105",
+    "name": "Psychic Energy",
+    "setName": "Emerald",
+    "number": "105",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex9/105_hires.png"
+  },
+  {
+    "id": "ex9-106",
+    "name": "Fighting Energy",
+    "setName": "Emerald",
+    "number": "106",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex9/106_hires.png"
+  },
+  {
+    "id": "ex9-107",
+    "name": "Farfetch'd",
+    "setName": "Emerald",
+    "number": "107",
+    "rarity": "Rare Secret",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex9/107_hires.png"
+  }
+]

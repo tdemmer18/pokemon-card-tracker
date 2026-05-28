@@ -1,0 +1,974 @@
+[
+  {
+    "id": "ex16-1",
+    "name": "Aggron",
+    "setName": "Power Keepers",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/1_hires.png"
+  },
+  {
+    "id": "ex16-2",
+    "name": "Altaria",
+    "setName": "Power Keepers",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/2_hires.png"
+  },
+  {
+    "id": "ex16-3",
+    "name": "Armaldo",
+    "setName": "Power Keepers",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/3_hires.png"
+  },
+  {
+    "id": "ex16-4",
+    "name": "Banette",
+    "setName": "Power Keepers",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/4_hires.png"
+  },
+  {
+    "id": "ex16-5",
+    "name": "Blaziken",
+    "setName": "Power Keepers",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/5_hires.png"
+  },
+  {
+    "id": "ex16-6",
+    "name": "Charizard",
+    "setName": "Power Keepers",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/6_hires.png"
+  },
+  {
+    "id": "ex16-7",
+    "name": "Cradily",
+    "setName": "Power Keepers",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/7_hires.png"
+  },
+  {
+    "id": "ex16-8",
+    "name": "Delcatty",
+    "setName": "Power Keepers",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/8_hires.png"
+  },
+  {
+    "id": "ex16-9",
+    "name": "Gardevoir",
+    "setName": "Power Keepers",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/9_hires.png"
+  },
+  {
+    "id": "ex16-10",
+    "name": "Kabutops",
+    "setName": "Power Keepers",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/10_hires.png"
+  },
+  {
+    "id": "ex16-11",
+    "name": "Machamp",
+    "setName": "Power Keepers",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/11_hires.png"
+  },
+  {
+    "id": "ex16-12",
+    "name": "Raichu",
+    "setName": "Power Keepers",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex16/12_hires.png"
+  },
+  {
+    "id": "ex16-13",
+    "name": "Slaking",
+    "setName": "Power Keepers",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/13_hires.png"
+  },
+  {
+    "id": "ex16-14",
+    "name": "Dusclops",
+    "setName": "Power Keepers",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/14_hires.png"
+  },
+  {
+    "id": "ex16-15",
+    "name": "Lanturn",
+    "setName": "Power Keepers",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/15_hires.png"
+  },
+  {
+    "id": "ex16-16",
+    "name": "Magneton",
+    "setName": "Power Keepers",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/16_hires.png"
+  },
+  {
+    "id": "ex16-17",
+    "name": "Mawile",
+    "setName": "Power Keepers",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/17_hires.png"
+  },
+  {
+    "id": "ex16-18",
+    "name": "Mightyena",
+    "setName": "Power Keepers",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/18_hires.png"
+  },
+  {
+    "id": "ex16-19",
+    "name": "Ninetales",
+    "setName": "Power Keepers",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Tomoaki Imakuni",
+    "imageUrl": "https://images.pokemontcg.io/ex16/19_hires.png"
+  },
+  {
+    "id": "ex16-20",
+    "name": "Omastar",
+    "setName": "Power Keepers",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/20_hires.png"
+  },
+  {
+    "id": "ex16-21",
+    "name": "Pichu",
+    "setName": "Power Keepers",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/21_hires.png"
+  },
+  {
+    "id": "ex16-22",
+    "name": "Sableye",
+    "setName": "Power Keepers",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/22_hires.png"
+  },
+  {
+    "id": "ex16-23",
+    "name": "Seviper",
+    "setName": "Power Keepers",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/23_hires.png"
+  },
+  {
+    "id": "ex16-24",
+    "name": "Wobbuffet",
+    "setName": "Power Keepers",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/24_hires.png"
+  },
+  {
+    "id": "ex16-25",
+    "name": "Zangoose",
+    "setName": "Power Keepers",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/25_hires.png"
+  },
+  {
+    "id": "ex16-26",
+    "name": "Anorith",
+    "setName": "Power Keepers",
+    "number": "26",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/26_hires.png"
+  },
+  {
+    "id": "ex16-27",
+    "name": "Cacturne",
+    "setName": "Power Keepers",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/27_hires.png"
+  },
+  {
+    "id": "ex16-28",
+    "name": "Charmeleon",
+    "setName": "Power Keepers",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/28_hires.png"
+  },
+  {
+    "id": "ex16-29",
+    "name": "Combusken",
+    "setName": "Power Keepers",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex16/29_hires.png"
+  },
+  {
+    "id": "ex16-30",
+    "name": "Glalie",
+    "setName": "Power Keepers",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/30_hires.png"
+  },
+  {
+    "id": "ex16-31",
+    "name": "Kirlia",
+    "setName": "Power Keepers",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex16/31_hires.png"
+  },
+  {
+    "id": "ex16-32",
+    "name": "Lairon",
+    "setName": "Power Keepers",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex16/32_hires.png"
+  },
+  {
+    "id": "ex16-33",
+    "name": "Machoke",
+    "setName": "Power Keepers",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/33_hires.png"
+  },
+  {
+    "id": "ex16-34",
+    "name": "Medicham",
+    "setName": "Power Keepers",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Tomoaki Imakuni",
+    "imageUrl": "https://images.pokemontcg.io/ex16/34_hires.png"
+  },
+  {
+    "id": "ex16-35",
+    "name": "Metang",
+    "setName": "Power Keepers",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex16/35_hires.png"
+  },
+  {
+    "id": "ex16-36",
+    "name": "Nuzleaf",
+    "setName": "Power Keepers",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex16/36_hires.png"
+  },
+  {
+    "id": "ex16-37",
+    "name": "Sealeo",
+    "setName": "Power Keepers",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/37_hires.png"
+  },
+  {
+    "id": "ex16-38",
+    "name": "Sharpedo",
+    "setName": "Power Keepers",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/38_hires.png"
+  },
+  {
+    "id": "ex16-39",
+    "name": "Shelgon",
+    "setName": "Power Keepers",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/39_hires.png"
+  },
+  {
+    "id": "ex16-40",
+    "name": "Vibrava",
+    "setName": "Power Keepers",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex16/40_hires.png"
+  },
+  {
+    "id": "ex16-41",
+    "name": "Vigoroth",
+    "setName": "Power Keepers",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex16/41_hires.png"
+  },
+  {
+    "id": "ex16-42",
+    "name": "Aron",
+    "setName": "Power Keepers",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex16/42_hires.png"
+  },
+  {
+    "id": "ex16-43",
+    "name": "Bagon",
+    "setName": "Power Keepers",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/43_hires.png"
+  },
+  {
+    "id": "ex16-44",
+    "name": "Baltoy",
+    "setName": "Power Keepers",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex16/44_hires.png"
+  },
+  {
+    "id": "ex16-45",
+    "name": "Beldum",
+    "setName": "Power Keepers",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/45_hires.png"
+  },
+  {
+    "id": "ex16-46",
+    "name": "Cacnea",
+    "setName": "Power Keepers",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex16/46_hires.png"
+  },
+  {
+    "id": "ex16-47",
+    "name": "Carvanha",
+    "setName": "Power Keepers",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/47_hires.png"
+  },
+  {
+    "id": "ex16-48",
+    "name": "Charmander",
+    "setName": "Power Keepers",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex16/48_hires.png"
+  },
+  {
+    "id": "ex16-49",
+    "name": "Chinchou",
+    "setName": "Power Keepers",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex16/49_hires.png"
+  },
+  {
+    "id": "ex16-50",
+    "name": "Duskull",
+    "setName": "Power Keepers",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/50_hires.png"
+  },
+  {
+    "id": "ex16-51",
+    "name": "Kabuto",
+    "setName": "Power Keepers",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/51_hires.png"
+  },
+  {
+    "id": "ex16-52",
+    "name": "Lileep",
+    "setName": "Power Keepers",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex16/52_hires.png"
+  },
+  {
+    "id": "ex16-53",
+    "name": "Machop",
+    "setName": "Power Keepers",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/53_hires.png"
+  },
+  {
+    "id": "ex16-54",
+    "name": "Magnemite",
+    "setName": "Power Keepers",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex16/54_hires.png"
+  },
+  {
+    "id": "ex16-55",
+    "name": "Meditite",
+    "setName": "Power Keepers",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/55_hires.png"
+  },
+  {
+    "id": "ex16-56",
+    "name": "Omanyte",
+    "setName": "Power Keepers",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/56_hires.png"
+  },
+  {
+    "id": "ex16-57",
+    "name": "Pikachu",
+    "setName": "Power Keepers",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex16/57_hires.png"
+  },
+  {
+    "id": "ex16-58",
+    "name": "Poochyena",
+    "setName": "Power Keepers",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/58_hires.png"
+  },
+  {
+    "id": "ex16-59",
+    "name": "Ralts",
+    "setName": "Power Keepers",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/59_hires.png"
+  },
+  {
+    "id": "ex16-60",
+    "name": "Seedot",
+    "setName": "Power Keepers",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/60_hires.png"
+  },
+  {
+    "id": "ex16-61",
+    "name": "Shuppet",
+    "setName": "Power Keepers",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/61_hires.png"
+  },
+  {
+    "id": "ex16-62",
+    "name": "Skitty",
+    "setName": "Power Keepers",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex16/62_hires.png"
+  },
+  {
+    "id": "ex16-63",
+    "name": "Slakoth",
+    "setName": "Power Keepers",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex16/63_hires.png"
+  },
+  {
+    "id": "ex16-64",
+    "name": "Snorunt",
+    "setName": "Power Keepers",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/64_hires.png"
+  },
+  {
+    "id": "ex16-65",
+    "name": "Spheal",
+    "setName": "Power Keepers",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/65_hires.png"
+  },
+  {
+    "id": "ex16-66",
+    "name": "Swablu",
+    "setName": "Power Keepers",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/66_hires.png"
+  },
+  {
+    "id": "ex16-67",
+    "name": "Torchic",
+    "setName": "Power Keepers",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex16/67_hires.png"
+  },
+  {
+    "id": "ex16-68",
+    "name": "Trapinch",
+    "setName": "Power Keepers",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex16/68_hires.png"
+  },
+  {
+    "id": "ex16-69",
+    "name": "Vulpix",
+    "setName": "Power Keepers",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/69_hires.png"
+  },
+  {
+    "id": "ex16-70",
+    "name": "Wynaut",
+    "setName": "Power Keepers",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/70_hires.png"
+  },
+  {
+    "id": "ex16-71",
+    "name": "Battle Frontier",
+    "setName": "Power Keepers",
+    "number": "71",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex16/71_hires.png"
+  },
+  {
+    "id": "ex16-72",
+    "name": "Drake's Stadium",
+    "setName": "Power Keepers",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/72_hires.png"
+  },
+  {
+    "id": "ex16-73",
+    "name": "Energy Recycle System",
+    "setName": "Power Keepers",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "Zu-Ka",
+    "imageUrl": "https://images.pokemontcg.io/ex16/73_hires.png"
+  },
+  {
+    "id": "ex16-74",
+    "name": "Energy Removal 2",
+    "setName": "Power Keepers",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex16/74_hires.png"
+  },
+  {
+    "id": "ex16-75",
+    "name": "Energy Switch",
+    "setName": "Power Keepers",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex16/75_hires.png"
+  },
+  {
+    "id": "ex16-76",
+    "name": "Glacia's Stadium",
+    "setName": "Power Keepers",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/76_hires.png"
+  },
+  {
+    "id": "ex16-77",
+    "name": "Great Ball",
+    "setName": "Power Keepers",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex16/77_hires.png"
+  },
+  {
+    "id": "ex16-78",
+    "name": "Master Ball",
+    "setName": "Power Keepers",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex16/78_hires.png"
+  },
+  {
+    "id": "ex16-79",
+    "name": "Phoebe's Stadium",
+    "setName": "Power Keepers",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/79_hires.png"
+  },
+  {
+    "id": "ex16-80",
+    "name": "Professor Birch",
+    "setName": "Power Keepers",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/80_hires.png"
+  },
+  {
+    "id": "ex16-81",
+    "name": "Scott",
+    "setName": "Power Keepers",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/81_hires.png"
+  },
+  {
+    "id": "ex16-82",
+    "name": "Sidney's Stadium",
+    "setName": "Power Keepers",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/82_hires.png"
+  },
+  {
+    "id": "ex16-83",
+    "name": "Steven's Advice",
+    "setName": "Power Keepers",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex16/83_hires.png"
+  },
+  {
+    "id": "ex16-84",
+    "name": "Claw Fossil",
+    "setName": "Power Keepers",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/84_hires.png"
+  },
+  {
+    "id": "ex16-85",
+    "name": "Mysterious Fossil",
+    "setName": "Power Keepers",
+    "number": "85",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/85_hires.png"
+  },
+  {
+    "id": "ex16-86",
+    "name": "Root Fossil",
+    "setName": "Power Keepers",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/86_hires.png"
+  },
+  {
+    "id": "ex16-87",
+    "name": "Darkness Energy",
+    "setName": "Power Keepers",
+    "number": "87",
+    "rarity": "Rare",
+    "artist": "Milky Isobe",
+    "imageUrl": "https://images.pokemontcg.io/ex16/87_hires.png"
+  },
+  {
+    "id": "ex16-88",
+    "name": "Metal Energy",
+    "setName": "Power Keepers",
+    "number": "88",
+    "rarity": "Rare",
+    "artist": "Milky Isobe",
+    "imageUrl": "https://images.pokemontcg.io/ex16/88_hires.png"
+  },
+  {
+    "id": "ex16-89",
+    "name": "Multi Energy",
+    "setName": "Power Keepers",
+    "number": "89",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex16/89_hires.png"
+  },
+  {
+    "id": "ex16-90",
+    "name": "Cyclone Energy",
+    "setName": "Power Keepers",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex16/90_hires.png"
+  },
+  {
+    "id": "ex16-91",
+    "name": "Warp Energy",
+    "setName": "Power Keepers",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex16/91_hires.png"
+  },
+  {
+    "id": "ex16-92",
+    "name": "Absol ex",
+    "setName": "Power Keepers",
+    "number": "92",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/92_hires.png"
+  },
+  {
+    "id": "ex16-93",
+    "name": "Claydol ex",
+    "setName": "Power Keepers",
+    "number": "93",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/93_hires.png"
+  },
+  {
+    "id": "ex16-94",
+    "name": "Flygon ex",
+    "setName": "Power Keepers",
+    "number": "94",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex16/94_hires.png"
+  },
+  {
+    "id": "ex16-95",
+    "name": "Metagross ex",
+    "setName": "Power Keepers",
+    "number": "95",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/95_hires.png"
+  },
+  {
+    "id": "ex16-96",
+    "name": "Salamence ex",
+    "setName": "Power Keepers",
+    "number": "96",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex16/96_hires.png"
+  },
+  {
+    "id": "ex16-97",
+    "name": "Shiftry ex",
+    "setName": "Power Keepers",
+    "number": "97",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/97_hires.png"
+  },
+  {
+    "id": "ex16-98",
+    "name": "Skarmory ex",
+    "setName": "Power Keepers",
+    "number": "98",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/98_hires.png"
+  },
+  {
+    "id": "ex16-99",
+    "name": "Walrein ex",
+    "setName": "Power Keepers",
+    "number": "99",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/99_hires.png"
+  },
+  {
+    "id": "ex16-100",
+    "name": "Flareon ★",
+    "setName": "Power Keepers",
+    "number": "100",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/100_hires.png"
+  },
+  {
+    "id": "ex16-101",
+    "name": "Jolteon ★",
+    "setName": "Power Keepers",
+    "number": "101",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/101_hires.png"
+  },
+  {
+    "id": "ex16-102",
+    "name": "Vaporeon ★",
+    "setName": "Power Keepers",
+    "number": "102",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex16/102_hires.png"
+  },
+  {
+    "id": "ex16-103",
+    "name": "Grass Energy",
+    "setName": "Power Keepers",
+    "number": "103",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex16/103_hires.png"
+  },
+  {
+    "id": "ex16-104",
+    "name": "Fire Energy",
+    "setName": "Power Keepers",
+    "number": "104",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex16/104_hires.png"
+  },
+  {
+    "id": "ex16-105",
+    "name": "Water Energy",
+    "setName": "Power Keepers",
+    "number": "105",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex16/105_hires.png"
+  },
+  {
+    "id": "ex16-106",
+    "name": "Lightning Energy",
+    "setName": "Power Keepers",
+    "number": "106",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex16/106_hires.png"
+  },
+  {
+    "id": "ex16-107",
+    "name": "Psychic Energy",
+    "setName": "Power Keepers",
+    "number": "107",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex16/107_hires.png"
+  },
+  {
+    "id": "ex16-108",
+    "name": "Fighting Energy",
+    "setName": "Power Keepers",
+    "number": "108",
+    "rarity": "Rare Holo",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex16/108_hires.png"
+  }
+]

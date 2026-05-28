@@ -1,0 +1,677 @@
+[
+  {
+    "id": "neo2-1",
+    "name": "Espeon",
+    "setName": "Neo Discovery",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/1_hires.png"
+  },
+  {
+    "id": "neo2-2",
+    "name": "Forretress",
+    "setName": "Neo Discovery",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/2_hires.png"
+  },
+  {
+    "id": "neo2-3",
+    "name": "Hitmontop",
+    "setName": "Neo Discovery",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo2/3_hires.png"
+  },
+  {
+    "id": "neo2-4",
+    "name": "Houndoom",
+    "setName": "Neo Discovery",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/4_hires.png"
+  },
+  {
+    "id": "neo2-5",
+    "name": "Houndour",
+    "setName": "Neo Discovery",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/neo2/5_hires.png"
+  },
+  {
+    "id": "neo2-6",
+    "name": "Kabutops",
+    "setName": "Neo Discovery",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/neo2/6_hires.png"
+  },
+  {
+    "id": "neo2-7",
+    "name": "Magnemite",
+    "setName": "Neo Discovery",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "K. Hoshiba, CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/7_hires.png"
+  },
+  {
+    "id": "neo2-8",
+    "name": "Politoed",
+    "setName": "Neo Discovery",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/neo2/8_hires.png"
+  },
+  {
+    "id": "neo2-9",
+    "name": "Poliwrath",
+    "setName": "Neo Discovery",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/9_hires.png"
+  },
+  {
+    "id": "neo2-10",
+    "name": "Scizor",
+    "setName": "Neo Discovery",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/neo2/10_hires.png"
+  },
+  {
+    "id": "neo2-11",
+    "name": "Smeargle",
+    "setName": "Neo Discovery",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/11_hires.png"
+  },
+  {
+    "id": "neo2-12",
+    "name": "Tyranitar",
+    "setName": "Neo Discovery",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/12_hires.png"
+  },
+  {
+    "id": "neo2-13",
+    "name": "Umbreon",
+    "setName": "Neo Discovery",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/neo2/13_hires.png"
+  },
+  {
+    "id": "neo2-14",
+    "name": "Unown [A]",
+    "setName": "Neo Discovery",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/14_hires.png"
+  },
+  {
+    "id": "neo2-15",
+    "name": "Ursaring",
+    "setName": "Neo Discovery",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/neo2/15_hires.png"
+  },
+  {
+    "id": "neo2-16",
+    "name": "Wobbuffet",
+    "setName": "Neo Discovery",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/16_hires.png"
+  },
+  {
+    "id": "neo2-17",
+    "name": "Yanma",
+    "setName": "Neo Discovery",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/17_hires.png"
+  },
+  {
+    "id": "neo2-18",
+    "name": "Beedrill",
+    "setName": "Neo Discovery",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/neo2/18_hires.png"
+  },
+  {
+    "id": "neo2-19",
+    "name": "Butterfree",
+    "setName": "Neo Discovery",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/19_hires.png"
+  },
+  {
+    "id": "neo2-20",
+    "name": "Espeon",
+    "setName": "Neo Discovery",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/neo2/20_hires.png"
+  },
+  {
+    "id": "neo2-21",
+    "name": "Forretress",
+    "setName": "Neo Discovery",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/21_hires.png"
+  },
+  {
+    "id": "neo2-22",
+    "name": "Hitmontop",
+    "setName": "Neo Discovery",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo2/22_hires.png"
+  },
+  {
+    "id": "neo2-23",
+    "name": "Houndoom",
+    "setName": "Neo Discovery",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/23_hires.png"
+  },
+  {
+    "id": "neo2-24",
+    "name": "Houndour",
+    "setName": "Neo Discovery",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/neo2/24_hires.png"
+  },
+  {
+    "id": "neo2-25",
+    "name": "Kabutops",
+    "setName": "Neo Discovery",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/neo2/25_hires.png"
+  },
+  {
+    "id": "neo2-26",
+    "name": "Magnemite",
+    "setName": "Neo Discovery",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "K. Hoshiba, CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/26_hires.png"
+  },
+  {
+    "id": "neo2-27",
+    "name": "Politoed",
+    "setName": "Neo Discovery",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/neo2/27_hires.png"
+  },
+  {
+    "id": "neo2-28",
+    "name": "Poliwrath",
+    "setName": "Neo Discovery",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/28_hires.png"
+  },
+  {
+    "id": "neo2-29",
+    "name": "Scizor",
+    "setName": "Neo Discovery",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/neo2/29_hires.png"
+  },
+  {
+    "id": "neo2-30",
+    "name": "Smeargle",
+    "setName": "Neo Discovery",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/30_hires.png"
+  },
+  {
+    "id": "neo2-31",
+    "name": "Tyranitar",
+    "setName": "Neo Discovery",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/31_hires.png"
+  },
+  {
+    "id": "neo2-32",
+    "name": "Umbreon",
+    "setName": "Neo Discovery",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/neo2/32_hires.png"
+  },
+  {
+    "id": "neo2-33",
+    "name": "Unown [A]",
+    "setName": "Neo Discovery",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/33_hires.png"
+  },
+  {
+    "id": "neo2-34",
+    "name": "Ursaring",
+    "setName": "Neo Discovery",
+    "number": "34",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/neo2/34_hires.png"
+  },
+  {
+    "id": "neo2-35",
+    "name": "Wobbuffet",
+    "setName": "Neo Discovery",
+    "number": "35",
+    "rarity": "Rare",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/35_hires.png"
+  },
+  {
+    "id": "neo2-36",
+    "name": "Yanma",
+    "setName": "Neo Discovery",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/36_hires.png"
+  },
+  {
+    "id": "neo2-37",
+    "name": "Corsola",
+    "setName": "Neo Discovery",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/neo2/37_hires.png"
+  },
+  {
+    "id": "neo2-38",
+    "name": "Eevee",
+    "setName": "Neo Discovery",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/neo2/38_hires.png"
+  },
+  {
+    "id": "neo2-39",
+    "name": "Houndour",
+    "setName": "Neo Discovery",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/39_hires.png"
+  },
+  {
+    "id": "neo2-40",
+    "name": "Igglybuff",
+    "setName": "Neo Discovery",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/neo2/40_hires.png"
+  },
+  {
+    "id": "neo2-41",
+    "name": "Kakuna",
+    "setName": "Neo Discovery",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/neo2/41_hires.png"
+  },
+  {
+    "id": "neo2-42",
+    "name": "Metapod",
+    "setName": "Neo Discovery",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo2/42_hires.png"
+  },
+  {
+    "id": "neo2-43",
+    "name": "Omastar",
+    "setName": "Neo Discovery",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/43_hires.png"
+  },
+  {
+    "id": "neo2-44",
+    "name": "Poliwhirl",
+    "setName": "Neo Discovery",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/neo2/44_hires.png"
+  },
+  {
+    "id": "neo2-45",
+    "name": "Pupitar",
+    "setName": "Neo Discovery",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/45_hires.png"
+  },
+  {
+    "id": "neo2-46",
+    "name": "Scyther",
+    "setName": "Neo Discovery",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/neo2/46_hires.png"
+  },
+  {
+    "id": "neo2-47",
+    "name": "Unown [D]",
+    "setName": "Neo Discovery",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/47_hires.png"
+  },
+  {
+    "id": "neo2-48",
+    "name": "Unown [F]",
+    "setName": "Neo Discovery",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/48_hires.png"
+  },
+  {
+    "id": "neo2-49",
+    "name": "Unown [M]",
+    "setName": "Neo Discovery",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/49_hires.png"
+  },
+  {
+    "id": "neo2-50",
+    "name": "Unown [N]",
+    "setName": "Neo Discovery",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/50_hires.png"
+  },
+  {
+    "id": "neo2-51",
+    "name": "Unown [U]",
+    "setName": "Neo Discovery",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/51_hires.png"
+  },
+  {
+    "id": "neo2-52",
+    "name": "Xatu",
+    "setName": "Neo Discovery",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo2/52_hires.png"
+  },
+  {
+    "id": "neo2-53",
+    "name": "Caterpie",
+    "setName": "Neo Discovery",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/neo2/53_hires.png"
+  },
+  {
+    "id": "neo2-54",
+    "name": "Dunsparce",
+    "setName": "Neo Discovery",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/neo2/54_hires.png"
+  },
+  {
+    "id": "neo2-55",
+    "name": "Hoppip",
+    "setName": "Neo Discovery",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/neo2/55_hires.png"
+  },
+  {
+    "id": "neo2-56",
+    "name": "Kabuto",
+    "setName": "Neo Discovery",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/neo2/56_hires.png"
+  },
+  {
+    "id": "neo2-57",
+    "name": "Larvitar",
+    "setName": "Neo Discovery",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/57_hires.png"
+  },
+  {
+    "id": "neo2-58",
+    "name": "Mareep",
+    "setName": "Neo Discovery",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/neo2/58_hires.png"
+  },
+  {
+    "id": "neo2-59",
+    "name": "Natu",
+    "setName": "Neo Discovery",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo2/59_hires.png"
+  },
+  {
+    "id": "neo2-60",
+    "name": "Omanyte",
+    "setName": "Neo Discovery",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/neo2/60_hires.png"
+  },
+  {
+    "id": "neo2-61",
+    "name": "Pineco",
+    "setName": "Neo Discovery",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/neo2/61_hires.png"
+  },
+  {
+    "id": "neo2-62",
+    "name": "Poliwag",
+    "setName": "Neo Discovery",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/neo2/62_hires.png"
+  },
+  {
+    "id": "neo2-63",
+    "name": "Sentret",
+    "setName": "Neo Discovery",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/neo2/63_hires.png"
+  },
+  {
+    "id": "neo2-64",
+    "name": "Spinarak",
+    "setName": "Neo Discovery",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/neo2/64_hires.png"
+  },
+  {
+    "id": "neo2-65",
+    "name": "Teddiursa",
+    "setName": "Neo Discovery",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/neo2/65_hires.png"
+  },
+  {
+    "id": "neo2-66",
+    "name": "Tyrogue",
+    "setName": "Neo Discovery",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/neo2/66_hires.png"
+  },
+  {
+    "id": "neo2-67",
+    "name": "Unown [E]",
+    "setName": "Neo Discovery",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/67_hires.png"
+  },
+  {
+    "id": "neo2-68",
+    "name": "Unown [I]",
+    "setName": "Neo Discovery",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/68_hires.png"
+  },
+  {
+    "id": "neo2-69",
+    "name": "Unown [O]",
+    "setName": "Neo Discovery",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/69_hires.png"
+  },
+  {
+    "id": "neo2-70",
+    "name": "Weedle",
+    "setName": "Neo Discovery",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/neo2/70_hires.png"
+  },
+  {
+    "id": "neo2-71",
+    "name": "Wooper",
+    "setName": "Neo Discovery",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/neo2/71_hires.png"
+  },
+  {
+    "id": "neo2-72",
+    "name": "Fossil Egg",
+    "setName": "Neo Discovery",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "K. Hoshiba, CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/72_hires.png"
+  },
+  {
+    "id": "neo2-73",
+    "name": "Hyper Devolution Spray",
+    "setName": "Neo Discovery",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "K. Hoshiba, CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/73_hires.png"
+  },
+  {
+    "id": "neo2-74",
+    "name": "Ruin Wall",
+    "setName": "Neo Discovery",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "\"Big Mama\" Tagawa, CR CG gangs",
+    "imageUrl": "https://images.pokemontcg.io/neo2/74_hires.png"
+  },
+  {
+    "id": "neo2-75",
+    "name": "Energy Ark",
+    "setName": "Neo Discovery",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "\"Big Mama\" Tagawa & Benimaru Itoh",
+    "imageUrl": "https://images.pokemontcg.io/neo2/75_hires.png"
+  }
+]

@@ -1,0 +1,992 @@
+[
+  {
+    "id": "base6-1",
+    "name": "Alakazam",
+    "setName": "Legendary Collection",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/1_hires.png"
+  },
+  {
+    "id": "base6-2",
+    "name": "Articuno",
+    "setName": "Legendary Collection",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/2_hires.png"
+  },
+  {
+    "id": "base6-3",
+    "name": "Charizard",
+    "setName": "Legendary Collection",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/3_hires.png"
+  },
+  {
+    "id": "base6-4",
+    "name": "Dark Blastoise",
+    "setName": "Legendary Collection",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/4_hires.png"
+  },
+  {
+    "id": "base6-5",
+    "name": "Dark Dragonite",
+    "setName": "Legendary Collection",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/5_hires.png"
+  },
+  {
+    "id": "base6-6",
+    "name": "Dark Persian",
+    "setName": "Legendary Collection",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/base6/6_hires.png"
+  },
+  {
+    "id": "base6-7",
+    "name": "Dark Raichu",
+    "setName": "Legendary Collection",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/7_hires.png"
+  },
+  {
+    "id": "base6-8",
+    "name": "Dark Slowbro",
+    "setName": "Legendary Collection",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/8_hires.png"
+  },
+  {
+    "id": "base6-9",
+    "name": "Dark Vaporeon",
+    "setName": "Legendary Collection",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/9_hires.png"
+  },
+  {
+    "id": "base6-10",
+    "name": "Flareon",
+    "setName": "Legendary Collection",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/10_hires.png"
+  },
+  {
+    "id": "base6-11",
+    "name": "Gengar",
+    "setName": "Legendary Collection",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/11_hires.png"
+  },
+  {
+    "id": "base6-12",
+    "name": "Gyarados",
+    "setName": "Legendary Collection",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/12_hires.png"
+  },
+  {
+    "id": "base6-13",
+    "name": "Hitmonlee",
+    "setName": "Legendary Collection",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/13_hires.png"
+  },
+  {
+    "id": "base6-14",
+    "name": "Jolteon",
+    "setName": "Legendary Collection",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/14_hires.png"
+  },
+  {
+    "id": "base6-15",
+    "name": "Machamp",
+    "setName": "Legendary Collection",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/15_hires.png"
+  },
+  {
+    "id": "base6-16",
+    "name": "Muk",
+    "setName": "Legendary Collection",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/16_hires.png"
+  },
+  {
+    "id": "base6-17",
+    "name": "Ninetales",
+    "setName": "Legendary Collection",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/17_hires.png"
+  },
+  {
+    "id": "base6-18",
+    "name": "Venusaur",
+    "setName": "Legendary Collection",
+    "number": "18",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/18_hires.png"
+  },
+  {
+    "id": "base6-19",
+    "name": "Zapdos",
+    "setName": "Legendary Collection",
+    "number": "19",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/19_hires.png"
+  },
+  {
+    "id": "base6-20",
+    "name": "Beedrill",
+    "setName": "Legendary Collection",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/20_hires.png"
+  },
+  {
+    "id": "base6-21",
+    "name": "Butterfree",
+    "setName": "Legendary Collection",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/21_hires.png"
+  },
+  {
+    "id": "base6-22",
+    "name": "Electrode",
+    "setName": "Legendary Collection",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/22_hires.png"
+  },
+  {
+    "id": "base6-23",
+    "name": "Exeggutor",
+    "setName": "Legendary Collection",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/23_hires.png"
+  },
+  {
+    "id": "base6-24",
+    "name": "Golem",
+    "setName": "Legendary Collection",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/24_hires.png"
+  },
+  {
+    "id": "base6-25",
+    "name": "Hypno",
+    "setName": "Legendary Collection",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/25_hires.png"
+  },
+  {
+    "id": "base6-26",
+    "name": "Jynx",
+    "setName": "Legendary Collection",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/26_hires.png"
+  },
+  {
+    "id": "base6-27",
+    "name": "Kabutops",
+    "setName": "Legendary Collection",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/27_hires.png"
+  },
+  {
+    "id": "base6-28",
+    "name": "Magneton",
+    "setName": "Legendary Collection",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/28_hires.png"
+  },
+  {
+    "id": "base6-29",
+    "name": "Mewtwo",
+    "setName": "Legendary Collection",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Christopher Rush",
+    "imageUrl": "https://images.pokemontcg.io/base6/29_hires.png"
+  },
+  {
+    "id": "base6-30",
+    "name": "Moltres",
+    "setName": "Legendary Collection",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/30_hires.png"
+  },
+  {
+    "id": "base6-31",
+    "name": "Nidoking",
+    "setName": "Legendary Collection",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/31_hires.png"
+  },
+  {
+    "id": "base6-32",
+    "name": "Nidoqueen",
+    "setName": "Legendary Collection",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/32_hires.png"
+  },
+  {
+    "id": "base6-33",
+    "name": "Pidgeot",
+    "setName": "Legendary Collection",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/33_hires.png"
+  },
+  {
+    "id": "base6-34",
+    "name": "Pidgeotto",
+    "setName": "Legendary Collection",
+    "number": "34",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/34_hires.png"
+  },
+  {
+    "id": "base6-35",
+    "name": "Rhydon",
+    "setName": "Legendary Collection",
+    "number": "35",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/35_hires.png"
+  },
+  {
+    "id": "base6-36",
+    "name": "Arcanine",
+    "setName": "Legendary Collection",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/36_hires.png"
+  },
+  {
+    "id": "base6-37",
+    "name": "Charmeleon",
+    "setName": "Legendary Collection",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/37_hires.png"
+  },
+  {
+    "id": "base6-38",
+    "name": "Dark Dragonair",
+    "setName": "Legendary Collection",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/38_hires.png"
+  },
+  {
+    "id": "base6-39",
+    "name": "Dark Wartortle",
+    "setName": "Legendary Collection",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/39_hires.png"
+  },
+  {
+    "id": "base6-40",
+    "name": "Dewgong",
+    "setName": "Legendary Collection",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/40_hires.png"
+  },
+  {
+    "id": "base6-41",
+    "name": "Dodrio",
+    "setName": "Legendary Collection",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/41_hires.png"
+  },
+  {
+    "id": "base6-42",
+    "name": "Fearow",
+    "setName": "Legendary Collection",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/42_hires.png"
+  },
+  {
+    "id": "base6-43",
+    "name": "Golduck",
+    "setName": "Legendary Collection",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/43_hires.png"
+  },
+  {
+    "id": "base6-44",
+    "name": "Graveler",
+    "setName": "Legendary Collection",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/44_hires.png"
+  },
+  {
+    "id": "base6-45",
+    "name": "Growlithe",
+    "setName": "Legendary Collection",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/45_hires.png"
+  },
+  {
+    "id": "base6-46",
+    "name": "Haunter",
+    "setName": "Legendary Collection",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/46_hires.png"
+  },
+  {
+    "id": "base6-47",
+    "name": "Ivysaur",
+    "setName": "Legendary Collection",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/47_hires.png"
+  },
+  {
+    "id": "base6-48",
+    "name": "Kabuto",
+    "setName": "Legendary Collection",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/48_hires.png"
+  },
+  {
+    "id": "base6-49",
+    "name": "Kadabra",
+    "setName": "Legendary Collection",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/49_hires.png"
+  },
+  {
+    "id": "base6-50",
+    "name": "Kakuna",
+    "setName": "Legendary Collection",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/50_hires.png"
+  },
+  {
+    "id": "base6-51",
+    "name": "Machoke",
+    "setName": "Legendary Collection",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/51_hires.png"
+  },
+  {
+    "id": "base6-52",
+    "name": "Magikarp",
+    "setName": "Legendary Collection",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/52_hires.png"
+  },
+  {
+    "id": "base6-53",
+    "name": "Meowth",
+    "setName": "Legendary Collection",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/53_hires.png"
+  },
+  {
+    "id": "base6-54",
+    "name": "Metapod",
+    "setName": "Legendary Collection",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/54_hires.png"
+  },
+  {
+    "id": "base6-55",
+    "name": "Nidorina",
+    "setName": "Legendary Collection",
+    "number": "55",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/55_hires.png"
+  },
+  {
+    "id": "base6-56",
+    "name": "Nidorino",
+    "setName": "Legendary Collection",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/56_hires.png"
+  },
+  {
+    "id": "base6-57",
+    "name": "Omanyte",
+    "setName": "Legendary Collection",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/57_hires.png"
+  },
+  {
+    "id": "base6-58",
+    "name": "Omastar",
+    "setName": "Legendary Collection",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/58_hires.png"
+  },
+  {
+    "id": "base6-59",
+    "name": "Primeape",
+    "setName": "Legendary Collection",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/59_hires.png"
+  },
+  {
+    "id": "base6-60",
+    "name": "Rapidash",
+    "setName": "Legendary Collection",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/60_hires.png"
+  },
+  {
+    "id": "base6-61",
+    "name": "Raticate",
+    "setName": "Legendary Collection",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/61_hires.png"
+  },
+  {
+    "id": "base6-62",
+    "name": "Sandslash",
+    "setName": "Legendary Collection",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/62_hires.png"
+  },
+  {
+    "id": "base6-63",
+    "name": "Seadra",
+    "setName": "Legendary Collection",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/63_hires.png"
+  },
+  {
+    "id": "base6-64",
+    "name": "Snorlax",
+    "setName": "Legendary Collection",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/64_hires.png"
+  },
+  {
+    "id": "base6-65",
+    "name": "Tauros",
+    "setName": "Legendary Collection",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/65_hires.png"
+  },
+  {
+    "id": "base6-66",
+    "name": "Tentacruel",
+    "setName": "Legendary Collection",
+    "number": "66",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/66_hires.png"
+  },
+  {
+    "id": "base6-67",
+    "name": "Abra",
+    "setName": "Legendary Collection",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/67_hires.png"
+  },
+  {
+    "id": "base6-68",
+    "name": "Bulbasaur",
+    "setName": "Legendary Collection",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/68_hires.png"
+  },
+  {
+    "id": "base6-69",
+    "name": "Caterpie",
+    "setName": "Legendary Collection",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/69_hires.png"
+  },
+  {
+    "id": "base6-70",
+    "name": "Charmander",
+    "setName": "Legendary Collection",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/70_hires.png"
+  },
+  {
+    "id": "base6-71",
+    "name": "Doduo",
+    "setName": "Legendary Collection",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/71_hires.png"
+  },
+  {
+    "id": "base6-72",
+    "name": "Dratini",
+    "setName": "Legendary Collection",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/72_hires.png"
+  },
+  {
+    "id": "base6-73",
+    "name": "Drowzee",
+    "setName": "Legendary Collection",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/73_hires.png"
+  },
+  {
+    "id": "base6-74",
+    "name": "Eevee",
+    "setName": "Legendary Collection",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/74_hires.png"
+  },
+  {
+    "id": "base6-75",
+    "name": "Exeggcute",
+    "setName": "Legendary Collection",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/75_hires.png"
+  },
+  {
+    "id": "base6-76",
+    "name": "Gastly",
+    "setName": "Legendary Collection",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/76_hires.png"
+  },
+  {
+    "id": "base6-77",
+    "name": "Geodude",
+    "setName": "Legendary Collection",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/77_hires.png"
+  },
+  {
+    "id": "base6-78",
+    "name": "Grimer",
+    "setName": "Legendary Collection",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/78_hires.png"
+  },
+  {
+    "id": "base6-79",
+    "name": "Machop",
+    "setName": "Legendary Collection",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/79_hires.png"
+  },
+  {
+    "id": "base6-80",
+    "name": "Magnemite",
+    "setName": "Legendary Collection",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/80_hires.png"
+  },
+  {
+    "id": "base6-81",
+    "name": "Mankey",
+    "setName": "Legendary Collection",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base6/81_hires.png"
+  },
+  {
+    "id": "base6-82",
+    "name": "Nidoran ♀",
+    "setName": "Legendary Collection",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/82_hires.png"
+  },
+  {
+    "id": "base6-83",
+    "name": "Nidoran ♂",
+    "setName": "Legendary Collection",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/83_hires.png"
+  },
+  {
+    "id": "base6-84",
+    "name": "Onix",
+    "setName": "Legendary Collection",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/84_hires.png"
+  },
+  {
+    "id": "base6-85",
+    "name": "Pidgey",
+    "setName": "Legendary Collection",
+    "number": "85",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/85_hires.png"
+  },
+  {
+    "id": "base6-86",
+    "name": "Pikachu",
+    "setName": "Legendary Collection",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/86_hires.png"
+  },
+  {
+    "id": "base6-87",
+    "name": "Ponyta",
+    "setName": "Legendary Collection",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/87_hires.png"
+  },
+  {
+    "id": "base6-88",
+    "name": "Psyduck",
+    "setName": "Legendary Collection",
+    "number": "88",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/88_hires.png"
+  },
+  {
+    "id": "base6-89",
+    "name": "Rattata",
+    "setName": "Legendary Collection",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/89_hires.png"
+  },
+  {
+    "id": "base6-90",
+    "name": "Rhyhorn",
+    "setName": "Legendary Collection",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/90_hires.png"
+  },
+  {
+    "id": "base6-91",
+    "name": "Sandshrew",
+    "setName": "Legendary Collection",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/91_hires.png"
+  },
+  {
+    "id": "base6-92",
+    "name": "Seel",
+    "setName": "Legendary Collection",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/92_hires.png"
+  },
+  {
+    "id": "base6-93",
+    "name": "Slowpoke",
+    "setName": "Legendary Collection",
+    "number": "93",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/base6/93_hires.png"
+  },
+  {
+    "id": "base6-94",
+    "name": "Spearow",
+    "setName": "Legendary Collection",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/94_hires.png"
+  },
+  {
+    "id": "base6-95",
+    "name": "Squirtle",
+    "setName": "Legendary Collection",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/95_hires.png"
+  },
+  {
+    "id": "base6-96",
+    "name": "Tentacool",
+    "setName": "Legendary Collection",
+    "number": "96",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/96_hires.png"
+  },
+  {
+    "id": "base6-97",
+    "name": "Voltorb",
+    "setName": "Legendary Collection",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/97_hires.png"
+  },
+  {
+    "id": "base6-98",
+    "name": "Vulpix",
+    "setName": "Legendary Collection",
+    "number": "98",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/98_hires.png"
+  },
+  {
+    "id": "base6-99",
+    "name": "Weedle",
+    "setName": "Legendary Collection",
+    "number": "99",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base6/99_hires.png"
+  },
+  {
+    "id": "base6-100",
+    "name": "Full Heal Energy",
+    "setName": "Legendary Collection",
+    "number": "100",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/100_hires.png"
+  },
+  {
+    "id": "base6-101",
+    "name": "Potion Energy",
+    "setName": "Legendary Collection",
+    "number": "101",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/101_hires.png"
+  },
+  {
+    "id": "base6-102",
+    "name": "Pokémon Breeder",
+    "setName": "Legendary Collection",
+    "number": "102",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/102_hires.png"
+  },
+  {
+    "id": "base6-103",
+    "name": "Pokémon Trader",
+    "setName": "Legendary Collection",
+    "number": "103",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/103_hires.png"
+  },
+  {
+    "id": "base6-104",
+    "name": "Scoop Up",
+    "setName": "Legendary Collection",
+    "number": "104",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/104_hires.png"
+  },
+  {
+    "id": "base6-105",
+    "name": "The Boss's Way",
+    "setName": "Legendary Collection",
+    "number": "105",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/105_hires.png"
+  },
+  {
+    "id": "base6-106",
+    "name": "Challenge!",
+    "setName": "Legendary Collection",
+    "number": "106",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base6/106_hires.png"
+  },
+  {
+    "id": "base6-107",
+    "name": "Energy Retrieval",
+    "setName": "Legendary Collection",
+    "number": "107",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/107_hires.png"
+  },
+  {
+    "id": "base6-108",
+    "name": "Bill",
+    "setName": "Legendary Collection",
+    "number": "108",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base6/108_hires.png"
+  },
+  {
+    "id": "base6-109",
+    "name": "Mysterious Fossil",
+    "setName": "Legendary Collection",
+    "number": "109",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/109_hires.png"
+  },
+  {
+    "id": "base6-110",
+    "name": "Potion",
+    "setName": "Legendary Collection",
+    "number": "110",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base6/110_hires.png"
+  }
+]

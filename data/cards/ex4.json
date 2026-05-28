@@ -1,0 +1,875 @@
+[
+  {
+    "id": "ex4-1",
+    "name": "Team Aqua's Cacturne",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "K. Utsunomiya",
+    "imageUrl": "https://images.pokemontcg.io/ex4/1_hires.png"
+  },
+  {
+    "id": "ex4-2",
+    "name": "Team Aqua's Crawdaunt",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex4/2_hires.png"
+  },
+  {
+    "id": "ex4-3",
+    "name": "Team Aqua's Kyogre",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "K. Hoshiba",
+    "imageUrl": "https://images.pokemontcg.io/ex4/3_hires.png"
+  },
+  {
+    "id": "ex4-4",
+    "name": "Team Aqua's Manectric",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "K. Utsunomiya",
+    "imageUrl": "https://images.pokemontcg.io/ex4/4_hires.png"
+  },
+  {
+    "id": "ex4-5",
+    "name": "Team Aqua's Sharpedo",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex4/5_hires.png"
+  },
+  {
+    "id": "ex4-6",
+    "name": "Team Aqua's Walrein",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex4/6_hires.png"
+  },
+  {
+    "id": "ex4-7",
+    "name": "Team Magma's Aggron",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex4/7_hires.png"
+  },
+  {
+    "id": "ex4-8",
+    "name": "Team Magma's Claydol",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Zu-Ka",
+    "imageUrl": "https://images.pokemontcg.io/ex4/8_hires.png"
+  },
+  {
+    "id": "ex4-9",
+    "name": "Team Magma's Groudon",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kazuo Yazawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/9_hires.png"
+  },
+  {
+    "id": "ex4-10",
+    "name": "Team Magma's Houndoom",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex4/10_hires.png"
+  },
+  {
+    "id": "ex4-11",
+    "name": "Team Magma's Rhydon",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "T. Honda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/11_hires.png"
+  },
+  {
+    "id": "ex4-12",
+    "name": "Team Magma's Torkoal",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "K. Hoshiba",
+    "imageUrl": "https://images.pokemontcg.io/ex4/12_hires.png"
+  },
+  {
+    "id": "ex4-13",
+    "name": "Raichu",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/13_hires.png"
+  },
+  {
+    "id": "ex4-14",
+    "name": "Team Aqua's Crawdaunt",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex4/14_hires.png"
+  },
+  {
+    "id": "ex4-15",
+    "name": "Team Aqua's Mightyena",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/15_hires.png"
+  },
+  {
+    "id": "ex4-16",
+    "name": "Team Aqua's Sealeo",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "T. Honda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/16_hires.png"
+  },
+  {
+    "id": "ex4-17",
+    "name": "Team Aqua's Seviper",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Jungo Suzuki",
+    "imageUrl": "https://images.pokemontcg.io/ex4/17_hires.png"
+  },
+  {
+    "id": "ex4-18",
+    "name": "Team Aqua's Sharpedo",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex4/18_hires.png"
+  },
+  {
+    "id": "ex4-19",
+    "name": "Team Magma's Camerupt",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex4/19_hires.png"
+  },
+  {
+    "id": "ex4-20",
+    "name": "Team Magma's Lairon",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex4/20_hires.png"
+  },
+  {
+    "id": "ex4-21",
+    "name": "Team Magma's Mightyena",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/21_hires.png"
+  },
+  {
+    "id": "ex4-22",
+    "name": "Team Magma's Rhydon",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "T. Honda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/22_hires.png"
+  },
+  {
+    "id": "ex4-23",
+    "name": "Team Magma's Zangoose",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Zu-Ka",
+    "imageUrl": "https://images.pokemontcg.io/ex4/23_hires.png"
+  },
+  {
+    "id": "ex4-24",
+    "name": "Team Aqua's Cacnea",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "24",
+    "rarity": "Uncommon",
+    "artist": "K. Utsunomiya",
+    "imageUrl": "https://images.pokemontcg.io/ex4/24_hires.png"
+  },
+  {
+    "id": "ex4-25",
+    "name": "Team Aqua's Carvanha",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "Mt. TBT",
+    "imageUrl": "https://images.pokemontcg.io/ex4/25_hires.png"
+  },
+  {
+    "id": "ex4-26",
+    "name": "Team Aqua's Corphish",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "26",
+    "rarity": "Uncommon",
+    "artist": "Jungo Suzuki",
+    "imageUrl": "https://images.pokemontcg.io/ex4/26_hires.png"
+  },
+  {
+    "id": "ex4-27",
+    "name": "Team Aqua's Electrike",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "M. Akiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex4/27_hires.png"
+  },
+  {
+    "id": "ex4-28",
+    "name": "Team Aqua's Lanturn",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Jungo Suzuki",
+    "imageUrl": "https://images.pokemontcg.io/ex4/28_hires.png"
+  },
+  {
+    "id": "ex4-29",
+    "name": "Team Aqua's Manectric",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "K. Utsunomiya",
+    "imageUrl": "https://images.pokemontcg.io/ex4/29_hires.png"
+  },
+  {
+    "id": "ex4-30",
+    "name": "Team Aqua's Mightyena",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/30_hires.png"
+  },
+  {
+    "id": "ex4-31",
+    "name": "Team Aqua's Sealeo",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "T. Honda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/31_hires.png"
+  },
+  {
+    "id": "ex4-32",
+    "name": "Team Magma's Baltoy",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Ujiie",
+    "imageUrl": "https://images.pokemontcg.io/ex4/32_hires.png"
+  },
+  {
+    "id": "ex4-33",
+    "name": "Team Magma's Claydol",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Zu-Ka",
+    "imageUrl": "https://images.pokemontcg.io/ex4/33_hires.png"
+  },
+  {
+    "id": "ex4-34",
+    "name": "Team Magma's Houndoom",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex4/34_hires.png"
+  },
+  {
+    "id": "ex4-35",
+    "name": "Team Magma's Houndour",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Ujiie",
+    "imageUrl": "https://images.pokemontcg.io/ex4/35_hires.png"
+  },
+  {
+    "id": "ex4-36",
+    "name": "Team Magma's Lairon",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex4/36_hires.png"
+  },
+  {
+    "id": "ex4-37",
+    "name": "Team Magma's Mightyena",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/37_hires.png"
+  },
+  {
+    "id": "ex4-38",
+    "name": "Team Magma's Rhyhorn",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Mt. TBT",
+    "imageUrl": "https://images.pokemontcg.io/ex4/38_hires.png"
+  },
+  {
+    "id": "ex4-39",
+    "name": "Bulbasaur",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/39_hires.png"
+  },
+  {
+    "id": "ex4-40",
+    "name": "Cubone",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "40",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/40_hires.png"
+  },
+  {
+    "id": "ex4-41",
+    "name": "Jigglypuff",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/41_hires.png"
+  },
+  {
+    "id": "ex4-42",
+    "name": "Meowth",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/42_hires.png"
+  },
+  {
+    "id": "ex4-43",
+    "name": "Pikachu",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/43_hires.png"
+  },
+  {
+    "id": "ex4-44",
+    "name": "Psyduck",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/44_hires.png"
+  },
+  {
+    "id": "ex4-45",
+    "name": "Slowpoke",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/45_hires.png"
+  },
+  {
+    "id": "ex4-46",
+    "name": "Squirtle",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/46_hires.png"
+  },
+  {
+    "id": "ex4-47",
+    "name": "Team Aqua's Carvanha",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Yosuke Da Silva",
+    "imageUrl": "https://images.pokemontcg.io/ex4/47_hires.png"
+  },
+  {
+    "id": "ex4-48",
+    "name": "Team Aqua's Carvanha",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex4/48_hires.png"
+  },
+  {
+    "id": "ex4-49",
+    "name": "Team Aqua's Chinchou",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Kazuo Yazawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/49_hires.png"
+  },
+  {
+    "id": "ex4-50",
+    "name": "Team Aqua's Corphish",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Jungo Suzuki",
+    "imageUrl": "https://images.pokemontcg.io/ex4/50_hires.png"
+  },
+  {
+    "id": "ex4-51",
+    "name": "Team Aqua's Corphish",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Jungo Suzuki",
+    "imageUrl": "https://images.pokemontcg.io/ex4/51_hires.png"
+  },
+  {
+    "id": "ex4-52",
+    "name": "Team Aqua's Electrike",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "M. Akiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex4/52_hires.png"
+  },
+  {
+    "id": "ex4-53",
+    "name": "Team Aqua's Electrike",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "M. Akiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex4/53_hires.png"
+  },
+  {
+    "id": "ex4-54",
+    "name": "Team Aqua's Poochyena",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/54_hires.png"
+  },
+  {
+    "id": "ex4-55",
+    "name": "Team Aqua's Poochyena",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/55_hires.png"
+  },
+  {
+    "id": "ex4-56",
+    "name": "Team Aqua's Spheal",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex4/56_hires.png"
+  },
+  {
+    "id": "ex4-57",
+    "name": "Team Aqua's Spheal",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex4/57_hires.png"
+  },
+  {
+    "id": "ex4-58",
+    "name": "Team Magma's Aron",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex4/58_hires.png"
+  },
+  {
+    "id": "ex4-59",
+    "name": "Team Magma's Aron",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex4/59_hires.png"
+  },
+  {
+    "id": "ex4-60",
+    "name": "Team Magma's Baltoy",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Atsuko Ujiie",
+    "imageUrl": "https://images.pokemontcg.io/ex4/60_hires.png"
+  },
+  {
+    "id": "ex4-61",
+    "name": "Team Magma's Baltoy",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Atsuko Ujiie",
+    "imageUrl": "https://images.pokemontcg.io/ex4/61_hires.png"
+  },
+  {
+    "id": "ex4-62",
+    "name": "Team Magma's Houndour",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Atsuko Ujiie",
+    "imageUrl": "https://images.pokemontcg.io/ex4/62_hires.png"
+  },
+  {
+    "id": "ex4-63",
+    "name": "Team Magma's Houndour",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Atsuko Ujiie",
+    "imageUrl": "https://images.pokemontcg.io/ex4/63_hires.png"
+  },
+  {
+    "id": "ex4-64",
+    "name": "Team Magma's Numel",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex4/64_hires.png"
+  },
+  {
+    "id": "ex4-65",
+    "name": "Team Magma's Poochyena",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/65_hires.png"
+  },
+  {
+    "id": "ex4-66",
+    "name": "Team Magma's Poochyena",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/66_hires.png"
+  },
+  {
+    "id": "ex4-67",
+    "name": "Team Magma's Rhyhorn",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Yosuke Da Silva",
+    "imageUrl": "https://images.pokemontcg.io/ex4/67_hires.png"
+  },
+  {
+    "id": "ex4-68",
+    "name": "Team Magma's Rhyhorn",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Yosuke Da Silva",
+    "imageUrl": "https://images.pokemontcg.io/ex4/68_hires.png"
+  },
+  {
+    "id": "ex4-69",
+    "name": "Team Aqua Schemer",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/69_hires.png"
+  },
+  {
+    "id": "ex4-70",
+    "name": "Team Magma Schemer",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/70_hires.png"
+  },
+  {
+    "id": "ex4-71",
+    "name": "Archie",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "71",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/71_hires.png"
+  },
+  {
+    "id": "ex4-72",
+    "name": "Dual Ball",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "\"Big Mama\" Tagawa",
+    "imageUrl": "https://images.pokemontcg.io/ex4/72_hires.png"
+  },
+  {
+    "id": "ex4-73",
+    "name": "Maxie",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/73_hires.png"
+  },
+  {
+    "id": "ex4-74",
+    "name": "Strength Charm",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex4/74_hires.png"
+  },
+  {
+    "id": "ex4-75",
+    "name": "Team Aqua Ball",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/75_hires.png"
+  },
+  {
+    "id": "ex4-76",
+    "name": "Team Aqua Belt",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex4/76_hires.png"
+  },
+  {
+    "id": "ex4-77",
+    "name": "Team Aqua Conspirator",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/77_hires.png"
+  },
+  {
+    "id": "ex4-78",
+    "name": "Team Aqua Hideout",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex4/78_hires.png"
+  },
+  {
+    "id": "ex4-79",
+    "name": "Team Aqua Technical Machine 01",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex4/79_hires.png"
+  },
+  {
+    "id": "ex4-80",
+    "name": "Team Magma Ball",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/80_hires.png"
+  },
+  {
+    "id": "ex4-81",
+    "name": "Team Magma Belt",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex4/81_hires.png"
+  },
+  {
+    "id": "ex4-82",
+    "name": "Team Magma Conspirator",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex4/82_hires.png"
+  },
+  {
+    "id": "ex4-83",
+    "name": "Team Magma Hideout",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex4/83_hires.png"
+  },
+  {
+    "id": "ex4-84",
+    "name": "Team Magma Technical Machine 01",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex4/84_hires.png"
+  },
+  {
+    "id": "ex4-85",
+    "name": "Warp Point",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex4/85_hires.png"
+  },
+  {
+    "id": "ex4-86",
+    "name": "Aqua Energy",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex4/86_hires.png"
+  },
+  {
+    "id": "ex4-87",
+    "name": "Magma Energy",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex4/87_hires.png"
+  },
+  {
+    "id": "ex4-88",
+    "name": "Double Rainbow Energy",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "88",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex4/88_hires.png"
+  },
+  {
+    "id": "ex4-89",
+    "name": "Blaziken ex",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "89",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex4/89_hires.png"
+  },
+  {
+    "id": "ex4-90",
+    "name": "Cradily ex",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "90",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/90_hires.png"
+  },
+  {
+    "id": "ex4-91",
+    "name": "Entei ex",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "91",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/91_hires.png"
+  },
+  {
+    "id": "ex4-92",
+    "name": "Raikou ex",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "92",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/92_hires.png"
+  },
+  {
+    "id": "ex4-93",
+    "name": "Sceptile ex",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "93",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex4/93_hires.png"
+  },
+  {
+    "id": "ex4-94",
+    "name": "Suicune ex",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "94",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex4/94_hires.png"
+  },
+  {
+    "id": "ex4-95",
+    "name": "Swampert ex",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "95",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex4/95_hires.png"
+  },
+  {
+    "id": "ex4-96",
+    "name": "Absol",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "96",
+    "rarity": "Rare Secret",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex4/96_hires.png"
+  },
+  {
+    "id": "ex4-97",
+    "name": "Jirachi",
+    "setName": "Team Magma vs Team Aqua",
+    "number": "97",
+    "rarity": "Rare Secret",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex4/97_hires.png"
+  }
+]

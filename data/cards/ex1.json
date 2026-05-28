@@ -1,0 +1,983 @@
+[
+  {
+    "id": "ex1-1",
+    "name": "Aggron",
+    "setName": "Ruby & Sapphire",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/1_hires.png"
+  },
+  {
+    "id": "ex1-2",
+    "name": "Beautifly",
+    "setName": "Ruby & Sapphire",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/2_hires.png"
+  },
+  {
+    "id": "ex1-3",
+    "name": "Blaziken",
+    "setName": "Ruby & Sapphire",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex1/3_hires.png"
+  },
+  {
+    "id": "ex1-4",
+    "name": "Camerupt",
+    "setName": "Ruby & Sapphire",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/4_hires.png"
+  },
+  {
+    "id": "ex1-5",
+    "name": "Delcatty",
+    "setName": "Ruby & Sapphire",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/5_hires.png"
+  },
+  {
+    "id": "ex1-6",
+    "name": "Dustox",
+    "setName": "Ruby & Sapphire",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex1/6_hires.png"
+  },
+  {
+    "id": "ex1-7",
+    "name": "Gardevoir",
+    "setName": "Ruby & Sapphire",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/7_hires.png"
+  },
+  {
+    "id": "ex1-8",
+    "name": "Hariyama",
+    "setName": "Ruby & Sapphire",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex1/8_hires.png"
+  },
+  {
+    "id": "ex1-9",
+    "name": "Manectric",
+    "setName": "Ruby & Sapphire",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/9_hires.png"
+  },
+  {
+    "id": "ex1-10",
+    "name": "Mightyena",
+    "setName": "Ruby & Sapphire",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/10_hires.png"
+  },
+  {
+    "id": "ex1-11",
+    "name": "Sceptile",
+    "setName": "Ruby & Sapphire",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex1/11_hires.png"
+  },
+  {
+    "id": "ex1-12",
+    "name": "Slaking",
+    "setName": "Ruby & Sapphire",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/12_hires.png"
+  },
+  {
+    "id": "ex1-13",
+    "name": "Swampert",
+    "setName": "Ruby & Sapphire",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/13_hires.png"
+  },
+  {
+    "id": "ex1-14",
+    "name": "Wailord",
+    "setName": "Ruby & Sapphire",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/14_hires.png"
+  },
+  {
+    "id": "ex1-15",
+    "name": "Blaziken",
+    "setName": "Ruby & Sapphire",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/15_hires.png"
+  },
+  {
+    "id": "ex1-16",
+    "name": "Breloom",
+    "setName": "Ruby & Sapphire",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/16_hires.png"
+  },
+  {
+    "id": "ex1-17",
+    "name": "Donphan",
+    "setName": "Ruby & Sapphire",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex1/17_hires.png"
+  },
+  {
+    "id": "ex1-18",
+    "name": "Nosepass",
+    "setName": "Ruby & Sapphire",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/18_hires.png"
+  },
+  {
+    "id": "ex1-19",
+    "name": "Pelipper",
+    "setName": "Ruby & Sapphire",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex1/19_hires.png"
+  },
+  {
+    "id": "ex1-20",
+    "name": "Sceptile",
+    "setName": "Ruby & Sapphire",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/20_hires.png"
+  },
+  {
+    "id": "ex1-21",
+    "name": "Seaking",
+    "setName": "Ruby & Sapphire",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/21_hires.png"
+  },
+  {
+    "id": "ex1-22",
+    "name": "Sharpedo",
+    "setName": "Ruby & Sapphire",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/22_hires.png"
+  },
+  {
+    "id": "ex1-23",
+    "name": "Swampert",
+    "setName": "Ruby & Sapphire",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/23_hires.png"
+  },
+  {
+    "id": "ex1-24",
+    "name": "Weezing",
+    "setName": "Ruby & Sapphire",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/24_hires.png"
+  },
+  {
+    "id": "ex1-25",
+    "name": "Aron",
+    "setName": "Ruby & Sapphire",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex1/25_hires.png"
+  },
+  {
+    "id": "ex1-26",
+    "name": "Cascoon",
+    "setName": "Ruby & Sapphire",
+    "number": "26",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex1/26_hires.png"
+  },
+  {
+    "id": "ex1-27",
+    "name": "Combusken",
+    "setName": "Ruby & Sapphire",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex1/27_hires.png"
+  },
+  {
+    "id": "ex1-28",
+    "name": "Combusken",
+    "setName": "Ruby & Sapphire",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/28_hires.png"
+  },
+  {
+    "id": "ex1-29",
+    "name": "Delcatty",
+    "setName": "Ruby & Sapphire",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/29_hires.png"
+  },
+  {
+    "id": "ex1-30",
+    "name": "Electrike",
+    "setName": "Ruby & Sapphire",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/30_hires.png"
+  },
+  {
+    "id": "ex1-31",
+    "name": "Grovyle",
+    "setName": "Ruby & Sapphire",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex1/31_hires.png"
+  },
+  {
+    "id": "ex1-32",
+    "name": "Grovyle",
+    "setName": "Ruby & Sapphire",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/32_hires.png"
+  },
+  {
+    "id": "ex1-33",
+    "name": "Hariyama",
+    "setName": "Ruby & Sapphire",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/33_hires.png"
+  },
+  {
+    "id": "ex1-34",
+    "name": "Kirlia",
+    "setName": "Ruby & Sapphire",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/34_hires.png"
+  },
+  {
+    "id": "ex1-35",
+    "name": "Kirlia",
+    "setName": "Ruby & Sapphire",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/35_hires.png"
+  },
+  {
+    "id": "ex1-36",
+    "name": "Lairon",
+    "setName": "Ruby & Sapphire",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/36_hires.png"
+  },
+  {
+    "id": "ex1-37",
+    "name": "Lairon",
+    "setName": "Ruby & Sapphire",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/37_hires.png"
+  },
+  {
+    "id": "ex1-38",
+    "name": "Linoone",
+    "setName": "Ruby & Sapphire",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/38_hires.png"
+  },
+  {
+    "id": "ex1-39",
+    "name": "Manectric",
+    "setName": "Ruby & Sapphire",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/39_hires.png"
+  },
+  {
+    "id": "ex1-40",
+    "name": "Marshtomp",
+    "setName": "Ruby & Sapphire",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/40_hires.png"
+  },
+  {
+    "id": "ex1-41",
+    "name": "Marshtomp",
+    "setName": "Ruby & Sapphire",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/41_hires.png"
+  },
+  {
+    "id": "ex1-42",
+    "name": "Mightyena",
+    "setName": "Ruby & Sapphire",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/42_hires.png"
+  },
+  {
+    "id": "ex1-43",
+    "name": "Silcoon",
+    "setName": "Ruby & Sapphire",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/43_hires.png"
+  },
+  {
+    "id": "ex1-44",
+    "name": "Skitty",
+    "setName": "Ruby & Sapphire",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex1/44_hires.png"
+  },
+  {
+    "id": "ex1-45",
+    "name": "Slakoth",
+    "setName": "Ruby & Sapphire",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex1/45_hires.png"
+  },
+  {
+    "id": "ex1-46",
+    "name": "Swellow",
+    "setName": "Ruby & Sapphire",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/46_hires.png"
+  },
+  {
+    "id": "ex1-47",
+    "name": "Vigoroth",
+    "setName": "Ruby & Sapphire",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex1/47_hires.png"
+  },
+  {
+    "id": "ex1-48",
+    "name": "Wailmer",
+    "setName": "Ruby & Sapphire",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/48_hires.png"
+  },
+  {
+    "id": "ex1-49",
+    "name": "Aron",
+    "setName": "Ruby & Sapphire",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/49_hires.png"
+  },
+  {
+    "id": "ex1-50",
+    "name": "Aron",
+    "setName": "Ruby & Sapphire",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/50_hires.png"
+  },
+  {
+    "id": "ex1-51",
+    "name": "Carvanha",
+    "setName": "Ruby & Sapphire",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/51_hires.png"
+  },
+  {
+    "id": "ex1-52",
+    "name": "Electrike",
+    "setName": "Ruby & Sapphire",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/52_hires.png"
+  },
+  {
+    "id": "ex1-53",
+    "name": "Electrike",
+    "setName": "Ruby & Sapphire",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/53_hires.png"
+  },
+  {
+    "id": "ex1-54",
+    "name": "Koffing",
+    "setName": "Ruby & Sapphire",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/54_hires.png"
+  },
+  {
+    "id": "ex1-55",
+    "name": "Goldeen",
+    "setName": "Ruby & Sapphire",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/55_hires.png"
+  },
+  {
+    "id": "ex1-56",
+    "name": "Makuhita",
+    "setName": "Ruby & Sapphire",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/56_hires.png"
+  },
+  {
+    "id": "ex1-57",
+    "name": "Makuhita",
+    "setName": "Ruby & Sapphire",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex1/57_hires.png"
+  },
+  {
+    "id": "ex1-58",
+    "name": "Makuhita",
+    "setName": "Ruby & Sapphire",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex1/58_hires.png"
+  },
+  {
+    "id": "ex1-59",
+    "name": "Mudkip",
+    "setName": "Ruby & Sapphire",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex1/59_hires.png"
+  },
+  {
+    "id": "ex1-60",
+    "name": "Mudkip",
+    "setName": "Ruby & Sapphire",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/60_hires.png"
+  },
+  {
+    "id": "ex1-61",
+    "name": "Numel",
+    "setName": "Ruby & Sapphire",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/61_hires.png"
+  },
+  {
+    "id": "ex1-62",
+    "name": "Phanpy",
+    "setName": "Ruby & Sapphire",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex1/62_hires.png"
+  },
+  {
+    "id": "ex1-63",
+    "name": "Poochyena",
+    "setName": "Ruby & Sapphire",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/63_hires.png"
+  },
+  {
+    "id": "ex1-64",
+    "name": "Poochyena",
+    "setName": "Ruby & Sapphire",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/64_hires.png"
+  },
+  {
+    "id": "ex1-65",
+    "name": "Poochyena",
+    "setName": "Ruby & Sapphire",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex1/65_hires.png"
+  },
+  {
+    "id": "ex1-66",
+    "name": "Ralts",
+    "setName": "Ruby & Sapphire",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/66_hires.png"
+  },
+  {
+    "id": "ex1-67",
+    "name": "Ralts",
+    "setName": "Ruby & Sapphire",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/67_hires.png"
+  },
+  {
+    "id": "ex1-68",
+    "name": "Ralts",
+    "setName": "Ruby & Sapphire",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex1/68_hires.png"
+  },
+  {
+    "id": "ex1-69",
+    "name": "Shroomish",
+    "setName": "Ruby & Sapphire",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/69_hires.png"
+  },
+  {
+    "id": "ex1-70",
+    "name": "Skitty",
+    "setName": "Ruby & Sapphire",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/70_hires.png"
+  },
+  {
+    "id": "ex1-71",
+    "name": "Skitty",
+    "setName": "Ruby & Sapphire",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/71_hires.png"
+  },
+  {
+    "id": "ex1-72",
+    "name": "Taillow",
+    "setName": "Ruby & Sapphire",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex1/72_hires.png"
+  },
+  {
+    "id": "ex1-73",
+    "name": "Torchic",
+    "setName": "Ruby & Sapphire",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/73_hires.png"
+  },
+  {
+    "id": "ex1-74",
+    "name": "Torchic",
+    "setName": "Ruby & Sapphire",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex1/74_hires.png"
+  },
+  {
+    "id": "ex1-75",
+    "name": "Treecko",
+    "setName": "Ruby & Sapphire",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex1/75_hires.png"
+  },
+  {
+    "id": "ex1-76",
+    "name": "Treecko",
+    "setName": "Ruby & Sapphire",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/76_hires.png"
+  },
+  {
+    "id": "ex1-77",
+    "name": "Wingull",
+    "setName": "Ruby & Sapphire",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex1/77_hires.png"
+  },
+  {
+    "id": "ex1-78",
+    "name": "Wurmple",
+    "setName": "Ruby & Sapphire",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/78_hires.png"
+  },
+  {
+    "id": "ex1-79",
+    "name": "Zigzagoon",
+    "setName": "Ruby & Sapphire",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex1/79_hires.png"
+  },
+  {
+    "id": "ex1-80",
+    "name": "Energy Removal 2",
+    "setName": "Ruby & Sapphire",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex1/80_hires.png"
+  },
+  {
+    "id": "ex1-81",
+    "name": "Energy Restore",
+    "setName": "Ruby & Sapphire",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Hideyuki Nakajima",
+    "imageUrl": "https://images.pokemontcg.io/ex1/81_hires.png"
+  },
+  {
+    "id": "ex1-82",
+    "name": "Energy Switch",
+    "setName": "Ruby & Sapphire",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Ken Ikuji",
+    "imageUrl": "https://images.pokemontcg.io/ex1/82_hires.png"
+  },
+  {
+    "id": "ex1-83",
+    "name": "Lady Outing",
+    "setName": "Ruby & Sapphire",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/83_hires.png"
+  },
+  {
+    "id": "ex1-84",
+    "name": "Lum Berry",
+    "setName": "Ruby & Sapphire",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Kazuo Yazawa",
+    "imageUrl": "https://images.pokemontcg.io/ex1/84_hires.png"
+  },
+  {
+    "id": "ex1-85",
+    "name": "Oran Berry",
+    "setName": "Ruby & Sapphire",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Kazuo Yazawa",
+    "imageUrl": "https://images.pokemontcg.io/ex1/85_hires.png"
+  },
+  {
+    "id": "ex1-86",
+    "name": "Poké Ball",
+    "setName": "Ruby & Sapphire",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "K. Hoshiba",
+    "imageUrl": "https://images.pokemontcg.io/ex1/86_hires.png"
+  },
+  {
+    "id": "ex1-87",
+    "name": "Pokémon Reversal",
+    "setName": "Ruby & Sapphire",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex1/87_hires.png"
+  },
+  {
+    "id": "ex1-88",
+    "name": "PokéNav",
+    "setName": "Ruby & Sapphire",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex1/88_hires.png"
+  },
+  {
+    "id": "ex1-89",
+    "name": "Professor Birch",
+    "setName": "Ruby & Sapphire",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex1/89_hires.png"
+  },
+  {
+    "id": "ex1-90",
+    "name": "Energy Search",
+    "setName": "Ruby & Sapphire",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "Kai Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex1/90_hires.png"
+  },
+  {
+    "id": "ex1-91",
+    "name": "Potion",
+    "setName": "Ruby & Sapphire",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex1/91_hires.png"
+  },
+  {
+    "id": "ex1-92",
+    "name": "Switch",
+    "setName": "Ruby & Sapphire",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex1/92_hires.png"
+  },
+  {
+    "id": "ex1-93",
+    "name": "Darkness Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "93",
+    "rarity": "Rare",
+    "artist": "Milky Isobe",
+    "imageUrl": "https://images.pokemontcg.io/ex1/93_hires.png"
+  },
+  {
+    "id": "ex1-94",
+    "name": "Metal Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "94",
+    "rarity": "Rare",
+    "artist": "Milky Isobe",
+    "imageUrl": "https://images.pokemontcg.io/ex1/94_hires.png"
+  },
+  {
+    "id": "ex1-95",
+    "name": "Rainbow Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "95",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex1/95_hires.png"
+  },
+  {
+    "id": "ex1-96",
+    "name": "Chansey ex",
+    "setName": "Ruby & Sapphire",
+    "number": "96",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex1/96_hires.png"
+  },
+  {
+    "id": "ex1-97",
+    "name": "Electabuzz ex",
+    "setName": "Ruby & Sapphire",
+    "number": "97",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex1/97_hires.png"
+  },
+  {
+    "id": "ex1-98",
+    "name": "Hitmonchan ex",
+    "setName": "Ruby & Sapphire",
+    "number": "98",
+    "rarity": "Rare Holo EX",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex1/98_hires.png"
+  },
+  {
+    "id": "ex1-99",
+    "name": "Lapras ex",
+    "setName": "Ruby & Sapphire",
+    "number": "99",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex1/99_hires.png"
+  },
+  {
+    "id": "ex1-100",
+    "name": "Magmar ex",
+    "setName": "Ruby & Sapphire",
+    "number": "100",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex1/100_hires.png"
+  },
+  {
+    "id": "ex1-101",
+    "name": "Mewtwo ex",
+    "setName": "Ruby & Sapphire",
+    "number": "101",
+    "rarity": "Rare Holo EX",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex1/101_hires.png"
+  },
+  {
+    "id": "ex1-102",
+    "name": "Scyther ex",
+    "setName": "Ruby & Sapphire",
+    "number": "102",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex1/102_hires.png"
+  },
+  {
+    "id": "ex1-103",
+    "name": "Sneasel ex",
+    "setName": "Ruby & Sapphire",
+    "number": "103",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex1/103_hires.png"
+  },
+  {
+    "id": "ex1-104",
+    "name": "Grass Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "104",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex1/104_hires.png"
+  },
+  {
+    "id": "ex1-105",
+    "name": "Fighting Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "105",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex1/105_hires.png"
+  },
+  {
+    "id": "ex1-106",
+    "name": "Water Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "106",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex1/106_hires.png"
+  },
+  {
+    "id": "ex1-107",
+    "name": "Psychic Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "107",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex1/107_hires.png"
+  },
+  {
+    "id": "ex1-108",
+    "name": "Fire Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "108",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex1/108_hires.png"
+  },
+  {
+    "id": "ex1-109",
+    "name": "Lightning Energy",
+    "setName": "Ruby & Sapphire",
+    "number": "109",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/ex1/109_hires.png"
+  }
+]

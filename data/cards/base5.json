@@ -1,0 +1,749 @@
+[
+  {
+    "id": "base5-1",
+    "name": "Dark Alakazam",
+    "setName": "Team Rocket",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/1_hires.png"
+  },
+  {
+    "id": "base5-2",
+    "name": "Dark Arbok",
+    "setName": "Team Rocket",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/2_hires.png"
+  },
+  {
+    "id": "base5-3",
+    "name": "Dark Blastoise",
+    "setName": "Team Rocket",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/3_hires.png"
+  },
+  {
+    "id": "base5-4",
+    "name": "Dark Charizard",
+    "setName": "Team Rocket",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/4_hires.png"
+  },
+  {
+    "id": "base5-5",
+    "name": "Dark Dragonite",
+    "setName": "Team Rocket",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/5_hires.png"
+  },
+  {
+    "id": "base5-6",
+    "name": "Dark Dugtrio",
+    "setName": "Team Rocket",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/6_hires.png"
+  },
+  {
+    "id": "base5-7",
+    "name": "Dark Golbat",
+    "setName": "Team Rocket",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/7_hires.png"
+  },
+  {
+    "id": "base5-8",
+    "name": "Dark Gyarados",
+    "setName": "Team Rocket",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/8_hires.png"
+  },
+  {
+    "id": "base5-9",
+    "name": "Dark Hypno",
+    "setName": "Team Rocket",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/9_hires.png"
+  },
+  {
+    "id": "base5-10",
+    "name": "Dark Machamp",
+    "setName": "Team Rocket",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/10_hires.png"
+  },
+  {
+    "id": "base5-11",
+    "name": "Dark Magneton",
+    "setName": "Team Rocket",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/base5/11_hires.png"
+  },
+  {
+    "id": "base5-12",
+    "name": "Dark Slowbro",
+    "setName": "Team Rocket",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/12_hires.png"
+  },
+  {
+    "id": "base5-13",
+    "name": "Dark Vileplume",
+    "setName": "Team Rocket",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/13_hires.png"
+  },
+  {
+    "id": "base5-14",
+    "name": "Dark Weezing",
+    "setName": "Team Rocket",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/base5/14_hires.png"
+  },
+  {
+    "id": "base5-15",
+    "name": "Here Comes Team Rocket!",
+    "setName": "Team Rocket",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/15_hires.png"
+  },
+  {
+    "id": "base5-16",
+    "name": "Rocket's Sneak Attack",
+    "setName": "Team Rocket",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/16_hires.png"
+  },
+  {
+    "id": "base5-17",
+    "name": "Rainbow Energy",
+    "setName": "Team Rocket",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/base5/17_hires.png"
+  },
+  {
+    "id": "base5-18",
+    "name": "Dark Alakazam",
+    "setName": "Team Rocket",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/18_hires.png"
+  },
+  {
+    "id": "base5-19",
+    "name": "Dark Arbok",
+    "setName": "Team Rocket",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/19_hires.png"
+  },
+  {
+    "id": "base5-20",
+    "name": "Dark Blastoise",
+    "setName": "Team Rocket",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/20_hires.png"
+  },
+  {
+    "id": "base5-21",
+    "name": "Dark Charizard",
+    "setName": "Team Rocket",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/21_hires.png"
+  },
+  {
+    "id": "base5-22",
+    "name": "Dark Dragonite",
+    "setName": "Team Rocket",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/22_hires.png"
+  },
+  {
+    "id": "base5-23",
+    "name": "Dark Dugtrio",
+    "setName": "Team Rocket",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/23_hires.png"
+  },
+  {
+    "id": "base5-24",
+    "name": "Dark Golbat",
+    "setName": "Team Rocket",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/24_hires.png"
+  },
+  {
+    "id": "base5-25",
+    "name": "Dark Gyarados",
+    "setName": "Team Rocket",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/25_hires.png"
+  },
+  {
+    "id": "base5-26",
+    "name": "Dark Hypno",
+    "setName": "Team Rocket",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/26_hires.png"
+  },
+  {
+    "id": "base5-27",
+    "name": "Dark Machamp",
+    "setName": "Team Rocket",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/27_hires.png"
+  },
+  {
+    "id": "base5-28",
+    "name": "Dark Magneton",
+    "setName": "Team Rocket",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/base5/28_hires.png"
+  },
+  {
+    "id": "base5-29",
+    "name": "Dark Slowbro",
+    "setName": "Team Rocket",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/29_hires.png"
+  },
+  {
+    "id": "base5-30",
+    "name": "Dark Vileplume",
+    "setName": "Team Rocket",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/30_hires.png"
+  },
+  {
+    "id": "base5-31",
+    "name": "Dark Weezing",
+    "setName": "Team Rocket",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/base5/31_hires.png"
+  },
+  {
+    "id": "base5-32",
+    "name": "Dark Charmeleon",
+    "setName": "Team Rocket",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/32_hires.png"
+  },
+  {
+    "id": "base5-33",
+    "name": "Dark Dragonair",
+    "setName": "Team Rocket",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/33_hires.png"
+  },
+  {
+    "id": "base5-34",
+    "name": "Dark Electrode",
+    "setName": "Team Rocket",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/34_hires.png"
+  },
+  {
+    "id": "base5-35",
+    "name": "Dark Flareon",
+    "setName": "Team Rocket",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/35_hires.png"
+  },
+  {
+    "id": "base5-36",
+    "name": "Dark Gloom",
+    "setName": "Team Rocket",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/36_hires.png"
+  },
+  {
+    "id": "base5-37",
+    "name": "Dark Golduck",
+    "setName": "Team Rocket",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/37_hires.png"
+  },
+  {
+    "id": "base5-38",
+    "name": "Dark Jolteon",
+    "setName": "Team Rocket",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/38_hires.png"
+  },
+  {
+    "id": "base5-39",
+    "name": "Dark Kadabra",
+    "setName": "Team Rocket",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/39_hires.png"
+  },
+  {
+    "id": "base5-40",
+    "name": "Dark Machoke",
+    "setName": "Team Rocket",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/40_hires.png"
+  },
+  {
+    "id": "base5-41",
+    "name": "Dark Muk",
+    "setName": "Team Rocket",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/41_hires.png"
+  },
+  {
+    "id": "base5-42",
+    "name": "Dark Persian",
+    "setName": "Team Rocket",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/base5/42_hires.png"
+  },
+  {
+    "id": "base5-43",
+    "name": "Dark Primeape",
+    "setName": "Team Rocket",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/43_hires.png"
+  },
+  {
+    "id": "base5-44",
+    "name": "Dark Rapidash",
+    "setName": "Team Rocket",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/44_hires.png"
+  },
+  {
+    "id": "base5-45",
+    "name": "Dark Vaporeon",
+    "setName": "Team Rocket",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/45_hires.png"
+  },
+  {
+    "id": "base5-46",
+    "name": "Dark Wartortle",
+    "setName": "Team Rocket",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/46_hires.png"
+  },
+  {
+    "id": "base5-47",
+    "name": "Magikarp",
+    "setName": "Team Rocket",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/47_hires.png"
+  },
+  {
+    "id": "base5-48",
+    "name": "Porygon",
+    "setName": "Team Rocket",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base5/48_hires.png"
+  },
+  {
+    "id": "base5-49",
+    "name": "Abra",
+    "setName": "Team Rocket",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/49_hires.png"
+  },
+  {
+    "id": "base5-50",
+    "name": "Charmander",
+    "setName": "Team Rocket",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/50_hires.png"
+  },
+  {
+    "id": "base5-51",
+    "name": "Dark Raticate",
+    "setName": "Team Rocket",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/base5/51_hires.png"
+  },
+  {
+    "id": "base5-52",
+    "name": "Diglett",
+    "setName": "Team Rocket",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/52_hires.png"
+  },
+  {
+    "id": "base5-53",
+    "name": "Dratini",
+    "setName": "Team Rocket",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/53_hires.png"
+  },
+  {
+    "id": "base5-54",
+    "name": "Drowzee",
+    "setName": "Team Rocket",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/54_hires.png"
+  },
+  {
+    "id": "base5-55",
+    "name": "Eevee",
+    "setName": "Team Rocket",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/base5/55_hires.png"
+  },
+  {
+    "id": "base5-56",
+    "name": "Ekans",
+    "setName": "Team Rocket",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/56_hires.png"
+  },
+  {
+    "id": "base5-57",
+    "name": "Grimer",
+    "setName": "Team Rocket",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/57_hires.png"
+  },
+  {
+    "id": "base5-58",
+    "name": "Koffing",
+    "setName": "Team Rocket",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/58_hires.png"
+  },
+  {
+    "id": "base5-59",
+    "name": "Machop",
+    "setName": "Team Rocket",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/59_hires.png"
+  },
+  {
+    "id": "base5-60",
+    "name": "Magnemite",
+    "setName": "Team Rocket",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/base5/60_hires.png"
+  },
+  {
+    "id": "base5-61",
+    "name": "Mankey",
+    "setName": "Team Rocket",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/61_hires.png"
+  },
+  {
+    "id": "base5-62",
+    "name": "Meowth",
+    "setName": "Team Rocket",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/base5/62_hires.png"
+  },
+  {
+    "id": "base5-63",
+    "name": "Oddish",
+    "setName": "Team Rocket",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/63_hires.png"
+  },
+  {
+    "id": "base5-64",
+    "name": "Ponyta",
+    "setName": "Team Rocket",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/base5/64_hires.png"
+  },
+  {
+    "id": "base5-65",
+    "name": "Psyduck",
+    "setName": "Team Rocket",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/65_hires.png"
+  },
+  {
+    "id": "base5-66",
+    "name": "Rattata",
+    "setName": "Team Rocket",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/base5/66_hires.png"
+  },
+  {
+    "id": "base5-67",
+    "name": "Slowpoke",
+    "setName": "Team Rocket",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/67_hires.png"
+  },
+  {
+    "id": "base5-68",
+    "name": "Squirtle",
+    "setName": "Team Rocket",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/base5/68_hires.png"
+  },
+  {
+    "id": "base5-69",
+    "name": "Voltorb",
+    "setName": "Team Rocket",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/69_hires.png"
+  },
+  {
+    "id": "base5-70",
+    "name": "Zubat",
+    "setName": "Team Rocket",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/70_hires.png"
+  },
+  {
+    "id": "base5-71",
+    "name": "Here Comes Team Rocket!",
+    "setName": "Team Rocket",
+    "number": "71",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/71_hires.png"
+  },
+  {
+    "id": "base5-72",
+    "name": "Rocket's Sneak Attack",
+    "setName": "Team Rocket",
+    "number": "72",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/72_hires.png"
+  },
+  {
+    "id": "base5-73",
+    "name": "The Boss's Way",
+    "setName": "Team Rocket",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/73_hires.png"
+  },
+  {
+    "id": "base5-74",
+    "name": "Challenge!",
+    "setName": "Team Rocket",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base5/74_hires.png"
+  },
+  {
+    "id": "base5-75",
+    "name": "Digger",
+    "setName": "Team Rocket",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/75_hires.png"
+  },
+  {
+    "id": "base5-76",
+    "name": "Imposter Oak's Revenge",
+    "setName": "Team Rocket",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base5/76_hires.png"
+  },
+  {
+    "id": "base5-77",
+    "name": "Nightly Garbage Run",
+    "setName": "Team Rocket",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/77_hires.png"
+  },
+  {
+    "id": "base5-78",
+    "name": "Goop Gas Attack",
+    "setName": "Team Rocket",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/78_hires.png"
+  },
+  {
+    "id": "base5-79",
+    "name": "Sleep!",
+    "setName": "Team Rocket",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/base5/79_hires.png"
+  },
+  {
+    "id": "base5-80",
+    "name": "Rainbow Energy",
+    "setName": "Team Rocket",
+    "number": "80",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/base5/80_hires.png"
+  },
+  {
+    "id": "base5-81",
+    "name": "Full Heal Energy",
+    "setName": "Team Rocket",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base5/81_hires.png"
+  },
+  {
+    "id": "base5-82",
+    "name": "Potion Energy",
+    "setName": "Team Rocket",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base5/82_hires.png"
+  },
+  {
+    "id": "base5-83",
+    "name": "Dark Raichu",
+    "setName": "Team Rocket",
+    "number": "83",
+    "rarity": "Rare Secret",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base5/83_hires.png"
+  }
+]

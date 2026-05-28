@@ -1,0 +1,578 @@
+[
+  {
+    "id": "base2-1",
+    "name": "Clefable",
+    "setName": "Jungle",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/1_hires.png"
+  },
+  {
+    "id": "base2-2",
+    "name": "Electrode",
+    "setName": "Jungle",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/2_hires.png"
+  },
+  {
+    "id": "base2-3",
+    "name": "Flareon",
+    "setName": "Jungle",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/3_hires.png"
+  },
+  {
+    "id": "base2-4",
+    "name": "Jolteon",
+    "setName": "Jungle",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/4_hires.png"
+  },
+  {
+    "id": "base2-5",
+    "name": "Kangaskhan",
+    "setName": "Jungle",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/5_hires.png"
+  },
+  {
+    "id": "base2-6",
+    "name": "Mr. Mime",
+    "setName": "Jungle",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/6_hires.png"
+  },
+  {
+    "id": "base2-7",
+    "name": "Nidoqueen",
+    "setName": "Jungle",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/7_hires.png"
+  },
+  {
+    "id": "base2-8",
+    "name": "Pidgeot",
+    "setName": "Jungle",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/8_hires.png"
+  },
+  {
+    "id": "base2-9",
+    "name": "Pinsir",
+    "setName": "Jungle",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/9_hires.png"
+  },
+  {
+    "id": "base2-10",
+    "name": "Scyther",
+    "setName": "Jungle",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/10_hires.png"
+  },
+  {
+    "id": "base2-11",
+    "name": "Snorlax",
+    "setName": "Jungle",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/11_hires.png"
+  },
+  {
+    "id": "base2-12",
+    "name": "Vaporeon",
+    "setName": "Jungle",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/12_hires.png"
+  },
+  {
+    "id": "base2-13",
+    "name": "Venomoth",
+    "setName": "Jungle",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/13_hires.png"
+  },
+  {
+    "id": "base2-14",
+    "name": "Victreebel",
+    "setName": "Jungle",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/14_hires.png"
+  },
+  {
+    "id": "base2-15",
+    "name": "Vileplume",
+    "setName": "Jungle",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base2/15_hires.png"
+  },
+  {
+    "id": "base2-16",
+    "name": "Wigglytuff",
+    "setName": "Jungle",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/16_hires.png"
+  },
+  {
+    "id": "base2-17",
+    "name": "Clefable",
+    "setName": "Jungle",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/17_hires.png"
+  },
+  {
+    "id": "base2-18",
+    "name": "Electrode",
+    "setName": "Jungle",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/18_hires.png"
+  },
+  {
+    "id": "base2-19",
+    "name": "Flareon",
+    "setName": "Jungle",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/19_hires.png"
+  },
+  {
+    "id": "base2-20",
+    "name": "Jolteon",
+    "setName": "Jungle",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/20_hires.png"
+  },
+  {
+    "id": "base2-21",
+    "name": "Kangaskhan",
+    "setName": "Jungle",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/21_hires.png"
+  },
+  {
+    "id": "base2-22",
+    "name": "Mr. Mime",
+    "setName": "Jungle",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/22_hires.png"
+  },
+  {
+    "id": "base2-23",
+    "name": "Nidoqueen",
+    "setName": "Jungle",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/23_hires.png"
+  },
+  {
+    "id": "base2-24",
+    "name": "Pidgeot",
+    "setName": "Jungle",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/24_hires.png"
+  },
+  {
+    "id": "base2-25",
+    "name": "Pinsir",
+    "setName": "Jungle",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/25_hires.png"
+  },
+  {
+    "id": "base2-26",
+    "name": "Scyther",
+    "setName": "Jungle",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/26_hires.png"
+  },
+  {
+    "id": "base2-27",
+    "name": "Snorlax",
+    "setName": "Jungle",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/27_hires.png"
+  },
+  {
+    "id": "base2-28",
+    "name": "Vaporeon",
+    "setName": "Jungle",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/28_hires.png"
+  },
+  {
+    "id": "base2-29",
+    "name": "Venomoth",
+    "setName": "Jungle",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/29_hires.png"
+  },
+  {
+    "id": "base2-30",
+    "name": "Victreebel",
+    "setName": "Jungle",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/30_hires.png"
+  },
+  {
+    "id": "base2-31",
+    "name": "Vileplume",
+    "setName": "Jungle",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base2/31_hires.png"
+  },
+  {
+    "id": "base2-32",
+    "name": "Wigglytuff",
+    "setName": "Jungle",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/32_hires.png"
+  },
+  {
+    "id": "base2-33",
+    "name": "Butterfree",
+    "setName": "Jungle",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/33_hires.png"
+  },
+  {
+    "id": "base2-34",
+    "name": "Dodrio",
+    "setName": "Jungle",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/34_hires.png"
+  },
+  {
+    "id": "base2-35",
+    "name": "Exeggutor",
+    "setName": "Jungle",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/35_hires.png"
+  },
+  {
+    "id": "base2-36",
+    "name": "Fearow",
+    "setName": "Jungle",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/36_hires.png"
+  },
+  {
+    "id": "base2-37",
+    "name": "Gloom",
+    "setName": "Jungle",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base2/37_hires.png"
+  },
+  {
+    "id": "base2-38",
+    "name": "Lickitung",
+    "setName": "Jungle",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/38_hires.png"
+  },
+  {
+    "id": "base2-39",
+    "name": "Marowak",
+    "setName": "Jungle",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/39_hires.png"
+  },
+  {
+    "id": "base2-40",
+    "name": "Nidorina",
+    "setName": "Jungle",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/40_hires.png"
+  },
+  {
+    "id": "base2-41",
+    "name": "Parasect",
+    "setName": "Jungle",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/41_hires.png"
+  },
+  {
+    "id": "base2-42",
+    "name": "Persian",
+    "setName": "Jungle",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/42_hires.png"
+  },
+  {
+    "id": "base2-43",
+    "name": "Primeape",
+    "setName": "Jungle",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/43_hires.png"
+  },
+  {
+    "id": "base2-44",
+    "name": "Rapidash",
+    "setName": "Jungle",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/44_hires.png"
+  },
+  {
+    "id": "base2-45",
+    "name": "Rhydon",
+    "setName": "Jungle",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/45_hires.png"
+  },
+  {
+    "id": "base2-46",
+    "name": "Seaking",
+    "setName": "Jungle",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/46_hires.png"
+  },
+  {
+    "id": "base2-47",
+    "name": "Tauros",
+    "setName": "Jungle",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/47_hires.png"
+  },
+  {
+    "id": "base2-48",
+    "name": "Weepinbell",
+    "setName": "Jungle",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/48_hires.png"
+  },
+  {
+    "id": "base2-49",
+    "name": "Bellsprout",
+    "setName": "Jungle",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/49_hires.png"
+  },
+  {
+    "id": "base2-50",
+    "name": "Cubone",
+    "setName": "Jungle",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/50_hires.png"
+  },
+  {
+    "id": "base2-51",
+    "name": "Eevee",
+    "setName": "Jungle",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/51_hires.png"
+  },
+  {
+    "id": "base2-52",
+    "name": "Exeggcute",
+    "setName": "Jungle",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/52_hires.png"
+  },
+  {
+    "id": "base2-53",
+    "name": "Goldeen",
+    "setName": "Jungle",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/53_hires.png"
+  },
+  {
+    "id": "base2-54",
+    "name": "Jigglypuff",
+    "setName": "Jungle",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/54_hires.png"
+  },
+  {
+    "id": "base2-55",
+    "name": "Mankey",
+    "setName": "Jungle",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base2/55_hires.png"
+  },
+  {
+    "id": "base2-56",
+    "name": "Meowth",
+    "setName": "Jungle",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/56_hires.png"
+  },
+  {
+    "id": "base2-57",
+    "name": "Nidoran ♀",
+    "setName": "Jungle",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/57_hires.png"
+  },
+  {
+    "id": "base2-58",
+    "name": "Oddish",
+    "setName": "Jungle",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base2/58_hires.png"
+  },
+  {
+    "id": "base2-59",
+    "name": "Paras",
+    "setName": "Jungle",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/59_hires.png"
+  },
+  {
+    "id": "base2-60",
+    "name": "Pikachu",
+    "setName": "Jungle",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base2/60_hires.png"
+  },
+  {
+    "id": "base2-61",
+    "name": "Rhyhorn",
+    "setName": "Jungle",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/61_hires.png"
+  },
+  {
+    "id": "base2-62",
+    "name": "Spearow",
+    "setName": "Jungle",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/62_hires.png"
+  },
+  {
+    "id": "base2-63",
+    "name": "Venonat",
+    "setName": "Jungle",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base2/63_hires.png"
+  },
+  {
+    "id": "base2-64",
+    "name": "Poké Ball",
+    "setName": "Jungle",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base2/64_hires.png"
+  }
+]

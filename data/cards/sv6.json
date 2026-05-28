@@ -1,0 +1,2036 @@
+[
+  {
+    "id": "sv6-1",
+    "name": "Tangela",
+    "setName": "Twilight Masquerade",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Yoriyuki Ikegami",
+    "imageUrl": "https://images.pokemontcg.io/sv6/1_hires.png"
+  },
+  {
+    "id": "sv6-2",
+    "name": "Tangrowth",
+    "setName": "Twilight Masquerade",
+    "number": "2",
+    "rarity": "Common",
+    "artist": "LINNE",
+    "imageUrl": "https://images.pokemontcg.io/sv6/2_hires.png"
+  },
+  {
+    "id": "sv6-3",
+    "name": "Pinsir",
+    "setName": "Twilight Masquerade",
+    "number": "3",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv6/3_hires.png"
+  },
+  {
+    "id": "sv6-4",
+    "name": "Spinarak",
+    "setName": "Twilight Masquerade",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv6/4_hires.png"
+  },
+  {
+    "id": "sv6-5",
+    "name": "Ariados",
+    "setName": "Twilight Masquerade",
+    "number": "5",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv6/5_hires.png"
+  },
+  {
+    "id": "sv6-6",
+    "name": "Sunkern",
+    "setName": "Twilight Masquerade",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sv6/6_hires.png"
+  },
+  {
+    "id": "sv6-7",
+    "name": "Sunflora",
+    "setName": "Twilight Masquerade",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Ounishi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/7_hires.png"
+  },
+  {
+    "id": "sv6-8",
+    "name": "Heracross",
+    "setName": "Twilight Masquerade",
+    "number": "8",
+    "rarity": "Uncommon",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/8_hires.png"
+  },
+  {
+    "id": "sv6-9",
+    "name": "Volbeat",
+    "setName": "Twilight Masquerade",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Orca",
+    "imageUrl": "https://images.pokemontcg.io/sv6/9_hires.png"
+  },
+  {
+    "id": "sv6-10",
+    "name": "Illumise",
+    "setName": "Twilight Masquerade",
+    "number": "10",
+    "rarity": "Common",
+    "artist": "Orca",
+    "imageUrl": "https://images.pokemontcg.io/sv6/10_hires.png"
+  },
+  {
+    "id": "sv6-11",
+    "name": "Leafeon",
+    "setName": "Twilight Masquerade",
+    "number": "11",
+    "rarity": "Uncommon",
+    "artist": "Kuroimori",
+    "imageUrl": "https://images.pokemontcg.io/sv6/11_hires.png"
+  },
+  {
+    "id": "sv6-12",
+    "name": "Phantump",
+    "setName": "Twilight Masquerade",
+    "number": "12",
+    "rarity": "Common",
+    "artist": "Katsunori Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv6/12_hires.png"
+  },
+  {
+    "id": "sv6-13",
+    "name": "Trevenant",
+    "setName": "Twilight Masquerade",
+    "number": "13",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv6/13_hires.png"
+  },
+  {
+    "id": "sv6-14",
+    "name": "Grookey",
+    "setName": "Twilight Masquerade",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "Tomomi Ozaki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/14_hires.png"
+  },
+  {
+    "id": "sv6-15",
+    "name": "Thwackey",
+    "setName": "Twilight Masquerade",
+    "number": "15",
+    "rarity": "Common",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv6/15_hires.png"
+  },
+  {
+    "id": "sv6-16",
+    "name": "Rillaboom",
+    "setName": "Twilight Masquerade",
+    "number": "16",
+    "rarity": "Uncommon",
+    "artist": "toriyufu",
+    "imageUrl": "https://images.pokemontcg.io/sv6/16_hires.png"
+  },
+  {
+    "id": "sv6-17",
+    "name": "Applin",
+    "setName": "Twilight Masquerade",
+    "number": "17",
+    "rarity": "Common",
+    "artist": "OKUBO",
+    "imageUrl": "https://images.pokemontcg.io/sv6/17_hires.png"
+  },
+  {
+    "id": "sv6-18",
+    "name": "Dipplin",
+    "setName": "Twilight Masquerade",
+    "number": "18",
+    "rarity": "Uncommon",
+    "artist": "Saboteri",
+    "imageUrl": "https://images.pokemontcg.io/sv6/18_hires.png"
+  },
+  {
+    "id": "sv6-19",
+    "name": "Iron Leaves",
+    "setName": "Twilight Masquerade",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sv6/19_hires.png"
+  },
+  {
+    "id": "sv6-20",
+    "name": "Poltchageist",
+    "setName": "Twilight Masquerade",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "MINAMINAMI Take",
+    "imageUrl": "https://images.pokemontcg.io/sv6/20_hires.png"
+  },
+  {
+    "id": "sv6-21",
+    "name": "Poltchageist",
+    "setName": "Twilight Masquerade",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv6/21_hires.png"
+  },
+  {
+    "id": "sv6-22",
+    "name": "Sinistcha",
+    "setName": "Twilight Masquerade",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv6/22_hires.png"
+  },
+  {
+    "id": "sv6-23",
+    "name": "Sinistcha ex",
+    "setName": "Twilight Masquerade",
+    "number": "23",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv6/23_hires.png"
+  },
+  {
+    "id": "sv6-24",
+    "name": "Teal Mask Ogerpon",
+    "setName": "Twilight Masquerade",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv6/24_hires.png"
+  },
+  {
+    "id": "sv6-25",
+    "name": "Teal Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "25",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/25_hires.png"
+  },
+  {
+    "id": "sv6-26",
+    "name": "Vulpix",
+    "setName": "Twilight Masquerade",
+    "number": "26",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv6/26_hires.png"
+  },
+  {
+    "id": "sv6-27",
+    "name": "Ninetales",
+    "setName": "Twilight Masquerade",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv6/27_hires.png"
+  },
+  {
+    "id": "sv6-28",
+    "name": "Slugma",
+    "setName": "Twilight Masquerade",
+    "number": "28",
+    "rarity": "Common",
+    "artist": "Gapao",
+    "imageUrl": "https://images.pokemontcg.io/sv6/28_hires.png"
+  },
+  {
+    "id": "sv6-29",
+    "name": "Magcargo ex",
+    "setName": "Twilight Masquerade",
+    "number": "29",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/29_hires.png"
+  },
+  {
+    "id": "sv6-30",
+    "name": "Torkoal",
+    "setName": "Twilight Masquerade",
+    "number": "30",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv6/30_hires.png"
+  },
+  {
+    "id": "sv6-31",
+    "name": "Chimchar",
+    "setName": "Twilight Masquerade",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv6/31_hires.png"
+  },
+  {
+    "id": "sv6-32",
+    "name": "Monferno",
+    "setName": "Twilight Masquerade",
+    "number": "32",
+    "rarity": "Common",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv6/32_hires.png"
+  },
+  {
+    "id": "sv6-33",
+    "name": "Infernape",
+    "setName": "Twilight Masquerade",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Takumi Wada",
+    "imageUrl": "https://images.pokemontcg.io/sv6/33_hires.png"
+  },
+  {
+    "id": "sv6-34",
+    "name": "Darumaka",
+    "setName": "Twilight Masquerade",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "osare",
+    "imageUrl": "https://images.pokemontcg.io/sv6/34_hires.png"
+  },
+  {
+    "id": "sv6-35",
+    "name": "Darmanitan",
+    "setName": "Twilight Masquerade",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "OKUBO",
+    "imageUrl": "https://images.pokemontcg.io/sv6/35_hires.png"
+  },
+  {
+    "id": "sv6-36",
+    "name": "Litwick",
+    "setName": "Twilight Masquerade",
+    "number": "36",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv6/36_hires.png"
+  },
+  {
+    "id": "sv6-37",
+    "name": "Lampent",
+    "setName": "Twilight Masquerade",
+    "number": "37",
+    "rarity": "Common",
+    "artist": "Rond",
+    "imageUrl": "https://images.pokemontcg.io/sv6/37_hires.png"
+  },
+  {
+    "id": "sv6-38",
+    "name": "Chandelure",
+    "setName": "Twilight Masquerade",
+    "number": "38",
+    "rarity": "Rare",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/38_hires.png"
+  },
+  {
+    "id": "sv6-39",
+    "name": "Chi-Yu",
+    "setName": "Twilight Masquerade",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Oku",
+    "imageUrl": "https://images.pokemontcg.io/sv6/39_hires.png"
+  },
+  {
+    "id": "sv6-40",
+    "name": "Hearthflame Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "40",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/40_hires.png"
+  },
+  {
+    "id": "sv6-41",
+    "name": "Poliwag",
+    "setName": "Twilight Masquerade",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "Kedamahadaitai Yawarakai",
+    "imageUrl": "https://images.pokemontcg.io/sv6/41_hires.png"
+  },
+  {
+    "id": "sv6-42",
+    "name": "Poliwhirl",
+    "setName": "Twilight Masquerade",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv6/42_hires.png"
+  },
+  {
+    "id": "sv6-43",
+    "name": "Poliwrath",
+    "setName": "Twilight Masquerade",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv6/43_hires.png"
+  },
+  {
+    "id": "sv6-44",
+    "name": "Goldeen",
+    "setName": "Twilight Masquerade",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/44_hires.png"
+  },
+  {
+    "id": "sv6-45",
+    "name": "Seaking",
+    "setName": "Twilight Masquerade",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Gemi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/45_hires.png"
+  },
+  {
+    "id": "sv6-46",
+    "name": "Jynx",
+    "setName": "Twilight Masquerade",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Gapao",
+    "imageUrl": "https://images.pokemontcg.io/sv6/46_hires.png"
+  },
+  {
+    "id": "sv6-47",
+    "name": "Corphish",
+    "setName": "Twilight Masquerade",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv6/47_hires.png"
+  },
+  {
+    "id": "sv6-48",
+    "name": "Crawdaunt",
+    "setName": "Twilight Masquerade",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv6/48_hires.png"
+  },
+  {
+    "id": "sv6-49",
+    "name": "Feebas",
+    "setName": "Twilight Masquerade",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv6/49_hires.png"
+  },
+  {
+    "id": "sv6-50",
+    "name": "Milotic",
+    "setName": "Twilight Masquerade",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv6/50_hires.png"
+  },
+  {
+    "id": "sv6-51",
+    "name": "Snorunt",
+    "setName": "Twilight Masquerade",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Mékayu",
+    "imageUrl": "https://images.pokemontcg.io/sv6/51_hires.png"
+  },
+  {
+    "id": "sv6-52",
+    "name": "Glalie",
+    "setName": "Twilight Masquerade",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Oku",
+    "imageUrl": "https://images.pokemontcg.io/sv6/52_hires.png"
+  },
+  {
+    "id": "sv6-53",
+    "name": "Froslass",
+    "setName": "Twilight Masquerade",
+    "number": "53",
+    "rarity": "Rare",
+    "artist": "Makura Tami",
+    "imageUrl": "https://images.pokemontcg.io/sv6/53_hires.png"
+  },
+  {
+    "id": "sv6-54",
+    "name": "Glaceon",
+    "setName": "Twilight Masquerade",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "rika",
+    "imageUrl": "https://images.pokemontcg.io/sv6/54_hires.png"
+  },
+  {
+    "id": "sv6-55",
+    "name": "Phione",
+    "setName": "Twilight Masquerade",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "aspara",
+    "imageUrl": "https://images.pokemontcg.io/sv6/55_hires.png"
+  },
+  {
+    "id": "sv6-56",
+    "name": "Froakie",
+    "setName": "Twilight Masquerade",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv6/56_hires.png"
+  },
+  {
+    "id": "sv6-57",
+    "name": "Frogadier",
+    "setName": "Twilight Masquerade",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv6/57_hires.png"
+  },
+  {
+    "id": "sv6-58",
+    "name": "Cramorant",
+    "setName": "Twilight Masquerade",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv6/58_hires.png"
+  },
+  {
+    "id": "sv6-59",
+    "name": "Finizen",
+    "setName": "Twilight Masquerade",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv6/59_hires.png"
+  },
+  {
+    "id": "sv6-60",
+    "name": "Palafin",
+    "setName": "Twilight Masquerade",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "Ligton",
+    "imageUrl": "https://images.pokemontcg.io/sv6/60_hires.png"
+  },
+  {
+    "id": "sv6-61",
+    "name": "Palafin ex",
+    "setName": "Twilight Masquerade",
+    "number": "61",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/61_hires.png"
+  },
+  {
+    "id": "sv6-62",
+    "name": "Iron Bundle",
+    "setName": "Twilight Masquerade",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv6/62_hires.png"
+  },
+  {
+    "id": "sv6-63",
+    "name": "Walking Wake",
+    "setName": "Twilight Masquerade",
+    "number": "63",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv6/63_hires.png"
+  },
+  {
+    "id": "sv6-64",
+    "name": "Wellspring Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "64",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/64_hires.png"
+  },
+  {
+    "id": "sv6-65",
+    "name": "Zapdos",
+    "setName": "Twilight Masquerade",
+    "number": "65",
+    "rarity": "Rare",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv6/65_hires.png"
+  },
+  {
+    "id": "sv6-66",
+    "name": "Shinx",
+    "setName": "Twilight Masquerade",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv6/66_hires.png"
+  },
+  {
+    "id": "sv6-67",
+    "name": "Luxio",
+    "setName": "Twilight Masquerade",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Takumi Wada",
+    "imageUrl": "https://images.pokemontcg.io/sv6/67_hires.png"
+  },
+  {
+    "id": "sv6-68",
+    "name": "Luxray ex",
+    "setName": "Twilight Masquerade",
+    "number": "68",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/sv6/68_hires.png"
+  },
+  {
+    "id": "sv6-69",
+    "name": "Emolga",
+    "setName": "Twilight Masquerade",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Shimaris Yukichi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/69_hires.png"
+  },
+  {
+    "id": "sv6-70",
+    "name": "Helioptile",
+    "setName": "Twilight Masquerade",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Taiga Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv6/70_hires.png"
+  },
+  {
+    "id": "sv6-71",
+    "name": "Heliolisk",
+    "setName": "Twilight Masquerade",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Atsuya Uki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/71_hires.png"
+  },
+  {
+    "id": "sv6-72",
+    "name": "Morpeko",
+    "setName": "Twilight Masquerade",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv6/72_hires.png"
+  },
+  {
+    "id": "sv6-73",
+    "name": "Tadbulb",
+    "setName": "Twilight Masquerade",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "nisimono",
+    "imageUrl": "https://images.pokemontcg.io/sv6/73_hires.png"
+  },
+  {
+    "id": "sv6-74",
+    "name": "Bellibolt",
+    "setName": "Twilight Masquerade",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv6/74_hires.png"
+  },
+  {
+    "id": "sv6-75",
+    "name": "Wattrel",
+    "setName": "Twilight Masquerade",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv6/75_hires.png"
+  },
+  {
+    "id": "sv6-76",
+    "name": "Kilowattrel",
+    "setName": "Twilight Masquerade",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv6/76_hires.png"
+  },
+  {
+    "id": "sv6-77",
+    "name": "Iron Thorns ex",
+    "setName": "Twilight Masquerade",
+    "number": "77",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/77_hires.png"
+  },
+  {
+    "id": "sv6-78",
+    "name": "Clefairy",
+    "setName": "Twilight Masquerade",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv6/78_hires.png"
+  },
+  {
+    "id": "sv6-79",
+    "name": "Clefable",
+    "setName": "Twilight Masquerade",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "satoma",
+    "imageUrl": "https://images.pokemontcg.io/sv6/79_hires.png"
+  },
+  {
+    "id": "sv6-80",
+    "name": "Abra",
+    "setName": "Twilight Masquerade",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Kariya",
+    "imageUrl": "https://images.pokemontcg.io/sv6/80_hires.png"
+  },
+  {
+    "id": "sv6-81",
+    "name": "Kadabra",
+    "setName": "Twilight Masquerade",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Uninori",
+    "imageUrl": "https://images.pokemontcg.io/sv6/81_hires.png"
+  },
+  {
+    "id": "sv6-82",
+    "name": "Alakazam",
+    "setName": "Twilight Masquerade",
+    "number": "82",
+    "rarity": "Rare",
+    "artist": "Masako Tomii",
+    "imageUrl": "https://images.pokemontcg.io/sv6/82_hires.png"
+  },
+  {
+    "id": "sv6-83",
+    "name": "Girafarig",
+    "setName": "Twilight Masquerade",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Shinji Kanda",
+    "imageUrl": "https://images.pokemontcg.io/sv6/83_hires.png"
+  },
+  {
+    "id": "sv6-84",
+    "name": "Farigiraf",
+    "setName": "Twilight Masquerade",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Dsuke",
+    "imageUrl": "https://images.pokemontcg.io/sv6/84_hires.png"
+  },
+  {
+    "id": "sv6-85",
+    "name": "Chimecho",
+    "setName": "Twilight Masquerade",
+    "number": "85",
+    "rarity": "Common",
+    "artist": "Mousho",
+    "imageUrl": "https://images.pokemontcg.io/sv6/85_hires.png"
+  },
+  {
+    "id": "sv6-86",
+    "name": "Flabébé",
+    "setName": "Twilight Masquerade",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/sv6/86_hires.png"
+  },
+  {
+    "id": "sv6-87",
+    "name": "Floette",
+    "setName": "Twilight Masquerade",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "mingo",
+    "imageUrl": "https://images.pokemontcg.io/sv6/87_hires.png"
+  },
+  {
+    "id": "sv6-88",
+    "name": "Florges",
+    "setName": "Twilight Masquerade",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Ligton",
+    "imageUrl": "https://images.pokemontcg.io/sv6/88_hires.png"
+  },
+  {
+    "id": "sv6-89",
+    "name": "Swirlix",
+    "setName": "Twilight Masquerade",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv6/89_hires.png"
+  },
+  {
+    "id": "sv6-90",
+    "name": "Slurpuff",
+    "setName": "Twilight Masquerade",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "mingo",
+    "imageUrl": "https://images.pokemontcg.io/sv6/90_hires.png"
+  },
+  {
+    "id": "sv6-91",
+    "name": "Sandygast",
+    "setName": "Twilight Masquerade",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Asako Ito",
+    "imageUrl": "https://images.pokemontcg.io/sv6/91_hires.png"
+  },
+  {
+    "id": "sv6-92",
+    "name": "Palossand",
+    "setName": "Twilight Masquerade",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/sv6/92_hires.png"
+  },
+  {
+    "id": "sv6-93",
+    "name": "Enamorus",
+    "setName": "Twilight Masquerade",
+    "number": "93",
+    "rarity": "Rare",
+    "artist": "DOM",
+    "imageUrl": "https://images.pokemontcg.io/sv6/93_hires.png"
+  },
+  {
+    "id": "sv6-94",
+    "name": "Scream Tail ex",
+    "setName": "Twilight Masquerade",
+    "number": "94",
+    "rarity": "Double Rare",
+    "artist": "akagi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/94_hires.png"
+  },
+  {
+    "id": "sv6-95",
+    "name": "Munkidori",
+    "setName": "Twilight Masquerade",
+    "number": "95",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv6/95_hires.png"
+  },
+  {
+    "id": "sv6-96",
+    "name": "Fezandipiti",
+    "setName": "Twilight Masquerade",
+    "number": "96",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv6/96_hires.png"
+  },
+  {
+    "id": "sv6-97",
+    "name": "Sandshrew",
+    "setName": "Twilight Masquerade",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "Tetsu Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv6/97_hires.png"
+  },
+  {
+    "id": "sv6-98",
+    "name": "Sandslash",
+    "setName": "Twilight Masquerade",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv6/98_hires.png"
+  },
+  {
+    "id": "sv6-99",
+    "name": "Hisuian Growlithe",
+    "setName": "Twilight Masquerade",
+    "number": "99",
+    "rarity": "Common",
+    "artist": "Whisker",
+    "imageUrl": "https://images.pokemontcg.io/sv6/99_hires.png"
+  },
+  {
+    "id": "sv6-100",
+    "name": "Hisuian Arcanine",
+    "setName": "Twilight Masquerade",
+    "number": "100",
+    "rarity": "Rare",
+    "artist": "SIE NANAHARA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/100_hires.png"
+  },
+  {
+    "id": "sv6-101",
+    "name": "Nosepass",
+    "setName": "Twilight Masquerade",
+    "number": "101",
+    "rarity": "Common",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/101_hires.png"
+  },
+  {
+    "id": "sv6-102",
+    "name": "Probopass",
+    "setName": "Twilight Masquerade",
+    "number": "102",
+    "rarity": "Uncommon",
+    "artist": "OKUBO",
+    "imageUrl": "https://images.pokemontcg.io/sv6/102_hires.png"
+  },
+  {
+    "id": "sv6-103",
+    "name": "Timburr",
+    "setName": "Twilight Masquerade",
+    "number": "103",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv6/103_hires.png"
+  },
+  {
+    "id": "sv6-104",
+    "name": "Gurdurr",
+    "setName": "Twilight Masquerade",
+    "number": "104",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/sv6/104_hires.png"
+  },
+  {
+    "id": "sv6-105",
+    "name": "Conkeldurr",
+    "setName": "Twilight Masquerade",
+    "number": "105",
+    "rarity": "Uncommon",
+    "artist": "Takeshi Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/sv6/105_hires.png"
+  },
+  {
+    "id": "sv6-106",
+    "name": "Greninja ex",
+    "setName": "Twilight Masquerade",
+    "number": "106",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/106_hires.png"
+  },
+  {
+    "id": "sv6-107",
+    "name": "Hawlucha",
+    "setName": "Twilight Masquerade",
+    "number": "107",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/107_hires.png"
+  },
+  {
+    "id": "sv6-108",
+    "name": "Glimmet",
+    "setName": "Twilight Masquerade",
+    "number": "108",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv6/108_hires.png"
+  },
+  {
+    "id": "sv6-109",
+    "name": "Glimmora",
+    "setName": "Twilight Masquerade",
+    "number": "109",
+    "rarity": "Uncommon",
+    "artist": "Kazumasa Yasukuni",
+    "imageUrl": "https://images.pokemontcg.io/sv6/109_hires.png"
+  },
+  {
+    "id": "sv6-110",
+    "name": "Ting-Lu",
+    "setName": "Twilight Masquerade",
+    "number": "110",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv6/110_hires.png"
+  },
+  {
+    "id": "sv6-111",
+    "name": "Okidogi",
+    "setName": "Twilight Masquerade",
+    "number": "111",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv6/111_hires.png"
+  },
+  {
+    "id": "sv6-112",
+    "name": "Cornerstone Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "112",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/112_hires.png"
+  },
+  {
+    "id": "sv6-113",
+    "name": "Poochyena",
+    "setName": "Twilight Masquerade",
+    "number": "113",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv6/113_hires.png"
+  },
+  {
+    "id": "sv6-114",
+    "name": "Mightyena",
+    "setName": "Twilight Masquerade",
+    "number": "114",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv6/114_hires.png"
+  },
+  {
+    "id": "sv6-115",
+    "name": "Venipede",
+    "setName": "Twilight Masquerade",
+    "number": "115",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv6/115_hires.png"
+  },
+  {
+    "id": "sv6-116",
+    "name": "Whirlipede",
+    "setName": "Twilight Masquerade",
+    "number": "116",
+    "rarity": "Common",
+    "artist": "Krgc",
+    "imageUrl": "https://images.pokemontcg.io/sv6/116_hires.png"
+  },
+  {
+    "id": "sv6-117",
+    "name": "Scolipede",
+    "setName": "Twilight Masquerade",
+    "number": "117",
+    "rarity": "Uncommon",
+    "artist": "Shiburingaru",
+    "imageUrl": "https://images.pokemontcg.io/sv6/117_hires.png"
+  },
+  {
+    "id": "sv6-118",
+    "name": "Brute Bonnet",
+    "setName": "Twilight Masquerade",
+    "number": "118",
+    "rarity": "Uncommon",
+    "artist": "danciao",
+    "imageUrl": "https://images.pokemontcg.io/sv6/118_hires.png"
+  },
+  {
+    "id": "sv6-119",
+    "name": "Skarmory",
+    "setName": "Twilight Masquerade",
+    "number": "119",
+    "rarity": "Common",
+    "artist": "toi8",
+    "imageUrl": "https://images.pokemontcg.io/sv6/119_hires.png"
+  },
+  {
+    "id": "sv6-120",
+    "name": "Aron",
+    "setName": "Twilight Masquerade",
+    "number": "120",
+    "rarity": "Common",
+    "artist": "Gapao",
+    "imageUrl": "https://images.pokemontcg.io/sv6/120_hires.png"
+  },
+  {
+    "id": "sv6-121",
+    "name": "Lairon",
+    "setName": "Twilight Masquerade",
+    "number": "121",
+    "rarity": "Common",
+    "artist": "takashi shiraishi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/121_hires.png"
+  },
+  {
+    "id": "sv6-122",
+    "name": "Aggron",
+    "setName": "Twilight Masquerade",
+    "number": "122",
+    "rarity": "Uncommon",
+    "artist": "Dsuke",
+    "imageUrl": "https://images.pokemontcg.io/sv6/122_hires.png"
+  },
+  {
+    "id": "sv6-123",
+    "name": "Heatran",
+    "setName": "Twilight Masquerade",
+    "number": "123",
+    "rarity": "Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/123_hires.png"
+  },
+  {
+    "id": "sv6-124",
+    "name": "Varoom",
+    "setName": "Twilight Masquerade",
+    "number": "124",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/124_hires.png"
+  },
+  {
+    "id": "sv6-125",
+    "name": "Revavroom",
+    "setName": "Twilight Masquerade",
+    "number": "125",
+    "rarity": "Uncommon",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/sv6/125_hires.png"
+  },
+  {
+    "id": "sv6-126",
+    "name": "Applin",
+    "setName": "Twilight Masquerade",
+    "number": "126",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv6/126_hires.png"
+  },
+  {
+    "id": "sv6-127",
+    "name": "Dipplin",
+    "setName": "Twilight Masquerade",
+    "number": "127",
+    "rarity": "Uncommon",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv6/127_hires.png"
+  },
+  {
+    "id": "sv6-128",
+    "name": "Dreepy",
+    "setName": "Twilight Masquerade",
+    "number": "128",
+    "rarity": "Common",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv6/128_hires.png"
+  },
+  {
+    "id": "sv6-129",
+    "name": "Drakloak",
+    "setName": "Twilight Masquerade",
+    "number": "129",
+    "rarity": "Common",
+    "artist": "cochi8i",
+    "imageUrl": "https://images.pokemontcg.io/sv6/129_hires.png"
+  },
+  {
+    "id": "sv6-130",
+    "name": "Dragapult ex",
+    "setName": "Twilight Masquerade",
+    "number": "130",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/130_hires.png"
+  },
+  {
+    "id": "sv6-131",
+    "name": "Tatsugiri",
+    "setName": "Twilight Masquerade",
+    "number": "131",
+    "rarity": "Uncommon",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv6/131_hires.png"
+  },
+  {
+    "id": "sv6-132",
+    "name": "Farfetch'd",
+    "setName": "Twilight Masquerade",
+    "number": "132",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/sv6/132_hires.png"
+  },
+  {
+    "id": "sv6-133",
+    "name": "Chansey",
+    "setName": "Twilight Masquerade",
+    "number": "133",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv6/133_hires.png"
+  },
+  {
+    "id": "sv6-134",
+    "name": "Blissey ex",
+    "setName": "Twilight Masquerade",
+    "number": "134",
+    "rarity": "Double Rare",
+    "artist": "Iwamoto05",
+    "imageUrl": "https://images.pokemontcg.io/sv6/134_hires.png"
+  },
+  {
+    "id": "sv6-135",
+    "name": "Eevee",
+    "setName": "Twilight Masquerade",
+    "number": "135",
+    "rarity": "Common",
+    "artist": "satoma",
+    "imageUrl": "https://images.pokemontcg.io/sv6/135_hires.png"
+  },
+  {
+    "id": "sv6-136",
+    "name": "Snorlax",
+    "setName": "Twilight Masquerade",
+    "number": "136",
+    "rarity": "Uncommon",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv6/136_hires.png"
+  },
+  {
+    "id": "sv6-137",
+    "name": "Aipom",
+    "setName": "Twilight Masquerade",
+    "number": "137",
+    "rarity": "Common",
+    "artist": "Mugi Hamada",
+    "imageUrl": "https://images.pokemontcg.io/sv6/137_hires.png"
+  },
+  {
+    "id": "sv6-138",
+    "name": "Ambipom",
+    "setName": "Twilight Masquerade",
+    "number": "138",
+    "rarity": "Uncommon",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv6/138_hires.png"
+  },
+  {
+    "id": "sv6-139",
+    "name": "Ducklett",
+    "setName": "Twilight Masquerade",
+    "number": "139",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv6/139_hires.png"
+  },
+  {
+    "id": "sv6-140",
+    "name": "Swanna",
+    "setName": "Twilight Masquerade",
+    "number": "140",
+    "rarity": "Uncommon",
+    "artist": "Susumu Maeya",
+    "imageUrl": "https://images.pokemontcg.io/sv6/140_hires.png"
+  },
+  {
+    "id": "sv6-141",
+    "name": "Bloodmoon Ursaluna ex",
+    "setName": "Twilight Masquerade",
+    "number": "141",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv6/141_hires.png"
+  },
+  {
+    "id": "sv6-142",
+    "name": "Accompanying Flute",
+    "setName": "Twilight Masquerade",
+    "number": "142",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/142_hires.png"
+  },
+  {
+    "id": "sv6-143",
+    "name": "Bug Catching Set",
+    "setName": "Twilight Masquerade",
+    "number": "143",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/143_hires.png"
+  },
+  {
+    "id": "sv6-144",
+    "name": "Caretaker",
+    "setName": "Twilight Masquerade",
+    "number": "144",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv6/144_hires.png"
+  },
+  {
+    "id": "sv6-145",
+    "name": "Carmine",
+    "setName": "Twilight Masquerade",
+    "number": "145",
+    "rarity": "Uncommon",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv6/145_hires.png"
+  },
+  {
+    "id": "sv6-146",
+    "name": "Community Center",
+    "setName": "Twilight Masquerade",
+    "number": "146",
+    "rarity": "Uncommon",
+    "artist": "MARINA Chikazawa",
+    "imageUrl": "https://images.pokemontcg.io/sv6/146_hires.png"
+  },
+  {
+    "id": "sv6-147",
+    "name": "Cook",
+    "setName": "Twilight Masquerade",
+    "number": "147",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/sv6/147_hires.png"
+  },
+  {
+    "id": "sv6-148",
+    "name": "Enhanced Hammer",
+    "setName": "Twilight Masquerade",
+    "number": "148",
+    "rarity": "Uncommon",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sv6/148_hires.png"
+  },
+  {
+    "id": "sv6-149",
+    "name": "Festival Grounds",
+    "setName": "Twilight Masquerade",
+    "number": "149",
+    "rarity": "Uncommon",
+    "artist": "MARINA Chikazawa",
+    "imageUrl": "https://images.pokemontcg.io/sv6/149_hires.png"
+  },
+  {
+    "id": "sv6-150",
+    "name": "Handheld Fan",
+    "setName": "Twilight Masquerade",
+    "number": "150",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv6/150_hires.png"
+  },
+  {
+    "id": "sv6-151",
+    "name": "Hassel",
+    "setName": "Twilight Masquerade",
+    "number": "151",
+    "rarity": "Uncommon",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv6/151_hires.png"
+  },
+  {
+    "id": "sv6-152",
+    "name": "Hyper Aroma",
+    "setName": "Twilight Masquerade",
+    "number": "152",
+    "rarity": "ACE SPEC Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv6/152_hires.png"
+  },
+  {
+    "id": "sv6-153",
+    "name": "Jamming Tower",
+    "setName": "Twilight Masquerade",
+    "number": "153",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/153_hires.png"
+  },
+  {
+    "id": "sv6-154",
+    "name": "Kieran",
+    "setName": "Twilight Masquerade",
+    "number": "154",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/154_hires.png"
+  },
+  {
+    "id": "sv6-155",
+    "name": "Lana's Aid",
+    "setName": "Twilight Masquerade",
+    "number": "155",
+    "rarity": "Uncommon",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv6/155_hires.png"
+  },
+  {
+    "id": "sv6-156",
+    "name": "Love Ball",
+    "setName": "Twilight Masquerade",
+    "number": "156",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv6/156_hires.png"
+  },
+  {
+    "id": "sv6-157",
+    "name": "Lucian",
+    "setName": "Twilight Masquerade",
+    "number": "157",
+    "rarity": "Uncommon",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv6/157_hires.png"
+  },
+  {
+    "id": "sv6-158",
+    "name": "Lucky Helmet",
+    "setName": "Twilight Masquerade",
+    "number": "158",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv6/158_hires.png"
+  },
+  {
+    "id": "sv6-159",
+    "name": "Ogre's Mask",
+    "setName": "Twilight Masquerade",
+    "number": "159",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/159_hires.png"
+  },
+  {
+    "id": "sv6-160",
+    "name": "Perrin",
+    "setName": "Twilight Masquerade",
+    "number": "160",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv6/160_hires.png"
+  },
+  {
+    "id": "sv6-161",
+    "name": "Raifort",
+    "setName": "Twilight Masquerade",
+    "number": "161",
+    "rarity": "Uncommon",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv6/161_hires.png"
+  },
+  {
+    "id": "sv6-162",
+    "name": "Scoop Up Cyclone",
+    "setName": "Twilight Masquerade",
+    "number": "162",
+    "rarity": "ACE SPEC Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv6/162_hires.png"
+  },
+  {
+    "id": "sv6-163",
+    "name": "Secret Box",
+    "setName": "Twilight Masquerade",
+    "number": "163",
+    "rarity": "ACE SPEC Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv6/163_hires.png"
+  },
+  {
+    "id": "sv6-164",
+    "name": "Survival Brace",
+    "setName": "Twilight Masquerade",
+    "number": "164",
+    "rarity": "ACE SPEC Rare",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/sv6/164_hires.png"
+  },
+  {
+    "id": "sv6-165",
+    "name": "Unfair Stamp",
+    "setName": "Twilight Masquerade",
+    "number": "165",
+    "rarity": "ACE SPEC Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv6/165_hires.png"
+  },
+  {
+    "id": "sv6-166",
+    "name": "Boomerang Energy",
+    "setName": "Twilight Masquerade",
+    "number": "166",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv6/166_hires.png"
+  },
+  {
+    "id": "sv6-167",
+    "name": "Legacy Energy",
+    "setName": "Twilight Masquerade",
+    "number": "167",
+    "rarity": "ACE SPEC Rare",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv6/167_hires.png"
+  },
+  {
+    "id": "sv6-168",
+    "name": "Pinsir",
+    "setName": "Twilight Masquerade",
+    "number": "168",
+    "rarity": "Illustration Rare",
+    "artist": "Yukihiro Tada",
+    "imageUrl": "https://images.pokemontcg.io/sv6/168_hires.png"
+  },
+  {
+    "id": "sv6-169",
+    "name": "Sunflora",
+    "setName": "Twilight Masquerade",
+    "number": "169",
+    "rarity": "Illustration Rare",
+    "artist": "Shinya Komatsu",
+    "imageUrl": "https://images.pokemontcg.io/sv6/169_hires.png"
+  },
+  {
+    "id": "sv6-170",
+    "name": "Dipplin",
+    "setName": "Twilight Masquerade",
+    "number": "170",
+    "rarity": "Illustration Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv6/170_hires.png"
+  },
+  {
+    "id": "sv6-171",
+    "name": "Poltchageist",
+    "setName": "Twilight Masquerade",
+    "number": "171",
+    "rarity": "Illustration Rare",
+    "artist": "Saboteri",
+    "imageUrl": "https://images.pokemontcg.io/sv6/171_hires.png"
+  },
+  {
+    "id": "sv6-172",
+    "name": "Torkoal",
+    "setName": "Twilight Masquerade",
+    "number": "172",
+    "rarity": "Illustration Rare",
+    "artist": "Masa",
+    "imageUrl": "https://images.pokemontcg.io/sv6/172_hires.png"
+  },
+  {
+    "id": "sv6-173",
+    "name": "Infernape",
+    "setName": "Twilight Masquerade",
+    "number": "173",
+    "rarity": "Illustration Rare",
+    "artist": "Krgc",
+    "imageUrl": "https://images.pokemontcg.io/sv6/173_hires.png"
+  },
+  {
+    "id": "sv6-174",
+    "name": "Froslass",
+    "setName": "Twilight Masquerade",
+    "number": "174",
+    "rarity": "Illustration Rare",
+    "artist": "matazo",
+    "imageUrl": "https://images.pokemontcg.io/sv6/174_hires.png"
+  },
+  {
+    "id": "sv6-175",
+    "name": "Phione",
+    "setName": "Twilight Masquerade",
+    "number": "175",
+    "rarity": "Illustration Rare",
+    "artist": "takashi shiraishi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/175_hires.png"
+  },
+  {
+    "id": "sv6-176",
+    "name": "Cramorant",
+    "setName": "Twilight Masquerade",
+    "number": "176",
+    "rarity": "Illustration Rare",
+    "artist": "Fujimoto Gold",
+    "imageUrl": "https://images.pokemontcg.io/sv6/176_hires.png"
+  },
+  {
+    "id": "sv6-177",
+    "name": "Heliolisk",
+    "setName": "Twilight Masquerade",
+    "number": "177",
+    "rarity": "Illustration Rare",
+    "artist": "Tonji Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv6/177_hires.png"
+  },
+  {
+    "id": "sv6-178",
+    "name": "Wattrel",
+    "setName": "Twilight Masquerade",
+    "number": "178",
+    "rarity": "Illustration Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sv6/178_hires.png"
+  },
+  {
+    "id": "sv6-179",
+    "name": "Chimecho",
+    "setName": "Twilight Masquerade",
+    "number": "179",
+    "rarity": "Illustration Rare",
+    "artist": "REND",
+    "imageUrl": "https://images.pokemontcg.io/sv6/179_hires.png"
+  },
+  {
+    "id": "sv6-180",
+    "name": "Enamorus",
+    "setName": "Twilight Masquerade",
+    "number": "180",
+    "rarity": "Illustration Rare",
+    "artist": "GOTO minori",
+    "imageUrl": "https://images.pokemontcg.io/sv6/180_hires.png"
+  },
+  {
+    "id": "sv6-181",
+    "name": "Hisuian Growlithe",
+    "setName": "Twilight Masquerade",
+    "number": "181",
+    "rarity": "Illustration Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/181_hires.png"
+  },
+  {
+    "id": "sv6-182",
+    "name": "Probopass",
+    "setName": "Twilight Masquerade",
+    "number": "182",
+    "rarity": "Illustration Rare",
+    "artist": "Kariya",
+    "imageUrl": "https://images.pokemontcg.io/sv6/182_hires.png"
+  },
+  {
+    "id": "sv6-183",
+    "name": "Timburr",
+    "setName": "Twilight Masquerade",
+    "number": "183",
+    "rarity": "Illustration Rare",
+    "artist": "Yuriko Akase",
+    "imageUrl": "https://images.pokemontcg.io/sv6/183_hires.png"
+  },
+  {
+    "id": "sv6-184",
+    "name": "Lairon",
+    "setName": "Twilight Masquerade",
+    "number": "184",
+    "rarity": "Illustration Rare",
+    "artist": "Dsuke",
+    "imageUrl": "https://images.pokemontcg.io/sv6/184_hires.png"
+  },
+  {
+    "id": "sv6-185",
+    "name": "Applin",
+    "setName": "Twilight Masquerade",
+    "number": "185",
+    "rarity": "Illustration Rare",
+    "artist": "Katsunori Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv6/185_hires.png"
+  },
+  {
+    "id": "sv6-186",
+    "name": "Tatsugiri",
+    "setName": "Twilight Masquerade",
+    "number": "186",
+    "rarity": "Illustration Rare",
+    "artist": "osare",
+    "imageUrl": "https://images.pokemontcg.io/sv6/186_hires.png"
+  },
+  {
+    "id": "sv6-187",
+    "name": "Chansey",
+    "setName": "Twilight Masquerade",
+    "number": "187",
+    "rarity": "Illustration Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/187_hires.png"
+  },
+  {
+    "id": "sv6-188",
+    "name": "Eevee",
+    "setName": "Twilight Masquerade",
+    "number": "188",
+    "rarity": "Illustration Rare",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv6/188_hires.png"
+  },
+  {
+    "id": "sv6-189",
+    "name": "Sinistcha ex",
+    "setName": "Twilight Masquerade",
+    "number": "189",
+    "rarity": "Ultra Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv6/189_hires.png"
+  },
+  {
+    "id": "sv6-190",
+    "name": "Teal Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "190",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/190_hires.png"
+  },
+  {
+    "id": "sv6-191",
+    "name": "Magcargo ex",
+    "setName": "Twilight Masquerade",
+    "number": "191",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/sv6/191_hires.png"
+  },
+  {
+    "id": "sv6-192",
+    "name": "Hearthflame Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "192",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/192_hires.png"
+  },
+  {
+    "id": "sv6-193",
+    "name": "Palafin ex",
+    "setName": "Twilight Masquerade",
+    "number": "193",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/193_hires.png"
+  },
+  {
+    "id": "sv6-194",
+    "name": "Wellspring Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "194",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/194_hires.png"
+  },
+  {
+    "id": "sv6-195",
+    "name": "Luxray ex",
+    "setName": "Twilight Masquerade",
+    "number": "195",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/sv6/195_hires.png"
+  },
+  {
+    "id": "sv6-196",
+    "name": "Iron Thorns ex",
+    "setName": "Twilight Masquerade",
+    "number": "196",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/196_hires.png"
+  },
+  {
+    "id": "sv6-197",
+    "name": "Scream Tail ex",
+    "setName": "Twilight Masquerade",
+    "number": "197",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Hiiragi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/197_hires.png"
+  },
+  {
+    "id": "sv6-198",
+    "name": "Greninja ex",
+    "setName": "Twilight Masquerade",
+    "number": "198",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/198_hires.png"
+  },
+  {
+    "id": "sv6-199",
+    "name": "Cornerstone Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "199",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/199_hires.png"
+  },
+  {
+    "id": "sv6-200",
+    "name": "Dragapult ex",
+    "setName": "Twilight Masquerade",
+    "number": "200",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/200_hires.png"
+  },
+  {
+    "id": "sv6-201",
+    "name": "Blissey ex",
+    "setName": "Twilight Masquerade",
+    "number": "201",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/sv6/201_hires.png"
+  },
+  {
+    "id": "sv6-202",
+    "name": "Bloodmoon Ursaluna ex",
+    "setName": "Twilight Masquerade",
+    "number": "202",
+    "rarity": "Ultra Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv6/202_hires.png"
+  },
+  {
+    "id": "sv6-203",
+    "name": "Caretaker",
+    "setName": "Twilight Masquerade",
+    "number": "203",
+    "rarity": "Ultra Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv6/203_hires.png"
+  },
+  {
+    "id": "sv6-204",
+    "name": "Carmine",
+    "setName": "Twilight Masquerade",
+    "number": "204",
+    "rarity": "Ultra Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv6/204_hires.png"
+  },
+  {
+    "id": "sv6-205",
+    "name": "Hassel",
+    "setName": "Twilight Masquerade",
+    "number": "205",
+    "rarity": "Ultra Rare",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv6/205_hires.png"
+  },
+  {
+    "id": "sv6-206",
+    "name": "Kieran",
+    "setName": "Twilight Masquerade",
+    "number": "206",
+    "rarity": "Ultra Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/206_hires.png"
+  },
+  {
+    "id": "sv6-207",
+    "name": "Lana's Aid",
+    "setName": "Twilight Masquerade",
+    "number": "207",
+    "rarity": "Ultra Rare",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv6/207_hires.png"
+  },
+  {
+    "id": "sv6-208",
+    "name": "Lucian",
+    "setName": "Twilight Masquerade",
+    "number": "208",
+    "rarity": "Ultra Rare",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv6/208_hires.png"
+  },
+  {
+    "id": "sv6-209",
+    "name": "Perrin",
+    "setName": "Twilight Masquerade",
+    "number": "209",
+    "rarity": "Ultra Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv6/209_hires.png"
+  },
+  {
+    "id": "sv6-210",
+    "name": "Sinistcha ex",
+    "setName": "Twilight Masquerade",
+    "number": "210",
+    "rarity": "Special Illustration Rare",
+    "artist": "Saboteri",
+    "imageUrl": "https://images.pokemontcg.io/sv6/210_hires.png"
+  },
+  {
+    "id": "sv6-211",
+    "name": "Teal Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "211",
+    "rarity": "Special Illustration Rare",
+    "artist": "Yano Keiji",
+    "imageUrl": "https://images.pokemontcg.io/sv6/211_hires.png"
+  },
+  {
+    "id": "sv6-212",
+    "name": "Hearthflame Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "212",
+    "rarity": "Special Illustration Rare",
+    "artist": "Yano Keiji",
+    "imageUrl": "https://images.pokemontcg.io/sv6/212_hires.png"
+  },
+  {
+    "id": "sv6-213",
+    "name": "Wellspring Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "213",
+    "rarity": "Special Illustration Rare",
+    "artist": "Yano Keiji",
+    "imageUrl": "https://images.pokemontcg.io/sv6/213_hires.png"
+  },
+  {
+    "id": "sv6-214",
+    "name": "Greninja ex",
+    "setName": "Twilight Masquerade",
+    "number": "214",
+    "rarity": "Special Illustration Rare",
+    "artist": "akagi",
+    "imageUrl": "https://images.pokemontcg.io/sv6/214_hires.png"
+  },
+  {
+    "id": "sv6-215",
+    "name": "Cornerstone Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "215",
+    "rarity": "Special Illustration Rare",
+    "artist": "Yano Keiji",
+    "imageUrl": "https://images.pokemontcg.io/sv6/215_hires.png"
+  },
+  {
+    "id": "sv6-216",
+    "name": "Bloodmoon Ursaluna ex",
+    "setName": "Twilight Masquerade",
+    "number": "216",
+    "rarity": "Special Illustration Rare",
+    "artist": "MINAMINAMI Take",
+    "imageUrl": "https://images.pokemontcg.io/sv6/216_hires.png"
+  },
+  {
+    "id": "sv6-217",
+    "name": "Carmine",
+    "setName": "Twilight Masquerade",
+    "number": "217",
+    "rarity": "Special Illustration Rare",
+    "artist": "En Morikura",
+    "imageUrl": "https://images.pokemontcg.io/sv6/217_hires.png"
+  },
+  {
+    "id": "sv6-218",
+    "name": "Kieran",
+    "setName": "Twilight Masquerade",
+    "number": "218",
+    "rarity": "Special Illustration Rare",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv6/218_hires.png"
+  },
+  {
+    "id": "sv6-219",
+    "name": "Lana's Aid",
+    "setName": "Twilight Masquerade",
+    "number": "219",
+    "rarity": "Special Illustration Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv6/219_hires.png"
+  },
+  {
+    "id": "sv6-220",
+    "name": "Perrin",
+    "setName": "Twilight Masquerade",
+    "number": "220",
+    "rarity": "Special Illustration Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/220_hires.png"
+  },
+  {
+    "id": "sv6-221",
+    "name": "Teal Mask Ogerpon ex",
+    "setName": "Twilight Masquerade",
+    "number": "221",
+    "rarity": "Hyper Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv6/221_hires.png"
+  },
+  {
+    "id": "sv6-222",
+    "name": "Bloodmoon Ursaluna ex",
+    "setName": "Twilight Masquerade",
+    "number": "222",
+    "rarity": "Hyper Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv6/222_hires.png"
+  },
+  {
+    "id": "sv6-223",
+    "name": "Buddy-Buddy Poffin",
+    "setName": "Twilight Masquerade",
+    "number": "223",
+    "rarity": "Hyper Rare",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv6/223_hires.png"
+  },
+  {
+    "id": "sv6-224",
+    "name": "Enhanced Hammer",
+    "setName": "Twilight Masquerade",
+    "number": "224",
+    "rarity": "Hyper Rare",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sv6/224_hires.png"
+  },
+  {
+    "id": "sv6-225",
+    "name": "Rescue Board",
+    "setName": "Twilight Masquerade",
+    "number": "225",
+    "rarity": "Hyper Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv6/225_hires.png"
+  },
+  {
+    "id": "sv6-226",
+    "name": "Luminous Energy",
+    "setName": "Twilight Masquerade",
+    "number": "226",
+    "rarity": "Hyper Rare",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv6/226_hires.png"
+  }
+]

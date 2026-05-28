@@ -1,0 +1,2072 @@
+[
+  {
+    "id": "sv3-1",
+    "name": "Oddish",
+    "setName": "Obsidian Flames",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/sv3/1_hires.png"
+  },
+  {
+    "id": "sv3-2",
+    "name": "Gloom",
+    "setName": "Obsidian Flames",
+    "number": "2",
+    "rarity": "Common",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/2_hires.png"
+  },
+  {
+    "id": "sv3-3",
+    "name": "Bellossom",
+    "setName": "Obsidian Flames",
+    "number": "3",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv3/3_hires.png"
+  },
+  {
+    "id": "sv3-4",
+    "name": "Scyther",
+    "setName": "Obsidian Flames",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/4_hires.png"
+  },
+  {
+    "id": "sv3-5",
+    "name": "Shuckle",
+    "setName": "Obsidian Flames",
+    "number": "5",
+    "rarity": "Common",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv3/5_hires.png"
+  },
+  {
+    "id": "sv3-6",
+    "name": "Surskit",
+    "setName": "Obsidian Flames",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv3/6_hires.png"
+  },
+  {
+    "id": "sv3-7",
+    "name": "Masquerain",
+    "setName": "Obsidian Flames",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/7_hires.png"
+  },
+  {
+    "id": "sv3-8",
+    "name": "Combee",
+    "setName": "Obsidian Flames",
+    "number": "8",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv3/8_hires.png"
+  },
+  {
+    "id": "sv3-9",
+    "name": "Foongus",
+    "setName": "Obsidian Flames",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "You Iribi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/9_hires.png"
+  },
+  {
+    "id": "sv3-10",
+    "name": "Amoonguss",
+    "setName": "Obsidian Flames",
+    "number": "10",
+    "rarity": "Uncommon",
+    "artist": "Nobuhiro Imagawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/10_hires.png"
+  },
+  {
+    "id": "sv3-11",
+    "name": "Phantump",
+    "setName": "Obsidian Flames",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv3/11_hires.png"
+  },
+  {
+    "id": "sv3-12",
+    "name": "Trevenant",
+    "setName": "Obsidian Flames",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv3/12_hires.png"
+  },
+  {
+    "id": "sv3-13",
+    "name": "Rowlet",
+    "setName": "Obsidian Flames",
+    "number": "13",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv3/13_hires.png"
+  },
+  {
+    "id": "sv3-14",
+    "name": "Dartrix",
+    "setName": "Obsidian Flames",
+    "number": "14",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv3/14_hires.png"
+  },
+  {
+    "id": "sv3-15",
+    "name": "Decidueye ex",
+    "setName": "Obsidian Flames",
+    "number": "15",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/15_hires.png"
+  },
+  {
+    "id": "sv3-16",
+    "name": "Bounsweet",
+    "setName": "Obsidian Flames",
+    "number": "16",
+    "rarity": "Common",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv3/16_hires.png"
+  },
+  {
+    "id": "sv3-17",
+    "name": "Steenee",
+    "setName": "Obsidian Flames",
+    "number": "17",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv3/17_hires.png"
+  },
+  {
+    "id": "sv3-18",
+    "name": "Tsareena",
+    "setName": "Obsidian Flames",
+    "number": "18",
+    "rarity": "Uncommon",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/18_hires.png"
+  },
+  {
+    "id": "sv3-19",
+    "name": "Smoliv",
+    "setName": "Obsidian Flames",
+    "number": "19",
+    "rarity": "Common",
+    "artist": "Masako Tomii",
+    "imageUrl": "https://images.pokemontcg.io/sv3/19_hires.png"
+  },
+  {
+    "id": "sv3-20",
+    "name": "Dolliv",
+    "setName": "Obsidian Flames",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv3/20_hires.png"
+  },
+  {
+    "id": "sv3-21",
+    "name": "Arboliva",
+    "setName": "Obsidian Flames",
+    "number": "21",
+    "rarity": "Uncommon",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv3/21_hires.png"
+  },
+  {
+    "id": "sv3-22",
+    "name": "Toedscruel ex",
+    "setName": "Obsidian Flames",
+    "number": "22",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/22_hires.png"
+  },
+  {
+    "id": "sv3-23",
+    "name": "Capsakid",
+    "setName": "Obsidian Flames",
+    "number": "23",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/23_hires.png"
+  },
+  {
+    "id": "sv3-24",
+    "name": "Capsakid",
+    "setName": "Obsidian Flames",
+    "number": "24",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/24_hires.png"
+  },
+  {
+    "id": "sv3-25",
+    "name": "Scovillain",
+    "setName": "Obsidian Flames",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/25_hires.png"
+  },
+  {
+    "id": "sv3-26",
+    "name": "Charmander",
+    "setName": "Obsidian Flames",
+    "number": "26",
+    "rarity": "Common",
+    "artist": "DOM",
+    "imageUrl": "https://images.pokemontcg.io/sv3/26_hires.png"
+  },
+  {
+    "id": "sv3-27",
+    "name": "Charmeleon",
+    "setName": "Obsidian Flames",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/27_hires.png"
+  },
+  {
+    "id": "sv3-28",
+    "name": "Vulpix",
+    "setName": "Obsidian Flames",
+    "number": "28",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sv3/28_hires.png"
+  },
+  {
+    "id": "sv3-29",
+    "name": "Ninetales",
+    "setName": "Obsidian Flames",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Yoshioka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/29_hires.png"
+  },
+  {
+    "id": "sv3-30",
+    "name": "Entei",
+    "setName": "Obsidian Flames",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "toriyufu",
+    "imageUrl": "https://images.pokemontcg.io/sv3/30_hires.png"
+  },
+  {
+    "id": "sv3-31",
+    "name": "Numel",
+    "setName": "Obsidian Flames",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv3/31_hires.png"
+  },
+  {
+    "id": "sv3-32",
+    "name": "Camerupt",
+    "setName": "Obsidian Flames",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Shiburingaru",
+    "imageUrl": "https://images.pokemontcg.io/sv3/32_hires.png"
+  },
+  {
+    "id": "sv3-33",
+    "name": "Victini ex",
+    "setName": "Obsidian Flames",
+    "number": "33",
+    "rarity": "Double Rare",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/sv3/33_hires.png"
+  },
+  {
+    "id": "sv3-34",
+    "name": "Darumaka",
+    "setName": "Obsidian Flames",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/34_hires.png"
+  },
+  {
+    "id": "sv3-35",
+    "name": "Darmanitan",
+    "setName": "Obsidian Flames",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/35_hires.png"
+  },
+  {
+    "id": "sv3-36",
+    "name": "Litwick",
+    "setName": "Obsidian Flames",
+    "number": "36",
+    "rarity": "Common",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/sv3/36_hires.png"
+  },
+  {
+    "id": "sv3-37",
+    "name": "Lampent",
+    "setName": "Obsidian Flames",
+    "number": "37",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/sv3/37_hires.png"
+  },
+  {
+    "id": "sv3-38",
+    "name": "Chandelure",
+    "setName": "Obsidian Flames",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/38_hires.png"
+  },
+  {
+    "id": "sv3-39",
+    "name": "Heatmor",
+    "setName": "Obsidian Flames",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/sv3/39_hires.png"
+  },
+  {
+    "id": "sv3-40",
+    "name": "Larvesta",
+    "setName": "Obsidian Flames",
+    "number": "40",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv3/40_hires.png"
+  },
+  {
+    "id": "sv3-41",
+    "name": "Volcarona",
+    "setName": "Obsidian Flames",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/sv3/41_hires.png"
+  },
+  {
+    "id": "sv3-42",
+    "name": "Eiscue ex",
+    "setName": "Obsidian Flames",
+    "number": "42",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/42_hires.png"
+  },
+  {
+    "id": "sv3-43",
+    "name": "Charcadet",
+    "setName": "Obsidian Flames",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv3/43_hires.png"
+  },
+  {
+    "id": "sv3-44",
+    "name": "Armarouge",
+    "setName": "Obsidian Flames",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv3/44_hires.png"
+  },
+  {
+    "id": "sv3-45",
+    "name": "Lapras",
+    "setName": "Obsidian Flames",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "matazo",
+    "imageUrl": "https://images.pokemontcg.io/sv3/45_hires.png"
+  },
+  {
+    "id": "sv3-46",
+    "name": "Carvanha",
+    "setName": "Obsidian Flames",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv3/46_hires.png"
+  },
+  {
+    "id": "sv3-47",
+    "name": "Sharpedo",
+    "setName": "Obsidian Flames",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Tonji Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv3/47_hires.png"
+  },
+  {
+    "id": "sv3-48",
+    "name": "Buizel",
+    "setName": "Obsidian Flames",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv3/48_hires.png"
+  },
+  {
+    "id": "sv3-49",
+    "name": "Floatzel",
+    "setName": "Obsidian Flames",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv3/49_hires.png"
+  },
+  {
+    "id": "sv3-50",
+    "name": "Tympole",
+    "setName": "Obsidian Flames",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "OKUBO",
+    "imageUrl": "https://images.pokemontcg.io/sv3/50_hires.png"
+  },
+  {
+    "id": "sv3-51",
+    "name": "Palpitoad",
+    "setName": "Obsidian Flames",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv3/51_hires.png"
+  },
+  {
+    "id": "sv3-52",
+    "name": "Seismitoad",
+    "setName": "Obsidian Flames",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/sv3/52_hires.png"
+  },
+  {
+    "id": "sv3-53",
+    "name": "Cubchoo",
+    "setName": "Obsidian Flames",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv3/53_hires.png"
+  },
+  {
+    "id": "sv3-54",
+    "name": "Beartic",
+    "setName": "Obsidian Flames",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/sv3/54_hires.png"
+  },
+  {
+    "id": "sv3-55",
+    "name": "Cryogonal",
+    "setName": "Obsidian Flames",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/55_hires.png"
+  },
+  {
+    "id": "sv3-56",
+    "name": "Froakie",
+    "setName": "Obsidian Flames",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Atsuya Uki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/56_hires.png"
+  },
+  {
+    "id": "sv3-57",
+    "name": "Frogadier",
+    "setName": "Obsidian Flames",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "Tonji Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv3/57_hires.png"
+  },
+  {
+    "id": "sv3-58",
+    "name": "Wiglett",
+    "setName": "Obsidian Flames",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/58_hires.png"
+  },
+  {
+    "id": "sv3-59",
+    "name": "Wugtrio",
+    "setName": "Obsidian Flames",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/59_hires.png"
+  },
+  {
+    "id": "sv3-60",
+    "name": "Finizen",
+    "setName": "Obsidian Flames",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/60_hires.png"
+  },
+  {
+    "id": "sv3-61",
+    "name": "Finizen",
+    "setName": "Obsidian Flames",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv3/61_hires.png"
+  },
+  {
+    "id": "sv3-62",
+    "name": "Palafin",
+    "setName": "Obsidian Flames",
+    "number": "62",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv3/62_hires.png"
+  },
+  {
+    "id": "sv3-63",
+    "name": "Magnemite",
+    "setName": "Obsidian Flames",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/sv3/63_hires.png"
+  },
+  {
+    "id": "sv3-64",
+    "name": "Magneton",
+    "setName": "Obsidian Flames",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv3/64_hires.png"
+  },
+  {
+    "id": "sv3-65",
+    "name": "Magnezone",
+    "setName": "Obsidian Flames",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv3/65_hires.png"
+  },
+  {
+    "id": "sv3-66",
+    "name": "Tyranitar ex",
+    "setName": "Obsidian Flames",
+    "number": "66",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/66_hires.png"
+  },
+  {
+    "id": "sv3-67",
+    "name": "Tynamo",
+    "setName": "Obsidian Flames",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sv3/67_hires.png"
+  },
+  {
+    "id": "sv3-68",
+    "name": "Eelektrik",
+    "setName": "Obsidian Flames",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv3/68_hires.png"
+  },
+  {
+    "id": "sv3-69",
+    "name": "Eelektross",
+    "setName": "Obsidian Flames",
+    "number": "69",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/sv3/69_hires.png"
+  },
+  {
+    "id": "sv3-70",
+    "name": "Thundurus",
+    "setName": "Obsidian Flames",
+    "number": "70",
+    "rarity": "Rare",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv3/70_hires.png"
+  },
+  {
+    "id": "sv3-71",
+    "name": "Toxel",
+    "setName": "Obsidian Flames",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/71_hires.png"
+  },
+  {
+    "id": "sv3-72",
+    "name": "Toxtricity",
+    "setName": "Obsidian Flames",
+    "number": "72",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv3/72_hires.png"
+  },
+  {
+    "id": "sv3-73",
+    "name": "Pawmot ex",
+    "setName": "Obsidian Flames",
+    "number": "73",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv3/73_hires.png"
+  },
+  {
+    "id": "sv3-74",
+    "name": "Tadbulb",
+    "setName": "Obsidian Flames",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/74_hires.png"
+  },
+  {
+    "id": "sv3-75",
+    "name": "Tadbulb",
+    "setName": "Obsidian Flames",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv3/75_hires.png"
+  },
+  {
+    "id": "sv3-76",
+    "name": "Tadbulb",
+    "setName": "Obsidian Flames",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/76_hires.png"
+  },
+  {
+    "id": "sv3-77",
+    "name": "Bellibolt",
+    "setName": "Obsidian Flames",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv3/77_hires.png"
+  },
+  {
+    "id": "sv3-78",
+    "name": "Bellibolt",
+    "setName": "Obsidian Flames",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/78_hires.png"
+  },
+  {
+    "id": "sv3-79",
+    "name": "Miraidon ex",
+    "setName": "Obsidian Flames",
+    "number": "79",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/79_hires.png"
+  },
+  {
+    "id": "sv3-80",
+    "name": "Cleffa",
+    "setName": "Obsidian Flames",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv3/80_hires.png"
+  },
+  {
+    "id": "sv3-81",
+    "name": "Clefairy",
+    "setName": "Obsidian Flames",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv3/81_hires.png"
+  },
+  {
+    "id": "sv3-82",
+    "name": "Clefable ex",
+    "setName": "Obsidian Flames",
+    "number": "82",
+    "rarity": "Double Rare",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/sv3/82_hires.png"
+  },
+  {
+    "id": "sv3-83",
+    "name": "Togepi",
+    "setName": "Obsidian Flames",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Natsumi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv3/83_hires.png"
+  },
+  {
+    "id": "sv3-84",
+    "name": "Togetic",
+    "setName": "Obsidian Flames",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/sv3/84_hires.png"
+  },
+  {
+    "id": "sv3-85",
+    "name": "Togekiss",
+    "setName": "Obsidian Flames",
+    "number": "85",
+    "rarity": "Rare",
+    "artist": "Cona Nitanda",
+    "imageUrl": "https://images.pokemontcg.io/sv3/85_hires.png"
+  },
+  {
+    "id": "sv3-86",
+    "name": "Espeon",
+    "setName": "Obsidian Flames",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Cona Nitanda",
+    "imageUrl": "https://images.pokemontcg.io/sv3/86_hires.png"
+  },
+  {
+    "id": "sv3-87",
+    "name": "Snubbull",
+    "setName": "Obsidian Flames",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sv3/87_hires.png"
+  },
+  {
+    "id": "sv3-88",
+    "name": "Granbull",
+    "setName": "Obsidian Flames",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/sv3/88_hires.png"
+  },
+  {
+    "id": "sv3-89",
+    "name": "Mawile",
+    "setName": "Obsidian Flames",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sv3/89_hires.png"
+  },
+  {
+    "id": "sv3-90",
+    "name": "Spoink",
+    "setName": "Obsidian Flames",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv3/90_hires.png"
+  },
+  {
+    "id": "sv3-91",
+    "name": "Grumpig",
+    "setName": "Obsidian Flames",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv3/91_hires.png"
+  },
+  {
+    "id": "sv3-92",
+    "name": "Lunatone",
+    "setName": "Obsidian Flames",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Tetsu Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/92_hires.png"
+  },
+  {
+    "id": "sv3-93",
+    "name": "Solrock",
+    "setName": "Obsidian Flames",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "Tetsu Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/93_hires.png"
+  },
+  {
+    "id": "sv3-94",
+    "name": "Baltoy",
+    "setName": "Obsidian Flames",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv3/94_hires.png"
+  },
+  {
+    "id": "sv3-95",
+    "name": "Claydol",
+    "setName": "Obsidian Flames",
+    "number": "95",
+    "rarity": "Rare",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/95_hires.png"
+  },
+  {
+    "id": "sv3-96",
+    "name": "Vespiquen ex",
+    "setName": "Obsidian Flames",
+    "number": "96",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/96_hires.png"
+  },
+  {
+    "id": "sv3-97",
+    "name": "Sinistea",
+    "setName": "Obsidian Flames",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv3/97_hires.png"
+  },
+  {
+    "id": "sv3-98",
+    "name": "Polteageist",
+    "setName": "Obsidian Flames",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sv3/98_hires.png"
+  },
+  {
+    "id": "sv3-99",
+    "name": "Greavard",
+    "setName": "Obsidian Flames",
+    "number": "99",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv3/99_hires.png"
+  },
+  {
+    "id": "sv3-100",
+    "name": "Greavard",
+    "setName": "Obsidian Flames",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/100_hires.png"
+  },
+  {
+    "id": "sv3-101",
+    "name": "Houndstone",
+    "setName": "Obsidian Flames",
+    "number": "101",
+    "rarity": "Uncommon",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv3/101_hires.png"
+  },
+  {
+    "id": "sv3-102",
+    "name": "Houndstone ex",
+    "setName": "Obsidian Flames",
+    "number": "102",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/102_hires.png"
+  },
+  {
+    "id": "sv3-103",
+    "name": "Diglett",
+    "setName": "Obsidian Flames",
+    "number": "103",
+    "rarity": "Common",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv3/103_hires.png"
+  },
+  {
+    "id": "sv3-104",
+    "name": "Dugtrio",
+    "setName": "Obsidian Flames",
+    "number": "104",
+    "rarity": "Uncommon",
+    "artist": "Nelnal",
+    "imageUrl": "https://images.pokemontcg.io/sv3/104_hires.png"
+  },
+  {
+    "id": "sv3-105",
+    "name": "Larvitar",
+    "setName": "Obsidian Flames",
+    "number": "105",
+    "rarity": "Common",
+    "artist": "KYUPIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/105_hires.png"
+  },
+  {
+    "id": "sv3-106",
+    "name": "Pupitar",
+    "setName": "Obsidian Flames",
+    "number": "106",
+    "rarity": "Uncommon",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv3/106_hires.png"
+  },
+  {
+    "id": "sv3-107",
+    "name": "Nosepass",
+    "setName": "Obsidian Flames",
+    "number": "107",
+    "rarity": "Common",
+    "artist": "Nobuhiro Imagawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/107_hires.png"
+  },
+  {
+    "id": "sv3-108",
+    "name": "Barboach",
+    "setName": "Obsidian Flames",
+    "number": "108",
+    "rarity": "Common",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv3/108_hires.png"
+  },
+  {
+    "id": "sv3-109",
+    "name": "Whiscash",
+    "setName": "Obsidian Flames",
+    "number": "109",
+    "rarity": "Uncommon",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sv3/109_hires.png"
+  },
+  {
+    "id": "sv3-110",
+    "name": "Bonsly",
+    "setName": "Obsidian Flames",
+    "number": "110",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv3/110_hires.png"
+  },
+  {
+    "id": "sv3-111",
+    "name": "Drilbur",
+    "setName": "Obsidian Flames",
+    "number": "111",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv3/111_hires.png"
+  },
+  {
+    "id": "sv3-112",
+    "name": "Stunfisk",
+    "setName": "Obsidian Flames",
+    "number": "112",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/112_hires.png"
+  },
+  {
+    "id": "sv3-113",
+    "name": "Diggersby",
+    "setName": "Obsidian Flames",
+    "number": "113",
+    "rarity": "Uncommon",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/sv3/113_hires.png"
+  },
+  {
+    "id": "sv3-114",
+    "name": "Crabrawler",
+    "setName": "Obsidian Flames",
+    "number": "114",
+    "rarity": "Common",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/sv3/114_hires.png"
+  },
+  {
+    "id": "sv3-115",
+    "name": "Crabominable",
+    "setName": "Obsidian Flames",
+    "number": "115",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/sv3/115_hires.png"
+  },
+  {
+    "id": "sv3-116",
+    "name": "Rockruff",
+    "setName": "Obsidian Flames",
+    "number": "116",
+    "rarity": "Common",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv3/116_hires.png"
+  },
+  {
+    "id": "sv3-117",
+    "name": "Lycanroc",
+    "setName": "Obsidian Flames",
+    "number": "117",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sv3/117_hires.png"
+  },
+  {
+    "id": "sv3-118",
+    "name": "Toedscool",
+    "setName": "Obsidian Flames",
+    "number": "118",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv3/118_hires.png"
+  },
+  {
+    "id": "sv3-119",
+    "name": "Toedscruel",
+    "setName": "Obsidian Flames",
+    "number": "119",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv3/119_hires.png"
+  },
+  {
+    "id": "sv3-120",
+    "name": "Klawf ex",
+    "setName": "Obsidian Flames",
+    "number": "120",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv3/120_hires.png"
+  },
+  {
+    "id": "sv3-121",
+    "name": "Glimmet",
+    "setName": "Obsidian Flames",
+    "number": "121",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv3/121_hires.png"
+  },
+  {
+    "id": "sv3-122",
+    "name": "Glimmet",
+    "setName": "Obsidian Flames",
+    "number": "122",
+    "rarity": "Common",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/122_hires.png"
+  },
+  {
+    "id": "sv3-123",
+    "name": "Glimmora ex",
+    "setName": "Obsidian Flames",
+    "number": "123",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/123_hires.png"
+  },
+  {
+    "id": "sv3-124",
+    "name": "Koraidon ex",
+    "setName": "Obsidian Flames",
+    "number": "124",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv3/124_hires.png"
+  },
+  {
+    "id": "sv3-125",
+    "name": "Charizard ex",
+    "setName": "Obsidian Flames",
+    "number": "125",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/125_hires.png"
+  },
+  {
+    "id": "sv3-126",
+    "name": "Paldean Wooper",
+    "setName": "Obsidian Flames",
+    "number": "126",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv3/126_hires.png"
+  },
+  {
+    "id": "sv3-127",
+    "name": "Paldean Wooper",
+    "setName": "Obsidian Flames",
+    "number": "127",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/127_hires.png"
+  },
+  {
+    "id": "sv3-128",
+    "name": "Paldean Clodsire",
+    "setName": "Obsidian Flames",
+    "number": "128",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv3/128_hires.png"
+  },
+  {
+    "id": "sv3-129",
+    "name": "Paldean Clodsire",
+    "setName": "Obsidian Flames",
+    "number": "129",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/129_hires.png"
+  },
+  {
+    "id": "sv3-130",
+    "name": "Umbreon",
+    "setName": "Obsidian Flames",
+    "number": "130",
+    "rarity": "Uncommon",
+    "artist": "rika",
+    "imageUrl": "https://images.pokemontcg.io/sv3/130_hires.png"
+  },
+  {
+    "id": "sv3-131",
+    "name": "Houndour",
+    "setName": "Obsidian Flames",
+    "number": "131",
+    "rarity": "Common",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv3/131_hires.png"
+  },
+  {
+    "id": "sv3-132",
+    "name": "Houndour",
+    "setName": "Obsidian Flames",
+    "number": "132",
+    "rarity": "Common",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv3/132_hires.png"
+  },
+  {
+    "id": "sv3-133",
+    "name": "Houndoom",
+    "setName": "Obsidian Flames",
+    "number": "133",
+    "rarity": "Uncommon",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/133_hires.png"
+  },
+  {
+    "id": "sv3-134",
+    "name": "Houndoom ex",
+    "setName": "Obsidian Flames",
+    "number": "134",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/sv3/134_hires.png"
+  },
+  {
+    "id": "sv3-135",
+    "name": "Absol ex",
+    "setName": "Obsidian Flames",
+    "number": "135",
+    "rarity": "Double Rare",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv3/135_hires.png"
+  },
+  {
+    "id": "sv3-136",
+    "name": "Darkrai",
+    "setName": "Obsidian Flames",
+    "number": "136",
+    "rarity": "Rare",
+    "artist": "Bun Toujo",
+    "imageUrl": "https://images.pokemontcg.io/sv3/136_hires.png"
+  },
+  {
+    "id": "sv3-137",
+    "name": "Inkay",
+    "setName": "Obsidian Flames",
+    "number": "137",
+    "rarity": "Common",
+    "artist": "Kedamahadaitai Yawarakai",
+    "imageUrl": "https://images.pokemontcg.io/sv3/137_hires.png"
+  },
+  {
+    "id": "sv3-138",
+    "name": "Malamar",
+    "setName": "Obsidian Flames",
+    "number": "138",
+    "rarity": "Uncommon",
+    "artist": "Nelnal",
+    "imageUrl": "https://images.pokemontcg.io/sv3/138_hires.png"
+  },
+  {
+    "id": "sv3-139",
+    "name": "Salandit",
+    "setName": "Obsidian Flames",
+    "number": "139",
+    "rarity": "Common",
+    "artist": "Shiburingaru",
+    "imageUrl": "https://images.pokemontcg.io/sv3/139_hires.png"
+  },
+  {
+    "id": "sv3-140",
+    "name": "Salazzle",
+    "setName": "Obsidian Flames",
+    "number": "140",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/140_hires.png"
+  },
+  {
+    "id": "sv3-141",
+    "name": "Scizor",
+    "setName": "Obsidian Flames",
+    "number": "141",
+    "rarity": "Rare",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/sv3/141_hires.png"
+  },
+  {
+    "id": "sv3-142",
+    "name": "Skarmory",
+    "setName": "Obsidian Flames",
+    "number": "142",
+    "rarity": "Uncommon",
+    "artist": "Takeshi Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/sv3/142_hires.png"
+  },
+  {
+    "id": "sv3-143",
+    "name": "Mawile",
+    "setName": "Obsidian Flames",
+    "number": "143",
+    "rarity": "Uncommon",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv3/143_hires.png"
+  },
+  {
+    "id": "sv3-144",
+    "name": "Bronzor",
+    "setName": "Obsidian Flames",
+    "number": "144",
+    "rarity": "Common",
+    "artist": "Shinji Kanda",
+    "imageUrl": "https://images.pokemontcg.io/sv3/144_hires.png"
+  },
+  {
+    "id": "sv3-145",
+    "name": "Bronzong",
+    "setName": "Obsidian Flames",
+    "number": "145",
+    "rarity": "Uncommon",
+    "artist": "Nobuhiro Imagawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/145_hires.png"
+  },
+  {
+    "id": "sv3-146",
+    "name": "Probopass",
+    "setName": "Obsidian Flames",
+    "number": "146",
+    "rarity": "Uncommon",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/146_hires.png"
+  },
+  {
+    "id": "sv3-147",
+    "name": "Excadrill",
+    "setName": "Obsidian Flames",
+    "number": "147",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv3/147_hires.png"
+  },
+  {
+    "id": "sv3-148",
+    "name": "Pawniard",
+    "setName": "Obsidian Flames",
+    "number": "148",
+    "rarity": "Common",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv3/148_hires.png"
+  },
+  {
+    "id": "sv3-149",
+    "name": "Bisharp",
+    "setName": "Obsidian Flames",
+    "number": "149",
+    "rarity": "Common",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/149_hires.png"
+  },
+  {
+    "id": "sv3-150",
+    "name": "Kingambit",
+    "setName": "Obsidian Flames",
+    "number": "150",
+    "rarity": "Uncommon",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/150_hires.png"
+  },
+  {
+    "id": "sv3-151",
+    "name": "Togedemaru",
+    "setName": "Obsidian Flames",
+    "number": "151",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sv3/151_hires.png"
+  },
+  {
+    "id": "sv3-152",
+    "name": "Meltan",
+    "setName": "Obsidian Flames",
+    "number": "152",
+    "rarity": "Common",
+    "artist": "Nobuhiro Imagawa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/152_hires.png"
+  },
+  {
+    "id": "sv3-153",
+    "name": "Melmetal ex",
+    "setName": "Obsidian Flames",
+    "number": "153",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/153_hires.png"
+  },
+  {
+    "id": "sv3-154",
+    "name": "Varoom",
+    "setName": "Obsidian Flames",
+    "number": "154",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv3/154_hires.png"
+  },
+  {
+    "id": "sv3-155",
+    "name": "Varoom",
+    "setName": "Obsidian Flames",
+    "number": "155",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv3/155_hires.png"
+  },
+  {
+    "id": "sv3-156",
+    "name": "Revavroom ex",
+    "setName": "Obsidian Flames",
+    "number": "156",
+    "rarity": "Double Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/156_hires.png"
+  },
+  {
+    "id": "sv3-157",
+    "name": "Dratini",
+    "setName": "Obsidian Flames",
+    "number": "157",
+    "rarity": "Common",
+    "artist": "satoma",
+    "imageUrl": "https://images.pokemontcg.io/sv3/157_hires.png"
+  },
+  {
+    "id": "sv3-158",
+    "name": "Dragonair",
+    "setName": "Obsidian Flames",
+    "number": "158",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/sv3/158_hires.png"
+  },
+  {
+    "id": "sv3-159",
+    "name": "Dragonite ex",
+    "setName": "Obsidian Flames",
+    "number": "159",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/159_hires.png"
+  },
+  {
+    "id": "sv3-160",
+    "name": "Altaria",
+    "setName": "Obsidian Flames",
+    "number": "160",
+    "rarity": "Uncommon",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv3/160_hires.png"
+  },
+  {
+    "id": "sv3-161",
+    "name": "Drampa",
+    "setName": "Obsidian Flames",
+    "number": "161",
+    "rarity": "Uncommon",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/sv3/161_hires.png"
+  },
+  {
+    "id": "sv3-162",
+    "name": "Pidgey",
+    "setName": "Obsidian Flames",
+    "number": "162",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sv3/162_hires.png"
+  },
+  {
+    "id": "sv3-163",
+    "name": "Pidgeotto",
+    "setName": "Obsidian Flames",
+    "number": "163",
+    "rarity": "Uncommon",
+    "artist": "Kariya",
+    "imageUrl": "https://images.pokemontcg.io/sv3/163_hires.png"
+  },
+  {
+    "id": "sv3-164",
+    "name": "Pidgeot ex",
+    "setName": "Obsidian Flames",
+    "number": "164",
+    "rarity": "Double Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/164_hires.png"
+  },
+  {
+    "id": "sv3-165",
+    "name": "Kangaskhan",
+    "setName": "Obsidian Flames",
+    "number": "165",
+    "rarity": "Uncommon",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/165_hires.png"
+  },
+  {
+    "id": "sv3-166",
+    "name": "Eevee",
+    "setName": "Obsidian Flames",
+    "number": "166",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/166_hires.png"
+  },
+  {
+    "id": "sv3-167",
+    "name": "Zigzagoon",
+    "setName": "Obsidian Flames",
+    "number": "167",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sv3/167_hires.png"
+  },
+  {
+    "id": "sv3-168",
+    "name": "Linoone",
+    "setName": "Obsidian Flames",
+    "number": "168",
+    "rarity": "Uncommon",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/sv3/168_hires.png"
+  },
+  {
+    "id": "sv3-169",
+    "name": "Swablu",
+    "setName": "Obsidian Flames",
+    "number": "169",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv3/169_hires.png"
+  },
+  {
+    "id": "sv3-170",
+    "name": "Lillipup",
+    "setName": "Obsidian Flames",
+    "number": "170",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv3/170_hires.png"
+  },
+  {
+    "id": "sv3-171",
+    "name": "Herdier",
+    "setName": "Obsidian Flames",
+    "number": "171",
+    "rarity": "Common",
+    "artist": "Kariya",
+    "imageUrl": "https://images.pokemontcg.io/sv3/171_hires.png"
+  },
+  {
+    "id": "sv3-172",
+    "name": "Stoutland",
+    "setName": "Obsidian Flames",
+    "number": "172",
+    "rarity": "Uncommon",
+    "artist": "Keisin",
+    "imageUrl": "https://images.pokemontcg.io/sv3/172_hires.png"
+  },
+  {
+    "id": "sv3-173",
+    "name": "Audino",
+    "setName": "Obsidian Flames",
+    "number": "173",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv3/173_hires.png"
+  },
+  {
+    "id": "sv3-174",
+    "name": "Bouffalant",
+    "setName": "Obsidian Flames",
+    "number": "174",
+    "rarity": "Uncommon",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/174_hires.png"
+  },
+  {
+    "id": "sv3-175",
+    "name": "Bunnelby",
+    "setName": "Obsidian Flames",
+    "number": "175",
+    "rarity": "Common",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/sv3/175_hires.png"
+  },
+  {
+    "id": "sv3-176",
+    "name": "Yungoos",
+    "setName": "Obsidian Flames",
+    "number": "176",
+    "rarity": "Common",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/176_hires.png"
+  },
+  {
+    "id": "sv3-177",
+    "name": "Gumshoos",
+    "setName": "Obsidian Flames",
+    "number": "177",
+    "rarity": "Uncommon",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/177_hires.png"
+  },
+  {
+    "id": "sv3-178",
+    "name": "Skwovet",
+    "setName": "Obsidian Flames",
+    "number": "178",
+    "rarity": "Common",
+    "artist": "Taiga Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/178_hires.png"
+  },
+  {
+    "id": "sv3-179",
+    "name": "Greedent ex",
+    "setName": "Obsidian Flames",
+    "number": "179",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/179_hires.png"
+  },
+  {
+    "id": "sv3-180",
+    "name": "Lechonk",
+    "setName": "Obsidian Flames",
+    "number": "180",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv3/180_hires.png"
+  },
+  {
+    "id": "sv3-181",
+    "name": "Lechonk",
+    "setName": "Obsidian Flames",
+    "number": "181",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv3/181_hires.png"
+  },
+  {
+    "id": "sv3-182",
+    "name": "Lechonk",
+    "setName": "Obsidian Flames",
+    "number": "182",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv3/182_hires.png"
+  },
+  {
+    "id": "sv3-183",
+    "name": "Oinkologne",
+    "setName": "Obsidian Flames",
+    "number": "183",
+    "rarity": "Uncommon",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv3/183_hires.png"
+  },
+  {
+    "id": "sv3-184",
+    "name": "Oinkologne",
+    "setName": "Obsidian Flames",
+    "number": "184",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/184_hires.png"
+  },
+  {
+    "id": "sv3-185",
+    "name": "Flamigo",
+    "setName": "Obsidian Flames",
+    "number": "185",
+    "rarity": "Uncommon",
+    "artist": "Hiroki Asanuma",
+    "imageUrl": "https://images.pokemontcg.io/sv3/185_hires.png"
+  },
+  {
+    "id": "sv3-186",
+    "name": "Arven",
+    "setName": "Obsidian Flames",
+    "number": "186",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/186_hires.png"
+  },
+  {
+    "id": "sv3-187",
+    "name": "Brassius",
+    "setName": "Obsidian Flames",
+    "number": "187",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/187_hires.png"
+  },
+  {
+    "id": "sv3-188",
+    "name": "Geeta",
+    "setName": "Obsidian Flames",
+    "number": "188",
+    "rarity": "Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/188_hires.png"
+  },
+  {
+    "id": "sv3-189",
+    "name": "Letter of Encouragement",
+    "setName": "Obsidian Flames",
+    "number": "189",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv3/189_hires.png"
+  },
+  {
+    "id": "sv3-190",
+    "name": "Ortega",
+    "setName": "Obsidian Flames",
+    "number": "190",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv3/190_hires.png"
+  },
+  {
+    "id": "sv3-191",
+    "name": "Patrol Cap",
+    "setName": "Obsidian Flames",
+    "number": "191",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv3/191_hires.png"
+  },
+  {
+    "id": "sv3-192",
+    "name": "Pokémon League Headquarters",
+    "setName": "Obsidian Flames",
+    "number": "192",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv3/192_hires.png"
+  },
+  {
+    "id": "sv3-193",
+    "name": "Poppy",
+    "setName": "Obsidian Flames",
+    "number": "193",
+    "rarity": "Uncommon",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv3/193_hires.png"
+  },
+  {
+    "id": "sv3-194",
+    "name": "Ryme",
+    "setName": "Obsidian Flames",
+    "number": "194",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv3/194_hires.png"
+  },
+  {
+    "id": "sv3-195",
+    "name": "Team Star Grunt",
+    "setName": "Obsidian Flames",
+    "number": "195",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv3/195_hires.png"
+  },
+  {
+    "id": "sv3-196",
+    "name": "Town Store",
+    "setName": "Obsidian Flames",
+    "number": "196",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv3/196_hires.png"
+  },
+  {
+    "id": "sv3-197",
+    "name": "Vengeful Punch",
+    "setName": "Obsidian Flames",
+    "number": "197",
+    "rarity": "Uncommon",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv3/197_hires.png"
+  },
+  {
+    "id": "sv3-198",
+    "name": "Gloom",
+    "setName": "Obsidian Flames",
+    "number": "198",
+    "rarity": "Illustration Rare",
+    "artist": "Masako Tomii",
+    "imageUrl": "https://images.pokemontcg.io/sv3/198_hires.png"
+  },
+  {
+    "id": "sv3-199",
+    "name": "Ninetales",
+    "setName": "Obsidian Flames",
+    "number": "199",
+    "rarity": "Illustration Rare",
+    "artist": "SIE NANAHARA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/199_hires.png"
+  },
+  {
+    "id": "sv3-200",
+    "name": "Palafin",
+    "setName": "Obsidian Flames",
+    "number": "200",
+    "rarity": "Illustration Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/200_hires.png"
+  },
+  {
+    "id": "sv3-201",
+    "name": "Bellibolt",
+    "setName": "Obsidian Flames",
+    "number": "201",
+    "rarity": "Illustration Rare",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv3/201_hires.png"
+  },
+  {
+    "id": "sv3-202",
+    "name": "Cleffa",
+    "setName": "Obsidian Flames",
+    "number": "202",
+    "rarity": "Illustration Rare",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv3/202_hires.png"
+  },
+  {
+    "id": "sv3-203",
+    "name": "Larvitar",
+    "setName": "Obsidian Flames",
+    "number": "203",
+    "rarity": "Illustration Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv3/203_hires.png"
+  },
+  {
+    "id": "sv3-204",
+    "name": "Houndour",
+    "setName": "Obsidian Flames",
+    "number": "204",
+    "rarity": "Illustration Rare",
+    "artist": "KYUPIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/204_hires.png"
+  },
+  {
+    "id": "sv3-205",
+    "name": "Scizor",
+    "setName": "Obsidian Flames",
+    "number": "205",
+    "rarity": "Illustration Rare",
+    "artist": "Oku",
+    "imageUrl": "https://images.pokemontcg.io/sv3/205_hires.png"
+  },
+  {
+    "id": "sv3-206",
+    "name": "Varoom",
+    "setName": "Obsidian Flames",
+    "number": "206",
+    "rarity": "Illustration Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv3/206_hires.png"
+  },
+  {
+    "id": "sv3-207",
+    "name": "Pidgey",
+    "setName": "Obsidian Flames",
+    "number": "207",
+    "rarity": "Illustration Rare",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv3/207_hires.png"
+  },
+  {
+    "id": "sv3-208",
+    "name": "Pidgeotto",
+    "setName": "Obsidian Flames",
+    "number": "208",
+    "rarity": "Illustration Rare",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv3/208_hires.png"
+  },
+  {
+    "id": "sv3-209",
+    "name": "Lechonk",
+    "setName": "Obsidian Flames",
+    "number": "209",
+    "rarity": "Illustration Rare",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv3/209_hires.png"
+  },
+  {
+    "id": "sv3-210",
+    "name": "Eiscue ex",
+    "setName": "Obsidian Flames",
+    "number": "210",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/210_hires.png"
+  },
+  {
+    "id": "sv3-211",
+    "name": "Tyranitar ex",
+    "setName": "Obsidian Flames",
+    "number": "211",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/211_hires.png"
+  },
+  {
+    "id": "sv3-212",
+    "name": "Vespiquen ex",
+    "setName": "Obsidian Flames",
+    "number": "212",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/212_hires.png"
+  },
+  {
+    "id": "sv3-213",
+    "name": "Glimmora ex",
+    "setName": "Obsidian Flames",
+    "number": "213",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/213_hires.png"
+  },
+  {
+    "id": "sv3-214",
+    "name": "Absol ex",
+    "setName": "Obsidian Flames",
+    "number": "214",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/214_hires.png"
+  },
+  {
+    "id": "sv3-215",
+    "name": "Charizard ex",
+    "setName": "Obsidian Flames",
+    "number": "215",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/215_hires.png"
+  },
+  {
+    "id": "sv3-216",
+    "name": "Revavroom ex",
+    "setName": "Obsidian Flames",
+    "number": "216",
+    "rarity": "Ultra Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/216_hires.png"
+  },
+  {
+    "id": "sv3-217",
+    "name": "Pidgeot ex",
+    "setName": "Obsidian Flames",
+    "number": "217",
+    "rarity": "Ultra Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv3/217_hires.png"
+  },
+  {
+    "id": "sv3-218",
+    "name": "Geeta",
+    "setName": "Obsidian Flames",
+    "number": "218",
+    "rarity": "Ultra Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/218_hires.png"
+  },
+  {
+    "id": "sv3-219",
+    "name": "Ortega",
+    "setName": "Obsidian Flames",
+    "number": "219",
+    "rarity": "Ultra Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv3/219_hires.png"
+  },
+  {
+    "id": "sv3-220",
+    "name": "Poppy",
+    "setName": "Obsidian Flames",
+    "number": "220",
+    "rarity": "Ultra Rare",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv3/220_hires.png"
+  },
+  {
+    "id": "sv3-221",
+    "name": "Ryme",
+    "setName": "Obsidian Flames",
+    "number": "221",
+    "rarity": "Ultra Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv3/221_hires.png"
+  },
+  {
+    "id": "sv3-222",
+    "name": "Eiscue ex",
+    "setName": "Obsidian Flames",
+    "number": "222",
+    "rarity": "Special Illustration Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv3/222_hires.png"
+  },
+  {
+    "id": "sv3-223",
+    "name": "Charizard ex",
+    "setName": "Obsidian Flames",
+    "number": "223",
+    "rarity": "Special Illustration Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv3/223_hires.png"
+  },
+  {
+    "id": "sv3-224",
+    "name": "Revavroom ex",
+    "setName": "Obsidian Flames",
+    "number": "224",
+    "rarity": "Special Illustration Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv3/224_hires.png"
+  },
+  {
+    "id": "sv3-225",
+    "name": "Pidgeot ex",
+    "setName": "Obsidian Flames",
+    "number": "225",
+    "rarity": "Special Illustration Rare",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv3/225_hires.png"
+  },
+  {
+    "id": "sv3-226",
+    "name": "Geeta",
+    "setName": "Obsidian Flames",
+    "number": "226",
+    "rarity": "Special Illustration Rare",
+    "artist": "DOM",
+    "imageUrl": "https://images.pokemontcg.io/sv3/226_hires.png"
+  },
+  {
+    "id": "sv3-227",
+    "name": "Poppy",
+    "setName": "Obsidian Flames",
+    "number": "227",
+    "rarity": "Special Illustration Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv3/227_hires.png"
+  },
+  {
+    "id": "sv3-228",
+    "name": "Charizard ex",
+    "setName": "Obsidian Flames",
+    "number": "228",
+    "rarity": "Hyper Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv3/228_hires.png"
+  },
+  {
+    "id": "sv3-229",
+    "name": "Artazon",
+    "setName": "Obsidian Flames",
+    "number": "229",
+    "rarity": "Hyper Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv3/229_hires.png"
+  },
+  {
+    "id": "sv3-230",
+    "name": "Basic Fire Energy",
+    "setName": "Obsidian Flames",
+    "number": "230",
+    "rarity": "Hyper Rare",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv3/230_hires.png"
+  }
+]

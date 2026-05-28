@@ -1,0 +1,560 @@
+[
+  {
+    "id": "base3-1",
+    "name": "Aerodactyl",
+    "setName": "Fossil",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/1_hires.png"
+  },
+  {
+    "id": "base3-2",
+    "name": "Articuno",
+    "setName": "Fossil",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/2_hires.png"
+  },
+  {
+    "id": "base3-3",
+    "name": "Ditto",
+    "setName": "Fossil",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base3/3_hires.png"
+  },
+  {
+    "id": "base3-4",
+    "name": "Dragonite",
+    "setName": "Fossil",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/4_hires.png"
+  },
+  {
+    "id": "base3-5",
+    "name": "Gengar",
+    "setName": "Fossil",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base3/5_hires.png"
+  },
+  {
+    "id": "base3-6",
+    "name": "Haunter",
+    "setName": "Fossil",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/6_hires.png"
+  },
+  {
+    "id": "base3-7",
+    "name": "Hitmonlee",
+    "setName": "Fossil",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/7_hires.png"
+  },
+  {
+    "id": "base3-8",
+    "name": "Hypno",
+    "setName": "Fossil",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/8_hires.png"
+  },
+  {
+    "id": "base3-9",
+    "name": "Kabutops",
+    "setName": "Fossil",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/9_hires.png"
+  },
+  {
+    "id": "base3-10",
+    "name": "Lapras",
+    "setName": "Fossil",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/10_hires.png"
+  },
+  {
+    "id": "base3-11",
+    "name": "Magneton",
+    "setName": "Fossil",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/11_hires.png"
+  },
+  {
+    "id": "base3-12",
+    "name": "Moltres",
+    "setName": "Fossil",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/12_hires.png"
+  },
+  {
+    "id": "base3-13",
+    "name": "Muk",
+    "setName": "Fossil",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/13_hires.png"
+  },
+  {
+    "id": "base3-14",
+    "name": "Raichu",
+    "setName": "Fossil",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/14_hires.png"
+  },
+  {
+    "id": "base3-15",
+    "name": "Zapdos",
+    "setName": "Fossil",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/15_hires.png"
+  },
+  {
+    "id": "base3-16",
+    "name": "Aerodactyl",
+    "setName": "Fossil",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/16_hires.png"
+  },
+  {
+    "id": "base3-17",
+    "name": "Articuno",
+    "setName": "Fossil",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/17_hires.png"
+  },
+  {
+    "id": "base3-18",
+    "name": "Ditto",
+    "setName": "Fossil",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base3/18_hires.png"
+  },
+  {
+    "id": "base3-19",
+    "name": "Dragonite",
+    "setName": "Fossil",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/19_hires.png"
+  },
+  {
+    "id": "base3-20",
+    "name": "Gengar",
+    "setName": "Fossil",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base3/20_hires.png"
+  },
+  {
+    "id": "base3-21",
+    "name": "Haunter",
+    "setName": "Fossil",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/21_hires.png"
+  },
+  {
+    "id": "base3-22",
+    "name": "Hitmonlee",
+    "setName": "Fossil",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/22_hires.png"
+  },
+  {
+    "id": "base3-23",
+    "name": "Hypno",
+    "setName": "Fossil",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/23_hires.png"
+  },
+  {
+    "id": "base3-24",
+    "name": "Kabutops",
+    "setName": "Fossil",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/24_hires.png"
+  },
+  {
+    "id": "base3-25",
+    "name": "Lapras",
+    "setName": "Fossil",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/25_hires.png"
+  },
+  {
+    "id": "base3-26",
+    "name": "Magneton",
+    "setName": "Fossil",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/26_hires.png"
+  },
+  {
+    "id": "base3-27",
+    "name": "Moltres",
+    "setName": "Fossil",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/27_hires.png"
+  },
+  {
+    "id": "base3-28",
+    "name": "Muk",
+    "setName": "Fossil",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/28_hires.png"
+  },
+  {
+    "id": "base3-29",
+    "name": "Raichu",
+    "setName": "Fossil",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/29_hires.png"
+  },
+  {
+    "id": "base3-30",
+    "name": "Zapdos",
+    "setName": "Fossil",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/30_hires.png"
+  },
+  {
+    "id": "base3-31",
+    "name": "Arbok",
+    "setName": "Fossil",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/31_hires.png"
+  },
+  {
+    "id": "base3-32",
+    "name": "Cloyster",
+    "setName": "Fossil",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/32_hires.png"
+  },
+  {
+    "id": "base3-33",
+    "name": "Gastly",
+    "setName": "Fossil",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/33_hires.png"
+  },
+  {
+    "id": "base3-34",
+    "name": "Golbat",
+    "setName": "Fossil",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/34_hires.png"
+  },
+  {
+    "id": "base3-35",
+    "name": "Golduck",
+    "setName": "Fossil",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/35_hires.png"
+  },
+  {
+    "id": "base3-36",
+    "name": "Golem",
+    "setName": "Fossil",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/36_hires.png"
+  },
+  {
+    "id": "base3-37",
+    "name": "Graveler",
+    "setName": "Fossil",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/37_hires.png"
+  },
+  {
+    "id": "base3-38",
+    "name": "Kingler",
+    "setName": "Fossil",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/38_hires.png"
+  },
+  {
+    "id": "base3-39",
+    "name": "Magmar",
+    "setName": "Fossil",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/39_hires.png"
+  },
+  {
+    "id": "base3-40",
+    "name": "Omastar",
+    "setName": "Fossil",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/40_hires.png"
+  },
+  {
+    "id": "base3-41",
+    "name": "Sandslash",
+    "setName": "Fossil",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/41_hires.png"
+  },
+  {
+    "id": "base3-42",
+    "name": "Seadra",
+    "setName": "Fossil",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/42_hires.png"
+  },
+  {
+    "id": "base3-43",
+    "name": "Slowbro",
+    "setName": "Fossil",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/43_hires.png"
+  },
+  {
+    "id": "base3-44",
+    "name": "Tentacruel",
+    "setName": "Fossil",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/44_hires.png"
+  },
+  {
+    "id": "base3-45",
+    "name": "Weezing",
+    "setName": "Fossil",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/45_hires.png"
+  },
+  {
+    "id": "base3-46",
+    "name": "Ekans",
+    "setName": "Fossil",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/46_hires.png"
+  },
+  {
+    "id": "base3-47",
+    "name": "Geodude",
+    "setName": "Fossil",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/47_hires.png"
+  },
+  {
+    "id": "base3-48",
+    "name": "Grimer",
+    "setName": "Fossil",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/48_hires.png"
+  },
+  {
+    "id": "base3-49",
+    "name": "Horsea",
+    "setName": "Fossil",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/49_hires.png"
+  },
+  {
+    "id": "base3-50",
+    "name": "Kabuto",
+    "setName": "Fossil",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/50_hires.png"
+  },
+  {
+    "id": "base3-51",
+    "name": "Krabby",
+    "setName": "Fossil",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/51_hires.png"
+  },
+  {
+    "id": "base3-52",
+    "name": "Omanyte",
+    "setName": "Fossil",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/52_hires.png"
+  },
+  {
+    "id": "base3-53",
+    "name": "Psyduck",
+    "setName": "Fossil",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/53_hires.png"
+  },
+  {
+    "id": "base3-54",
+    "name": "Shellder",
+    "setName": "Fossil",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/base3/54_hires.png"
+  },
+  {
+    "id": "base3-55",
+    "name": "Slowpoke",
+    "setName": "Fossil",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/base3/55_hires.png"
+  },
+  {
+    "id": "base3-56",
+    "name": "Tentacool",
+    "setName": "Fossil",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/56_hires.png"
+  },
+  {
+    "id": "base3-57",
+    "name": "Zubat",
+    "setName": "Fossil",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/base3/57_hires.png"
+  },
+  {
+    "id": "base3-58",
+    "name": "Mr. Fuji",
+    "setName": "Fossil",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/base3/58_hires.png"
+  },
+  {
+    "id": "base3-59",
+    "name": "Energy Search",
+    "setName": "Fossil",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base3/59_hires.png"
+  },
+  {
+    "id": "base3-60",
+    "name": "Gambler",
+    "setName": "Fossil",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base3/60_hires.png"
+  },
+  {
+    "id": "base3-61",
+    "name": "Recycle",
+    "setName": "Fossil",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base3/61_hires.png"
+  },
+  {
+    "id": "base3-62",
+    "name": "Mysterious Fossil",
+    "setName": "Fossil",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/base3/62_hires.png"
+  }
+]

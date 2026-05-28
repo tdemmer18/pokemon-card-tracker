@@ -1,0 +1,2558 @@
+[
+  {
+    "id": "swsh8-1",
+    "name": "Caterpie",
+    "setName": "Fusion Strike",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/1_hires.png"
+  },
+  {
+    "id": "swsh8-2",
+    "name": "Metapod",
+    "setName": "Fusion Strike",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/2_hires.png"
+  },
+  {
+    "id": "swsh8-3",
+    "name": "Butterfree",
+    "setName": "Fusion Strike",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/3_hires.png"
+  },
+  {
+    "id": "swsh8-4",
+    "name": "Shroomish",
+    "setName": "Fusion Strike",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/4_hires.png"
+  },
+  {
+    "id": "swsh8-5",
+    "name": "Breloom",
+    "setName": "Fusion Strike",
+    "number": "5",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/5_hires.png"
+  },
+  {
+    "id": "swsh8-6",
+    "name": "Breloom V",
+    "setName": "Fusion Strike",
+    "number": "6",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/6_hires.png"
+  },
+  {
+    "id": "swsh8-7",
+    "name": "Pansage",
+    "setName": "Fusion Strike",
+    "number": "7",
+    "rarity": "Common",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/7_hires.png"
+  },
+  {
+    "id": "swsh8-8",
+    "name": "Simisage",
+    "setName": "Fusion Strike",
+    "number": "8",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/8_hires.png"
+  },
+  {
+    "id": "swsh8-9",
+    "name": "Sewaddle",
+    "setName": "Fusion Strike",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/9_hires.png"
+  },
+  {
+    "id": "swsh8-10",
+    "name": "Swadloon",
+    "setName": "Fusion Strike",
+    "number": "10",
+    "rarity": "Uncommon",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/10_hires.png"
+  },
+  {
+    "id": "swsh8-11",
+    "name": "Leavanny",
+    "setName": "Fusion Strike",
+    "number": "11",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/11_hires.png"
+  },
+  {
+    "id": "swsh8-12",
+    "name": "Maractus",
+    "setName": "Fusion Strike",
+    "number": "12",
+    "rarity": "Rare",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/12_hires.png"
+  },
+  {
+    "id": "swsh8-13",
+    "name": "Shelmet",
+    "setName": "Fusion Strike",
+    "number": "13",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/13_hires.png"
+  },
+  {
+    "id": "swsh8-14",
+    "name": "Accelgor",
+    "setName": "Fusion Strike",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/14_hires.png"
+  },
+  {
+    "id": "swsh8-15",
+    "name": "Virizion",
+    "setName": "Fusion Strike",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/15_hires.png"
+  },
+  {
+    "id": "swsh8-16",
+    "name": "Phantump",
+    "setName": "Fusion Strike",
+    "number": "16",
+    "rarity": "Common",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/16_hires.png"
+  },
+  {
+    "id": "swsh8-17",
+    "name": "Trevenant",
+    "setName": "Fusion Strike",
+    "number": "17",
+    "rarity": "Uncommon",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/17_hires.png"
+  },
+  {
+    "id": "swsh8-18",
+    "name": "Grubbin",
+    "setName": "Fusion Strike",
+    "number": "18",
+    "rarity": "Common",
+    "artist": "Asako Ito",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/18_hires.png"
+  },
+  {
+    "id": "swsh8-19",
+    "name": "Dewpider",
+    "setName": "Fusion Strike",
+    "number": "19",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/19_hires.png"
+  },
+  {
+    "id": "swsh8-20",
+    "name": "Araquanid",
+    "setName": "Fusion Strike",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/20_hires.png"
+  },
+  {
+    "id": "swsh8-21",
+    "name": "Tsareena V",
+    "setName": "Fusion Strike",
+    "number": "21",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/21_hires.png"
+  },
+  {
+    "id": "swsh8-22",
+    "name": "Rillaboom V",
+    "setName": "Fusion Strike",
+    "number": "22",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/22_hires.png"
+  },
+  {
+    "id": "swsh8-23",
+    "name": "Rillaboom VMAX",
+    "setName": "Fusion Strike",
+    "number": "23",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/23_hires.png"
+  },
+  {
+    "id": "swsh8-24",
+    "name": "Gossifleur",
+    "setName": "Fusion Strike",
+    "number": "24",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/24_hires.png"
+  },
+  {
+    "id": "swsh8-25",
+    "name": "Eldegoss",
+    "setName": "Fusion Strike",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/25_hires.png"
+  },
+  {
+    "id": "swsh8-26",
+    "name": "Appletun V",
+    "setName": "Fusion Strike",
+    "number": "26",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/26_hires.png"
+  },
+  {
+    "id": "swsh8-27",
+    "name": "Zarude",
+    "setName": "Fusion Strike",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/27_hires.png"
+  },
+  {
+    "id": "swsh8-28",
+    "name": "Vulpix",
+    "setName": "Fusion Strike",
+    "number": "28",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/28_hires.png"
+  },
+  {
+    "id": "swsh8-29",
+    "name": "Vulpix",
+    "setName": "Fusion Strike",
+    "number": "29",
+    "rarity": "Common",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/29_hires.png"
+  },
+  {
+    "id": "swsh8-30",
+    "name": "Ninetales",
+    "setName": "Fusion Strike",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/30_hires.png"
+  },
+  {
+    "id": "swsh8-31",
+    "name": "Ninetales",
+    "setName": "Fusion Strike",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/31_hires.png"
+  },
+  {
+    "id": "swsh8-32",
+    "name": "Growlithe",
+    "setName": "Fusion Strike",
+    "number": "32",
+    "rarity": "Common",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/32_hires.png"
+  },
+  {
+    "id": "swsh8-33",
+    "name": "Arcanine",
+    "setName": "Fusion Strike",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/33_hires.png"
+  },
+  {
+    "id": "swsh8-34",
+    "name": "Slugma",
+    "setName": "Fusion Strike",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/34_hires.png"
+  },
+  {
+    "id": "swsh8-35",
+    "name": "Magcargo",
+    "setName": "Fusion Strike",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/35_hires.png"
+  },
+  {
+    "id": "swsh8-36",
+    "name": "Victini",
+    "setName": "Fusion Strike",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/36_hires.png"
+  },
+  {
+    "id": "swsh8-37",
+    "name": "Pansear",
+    "setName": "Fusion Strike",
+    "number": "37",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/37_hires.png"
+  },
+  {
+    "id": "swsh8-38",
+    "name": "Simisear",
+    "setName": "Fusion Strike",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/38_hires.png"
+  },
+  {
+    "id": "swsh8-39",
+    "name": "Chandelure V",
+    "setName": "Fusion Strike",
+    "number": "39",
+    "rarity": "Rare Holo V",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/39_hires.png"
+  },
+  {
+    "id": "swsh8-40",
+    "name": "Chandelure VMAX",
+    "setName": "Fusion Strike",
+    "number": "40",
+    "rarity": "Rare Holo VMAX",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/40_hires.png"
+  },
+  {
+    "id": "swsh8-41",
+    "name": "Heatmor",
+    "setName": "Fusion Strike",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/41_hires.png"
+  },
+  {
+    "id": "swsh8-42",
+    "name": "Oricorio",
+    "setName": "Fusion Strike",
+    "number": "42",
+    "rarity": "Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/42_hires.png"
+  },
+  {
+    "id": "swsh8-43",
+    "name": "Cinderace V",
+    "setName": "Fusion Strike",
+    "number": "43",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/43_hires.png"
+  },
+  {
+    "id": "swsh8-44",
+    "name": "Cinderace V",
+    "setName": "Fusion Strike",
+    "number": "44",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/44_hires.png"
+  },
+  {
+    "id": "swsh8-45",
+    "name": "Cinderace VMAX",
+    "setName": "Fusion Strike",
+    "number": "45",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/45_hires.png"
+  },
+  {
+    "id": "swsh8-46",
+    "name": "Sizzlipede",
+    "setName": "Fusion Strike",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/46_hires.png"
+  },
+  {
+    "id": "swsh8-47",
+    "name": "Sizzlipede",
+    "setName": "Fusion Strike",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/47_hires.png"
+  },
+  {
+    "id": "swsh8-48",
+    "name": "Centiskorch",
+    "setName": "Fusion Strike",
+    "number": "48",
+    "rarity": "Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/48_hires.png"
+  },
+  {
+    "id": "swsh8-49",
+    "name": "Centiskorch",
+    "setName": "Fusion Strike",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/49_hires.png"
+  },
+  {
+    "id": "swsh8-50",
+    "name": "Shellder",
+    "setName": "Fusion Strike",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/50_hires.png"
+  },
+  {
+    "id": "swsh8-51",
+    "name": "Cloyster",
+    "setName": "Fusion Strike",
+    "number": "51",
+    "rarity": "Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/51_hires.png"
+  },
+  {
+    "id": "swsh8-52",
+    "name": "Staryu",
+    "setName": "Fusion Strike",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/52_hires.png"
+  },
+  {
+    "id": "swsh8-53",
+    "name": "Starmie",
+    "setName": "Fusion Strike",
+    "number": "53",
+    "rarity": "Rare Holo",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/53_hires.png"
+  },
+  {
+    "id": "swsh8-54",
+    "name": "Lapras",
+    "setName": "Fusion Strike",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/54_hires.png"
+  },
+  {
+    "id": "swsh8-55",
+    "name": "Totodile",
+    "setName": "Fusion Strike",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/55_hires.png"
+  },
+  {
+    "id": "swsh8-56",
+    "name": "Croconaw",
+    "setName": "Fusion Strike",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/56_hires.png"
+  },
+  {
+    "id": "swsh8-57",
+    "name": "Feraligatr",
+    "setName": "Fusion Strike",
+    "number": "57",
+    "rarity": "Rare Holo",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/57_hires.png"
+  },
+  {
+    "id": "swsh8-58",
+    "name": "Marill",
+    "setName": "Fusion Strike",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/58_hires.png"
+  },
+  {
+    "id": "swsh8-59",
+    "name": "Azumarill",
+    "setName": "Fusion Strike",
+    "number": "59",
+    "rarity": "Rare",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/59_hires.png"
+  },
+  {
+    "id": "swsh8-60",
+    "name": "Qwilfish",
+    "setName": "Fusion Strike",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/60_hires.png"
+  },
+  {
+    "id": "swsh8-61",
+    "name": "Mantine",
+    "setName": "Fusion Strike",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/61_hires.png"
+  },
+  {
+    "id": "swsh8-62",
+    "name": "Mudkip",
+    "setName": "Fusion Strike",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/62_hires.png"
+  },
+  {
+    "id": "swsh8-63",
+    "name": "Marshtomp",
+    "setName": "Fusion Strike",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/63_hires.png"
+  },
+  {
+    "id": "swsh8-64",
+    "name": "Swampert",
+    "setName": "Fusion Strike",
+    "number": "64",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/64_hires.png"
+  },
+  {
+    "id": "swsh8-65",
+    "name": "Clamperl",
+    "setName": "Fusion Strike",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/65_hires.png"
+  },
+  {
+    "id": "swsh8-66",
+    "name": "Huntail",
+    "setName": "Fusion Strike",
+    "number": "66",
+    "rarity": "Rare",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/66_hires.png"
+  },
+  {
+    "id": "swsh8-67",
+    "name": "Gorebyss",
+    "setName": "Fusion Strike",
+    "number": "67",
+    "rarity": "Rare",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/67_hires.png"
+  },
+  {
+    "id": "swsh8-68",
+    "name": "Panpour",
+    "setName": "Fusion Strike",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/68_hires.png"
+  },
+  {
+    "id": "swsh8-69",
+    "name": "Simipour",
+    "setName": "Fusion Strike",
+    "number": "69",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/69_hires.png"
+  },
+  {
+    "id": "swsh8-70",
+    "name": "Basculin",
+    "setName": "Fusion Strike",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/70_hires.png"
+  },
+  {
+    "id": "swsh8-71",
+    "name": "Galarian Darumaka",
+    "setName": "Fusion Strike",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/71_hires.png"
+  },
+  {
+    "id": "swsh8-72",
+    "name": "Galarian Darmanitan",
+    "setName": "Fusion Strike",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/72_hires.png"
+  },
+  {
+    "id": "swsh8-73",
+    "name": "Greninja V",
+    "setName": "Fusion Strike",
+    "number": "73",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/73_hires.png"
+  },
+  {
+    "id": "swsh8-74",
+    "name": "Clauncher",
+    "setName": "Fusion Strike",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/74_hires.png"
+  },
+  {
+    "id": "swsh8-75",
+    "name": "Clawitzer",
+    "setName": "Fusion Strike",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/75_hires.png"
+  },
+  {
+    "id": "swsh8-76",
+    "name": "Crabominable V",
+    "setName": "Fusion Strike",
+    "number": "76",
+    "rarity": "Rare Holo V",
+    "artist": "MUGENUP",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/76_hires.png"
+  },
+  {
+    "id": "swsh8-77",
+    "name": "Pyukumuku",
+    "setName": "Fusion Strike",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/77_hires.png"
+  },
+  {
+    "id": "swsh8-78",
+    "name": "Inteleon V",
+    "setName": "Fusion Strike",
+    "number": "78",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/78_hires.png"
+  },
+  {
+    "id": "swsh8-79",
+    "name": "Inteleon VMAX",
+    "setName": "Fusion Strike",
+    "number": "79",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/79_hires.png"
+  },
+  {
+    "id": "swsh8-80",
+    "name": "Chewtle",
+    "setName": "Fusion Strike",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/80_hires.png"
+  },
+  {
+    "id": "swsh8-81",
+    "name": "Drednaw",
+    "setName": "Fusion Strike",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/81_hires.png"
+  },
+  {
+    "id": "swsh8-82",
+    "name": "Arrokuda",
+    "setName": "Fusion Strike",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/82_hires.png"
+  },
+  {
+    "id": "swsh8-83",
+    "name": "Barraskewda",
+    "setName": "Fusion Strike",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/83_hires.png"
+  },
+  {
+    "id": "swsh8-84",
+    "name": "Snom",
+    "setName": "Fusion Strike",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/84_hires.png"
+  },
+  {
+    "id": "swsh8-85",
+    "name": "Frosmoth",
+    "setName": "Fusion Strike",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/85_hires.png"
+  },
+  {
+    "id": "swsh8-86",
+    "name": "Pikachu V",
+    "setName": "Fusion Strike",
+    "number": "86",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/86_hires.png"
+  },
+  {
+    "id": "swsh8-87",
+    "name": "Voltorb",
+    "setName": "Fusion Strike",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/87_hires.png"
+  },
+  {
+    "id": "swsh8-88",
+    "name": "Electrode",
+    "setName": "Fusion Strike",
+    "number": "88",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/88_hires.png"
+  },
+  {
+    "id": "swsh8-89",
+    "name": "Plusle",
+    "setName": "Fusion Strike",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Megumi Higuchi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/89_hires.png"
+  },
+  {
+    "id": "swsh8-90",
+    "name": "Minun",
+    "setName": "Fusion Strike",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/90_hires.png"
+  },
+  {
+    "id": "swsh8-91",
+    "name": "Shinx",
+    "setName": "Fusion Strike",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/91_hires.png"
+  },
+  {
+    "id": "swsh8-92",
+    "name": "Luxio",
+    "setName": "Fusion Strike",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/92_hires.png"
+  },
+  {
+    "id": "swsh8-93",
+    "name": "Luxray",
+    "setName": "Fusion Strike",
+    "number": "93",
+    "rarity": "Rare",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/93_hires.png"
+  },
+  {
+    "id": "swsh8-94",
+    "name": "Rotom",
+    "setName": "Fusion Strike",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/94_hires.png"
+  },
+  {
+    "id": "swsh8-95",
+    "name": "Tynamo",
+    "setName": "Fusion Strike",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/95_hires.png"
+  },
+  {
+    "id": "swsh8-96",
+    "name": "Eelektrik",
+    "setName": "Fusion Strike",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/96_hires.png"
+  },
+  {
+    "id": "swsh8-97",
+    "name": "Eelektross",
+    "setName": "Fusion Strike",
+    "number": "97",
+    "rarity": "Rare",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/97_hires.png"
+  },
+  {
+    "id": "swsh8-98",
+    "name": "Helioptile",
+    "setName": "Fusion Strike",
+    "number": "98",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/98_hires.png"
+  },
+  {
+    "id": "swsh8-99",
+    "name": "Heliolisk",
+    "setName": "Fusion Strike",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/99_hires.png"
+  },
+  {
+    "id": "swsh8-100",
+    "name": "Charjabug",
+    "setName": "Fusion Strike",
+    "number": "100",
+    "rarity": "Uncommon",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/100_hires.png"
+  },
+  {
+    "id": "swsh8-101",
+    "name": "Vikavolt",
+    "setName": "Fusion Strike",
+    "number": "101",
+    "rarity": "Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/101_hires.png"
+  },
+  {
+    "id": "swsh8-102",
+    "name": "Zeraora",
+    "setName": "Fusion Strike",
+    "number": "102",
+    "rarity": "Rare",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/102_hires.png"
+  },
+  {
+    "id": "swsh8-103",
+    "name": "Boltund V",
+    "setName": "Fusion Strike",
+    "number": "103",
+    "rarity": "Rare Holo V",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/103_hires.png"
+  },
+  {
+    "id": "swsh8-104",
+    "name": "Boltund VMAX",
+    "setName": "Fusion Strike",
+    "number": "104",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/104_hires.png"
+  },
+  {
+    "id": "swsh8-105",
+    "name": "Toxel",
+    "setName": "Fusion Strike",
+    "number": "105",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/105_hires.png"
+  },
+  {
+    "id": "swsh8-106",
+    "name": "Toxel",
+    "setName": "Fusion Strike",
+    "number": "106",
+    "rarity": "Common",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/106_hires.png"
+  },
+  {
+    "id": "swsh8-107",
+    "name": "Toxtricity",
+    "setName": "Fusion Strike",
+    "number": "107",
+    "rarity": "Rare Holo",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/107_hires.png"
+  },
+  {
+    "id": "swsh8-108",
+    "name": "Toxtricity",
+    "setName": "Fusion Strike",
+    "number": "108",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/108_hires.png"
+  },
+  {
+    "id": "swsh8-109",
+    "name": "Morpeko",
+    "setName": "Fusion Strike",
+    "number": "109",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/109_hires.png"
+  },
+  {
+    "id": "swsh8-110",
+    "name": "Jigglypuff",
+    "setName": "Fusion Strike",
+    "number": "110",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/110_hires.png"
+  },
+  {
+    "id": "swsh8-111",
+    "name": "Wigglytuff",
+    "setName": "Fusion Strike",
+    "number": "111",
+    "rarity": "Uncommon",
+    "artist": "Asako Ito",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/111_hires.png"
+  },
+  {
+    "id": "swsh8-112",
+    "name": "Jynx",
+    "setName": "Fusion Strike",
+    "number": "112",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/112_hires.png"
+  },
+  {
+    "id": "swsh8-113",
+    "name": "Mew V",
+    "setName": "Fusion Strike",
+    "number": "113",
+    "rarity": "Rare Holo V",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/113_hires.png"
+  },
+  {
+    "id": "swsh8-114",
+    "name": "Mew VMAX",
+    "setName": "Fusion Strike",
+    "number": "114",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/114_hires.png"
+  },
+  {
+    "id": "swsh8-115",
+    "name": "Snubbull",
+    "setName": "Fusion Strike",
+    "number": "115",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/115_hires.png"
+  },
+  {
+    "id": "swsh8-116",
+    "name": "Granbull",
+    "setName": "Fusion Strike",
+    "number": "116",
+    "rarity": "Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/116_hires.png"
+  },
+  {
+    "id": "swsh8-117",
+    "name": "Galarian Corsola",
+    "setName": "Fusion Strike",
+    "number": "117",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/117_hires.png"
+  },
+  {
+    "id": "swsh8-118",
+    "name": "Galarian Cursola",
+    "setName": "Fusion Strike",
+    "number": "118",
+    "rarity": "Rare",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/118_hires.png"
+  },
+  {
+    "id": "swsh8-119",
+    "name": "Mawile",
+    "setName": "Fusion Strike",
+    "number": "119",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/119_hires.png"
+  },
+  {
+    "id": "swsh8-120",
+    "name": "Deoxys",
+    "setName": "Fusion Strike",
+    "number": "120",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/120_hires.png"
+  },
+  {
+    "id": "swsh8-121",
+    "name": "Munna",
+    "setName": "Fusion Strike",
+    "number": "121",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/121_hires.png"
+  },
+  {
+    "id": "swsh8-122",
+    "name": "Musharna",
+    "setName": "Fusion Strike",
+    "number": "122",
+    "rarity": "Uncommon",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/122_hires.png"
+  },
+  {
+    "id": "swsh8-123",
+    "name": "Sigilyph",
+    "setName": "Fusion Strike",
+    "number": "123",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/123_hires.png"
+  },
+  {
+    "id": "swsh8-124",
+    "name": "Meloetta",
+    "setName": "Fusion Strike",
+    "number": "124",
+    "rarity": "Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/124_hires.png"
+  },
+  {
+    "id": "swsh8-125",
+    "name": "Sandygast",
+    "setName": "Fusion Strike",
+    "number": "125",
+    "rarity": "Common",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/125_hires.png"
+  },
+  {
+    "id": "swsh8-126",
+    "name": "Palossand",
+    "setName": "Fusion Strike",
+    "number": "126",
+    "rarity": "Rare",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/126_hires.png"
+  },
+  {
+    "id": "swsh8-127",
+    "name": "Indeedee",
+    "setName": "Fusion Strike",
+    "number": "127",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/127_hires.png"
+  },
+  {
+    "id": "swsh8-128",
+    "name": "Dreepy",
+    "setName": "Fusion Strike",
+    "number": "128",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/128_hires.png"
+  },
+  {
+    "id": "swsh8-129",
+    "name": "Drakloak",
+    "setName": "Fusion Strike",
+    "number": "129",
+    "rarity": "Uncommon",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/129_hires.png"
+  },
+  {
+    "id": "swsh8-130",
+    "name": "Dragapult",
+    "setName": "Fusion Strike",
+    "number": "130",
+    "rarity": "Rare Holo",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/130_hires.png"
+  },
+  {
+    "id": "swsh8-131",
+    "name": "Sandshrew",
+    "setName": "Fusion Strike",
+    "number": "131",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/131_hires.png"
+  },
+  {
+    "id": "swsh8-132",
+    "name": "Sandslash",
+    "setName": "Fusion Strike",
+    "number": "132",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/132_hires.png"
+  },
+  {
+    "id": "swsh8-133",
+    "name": "Mankey",
+    "setName": "Fusion Strike",
+    "number": "133",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/133_hires.png"
+  },
+  {
+    "id": "swsh8-134",
+    "name": "Primeape",
+    "setName": "Fusion Strike",
+    "number": "134",
+    "rarity": "Uncommon",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/134_hires.png"
+  },
+  {
+    "id": "swsh8-135",
+    "name": "Geodude",
+    "setName": "Fusion Strike",
+    "number": "135",
+    "rarity": "Common",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/135_hires.png"
+  },
+  {
+    "id": "swsh8-136",
+    "name": "Graveler",
+    "setName": "Fusion Strike",
+    "number": "136",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/136_hires.png"
+  },
+  {
+    "id": "swsh8-137",
+    "name": "Golem",
+    "setName": "Fusion Strike",
+    "number": "137",
+    "rarity": "Rare",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/137_hires.png"
+  },
+  {
+    "id": "swsh8-138",
+    "name": "Onix",
+    "setName": "Fusion Strike",
+    "number": "138",
+    "rarity": "Common",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/138_hires.png"
+  },
+  {
+    "id": "swsh8-139",
+    "name": "Steelix",
+    "setName": "Fusion Strike",
+    "number": "139",
+    "rarity": "Rare Holo",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/139_hires.png"
+  },
+  {
+    "id": "swsh8-140",
+    "name": "Gligar",
+    "setName": "Fusion Strike",
+    "number": "140",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/140_hires.png"
+  },
+  {
+    "id": "swsh8-141",
+    "name": "Gliscor",
+    "setName": "Fusion Strike",
+    "number": "141",
+    "rarity": "Uncommon",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/141_hires.png"
+  },
+  {
+    "id": "swsh8-142",
+    "name": "Makuhita",
+    "setName": "Fusion Strike",
+    "number": "142",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/142_hires.png"
+  },
+  {
+    "id": "swsh8-143",
+    "name": "Hariyama",
+    "setName": "Fusion Strike",
+    "number": "143",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/143_hires.png"
+  },
+  {
+    "id": "swsh8-144",
+    "name": "Baltoy",
+    "setName": "Fusion Strike",
+    "number": "144",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/144_hires.png"
+  },
+  {
+    "id": "swsh8-145",
+    "name": "Claydol",
+    "setName": "Fusion Strike",
+    "number": "145",
+    "rarity": "Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/145_hires.png"
+  },
+  {
+    "id": "swsh8-146",
+    "name": "Lucario V",
+    "setName": "Fusion Strike",
+    "number": "146",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/146_hires.png"
+  },
+  {
+    "id": "swsh8-147",
+    "name": "Drilbur",
+    "setName": "Fusion Strike",
+    "number": "147",
+    "rarity": "Common",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/147_hires.png"
+  },
+  {
+    "id": "swsh8-148",
+    "name": "Landorus",
+    "setName": "Fusion Strike",
+    "number": "148",
+    "rarity": "Rare Holo",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/148_hires.png"
+  },
+  {
+    "id": "swsh8-149",
+    "name": "Pancham",
+    "setName": "Fusion Strike",
+    "number": "149",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/149_hires.png"
+  },
+  {
+    "id": "swsh8-150",
+    "name": "Stufful",
+    "setName": "Fusion Strike",
+    "number": "150",
+    "rarity": "Common",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/150_hires.png"
+  },
+  {
+    "id": "swsh8-151",
+    "name": "Bewear",
+    "setName": "Fusion Strike",
+    "number": "151",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/151_hires.png"
+  },
+  {
+    "id": "swsh8-152",
+    "name": "Clobbopus",
+    "setName": "Fusion Strike",
+    "number": "152",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/152_hires.png"
+  },
+  {
+    "id": "swsh8-153",
+    "name": "Grapploct",
+    "setName": "Fusion Strike",
+    "number": "153",
+    "rarity": "Uncommon",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/153_hires.png"
+  },
+  {
+    "id": "swsh8-154",
+    "name": "Falinks",
+    "setName": "Fusion Strike",
+    "number": "154",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/154_hires.png"
+  },
+  {
+    "id": "swsh8-155",
+    "name": "Falinks",
+    "setName": "Fusion Strike",
+    "number": "155",
+    "rarity": "Common",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/155_hires.png"
+  },
+  {
+    "id": "swsh8-156",
+    "name": "Gengar V",
+    "setName": "Fusion Strike",
+    "number": "156",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/156_hires.png"
+  },
+  {
+    "id": "swsh8-157",
+    "name": "Gengar VMAX",
+    "setName": "Fusion Strike",
+    "number": "157",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/157_hires.png"
+  },
+  {
+    "id": "swsh8-158",
+    "name": "Tyranitar V",
+    "setName": "Fusion Strike",
+    "number": "158",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/158_hires.png"
+  },
+  {
+    "id": "swsh8-159",
+    "name": "Galarian Zigzagoon",
+    "setName": "Fusion Strike",
+    "number": "159",
+    "rarity": "Common",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/159_hires.png"
+  },
+  {
+    "id": "swsh8-160",
+    "name": "Galarian Linoone",
+    "setName": "Fusion Strike",
+    "number": "160",
+    "rarity": "Uncommon",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/160_hires.png"
+  },
+  {
+    "id": "swsh8-161",
+    "name": "Galarian Obstagoon",
+    "setName": "Fusion Strike",
+    "number": "161",
+    "rarity": "Rare Holo",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/161_hires.png"
+  },
+  {
+    "id": "swsh8-162",
+    "name": "Carvanha",
+    "setName": "Fusion Strike",
+    "number": "162",
+    "rarity": "Common",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/162_hires.png"
+  },
+  {
+    "id": "swsh8-163",
+    "name": "Sharpedo",
+    "setName": "Fusion Strike",
+    "number": "163",
+    "rarity": "Uncommon",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/163_hires.png"
+  },
+  {
+    "id": "swsh8-164",
+    "name": "Absol",
+    "setName": "Fusion Strike",
+    "number": "164",
+    "rarity": "Rare",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/164_hires.png"
+  },
+  {
+    "id": "swsh8-165",
+    "name": "Croagunk",
+    "setName": "Fusion Strike",
+    "number": "165",
+    "rarity": "Common",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/165_hires.png"
+  },
+  {
+    "id": "swsh8-166",
+    "name": "Toxicroak",
+    "setName": "Fusion Strike",
+    "number": "166",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/166_hires.png"
+  },
+  {
+    "id": "swsh8-167",
+    "name": "Darkrai",
+    "setName": "Fusion Strike",
+    "number": "167",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/167_hires.png"
+  },
+  {
+    "id": "swsh8-168",
+    "name": "Trubbish",
+    "setName": "Fusion Strike",
+    "number": "168",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/168_hires.png"
+  },
+  {
+    "id": "swsh8-169",
+    "name": "Garbodor",
+    "setName": "Fusion Strike",
+    "number": "169",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/169_hires.png"
+  },
+  {
+    "id": "swsh8-170",
+    "name": "Zorua",
+    "setName": "Fusion Strike",
+    "number": "170",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/170_hires.png"
+  },
+  {
+    "id": "swsh8-171",
+    "name": "Zoroark",
+    "setName": "Fusion Strike",
+    "number": "171",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/171_hires.png"
+  },
+  {
+    "id": "swsh8-172",
+    "name": "Vullaby",
+    "setName": "Fusion Strike",
+    "number": "172",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/172_hires.png"
+  },
+  {
+    "id": "swsh8-173",
+    "name": "Mandibuzz",
+    "setName": "Fusion Strike",
+    "number": "173",
+    "rarity": "Uncommon",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/173_hires.png"
+  },
+  {
+    "id": "swsh8-174",
+    "name": "Pangoro",
+    "setName": "Fusion Strike",
+    "number": "174",
+    "rarity": "Uncommon",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/174_hires.png"
+  },
+  {
+    "id": "swsh8-175",
+    "name": "Yveltal",
+    "setName": "Fusion Strike",
+    "number": "175",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/175_hires.png"
+  },
+  {
+    "id": "swsh8-176",
+    "name": "Impidimp",
+    "setName": "Fusion Strike",
+    "number": "176",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/176_hires.png"
+  },
+  {
+    "id": "swsh8-177",
+    "name": "Morgrem",
+    "setName": "Fusion Strike",
+    "number": "177",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/177_hires.png"
+  },
+  {
+    "id": "swsh8-178",
+    "name": "Grimmsnarl",
+    "setName": "Fusion Strike",
+    "number": "178",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/178_hires.png"
+  },
+  {
+    "id": "swsh8-179",
+    "name": "Morpeko",
+    "setName": "Fusion Strike",
+    "number": "179",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/179_hires.png"
+  },
+  {
+    "id": "swsh8-180",
+    "name": "Galarian Meowth",
+    "setName": "Fusion Strike",
+    "number": "180",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/180_hires.png"
+  },
+  {
+    "id": "swsh8-181",
+    "name": "Galarian Perrserker",
+    "setName": "Fusion Strike",
+    "number": "181",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/181_hires.png"
+  },
+  {
+    "id": "swsh8-182",
+    "name": "Skarmory",
+    "setName": "Fusion Strike",
+    "number": "182",
+    "rarity": "Common",
+    "artist": "Megumi Higuchi",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/182_hires.png"
+  },
+  {
+    "id": "swsh8-183",
+    "name": "Excadrill",
+    "setName": "Fusion Strike",
+    "number": "183",
+    "rarity": "Uncommon",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/183_hires.png"
+  },
+  {
+    "id": "swsh8-184",
+    "name": "Durant",
+    "setName": "Fusion Strike",
+    "number": "184",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/184_hires.png"
+  },
+  {
+    "id": "swsh8-185",
+    "name": "Genesect V",
+    "setName": "Fusion Strike",
+    "number": "185",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/185_hires.png"
+  },
+  {
+    "id": "swsh8-186",
+    "name": "Klefki",
+    "setName": "Fusion Strike",
+    "number": "186",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/186_hires.png"
+  },
+  {
+    "id": "swsh8-187",
+    "name": "Togedemaru",
+    "setName": "Fusion Strike",
+    "number": "187",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/187_hires.png"
+  },
+  {
+    "id": "swsh8-188",
+    "name": "Meltan",
+    "setName": "Fusion Strike",
+    "number": "188",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/188_hires.png"
+  },
+  {
+    "id": "swsh8-189",
+    "name": "Melmetal",
+    "setName": "Fusion Strike",
+    "number": "189",
+    "rarity": "Rare Holo",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/189_hires.png"
+  },
+  {
+    "id": "swsh8-190",
+    "name": "Corviknight",
+    "setName": "Fusion Strike",
+    "number": "190",
+    "rarity": "Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/190_hires.png"
+  },
+  {
+    "id": "swsh8-191",
+    "name": "Cufant",
+    "setName": "Fusion Strike",
+    "number": "191",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/191_hires.png"
+  },
+  {
+    "id": "swsh8-192",
+    "name": "Copperajah",
+    "setName": "Fusion Strike",
+    "number": "192",
+    "rarity": "Uncommon",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/192_hires.png"
+  },
+  {
+    "id": "swsh8-193",
+    "name": "Latias",
+    "setName": "Fusion Strike",
+    "number": "193",
+    "rarity": "Rare",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/193_hires.png"
+  },
+  {
+    "id": "swsh8-194",
+    "name": "Latios",
+    "setName": "Fusion Strike",
+    "number": "194",
+    "rarity": "Rare",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/194_hires.png"
+  },
+  {
+    "id": "swsh8-195",
+    "name": "Goomy",
+    "setName": "Fusion Strike",
+    "number": "195",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/195_hires.png"
+  },
+  {
+    "id": "swsh8-196",
+    "name": "Sliggoo",
+    "setName": "Fusion Strike",
+    "number": "196",
+    "rarity": "Uncommon",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/196_hires.png"
+  },
+  {
+    "id": "swsh8-197",
+    "name": "Goodra",
+    "setName": "Fusion Strike",
+    "number": "197",
+    "rarity": "Rare",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/197_hires.png"
+  },
+  {
+    "id": "swsh8-198",
+    "name": "Turtonator",
+    "setName": "Fusion Strike",
+    "number": "198",
+    "rarity": "Uncommon",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/198_hires.png"
+  },
+  {
+    "id": "swsh8-199",
+    "name": "Meowth",
+    "setName": "Fusion Strike",
+    "number": "199",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/199_hires.png"
+  },
+  {
+    "id": "swsh8-200",
+    "name": "Persian",
+    "setName": "Fusion Strike",
+    "number": "200",
+    "rarity": "Uncommon",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/200_hires.png"
+  },
+  {
+    "id": "swsh8-201",
+    "name": "Dodrio V",
+    "setName": "Fusion Strike",
+    "number": "201",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/201_hires.png"
+  },
+  {
+    "id": "swsh8-202",
+    "name": "Chansey",
+    "setName": "Fusion Strike",
+    "number": "202",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/202_hires.png"
+  },
+  {
+    "id": "swsh8-203",
+    "name": "Blissey",
+    "setName": "Fusion Strike",
+    "number": "203",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/203_hires.png"
+  },
+  {
+    "id": "swsh8-204",
+    "name": "Kangaskhan",
+    "setName": "Fusion Strike",
+    "number": "204",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/204_hires.png"
+  },
+  {
+    "id": "swsh8-205",
+    "name": "Eevee",
+    "setName": "Fusion Strike",
+    "number": "205",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/205_hires.png"
+  },
+  {
+    "id": "swsh8-206",
+    "name": "Snorlax",
+    "setName": "Fusion Strike",
+    "number": "206",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/206_hires.png"
+  },
+  {
+    "id": "swsh8-207",
+    "name": "Dunsparce",
+    "setName": "Fusion Strike",
+    "number": "207",
+    "rarity": "Uncommon",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/207_hires.png"
+  },
+  {
+    "id": "swsh8-208",
+    "name": "Stantler",
+    "setName": "Fusion Strike",
+    "number": "208",
+    "rarity": "Uncommon",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/208_hires.png"
+  },
+  {
+    "id": "swsh8-209",
+    "name": "Smeargle",
+    "setName": "Fusion Strike",
+    "number": "209",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/209_hires.png"
+  },
+  {
+    "id": "swsh8-210",
+    "name": "Skitty",
+    "setName": "Fusion Strike",
+    "number": "210",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/210_hires.png"
+  },
+  {
+    "id": "swsh8-211",
+    "name": "Delcatty",
+    "setName": "Fusion Strike",
+    "number": "211",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/211_hires.png"
+  },
+  {
+    "id": "swsh8-212",
+    "name": "Buneary",
+    "setName": "Fusion Strike",
+    "number": "212",
+    "rarity": "Common",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/212_hires.png"
+  },
+  {
+    "id": "swsh8-213",
+    "name": "Lopunny",
+    "setName": "Fusion Strike",
+    "number": "213",
+    "rarity": "Uncommon",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/213_hires.png"
+  },
+  {
+    "id": "swsh8-214",
+    "name": "Bunnelby",
+    "setName": "Fusion Strike",
+    "number": "214",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/214_hires.png"
+  },
+  {
+    "id": "swsh8-215",
+    "name": "Diggersby",
+    "setName": "Fusion Strike",
+    "number": "215",
+    "rarity": "Uncommon",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/215_hires.png"
+  },
+  {
+    "id": "swsh8-216",
+    "name": "Hawlucha",
+    "setName": "Fusion Strike",
+    "number": "216",
+    "rarity": "Uncommon",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/216_hires.png"
+  },
+  {
+    "id": "swsh8-217",
+    "name": "Greedent V",
+    "setName": "Fusion Strike",
+    "number": "217",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/217_hires.png"
+  },
+  {
+    "id": "swsh8-218",
+    "name": "Greedent VMAX",
+    "setName": "Fusion Strike",
+    "number": "218",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/218_hires.png"
+  },
+  {
+    "id": "swsh8-219",
+    "name": "Rookidee",
+    "setName": "Fusion Strike",
+    "number": "219",
+    "rarity": "Common",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/219_hires.png"
+  },
+  {
+    "id": "swsh8-220",
+    "name": "Corvisquire",
+    "setName": "Fusion Strike",
+    "number": "220",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/220_hires.png"
+  },
+  {
+    "id": "swsh8-221",
+    "name": "Wooloo",
+    "setName": "Fusion Strike",
+    "number": "221",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/221_hires.png"
+  },
+  {
+    "id": "swsh8-222",
+    "name": "Wooloo",
+    "setName": "Fusion Strike",
+    "number": "222",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/222_hires.png"
+  },
+  {
+    "id": "swsh8-223",
+    "name": "Dubwool",
+    "setName": "Fusion Strike",
+    "number": "223",
+    "rarity": "Uncommon",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/223_hires.png"
+  },
+  {
+    "id": "swsh8-224",
+    "name": "Adventurer's Discovery",
+    "setName": "Fusion Strike",
+    "number": "224",
+    "rarity": "Uncommon",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/224_hires.png"
+  },
+  {
+    "id": "swsh8-225",
+    "name": "Battle VIP Pass",
+    "setName": "Fusion Strike",
+    "number": "225",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/225_hires.png"
+  },
+  {
+    "id": "swsh8-226",
+    "name": "Bug Catcher",
+    "setName": "Fusion Strike",
+    "number": "226",
+    "rarity": "Uncommon",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/226_hires.png"
+  },
+  {
+    "id": "swsh8-227",
+    "name": "Chili & Cilan & Cress",
+    "setName": "Fusion Strike",
+    "number": "227",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/227_hires.png"
+  },
+  {
+    "id": "swsh8-228",
+    "name": "Cook",
+    "setName": "Fusion Strike",
+    "number": "228",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/228_hires.png"
+  },
+  {
+    "id": "swsh8-229",
+    "name": "Cram-o-matic",
+    "setName": "Fusion Strike",
+    "number": "229",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/229_hires.png"
+  },
+  {
+    "id": "swsh8-230",
+    "name": "Cross Switcher",
+    "setName": "Fusion Strike",
+    "number": "230",
+    "rarity": "Uncommon",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/230_hires.png"
+  },
+  {
+    "id": "swsh8-231",
+    "name": "Crossceiver",
+    "setName": "Fusion Strike",
+    "number": "231",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/231_hires.png"
+  },
+  {
+    "id": "swsh8-232",
+    "name": "Dancer",
+    "setName": "Fusion Strike",
+    "number": "232",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/232_hires.png"
+  },
+  {
+    "id": "swsh8-233",
+    "name": "Elesa's Sparkle",
+    "setName": "Fusion Strike",
+    "number": "233",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/233_hires.png"
+  },
+  {
+    "id": "swsh8-234",
+    "name": "Farewell Bell",
+    "setName": "Fusion Strike",
+    "number": "234",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/234_hires.png"
+  },
+  {
+    "id": "swsh8-235",
+    "name": "Judge",
+    "setName": "Fusion Strike",
+    "number": "235",
+    "rarity": "Uncommon",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/235_hires.png"
+  },
+  {
+    "id": "swsh8-236",
+    "name": "Power Tablet",
+    "setName": "Fusion Strike",
+    "number": "236",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/236_hires.png"
+  },
+  {
+    "id": "swsh8-237",
+    "name": "Quick Ball",
+    "setName": "Fusion Strike",
+    "number": "237",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/237_hires.png"
+  },
+  {
+    "id": "swsh8-238",
+    "name": "Schoolboy",
+    "setName": "Fusion Strike",
+    "number": "238",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/238_hires.png"
+  },
+  {
+    "id": "swsh8-239",
+    "name": "Schoolgirl",
+    "setName": "Fusion Strike",
+    "number": "239",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/239_hires.png"
+  },
+  {
+    "id": "swsh8-240",
+    "name": "Shauna",
+    "setName": "Fusion Strike",
+    "number": "240",
+    "rarity": "Uncommon",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/240_hires.png"
+  },
+  {
+    "id": "swsh8-241",
+    "name": "Sidney",
+    "setName": "Fusion Strike",
+    "number": "241",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/241_hires.png"
+  },
+  {
+    "id": "swsh8-242",
+    "name": "Skaters' Park",
+    "setName": "Fusion Strike",
+    "number": "242",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/242_hires.png"
+  },
+  {
+    "id": "swsh8-243",
+    "name": "Spongy Gloves",
+    "setName": "Fusion Strike",
+    "number": "243",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/243_hires.png"
+  },
+  {
+    "id": "swsh8-244",
+    "name": "Fusion Strike Energy",
+    "setName": "Fusion Strike",
+    "number": "244",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh8/244_hires.png"
+  },
+  {
+    "id": "swsh8-245",
+    "name": "Celebi V",
+    "setName": "Fusion Strike",
+    "number": "245",
+    "rarity": "Rare Ultra",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/245_hires.png"
+  },
+  {
+    "id": "swsh8-246",
+    "name": "Tsareena V",
+    "setName": "Fusion Strike",
+    "number": "246",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/246_hires.png"
+  },
+  {
+    "id": "swsh8-247",
+    "name": "Chandelure V",
+    "setName": "Fusion Strike",
+    "number": "247",
+    "rarity": "Rare Ultra",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/247_hires.png"
+  },
+  {
+    "id": "swsh8-248",
+    "name": "Crabominable V",
+    "setName": "Fusion Strike",
+    "number": "248",
+    "rarity": "Rare Ultra",
+    "artist": "MUGENUP",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/248_hires.png"
+  },
+  {
+    "id": "swsh8-249",
+    "name": "Boltund V",
+    "setName": "Fusion Strike",
+    "number": "249",
+    "rarity": "Rare Ultra",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/249_hires.png"
+  },
+  {
+    "id": "swsh8-250",
+    "name": "Mew V",
+    "setName": "Fusion Strike",
+    "number": "250",
+    "rarity": "Rare Ultra",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/250_hires.png"
+  },
+  {
+    "id": "swsh8-251",
+    "name": "Mew V",
+    "setName": "Fusion Strike",
+    "number": "251",
+    "rarity": "Rare Ultra",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/251_hires.png"
+  },
+  {
+    "id": "swsh8-252",
+    "name": "Sandaconda V",
+    "setName": "Fusion Strike",
+    "number": "252",
+    "rarity": "Rare Ultra",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/252_hires.png"
+  },
+  {
+    "id": "swsh8-253",
+    "name": "Hoopa V",
+    "setName": "Fusion Strike",
+    "number": "253",
+    "rarity": "Rare Ultra",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/253_hires.png"
+  },
+  {
+    "id": "swsh8-254",
+    "name": "Genesect V",
+    "setName": "Fusion Strike",
+    "number": "254",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/254_hires.png"
+  },
+  {
+    "id": "swsh8-255",
+    "name": "Genesect V",
+    "setName": "Fusion Strike",
+    "number": "255",
+    "rarity": "Rare Ultra",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/255_hires.png"
+  },
+  {
+    "id": "swsh8-256",
+    "name": "Greedent V",
+    "setName": "Fusion Strike",
+    "number": "256",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/256_hires.png"
+  },
+  {
+    "id": "swsh8-257",
+    "name": "Greedent V",
+    "setName": "Fusion Strike",
+    "number": "257",
+    "rarity": "Rare Ultra",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/257_hires.png"
+  },
+  {
+    "id": "swsh8-258",
+    "name": "Chili & Cilan & Cress",
+    "setName": "Fusion Strike",
+    "number": "258",
+    "rarity": "Rare Ultra",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/258_hires.png"
+  },
+  {
+    "id": "swsh8-259",
+    "name": "Dancer",
+    "setName": "Fusion Strike",
+    "number": "259",
+    "rarity": "Rare Ultra",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/259_hires.png"
+  },
+  {
+    "id": "swsh8-260",
+    "name": "Elesa's Sparkle",
+    "setName": "Fusion Strike",
+    "number": "260",
+    "rarity": "Rare Ultra",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/260_hires.png"
+  },
+  {
+    "id": "swsh8-261",
+    "name": "Schoolboy",
+    "setName": "Fusion Strike",
+    "number": "261",
+    "rarity": "Rare Ultra",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/261_hires.png"
+  },
+  {
+    "id": "swsh8-262",
+    "name": "Schoolgirl",
+    "setName": "Fusion Strike",
+    "number": "262",
+    "rarity": "Rare Ultra",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/262_hires.png"
+  },
+  {
+    "id": "swsh8-263",
+    "name": "Shauna",
+    "setName": "Fusion Strike",
+    "number": "263",
+    "rarity": "Rare Ultra",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/263_hires.png"
+  },
+  {
+    "id": "swsh8-264",
+    "name": "Sidney",
+    "setName": "Fusion Strike",
+    "number": "264",
+    "rarity": "Rare Ultra",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/264_hires.png"
+  },
+  {
+    "id": "swsh8-265",
+    "name": "Chandelure VMAX",
+    "setName": "Fusion Strike",
+    "number": "265",
+    "rarity": "Rare Rainbow",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/265_hires.png"
+  },
+  {
+    "id": "swsh8-266",
+    "name": "Inteleon VMAX",
+    "setName": "Fusion Strike",
+    "number": "266",
+    "rarity": "Rare Rainbow",
+    "artist": "Kazuma Koda",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/266_hires.png"
+  },
+  {
+    "id": "swsh8-267",
+    "name": "Boltund VMAX",
+    "setName": "Fusion Strike",
+    "number": "267",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/267_hires.png"
+  },
+  {
+    "id": "swsh8-268",
+    "name": "Mew VMAX",
+    "setName": "Fusion Strike",
+    "number": "268",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/268_hires.png"
+  },
+  {
+    "id": "swsh8-269",
+    "name": "Mew VMAX",
+    "setName": "Fusion Strike",
+    "number": "269",
+    "rarity": "Rare Rainbow",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/269_hires.png"
+  },
+  {
+    "id": "swsh8-270",
+    "name": "Espeon VMAX",
+    "setName": "Fusion Strike",
+    "number": "270",
+    "rarity": "Rare Rainbow",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/270_hires.png"
+  },
+  {
+    "id": "swsh8-271",
+    "name": "Gengar VMAX",
+    "setName": "Fusion Strike",
+    "number": "271",
+    "rarity": "Rare Rainbow",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/271_hires.png"
+  },
+  {
+    "id": "swsh8-272",
+    "name": "Greedent VMAX",
+    "setName": "Fusion Strike",
+    "number": "272",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/272_hires.png"
+  },
+  {
+    "id": "swsh8-273",
+    "name": "Chili & Cilan & Cress",
+    "setName": "Fusion Strike",
+    "number": "273",
+    "rarity": "Rare Rainbow",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/273_hires.png"
+  },
+  {
+    "id": "swsh8-274",
+    "name": "Dancer",
+    "setName": "Fusion Strike",
+    "number": "274",
+    "rarity": "Rare Rainbow",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/274_hires.png"
+  },
+  {
+    "id": "swsh8-275",
+    "name": "Elesa's Sparkle",
+    "setName": "Fusion Strike",
+    "number": "275",
+    "rarity": "Rare Rainbow",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/275_hires.png"
+  },
+  {
+    "id": "swsh8-276",
+    "name": "Schoolboy",
+    "setName": "Fusion Strike",
+    "number": "276",
+    "rarity": "Rare Rainbow",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/276_hires.png"
+  },
+  {
+    "id": "swsh8-277",
+    "name": "Schoolgirl",
+    "setName": "Fusion Strike",
+    "number": "277",
+    "rarity": "Rare Rainbow",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/277_hires.png"
+  },
+  {
+    "id": "swsh8-278",
+    "name": "Shauna",
+    "setName": "Fusion Strike",
+    "number": "278",
+    "rarity": "Rare Rainbow",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/278_hires.png"
+  },
+  {
+    "id": "swsh8-279",
+    "name": "Sidney",
+    "setName": "Fusion Strike",
+    "number": "279",
+    "rarity": "Rare Rainbow",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/279_hires.png"
+  },
+  {
+    "id": "swsh8-280",
+    "name": "Flaaffy",
+    "setName": "Fusion Strike",
+    "number": "280",
+    "rarity": "Rare Secret",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/280_hires.png"
+  },
+  {
+    "id": "swsh8-281",
+    "name": "Power Tablet",
+    "setName": "Fusion Strike",
+    "number": "281",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/281_hires.png"
+  },
+  {
+    "id": "swsh8-282",
+    "name": "Training Court",
+    "setName": "Fusion Strike",
+    "number": "282",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh8/282_hires.png"
+  },
+  {
+    "id": "swsh8-283",
+    "name": "Grass Energy",
+    "setName": "Fusion Strike",
+    "number": "283",
+    "rarity": "Rare Secret",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh8/283_hires.png"
+  },
+  {
+    "id": "swsh8-284",
+    "name": "Fire Energy",
+    "setName": "Fusion Strike",
+    "number": "284",
+    "rarity": "Rare Secret",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh8/284_hires.png"
+  }
+]

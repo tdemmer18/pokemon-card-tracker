@@ -1,0 +1,1883 @@
+[
+  {
+    "id": "swsh2-1",
+    "name": "Caterpie",
+    "setName": "Rebel Clash",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/1_hires.png"
+  },
+  {
+    "id": "swsh2-2",
+    "name": "Metapod",
+    "setName": "Rebel Clash",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Asako Ito",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/2_hires.png"
+  },
+  {
+    "id": "swsh2-3",
+    "name": "Butterfree",
+    "setName": "Rebel Clash",
+    "number": "3",
+    "rarity": "Rare",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/3_hires.png"
+  },
+  {
+    "id": "swsh2-4",
+    "name": "Scyther",
+    "setName": "Rebel Clash",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/4_hires.png"
+  },
+  {
+    "id": "swsh2-5",
+    "name": "Shuckle",
+    "setName": "Rebel Clash",
+    "number": "5",
+    "rarity": "Uncommon",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/5_hires.png"
+  },
+  {
+    "id": "swsh2-6",
+    "name": "Heracross",
+    "setName": "Rebel Clash",
+    "number": "6",
+    "rarity": "Uncommon",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/6_hires.png"
+  },
+  {
+    "id": "swsh2-7",
+    "name": "Lotad",
+    "setName": "Rebel Clash",
+    "number": "7",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/7_hires.png"
+  },
+  {
+    "id": "swsh2-8",
+    "name": "Lombre",
+    "setName": "Rebel Clash",
+    "number": "8",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/8_hires.png"
+  },
+  {
+    "id": "swsh2-9",
+    "name": "Ludicolo",
+    "setName": "Rebel Clash",
+    "number": "9",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/9_hires.png"
+  },
+  {
+    "id": "swsh2-10",
+    "name": "Surskit",
+    "setName": "Rebel Clash",
+    "number": "10",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/10_hires.png"
+  },
+  {
+    "id": "swsh2-11",
+    "name": "Masquerain",
+    "setName": "Rebel Clash",
+    "number": "11",
+    "rarity": "Uncommon",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/11_hires.png"
+  },
+  {
+    "id": "swsh2-12",
+    "name": "Snover",
+    "setName": "Rebel Clash",
+    "number": "12",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/12_hires.png"
+  },
+  {
+    "id": "swsh2-13",
+    "name": "Abomasnow",
+    "setName": "Rebel Clash",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "Kazuma Koda",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/13_hires.png"
+  },
+  {
+    "id": "swsh2-14",
+    "name": "Phantump",
+    "setName": "Rebel Clash",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/14_hires.png"
+  },
+  {
+    "id": "swsh2-15",
+    "name": "Trevenant",
+    "setName": "Rebel Clash",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/15_hires.png"
+  },
+  {
+    "id": "swsh2-16",
+    "name": "Grubbin",
+    "setName": "Rebel Clash",
+    "number": "16",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/16_hires.png"
+  },
+  {
+    "id": "swsh2-17",
+    "name": "Rillaboom V",
+    "setName": "Rebel Clash",
+    "number": "17",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/17_hires.png"
+  },
+  {
+    "id": "swsh2-18",
+    "name": "Rillaboom VMAX",
+    "setName": "Rebel Clash",
+    "number": "18",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/18_hires.png"
+  },
+  {
+    "id": "swsh2-19",
+    "name": "Eldegoss V",
+    "setName": "Rebel Clash",
+    "number": "19",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/19_hires.png"
+  },
+  {
+    "id": "swsh2-20",
+    "name": "Applin",
+    "setName": "Rebel Clash",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/20_hires.png"
+  },
+  {
+    "id": "swsh2-21",
+    "name": "Applin",
+    "setName": "Rebel Clash",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/21_hires.png"
+  },
+  {
+    "id": "swsh2-22",
+    "name": "Flapple",
+    "setName": "Rebel Clash",
+    "number": "22",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/22_hires.png"
+  },
+  {
+    "id": "swsh2-23",
+    "name": "Appletun",
+    "setName": "Rebel Clash",
+    "number": "23",
+    "rarity": "Rare Holo",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/23_hires.png"
+  },
+  {
+    "id": "swsh2-24",
+    "name": "Vulpix",
+    "setName": "Rebel Clash",
+    "number": "24",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/24_hires.png"
+  },
+  {
+    "id": "swsh2-25",
+    "name": "Ninetales",
+    "setName": "Rebel Clash",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/25_hires.png"
+  },
+  {
+    "id": "swsh2-26",
+    "name": "Ninetales V",
+    "setName": "Rebel Clash",
+    "number": "26",
+    "rarity": "Rare Holo V",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/26_hires.png"
+  },
+  {
+    "id": "swsh2-27",
+    "name": "Growlithe",
+    "setName": "Rebel Clash",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/27_hires.png"
+  },
+  {
+    "id": "swsh2-28",
+    "name": "Arcanine",
+    "setName": "Rebel Clash",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/28_hires.png"
+  },
+  {
+    "id": "swsh2-29",
+    "name": "Magmar",
+    "setName": "Rebel Clash",
+    "number": "29",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/29_hires.png"
+  },
+  {
+    "id": "swsh2-30",
+    "name": "Magmortar",
+    "setName": "Rebel Clash",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Kazuma Koda",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/30_hires.png"
+  },
+  {
+    "id": "swsh2-31",
+    "name": "Litwick",
+    "setName": "Rebel Clash",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/31_hires.png"
+  },
+  {
+    "id": "swsh2-32",
+    "name": "Lampent",
+    "setName": "Rebel Clash",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/32_hires.png"
+  },
+  {
+    "id": "swsh2-33",
+    "name": "Chandelure",
+    "setName": "Rebel Clash",
+    "number": "33",
+    "rarity": "Rare Holo",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/33_hires.png"
+  },
+  {
+    "id": "swsh2-34",
+    "name": "Heatmor",
+    "setName": "Rebel Clash",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/34_hires.png"
+  },
+  {
+    "id": "swsh2-35",
+    "name": "Cinderace V",
+    "setName": "Rebel Clash",
+    "number": "35",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/35_hires.png"
+  },
+  {
+    "id": "swsh2-36",
+    "name": "Cinderace VMAX",
+    "setName": "Rebel Clash",
+    "number": "36",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/36_hires.png"
+  },
+  {
+    "id": "swsh2-37",
+    "name": "Galarian Mr. Mime",
+    "setName": "Rebel Clash",
+    "number": "37",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/37_hires.png"
+  },
+  {
+    "id": "swsh2-38",
+    "name": "Galarian Mr. Rime",
+    "setName": "Rebel Clash",
+    "number": "38",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/38_hires.png"
+  },
+  {
+    "id": "swsh2-39",
+    "name": "Magikarp",
+    "setName": "Rebel Clash",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "kanahei",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/39_hires.png"
+  },
+  {
+    "id": "swsh2-40",
+    "name": "Gyarados",
+    "setName": "Rebel Clash",
+    "number": "40",
+    "rarity": "Rare Holo",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/40_hires.png"
+  },
+  {
+    "id": "swsh2-41",
+    "name": "Wingull",
+    "setName": "Rebel Clash",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/41_hires.png"
+  },
+  {
+    "id": "swsh2-42",
+    "name": "Pelipper",
+    "setName": "Rebel Clash",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/42_hires.png"
+  },
+  {
+    "id": "swsh2-43",
+    "name": "Milotic V",
+    "setName": "Rebel Clash",
+    "number": "43",
+    "rarity": "Rare Holo V",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/43_hires.png"
+  },
+  {
+    "id": "swsh2-44",
+    "name": "Tympole",
+    "setName": "Rebel Clash",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/44_hires.png"
+  },
+  {
+    "id": "swsh2-45",
+    "name": "Palpitoad",
+    "setName": "Rebel Clash",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/45_hires.png"
+  },
+  {
+    "id": "swsh2-46",
+    "name": "Seismitoad",
+    "setName": "Rebel Clash",
+    "number": "46",
+    "rarity": "Rare",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/46_hires.png"
+  },
+  {
+    "id": "swsh2-47",
+    "name": "Galarian Darumaka",
+    "setName": "Rebel Clash",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/47_hires.png"
+  },
+  {
+    "id": "swsh2-48",
+    "name": "Galarian Darmanitan",
+    "setName": "Rebel Clash",
+    "number": "48",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/48_hires.png"
+  },
+  {
+    "id": "swsh2-49",
+    "name": "Inteleon V",
+    "setName": "Rebel Clash",
+    "number": "49",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/49_hires.png"
+  },
+  {
+    "id": "swsh2-50",
+    "name": "Inteleon VMAX",
+    "setName": "Rebel Clash",
+    "number": "50",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/50_hires.png"
+  },
+  {
+    "id": "swsh2-51",
+    "name": "Cramorant",
+    "setName": "Rebel Clash",
+    "number": "51",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/51_hires.png"
+  },
+  {
+    "id": "swsh2-52",
+    "name": "Arrokuda",
+    "setName": "Rebel Clash",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/52_hires.png"
+  },
+  {
+    "id": "swsh2-53",
+    "name": "Barraskewda",
+    "setName": "Rebel Clash",
+    "number": "53",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/53_hires.png"
+  },
+  {
+    "id": "swsh2-54",
+    "name": "Eiscue",
+    "setName": "Rebel Clash",
+    "number": "54",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/54_hires.png"
+  },
+  {
+    "id": "swsh2-55",
+    "name": "Eiscue V",
+    "setName": "Rebel Clash",
+    "number": "55",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/55_hires.png"
+  },
+  {
+    "id": "swsh2-56",
+    "name": "Voltorb",
+    "setName": "Rebel Clash",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Hasegawa Saki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/56_hires.png"
+  },
+  {
+    "id": "swsh2-57",
+    "name": "Electrode",
+    "setName": "Rebel Clash",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/57_hires.png"
+  },
+  {
+    "id": "swsh2-58",
+    "name": "Electabuzz",
+    "setName": "Rebel Clash",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/58_hires.png"
+  },
+  {
+    "id": "swsh2-59",
+    "name": "Electivire",
+    "setName": "Rebel Clash",
+    "number": "59",
+    "rarity": "Rare",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/59_hires.png"
+  },
+  {
+    "id": "swsh2-60",
+    "name": "Shinx",
+    "setName": "Rebel Clash",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/60_hires.png"
+  },
+  {
+    "id": "swsh2-61",
+    "name": "Luxio",
+    "setName": "Rebel Clash",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/61_hires.png"
+  },
+  {
+    "id": "swsh2-62",
+    "name": "Luxray",
+    "setName": "Rebel Clash",
+    "number": "62",
+    "rarity": "Rare Holo",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/62_hires.png"
+  },
+  {
+    "id": "swsh2-63",
+    "name": "Helioptile",
+    "setName": "Rebel Clash",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/63_hires.png"
+  },
+  {
+    "id": "swsh2-64",
+    "name": "Heliolisk",
+    "setName": "Rebel Clash",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/64_hires.png"
+  },
+  {
+    "id": "swsh2-65",
+    "name": "Charjabug",
+    "setName": "Rebel Clash",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/65_hires.png"
+  },
+  {
+    "id": "swsh2-66",
+    "name": "Vikavolt",
+    "setName": "Rebel Clash",
+    "number": "66",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/66_hires.png"
+  },
+  {
+    "id": "swsh2-67",
+    "name": "Boltund V",
+    "setName": "Rebel Clash",
+    "number": "67",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/67_hires.png"
+  },
+  {
+    "id": "swsh2-68",
+    "name": "Toxel",
+    "setName": "Rebel Clash",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/68_hires.png"
+  },
+  {
+    "id": "swsh2-69",
+    "name": "Toxtricity",
+    "setName": "Rebel Clash",
+    "number": "69",
+    "rarity": "Rare",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/69_hires.png"
+  },
+  {
+    "id": "swsh2-70",
+    "name": "Toxtricity V",
+    "setName": "Rebel Clash",
+    "number": "70",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/70_hires.png"
+  },
+  {
+    "id": "swsh2-71",
+    "name": "Toxtricity VMAX",
+    "setName": "Rebel Clash",
+    "number": "71",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/71_hires.png"
+  },
+  {
+    "id": "swsh2-72",
+    "name": "Pincurchin V",
+    "setName": "Rebel Clash",
+    "number": "72",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/72_hires.png"
+  },
+  {
+    "id": "swsh2-73",
+    "name": "Morpeko",
+    "setName": "Rebel Clash",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/73_hires.png"
+  },
+  {
+    "id": "swsh2-74",
+    "name": "Clefairy",
+    "setName": "Rebel Clash",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/74_hires.png"
+  },
+  {
+    "id": "swsh2-75",
+    "name": "Clefable",
+    "setName": "Rebel Clash",
+    "number": "75",
+    "rarity": "Rare Holo",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/75_hires.png"
+  },
+  {
+    "id": "swsh2-76",
+    "name": "Natu",
+    "setName": "Rebel Clash",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/76_hires.png"
+  },
+  {
+    "id": "swsh2-77",
+    "name": "Xatu",
+    "setName": "Rebel Clash",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "so-taro",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/77_hires.png"
+  },
+  {
+    "id": "swsh2-78",
+    "name": "Galarian Corsola",
+    "setName": "Rebel Clash",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/78_hires.png"
+  },
+  {
+    "id": "swsh2-79",
+    "name": "Galarian Cursola",
+    "setName": "Rebel Clash",
+    "number": "79",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/79_hires.png"
+  },
+  {
+    "id": "swsh2-80",
+    "name": "Sigilyph",
+    "setName": "Rebel Clash",
+    "number": "80",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/80_hires.png"
+  },
+  {
+    "id": "swsh2-81",
+    "name": "Sandygast",
+    "setName": "Rebel Clash",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/81_hires.png"
+  },
+  {
+    "id": "swsh2-82",
+    "name": "Palossand",
+    "setName": "Rebel Clash",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/82_hires.png"
+  },
+  {
+    "id": "swsh2-83",
+    "name": "Hatenna",
+    "setName": "Rebel Clash",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/83_hires.png"
+  },
+  {
+    "id": "swsh2-84",
+    "name": "Hattrem",
+    "setName": "Rebel Clash",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/84_hires.png"
+  },
+  {
+    "id": "swsh2-85",
+    "name": "Hatterene",
+    "setName": "Rebel Clash",
+    "number": "85",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/85_hires.png"
+  },
+  {
+    "id": "swsh2-86",
+    "name": "Milcery",
+    "setName": "Rebel Clash",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/86_hires.png"
+  },
+  {
+    "id": "swsh2-87",
+    "name": "Alcremie",
+    "setName": "Rebel Clash",
+    "number": "87",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/87_hires.png"
+  },
+  {
+    "id": "swsh2-88",
+    "name": "Indeedee",
+    "setName": "Rebel Clash",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/88_hires.png"
+  },
+  {
+    "id": "swsh2-89",
+    "name": "Dreepy",
+    "setName": "Rebel Clash",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/89_hires.png"
+  },
+  {
+    "id": "swsh2-90",
+    "name": "Drakloak",
+    "setName": "Rebel Clash",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/90_hires.png"
+  },
+  {
+    "id": "swsh2-91",
+    "name": "Dragapult",
+    "setName": "Rebel Clash",
+    "number": "91",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/91_hires.png"
+  },
+  {
+    "id": "swsh2-92",
+    "name": "Dragapult V",
+    "setName": "Rebel Clash",
+    "number": "92",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/92_hires.png"
+  },
+  {
+    "id": "swsh2-93",
+    "name": "Dragapult VMAX",
+    "setName": "Rebel Clash",
+    "number": "93",
+    "rarity": "Rare Holo VMAX",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/93_hires.png"
+  },
+  {
+    "id": "swsh2-94",
+    "name": "Galarian Farfetch'd",
+    "setName": "Rebel Clash",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/94_hires.png"
+  },
+  {
+    "id": "swsh2-95",
+    "name": "Galarian Sirfetch'd",
+    "setName": "Rebel Clash",
+    "number": "95",
+    "rarity": "Rare Holo",
+    "artist": "You Iribi",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/95_hires.png"
+  },
+  {
+    "id": "swsh2-96",
+    "name": "Nosepass",
+    "setName": "Rebel Clash",
+    "number": "96",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/96_hires.png"
+  },
+  {
+    "id": "swsh2-97",
+    "name": "Meditite",
+    "setName": "Rebel Clash",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/97_hires.png"
+  },
+  {
+    "id": "swsh2-98",
+    "name": "Medicham",
+    "setName": "Rebel Clash",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/98_hires.png"
+  },
+  {
+    "id": "swsh2-99",
+    "name": "Barboach",
+    "setName": "Rebel Clash",
+    "number": "99",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/99_hires.png"
+  },
+  {
+    "id": "swsh2-100",
+    "name": "Whiscash",
+    "setName": "Rebel Clash",
+    "number": "100",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/100_hires.png"
+  },
+  {
+    "id": "swsh2-101",
+    "name": "Galarian Yamask",
+    "setName": "Rebel Clash",
+    "number": "101",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/101_hires.png"
+  },
+  {
+    "id": "swsh2-102",
+    "name": "Galarian Runerigus",
+    "setName": "Rebel Clash",
+    "number": "102",
+    "rarity": "Rare",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/102_hires.png"
+  },
+  {
+    "id": "swsh2-103",
+    "name": "Binacle",
+    "setName": "Rebel Clash",
+    "number": "103",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/103_hires.png"
+  },
+  {
+    "id": "swsh2-104",
+    "name": "Barbaracle",
+    "setName": "Rebel Clash",
+    "number": "104",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/104_hires.png"
+  },
+  {
+    "id": "swsh2-105",
+    "name": "Rolycoly",
+    "setName": "Rebel Clash",
+    "number": "105",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/105_hires.png"
+  },
+  {
+    "id": "swsh2-106",
+    "name": "Carkol",
+    "setName": "Rebel Clash",
+    "number": "106",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/106_hires.png"
+  },
+  {
+    "id": "swsh2-107",
+    "name": "Coalossal",
+    "setName": "Rebel Clash",
+    "number": "107",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/107_hires.png"
+  },
+  {
+    "id": "swsh2-108",
+    "name": "Sandaconda V",
+    "setName": "Rebel Clash",
+    "number": "108",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/108_hires.png"
+  },
+  {
+    "id": "swsh2-109",
+    "name": "Falinks",
+    "setName": "Rebel Clash",
+    "number": "109",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/109_hires.png"
+  },
+  {
+    "id": "swsh2-110",
+    "name": "Falinks V",
+    "setName": "Rebel Clash",
+    "number": "110",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/110_hires.png"
+  },
+  {
+    "id": "swsh2-111",
+    "name": "Stonjourner",
+    "setName": "Rebel Clash",
+    "number": "111",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/111_hires.png"
+  },
+  {
+    "id": "swsh2-112",
+    "name": "Koffing",
+    "setName": "Rebel Clash",
+    "number": "112",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/112_hires.png"
+  },
+  {
+    "id": "swsh2-113",
+    "name": "Galarian Weezing",
+    "setName": "Rebel Clash",
+    "number": "113",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/113_hires.png"
+  },
+  {
+    "id": "swsh2-114",
+    "name": "Stunky",
+    "setName": "Rebel Clash",
+    "number": "114",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/114_hires.png"
+  },
+  {
+    "id": "swsh2-115",
+    "name": "Skuntank",
+    "setName": "Rebel Clash",
+    "number": "115",
+    "rarity": "Uncommon",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/115_hires.png"
+  },
+  {
+    "id": "swsh2-116",
+    "name": "Spiritomb",
+    "setName": "Rebel Clash",
+    "number": "116",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/116_hires.png"
+  },
+  {
+    "id": "swsh2-117",
+    "name": "Trubbish",
+    "setName": "Rebel Clash",
+    "number": "117",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/117_hires.png"
+  },
+  {
+    "id": "swsh2-118",
+    "name": "Garbodor",
+    "setName": "Rebel Clash",
+    "number": "118",
+    "rarity": "Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/118_hires.png"
+  },
+  {
+    "id": "swsh2-119",
+    "name": "Vullaby",
+    "setName": "Rebel Clash",
+    "number": "119",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/119_hires.png"
+  },
+  {
+    "id": "swsh2-120",
+    "name": "Mandibuzz",
+    "setName": "Rebel Clash",
+    "number": "120",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/120_hires.png"
+  },
+  {
+    "id": "swsh2-121",
+    "name": "Malamar V",
+    "setName": "Rebel Clash",
+    "number": "121",
+    "rarity": "Rare Holo V",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/121_hires.png"
+  },
+  {
+    "id": "swsh2-122",
+    "name": "Malamar VMAX",
+    "setName": "Rebel Clash",
+    "number": "122",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/122_hires.png"
+  },
+  {
+    "id": "swsh2-123",
+    "name": "Impidimp",
+    "setName": "Rebel Clash",
+    "number": "123",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/123_hires.png"
+  },
+  {
+    "id": "swsh2-124",
+    "name": "Morgrem",
+    "setName": "Rebel Clash",
+    "number": "124",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/124_hires.png"
+  },
+  {
+    "id": "swsh2-125",
+    "name": "Grimmsnarl",
+    "setName": "Rebel Clash",
+    "number": "125",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/125_hires.png"
+  },
+  {
+    "id": "swsh2-126",
+    "name": "Galarian Meowth",
+    "setName": "Rebel Clash",
+    "number": "126",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/126_hires.png"
+  },
+  {
+    "id": "swsh2-127",
+    "name": "Galarian Perrserker",
+    "setName": "Rebel Clash",
+    "number": "127",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/127_hires.png"
+  },
+  {
+    "id": "swsh2-128",
+    "name": "Scizor",
+    "setName": "Rebel Clash",
+    "number": "128",
+    "rarity": "Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/128_hires.png"
+  },
+  {
+    "id": "swsh2-129",
+    "name": "Bronzor",
+    "setName": "Rebel Clash",
+    "number": "129",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/129_hires.png"
+  },
+  {
+    "id": "swsh2-130",
+    "name": "Bronzong",
+    "setName": "Rebel Clash",
+    "number": "130",
+    "rarity": "Uncommon",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/130_hires.png"
+  },
+  {
+    "id": "swsh2-131",
+    "name": "Probopass",
+    "setName": "Rebel Clash",
+    "number": "131",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/131_hires.png"
+  },
+  {
+    "id": "swsh2-132",
+    "name": "Durant",
+    "setName": "Rebel Clash",
+    "number": "132",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/132_hires.png"
+  },
+  {
+    "id": "swsh2-133",
+    "name": "Honedge",
+    "setName": "Rebel Clash",
+    "number": "133",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/133_hires.png"
+  },
+  {
+    "id": "swsh2-134",
+    "name": "Doublade",
+    "setName": "Rebel Clash",
+    "number": "134",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/134_hires.png"
+  },
+  {
+    "id": "swsh2-135",
+    "name": "Aegislash",
+    "setName": "Rebel Clash",
+    "number": "135",
+    "rarity": "Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/135_hires.png"
+  },
+  {
+    "id": "swsh2-136",
+    "name": "Copperajah V",
+    "setName": "Rebel Clash",
+    "number": "136",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/136_hires.png"
+  },
+  {
+    "id": "swsh2-137",
+    "name": "Copperajah VMAX",
+    "setName": "Rebel Clash",
+    "number": "137",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/137_hires.png"
+  },
+  {
+    "id": "swsh2-138",
+    "name": "Duraludon",
+    "setName": "Rebel Clash",
+    "number": "138",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/138_hires.png"
+  },
+  {
+    "id": "swsh2-139",
+    "name": "Zacian",
+    "setName": "Rebel Clash",
+    "number": "139",
+    "rarity": "Rare",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/139_hires.png"
+  },
+  {
+    "id": "swsh2-140",
+    "name": "Zamazenta",
+    "setName": "Rebel Clash",
+    "number": "140",
+    "rarity": "Rare",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/140_hires.png"
+  },
+  {
+    "id": "swsh2-141",
+    "name": "Snorlax",
+    "setName": "Rebel Clash",
+    "number": "141",
+    "rarity": "Rare",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/141_hires.png"
+  },
+  {
+    "id": "swsh2-142",
+    "name": "Chatot",
+    "setName": "Rebel Clash",
+    "number": "142",
+    "rarity": "Uncommon",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/142_hires.png"
+  },
+  {
+    "id": "swsh2-143",
+    "name": "Pidove",
+    "setName": "Rebel Clash",
+    "number": "143",
+    "rarity": "Common",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/143_hires.png"
+  },
+  {
+    "id": "swsh2-144",
+    "name": "Tranquill",
+    "setName": "Rebel Clash",
+    "number": "144",
+    "rarity": "Uncommon",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/144_hires.png"
+  },
+  {
+    "id": "swsh2-145",
+    "name": "Unfezant",
+    "setName": "Rebel Clash",
+    "number": "145",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/145_hires.png"
+  },
+  {
+    "id": "swsh2-146",
+    "name": "Bunnelby",
+    "setName": "Rebel Clash",
+    "number": "146",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/146_hires.png"
+  },
+  {
+    "id": "swsh2-147",
+    "name": "Diggersby",
+    "setName": "Rebel Clash",
+    "number": "147",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/147_hires.png"
+  },
+  {
+    "id": "swsh2-148",
+    "name": "Hawlucha",
+    "setName": "Rebel Clash",
+    "number": "148",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/148_hires.png"
+  },
+  {
+    "id": "swsh2-149",
+    "name": "Stufful",
+    "setName": "Rebel Clash",
+    "number": "149",
+    "rarity": "Common",
+    "artist": "so-taro",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/149_hires.png"
+  },
+  {
+    "id": "swsh2-150",
+    "name": "Bewear",
+    "setName": "Rebel Clash",
+    "number": "150",
+    "rarity": "Uncommon",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/150_hires.png"
+  },
+  {
+    "id": "swsh2-151",
+    "name": "Skwovet",
+    "setName": "Rebel Clash",
+    "number": "151",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/151_hires.png"
+  },
+  {
+    "id": "swsh2-152",
+    "name": "Greedent",
+    "setName": "Rebel Clash",
+    "number": "152",
+    "rarity": "Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/152_hires.png"
+  },
+  {
+    "id": "swsh2-153",
+    "name": "Dubwool V",
+    "setName": "Rebel Clash",
+    "number": "153",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/153_hires.png"
+  },
+  {
+    "id": "swsh2-154",
+    "name": "Boss's Orders",
+    "setName": "Rebel Clash",
+    "number": "154",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/154_hires.png"
+  },
+  {
+    "id": "swsh2-155",
+    "name": "Burning Scarf",
+    "setName": "Rebel Clash",
+    "number": "155",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/155_hires.png"
+  },
+  {
+    "id": "swsh2-156",
+    "name": "Capacious Bucket",
+    "setName": "Rebel Clash",
+    "number": "156",
+    "rarity": "Uncommon",
+    "artist": "sadaji",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/156_hires.png"
+  },
+  {
+    "id": "swsh2-157",
+    "name": "Cursed Shovel",
+    "setName": "Rebel Clash",
+    "number": "157",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/157_hires.png"
+  },
+  {
+    "id": "swsh2-158",
+    "name": "Dan",
+    "setName": "Rebel Clash",
+    "number": "158",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/158_hires.png"
+  },
+  {
+    "id": "swsh2-159",
+    "name": "Full Heal",
+    "setName": "Rebel Clash",
+    "number": "159",
+    "rarity": "Uncommon",
+    "artist": "Yoshinobu Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/159_hires.png"
+  },
+  {
+    "id": "swsh2-160",
+    "name": "Galar Mine",
+    "setName": "Rebel Clash",
+    "number": "160",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/160_hires.png"
+  },
+  {
+    "id": "swsh2-161",
+    "name": "Milo",
+    "setName": "Rebel Clash",
+    "number": "161",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/161_hires.png"
+  },
+  {
+    "id": "swsh2-162",
+    "name": "Nugget",
+    "setName": "Rebel Clash",
+    "number": "162",
+    "rarity": "Uncommon",
+    "artist": "sadaji",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/162_hires.png"
+  },
+  {
+    "id": "swsh2-163",
+    "name": "Oleana",
+    "setName": "Rebel Clash",
+    "number": "163",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/163_hires.png"
+  },
+  {
+    "id": "swsh2-164",
+    "name": "Poké Ball",
+    "setName": "Rebel Clash",
+    "number": "164",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/164_hires.png"
+  },
+  {
+    "id": "swsh2-165",
+    "name": "Scoop Up Net",
+    "setName": "Rebel Clash",
+    "number": "165",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/165_hires.png"
+  },
+  {
+    "id": "swsh2-166",
+    "name": "Skyla",
+    "setName": "Rebel Clash",
+    "number": "166",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/166_hires.png"
+  },
+  {
+    "id": "swsh2-167",
+    "name": "Sonia",
+    "setName": "Rebel Clash",
+    "number": "167",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/167_hires.png"
+  },
+  {
+    "id": "swsh2-168",
+    "name": "Tool Scrapper",
+    "setName": "Rebel Clash",
+    "number": "168",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/168_hires.png"
+  },
+  {
+    "id": "swsh2-169",
+    "name": "Training Court",
+    "setName": "Rebel Clash",
+    "number": "169",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/169_hires.png"
+  },
+  {
+    "id": "swsh2-170",
+    "name": "Turffield Stadium",
+    "setName": "Rebel Clash",
+    "number": "170",
+    "rarity": "Uncommon",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/170_hires.png"
+  },
+  {
+    "id": "swsh2-171",
+    "name": "Capture Energy",
+    "setName": "Rebel Clash",
+    "number": "171",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh2/171_hires.png"
+  },
+  {
+    "id": "swsh2-172",
+    "name": "Horror Psychic Energy",
+    "setName": "Rebel Clash",
+    "number": "172",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh2/172_hires.png"
+  },
+  {
+    "id": "swsh2-173",
+    "name": "Speed Lightning Energy",
+    "setName": "Rebel Clash",
+    "number": "173",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh2/173_hires.png"
+  },
+  {
+    "id": "swsh2-174",
+    "name": "Twin Energy",
+    "setName": "Rebel Clash",
+    "number": "174",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh2/174_hires.png"
+  },
+  {
+    "id": "swsh2-175",
+    "name": "Rillaboom V",
+    "setName": "Rebel Clash",
+    "number": "175",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/175_hires.png"
+  },
+  {
+    "id": "swsh2-176",
+    "name": "Eldegoss V",
+    "setName": "Rebel Clash",
+    "number": "176",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/176_hires.png"
+  },
+  {
+    "id": "swsh2-177",
+    "name": "Ninetales V",
+    "setName": "Rebel Clash",
+    "number": "177",
+    "rarity": "Rare Ultra",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/177_hires.png"
+  },
+  {
+    "id": "swsh2-178",
+    "name": "Cinderace V",
+    "setName": "Rebel Clash",
+    "number": "178",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/178_hires.png"
+  },
+  {
+    "id": "swsh2-179",
+    "name": "Milotic V",
+    "setName": "Rebel Clash",
+    "number": "179",
+    "rarity": "Rare Ultra",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/179_hires.png"
+  },
+  {
+    "id": "swsh2-180",
+    "name": "Inteleon V",
+    "setName": "Rebel Clash",
+    "number": "180",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/180_hires.png"
+  },
+  {
+    "id": "swsh2-181",
+    "name": "Boltund V",
+    "setName": "Rebel Clash",
+    "number": "181",
+    "rarity": "Rare Ultra",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/181_hires.png"
+  },
+  {
+    "id": "swsh2-182",
+    "name": "Toxtricity V",
+    "setName": "Rebel Clash",
+    "number": "182",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/182_hires.png"
+  },
+  {
+    "id": "swsh2-183",
+    "name": "Dragapult V",
+    "setName": "Rebel Clash",
+    "number": "183",
+    "rarity": "Rare Ultra",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/183_hires.png"
+  },
+  {
+    "id": "swsh2-184",
+    "name": "Sandaconda V",
+    "setName": "Rebel Clash",
+    "number": "184",
+    "rarity": "Rare Ultra",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/184_hires.png"
+  },
+  {
+    "id": "swsh2-185",
+    "name": "Falinks V",
+    "setName": "Rebel Clash",
+    "number": "185",
+    "rarity": "Rare Ultra",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/185_hires.png"
+  },
+  {
+    "id": "swsh2-186",
+    "name": "Malamar V",
+    "setName": "Rebel Clash",
+    "number": "186",
+    "rarity": "Rare Ultra",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/186_hires.png"
+  },
+  {
+    "id": "swsh2-187",
+    "name": "Copperajah V",
+    "setName": "Rebel Clash",
+    "number": "187",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/187_hires.png"
+  },
+  {
+    "id": "swsh2-188",
+    "name": "Dubwool V",
+    "setName": "Rebel Clash",
+    "number": "188",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/188_hires.png"
+  },
+  {
+    "id": "swsh2-189",
+    "name": "Boss's Orders",
+    "setName": "Rebel Clash",
+    "number": "189",
+    "rarity": "Rare Ultra",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/189_hires.png"
+  },
+  {
+    "id": "swsh2-190",
+    "name": "Milo",
+    "setName": "Rebel Clash",
+    "number": "190",
+    "rarity": "Rare Ultra",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/190_hires.png"
+  },
+  {
+    "id": "swsh2-191",
+    "name": "Oleana",
+    "setName": "Rebel Clash",
+    "number": "191",
+    "rarity": "Rare Ultra",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/191_hires.png"
+  },
+  {
+    "id": "swsh2-192",
+    "name": "Sonia",
+    "setName": "Rebel Clash",
+    "number": "192",
+    "rarity": "Rare Ultra",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/192_hires.png"
+  },
+  {
+    "id": "swsh2-193",
+    "name": "Rillaboom VMAX",
+    "setName": "Rebel Clash",
+    "number": "193",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/193_hires.png"
+  },
+  {
+    "id": "swsh2-194",
+    "name": "Cinderace VMAX",
+    "setName": "Rebel Clash",
+    "number": "194",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/194_hires.png"
+  },
+  {
+    "id": "swsh2-195",
+    "name": "Inteleon VMAX",
+    "setName": "Rebel Clash",
+    "number": "195",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/195_hires.png"
+  },
+  {
+    "id": "swsh2-196",
+    "name": "Toxtricity VMAX",
+    "setName": "Rebel Clash",
+    "number": "196",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/196_hires.png"
+  },
+  {
+    "id": "swsh2-197",
+    "name": "Dragapult VMAX",
+    "setName": "Rebel Clash",
+    "number": "197",
+    "rarity": "Rare Rainbow",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/197_hires.png"
+  },
+  {
+    "id": "swsh2-198",
+    "name": "Malamar VMAX",
+    "setName": "Rebel Clash",
+    "number": "198",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/198_hires.png"
+  },
+  {
+    "id": "swsh2-199",
+    "name": "Copperajah VMAX",
+    "setName": "Rebel Clash",
+    "number": "199",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/199_hires.png"
+  },
+  {
+    "id": "swsh2-200",
+    "name": "Boss's Orders",
+    "setName": "Rebel Clash",
+    "number": "200",
+    "rarity": "Rare Rainbow",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/200_hires.png"
+  },
+  {
+    "id": "swsh2-201",
+    "name": "Milo",
+    "setName": "Rebel Clash",
+    "number": "201",
+    "rarity": "Rare Rainbow",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/201_hires.png"
+  },
+  {
+    "id": "swsh2-202",
+    "name": "Oleana",
+    "setName": "Rebel Clash",
+    "number": "202",
+    "rarity": "Rare Rainbow",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/202_hires.png"
+  },
+  {
+    "id": "swsh2-203",
+    "name": "Sonia",
+    "setName": "Rebel Clash",
+    "number": "203",
+    "rarity": "Rare Rainbow",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/203_hires.png"
+  },
+  {
+    "id": "swsh2-204",
+    "name": "Frosmoth",
+    "setName": "Rebel Clash",
+    "number": "204",
+    "rarity": "Rare Secret",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/204_hires.png"
+  },
+  {
+    "id": "swsh2-205",
+    "name": "Galarian Perrserker",
+    "setName": "Rebel Clash",
+    "number": "205",
+    "rarity": "Rare Secret",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/205_hires.png"
+  },
+  {
+    "id": "swsh2-206",
+    "name": "Big Charm",
+    "setName": "Rebel Clash",
+    "number": "206",
+    "rarity": "Rare Secret",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/206_hires.png"
+  },
+  {
+    "id": "swsh2-207",
+    "name": "Scoop Up Net",
+    "setName": "Rebel Clash",
+    "number": "207",
+    "rarity": "Rare Secret",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/207_hires.png"
+  },
+  {
+    "id": "swsh2-208",
+    "name": "Tool Scrapper",
+    "setName": "Rebel Clash",
+    "number": "208",
+    "rarity": "Rare Secret",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh2/208_hires.png"
+  },
+  {
+    "id": "swsh2-209",
+    "name": "Twin Energy",
+    "setName": "Rebel Clash",
+    "number": "209",
+    "rarity": "Rare Secret",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh2/209_hires.png"
+  }
+]

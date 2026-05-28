@@ -1,0 +1,227 @@
+[
+  {
+    "id": "hsp-HGSS01",
+    "name": "Ho-Oh",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS01",
+    "rarity": "Promo",
+    "artist": "Takashi Yamaguchi",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS01_hires.png"
+  },
+  {
+    "id": "hsp-HGSS02",
+    "name": "Lugia",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS02",
+    "rarity": "Promo",
+    "artist": "Takashi Yamaguchi",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS02_hires.png"
+  },
+  {
+    "id": "hsp-HGSS03",
+    "name": "Pikachu",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS03",
+    "rarity": "Promo",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS03_hires.png"
+  },
+  {
+    "id": "hsp-HGSS04",
+    "name": "Wobbuffet",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS04",
+    "rarity": "Promo",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS04_hires.png"
+  },
+  {
+    "id": "hsp-HGSS05",
+    "name": "Hoothoot",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS05",
+    "rarity": "Promo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS05_hires.png"
+  },
+  {
+    "id": "hsp-HGSS06",
+    "name": "Noctowl",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS06",
+    "rarity": "Promo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS06_hires.png"
+  },
+  {
+    "id": "hsp-HGSS07",
+    "name": "Feraligatr",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS07",
+    "rarity": "Promo",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS07_hires.png"
+  },
+  {
+    "id": "hsp-HGSS08",
+    "name": "Meganium",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS08",
+    "rarity": "Promo",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS08_hires.png"
+  },
+  {
+    "id": "hsp-HGSS09",
+    "name": "Typhlosion",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS09",
+    "rarity": "Promo",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS09_hires.png"
+  },
+  {
+    "id": "hsp-HGSS10",
+    "name": "Latias",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS10",
+    "rarity": "Promo",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS10_hires.png"
+  },
+  {
+    "id": "hsp-HGSS11",
+    "name": "Latios",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS11",
+    "rarity": "Promo",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS11_hires.png"
+  },
+  {
+    "id": "hsp-HGSS12",
+    "name": "Cleffa",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS12",
+    "rarity": "Promo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS12_hires.png"
+  },
+  {
+    "id": "hsp-HGSS13",
+    "name": "Smoochum",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS13",
+    "rarity": "Promo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS13_hires.png"
+  },
+  {
+    "id": "hsp-HGSS14",
+    "name": "Lapras",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS14",
+    "rarity": "Promo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS14_hires.png"
+  },
+  {
+    "id": "hsp-HGSS15",
+    "name": "Shuckle",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS15",
+    "rarity": "Promo",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS15_hires.png"
+  },
+  {
+    "id": "hsp-HGSS16",
+    "name": "Plusle",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS16",
+    "rarity": "Promo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS16_hires.png"
+  },
+  {
+    "id": "hsp-HGSS17",
+    "name": "Minun",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS17",
+    "rarity": "Promo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS17_hires.png"
+  },
+  {
+    "id": "hsp-HGSS18",
+    "name": "Tropical Tidal Wave",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS18",
+    "rarity": "Promo",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS18_hires.png"
+  },
+  {
+    "id": "hsp-HGSS19",
+    "name": "Raikou",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS19",
+    "rarity": "Promo",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS19_hires.png"
+  },
+  {
+    "id": "hsp-HGSS20",
+    "name": "Entei",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS20",
+    "rarity": "Promo",
+    "artist": "Yuri Umemura",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS20_hires.png"
+  },
+  {
+    "id": "hsp-HGSS21",
+    "name": "Suicune",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS21",
+    "rarity": "Promo",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS21_hires.png"
+  },
+  {
+    "id": "hsp-HGSS22",
+    "name": "Porygon",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS22",
+    "rarity": "Promo",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS22_hires.png"
+  },
+  {
+    "id": "hsp-HGSS23",
+    "name": "Porygon2",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS23",
+    "rarity": "Promo",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS23_hires.png"
+  },
+  {
+    "id": "hsp-HGSS24",
+    "name": "Hitmonchan",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS24",
+    "rarity": "Promo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS24_hires.png"
+  },
+  {
+    "id": "hsp-HGSS25",
+    "name": "Hitmonlee",
+    "setName": "HGSS Black Star Promos",
+    "number": "HGSS25",
+    "rarity": "Promo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/hsp/HGSS25_hires.png"
+  }
+]

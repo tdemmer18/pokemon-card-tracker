@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "pl2-1",
+    "name": "Arcanine",
+    "setName": "Rising Rivals",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/1_hires.png"
+  },
+  {
+    "id": "pl2-2",
+    "name": "Bastiodon GL",
+    "setName": "Rising Rivals",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl2/2_hires.png"
+  },
+  {
+    "id": "pl2-3",
+    "name": "Darkrai G",
+    "setName": "Rising Rivals",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl2/3_hires.png"
+  },
+  {
+    "id": "pl2-4",
+    "name": "Floatzel GL",
+    "setName": "Rising Rivals",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl2/4_hires.png"
+  },
+  {
+    "id": "pl2-5",
+    "name": "Flygon",
+    "setName": "Rising Rivals",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/5_hires.png"
+  },
+  {
+    "id": "pl2-6",
+    "name": "Froslass GL",
+    "setName": "Rising Rivals",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl2/6_hires.png"
+  },
+  {
+    "id": "pl2-7",
+    "name": "Jirachi",
+    "setName": "Rising Rivals",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Kenkichi Toyama",
+    "imageUrl": "https://images.pokemontcg.io/pl2/7_hires.png"
+  },
+  {
+    "id": "pl2-8",
+    "name": "Lucario GL",
+    "setName": "Rising Rivals",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/8_hires.png"
+  },
+  {
+    "id": "pl2-9",
+    "name": "Luxray GL",
+    "setName": "Rising Rivals",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/9_hires.png"
+  },
+  {
+    "id": "pl2-10",
+    "name": "Mismagius GL",
+    "setName": "Rising Rivals",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl2/10_hires.png"
+  },
+  {
+    "id": "pl2-11",
+    "name": "Rampardos GL",
+    "setName": "Rising Rivals",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/pl2/11_hires.png"
+  },
+  {
+    "id": "pl2-12",
+    "name": "Roserade GL",
+    "setName": "Rising Rivals",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/pl2/12_hires.png"
+  },
+  {
+    "id": "pl2-13",
+    "name": "Shiftry",
+    "setName": "Rising Rivals",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/13_hires.png"
+  },
+  {
+    "id": "pl2-14",
+    "name": "Aggron",
+    "setName": "Rising Rivals",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl2/14_hires.png"
+  },
+  {
+    "id": "pl2-15",
+    "name": "Beedrill",
+    "setName": "Rising Rivals",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/15_hires.png"
+  },
+  {
+    "id": "pl2-16",
+    "name": "Bronzong E4",
+    "setName": "Rising Rivals",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl2/16_hires.png"
+  },
+  {
+    "id": "pl2-17",
+    "name": "Drapion E4",
+    "setName": "Rising Rivals",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/17_hires.png"
+  },
+  {
+    "id": "pl2-18",
+    "name": "Espeon E4",
+    "setName": "Rising Rivals",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl2/18_hires.png"
+  },
+  {
+    "id": "pl2-19",
+    "name": "Flareon",
+    "setName": "Rising Rivals",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl2/19_hires.png"
+  },
+  {
+    "id": "pl2-20",
+    "name": "Gallade E4",
+    "setName": "Rising Rivals",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl2/20_hires.png"
+  },
+  {
+    "id": "pl2-21",
+    "name": "Gastrodon East Sea",
+    "setName": "Rising Rivals",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/21_hires.png"
+  },
+  {
+    "id": "pl2-22",
+    "name": "Gastrodon West Sea",
+    "setName": "Rising Rivals",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/pl2/22_hires.png"
+  },
+  {
+    "id": "pl2-23",
+    "name": "Golem E4",
+    "setName": "Rising Rivals",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/23_hires.png"
+  },
+  {
+    "id": "pl2-24",
+    "name": "Heracross E4",
+    "setName": "Rising Rivals",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/24_hires.png"
+  },
+  {
+    "id": "pl2-25",
+    "name": "Hippowdon",
+    "setName": "Rising Rivals",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Tomoaki Imakuni",
+    "imageUrl": "https://images.pokemontcg.io/pl2/25_hires.png"
+  },
+  {
+    "id": "pl2-26",
+    "name": "Jolteon",
+    "setName": "Rising Rivals",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl2/26_hires.png"
+  },
+  {
+    "id": "pl2-27",
+    "name": "Mamoswine GL",
+    "setName": "Rising Rivals",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl2/27_hires.png"
+  },
+  {
+    "id": "pl2-28",
+    "name": "Mr. Mime E4",
+    "setName": "Rising Rivals",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl2/28_hires.png"
+  },
+  {
+    "id": "pl2-29",
+    "name": "Nidoking",
+    "setName": "Rising Rivals",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/29_hires.png"
+  },
+  {
+    "id": "pl2-30",
+    "name": "Nidoqueen",
+    "setName": "Rising Rivals",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl2/30_hires.png"
+  },
+  {
+    "id": "pl2-31",
+    "name": "Raichu GL",
+    "setName": "Rising Rivals",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/31_hires.png"
+  },
+  {
+    "id": "pl2-32",
+    "name": "Rhyperior E4",
+    "setName": "Rising Rivals",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/32_hires.png"
+  },
+  {
+    "id": "pl2-33",
+    "name": "Snorlax",
+    "setName": "Rising Rivals",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/33_hires.png"
+  },
+  {
+    "id": "pl2-34",
+    "name": "Vaporeon",
+    "setName": "Rising Rivals",
+    "number": "34",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/34_hires.png"
+  },
+  {
+    "id": "pl2-35",
+    "name": "Vespiquen E4",
+    "setName": "Rising Rivals",
+    "number": "35",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/35_hires.png"
+  },
+  {
+    "id": "pl2-36",
+    "name": "Walrein",
+    "setName": "Rising Rivals",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl2/36_hires.png"
+  },
+  {
+    "id": "pl2-37",
+    "name": "Yanmega E4",
+    "setName": "Rising Rivals",
+    "number": "37",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/37_hires.png"
+  },
+  {
+    "id": "pl2-38",
+    "name": "Alakazam E4",
+    "setName": "Rising Rivals",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl2/38_hires.png"
+  },
+  {
+    "id": "pl2-39",
+    "name": "Electrode G",
+    "setName": "Rising Rivals",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl2/39_hires.png"
+  },
+  {
+    "id": "pl2-40",
+    "name": "Gengar GL",
+    "setName": "Rising Rivals",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl2/40_hires.png"
+  },
+  {
+    "id": "pl2-41",
+    "name": "Glaceon",
+    "setName": "Rising Rivals",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl2/41_hires.png"
+  },
+  {
+    "id": "pl2-42",
+    "name": "Hippowdon E4",
+    "setName": "Rising Rivals",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/42_hires.png"
+  },
+  {
+    "id": "pl2-43",
+    "name": "Infernape E4",
+    "setName": "Rising Rivals",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/43_hires.png"
+  },
+  {
+    "id": "pl2-44",
+    "name": "Lairon",
+    "setName": "Rising Rivals",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl2/44_hires.png"
+  },
+  {
+    "id": "pl2-45",
+    "name": "Leafeon",
+    "setName": "Rising Rivals",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/pl2/45_hires.png"
+  },
+  {
+    "id": "pl2-46",
+    "name": "Machamp GL",
+    "setName": "Rising Rivals",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/46_hires.png"
+  },
+  {
+    "id": "pl2-47",
+    "name": "Rapidash E4",
+    "setName": "Rising Rivals",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/47_hires.png"
+  },
+  {
+    "id": "pl2-48",
+    "name": "Scizor E4",
+    "setName": "Rising Rivals",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/48_hires.png"
+  },
+  {
+    "id": "pl2-49",
+    "name": "Sharpedo",
+    "setName": "Rising Rivals",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/49_hires.png"
+  },
+  {
+    "id": "pl2-50",
+    "name": "Starmie",
+    "setName": "Rising Rivals",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/50_hires.png"
+  },
+  {
+    "id": "pl2-51",
+    "name": "Steelix GL",
+    "setName": "Rising Rivals",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl2/51_hires.png"
+  },
+  {
+    "id": "pl2-52",
+    "name": "Tropius",
+    "setName": "Rising Rivals",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/52_hires.png"
+  },
+  {
+    "id": "pl2-53",
+    "name": "Vibrava",
+    "setName": "Rising Rivals",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/pl2/53_hires.png"
+  },
+  {
+    "id": "pl2-54",
+    "name": "Whiscash E4",
+    "setName": "Rising Rivals",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/54_hires.png"
+  },
+  {
+    "id": "pl2-55",
+    "name": "Aerodactyl GL",
+    "setName": "Rising Rivals",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/pl2/55_hires.png"
+  },
+  {
+    "id": "pl2-56",
+    "name": "Ambipom G",
+    "setName": "Rising Rivals",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl2/56_hires.png"
+  },
+  {
+    "id": "pl2-57",
+    "name": "Aron",
+    "setName": "Rising Rivals",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Takao Unno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/57_hires.png"
+  },
+  {
+    "id": "pl2-58",
+    "name": "Carvanha",
+    "setName": "Rising Rivals",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl2/58_hires.png"
+  },
+  {
+    "id": "pl2-59",
+    "name": "Eevee",
+    "setName": "Rising Rivals",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl2/59_hires.png"
+  },
+  {
+    "id": "pl2-60",
+    "name": "Flareon E4",
+    "setName": "Rising Rivals",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/60_hires.png"
+  },
+  {
+    "id": "pl2-61",
+    "name": "Forretress G",
+    "setName": "Rising Rivals",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Ryota Saito",
+    "imageUrl": "https://images.pokemontcg.io/pl2/61_hires.png"
+  },
+  {
+    "id": "pl2-62",
+    "name": "Gliscor E4",
+    "setName": "Rising Rivals",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/62_hires.png"
+  },
+  {
+    "id": "pl2-63",
+    "name": "Growlithe",
+    "setName": "Rising Rivals",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl2/63_hires.png"
+  },
+  {
+    "id": "pl2-64",
+    "name": "Hippopotas",
+    "setName": "Rising Rivals",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl2/64_hires.png"
+  },
+  {
+    "id": "pl2-65",
+    "name": "Houndoom E4",
+    "setName": "Rising Rivals",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/65_hires.png"
+  },
+  {
+    "id": "pl2-66",
+    "name": "Kakuna",
+    "setName": "Rising Rivals",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl2/66_hires.png"
+  },
+  {
+    "id": "pl2-67",
+    "name": "Kecleon",
+    "setName": "Rising Rivals",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl2/67_hires.png"
+  },
+  {
+    "id": "pl2-68",
+    "name": "Koffing",
+    "setName": "Rising Rivals",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl2/68_hires.png"
+  },
+  {
+    "id": "pl2-69",
+    "name": "Munchlax",
+    "setName": "Rising Rivals",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl2/69_hires.png"
+  },
+  {
+    "id": "pl2-70",
+    "name": "Munchlax",
+    "setName": "Rising Rivals",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/70_hires.png"
+  },
+  {
+    "id": "pl2-71",
+    "name": "Nidoran ♀",
+    "setName": "Rising Rivals",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl2/71_hires.png"
+  },
+  {
+    "id": "pl2-72",
+    "name": "Nidoran ♂",
+    "setName": "Rising Rivals",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/72_hires.png"
+  },
+  {
+    "id": "pl2-73",
+    "name": "Nidorina",
+    "setName": "Rising Rivals",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/73_hires.png"
+  },
+  {
+    "id": "pl2-74",
+    "name": "Nidorino",
+    "setName": "Rising Rivals",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl2/74_hires.png"
+  },
+  {
+    "id": "pl2-75",
+    "name": "Nuzleaf",
+    "setName": "Rising Rivals",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl2/75_hires.png"
+  },
+  {
+    "id": "pl2-76",
+    "name": "Quagsire GL",
+    "setName": "Rising Rivals",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl2/76_hires.png"
+  },
+  {
+    "id": "pl2-77",
+    "name": "Sealeo",
+    "setName": "Rising Rivals",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/pl2/77_hires.png"
+  },
+  {
+    "id": "pl2-78",
+    "name": "Seedot",
+    "setName": "Rising Rivals",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl2/78_hires.png"
+  },
+  {
+    "id": "pl2-79",
+    "name": "Shellos East Sea",
+    "setName": "Rising Rivals",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl2/79_hires.png"
+  },
+  {
+    "id": "pl2-80",
+    "name": "Shellos West Sea",
+    "setName": "Rising Rivals",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl2/80_hires.png"
+  },
+  {
+    "id": "pl2-81",
+    "name": "Snorlax",
+    "setName": "Rising Rivals",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl2/81_hires.png"
+  },
+  {
+    "id": "pl2-82",
+    "name": "Spheal",
+    "setName": "Rising Rivals",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl2/82_hires.png"
+  },
+  {
+    "id": "pl2-83",
+    "name": "Staryu",
+    "setName": "Rising Rivals",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl2/83_hires.png"
+  },
+  {
+    "id": "pl2-84",
+    "name": "Trapinch",
+    "setName": "Rising Rivals",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl2/84_hires.png"
+  },
+  {
+    "id": "pl2-85",
+    "name": "Turtwig GL",
+    "setName": "Rising Rivals",
+    "number": "85",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/pl2/85_hires.png"
+  },
+  {
+    "id": "pl2-86",
+    "name": "Weedle",
+    "setName": "Rising Rivals",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/86_hires.png"
+  },
+  {
+    "id": "pl2-87",
+    "name": "Weezing",
+    "setName": "Rising Rivals",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/87_hires.png"
+  },
+  {
+    "id": "pl2-88",
+    "name": "Aaron's Collection",
+    "setName": "Rising Rivals",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/88_hires.png"
+  },
+  {
+    "id": "pl2-89",
+    "name": "Bebe's Search",
+    "setName": "Rising Rivals",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/89_hires.png"
+  },
+  {
+    "id": "pl2-90",
+    "name": "Bertha's Warmth",
+    "setName": "Rising Rivals",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/90_hires.png"
+  },
+  {
+    "id": "pl2-91",
+    "name": "Flint's Willpower",
+    "setName": "Rising Rivals",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/91_hires.png"
+  },
+  {
+    "id": "pl2-92",
+    "name": "Lucian's Assignment",
+    "setName": "Rising Rivals",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/92_hires.png"
+  },
+  {
+    "id": "pl2-93",
+    "name": "Pokémon Contest Hall",
+    "setName": "Rising Rivals",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl2/93_hires.png"
+  },
+  {
+    "id": "pl2-94",
+    "name": "Sunyshore City Gym",
+    "setName": "Rising Rivals",
+    "number": "94",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl2/94_hires.png"
+  },
+  {
+    "id": "pl2-95",
+    "name": "Team Galactic's Invention G-107 Technical Machine G",
+    "setName": "Rising Rivals",
+    "number": "95",
+    "rarity": "Uncommon",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl2/95_hires.png"
+  },
+  {
+    "id": "pl2-96",
+    "name": "Team Galactic's Invention G-109 SP Radar",
+    "setName": "Rising Rivals",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/pl2/96_hires.png"
+  },
+  {
+    "id": "pl2-97",
+    "name": "Underground Expedition",
+    "setName": "Rising Rivals",
+    "number": "97",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl2/97_hires.png"
+  },
+  {
+    "id": "pl2-98",
+    "name": "Volkner's Philosophy",
+    "setName": "Rising Rivals",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/98_hires.png"
+  },
+  {
+    "id": "pl2-99",
+    "name": "Darkness Energy",
+    "setName": "Rising Rivals",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/pl2/99_hires.png"
+  },
+  {
+    "id": "pl2-100",
+    "name": "Metal Energy",
+    "setName": "Rising Rivals",
+    "number": "100",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/pl2/100_hires.png"
+  },
+  {
+    "id": "pl2-101",
+    "name": "SP Energy",
+    "setName": "Rising Rivals",
+    "number": "101",
+    "rarity": "Uncommon",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/pl2/101_hires.png"
+  },
+  {
+    "id": "pl2-102",
+    "name": "Upper Energy",
+    "setName": "Rising Rivals",
+    "number": "102",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/102_hires.png"
+  },
+  {
+    "id": "pl2-103",
+    "name": "Alakazam E4 LV.X",
+    "setName": "Rising Rivals",
+    "number": "103",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/103_hires.png"
+  },
+  {
+    "id": "pl2-104",
+    "name": "Floatzel GL LV.X",
+    "setName": "Rising Rivals",
+    "number": "104",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl2/104_hires.png"
+  },
+  {
+    "id": "pl2-105",
+    "name": "Flygon LV.X",
+    "setName": "Rising Rivals",
+    "number": "105",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl2/105_hires.png"
+  },
+  {
+    "id": "pl2-106",
+    "name": "Gallade E4 LV.X",
+    "setName": "Rising Rivals",
+    "number": "106",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/106_hires.png"
+  },
+  {
+    "id": "pl2-107",
+    "name": "Hippowdon LV.X",
+    "setName": "Rising Rivals",
+    "number": "107",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl2/107_hires.png"
+  },
+  {
+    "id": "pl2-108",
+    "name": "Infernape E4 LV.X",
+    "setName": "Rising Rivals",
+    "number": "108",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl2/108_hires.png"
+  },
+  {
+    "id": "pl2-109",
+    "name": "Luxray GL LV.X",
+    "setName": "Rising Rivals",
+    "number": "109",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl2/109_hires.png"
+  },
+  {
+    "id": "pl2-110",
+    "name": "Mismagius GL LV.X",
+    "setName": "Rising Rivals",
+    "number": "110",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/pl2/110_hires.png"
+  },
+  {
+    "id": "pl2-111",
+    "name": "Snorlax LV.X",
+    "setName": "Rising Rivals",
+    "number": "111",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl2/111_hires.png"
+  },
+  {
+    "id": "pl2-112",
+    "name": "Pikachu",
+    "setName": "Rising Rivals",
+    "number": "112",
+    "rarity": "Rare Secret",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl2/112_hires.png"
+  },
+  {
+    "id": "pl2-113",
+    "name": "Flying Pikachu",
+    "setName": "Rising Rivals",
+    "number": "113",
+    "rarity": "Rare Secret",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/pl2/113_hires.png"
+  },
+  {
+    "id": "pl2-114",
+    "name": "Surfing Pikachu",
+    "setName": "Rising Rivals",
+    "number": "114",
+    "rarity": "Rare Secret",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/pl2/114_hires.png"
+  },
+  {
+    "id": "pl2-RT1",
+    "name": "Fan Rotom",
+    "setName": "Rising Rivals",
+    "number": "RT1",
+    "rarity": "Rare",
+    "artist": "Motofumi Fujiwara",
+    "imageUrl": "https://images.pokemontcg.io/pl2/RT1_hires.png"
+  },
+  {
+    "id": "pl2-RT2",
+    "name": "Frost Rotom",
+    "setName": "Rising Rivals",
+    "number": "RT2",
+    "rarity": "Rare",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/pl2/RT2_hires.png"
+  },
+  {
+    "id": "pl2-RT3",
+    "name": "Heat Rotom",
+    "setName": "Rising Rivals",
+    "number": "RT3",
+    "rarity": "Rare",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/pl2/RT3_hires.png"
+  },
+  {
+    "id": "pl2-RT4",
+    "name": "Mow Rotom",
+    "setName": "Rising Rivals",
+    "number": "RT4",
+    "rarity": "Rare",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/pl2/RT4_hires.png"
+  },
+  {
+    "id": "pl2-RT5",
+    "name": "Wash Rotom",
+    "setName": "Rising Rivals",
+    "number": "RT5",
+    "rarity": "Rare",
+    "artist": "Hiroki Fuchino",
+    "imageUrl": "https://images.pokemontcg.io/pl2/RT5_hires.png"
+  },
+  {
+    "id": "pl2-RT6",
+    "name": "Charon's Choice",
+    "setName": "Rising Rivals",
+    "number": "RT6",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl2/RT6_hires.png"
+  }
+]

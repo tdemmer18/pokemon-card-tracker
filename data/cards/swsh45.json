@@ -1,0 +1,659 @@
+[
+  {
+    "id": "swsh45-1",
+    "name": "Yanma",
+    "setName": "Shining Fates",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/1_hires.png"
+  },
+  {
+    "id": "swsh45-2",
+    "name": "Yanmega",
+    "setName": "Shining Fates",
+    "number": "2",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/2_hires.png"
+  },
+  {
+    "id": "swsh45-3",
+    "name": "Celebi",
+    "setName": "Shining Fates",
+    "number": "3",
+    "rarity": "Rare",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/3_hires.png"
+  },
+  {
+    "id": "swsh45-4",
+    "name": "Cacnea",
+    "setName": "Shining Fates",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/4_hires.png"
+  },
+  {
+    "id": "swsh45-5",
+    "name": "Tropius",
+    "setName": "Shining Fates",
+    "number": "5",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/5_hires.png"
+  },
+  {
+    "id": "swsh45-6",
+    "name": "Rowlet",
+    "setName": "Shining Fates",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/6_hires.png"
+  },
+  {
+    "id": "swsh45-7",
+    "name": "Dartrix",
+    "setName": "Shining Fates",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/7_hires.png"
+  },
+  {
+    "id": "swsh45-8",
+    "name": "Decidueye",
+    "setName": "Shining Fates",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/8_hires.png"
+  },
+  {
+    "id": "swsh45-9",
+    "name": "Dhelmise V",
+    "setName": "Shining Fates",
+    "number": "9",
+    "rarity": "Rare Holo V",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/9_hires.png"
+  },
+  {
+    "id": "swsh45-10",
+    "name": "Dhelmise VMAX",
+    "setName": "Shining Fates",
+    "number": "10",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/10_hires.png"
+  },
+  {
+    "id": "swsh45-11",
+    "name": "Grookey",
+    "setName": "Shining Fates",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/11_hires.png"
+  },
+  {
+    "id": "swsh45-12",
+    "name": "Thwackey",
+    "setName": "Shining Fates",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/12_hires.png"
+  },
+  {
+    "id": "swsh45-13",
+    "name": "Rillaboom",
+    "setName": "Shining Fates",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/13_hires.png"
+  },
+  {
+    "id": "swsh45-14",
+    "name": "Gossifleur",
+    "setName": "Shining Fates",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/14_hires.png"
+  },
+  {
+    "id": "swsh45-15",
+    "name": "Eldegoss",
+    "setName": "Shining Fates",
+    "number": "15",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/15_hires.png"
+  },
+  {
+    "id": "swsh45-16",
+    "name": "Zarude",
+    "setName": "Shining Fates",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/16_hires.png"
+  },
+  {
+    "id": "swsh45-17",
+    "name": "Reshiram",
+    "setName": "Shining Fates",
+    "number": "17",
+    "rarity": "Amazing Rare",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/17_hires.png"
+  },
+  {
+    "id": "swsh45-18",
+    "name": "Cinderace V",
+    "setName": "Shining Fates",
+    "number": "18",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/18_hires.png"
+  },
+  {
+    "id": "swsh45-19",
+    "name": "Cinderace VMAX",
+    "setName": "Shining Fates",
+    "number": "19",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/19_hires.png"
+  },
+  {
+    "id": "swsh45-20",
+    "name": "Horsea",
+    "setName": "Shining Fates",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/20_hires.png"
+  },
+  {
+    "id": "swsh45-21",
+    "name": "Kyogre",
+    "setName": "Shining Fates",
+    "number": "21",
+    "rarity": "Amazing Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/21_hires.png"
+  },
+  {
+    "id": "swsh45-22",
+    "name": "Buizel",
+    "setName": "Shining Fates",
+    "number": "22",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/22_hires.png"
+  },
+  {
+    "id": "swsh45-23",
+    "name": "Floatzel",
+    "setName": "Shining Fates",
+    "number": "23",
+    "rarity": "Uncommon",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/23_hires.png"
+  },
+  {
+    "id": "swsh45-24",
+    "name": "Manaphy",
+    "setName": "Shining Fates",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/24_hires.png"
+  },
+  {
+    "id": "swsh45-25",
+    "name": "Volcanion",
+    "setName": "Shining Fates",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/25_hires.png"
+  },
+  {
+    "id": "swsh45-26",
+    "name": "Chewtle",
+    "setName": "Shining Fates",
+    "number": "26",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/26_hires.png"
+  },
+  {
+    "id": "swsh45-27",
+    "name": "Drednaw",
+    "setName": "Shining Fates",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/27_hires.png"
+  },
+  {
+    "id": "swsh45-28",
+    "name": "Cramorant",
+    "setName": "Shining Fates",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/28_hires.png"
+  },
+  {
+    "id": "swsh45-29",
+    "name": "Snom",
+    "setName": "Shining Fates",
+    "number": "29",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/29_hires.png"
+  },
+  {
+    "id": "swsh45-30",
+    "name": "Frosmoth",
+    "setName": "Shining Fates",
+    "number": "30",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/30_hires.png"
+  },
+  {
+    "id": "swsh45-31",
+    "name": "Shinx",
+    "setName": "Shining Fates",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/31_hires.png"
+  },
+  {
+    "id": "swsh45-32",
+    "name": "Luxio",
+    "setName": "Shining Fates",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/32_hires.png"
+  },
+  {
+    "id": "swsh45-33",
+    "name": "Luxray",
+    "setName": "Shining Fates",
+    "number": "33",
+    "rarity": "Rare Holo",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/33_hires.png"
+  },
+  {
+    "id": "swsh45-34",
+    "name": "Rotom",
+    "setName": "Shining Fates",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/34_hires.png"
+  },
+  {
+    "id": "swsh45-35",
+    "name": "Morpeko",
+    "setName": "Shining Fates",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/35_hires.png"
+  },
+  {
+    "id": "swsh45-36",
+    "name": "Morpeko",
+    "setName": "Shining Fates",
+    "number": "36",
+    "rarity": "Common",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/36_hires.png"
+  },
+  {
+    "id": "swsh45-37",
+    "name": "Morpeko V",
+    "setName": "Shining Fates",
+    "number": "37",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/37_hires.png"
+  },
+  {
+    "id": "swsh45-38",
+    "name": "Morpeko VMAX",
+    "setName": "Shining Fates",
+    "number": "38",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/38_hires.png"
+  },
+  {
+    "id": "swsh45-39",
+    "name": "Indeedee V",
+    "setName": "Shining Fates",
+    "number": "39",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/39_hires.png"
+  },
+  {
+    "id": "swsh45-40",
+    "name": "Trapinch",
+    "setName": "Shining Fates",
+    "number": "40",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/40_hires.png"
+  },
+  {
+    "id": "swsh45-41",
+    "name": "Koffing",
+    "setName": "Shining Fates",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/41_hires.png"
+  },
+  {
+    "id": "swsh45-42",
+    "name": "Galarian Weezing",
+    "setName": "Shining Fates",
+    "number": "42",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/42_hires.png"
+  },
+  {
+    "id": "swsh45-43",
+    "name": "Spinarak",
+    "setName": "Shining Fates",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/43_hires.png"
+  },
+  {
+    "id": "swsh45-44",
+    "name": "Crobat V",
+    "setName": "Shining Fates",
+    "number": "44",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/44_hires.png"
+  },
+  {
+    "id": "swsh45-45",
+    "name": "Crobat VMAX",
+    "setName": "Shining Fates",
+    "number": "45",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/45_hires.png"
+  },
+  {
+    "id": "swsh45-46",
+    "name": "Yveltal",
+    "setName": "Shining Fates",
+    "number": "46",
+    "rarity": "Amazing Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/46_hires.png"
+  },
+  {
+    "id": "swsh45-47",
+    "name": "Nickit",
+    "setName": "Shining Fates",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/47_hires.png"
+  },
+  {
+    "id": "swsh45-48",
+    "name": "Thievul",
+    "setName": "Shining Fates",
+    "number": "48",
+    "rarity": "Rare Holo",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/48_hires.png"
+  },
+  {
+    "id": "swsh45-49",
+    "name": "Cufant",
+    "setName": "Shining Fates",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/49_hires.png"
+  },
+  {
+    "id": "swsh45-50",
+    "name": "Ditto V",
+    "setName": "Shining Fates",
+    "number": "50",
+    "rarity": "Rare Holo V",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/50_hires.png"
+  },
+  {
+    "id": "swsh45-51",
+    "name": "Ditto VMAX",
+    "setName": "Shining Fates",
+    "number": "51",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/51_hires.png"
+  },
+  {
+    "id": "swsh45-52",
+    "name": "Eevee",
+    "setName": "Shining Fates",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "so-taro",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/52_hires.png"
+  },
+  {
+    "id": "swsh45-53",
+    "name": "Greedent V",
+    "setName": "Shining Fates",
+    "number": "53",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/53_hires.png"
+  },
+  {
+    "id": "swsh45-54",
+    "name": "Cramorant V",
+    "setName": "Shining Fates",
+    "number": "54",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/54_hires.png"
+  },
+  {
+    "id": "swsh45-55",
+    "name": "Cramorant VMAX",
+    "setName": "Shining Fates",
+    "number": "55",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/55_hires.png"
+  },
+  {
+    "id": "swsh45-56",
+    "name": "Indeedee",
+    "setName": "Shining Fates",
+    "number": "56",
+    "rarity": "Rare Holo",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/56_hires.png"
+  },
+  {
+    "id": "swsh45-57",
+    "name": "Ball Guy",
+    "setName": "Shining Fates",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/57_hires.png"
+  },
+  {
+    "id": "swsh45-58",
+    "name": "Boss's Orders",
+    "setName": "Shining Fates",
+    "number": "58",
+    "rarity": "Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/58_hires.png"
+  },
+  {
+    "id": "swsh45-59",
+    "name": "Gym Trainer",
+    "setName": "Shining Fates",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/59_hires.png"
+  },
+  {
+    "id": "swsh45-60",
+    "name": "Professor's Research",
+    "setName": "Shining Fates",
+    "number": "60",
+    "rarity": "Rare",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/60_hires.png"
+  },
+  {
+    "id": "swsh45-61",
+    "name": "Rusted Shield",
+    "setName": "Shining Fates",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/61_hires.png"
+  },
+  {
+    "id": "swsh45-62",
+    "name": "Rusted Sword",
+    "setName": "Shining Fates",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/62_hires.png"
+  },
+  {
+    "id": "swsh45-63",
+    "name": "Team Yell Towel",
+    "setName": "Shining Fates",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/63_hires.png"
+  },
+  {
+    "id": "swsh45-64",
+    "name": "Alcremie V",
+    "setName": "Shining Fates",
+    "number": "64",
+    "rarity": "Rare Ultra",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/64_hires.png"
+  },
+  {
+    "id": "swsh45-65",
+    "name": "Ball Guy",
+    "setName": "Shining Fates",
+    "number": "65",
+    "rarity": "Rare Ultra",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/65_hires.png"
+  },
+  {
+    "id": "swsh45-66",
+    "name": "Bird Keeper",
+    "setName": "Shining Fates",
+    "number": "66",
+    "rarity": "Rare Ultra",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/66_hires.png"
+  },
+  {
+    "id": "swsh45-67",
+    "name": "Cara Liss",
+    "setName": "Shining Fates",
+    "number": "67",
+    "rarity": "Rare Ultra",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/67_hires.png"
+  },
+  {
+    "id": "swsh45-68",
+    "name": "Gym Trainer",
+    "setName": "Shining Fates",
+    "number": "68",
+    "rarity": "Rare Ultra",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/68_hires.png"
+  },
+  {
+    "id": "swsh45-69",
+    "name": "Piers",
+    "setName": "Shining Fates",
+    "number": "69",
+    "rarity": "Rare Ultra",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/69_hires.png"
+  },
+  {
+    "id": "swsh45-70",
+    "name": "Poké Kid",
+    "setName": "Shining Fates",
+    "number": "70",
+    "rarity": "Rare Ultra",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/70_hires.png"
+  },
+  {
+    "id": "swsh45-71",
+    "name": "Rose",
+    "setName": "Shining Fates",
+    "number": "71",
+    "rarity": "Rare Ultra",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/71_hires.png"
+  },
+  {
+    "id": "swsh45-72",
+    "name": "Skyla",
+    "setName": "Shining Fates",
+    "number": "72",
+    "rarity": "Rare Ultra",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/72_hires.png"
+  },
+  {
+    "id": "swsh45-73",
+    "name": "Alcremie VMAX",
+    "setName": "Shining Fates",
+    "number": "73",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/73_hires.png"
+  }
+]

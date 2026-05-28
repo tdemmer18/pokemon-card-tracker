@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "bw5-1",
+    "name": "Bulbasaur",
+    "setName": "Dark Explorers",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw5/1_hires.png"
+  },
+  {
+    "id": "bw5-2",
+    "name": "Ivysaur",
+    "setName": "Dark Explorers",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw5/2_hires.png"
+  },
+  {
+    "id": "bw5-3",
+    "name": "Venusaur",
+    "setName": "Dark Explorers",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/3_hires.png"
+  },
+  {
+    "id": "bw5-4",
+    "name": "Scyther",
+    "setName": "Dark Explorers",
+    "number": "4",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw5/4_hires.png"
+  },
+  {
+    "id": "bw5-5",
+    "name": "Carnivine",
+    "setName": "Dark Explorers",
+    "number": "5",
+    "rarity": "Rare",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/bw5/5_hires.png"
+  },
+  {
+    "id": "bw5-6",
+    "name": "Leafeon",
+    "setName": "Dark Explorers",
+    "number": "6",
+    "rarity": "Rare",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/6_hires.png"
+  },
+  {
+    "id": "bw5-7",
+    "name": "Dwebble",
+    "setName": "Dark Explorers",
+    "number": "7",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw5/7_hires.png"
+  },
+  {
+    "id": "bw5-8",
+    "name": "Crustle",
+    "setName": "Dark Explorers",
+    "number": "8",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/8_hires.png"
+  },
+  {
+    "id": "bw5-9",
+    "name": "Karrablast",
+    "setName": "Dark Explorers",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw5/9_hires.png"
+  },
+  {
+    "id": "bw5-10",
+    "name": "Shelmet",
+    "setName": "Dark Explorers",
+    "number": "10",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/bw5/10_hires.png"
+  },
+  {
+    "id": "bw5-11",
+    "name": "Accelgor",
+    "setName": "Dark Explorers",
+    "number": "11",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/11_hires.png"
+  },
+  {
+    "id": "bw5-12",
+    "name": "Flareon",
+    "setName": "Dark Explorers",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/bw5/12_hires.png"
+  },
+  {
+    "id": "bw5-13",
+    "name": "Entei-EX",
+    "setName": "Dark Explorers",
+    "number": "13",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/bw5/13_hires.png"
+  },
+  {
+    "id": "bw5-14",
+    "name": "Torchic",
+    "setName": "Dark Explorers",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/14_hires.png"
+  },
+  {
+    "id": "bw5-15",
+    "name": "Torchic",
+    "setName": "Dark Explorers",
+    "number": "15",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw5/15_hires.png"
+  },
+  {
+    "id": "bw5-16",
+    "name": "Combusken",
+    "setName": "Dark Explorers",
+    "number": "16",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/bw5/16_hires.png"
+  },
+  {
+    "id": "bw5-17",
+    "name": "Blaziken",
+    "setName": "Dark Explorers",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/bw5/17_hires.png"
+  },
+  {
+    "id": "bw5-18",
+    "name": "Torkoal",
+    "setName": "Dark Explorers",
+    "number": "18",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/18_hires.png"
+  },
+  {
+    "id": "bw5-19",
+    "name": "Heatmor",
+    "setName": "Dark Explorers",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw5/19_hires.png"
+  },
+  {
+    "id": "bw5-20",
+    "name": "Larvesta",
+    "setName": "Dark Explorers",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw5/20_hires.png"
+  },
+  {
+    "id": "bw5-21",
+    "name": "Larvesta",
+    "setName": "Dark Explorers",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/21_hires.png"
+  },
+  {
+    "id": "bw5-22",
+    "name": "Volcarona",
+    "setName": "Dark Explorers",
+    "number": "22",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw5/22_hires.png"
+  },
+  {
+    "id": "bw5-23",
+    "name": "Slowpoke",
+    "setName": "Dark Explorers",
+    "number": "23",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw5/23_hires.png"
+  },
+  {
+    "id": "bw5-24",
+    "name": "Slowbro",
+    "setName": "Dark Explorers",
+    "number": "24",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/24_hires.png"
+  },
+  {
+    "id": "bw5-25",
+    "name": "Vaporeon",
+    "setName": "Dark Explorers",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw5/25_hires.png"
+  },
+  {
+    "id": "bw5-26",
+    "name": "Kyogre-EX",
+    "setName": "Dark Explorers",
+    "number": "26",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/bw5/26_hires.png"
+  },
+  {
+    "id": "bw5-27",
+    "name": "Piplup",
+    "setName": "Dark Explorers",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/27_hires.png"
+  },
+  {
+    "id": "bw5-28",
+    "name": "Prinplup",
+    "setName": "Dark Explorers",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/bw5/28_hires.png"
+  },
+  {
+    "id": "bw5-29",
+    "name": "Empoleon",
+    "setName": "Dark Explorers",
+    "number": "29",
+    "rarity": "Rare Holo",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw5/29_hires.png"
+  },
+  {
+    "id": "bw5-30",
+    "name": "Glaceon",
+    "setName": "Dark Explorers",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/30_hires.png"
+  },
+  {
+    "id": "bw5-31",
+    "name": "Tympole",
+    "setName": "Dark Explorers",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/31_hires.png"
+  },
+  {
+    "id": "bw5-32",
+    "name": "Palpitoad",
+    "setName": "Dark Explorers",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/32_hires.png"
+  },
+  {
+    "id": "bw5-33",
+    "name": "Vanillite",
+    "setName": "Dark Explorers",
+    "number": "33",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/33_hires.png"
+  },
+  {
+    "id": "bw5-34",
+    "name": "Vanillish",
+    "setName": "Dark Explorers",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/34_hires.png"
+  },
+  {
+    "id": "bw5-35",
+    "name": "Ducklett",
+    "setName": "Dark Explorers",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw5/35_hires.png"
+  },
+  {
+    "id": "bw5-36",
+    "name": "Swanna",
+    "setName": "Dark Explorers",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw5/36_hires.png"
+  },
+  {
+    "id": "bw5-37",
+    "name": "Jolteon",
+    "setName": "Dark Explorers",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/bw5/37_hires.png"
+  },
+  {
+    "id": "bw5-38",
+    "name": "Raikou-EX",
+    "setName": "Dark Explorers",
+    "number": "38",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/bw5/38_hires.png"
+  },
+  {
+    "id": "bw5-39",
+    "name": "Plusle",
+    "setName": "Dark Explorers",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw5/39_hires.png"
+  },
+  {
+    "id": "bw5-40",
+    "name": "Minun",
+    "setName": "Dark Explorers",
+    "number": "40",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw5/40_hires.png"
+  },
+  {
+    "id": "bw5-41",
+    "name": "Joltik",
+    "setName": "Dark Explorers",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw5/41_hires.png"
+  },
+  {
+    "id": "bw5-42",
+    "name": "Joltik",
+    "setName": "Dark Explorers",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/bw5/42_hires.png"
+  },
+  {
+    "id": "bw5-43",
+    "name": "Galvantula",
+    "setName": "Dark Explorers",
+    "number": "43",
+    "rarity": "Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw5/43_hires.png"
+  },
+  {
+    "id": "bw5-44",
+    "name": "Tynamo",
+    "setName": "Dark Explorers",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw5/44_hires.png"
+  },
+  {
+    "id": "bw5-45",
+    "name": "Tynamo",
+    "setName": "Dark Explorers",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw5/45_hires.png"
+  },
+  {
+    "id": "bw5-46",
+    "name": "Eelektrik",
+    "setName": "Dark Explorers",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw5/46_hires.png"
+  },
+  {
+    "id": "bw5-47",
+    "name": "Eelektross",
+    "setName": "Dark Explorers",
+    "number": "47",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/bw5/47_hires.png"
+  },
+  {
+    "id": "bw5-48",
+    "name": "Espeon",
+    "setName": "Dark Explorers",
+    "number": "48",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw5/48_hires.png"
+  },
+  {
+    "id": "bw5-49",
+    "name": "Slowking",
+    "setName": "Dark Explorers",
+    "number": "49",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw5/49_hires.png"
+  },
+  {
+    "id": "bw5-50",
+    "name": "Woobat",
+    "setName": "Dark Explorers",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw5/50_hires.png"
+  },
+  {
+    "id": "bw5-51",
+    "name": "Yamask",
+    "setName": "Dark Explorers",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/bw5/51_hires.png"
+  },
+  {
+    "id": "bw5-52",
+    "name": "Cofagrigus",
+    "setName": "Dark Explorers",
+    "number": "52",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/bw5/52_hires.png"
+  },
+  {
+    "id": "bw5-53",
+    "name": "Aerodactyl",
+    "setName": "Dark Explorers",
+    "number": "53",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/bw5/53_hires.png"
+  },
+  {
+    "id": "bw5-54",
+    "name": "Groudon-EX",
+    "setName": "Dark Explorers",
+    "number": "54",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/bw5/54_hires.png"
+  },
+  {
+    "id": "bw5-55",
+    "name": "Drilbur",
+    "setName": "Dark Explorers",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/bw5/55_hires.png"
+  },
+  {
+    "id": "bw5-56",
+    "name": "Excadrill",
+    "setName": "Dark Explorers",
+    "number": "56",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw5/56_hires.png"
+  },
+  {
+    "id": "bw5-57",
+    "name": "Excadrill",
+    "setName": "Dark Explorers",
+    "number": "57",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/57_hires.png"
+  },
+  {
+    "id": "bw5-58",
+    "name": "Timburr",
+    "setName": "Dark Explorers",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw5/58_hires.png"
+  },
+  {
+    "id": "bw5-59",
+    "name": "Gurdurr",
+    "setName": "Dark Explorers",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw5/59_hires.png"
+  },
+  {
+    "id": "bw5-60",
+    "name": "Umbreon",
+    "setName": "Dark Explorers",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/bw5/60_hires.png"
+  },
+  {
+    "id": "bw5-61",
+    "name": "Umbreon",
+    "setName": "Dark Explorers",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/61_hires.png"
+  },
+  {
+    "id": "bw5-62",
+    "name": "Sableye",
+    "setName": "Dark Explorers",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/bw5/62_hires.png"
+  },
+  {
+    "id": "bw5-63",
+    "name": "Darkrai-EX",
+    "setName": "Dark Explorers",
+    "number": "63",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/bw5/63_hires.png"
+  },
+  {
+    "id": "bw5-64",
+    "name": "Sandile",
+    "setName": "Dark Explorers",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/bw5/64_hires.png"
+  },
+  {
+    "id": "bw5-65",
+    "name": "Krokorok",
+    "setName": "Dark Explorers",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw5/65_hires.png"
+  },
+  {
+    "id": "bw5-66",
+    "name": "Krookodile",
+    "setName": "Dark Explorers",
+    "number": "66",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/66_hires.png"
+  },
+  {
+    "id": "bw5-67",
+    "name": "Scraggy",
+    "setName": "Dark Explorers",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw5/67_hires.png"
+  },
+  {
+    "id": "bw5-68",
+    "name": "Scrafty",
+    "setName": "Dark Explorers",
+    "number": "68",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw5/68_hires.png"
+  },
+  {
+    "id": "bw5-69",
+    "name": "Zorua",
+    "setName": "Dark Explorers",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/69_hires.png"
+  },
+  {
+    "id": "bw5-70",
+    "name": "Zorua",
+    "setName": "Dark Explorers",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw5/70_hires.png"
+  },
+  {
+    "id": "bw5-71",
+    "name": "Zoroark",
+    "setName": "Dark Explorers",
+    "number": "71",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/71_hires.png"
+  },
+  {
+    "id": "bw5-72",
+    "name": "Bisharp",
+    "setName": "Dark Explorers",
+    "number": "72",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/72_hires.png"
+  },
+  {
+    "id": "bw5-73",
+    "name": "Vullaby",
+    "setName": "Dark Explorers",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw5/73_hires.png"
+  },
+  {
+    "id": "bw5-74",
+    "name": "Escavalier",
+    "setName": "Dark Explorers",
+    "number": "74",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/74_hires.png"
+  },
+  {
+    "id": "bw5-75",
+    "name": "Klink",
+    "setName": "Dark Explorers",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw5/75_hires.png"
+  },
+  {
+    "id": "bw5-76",
+    "name": "Klang",
+    "setName": "Dark Explorers",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw5/76_hires.png"
+  },
+  {
+    "id": "bw5-77",
+    "name": "Klinklang",
+    "setName": "Dark Explorers",
+    "number": "77",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/bw5/77_hires.png"
+  },
+  {
+    "id": "bw5-78",
+    "name": "Pawniard",
+    "setName": "Dark Explorers",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw5/78_hires.png"
+  },
+  {
+    "id": "bw5-79",
+    "name": "Bisharp",
+    "setName": "Dark Explorers",
+    "number": "79",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw5/79_hires.png"
+  },
+  {
+    "id": "bw5-80",
+    "name": "Chansey",
+    "setName": "Dark Explorers",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw5/80_hires.png"
+  },
+  {
+    "id": "bw5-81",
+    "name": "Chansey",
+    "setName": "Dark Explorers",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw5/81_hires.png"
+  },
+  {
+    "id": "bw5-82",
+    "name": "Blissey",
+    "setName": "Dark Explorers",
+    "number": "82",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw5/82_hires.png"
+  },
+  {
+    "id": "bw5-83",
+    "name": "Eevee",
+    "setName": "Dark Explorers",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw5/83_hires.png"
+  },
+  {
+    "id": "bw5-84",
+    "name": "Eevee",
+    "setName": "Dark Explorers",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/bw5/84_hires.png"
+  },
+  {
+    "id": "bw5-85",
+    "name": "Chatot",
+    "setName": "Dark Explorers",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw5/85_hires.png"
+  },
+  {
+    "id": "bw5-86",
+    "name": "Lillipup",
+    "setName": "Dark Explorers",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/bw5/86_hires.png"
+  },
+  {
+    "id": "bw5-87",
+    "name": "Herdier",
+    "setName": "Dark Explorers",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/bw5/87_hires.png"
+  },
+  {
+    "id": "bw5-88",
+    "name": "Stoutland",
+    "setName": "Dark Explorers",
+    "number": "88",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw5/88_hires.png"
+  },
+  {
+    "id": "bw5-89",
+    "name": "Haxorus",
+    "setName": "Dark Explorers",
+    "number": "89",
+    "rarity": "Rare Holo",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw5/89_hires.png"
+  },
+  {
+    "id": "bw5-90",
+    "name": "Tornadus-EX",
+    "setName": "Dark Explorers",
+    "number": "90",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/bw5/90_hires.png"
+  },
+  {
+    "id": "bw5-91",
+    "name": "Cheren",
+    "setName": "Dark Explorers",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/bw5/91_hires.png"
+  },
+  {
+    "id": "bw5-92",
+    "name": "Dark Claw",
+    "setName": "Dark Explorers",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/92_hires.png"
+  },
+  {
+    "id": "bw5-93",
+    "name": "Dark Patch",
+    "setName": "Dark Explorers",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/93_hires.png"
+  },
+  {
+    "id": "bw5-94",
+    "name": "Enhanced Hammer",
+    "setName": "Dark Explorers",
+    "number": "94",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/94_hires.png"
+  },
+  {
+    "id": "bw5-95",
+    "name": "Hooligans Jim & Cas",
+    "setName": "Dark Explorers",
+    "number": "95",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/95_hires.png"
+  },
+  {
+    "id": "bw5-96",
+    "name": "N",
+    "setName": "Dark Explorers",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/bw5/96_hires.png"
+  },
+  {
+    "id": "bw5-97",
+    "name": "Old Amber Aerodactyl",
+    "setName": "Dark Explorers",
+    "number": "97",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/97_hires.png"
+  },
+  {
+    "id": "bw5-98",
+    "name": "Professor Juniper",
+    "setName": "Dark Explorers",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/bw5/98_hires.png"
+  },
+  {
+    "id": "bw5-99",
+    "name": "Random Receiver",
+    "setName": "Dark Explorers",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/99_hires.png"
+  },
+  {
+    "id": "bw5-100",
+    "name": "Rare Candy",
+    "setName": "Dark Explorers",
+    "number": "100",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/100_hires.png"
+  },
+  {
+    "id": "bw5-101",
+    "name": "Twist Mountain",
+    "setName": "Dark Explorers",
+    "number": "101",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw5/101_hires.png"
+  },
+  {
+    "id": "bw5-102",
+    "name": "Ultra Ball",
+    "setName": "Dark Explorers",
+    "number": "102",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/102_hires.png"
+  },
+  {
+    "id": "bw5-103",
+    "name": "Entei-EX",
+    "setName": "Dark Explorers",
+    "number": "103",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/103_hires.png"
+  },
+  {
+    "id": "bw5-104",
+    "name": "Kyogre-EX",
+    "setName": "Dark Explorers",
+    "number": "104",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/104_hires.png"
+  },
+  {
+    "id": "bw5-105",
+    "name": "Raikou-EX",
+    "setName": "Dark Explorers",
+    "number": "105",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/105_hires.png"
+  },
+  {
+    "id": "bw5-106",
+    "name": "Groudon-EX",
+    "setName": "Dark Explorers",
+    "number": "106",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/106_hires.png"
+  },
+  {
+    "id": "bw5-107",
+    "name": "Darkrai-EX",
+    "setName": "Dark Explorers",
+    "number": "107",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/107_hires.png"
+  },
+  {
+    "id": "bw5-108",
+    "name": "Tornadus-EX",
+    "setName": "Dark Explorers",
+    "number": "108",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/108_hires.png"
+  },
+  {
+    "id": "bw5-109",
+    "name": "Gardevoir",
+    "setName": "Dark Explorers",
+    "number": "109",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/109_hires.png"
+  },
+  {
+    "id": "bw5-110",
+    "name": "Archeops",
+    "setName": "Dark Explorers",
+    "number": "110",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/110_hires.png"
+  },
+  {
+    "id": "bw5-111",
+    "name": "Pokémon Catcher",
+    "setName": "Dark Explorers",
+    "number": "111",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw5/111_hires.png"
+  }
+]

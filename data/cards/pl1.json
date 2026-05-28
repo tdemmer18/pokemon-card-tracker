@@ -1,0 +1,1199 @@
+[
+  {
+    "id": "pl1-1",
+    "name": "Ampharos",
+    "setName": "Platinum",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl1/1_hires.png"
+  },
+  {
+    "id": "pl1-2",
+    "name": "Blastoise",
+    "setName": "Platinum",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/2_hires.png"
+  },
+  {
+    "id": "pl1-3",
+    "name": "Blaziken",
+    "setName": "Platinum",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl1/3_hires.png"
+  },
+  {
+    "id": "pl1-4",
+    "name": "Delcatty",
+    "setName": "Platinum",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/4_hires.png"
+  },
+  {
+    "id": "pl1-5",
+    "name": "Dialga",
+    "setName": "Platinum",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/5_hires.png"
+  },
+  {
+    "id": "pl1-6",
+    "name": "Dialga",
+    "setName": "Platinum",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/6_hires.png"
+  },
+  {
+    "id": "pl1-7",
+    "name": "Dialga G",
+    "setName": "Platinum",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl1/7_hires.png"
+  },
+  {
+    "id": "pl1-8",
+    "name": "Gardevoir",
+    "setName": "Platinum",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/8_hires.png"
+  },
+  {
+    "id": "pl1-9",
+    "name": "Giratina",
+    "setName": "Platinum",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/9_hires.png"
+  },
+  {
+    "id": "pl1-10",
+    "name": "Giratina",
+    "setName": "Platinum",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl1/10_hires.png"
+  },
+  {
+    "id": "pl1-11",
+    "name": "Manectric",
+    "setName": "Platinum",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/11_hires.png"
+  },
+  {
+    "id": "pl1-12",
+    "name": "Palkia G",
+    "setName": "Platinum",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl1/12_hires.png"
+  },
+  {
+    "id": "pl1-13",
+    "name": "Rampardos",
+    "setName": "Platinum",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/13_hires.png"
+  },
+  {
+    "id": "pl1-14",
+    "name": "Shaymin",
+    "setName": "Platinum",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/14_hires.png"
+  },
+  {
+    "id": "pl1-15",
+    "name": "Shaymin",
+    "setName": "Platinum",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl1/15_hires.png"
+  },
+  {
+    "id": "pl1-16",
+    "name": "Slaking",
+    "setName": "Platinum",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/16_hires.png"
+  },
+  {
+    "id": "pl1-17",
+    "name": "Weavile G",
+    "setName": "Platinum",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl1/17_hires.png"
+  },
+  {
+    "id": "pl1-18",
+    "name": "Altaria",
+    "setName": "Platinum",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl1/18_hires.png"
+  },
+  {
+    "id": "pl1-19",
+    "name": "Banette",
+    "setName": "Platinum",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl1/19_hires.png"
+  },
+  {
+    "id": "pl1-20",
+    "name": "Bastiodon",
+    "setName": "Platinum",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/20_hires.png"
+  },
+  {
+    "id": "pl1-21",
+    "name": "Beautifly",
+    "setName": "Platinum",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/pl1/21_hires.png"
+  },
+  {
+    "id": "pl1-22",
+    "name": "Blissey",
+    "setName": "Platinum",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl1/22_hires.png"
+  },
+  {
+    "id": "pl1-23",
+    "name": "Dialga",
+    "setName": "Platinum",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/pl1/23_hires.png"
+  },
+  {
+    "id": "pl1-24",
+    "name": "Dugtrio",
+    "setName": "Platinum",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/pl1/24_hires.png"
+  },
+  {
+    "id": "pl1-25",
+    "name": "Dustox",
+    "setName": "Platinum",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl1/25_hires.png"
+  },
+  {
+    "id": "pl1-26",
+    "name": "Empoleon",
+    "setName": "Platinum",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/26_hires.png"
+  },
+  {
+    "id": "pl1-27",
+    "name": "Giratina",
+    "setName": "Platinum",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/27_hires.png"
+  },
+  {
+    "id": "pl1-28",
+    "name": "Giratina",
+    "setName": "Platinum",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl1/28_hires.png"
+  },
+  {
+    "id": "pl1-29",
+    "name": "Golduck",
+    "setName": "Platinum",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/29_hires.png"
+  },
+  {
+    "id": "pl1-30",
+    "name": "Gyarados G",
+    "setName": "Platinum",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/pl1/30_hires.png"
+  },
+  {
+    "id": "pl1-31",
+    "name": "Infernape",
+    "setName": "Platinum",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/31_hires.png"
+  },
+  {
+    "id": "pl1-32",
+    "name": "Kricketune",
+    "setName": "Platinum",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl1/32_hires.png"
+  },
+  {
+    "id": "pl1-33",
+    "name": "Lickilicky",
+    "setName": "Platinum",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/33_hires.png"
+  },
+  {
+    "id": "pl1-34",
+    "name": "Ludicolo",
+    "setName": "Platinum",
+    "number": "34",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/34_hires.png"
+  },
+  {
+    "id": "pl1-35",
+    "name": "Luvdisc",
+    "setName": "Platinum",
+    "number": "35",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/35_hires.png"
+  },
+  {
+    "id": "pl1-36",
+    "name": "Ninetales",
+    "setName": "Platinum",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/pl1/36_hires.png"
+  },
+  {
+    "id": "pl1-37",
+    "name": "Palkia",
+    "setName": "Platinum",
+    "number": "37",
+    "rarity": "Rare",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/pl1/37_hires.png"
+  },
+  {
+    "id": "pl1-38",
+    "name": "Shaymin",
+    "setName": "Platinum",
+    "number": "38",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/38_hires.png"
+  },
+  {
+    "id": "pl1-39",
+    "name": "Torterra",
+    "setName": "Platinum",
+    "number": "39",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/39_hires.png"
+  },
+  {
+    "id": "pl1-40",
+    "name": "Toxicroak G",
+    "setName": "Platinum",
+    "number": "40",
+    "rarity": "Rare",
+    "artist": "Ryota Saito",
+    "imageUrl": "https://images.pokemontcg.io/pl1/40_hires.png"
+  },
+  {
+    "id": "pl1-41",
+    "name": "Bronzong G",
+    "setName": "Platinum",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl1/41_hires.png"
+  },
+  {
+    "id": "pl1-42",
+    "name": "Cacturne",
+    "setName": "Platinum",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/42_hires.png"
+  },
+  {
+    "id": "pl1-43",
+    "name": "Carnivine",
+    "setName": "Platinum",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/43_hires.png"
+  },
+  {
+    "id": "pl1-44",
+    "name": "Cascoon",
+    "setName": "Platinum",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl1/44_hires.png"
+  },
+  {
+    "id": "pl1-45",
+    "name": "Combusken",
+    "setName": "Platinum",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/45_hires.png"
+  },
+  {
+    "id": "pl1-46",
+    "name": "Cranidos",
+    "setName": "Platinum",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/46_hires.png"
+  },
+  {
+    "id": "pl1-47",
+    "name": "Crobat G",
+    "setName": "Platinum",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl1/47_hires.png"
+  },
+  {
+    "id": "pl1-48",
+    "name": "Flaaffy",
+    "setName": "Platinum",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/pl1/48_hires.png"
+  },
+  {
+    "id": "pl1-49",
+    "name": "Grotle",
+    "setName": "Platinum",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/49_hires.png"
+  },
+  {
+    "id": "pl1-50",
+    "name": "Houndoom G",
+    "setName": "Platinum",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/pl1/50_hires.png"
+  },
+  {
+    "id": "pl1-51",
+    "name": "Kirlia",
+    "setName": "Platinum",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl1/51_hires.png"
+  },
+  {
+    "id": "pl1-52",
+    "name": "Lombre",
+    "setName": "Platinum",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl1/52_hires.png"
+  },
+  {
+    "id": "pl1-53",
+    "name": "Lucario",
+    "setName": "Platinum",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/53_hires.png"
+  },
+  {
+    "id": "pl1-54",
+    "name": "Mightyena",
+    "setName": "Platinum",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/54_hires.png"
+  },
+  {
+    "id": "pl1-55",
+    "name": "Mismagius",
+    "setName": "Platinum",
+    "number": "55",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/55_hires.png"
+  },
+  {
+    "id": "pl1-56",
+    "name": "Monferno",
+    "setName": "Platinum",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/56_hires.png"
+  },
+  {
+    "id": "pl1-57",
+    "name": "Muk",
+    "setName": "Platinum",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl1/57_hires.png"
+  },
+  {
+    "id": "pl1-58",
+    "name": "Octillery",
+    "setName": "Platinum",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl1/58_hires.png"
+  },
+  {
+    "id": "pl1-59",
+    "name": "Prinplup",
+    "setName": "Platinum",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/59_hires.png"
+  },
+  {
+    "id": "pl1-60",
+    "name": "Probopass",
+    "setName": "Platinum",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/60_hires.png"
+  },
+  {
+    "id": "pl1-61",
+    "name": "Seviper",
+    "setName": "Platinum",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/pl1/61_hires.png"
+  },
+  {
+    "id": "pl1-62",
+    "name": "Shieldon",
+    "setName": "Platinum",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/62_hires.png"
+  },
+  {
+    "id": "pl1-63",
+    "name": "Silcoon",
+    "setName": "Platinum",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/pl1/63_hires.png"
+  },
+  {
+    "id": "pl1-64",
+    "name": "Vigoroth",
+    "setName": "Platinum",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/64_hires.png"
+  },
+  {
+    "id": "pl1-65",
+    "name": "Wartortle",
+    "setName": "Platinum",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl1/65_hires.png"
+  },
+  {
+    "id": "pl1-66",
+    "name": "Zangoose",
+    "setName": "Platinum",
+    "number": "66",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl1/66_hires.png"
+  },
+  {
+    "id": "pl1-67",
+    "name": "Cacnea",
+    "setName": "Platinum",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/pl1/67_hires.png"
+  },
+  {
+    "id": "pl1-68",
+    "name": "Carnivine",
+    "setName": "Platinum",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/68_hires.png"
+  },
+  {
+    "id": "pl1-69",
+    "name": "Chansey",
+    "setName": "Platinum",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/69_hires.png"
+  },
+  {
+    "id": "pl1-70",
+    "name": "Chimchar",
+    "setName": "Platinum",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/70_hires.png"
+  },
+  {
+    "id": "pl1-71",
+    "name": "Combee",
+    "setName": "Platinum",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/71_hires.png"
+  },
+  {
+    "id": "pl1-72",
+    "name": "Diglett",
+    "setName": "Platinum",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl1/72_hires.png"
+  },
+  {
+    "id": "pl1-73",
+    "name": "Dunsparce",
+    "setName": "Platinum",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/73_hires.png"
+  },
+  {
+    "id": "pl1-74",
+    "name": "Electrike",
+    "setName": "Platinum",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl1/74_hires.png"
+  },
+  {
+    "id": "pl1-75",
+    "name": "Grimer",
+    "setName": "Platinum",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl1/75_hires.png"
+  },
+  {
+    "id": "pl1-76",
+    "name": "Happiny",
+    "setName": "Platinum",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/76_hires.png"
+  },
+  {
+    "id": "pl1-77",
+    "name": "Honchkrow G",
+    "setName": "Platinum",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl1/77_hires.png"
+  },
+  {
+    "id": "pl1-78",
+    "name": "Kricketot",
+    "setName": "Platinum",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/pl1/78_hires.png"
+  },
+  {
+    "id": "pl1-79",
+    "name": "Lapras",
+    "setName": "Platinum",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/79_hires.png"
+  },
+  {
+    "id": "pl1-80",
+    "name": "Lickitung",
+    "setName": "Platinum",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/pl1/80_hires.png"
+  },
+  {
+    "id": "pl1-81",
+    "name": "Lotad",
+    "setName": "Platinum",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/81_hires.png"
+  },
+  {
+    "id": "pl1-82",
+    "name": "Mareep",
+    "setName": "Platinum",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/pl1/82_hires.png"
+  },
+  {
+    "id": "pl1-83",
+    "name": "Misdreavus",
+    "setName": "Platinum",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/83_hires.png"
+  },
+  {
+    "id": "pl1-84",
+    "name": "Nosepass",
+    "setName": "Platinum",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/84_hires.png"
+  },
+  {
+    "id": "pl1-85",
+    "name": "Piplup",
+    "setName": "Platinum",
+    "number": "85",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/85_hires.png"
+  },
+  {
+    "id": "pl1-86",
+    "name": "Poochyena",
+    "setName": "Platinum",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl1/86_hires.png"
+  },
+  {
+    "id": "pl1-87",
+    "name": "Psyduck",
+    "setName": "Platinum",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl1/87_hires.png"
+  },
+  {
+    "id": "pl1-88",
+    "name": "Purugly G",
+    "setName": "Platinum",
+    "number": "88",
+    "rarity": "Common",
+    "artist": "Ryota Saito",
+    "imageUrl": "https://images.pokemontcg.io/pl1/88_hires.png"
+  },
+  {
+    "id": "pl1-89",
+    "name": "Ralts",
+    "setName": "Platinum",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl1/89_hires.png"
+  },
+  {
+    "id": "pl1-90",
+    "name": "Remoraid",
+    "setName": "Platinum",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl1/90_hires.png"
+  },
+  {
+    "id": "pl1-91",
+    "name": "Riolu",
+    "setName": "Platinum",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/91_hires.png"
+  },
+  {
+    "id": "pl1-92",
+    "name": "Shuppet",
+    "setName": "Platinum",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/pl1/92_hires.png"
+  },
+  {
+    "id": "pl1-93",
+    "name": "Skitty",
+    "setName": "Platinum",
+    "number": "93",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/93_hires.png"
+  },
+  {
+    "id": "pl1-94",
+    "name": "Skuntank G",
+    "setName": "Platinum",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl1/94_hires.png"
+  },
+  {
+    "id": "pl1-95",
+    "name": "Slakoth",
+    "setName": "Platinum",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl1/95_hires.png"
+  },
+  {
+    "id": "pl1-96",
+    "name": "Squirtle",
+    "setName": "Platinum",
+    "number": "96",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/96_hires.png"
+  },
+  {
+    "id": "pl1-97",
+    "name": "Swablu",
+    "setName": "Platinum",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/97_hires.png"
+  },
+  {
+    "id": "pl1-98",
+    "name": "Tauros",
+    "setName": "Platinum",
+    "number": "98",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/98_hires.png"
+  },
+  {
+    "id": "pl1-99",
+    "name": "Torchic",
+    "setName": "Platinum",
+    "number": "99",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl1/99_hires.png"
+  },
+  {
+    "id": "pl1-100",
+    "name": "Torkoal",
+    "setName": "Platinum",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl1/100_hires.png"
+  },
+  {
+    "id": "pl1-101",
+    "name": "Turtwig",
+    "setName": "Platinum",
+    "number": "101",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/101_hires.png"
+  },
+  {
+    "id": "pl1-102",
+    "name": "Vulpix",
+    "setName": "Platinum",
+    "number": "102",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/102_hires.png"
+  },
+  {
+    "id": "pl1-103",
+    "name": "Wurmple",
+    "setName": "Platinum",
+    "number": "103",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/pl1/103_hires.png"
+  },
+  {
+    "id": "pl1-104",
+    "name": "Broken Time-Space",
+    "setName": "Platinum",
+    "number": "104",
+    "rarity": "Uncommon",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/pl1/104_hires.png"
+  },
+  {
+    "id": "pl1-105",
+    "name": "Cyrus's Conspiracy",
+    "setName": "Platinum",
+    "number": "105",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl1/105_hires.png"
+  },
+  {
+    "id": "pl1-106",
+    "name": "Galactic HQ",
+    "setName": "Platinum",
+    "number": "106",
+    "rarity": "Uncommon",
+    "artist": "Ryota Saito",
+    "imageUrl": "https://images.pokemontcg.io/pl1/106_hires.png"
+  },
+  {
+    "id": "pl1-107",
+    "name": "Level Max",
+    "setName": "Platinum",
+    "number": "107",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/107_hires.png"
+  },
+  {
+    "id": "pl1-108",
+    "name": "Life Herb",
+    "setName": "Platinum",
+    "number": "108",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/108_hires.png"
+  },
+  {
+    "id": "pl1-109",
+    "name": "Looker's Investigation",
+    "setName": "Platinum",
+    "number": "109",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl1/109_hires.png"
+  },
+  {
+    "id": "pl1-110",
+    "name": "Memory Berry",
+    "setName": "Platinum",
+    "number": "110",
+    "rarity": "Uncommon",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl1/110_hires.png"
+  },
+  {
+    "id": "pl1-111",
+    "name": "Miasma Valley",
+    "setName": "Platinum",
+    "number": "111",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/111_hires.png"
+  },
+  {
+    "id": "pl1-112",
+    "name": "PlusPower",
+    "setName": "Platinum",
+    "number": "112",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/112_hires.png"
+  },
+  {
+    "id": "pl1-113",
+    "name": "Poké Ball",
+    "setName": "Platinum",
+    "number": "113",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/113_hires.png"
+  },
+  {
+    "id": "pl1-114",
+    "name": "Pokédex HANDY910is",
+    "setName": "Platinum",
+    "number": "114",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/114_hires.png"
+  },
+  {
+    "id": "pl1-115",
+    "name": "Pokémon Rescue",
+    "setName": "Platinum",
+    "number": "115",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/115_hires.png"
+  },
+  {
+    "id": "pl1-116",
+    "name": "Team Galactic's Invention G-101 Energy Gain",
+    "setName": "Platinum",
+    "number": "116",
+    "rarity": "Uncommon",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl1/116_hires.png"
+  },
+  {
+    "id": "pl1-117",
+    "name": "Team Galactic's Invention G-103 Power Spray",
+    "setName": "Platinum",
+    "number": "117",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl1/117_hires.png"
+  },
+  {
+    "id": "pl1-118",
+    "name": "Team Galactic's Invention G-105 Poké Turn",
+    "setName": "Platinum",
+    "number": "118",
+    "rarity": "Uncommon",
+    "artist": "Makoto Imai",
+    "imageUrl": "https://images.pokemontcg.io/pl1/118_hires.png"
+  },
+  {
+    "id": "pl1-119",
+    "name": "Armor Fossil",
+    "setName": "Platinum",
+    "number": "119",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/119_hires.png"
+  },
+  {
+    "id": "pl1-120",
+    "name": "Skull Fossil",
+    "setName": "Platinum",
+    "number": "120",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/120_hires.png"
+  },
+  {
+    "id": "pl1-121",
+    "name": "Rainbow Energy",
+    "setName": "Platinum",
+    "number": "121",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/pl1/121_hires.png"
+  },
+  {
+    "id": "pl1-122",
+    "name": "Dialga G LV.X",
+    "setName": "Platinum",
+    "number": "122",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/122_hires.png"
+  },
+  {
+    "id": "pl1-123",
+    "name": "Drapion LV.X",
+    "setName": "Platinum",
+    "number": "123",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/123_hires.png"
+  },
+  {
+    "id": "pl1-124",
+    "name": "Giratina LV.X",
+    "setName": "Platinum",
+    "number": "124",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl1/124_hires.png"
+  },
+  {
+    "id": "pl1-125",
+    "name": "Palkia G LV.X",
+    "setName": "Platinum",
+    "number": "125",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/125_hires.png"
+  },
+  {
+    "id": "pl1-126",
+    "name": "Shaymin LV.X",
+    "setName": "Platinum",
+    "number": "126",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl1/126_hires.png"
+  },
+  {
+    "id": "pl1-127",
+    "name": "Shaymin LV.X",
+    "setName": "Platinum",
+    "number": "127",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl1/127_hires.png"
+  },
+  {
+    "id": "pl1-128",
+    "name": "Electabuzz",
+    "setName": "Platinum",
+    "number": "128",
+    "rarity": "Rare Secret",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl1/128_hires.png"
+  },
+  {
+    "id": "pl1-129",
+    "name": "Hitmonchan",
+    "setName": "Platinum",
+    "number": "129",
+    "rarity": "Rare Secret",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl1/129_hires.png"
+  },
+  {
+    "id": "pl1-130",
+    "name": "Scyther",
+    "setName": "Platinum",
+    "number": "130",
+    "rarity": "Rare Secret",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl1/130_hires.png"
+  },
+  {
+    "id": "pl1-SH4",
+    "name": "Lotad",
+    "setName": "Platinum",
+    "number": "SH4",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl1/SH4_hires.png"
+  },
+  {
+    "id": "pl1-SH5",
+    "name": "Swablu",
+    "setName": "Platinum",
+    "number": "SH5",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl1/SH5_hires.png"
+  },
+  {
+    "id": "pl1-SH6",
+    "name": "Vulpix",
+    "setName": "Platinum",
+    "number": "SH6",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl1/SH6_hires.png"
+  }
+]

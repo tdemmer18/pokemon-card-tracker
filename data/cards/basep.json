@@ -1,0 +1,479 @@
+[
+  {
+    "id": "basep-1",
+    "name": "Pikachu",
+    "setName": "Wizards Black Star Promos",
+    "number": "1",
+    "rarity": "Promo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/basep/1_hires.png"
+  },
+  {
+    "id": "basep-2",
+    "name": "Electabuzz",
+    "setName": "Wizards Black Star Promos",
+    "number": "2",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/2_hires.png"
+  },
+  {
+    "id": "basep-3",
+    "name": "Mewtwo",
+    "setName": "Wizards Black Star Promos",
+    "number": "3",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/3_hires.png"
+  },
+  {
+    "id": "basep-4",
+    "name": "Pikachu",
+    "setName": "Wizards Black Star Promos",
+    "number": "4",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/4_hires.png"
+  },
+  {
+    "id": "basep-5",
+    "name": "Dragonite",
+    "setName": "Wizards Black Star Promos",
+    "number": "5",
+    "rarity": "Promo",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/basep/5_hires.png"
+  },
+  {
+    "id": "basep-6",
+    "name": "Arcanine",
+    "setName": "Wizards Black Star Promos",
+    "number": "6",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/6_hires.png"
+  },
+  {
+    "id": "basep-7",
+    "name": "Jigglypuff",
+    "setName": "Wizards Black Star Promos",
+    "number": "7",
+    "rarity": "Promo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/basep/7_hires.png"
+  },
+  {
+    "id": "basep-8",
+    "name": "Mew",
+    "setName": "Wizards Black Star Promos",
+    "number": "8",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/8_hires.png"
+  },
+  {
+    "id": "basep-9",
+    "name": "Mew",
+    "setName": "Wizards Black Star Promos",
+    "number": "9",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/9_hires.png"
+  },
+  {
+    "id": "basep-10",
+    "name": "Meowth",
+    "setName": "Wizards Black Star Promos",
+    "number": "10",
+    "rarity": "Promo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/basep/10_hires.png"
+  },
+  {
+    "id": "basep-11",
+    "name": "Eevee",
+    "setName": "Wizards Black Star Promos",
+    "number": "11",
+    "rarity": "Promo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/basep/11_hires.png"
+  },
+  {
+    "id": "basep-12",
+    "name": "Mewtwo",
+    "setName": "Wizards Black Star Promos",
+    "number": "12",
+    "rarity": "Promo",
+    "artist": "Christopher Rush",
+    "imageUrl": "https://images.pokemontcg.io/basep/12_hires.png"
+  },
+  {
+    "id": "basep-13",
+    "name": "Venusaur",
+    "setName": "Wizards Black Star Promos",
+    "number": "13",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/13_hires.png"
+  },
+  {
+    "id": "basep-14",
+    "name": "Mewtwo",
+    "setName": "Wizards Black Star Promos",
+    "number": "14",
+    "rarity": "Promo",
+    "artist": "Benimaru Itoh",
+    "imageUrl": "https://images.pokemontcg.io/basep/14_hires.png"
+  },
+  {
+    "id": "basep-15",
+    "name": "Cool Porygon",
+    "setName": "Wizards Black Star Promos",
+    "number": "15",
+    "rarity": "Promo",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/basep/15_hires.png"
+  },
+  {
+    "id": "basep-16",
+    "name": "Computer Error",
+    "setName": "Wizards Black Star Promos",
+    "number": "16",
+    "rarity": "Promo",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/basep/16_hires.png"
+  },
+  {
+    "id": "basep-17",
+    "name": "Dark Persian",
+    "setName": "Wizards Black Star Promos",
+    "number": "17",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/17_hires.png"
+  },
+  {
+    "id": "basep-18",
+    "name": "Team Rocket's Meowth",
+    "setName": "Wizards Black Star Promos",
+    "number": "18",
+    "rarity": "Promo",
+    "artist": "Kunihiko Yuyama",
+    "imageUrl": "https://images.pokemontcg.io/basep/18_hires.png"
+  },
+  {
+    "id": "basep-19",
+    "name": "Sabrina's Abra",
+    "setName": "Wizards Black Star Promos",
+    "number": "19",
+    "rarity": "Promo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/basep/19_hires.png"
+  },
+  {
+    "id": "basep-20",
+    "name": "Psyduck",
+    "setName": "Wizards Black Star Promos",
+    "number": "20",
+    "rarity": "Promo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/basep/20_hires.png"
+  },
+  {
+    "id": "basep-21",
+    "name": "Moltres",
+    "setName": "Wizards Black Star Promos",
+    "number": "21",
+    "rarity": "Promo",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/basep/21_hires.png"
+  },
+  {
+    "id": "basep-22",
+    "name": "Articuno",
+    "setName": "Wizards Black Star Promos",
+    "number": "22",
+    "rarity": "Promo",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/basep/22_hires.png"
+  },
+  {
+    "id": "basep-23",
+    "name": "Zapdos",
+    "setName": "Wizards Black Star Promos",
+    "number": "23",
+    "rarity": "Promo",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/basep/23_hires.png"
+  },
+  {
+    "id": "basep-24",
+    "name": "_____'s Pikachu",
+    "setName": "Wizards Black Star Promos",
+    "number": "24",
+    "rarity": "Promo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/basep/24_hires.png"
+  },
+  {
+    "id": "basep-25",
+    "name": "Flying Pikachu",
+    "setName": "Wizards Black Star Promos",
+    "number": "25",
+    "rarity": "Promo",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/basep/25_hires.png"
+  },
+  {
+    "id": "basep-26",
+    "name": "Pikachu",
+    "setName": "Wizards Black Star Promos",
+    "number": "26",
+    "rarity": "Promo",
+    "artist": "Gakuji Nomoto",
+    "imageUrl": "https://images.pokemontcg.io/basep/26_hires.png"
+  },
+  {
+    "id": "basep-27",
+    "name": "Pikachu",
+    "setName": "Wizards Black Star Promos",
+    "number": "27",
+    "rarity": "Promo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/basep/27_hires.png"
+  },
+  {
+    "id": "basep-28",
+    "name": "Surfing Pikachu",
+    "setName": "Wizards Black Star Promos",
+    "number": "28",
+    "rarity": "Promo",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/basep/28_hires.png"
+  },
+  {
+    "id": "basep-29",
+    "name": "Marill",
+    "setName": "Wizards Black Star Promos",
+    "number": "29",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/29_hires.png"
+  },
+  {
+    "id": "basep-30",
+    "name": "Togepi",
+    "setName": "Wizards Black Star Promos",
+    "number": "30",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/30_hires.png"
+  },
+  {
+    "id": "basep-31",
+    "name": "Cleffa",
+    "setName": "Wizards Black Star Promos",
+    "number": "31",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/31_hires.png"
+  },
+  {
+    "id": "basep-32",
+    "name": "Smeargle",
+    "setName": "Wizards Black Star Promos",
+    "number": "32",
+    "rarity": "Promo",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/basep/32_hires.png"
+  },
+  {
+    "id": "basep-33",
+    "name": "Scizor",
+    "setName": "Wizards Black Star Promos",
+    "number": "33",
+    "rarity": "Promo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/basep/33_hires.png"
+  },
+  {
+    "id": "basep-34",
+    "name": "Entei",
+    "setName": "Wizards Black Star Promos",
+    "number": "34",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/34_hires.png"
+  },
+  {
+    "id": "basep-35",
+    "name": "Pichu",
+    "setName": "Wizards Black Star Promos",
+    "number": "35",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/35_hires.png"
+  },
+  {
+    "id": "basep-36",
+    "name": "Igglybuff",
+    "setName": "Wizards Black Star Promos",
+    "number": "36",
+    "rarity": "Promo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/basep/36_hires.png"
+  },
+  {
+    "id": "basep-37",
+    "name": "Hitmontop",
+    "setName": "Wizards Black Star Promos",
+    "number": "37",
+    "rarity": "Promo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/basep/37_hires.png"
+  },
+  {
+    "id": "basep-38",
+    "name": "Unown [J]",
+    "setName": "Wizards Black Star Promos",
+    "number": "38",
+    "rarity": "Promo",
+    "artist": "Hideki Kazama",
+    "imageUrl": "https://images.pokemontcg.io/basep/38_hires.png"
+  },
+  {
+    "id": "basep-39",
+    "name": "Misdreavus",
+    "setName": "Wizards Black Star Promos",
+    "number": "39",
+    "rarity": "Promo",
+    "artist": "Shin-ichi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/basep/39_hires.png"
+  },
+  {
+    "id": "basep-40",
+    "name": "Pokémon Center",
+    "setName": "Wizards Black Star Promos",
+    "number": "40",
+    "rarity": "Promo",
+    "artist": "\"Big Mama\" Tagawa",
+    "imageUrl": "https://images.pokemontcg.io/basep/40_hires.png"
+  },
+  {
+    "id": "basep-41",
+    "name": "Lucky Stadium",
+    "setName": "Wizards Black Star Promos",
+    "number": "41",
+    "rarity": "Promo",
+    "artist": "\"Big Mama\" Tagawa",
+    "imageUrl": "https://images.pokemontcg.io/basep/41_hires.png"
+  },
+  {
+    "id": "basep-42",
+    "name": "Pokémon Tower",
+    "setName": "Wizards Black Star Promos",
+    "number": "42",
+    "rarity": "Promo",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/basep/42_hires.png"
+  },
+  {
+    "id": "basep-43",
+    "name": "Machamp",
+    "setName": "Wizards Black Star Promos",
+    "number": "43",
+    "rarity": "Promo",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/basep/43_hires.png"
+  },
+  {
+    "id": "basep-44",
+    "name": "Magmar",
+    "setName": "Wizards Black Star Promos",
+    "number": "44",
+    "rarity": "Promo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/basep/44_hires.png"
+  },
+  {
+    "id": "basep-45",
+    "name": "Scyther",
+    "setName": "Wizards Black Star Promos",
+    "number": "45",
+    "rarity": "Promo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/basep/45_hires.png"
+  },
+  {
+    "id": "basep-46",
+    "name": "Electabuzz",
+    "setName": "Wizards Black Star Promos",
+    "number": "46",
+    "rarity": "Promo",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/basep/46_hires.png"
+  },
+  {
+    "id": "basep-47",
+    "name": "Mew",
+    "setName": "Wizards Black Star Promos",
+    "number": "47",
+    "rarity": "Promo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/basep/47_hires.png"
+  },
+  {
+    "id": "basep-48",
+    "name": "Articuno",
+    "setName": "Wizards Black Star Promos",
+    "number": "48",
+    "rarity": "Promo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/basep/48_hires.png"
+  },
+  {
+    "id": "basep-49",
+    "name": "Snorlax",
+    "setName": "Wizards Black Star Promos",
+    "number": "49",
+    "rarity": "Promo",
+    "artist": "Craig Turvey",
+    "imageUrl": "https://images.pokemontcg.io/basep/49_hires.png"
+  },
+  {
+    "id": "basep-50",
+    "name": "Celebi",
+    "setName": "Wizards Black Star Promos",
+    "number": "50",
+    "rarity": "Promo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/basep/50_hires.png"
+  },
+  {
+    "id": "basep-51",
+    "name": "Rapidash",
+    "setName": "Wizards Black Star Promos",
+    "number": "51",
+    "rarity": "Promo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/basep/51_hires.png"
+  },
+  {
+    "id": "basep-52",
+    "name": "Ho-oh",
+    "setName": "Wizards Black Star Promos",
+    "number": "52",
+    "rarity": "Promo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/basep/52_hires.png"
+  },
+  {
+    "id": "basep-53",
+    "name": "Suicune",
+    "setName": "Wizards Black Star Promos",
+    "number": "53",
+    "rarity": "Promo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/basep/53_hires.png"
+  }
+]

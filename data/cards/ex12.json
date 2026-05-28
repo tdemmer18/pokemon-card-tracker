@@ -1,0 +1,839 @@
+[
+  {
+    "id": "ex12-1",
+    "name": "Aerodactyl",
+    "setName": "Legend Maker",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex12/1_hires.png"
+  },
+  {
+    "id": "ex12-2",
+    "name": "Aggron",
+    "setName": "Legend Maker",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex12/2_hires.png"
+  },
+  {
+    "id": "ex12-3",
+    "name": "Cradily",
+    "setName": "Legend Maker",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex12/3_hires.png"
+  },
+  {
+    "id": "ex12-4",
+    "name": "Delcatty",
+    "setName": "Legend Maker",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex12/4_hires.png"
+  },
+  {
+    "id": "ex12-5",
+    "name": "Gengar",
+    "setName": "Legend Maker",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex12/5_hires.png"
+  },
+  {
+    "id": "ex12-6",
+    "name": "Golem",
+    "setName": "Legend Maker",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex12/6_hires.png"
+  },
+  {
+    "id": "ex12-7",
+    "name": "Kabutops",
+    "setName": "Legend Maker",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex12/7_hires.png"
+  },
+  {
+    "id": "ex12-8",
+    "name": "Lapras",
+    "setName": "Legend Maker",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex12/8_hires.png"
+  },
+  {
+    "id": "ex12-9",
+    "name": "Machamp",
+    "setName": "Legend Maker",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex12/9_hires.png"
+  },
+  {
+    "id": "ex12-10",
+    "name": "Mew",
+    "setName": "Legend Maker",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex12/10_hires.png"
+  },
+  {
+    "id": "ex12-11",
+    "name": "Muk",
+    "setName": "Legend Maker",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex12/11_hires.png"
+  },
+  {
+    "id": "ex12-12",
+    "name": "Shiftry",
+    "setName": "Legend Maker",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex12/12_hires.png"
+  },
+  {
+    "id": "ex12-13",
+    "name": "Victreebel",
+    "setName": "Legend Maker",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex12/13_hires.png"
+  },
+  {
+    "id": "ex12-14",
+    "name": "Wailord",
+    "setName": "Legend Maker",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex12/14_hires.png"
+  },
+  {
+    "id": "ex12-15",
+    "name": "Absol",
+    "setName": "Legend Maker",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex12/15_hires.png"
+  },
+  {
+    "id": "ex12-16",
+    "name": "Girafarig",
+    "setName": "Legend Maker",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex12/16_hires.png"
+  },
+  {
+    "id": "ex12-17",
+    "name": "Gorebyss",
+    "setName": "Legend Maker",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex12/17_hires.png"
+  },
+  {
+    "id": "ex12-18",
+    "name": "Huntail",
+    "setName": "Legend Maker",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex12/18_hires.png"
+  },
+  {
+    "id": "ex12-19",
+    "name": "Lanturn",
+    "setName": "Legend Maker",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex12/19_hires.png"
+  },
+  {
+    "id": "ex12-20",
+    "name": "Lunatone",
+    "setName": "Legend Maker",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex12/20_hires.png"
+  },
+  {
+    "id": "ex12-21",
+    "name": "Magmar",
+    "setName": "Legend Maker",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex12/21_hires.png"
+  },
+  {
+    "id": "ex12-22",
+    "name": "Magneton",
+    "setName": "Legend Maker",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex12/22_hires.png"
+  },
+  {
+    "id": "ex12-23",
+    "name": "Omastar",
+    "setName": "Legend Maker",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex12/23_hires.png"
+  },
+  {
+    "id": "ex12-24",
+    "name": "Pinsir",
+    "setName": "Legend Maker",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex12/24_hires.png"
+  },
+  {
+    "id": "ex12-25",
+    "name": "Solrock",
+    "setName": "Legend Maker",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex12/25_hires.png"
+  },
+  {
+    "id": "ex12-26",
+    "name": "Spinda",
+    "setName": "Legend Maker",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Motofumi Fujiwara",
+    "imageUrl": "https://images.pokemontcg.io/ex12/26_hires.png"
+  },
+  {
+    "id": "ex12-27",
+    "name": "Torkoal",
+    "setName": "Legend Maker",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex12/27_hires.png"
+  },
+  {
+    "id": "ex12-28",
+    "name": "Wobbuffet",
+    "setName": "Legend Maker",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex12/28_hires.png"
+  },
+  {
+    "id": "ex12-29",
+    "name": "Anorith",
+    "setName": "Legend Maker",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex12/29_hires.png"
+  },
+  {
+    "id": "ex12-30",
+    "name": "Cascoon",
+    "setName": "Legend Maker",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex12/30_hires.png"
+  },
+  {
+    "id": "ex12-31",
+    "name": "Dunsparce",
+    "setName": "Legend Maker",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex12/31_hires.png"
+  },
+  {
+    "id": "ex12-32",
+    "name": "Electrode",
+    "setName": "Legend Maker",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex12/32_hires.png"
+  },
+  {
+    "id": "ex12-33",
+    "name": "Furret",
+    "setName": "Legend Maker",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex12/33_hires.png"
+  },
+  {
+    "id": "ex12-34",
+    "name": "Graveler",
+    "setName": "Legend Maker",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex12/34_hires.png"
+  },
+  {
+    "id": "ex12-35",
+    "name": "Haunter",
+    "setName": "Legend Maker",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex12/35_hires.png"
+  },
+  {
+    "id": "ex12-36",
+    "name": "Kabuto",
+    "setName": "Legend Maker",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Takao Unno",
+    "imageUrl": "https://images.pokemontcg.io/ex12/36_hires.png"
+  },
+  {
+    "id": "ex12-37",
+    "name": "Kecleon",
+    "setName": "Legend Maker",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex12/37_hires.png"
+  },
+  {
+    "id": "ex12-38",
+    "name": "Lairon",
+    "setName": "Legend Maker",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex12/38_hires.png"
+  },
+  {
+    "id": "ex12-39",
+    "name": "Machoke",
+    "setName": "Legend Maker",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex12/39_hires.png"
+  },
+  {
+    "id": "ex12-40",
+    "name": "Misdreavus",
+    "setName": "Legend Maker",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex12/40_hires.png"
+  },
+  {
+    "id": "ex12-41",
+    "name": "Nuzleaf",
+    "setName": "Legend Maker",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex12/41_hires.png"
+  },
+  {
+    "id": "ex12-42",
+    "name": "Roselia",
+    "setName": "Legend Maker",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex12/42_hires.png"
+  },
+  {
+    "id": "ex12-43",
+    "name": "Sealeo",
+    "setName": "Legend Maker",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex12/43_hires.png"
+  },
+  {
+    "id": "ex12-44",
+    "name": "Tangela",
+    "setName": "Legend Maker",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex12/44_hires.png"
+  },
+  {
+    "id": "ex12-45",
+    "name": "Tentacruel",
+    "setName": "Legend Maker",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex12/45_hires.png"
+  },
+  {
+    "id": "ex12-46",
+    "name": "Vibrava",
+    "setName": "Legend Maker",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex12/46_hires.png"
+  },
+  {
+    "id": "ex12-47",
+    "name": "Weepinbell",
+    "setName": "Legend Maker",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex12/47_hires.png"
+  },
+  {
+    "id": "ex12-48",
+    "name": "Aron",
+    "setName": "Legend Maker",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex12/48_hires.png"
+  },
+  {
+    "id": "ex12-49",
+    "name": "Bellsprout",
+    "setName": "Legend Maker",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex12/49_hires.png"
+  },
+  {
+    "id": "ex12-50",
+    "name": "Chinchou",
+    "setName": "Legend Maker",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex12/50_hires.png"
+  },
+  {
+    "id": "ex12-51",
+    "name": "Clamperl",
+    "setName": "Legend Maker",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex12/51_hires.png"
+  },
+  {
+    "id": "ex12-52",
+    "name": "Gastly",
+    "setName": "Legend Maker",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex12/52_hires.png"
+  },
+  {
+    "id": "ex12-53",
+    "name": "Geodude",
+    "setName": "Legend Maker",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex12/53_hires.png"
+  },
+  {
+    "id": "ex12-54",
+    "name": "Grimer",
+    "setName": "Legend Maker",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex12/54_hires.png"
+  },
+  {
+    "id": "ex12-55",
+    "name": "Growlithe",
+    "setName": "Legend Maker",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/ex12/55_hires.png"
+  },
+  {
+    "id": "ex12-56",
+    "name": "Lileep",
+    "setName": "Legend Maker",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex12/56_hires.png"
+  },
+  {
+    "id": "ex12-57",
+    "name": "Machop",
+    "setName": "Legend Maker",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex12/57_hires.png"
+  },
+  {
+    "id": "ex12-58",
+    "name": "Magby",
+    "setName": "Legend Maker",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex12/58_hires.png"
+  },
+  {
+    "id": "ex12-59",
+    "name": "Magnemite",
+    "setName": "Legend Maker",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Hiroki Fuchino",
+    "imageUrl": "https://images.pokemontcg.io/ex12/59_hires.png"
+  },
+  {
+    "id": "ex12-60",
+    "name": "Omanyte",
+    "setName": "Legend Maker",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Kenkichi Toyama",
+    "imageUrl": "https://images.pokemontcg.io/ex12/60_hires.png"
+  },
+  {
+    "id": "ex12-61",
+    "name": "Seedot",
+    "setName": "Legend Maker",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex12/61_hires.png"
+  },
+  {
+    "id": "ex12-62",
+    "name": "Sentret",
+    "setName": "Legend Maker",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex12/62_hires.png"
+  },
+  {
+    "id": "ex12-63",
+    "name": "Shuppet",
+    "setName": "Legend Maker",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex12/63_hires.png"
+  },
+  {
+    "id": "ex12-64",
+    "name": "Skitty",
+    "setName": "Legend Maker",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Satoshi Ohta",
+    "imageUrl": "https://images.pokemontcg.io/ex12/64_hires.png"
+  },
+  {
+    "id": "ex12-65",
+    "name": "Spheal",
+    "setName": "Legend Maker",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex12/65_hires.png"
+  },
+  {
+    "id": "ex12-66",
+    "name": "Tentacool",
+    "setName": "Legend Maker",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Tomoaki Imakuni",
+    "imageUrl": "https://images.pokemontcg.io/ex12/66_hires.png"
+  },
+  {
+    "id": "ex12-67",
+    "name": "Trapinch",
+    "setName": "Legend Maker",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex12/67_hires.png"
+  },
+  {
+    "id": "ex12-68",
+    "name": "Voltorb",
+    "setName": "Legend Maker",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex12/68_hires.png"
+  },
+  {
+    "id": "ex12-69",
+    "name": "Wailmer",
+    "setName": "Legend Maker",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex12/69_hires.png"
+  },
+  {
+    "id": "ex12-70",
+    "name": "Wurmple",
+    "setName": "Legend Maker",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex12/70_hires.png"
+  },
+  {
+    "id": "ex12-71",
+    "name": "Wynaut",
+    "setName": "Legend Maker",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex12/71_hires.png"
+  },
+  {
+    "id": "ex12-72",
+    "name": "Cursed Stone",
+    "setName": "Legend Maker",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/72_hires.png"
+  },
+  {
+    "id": "ex12-73",
+    "name": "Fieldworker",
+    "setName": "Legend Maker",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex12/73_hires.png"
+  },
+  {
+    "id": "ex12-74",
+    "name": "Full Flame",
+    "setName": "Legend Maker",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/74_hires.png"
+  },
+  {
+    "id": "ex12-75",
+    "name": "Giant Stump",
+    "setName": "Legend Maker",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/75_hires.png"
+  },
+  {
+    "id": "ex12-76",
+    "name": "Power Tree",
+    "setName": "Legend Maker",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/76_hires.png"
+  },
+  {
+    "id": "ex12-77",
+    "name": "Strange Cave",
+    "setName": "Legend Maker",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/77_hires.png"
+  },
+  {
+    "id": "ex12-78",
+    "name": "Claw Fossil",
+    "setName": "Legend Maker",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/78_hires.png"
+  },
+  {
+    "id": "ex12-79",
+    "name": "Mysterious Fossil",
+    "setName": "Legend Maker",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/79_hires.png"
+  },
+  {
+    "id": "ex12-80",
+    "name": "Root Fossil",
+    "setName": "Legend Maker",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/80_hires.png"
+  },
+  {
+    "id": "ex12-81",
+    "name": "Rainbow Energy",
+    "setName": "Legend Maker",
+    "number": "81",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex12/81_hires.png"
+  },
+  {
+    "id": "ex12-82",
+    "name": "React Energy",
+    "setName": "Legend Maker",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex12/82_hires.png"
+  },
+  {
+    "id": "ex12-83",
+    "name": "Arcanine ex",
+    "setName": "Legend Maker",
+    "number": "83",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex12/83_hires.png"
+  },
+  {
+    "id": "ex12-84",
+    "name": "Armaldo ex",
+    "setName": "Legend Maker",
+    "number": "84",
+    "rarity": "Rare Holo EX",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/ex12/84_hires.png"
+  },
+  {
+    "id": "ex12-85",
+    "name": "Banette ex",
+    "setName": "Legend Maker",
+    "number": "85",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex12/85_hires.png"
+  },
+  {
+    "id": "ex12-86",
+    "name": "Dustox ex",
+    "setName": "Legend Maker",
+    "number": "86",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex12/86_hires.png"
+  },
+  {
+    "id": "ex12-87",
+    "name": "Flygon ex",
+    "setName": "Legend Maker",
+    "number": "87",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/87_hires.png"
+  },
+  {
+    "id": "ex12-88",
+    "name": "Mew ex",
+    "setName": "Legend Maker",
+    "number": "88",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/88_hires.png"
+  },
+  {
+    "id": "ex12-89",
+    "name": "Walrein ex",
+    "setName": "Legend Maker",
+    "number": "89",
+    "rarity": "Rare Holo EX",
+    "artist": "Kimiya Masago",
+    "imageUrl": "https://images.pokemontcg.io/ex12/89_hires.png"
+  },
+  {
+    "id": "ex12-90",
+    "name": "Regice ★",
+    "setName": "Legend Maker",
+    "number": "90",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/90_hires.png"
+  },
+  {
+    "id": "ex12-91",
+    "name": "Regirock ★",
+    "setName": "Legend Maker",
+    "number": "91",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/91_hires.png"
+  },
+  {
+    "id": "ex12-92",
+    "name": "Registeel ★",
+    "setName": "Legend Maker",
+    "number": "92",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/92_hires.png"
+  },
+  {
+    "id": "ex12-93",
+    "name": "Pikachu δ",
+    "setName": "Legend Maker",
+    "number": "93",
+    "rarity": "Rare Secret",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex12/93_hires.png"
+  }
+]

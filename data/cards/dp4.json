@@ -1,0 +1,956 @@
+[
+  {
+    "id": "dp4-1",
+    "name": "Blaziken",
+    "setName": "Great Encounters",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/dp4/1_hires.png"
+  },
+  {
+    "id": "dp4-2",
+    "name": "Cresselia",
+    "setName": "Great Encounters",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/2_hires.png"
+  },
+  {
+    "id": "dp4-3",
+    "name": "Darkrai",
+    "setName": "Great Encounters",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/3_hires.png"
+  },
+  {
+    "id": "dp4-4",
+    "name": "Darkrai",
+    "setName": "Great Encounters",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/4_hires.png"
+  },
+  {
+    "id": "dp4-5",
+    "name": "Pachirisu",
+    "setName": "Great Encounters",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/dp4/5_hires.png"
+  },
+  {
+    "id": "dp4-6",
+    "name": "Porygon-Z",
+    "setName": "Great Encounters",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/dp4/6_hires.png"
+  },
+  {
+    "id": "dp4-7",
+    "name": "Rotom",
+    "setName": "Great Encounters",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/7_hires.png"
+  },
+  {
+    "id": "dp4-8",
+    "name": "Sceptile",
+    "setName": "Great Encounters",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/8_hires.png"
+  },
+  {
+    "id": "dp4-9",
+    "name": "Swampert",
+    "setName": "Great Encounters",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/dp4/9_hires.png"
+  },
+  {
+    "id": "dp4-10",
+    "name": "Tangrowth",
+    "setName": "Great Encounters",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/dp4/10_hires.png"
+  },
+  {
+    "id": "dp4-11",
+    "name": "Togekiss",
+    "setName": "Great Encounters",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/dp4/11_hires.png"
+  },
+  {
+    "id": "dp4-12",
+    "name": "Altaria",
+    "setName": "Great Encounters",
+    "number": "12",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/dp4/12_hires.png"
+  },
+  {
+    "id": "dp4-13",
+    "name": "Beedrill",
+    "setName": "Great Encounters",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/dp4/13_hires.png"
+  },
+  {
+    "id": "dp4-14",
+    "name": "Butterfree",
+    "setName": "Great Encounters",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/dp4/14_hires.png"
+  },
+  {
+    "id": "dp4-15",
+    "name": "Claydol",
+    "setName": "Great Encounters",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/dp4/15_hires.png"
+  },
+  {
+    "id": "dp4-16",
+    "name": "Dialga",
+    "setName": "Great Encounters",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/16_hires.png"
+  },
+  {
+    "id": "dp4-17",
+    "name": "Exploud",
+    "setName": "Great Encounters",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/17_hires.png"
+  },
+  {
+    "id": "dp4-18",
+    "name": "Houndoom",
+    "setName": "Great Encounters",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/18_hires.png"
+  },
+  {
+    "id": "dp4-19",
+    "name": "Hypno",
+    "setName": "Great Encounters",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/dp4/19_hires.png"
+  },
+  {
+    "id": "dp4-20",
+    "name": "Kingler",
+    "setName": "Great Encounters",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/dp4/20_hires.png"
+  },
+  {
+    "id": "dp4-21",
+    "name": "Lapras",
+    "setName": "Great Encounters",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/dp4/21_hires.png"
+  },
+  {
+    "id": "dp4-22",
+    "name": "Latias",
+    "setName": "Great Encounters",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/22_hires.png"
+  },
+  {
+    "id": "dp4-23",
+    "name": "Latios",
+    "setName": "Great Encounters",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/23_hires.png"
+  },
+  {
+    "id": "dp4-24",
+    "name": "Mawile",
+    "setName": "Great Encounters",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/dp4/24_hires.png"
+  },
+  {
+    "id": "dp4-25",
+    "name": "Milotic",
+    "setName": "Great Encounters",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/dp4/25_hires.png"
+  },
+  {
+    "id": "dp4-26",
+    "name": "Palkia",
+    "setName": "Great Encounters",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/26_hires.png"
+  },
+  {
+    "id": "dp4-27",
+    "name": "Primeape",
+    "setName": "Great Encounters",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/dp4/27_hires.png"
+  },
+  {
+    "id": "dp4-28",
+    "name": "Slowking",
+    "setName": "Great Encounters",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/28_hires.png"
+  },
+  {
+    "id": "dp4-29",
+    "name": "Unown [H]",
+    "setName": "Great Encounters",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/29_hires.png"
+  },
+  {
+    "id": "dp4-30",
+    "name": "Wailord",
+    "setName": "Great Encounters",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/dp4/30_hires.png"
+  },
+  {
+    "id": "dp4-31",
+    "name": "Weezing",
+    "setName": "Great Encounters",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/dp4/31_hires.png"
+  },
+  {
+    "id": "dp4-32",
+    "name": "Wigglytuff",
+    "setName": "Great Encounters",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/dp4/32_hires.png"
+  },
+  {
+    "id": "dp4-33",
+    "name": "Arbok",
+    "setName": "Great Encounters",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/33_hires.png"
+  },
+  {
+    "id": "dp4-34",
+    "name": "Cacturne",
+    "setName": "Great Encounters",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/dp4/34_hires.png"
+  },
+  {
+    "id": "dp4-35",
+    "name": "Combusken",
+    "setName": "Great Encounters",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/dp4/35_hires.png"
+  },
+  {
+    "id": "dp4-36",
+    "name": "Delibird",
+    "setName": "Great Encounters",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/36_hires.png"
+  },
+  {
+    "id": "dp4-37",
+    "name": "Floatzel",
+    "setName": "Great Encounters",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/dp4/37_hires.png"
+  },
+  {
+    "id": "dp4-38",
+    "name": "Gorebyss",
+    "setName": "Great Encounters",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/38_hires.png"
+  },
+  {
+    "id": "dp4-39",
+    "name": "Granbull",
+    "setName": "Great Encounters",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/dp4/39_hires.png"
+  },
+  {
+    "id": "dp4-40",
+    "name": "Grovyle",
+    "setName": "Great Encounters",
+    "number": "40",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/dp4/40_hires.png"
+  },
+  {
+    "id": "dp4-41",
+    "name": "Hariyama",
+    "setName": "Great Encounters",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/dp4/41_hires.png"
+  },
+  {
+    "id": "dp4-42",
+    "name": "Huntail",
+    "setName": "Great Encounters",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/42_hires.png"
+  },
+  {
+    "id": "dp4-43",
+    "name": "Linoone",
+    "setName": "Great Encounters",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/dp4/43_hires.png"
+  },
+  {
+    "id": "dp4-44",
+    "name": "Loudred",
+    "setName": "Great Encounters",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/44_hires.png"
+  },
+  {
+    "id": "dp4-45",
+    "name": "Magcargo",
+    "setName": "Great Encounters",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/dp4/45_hires.png"
+  },
+  {
+    "id": "dp4-46",
+    "name": "Marshtomp",
+    "setName": "Great Encounters",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/dp4/46_hires.png"
+  },
+  {
+    "id": "dp4-47",
+    "name": "Metapod",
+    "setName": "Great Encounters",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/47_hires.png"
+  },
+  {
+    "id": "dp4-48",
+    "name": "Pelipper",
+    "setName": "Great Encounters",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/48_hires.png"
+  },
+  {
+    "id": "dp4-49",
+    "name": "Porygon2",
+    "setName": "Great Encounters",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/dp4/49_hires.png"
+  },
+  {
+    "id": "dp4-50",
+    "name": "Purugly",
+    "setName": "Great Encounters",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/50_hires.png"
+  },
+  {
+    "id": "dp4-51",
+    "name": "Relicanth",
+    "setName": "Great Encounters",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/51_hires.png"
+  },
+  {
+    "id": "dp4-52",
+    "name": "Seviper",
+    "setName": "Great Encounters",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/52_hires.png"
+  },
+  {
+    "id": "dp4-53",
+    "name": "Skarmory",
+    "setName": "Great Encounters",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/dp4/53_hires.png"
+  },
+  {
+    "id": "dp4-54",
+    "name": "Slowbro",
+    "setName": "Great Encounters",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/dp4/54_hires.png"
+  },
+  {
+    "id": "dp4-55",
+    "name": "Togetic",
+    "setName": "Great Encounters",
+    "number": "55",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/dp4/55_hires.png"
+  },
+  {
+    "id": "dp4-56",
+    "name": "Unown [F]",
+    "setName": "Great Encounters",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/56_hires.png"
+  },
+  {
+    "id": "dp4-57",
+    "name": "Unown [G]",
+    "setName": "Great Encounters",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/57_hires.png"
+  },
+  {
+    "id": "dp4-58",
+    "name": "Wailmer",
+    "setName": "Great Encounters",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "Satoshi Ohta",
+    "imageUrl": "https://images.pokemontcg.io/dp4/58_hires.png"
+  },
+  {
+    "id": "dp4-59",
+    "name": "Zangoose",
+    "setName": "Great Encounters",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/59_hires.png"
+  },
+  {
+    "id": "dp4-60",
+    "name": "Baltoy",
+    "setName": "Great Encounters",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/dp4/60_hires.png"
+  },
+  {
+    "id": "dp4-61",
+    "name": "Buizel",
+    "setName": "Great Encounters",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/61_hires.png"
+  },
+  {
+    "id": "dp4-62",
+    "name": "Cacnea",
+    "setName": "Great Encounters",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/dp4/62_hires.png"
+  },
+  {
+    "id": "dp4-63",
+    "name": "Caterpie",
+    "setName": "Great Encounters",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/dp4/63_hires.png"
+  },
+  {
+    "id": "dp4-64",
+    "name": "Clamperl",
+    "setName": "Great Encounters",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/64_hires.png"
+  },
+  {
+    "id": "dp4-65",
+    "name": "Drowzee",
+    "setName": "Great Encounters",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/65_hires.png"
+  },
+  {
+    "id": "dp4-66",
+    "name": "Ekans",
+    "setName": "Great Encounters",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/66_hires.png"
+  },
+  {
+    "id": "dp4-67",
+    "name": "Feebas",
+    "setName": "Great Encounters",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/67_hires.png"
+  },
+  {
+    "id": "dp4-68",
+    "name": "Glameow",
+    "setName": "Great Encounters",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/dp4/68_hires.png"
+  },
+  {
+    "id": "dp4-69",
+    "name": "Houndour",
+    "setName": "Great Encounters",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/69_hires.png"
+  },
+  {
+    "id": "dp4-70",
+    "name": "Igglybuff",
+    "setName": "Great Encounters",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/70_hires.png"
+  },
+  {
+    "id": "dp4-71",
+    "name": "Illumise",
+    "setName": "Great Encounters",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/71_hires.png"
+  },
+  {
+    "id": "dp4-72",
+    "name": "Jigglypuff",
+    "setName": "Great Encounters",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Kenkichi Toyama",
+    "imageUrl": "https://images.pokemontcg.io/dp4/72_hires.png"
+  },
+  {
+    "id": "dp4-73",
+    "name": "Kakuna",
+    "setName": "Great Encounters",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/73_hires.png"
+  },
+  {
+    "id": "dp4-74",
+    "name": "Koffing",
+    "setName": "Great Encounters",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/dp4/74_hires.png"
+  },
+  {
+    "id": "dp4-75",
+    "name": "Krabby",
+    "setName": "Great Encounters",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/75_hires.png"
+  },
+  {
+    "id": "dp4-76",
+    "name": "Lunatone",
+    "setName": "Great Encounters",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/76_hires.png"
+  },
+  {
+    "id": "dp4-77",
+    "name": "Luvdisc",
+    "setName": "Great Encounters",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Motofumi Fujiwara",
+    "imageUrl": "https://images.pokemontcg.io/dp4/77_hires.png"
+  },
+  {
+    "id": "dp4-78",
+    "name": "Makuhita",
+    "setName": "Great Encounters",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/dp4/78_hires.png"
+  },
+  {
+    "id": "dp4-79",
+    "name": "Mankey",
+    "setName": "Great Encounters",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/79_hires.png"
+  },
+  {
+    "id": "dp4-80",
+    "name": "Mudkip",
+    "setName": "Great Encounters",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Emi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/dp4/80_hires.png"
+  },
+  {
+    "id": "dp4-81",
+    "name": "Porygon",
+    "setName": "Great Encounters",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/dp4/81_hires.png"
+  },
+  {
+    "id": "dp4-82",
+    "name": "Slowpoke",
+    "setName": "Great Encounters",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/dp4/82_hires.png"
+  },
+  {
+    "id": "dp4-83",
+    "name": "Slugma",
+    "setName": "Great Encounters",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/83_hires.png"
+  },
+  {
+    "id": "dp4-84",
+    "name": "Snubbull",
+    "setName": "Great Encounters",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/dp4/84_hires.png"
+  },
+  {
+    "id": "dp4-85",
+    "name": "Solrock",
+    "setName": "Great Encounters",
+    "number": "85",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/85_hires.png"
+  },
+  {
+    "id": "dp4-86",
+    "name": "Swablu",
+    "setName": "Great Encounters",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/dp4/86_hires.png"
+  },
+  {
+    "id": "dp4-87",
+    "name": "Tangela",
+    "setName": "Great Encounters",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/dp4/87_hires.png"
+  },
+  {
+    "id": "dp4-88",
+    "name": "Togepi",
+    "setName": "Great Encounters",
+    "number": "88",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/88_hires.png"
+  },
+  {
+    "id": "dp4-89",
+    "name": "Torchic",
+    "setName": "Great Encounters",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Hiroki Fuchino",
+    "imageUrl": "https://images.pokemontcg.io/dp4/89_hires.png"
+  },
+  {
+    "id": "dp4-90",
+    "name": "Treecko",
+    "setName": "Great Encounters",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/dp4/90_hires.png"
+  },
+  {
+    "id": "dp4-91",
+    "name": "Unown [L]",
+    "setName": "Great Encounters",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/91_hires.png"
+  },
+  {
+    "id": "dp4-92",
+    "name": "Volbeat",
+    "setName": "Great Encounters",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/92_hires.png"
+  },
+  {
+    "id": "dp4-93",
+    "name": "Weedle",
+    "setName": "Great Encounters",
+    "number": "93",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/dp4/93_hires.png"
+  },
+  {
+    "id": "dp4-94",
+    "name": "Whismur",
+    "setName": "Great Encounters",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Takao Unno",
+    "imageUrl": "https://images.pokemontcg.io/dp4/94_hires.png"
+  },
+  {
+    "id": "dp4-95",
+    "name": "Wingull",
+    "setName": "Great Encounters",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/95_hires.png"
+  },
+  {
+    "id": "dp4-96",
+    "name": "Zigzagoon",
+    "setName": "Great Encounters",
+    "number": "96",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/96_hires.png"
+  },
+  {
+    "id": "dp4-97",
+    "name": "Amulet Coin",
+    "setName": "Great Encounters",
+    "number": "97",
+    "rarity": "Uncommon",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/97_hires.png"
+  },
+  {
+    "id": "dp4-98",
+    "name": "Felicity's Drawing",
+    "setName": "Great Encounters",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/dp4/98_hires.png"
+  },
+  {
+    "id": "dp4-99",
+    "name": "Leftovers",
+    "setName": "Great Encounters",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "Daisuke Ito",
+    "imageUrl": "https://images.pokemontcg.io/dp4/99_hires.png"
+  },
+  {
+    "id": "dp4-100",
+    "name": "Moonlight Stadium",
+    "setName": "Great Encounters",
+    "number": "100",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/100_hires.png"
+  },
+  {
+    "id": "dp4-101",
+    "name": "Premier Ball",
+    "setName": "Great Encounters",
+    "number": "101",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/101_hires.png"
+  },
+  {
+    "id": "dp4-102",
+    "name": "Rare Candy",
+    "setName": "Great Encounters",
+    "number": "102",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/102_hires.png"
+  },
+  {
+    "id": "dp4-103",
+    "name": "Cresselia LV.X",
+    "setName": "Great Encounters",
+    "number": "103",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/dp4/103_hires.png"
+  },
+  {
+    "id": "dp4-104",
+    "name": "Darkrai LV.X",
+    "setName": "Great Encounters",
+    "number": "104",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/dp4/104_hires.png"
+  },
+  {
+    "id": "dp4-105",
+    "name": "Dialga LV.X",
+    "setName": "Great Encounters",
+    "number": "105",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/105_hires.png"
+  },
+  {
+    "id": "dp4-106",
+    "name": "Palkia LV.X",
+    "setName": "Great Encounters",
+    "number": "106",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/dp4/106_hires.png"
+  }
+]

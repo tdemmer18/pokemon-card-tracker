@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "bw9-1",
+    "name": "Weedle",
+    "setName": "Plasma Freeze",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/bw9/1_hires.png"
+  },
+  {
+    "id": "bw9-2",
+    "name": "Kakuna",
+    "setName": "Plasma Freeze",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw9/2_hires.png"
+  },
+  {
+    "id": "bw9-3",
+    "name": "Beedrill",
+    "setName": "Plasma Freeze",
+    "number": "3",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/bw9/3_hires.png"
+  },
+  {
+    "id": "bw9-4",
+    "name": "Exeggcute",
+    "setName": "Plasma Freeze",
+    "number": "4",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/bw9/4_hires.png"
+  },
+  {
+    "id": "bw9-5",
+    "name": "Exeggutor",
+    "setName": "Plasma Freeze",
+    "number": "5",
+    "rarity": "Rare",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw9/5_hires.png"
+  },
+  {
+    "id": "bw9-6",
+    "name": "Treecko",
+    "setName": "Plasma Freeze",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw9/6_hires.png"
+  },
+  {
+    "id": "bw9-7",
+    "name": "Grovyle",
+    "setName": "Plasma Freeze",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/bw9/7_hires.png"
+  },
+  {
+    "id": "bw9-8",
+    "name": "Sceptile",
+    "setName": "Plasma Freeze",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/bw9/8_hires.png"
+  },
+  {
+    "id": "bw9-9",
+    "name": "Cacnea",
+    "setName": "Plasma Freeze",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw9/9_hires.png"
+  },
+  {
+    "id": "bw9-10",
+    "name": "Cacturne",
+    "setName": "Plasma Freeze",
+    "number": "10",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/bw9/10_hires.png"
+  },
+  {
+    "id": "bw9-11",
+    "name": "Leafeon",
+    "setName": "Plasma Freeze",
+    "number": "11",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/11_hires.png"
+  },
+  {
+    "id": "bw9-12",
+    "name": "Flareon",
+    "setName": "Plasma Freeze",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/12_hires.png"
+  },
+  {
+    "id": "bw9-13",
+    "name": "Heatran-EX",
+    "setName": "Plasma Freeze",
+    "number": "13",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/bw9/13_hires.png"
+  },
+  {
+    "id": "bw9-14",
+    "name": "Litwick",
+    "setName": "Plasma Freeze",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/bw9/14_hires.png"
+  },
+  {
+    "id": "bw9-15",
+    "name": "Lampent",
+    "setName": "Plasma Freeze",
+    "number": "15",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw9/15_hires.png"
+  },
+  {
+    "id": "bw9-16",
+    "name": "Chandelure",
+    "setName": "Plasma Freeze",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/16_hires.png"
+  },
+  {
+    "id": "bw9-17",
+    "name": "Reshiram",
+    "setName": "Plasma Freeze",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw9/17_hires.png"
+  },
+  {
+    "id": "bw9-18",
+    "name": "Horsea",
+    "setName": "Plasma Freeze",
+    "number": "18",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw9/18_hires.png"
+  },
+  {
+    "id": "bw9-19",
+    "name": "Seadra",
+    "setName": "Plasma Freeze",
+    "number": "19",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/bw9/19_hires.png"
+  },
+  {
+    "id": "bw9-20",
+    "name": "Vaporeon",
+    "setName": "Plasma Freeze",
+    "number": "20",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/20_hires.png"
+  },
+  {
+    "id": "bw9-21",
+    "name": "Wooper",
+    "setName": "Plasma Freeze",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw9/21_hires.png"
+  },
+  {
+    "id": "bw9-22",
+    "name": "Quagsire",
+    "setName": "Plasma Freeze",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw9/22_hires.png"
+  },
+  {
+    "id": "bw9-23",
+    "name": "Glaceon",
+    "setName": "Plasma Freeze",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/23_hires.png"
+  },
+  {
+    "id": "bw9-24",
+    "name": "Tympole",
+    "setName": "Plasma Freeze",
+    "number": "24",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw9/24_hires.png"
+  },
+  {
+    "id": "bw9-25",
+    "name": "Palpitoad",
+    "setName": "Plasma Freeze",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw9/25_hires.png"
+  },
+  {
+    "id": "bw9-26",
+    "name": "Seismitoad",
+    "setName": "Plasma Freeze",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/26_hires.png"
+  },
+  {
+    "id": "bw9-27",
+    "name": "Vanillite",
+    "setName": "Plasma Freeze",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw9/27_hires.png"
+  },
+  {
+    "id": "bw9-28",
+    "name": "Vanillish",
+    "setName": "Plasma Freeze",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/bw9/28_hires.png"
+  },
+  {
+    "id": "bw9-29",
+    "name": "Vanilluxe",
+    "setName": "Plasma Freeze",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/29_hires.png"
+  },
+  {
+    "id": "bw9-30",
+    "name": "Cryogonal",
+    "setName": "Plasma Freeze",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/30_hires.png"
+  },
+  {
+    "id": "bw9-31",
+    "name": "Kyurem",
+    "setName": "Plasma Freeze",
+    "number": "31",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/31_hires.png"
+  },
+  {
+    "id": "bw9-32",
+    "name": "Voltorb",
+    "setName": "Plasma Freeze",
+    "number": "32",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/bw9/32_hires.png"
+  },
+  {
+    "id": "bw9-33",
+    "name": "Electrode",
+    "setName": "Plasma Freeze",
+    "number": "33",
+    "rarity": "Rare Holo",
+    "artist": "HiRON",
+    "imageUrl": "https://images.pokemontcg.io/bw9/33_hires.png"
+  },
+  {
+    "id": "bw9-34",
+    "name": "Jolteon",
+    "setName": "Plasma Freeze",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/34_hires.png"
+  },
+  {
+    "id": "bw9-35",
+    "name": "Chinchou",
+    "setName": "Plasma Freeze",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw9/35_hires.png"
+  },
+  {
+    "id": "bw9-36",
+    "name": "Lanturn",
+    "setName": "Plasma Freeze",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw9/36_hires.png"
+  },
+  {
+    "id": "bw9-37",
+    "name": "Pachirisu",
+    "setName": "Plasma Freeze",
+    "number": "37",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw9/37_hires.png"
+  },
+  {
+    "id": "bw9-38",
+    "name": "Thundurus-EX",
+    "setName": "Plasma Freeze",
+    "number": "38",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/bw9/38_hires.png"
+  },
+  {
+    "id": "bw9-39",
+    "name": "Zekrom",
+    "setName": "Plasma Freeze",
+    "number": "39",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw9/39_hires.png"
+  },
+  {
+    "id": "bw9-40",
+    "name": "Nidoran ♀",
+    "setName": "Plasma Freeze",
+    "number": "40",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/bw9/40_hires.png"
+  },
+  {
+    "id": "bw9-41",
+    "name": "Nidorina",
+    "setName": "Plasma Freeze",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw9/41_hires.png"
+  },
+  {
+    "id": "bw9-42",
+    "name": "Nidoqueen",
+    "setName": "Plasma Freeze",
+    "number": "42",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw9/42_hires.png"
+  },
+  {
+    "id": "bw9-43",
+    "name": "Nidoran ♂",
+    "setName": "Plasma Freeze",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw9/43_hires.png"
+  },
+  {
+    "id": "bw9-44",
+    "name": "Nidorino",
+    "setName": "Plasma Freeze",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/bw9/44_hires.png"
+  },
+  {
+    "id": "bw9-45",
+    "name": "Grimer",
+    "setName": "Plasma Freeze",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/bw9/45_hires.png"
+  },
+  {
+    "id": "bw9-46",
+    "name": "Muk",
+    "setName": "Plasma Freeze",
+    "number": "46",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/46_hires.png"
+  },
+  {
+    "id": "bw9-47",
+    "name": "Mr. Mime",
+    "setName": "Plasma Freeze",
+    "number": "47",
+    "rarity": "Rare",
+    "artist": "Hiroki Asanuma",
+    "imageUrl": "https://images.pokemontcg.io/bw9/47_hires.png"
+  },
+  {
+    "id": "bw9-48",
+    "name": "Espeon",
+    "setName": "Plasma Freeze",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/48_hires.png"
+  },
+  {
+    "id": "bw9-49",
+    "name": "Sableye",
+    "setName": "Plasma Freeze",
+    "number": "49",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/49_hires.png"
+  },
+  {
+    "id": "bw9-50",
+    "name": "Beldum",
+    "setName": "Plasma Freeze",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/bw9/50_hires.png"
+  },
+  {
+    "id": "bw9-51",
+    "name": "Metang",
+    "setName": "Plasma Freeze",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw9/51_hires.png"
+  },
+  {
+    "id": "bw9-52",
+    "name": "Metagross",
+    "setName": "Plasma Freeze",
+    "number": "52",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/52_hires.png"
+  },
+  {
+    "id": "bw9-53",
+    "name": "Deoxys-EX",
+    "setName": "Plasma Freeze",
+    "number": "53",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/bw9/53_hires.png"
+  },
+  {
+    "id": "bw9-54",
+    "name": "Yamask",
+    "setName": "Plasma Freeze",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw9/54_hires.png"
+  },
+  {
+    "id": "bw9-55",
+    "name": "Yamask",
+    "setName": "Plasma Freeze",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw9/55_hires.png"
+  },
+  {
+    "id": "bw9-56",
+    "name": "Cofagrigus",
+    "setName": "Plasma Freeze",
+    "number": "56",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/56_hires.png"
+  },
+  {
+    "id": "bw9-57",
+    "name": "Cofagrigus",
+    "setName": "Plasma Freeze",
+    "number": "57",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/57_hires.png"
+  },
+  {
+    "id": "bw9-58",
+    "name": "Nidoking",
+    "setName": "Plasma Freeze",
+    "number": "58",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw9/58_hires.png"
+  },
+  {
+    "id": "bw9-59",
+    "name": "Mankey",
+    "setName": "Plasma Freeze",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw9/59_hires.png"
+  },
+  {
+    "id": "bw9-60",
+    "name": "Primeape",
+    "setName": "Plasma Freeze",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw9/60_hires.png"
+  },
+  {
+    "id": "bw9-61",
+    "name": "Onix",
+    "setName": "Plasma Freeze",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/bw9/61_hires.png"
+  },
+  {
+    "id": "bw9-62",
+    "name": "Makuhita",
+    "setName": "Plasma Freeze",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw9/62_hires.png"
+  },
+  {
+    "id": "bw9-63",
+    "name": "Hariyama",
+    "setName": "Plasma Freeze",
+    "number": "63",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw9/63_hires.png"
+  },
+  {
+    "id": "bw9-64",
+    "name": "Umbreon",
+    "setName": "Plasma Freeze",
+    "number": "64",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/64_hires.png"
+  },
+  {
+    "id": "bw9-65",
+    "name": "Sneasel",
+    "setName": "Plasma Freeze",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/bw9/65_hires.png"
+  },
+  {
+    "id": "bw9-66",
+    "name": "Weavile",
+    "setName": "Plasma Freeze",
+    "number": "66",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/66_hires.png"
+  },
+  {
+    "id": "bw9-67",
+    "name": "Absol",
+    "setName": "Plasma Freeze",
+    "number": "67",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/67_hires.png"
+  },
+  {
+    "id": "bw9-68",
+    "name": "Sandile",
+    "setName": "Plasma Freeze",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw9/68_hires.png"
+  },
+  {
+    "id": "bw9-69",
+    "name": "Krokorok",
+    "setName": "Plasma Freeze",
+    "number": "69",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw9/69_hires.png"
+  },
+  {
+    "id": "bw9-70",
+    "name": "Krookodile",
+    "setName": "Plasma Freeze",
+    "number": "70",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/70_hires.png"
+  },
+  {
+    "id": "bw9-71",
+    "name": "Pawniard",
+    "setName": "Plasma Freeze",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw9/71_hires.png"
+  },
+  {
+    "id": "bw9-72",
+    "name": "Pawniard",
+    "setName": "Plasma Freeze",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw9/72_hires.png"
+  },
+  {
+    "id": "bw9-73",
+    "name": "Bisharp",
+    "setName": "Plasma Freeze",
+    "number": "73",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/73_hires.png"
+  },
+  {
+    "id": "bw9-74",
+    "name": "Bisharp",
+    "setName": "Plasma Freeze",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/74_hires.png"
+  },
+  {
+    "id": "bw9-75",
+    "name": "Deino",
+    "setName": "Plasma Freeze",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw9/75_hires.png"
+  },
+  {
+    "id": "bw9-76",
+    "name": "Deino",
+    "setName": "Plasma Freeze",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw9/76_hires.png"
+  },
+  {
+    "id": "bw9-77",
+    "name": "Zweilous",
+    "setName": "Plasma Freeze",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw9/77_hires.png"
+  },
+  {
+    "id": "bw9-78",
+    "name": "Hydreigon",
+    "setName": "Plasma Freeze",
+    "number": "78",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/78_hires.png"
+  },
+  {
+    "id": "bw9-79",
+    "name": "Steelix",
+    "setName": "Plasma Freeze",
+    "number": "79",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/79_hires.png"
+  },
+  {
+    "id": "bw9-80",
+    "name": "Mawile",
+    "setName": "Plasma Freeze",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw9/80_hires.png"
+  },
+  {
+    "id": "bw9-81",
+    "name": "Dratini",
+    "setName": "Plasma Freeze",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw9/81_hires.png"
+  },
+  {
+    "id": "bw9-82",
+    "name": "Dragonair",
+    "setName": "Plasma Freeze",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/bw9/82_hires.png"
+  },
+  {
+    "id": "bw9-83",
+    "name": "Dragonite",
+    "setName": "Plasma Freeze",
+    "number": "83",
+    "rarity": "Rare Holo",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw9/83_hires.png"
+  },
+  {
+    "id": "bw9-84",
+    "name": "Kingdra",
+    "setName": "Plasma Freeze",
+    "number": "84",
+    "rarity": "Rare Holo",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/bw9/84_hires.png"
+  },
+  {
+    "id": "bw9-85",
+    "name": "Latias-EX",
+    "setName": "Plasma Freeze",
+    "number": "85",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw9/85_hires.png"
+  },
+  {
+    "id": "bw9-86",
+    "name": "Latios-EX",
+    "setName": "Plasma Freeze",
+    "number": "86",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw9/86_hires.png"
+  },
+  {
+    "id": "bw9-87",
+    "name": "Rattata",
+    "setName": "Plasma Freeze",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw9/87_hires.png"
+  },
+  {
+    "id": "bw9-88",
+    "name": "Raticate",
+    "setName": "Plasma Freeze",
+    "number": "88",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/88_hires.png"
+  },
+  {
+    "id": "bw9-89",
+    "name": "Eevee",
+    "setName": "Plasma Freeze",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw9/89_hires.png"
+  },
+  {
+    "id": "bw9-90",
+    "name": "Eevee",
+    "setName": "Plasma Freeze",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/bw9/90_hires.png"
+  },
+  {
+    "id": "bw9-91",
+    "name": "Hoothoot",
+    "setName": "Plasma Freeze",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw9/91_hires.png"
+  },
+  {
+    "id": "bw9-92",
+    "name": "Noctowl",
+    "setName": "Plasma Freeze",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw9/92_hires.png"
+  },
+  {
+    "id": "bw9-93",
+    "name": "Miltank",
+    "setName": "Plasma Freeze",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw9/93_hires.png"
+  },
+  {
+    "id": "bw9-94",
+    "name": "Kecleon",
+    "setName": "Plasma Freeze",
+    "number": "94",
+    "rarity": "Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/bw9/94_hires.png"
+  },
+  {
+    "id": "bw9-95",
+    "name": "Starly",
+    "setName": "Plasma Freeze",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw9/95_hires.png"
+  },
+  {
+    "id": "bw9-96",
+    "name": "Staravia",
+    "setName": "Plasma Freeze",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw9/96_hires.png"
+  },
+  {
+    "id": "bw9-97",
+    "name": "Staraptor",
+    "setName": "Plasma Freeze",
+    "number": "97",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/bw9/97_hires.png"
+  },
+  {
+    "id": "bw9-98",
+    "name": "Tornadus-EX",
+    "setName": "Plasma Freeze",
+    "number": "98",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/bw9/98_hires.png"
+  },
+  {
+    "id": "bw9-99",
+    "name": "Float Stone",
+    "setName": "Plasma Freeze",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/99_hires.png"
+  },
+  {
+    "id": "bw9-100",
+    "name": "Frozen City",
+    "setName": "Plasma Freeze",
+    "number": "100",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/100_hires.png"
+  },
+  {
+    "id": "bw9-101",
+    "name": "Ghetsis",
+    "setName": "Plasma Freeze",
+    "number": "101",
+    "rarity": "Rare Holo",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/bw9/101_hires.png"
+  },
+  {
+    "id": "bw9-102",
+    "name": "Shadow Triad",
+    "setName": "Plasma Freeze",
+    "number": "102",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/bw9/102_hires.png"
+  },
+  {
+    "id": "bw9-103",
+    "name": "Superior Energy Retrieval",
+    "setName": "Plasma Freeze",
+    "number": "103",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/103_hires.png"
+  },
+  {
+    "id": "bw9-104",
+    "name": "Team Plasma Badge",
+    "setName": "Plasma Freeze",
+    "number": "104",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/104_hires.png"
+  },
+  {
+    "id": "bw9-105",
+    "name": "Team Plasma Ball",
+    "setName": "Plasma Freeze",
+    "number": "105",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/105_hires.png"
+  },
+  {
+    "id": "bw9-106",
+    "name": "Plasma Energy",
+    "setName": "Plasma Freeze",
+    "number": "106",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/106_hires.png"
+  },
+  {
+    "id": "bw9-107",
+    "name": "Life Dew",
+    "setName": "Plasma Freeze",
+    "number": "107",
+    "rarity": "Rare ACE",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/107_hires.png"
+  },
+  {
+    "id": "bw9-108",
+    "name": "Rock Guard",
+    "setName": "Plasma Freeze",
+    "number": "108",
+    "rarity": "Rare ACE",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/108_hires.png"
+  },
+  {
+    "id": "bw9-109",
+    "name": "Heatran-EX",
+    "setName": "Plasma Freeze",
+    "number": "109",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/109_hires.png"
+  },
+  {
+    "id": "bw9-110",
+    "name": "Thundurus-EX",
+    "setName": "Plasma Freeze",
+    "number": "110",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/110_hires.png"
+  },
+  {
+    "id": "bw9-111",
+    "name": "Deoxys-EX",
+    "setName": "Plasma Freeze",
+    "number": "111",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/111_hires.png"
+  },
+  {
+    "id": "bw9-112",
+    "name": "Latias-EX",
+    "setName": "Plasma Freeze",
+    "number": "112",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw9/112_hires.png"
+  },
+  {
+    "id": "bw9-113",
+    "name": "Latios-EX",
+    "setName": "Plasma Freeze",
+    "number": "113",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw9/113_hires.png"
+  },
+  {
+    "id": "bw9-114",
+    "name": "Tornadus-EX",
+    "setName": "Plasma Freeze",
+    "number": "114",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/114_hires.png"
+  },
+  {
+    "id": "bw9-115",
+    "name": "Ghetsis",
+    "setName": "Plasma Freeze",
+    "number": "115",
+    "rarity": "Rare Ultra",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/bw9/115_hires.png"
+  },
+  {
+    "id": "bw9-116",
+    "name": "Professor Juniper",
+    "setName": "Plasma Freeze",
+    "number": "116",
+    "rarity": "Rare Ultra",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/bw9/116_hires.png"
+  },
+  {
+    "id": "bw9-117",
+    "name": "Empoleon",
+    "setName": "Plasma Freeze",
+    "number": "117",
+    "rarity": "Rare Secret",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/bw9/117_hires.png"
+  },
+  {
+    "id": "bw9-118",
+    "name": "Sigilyph",
+    "setName": "Plasma Freeze",
+    "number": "118",
+    "rarity": "Rare Secret",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/bw9/118_hires.png"
+  },
+  {
+    "id": "bw9-119",
+    "name": "Garbodor",
+    "setName": "Plasma Freeze",
+    "number": "119",
+    "rarity": "Rare Secret",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/bw9/119_hires.png"
+  },
+  {
+    "id": "bw9-120",
+    "name": "Garchomp",
+    "setName": "Plasma Freeze",
+    "number": "120",
+    "rarity": "Rare Secret",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/bw9/120_hires.png"
+  },
+  {
+    "id": "bw9-121",
+    "name": "Max Potion",
+    "setName": "Plasma Freeze",
+    "number": "121",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/121_hires.png"
+  },
+  {
+    "id": "bw9-122",
+    "name": "Ultra Ball",
+    "setName": "Plasma Freeze",
+    "number": "122",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw9/122_hires.png"
+  }
+]

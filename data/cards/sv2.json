@@ -1,0 +1,2513 @@
+[
+  {
+    "id": "sv2-1",
+    "name": "Hoppip",
+    "setName": "Paldea Evolved",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/sv2/1_hires.png"
+  },
+  {
+    "id": "sv2-2",
+    "name": "Skiploom",
+    "setName": "Paldea Evolved",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Yoriyuki Ikegami",
+    "imageUrl": "https://images.pokemontcg.io/sv2/2_hires.png"
+  },
+  {
+    "id": "sv2-3",
+    "name": "Jumpluff",
+    "setName": "Paldea Evolved",
+    "number": "3",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sv2/3_hires.png"
+  },
+  {
+    "id": "sv2-4",
+    "name": "Pineco",
+    "setName": "Paldea Evolved",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/4_hires.png"
+  },
+  {
+    "id": "sv2-5",
+    "name": "Forretress ex",
+    "setName": "Paldea Evolved",
+    "number": "5",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/5_hires.png"
+  },
+  {
+    "id": "sv2-6",
+    "name": "Heracross",
+    "setName": "Paldea Evolved",
+    "number": "6",
+    "rarity": "Uncommon",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv2/6_hires.png"
+  },
+  {
+    "id": "sv2-7",
+    "name": "Tropius",
+    "setName": "Paldea Evolved",
+    "number": "7",
+    "rarity": "Common",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/7_hires.png"
+  },
+  {
+    "id": "sv2-8",
+    "name": "Combee",
+    "setName": "Paldea Evolved",
+    "number": "8",
+    "rarity": "Common",
+    "artist": "Yoriyuki Ikegami",
+    "imageUrl": "https://images.pokemontcg.io/sv2/8_hires.png"
+  },
+  {
+    "id": "sv2-9",
+    "name": "Vespiquen",
+    "setName": "Paldea Evolved",
+    "number": "9",
+    "rarity": "Uncommon",
+    "artist": "Megumi Higuchi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/9_hires.png"
+  },
+  {
+    "id": "sv2-10",
+    "name": "Snover",
+    "setName": "Paldea Evolved",
+    "number": "10",
+    "rarity": "Common",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/10_hires.png"
+  },
+  {
+    "id": "sv2-11",
+    "name": "Abomasnow",
+    "setName": "Paldea Evolved",
+    "number": "11",
+    "rarity": "Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/sv2/11_hires.png"
+  },
+  {
+    "id": "sv2-12",
+    "name": "Sprigatito",
+    "setName": "Paldea Evolved",
+    "number": "12",
+    "rarity": "Common",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sv2/12_hires.png"
+  },
+  {
+    "id": "sv2-13",
+    "name": "Sprigatito",
+    "setName": "Paldea Evolved",
+    "number": "13",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sv2/13_hires.png"
+  },
+  {
+    "id": "sv2-14",
+    "name": "Floragato",
+    "setName": "Paldea Evolved",
+    "number": "14",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/14_hires.png"
+  },
+  {
+    "id": "sv2-15",
+    "name": "Meowscarada ex",
+    "setName": "Paldea Evolved",
+    "number": "15",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/15_hires.png"
+  },
+  {
+    "id": "sv2-16",
+    "name": "Tarountula",
+    "setName": "Paldea Evolved",
+    "number": "16",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/sv2/16_hires.png"
+  },
+  {
+    "id": "sv2-17",
+    "name": "Tarountula",
+    "setName": "Paldea Evolved",
+    "number": "17",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv2/17_hires.png"
+  },
+  {
+    "id": "sv2-18",
+    "name": "Spidops",
+    "setName": "Paldea Evolved",
+    "number": "18",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/18_hires.png"
+  },
+  {
+    "id": "sv2-19",
+    "name": "Nymble",
+    "setName": "Paldea Evolved",
+    "number": "19",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/19_hires.png"
+  },
+  {
+    "id": "sv2-20",
+    "name": "Nymble",
+    "setName": "Paldea Evolved",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sv2/20_hires.png"
+  },
+  {
+    "id": "sv2-21",
+    "name": "Lokix",
+    "setName": "Paldea Evolved",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv2/21_hires.png"
+  },
+  {
+    "id": "sv2-22",
+    "name": "Bramblin",
+    "setName": "Paldea Evolved",
+    "number": "22",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/22_hires.png"
+  },
+  {
+    "id": "sv2-23",
+    "name": "Bramblin",
+    "setName": "Paldea Evolved",
+    "number": "23",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/23_hires.png"
+  },
+  {
+    "id": "sv2-24",
+    "name": "Brambleghast",
+    "setName": "Paldea Evolved",
+    "number": "24",
+    "rarity": "Uncommon",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/24_hires.png"
+  },
+  {
+    "id": "sv2-25",
+    "name": "Rellor",
+    "setName": "Paldea Evolved",
+    "number": "25",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/25_hires.png"
+  },
+  {
+    "id": "sv2-26",
+    "name": "Rellor",
+    "setName": "Paldea Evolved",
+    "number": "26",
+    "rarity": "Common",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv2/26_hires.png"
+  },
+  {
+    "id": "sv2-27",
+    "name": "Wo-Chien ex",
+    "setName": "Paldea Evolved",
+    "number": "27",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/27_hires.png"
+  },
+  {
+    "id": "sv2-28",
+    "name": "Paldean Tauros",
+    "setName": "Paldea Evolved",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/28_hires.png"
+  },
+  {
+    "id": "sv2-29",
+    "name": "Fletchinder",
+    "setName": "Paldea Evolved",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/29_hires.png"
+  },
+  {
+    "id": "sv2-30",
+    "name": "Talonflame",
+    "setName": "Paldea Evolved",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/30_hires.png"
+  },
+  {
+    "id": "sv2-31",
+    "name": "Litleo",
+    "setName": "Paldea Evolved",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv2/31_hires.png"
+  },
+  {
+    "id": "sv2-32",
+    "name": "Pyroar",
+    "setName": "Paldea Evolved",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/sv2/32_hires.png"
+  },
+  {
+    "id": "sv2-33",
+    "name": "Oricorio",
+    "setName": "Paldea Evolved",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/33_hires.png"
+  },
+  {
+    "id": "sv2-34",
+    "name": "Fuecoco",
+    "setName": "Paldea Evolved",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sv2/34_hires.png"
+  },
+  {
+    "id": "sv2-35",
+    "name": "Fuecoco",
+    "setName": "Paldea Evolved",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/35_hires.png"
+  },
+  {
+    "id": "sv2-36",
+    "name": "Crocalor",
+    "setName": "Paldea Evolved",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv2/36_hires.png"
+  },
+  {
+    "id": "sv2-37",
+    "name": "Skeledirge ex",
+    "setName": "Paldea Evolved",
+    "number": "37",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/37_hires.png"
+  },
+  {
+    "id": "sv2-38",
+    "name": "Charcadet",
+    "setName": "Paldea Evolved",
+    "number": "38",
+    "rarity": "Common",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/38_hires.png"
+  },
+  {
+    "id": "sv2-39",
+    "name": "Charcadet",
+    "setName": "Paldea Evolved",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/39_hires.png"
+  },
+  {
+    "id": "sv2-40",
+    "name": "Chi-Yu ex",
+    "setName": "Paldea Evolved",
+    "number": "40",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/40_hires.png"
+  },
+  {
+    "id": "sv2-41",
+    "name": "Paldean Tauros",
+    "setName": "Paldea Evolved",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/41_hires.png"
+  },
+  {
+    "id": "sv2-42",
+    "name": "Magikarp",
+    "setName": "Paldea Evolved",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv2/42_hires.png"
+  },
+  {
+    "id": "sv2-43",
+    "name": "Gyarados",
+    "setName": "Paldea Evolved",
+    "number": "43",
+    "rarity": "Rare",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/43_hires.png"
+  },
+  {
+    "id": "sv2-44",
+    "name": "Marill",
+    "setName": "Paldea Evolved",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/44_hires.png"
+  },
+  {
+    "id": "sv2-45",
+    "name": "Azumarill",
+    "setName": "Paldea Evolved",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "En Morikura",
+    "imageUrl": "https://images.pokemontcg.io/sv2/45_hires.png"
+  },
+  {
+    "id": "sv2-46",
+    "name": "Delibird",
+    "setName": "Paldea Evolved",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/sv2/46_hires.png"
+  },
+  {
+    "id": "sv2-47",
+    "name": "Luvdisc",
+    "setName": "Paldea Evolved",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/47_hires.png"
+  },
+  {
+    "id": "sv2-48",
+    "name": "Eiscue",
+    "setName": "Paldea Evolved",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv2/48_hires.png"
+  },
+  {
+    "id": "sv2-49",
+    "name": "Quaxly",
+    "setName": "Paldea Evolved",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv2/49_hires.png"
+  },
+  {
+    "id": "sv2-50",
+    "name": "Quaxly",
+    "setName": "Paldea Evolved",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv2/50_hires.png"
+  },
+  {
+    "id": "sv2-51",
+    "name": "Quaxwell",
+    "setName": "Paldea Evolved",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv2/51_hires.png"
+  },
+  {
+    "id": "sv2-52",
+    "name": "Quaquaval ex",
+    "setName": "Paldea Evolved",
+    "number": "52",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/52_hires.png"
+  },
+  {
+    "id": "sv2-53",
+    "name": "Cetoddle",
+    "setName": "Paldea Evolved",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sv2/53_hires.png"
+  },
+  {
+    "id": "sv2-54",
+    "name": "Cetoddle",
+    "setName": "Paldea Evolved",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv2/54_hires.png"
+  },
+  {
+    "id": "sv2-55",
+    "name": "Cetitan",
+    "setName": "Paldea Evolved",
+    "number": "55",
+    "rarity": "Uncommon",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/55_hires.png"
+  },
+  {
+    "id": "sv2-56",
+    "name": "Veluza",
+    "setName": "Paldea Evolved",
+    "number": "56",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv2/56_hires.png"
+  },
+  {
+    "id": "sv2-57",
+    "name": "Frigibax",
+    "setName": "Paldea Evolved",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv2/57_hires.png"
+  },
+  {
+    "id": "sv2-58",
+    "name": "Frigibax",
+    "setName": "Paldea Evolved",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/58_hires.png"
+  },
+  {
+    "id": "sv2-59",
+    "name": "Arctibax",
+    "setName": "Paldea Evolved",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/59_hires.png"
+  },
+  {
+    "id": "sv2-60",
+    "name": "Baxcalibur",
+    "setName": "Paldea Evolved",
+    "number": "60",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/60_hires.png"
+  },
+  {
+    "id": "sv2-61",
+    "name": "Chien-Pao ex",
+    "setName": "Paldea Evolved",
+    "number": "61",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv2/61_hires.png"
+  },
+  {
+    "id": "sv2-62",
+    "name": "Pikachu",
+    "setName": "Paldea Evolved",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv2/62_hires.png"
+  },
+  {
+    "id": "sv2-63",
+    "name": "Pikachu ex",
+    "setName": "Paldea Evolved",
+    "number": "63",
+    "rarity": "Double Rare",
+    "artist": "N-DESIGN Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/63_hires.png"
+  },
+  {
+    "id": "sv2-64",
+    "name": "Raichu",
+    "setName": "Paldea Evolved",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv2/64_hires.png"
+  },
+  {
+    "id": "sv2-65",
+    "name": "Magnemite",
+    "setName": "Paldea Evolved",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/65_hires.png"
+  },
+  {
+    "id": "sv2-66",
+    "name": "Voltorb",
+    "setName": "Paldea Evolved",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv2/66_hires.png"
+  },
+  {
+    "id": "sv2-67",
+    "name": "Electrode",
+    "setName": "Paldea Evolved",
+    "number": "67",
+    "rarity": "Uncommon",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv2/67_hires.png"
+  },
+  {
+    "id": "sv2-68",
+    "name": "Shinx",
+    "setName": "Paldea Evolved",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/68_hires.png"
+  },
+  {
+    "id": "sv2-69",
+    "name": "Shinx",
+    "setName": "Paldea Evolved",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/69_hires.png"
+  },
+  {
+    "id": "sv2-70",
+    "name": "Luxio",
+    "setName": "Paldea Evolved",
+    "number": "70",
+    "rarity": "Uncommon",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv2/70_hires.png"
+  },
+  {
+    "id": "sv2-71",
+    "name": "Luxray",
+    "setName": "Paldea Evolved",
+    "number": "71",
+    "rarity": "Rare",
+    "artist": "aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/71_hires.png"
+  },
+  {
+    "id": "sv2-72",
+    "name": "Pincurchin",
+    "setName": "Paldea Evolved",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv2/72_hires.png"
+  },
+  {
+    "id": "sv2-73",
+    "name": "Pincurchin",
+    "setName": "Paldea Evolved",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/sv2/73_hires.png"
+  },
+  {
+    "id": "sv2-74",
+    "name": "Pawmi",
+    "setName": "Paldea Evolved",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv2/74_hires.png"
+  },
+  {
+    "id": "sv2-75",
+    "name": "Pawmo",
+    "setName": "Paldea Evolved",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv2/75_hires.png"
+  },
+  {
+    "id": "sv2-76",
+    "name": "Pawmot",
+    "setName": "Paldea Evolved",
+    "number": "76",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv2/76_hires.png"
+  },
+  {
+    "id": "sv2-77",
+    "name": "Tadbulb",
+    "setName": "Paldea Evolved",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/77_hires.png"
+  },
+  {
+    "id": "sv2-78",
+    "name": "Tadbulb",
+    "setName": "Paldea Evolved",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv2/78_hires.png"
+  },
+  {
+    "id": "sv2-79",
+    "name": "Bellibolt ex",
+    "setName": "Paldea Evolved",
+    "number": "79",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/sv2/79_hires.png"
+  },
+  {
+    "id": "sv2-80",
+    "name": "Wattrel",
+    "setName": "Paldea Evolved",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/80_hires.png"
+  },
+  {
+    "id": "sv2-81",
+    "name": "Wattrel",
+    "setName": "Paldea Evolved",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv2/81_hires.png"
+  },
+  {
+    "id": "sv2-82",
+    "name": "Kilowattrel",
+    "setName": "Paldea Evolved",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/82_hires.png"
+  },
+  {
+    "id": "sv2-83",
+    "name": "Jigglypuff",
+    "setName": "Paldea Evolved",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv2/83_hires.png"
+  },
+  {
+    "id": "sv2-84",
+    "name": "Wigglytuff",
+    "setName": "Paldea Evolved",
+    "number": "84",
+    "rarity": "Rare",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv2/84_hires.png"
+  },
+  {
+    "id": "sv2-85",
+    "name": "Slowpoke",
+    "setName": "Paldea Evolved",
+    "number": "85",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv2/85_hires.png"
+  },
+  {
+    "id": "sv2-86",
+    "name": "Slowking ex",
+    "setName": "Paldea Evolved",
+    "number": "86",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/86_hires.png"
+  },
+  {
+    "id": "sv2-87",
+    "name": "Misdreavus",
+    "setName": "Paldea Evolved",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Megumi Higuchi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/87_hires.png"
+  },
+  {
+    "id": "sv2-88",
+    "name": "Mismagius",
+    "setName": "Paldea Evolved",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/88_hires.png"
+  },
+  {
+    "id": "sv2-89",
+    "name": "Spiritomb",
+    "setName": "Paldea Evolved",
+    "number": "89",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/sv2/89_hires.png"
+  },
+  {
+    "id": "sv2-90",
+    "name": "Gothita",
+    "setName": "Paldea Evolved",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sv2/90_hires.png"
+  },
+  {
+    "id": "sv2-91",
+    "name": "Gothorita",
+    "setName": "Paldea Evolved",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/sv2/91_hires.png"
+  },
+  {
+    "id": "sv2-92",
+    "name": "Gothitelle",
+    "setName": "Paldea Evolved",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Shiburingaru",
+    "imageUrl": "https://images.pokemontcg.io/sv2/92_hires.png"
+  },
+  {
+    "id": "sv2-93",
+    "name": "Dedenne ex",
+    "setName": "Paldea Evolved",
+    "number": "93",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv2/93_hires.png"
+  },
+  {
+    "id": "sv2-94",
+    "name": "Oranguru",
+    "setName": "Paldea Evolved",
+    "number": "94",
+    "rarity": "Uncommon",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/94_hires.png"
+  },
+  {
+    "id": "sv2-95",
+    "name": "Sandygast",
+    "setName": "Paldea Evolved",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/95_hires.png"
+  },
+  {
+    "id": "sv2-96",
+    "name": "Palossand",
+    "setName": "Paldea Evolved",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv2/96_hires.png"
+  },
+  {
+    "id": "sv2-97",
+    "name": "Mimikyu",
+    "setName": "Paldea Evolved",
+    "number": "97",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sv2/97_hires.png"
+  },
+  {
+    "id": "sv2-98",
+    "name": "Ceruledge",
+    "setName": "Paldea Evolved",
+    "number": "98",
+    "rarity": "Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv2/98_hires.png"
+  },
+  {
+    "id": "sv2-99",
+    "name": "Rabsca",
+    "setName": "Paldea Evolved",
+    "number": "99",
+    "rarity": "Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/99_hires.png"
+  },
+  {
+    "id": "sv2-100",
+    "name": "Tinkatink",
+    "setName": "Paldea Evolved",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv2/100_hires.png"
+  },
+  {
+    "id": "sv2-101",
+    "name": "Tinkatink",
+    "setName": "Paldea Evolved",
+    "number": "101",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/101_hires.png"
+  },
+  {
+    "id": "sv2-102",
+    "name": "Tinkatink",
+    "setName": "Paldea Evolved",
+    "number": "102",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/102_hires.png"
+  },
+  {
+    "id": "sv2-103",
+    "name": "Tinkatuff",
+    "setName": "Paldea Evolved",
+    "number": "103",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv2/103_hires.png"
+  },
+  {
+    "id": "sv2-104",
+    "name": "Tinkatuff",
+    "setName": "Paldea Evolved",
+    "number": "104",
+    "rarity": "Uncommon",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv2/104_hires.png"
+  },
+  {
+    "id": "sv2-105",
+    "name": "Tinkaton",
+    "setName": "Paldea Evolved",
+    "number": "105",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/105_hires.png"
+  },
+  {
+    "id": "sv2-106",
+    "name": "Mankey",
+    "setName": "Paldea Evolved",
+    "number": "106",
+    "rarity": "Common",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/106_hires.png"
+  },
+  {
+    "id": "sv2-107",
+    "name": "Primeape",
+    "setName": "Paldea Evolved",
+    "number": "107",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/107_hires.png"
+  },
+  {
+    "id": "sv2-108",
+    "name": "Paldean Tauros",
+    "setName": "Paldea Evolved",
+    "number": "108",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/108_hires.png"
+  },
+  {
+    "id": "sv2-109",
+    "name": "Sudowoodo",
+    "setName": "Paldea Evolved",
+    "number": "109",
+    "rarity": "Uncommon",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv2/109_hires.png"
+  },
+  {
+    "id": "sv2-110",
+    "name": "Larvitar",
+    "setName": "Paldea Evolved",
+    "number": "110",
+    "rarity": "Common",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/110_hires.png"
+  },
+  {
+    "id": "sv2-111",
+    "name": "Pupitar",
+    "setName": "Paldea Evolved",
+    "number": "111",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/111_hires.png"
+  },
+  {
+    "id": "sv2-112",
+    "name": "Makuhita",
+    "setName": "Paldea Evolved",
+    "number": "112",
+    "rarity": "Common",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv2/112_hires.png"
+  },
+  {
+    "id": "sv2-113",
+    "name": "Hariyama",
+    "setName": "Paldea Evolved",
+    "number": "113",
+    "rarity": "Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/sv2/113_hires.png"
+  },
+  {
+    "id": "sv2-114",
+    "name": "Croagunk",
+    "setName": "Paldea Evolved",
+    "number": "114",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv2/114_hires.png"
+  },
+  {
+    "id": "sv2-115",
+    "name": "Toxicroak",
+    "setName": "Paldea Evolved",
+    "number": "115",
+    "rarity": "Uncommon",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/115_hires.png"
+  },
+  {
+    "id": "sv2-116",
+    "name": "Rockruff",
+    "setName": "Paldea Evolved",
+    "number": "116",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sv2/116_hires.png"
+  },
+  {
+    "id": "sv2-117",
+    "name": "Lycanroc ex",
+    "setName": "Paldea Evolved",
+    "number": "117",
+    "rarity": "Double Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv2/117_hires.png"
+  },
+  {
+    "id": "sv2-118",
+    "name": "Passimian",
+    "setName": "Paldea Evolved",
+    "number": "118",
+    "rarity": "Uncommon",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv2/118_hires.png"
+  },
+  {
+    "id": "sv2-119",
+    "name": "Falinks",
+    "setName": "Paldea Evolved",
+    "number": "119",
+    "rarity": "Common",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/119_hires.png"
+  },
+  {
+    "id": "sv2-120",
+    "name": "Nacli",
+    "setName": "Paldea Evolved",
+    "number": "120",
+    "rarity": "Common",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/120_hires.png"
+  },
+  {
+    "id": "sv2-121",
+    "name": "Nacli",
+    "setName": "Paldea Evolved",
+    "number": "121",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/121_hires.png"
+  },
+  {
+    "id": "sv2-122",
+    "name": "Naclstack",
+    "setName": "Paldea Evolved",
+    "number": "122",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/122_hires.png"
+  },
+  {
+    "id": "sv2-123",
+    "name": "Garganacl",
+    "setName": "Paldea Evolved",
+    "number": "123",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv2/123_hires.png"
+  },
+  {
+    "id": "sv2-124",
+    "name": "Glimmet",
+    "setName": "Paldea Evolved",
+    "number": "124",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv2/124_hires.png"
+  },
+  {
+    "id": "sv2-125",
+    "name": "Glimmet",
+    "setName": "Paldea Evolved",
+    "number": "125",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sv2/125_hires.png"
+  },
+  {
+    "id": "sv2-126",
+    "name": "Glimmora",
+    "setName": "Paldea Evolved",
+    "number": "126",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/126_hires.png"
+  },
+  {
+    "id": "sv2-127",
+    "name": "Ting-Lu ex",
+    "setName": "Paldea Evolved",
+    "number": "127",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/127_hires.png"
+  },
+  {
+    "id": "sv2-128",
+    "name": "Paldean Wooper",
+    "setName": "Paldea Evolved",
+    "number": "128",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/128_hires.png"
+  },
+  {
+    "id": "sv2-129",
+    "name": "Paldean Wooper",
+    "setName": "Paldea Evolved",
+    "number": "129",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv2/129_hires.png"
+  },
+  {
+    "id": "sv2-130",
+    "name": "Paldean Clodsire ex",
+    "setName": "Paldea Evolved",
+    "number": "130",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/130_hires.png"
+  },
+  {
+    "id": "sv2-131",
+    "name": "Murkrow",
+    "setName": "Paldea Evolved",
+    "number": "131",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv2/131_hires.png"
+  },
+  {
+    "id": "sv2-132",
+    "name": "Honchkrow",
+    "setName": "Paldea Evolved",
+    "number": "132",
+    "rarity": "Uncommon",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/132_hires.png"
+  },
+  {
+    "id": "sv2-133",
+    "name": "Sneasel",
+    "setName": "Paldea Evolved",
+    "number": "133",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sv2/133_hires.png"
+  },
+  {
+    "id": "sv2-134",
+    "name": "Weavile",
+    "setName": "Paldea Evolved",
+    "number": "134",
+    "rarity": "Rare",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/134_hires.png"
+  },
+  {
+    "id": "sv2-135",
+    "name": "Tyranitar",
+    "setName": "Paldea Evolved",
+    "number": "135",
+    "rarity": "Rare",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv2/135_hires.png"
+  },
+  {
+    "id": "sv2-136",
+    "name": "Sableye",
+    "setName": "Paldea Evolved",
+    "number": "136",
+    "rarity": "Rare",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/sv2/136_hires.png"
+  },
+  {
+    "id": "sv2-137",
+    "name": "Seviper",
+    "setName": "Paldea Evolved",
+    "number": "137",
+    "rarity": "Uncommon",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/137_hires.png"
+  },
+  {
+    "id": "sv2-138",
+    "name": "Deino",
+    "setName": "Paldea Evolved",
+    "number": "138",
+    "rarity": "Common",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv2/138_hires.png"
+  },
+  {
+    "id": "sv2-139",
+    "name": "Zweilous",
+    "setName": "Paldea Evolved",
+    "number": "139",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/139_hires.png"
+  },
+  {
+    "id": "sv2-140",
+    "name": "Hydreigon",
+    "setName": "Paldea Evolved",
+    "number": "140",
+    "rarity": "Rare",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv2/140_hires.png"
+  },
+  {
+    "id": "sv2-141",
+    "name": "Maschiff",
+    "setName": "Paldea Evolved",
+    "number": "141",
+    "rarity": "Common",
+    "artist": "DOM",
+    "imageUrl": "https://images.pokemontcg.io/sv2/141_hires.png"
+  },
+  {
+    "id": "sv2-142",
+    "name": "Maschiff",
+    "setName": "Paldea Evolved",
+    "number": "142",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/142_hires.png"
+  },
+  {
+    "id": "sv2-143",
+    "name": "Mabosstiff",
+    "setName": "Paldea Evolved",
+    "number": "143",
+    "rarity": "Uncommon",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv2/143_hires.png"
+  },
+  {
+    "id": "sv2-144",
+    "name": "Shroodle",
+    "setName": "Paldea Evolved",
+    "number": "144",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv2/144_hires.png"
+  },
+  {
+    "id": "sv2-145",
+    "name": "Shroodle",
+    "setName": "Paldea Evolved",
+    "number": "145",
+    "rarity": "Common",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv2/145_hires.png"
+  },
+  {
+    "id": "sv2-146",
+    "name": "Grafaiai",
+    "setName": "Paldea Evolved",
+    "number": "146",
+    "rarity": "Uncommon",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv2/146_hires.png"
+  },
+  {
+    "id": "sv2-147",
+    "name": "Bombirdier",
+    "setName": "Paldea Evolved",
+    "number": "147",
+    "rarity": "Uncommon",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sv2/147_hires.png"
+  },
+  {
+    "id": "sv2-148",
+    "name": "Corviknight",
+    "setName": "Paldea Evolved",
+    "number": "148",
+    "rarity": "Uncommon",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv2/148_hires.png"
+  },
+  {
+    "id": "sv2-149",
+    "name": "Cufant",
+    "setName": "Paldea Evolved",
+    "number": "149",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/149_hires.png"
+  },
+  {
+    "id": "sv2-150",
+    "name": "Copperajah ex",
+    "setName": "Paldea Evolved",
+    "number": "150",
+    "rarity": "Double Rare",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/sv2/150_hires.png"
+  },
+  {
+    "id": "sv2-151",
+    "name": "Orthworm",
+    "setName": "Paldea Evolved",
+    "number": "151",
+    "rarity": "Rare",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv2/151_hires.png"
+  },
+  {
+    "id": "sv2-152",
+    "name": "Noibat",
+    "setName": "Paldea Evolved",
+    "number": "152",
+    "rarity": "Common",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/152_hires.png"
+  },
+  {
+    "id": "sv2-153",
+    "name": "Noivern ex",
+    "setName": "Paldea Evolved",
+    "number": "153",
+    "rarity": "Double Rare",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/153_hires.png"
+  },
+  {
+    "id": "sv2-154",
+    "name": "Girafarig",
+    "setName": "Paldea Evolved",
+    "number": "154",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/154_hires.png"
+  },
+  {
+    "id": "sv2-155",
+    "name": "Farigiraf",
+    "setName": "Paldea Evolved",
+    "number": "155",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/155_hires.png"
+  },
+  {
+    "id": "sv2-156",
+    "name": "Dunsparce",
+    "setName": "Paldea Evolved",
+    "number": "156",
+    "rarity": "Common",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/sv2/156_hires.png"
+  },
+  {
+    "id": "sv2-157",
+    "name": "Dudunsparce",
+    "setName": "Paldea Evolved",
+    "number": "157",
+    "rarity": "Uncommon",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv2/157_hires.png"
+  },
+  {
+    "id": "sv2-158",
+    "name": "Wingull",
+    "setName": "Paldea Evolved",
+    "number": "158",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/158_hires.png"
+  },
+  {
+    "id": "sv2-159",
+    "name": "Pelipper",
+    "setName": "Paldea Evolved",
+    "number": "159",
+    "rarity": "Uncommon",
+    "artist": "Shinya Komatsu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/159_hires.png"
+  },
+  {
+    "id": "sv2-160",
+    "name": "Slakoth",
+    "setName": "Paldea Evolved",
+    "number": "160",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/160_hires.png"
+  },
+  {
+    "id": "sv2-161",
+    "name": "Vigoroth",
+    "setName": "Paldea Evolved",
+    "number": "161",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/161_hires.png"
+  },
+  {
+    "id": "sv2-162",
+    "name": "Slaking",
+    "setName": "Paldea Evolved",
+    "number": "162",
+    "rarity": "Rare",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/162_hires.png"
+  },
+  {
+    "id": "sv2-163",
+    "name": "Fletchling",
+    "setName": "Paldea Evolved",
+    "number": "163",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv2/163_hires.png"
+  },
+  {
+    "id": "sv2-164",
+    "name": "Rookidee",
+    "setName": "Paldea Evolved",
+    "number": "164",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv2/164_hires.png"
+  },
+  {
+    "id": "sv2-165",
+    "name": "Corvisquire",
+    "setName": "Paldea Evolved",
+    "number": "165",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv2/165_hires.png"
+  },
+  {
+    "id": "sv2-166",
+    "name": "Tandemaus",
+    "setName": "Paldea Evolved",
+    "number": "166",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/166_hires.png"
+  },
+  {
+    "id": "sv2-167",
+    "name": "Tandemaus",
+    "setName": "Paldea Evolved",
+    "number": "167",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sv2/167_hires.png"
+  },
+  {
+    "id": "sv2-168",
+    "name": "Maushold",
+    "setName": "Paldea Evolved",
+    "number": "168",
+    "rarity": "Uncommon",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv2/168_hires.png"
+  },
+  {
+    "id": "sv2-169",
+    "name": "Squawkabilly ex",
+    "setName": "Paldea Evolved",
+    "number": "169",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/169_hires.png"
+  },
+  {
+    "id": "sv2-170",
+    "name": "Flamigo",
+    "setName": "Paldea Evolved",
+    "number": "170",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/170_hires.png"
+  },
+  {
+    "id": "sv2-171",
+    "name": "Artazon",
+    "setName": "Paldea Evolved",
+    "number": "171",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/171_hires.png"
+  },
+  {
+    "id": "sv2-172",
+    "name": "Boss's Orders (Ghetsis)",
+    "setName": "Paldea Evolved",
+    "number": "172",
+    "rarity": "Rare",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/sv2/172_hires.png"
+  },
+  {
+    "id": "sv2-173",
+    "name": "Bravery Charm",
+    "setName": "Paldea Evolved",
+    "number": "173",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv2/173_hires.png"
+  },
+  {
+    "id": "sv2-174",
+    "name": "Calamitous Snowy Mountain",
+    "setName": "Paldea Evolved",
+    "number": "174",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/174_hires.png"
+  },
+  {
+    "id": "sv2-175",
+    "name": "Calamitous Wasteland",
+    "setName": "Paldea Evolved",
+    "number": "175",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/175_hires.png"
+  },
+  {
+    "id": "sv2-176",
+    "name": "Choice Belt",
+    "setName": "Paldea Evolved",
+    "number": "176",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/176_hires.png"
+  },
+  {
+    "id": "sv2-177",
+    "name": "Clavell",
+    "setName": "Paldea Evolved",
+    "number": "177",
+    "rarity": "Common",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv2/177_hires.png"
+  },
+  {
+    "id": "sv2-178",
+    "name": "Delivery Drone",
+    "setName": "Paldea Evolved",
+    "number": "178",
+    "rarity": "Uncommon",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/sv2/178_hires.png"
+  },
+  {
+    "id": "sv2-179",
+    "name": "Dendra",
+    "setName": "Paldea Evolved",
+    "number": "179",
+    "rarity": "Uncommon",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/179_hires.png"
+  },
+  {
+    "id": "sv2-180",
+    "name": "Falkner",
+    "setName": "Paldea Evolved",
+    "number": "180",
+    "rarity": "Uncommon",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/sv2/180_hires.png"
+  },
+  {
+    "id": "sv2-181",
+    "name": "Fighting Au Lait",
+    "setName": "Paldea Evolved",
+    "number": "181",
+    "rarity": "Uncommon",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv2/181_hires.png"
+  },
+  {
+    "id": "sv2-182",
+    "name": "Giacomo",
+    "setName": "Paldea Evolved",
+    "number": "182",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv2/182_hires.png"
+  },
+  {
+    "id": "sv2-183",
+    "name": "Great Ball",
+    "setName": "Paldea Evolved",
+    "number": "183",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/183_hires.png"
+  },
+  {
+    "id": "sv2-184",
+    "name": "Grusha",
+    "setName": "Paldea Evolved",
+    "number": "184",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/184_hires.png"
+  },
+  {
+    "id": "sv2-185",
+    "name": "Iono",
+    "setName": "Paldea Evolved",
+    "number": "185",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv2/185_hires.png"
+  },
+  {
+    "id": "sv2-186",
+    "name": "Practice Studio",
+    "setName": "Paldea Evolved",
+    "number": "186",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/186_hires.png"
+  },
+  {
+    "id": "sv2-187",
+    "name": "Saguaro",
+    "setName": "Paldea Evolved",
+    "number": "187",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/187_hires.png"
+  },
+  {
+    "id": "sv2-188",
+    "name": "Super Rod",
+    "setName": "Paldea Evolved",
+    "number": "188",
+    "rarity": "Common",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv2/188_hires.png"
+  },
+  {
+    "id": "sv2-189",
+    "name": "Superior Energy Retrieval",
+    "setName": "Paldea Evolved",
+    "number": "189",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/189_hires.png"
+  },
+  {
+    "id": "sv2-190",
+    "name": "Jet Energy",
+    "setName": "Paldea Evolved",
+    "number": "190",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv2/190_hires.png"
+  },
+  {
+    "id": "sv2-191",
+    "name": "Luminous Energy",
+    "setName": "Paldea Evolved",
+    "number": "191",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv2/191_hires.png"
+  },
+  {
+    "id": "sv2-192",
+    "name": "Reversal Energy",
+    "setName": "Paldea Evolved",
+    "number": "192",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv2/192_hires.png"
+  },
+  {
+    "id": "sv2-193",
+    "name": "Therapeutic Energy",
+    "setName": "Paldea Evolved",
+    "number": "193",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv2/193_hires.png"
+  },
+  {
+    "id": "sv2-194",
+    "name": "Heracross",
+    "setName": "Paldea Evolved",
+    "number": "194",
+    "rarity": "Illustration Rare",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv2/194_hires.png"
+  },
+  {
+    "id": "sv2-195",
+    "name": "Tropius",
+    "setName": "Paldea Evolved",
+    "number": "195",
+    "rarity": "Illustration Rare",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv2/195_hires.png"
+  },
+  {
+    "id": "sv2-196",
+    "name": "Sprigatito",
+    "setName": "Paldea Evolved",
+    "number": "196",
+    "rarity": "Illustration Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/196_hires.png"
+  },
+  {
+    "id": "sv2-197",
+    "name": "Floragato",
+    "setName": "Paldea Evolved",
+    "number": "197",
+    "rarity": "Illustration Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/197_hires.png"
+  },
+  {
+    "id": "sv2-198",
+    "name": "Bramblin",
+    "setName": "Paldea Evolved",
+    "number": "198",
+    "rarity": "Illustration Rare",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv2/198_hires.png"
+  },
+  {
+    "id": "sv2-199",
+    "name": "Fletchinder",
+    "setName": "Paldea Evolved",
+    "number": "199",
+    "rarity": "Illustration Rare",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/199_hires.png"
+  },
+  {
+    "id": "sv2-200",
+    "name": "Pyroar",
+    "setName": "Paldea Evolved",
+    "number": "200",
+    "rarity": "Illustration Rare",
+    "artist": "Po-Suzuki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/200_hires.png"
+  },
+  {
+    "id": "sv2-201",
+    "name": "Fuecoco",
+    "setName": "Paldea Evolved",
+    "number": "201",
+    "rarity": "Illustration Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv2/201_hires.png"
+  },
+  {
+    "id": "sv2-202",
+    "name": "Crocalor",
+    "setName": "Paldea Evolved",
+    "number": "202",
+    "rarity": "Illustration Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv2/202_hires.png"
+  },
+  {
+    "id": "sv2-203",
+    "name": "Magikarp",
+    "setName": "Paldea Evolved",
+    "number": "203",
+    "rarity": "Illustration Rare",
+    "artist": "Shinji Kanda",
+    "imageUrl": "https://images.pokemontcg.io/sv2/203_hires.png"
+  },
+  {
+    "id": "sv2-204",
+    "name": "Marill",
+    "setName": "Paldea Evolved",
+    "number": "204",
+    "rarity": "Illustration Rare",
+    "artist": "Atsuya Uki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/204_hires.png"
+  },
+  {
+    "id": "sv2-205",
+    "name": "Eiscue",
+    "setName": "Paldea Evolved",
+    "number": "205",
+    "rarity": "Illustration Rare",
+    "artist": "Nelnal",
+    "imageUrl": "https://images.pokemontcg.io/sv2/205_hires.png"
+  },
+  {
+    "id": "sv2-206",
+    "name": "Quaxly",
+    "setName": "Paldea Evolved",
+    "number": "206",
+    "rarity": "Illustration Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv2/206_hires.png"
+  },
+  {
+    "id": "sv2-207",
+    "name": "Quaxwell",
+    "setName": "Paldea Evolved",
+    "number": "207",
+    "rarity": "Illustration Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv2/207_hires.png"
+  },
+  {
+    "id": "sv2-208",
+    "name": "Frigibax",
+    "setName": "Paldea Evolved",
+    "number": "208",
+    "rarity": "Illustration Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv2/208_hires.png"
+  },
+  {
+    "id": "sv2-209",
+    "name": "Arctibax",
+    "setName": "Paldea Evolved",
+    "number": "209",
+    "rarity": "Illustration Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv2/209_hires.png"
+  },
+  {
+    "id": "sv2-210",
+    "name": "Baxcalibur",
+    "setName": "Paldea Evolved",
+    "number": "210",
+    "rarity": "Illustration Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv2/210_hires.png"
+  },
+  {
+    "id": "sv2-211",
+    "name": "Raichu",
+    "setName": "Paldea Evolved",
+    "number": "211",
+    "rarity": "Illustration Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/211_hires.png"
+  },
+  {
+    "id": "sv2-212",
+    "name": "Mismagius",
+    "setName": "Paldea Evolved",
+    "number": "212",
+    "rarity": "Illustration Rare",
+    "artist": "aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/212_hires.png"
+  },
+  {
+    "id": "sv2-213",
+    "name": "Gothorita",
+    "setName": "Paldea Evolved",
+    "number": "213",
+    "rarity": "Illustration Rare",
+    "artist": "SIE NANAHARA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/213_hires.png"
+  },
+  {
+    "id": "sv2-214",
+    "name": "Sandygast",
+    "setName": "Paldea Evolved",
+    "number": "214",
+    "rarity": "Illustration Rare",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv2/214_hires.png"
+  },
+  {
+    "id": "sv2-215",
+    "name": "Rabsca",
+    "setName": "Paldea Evolved",
+    "number": "215",
+    "rarity": "Illustration Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/215_hires.png"
+  },
+  {
+    "id": "sv2-216",
+    "name": "Tinkatink",
+    "setName": "Paldea Evolved",
+    "number": "216",
+    "rarity": "Illustration Rare",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv2/216_hires.png"
+  },
+  {
+    "id": "sv2-217",
+    "name": "Tinkatuff",
+    "setName": "Paldea Evolved",
+    "number": "217",
+    "rarity": "Illustration Rare",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv2/217_hires.png"
+  },
+  {
+    "id": "sv2-218",
+    "name": "Paldean Tauros",
+    "setName": "Paldea Evolved",
+    "number": "218",
+    "rarity": "Illustration Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv2/218_hires.png"
+  },
+  {
+    "id": "sv2-219",
+    "name": "Sudowoodo",
+    "setName": "Paldea Evolved",
+    "number": "219",
+    "rarity": "Illustration Rare",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv2/219_hires.png"
+  },
+  {
+    "id": "sv2-220",
+    "name": "Nacli",
+    "setName": "Paldea Evolved",
+    "number": "220",
+    "rarity": "Illustration Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv2/220_hires.png"
+  },
+  {
+    "id": "sv2-221",
+    "name": "Paldean Wooper",
+    "setName": "Paldea Evolved",
+    "number": "221",
+    "rarity": "Illustration Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv2/221_hires.png"
+  },
+  {
+    "id": "sv2-222",
+    "name": "Tyranitar",
+    "setName": "Paldea Evolved",
+    "number": "222",
+    "rarity": "Illustration Rare",
+    "artist": "Nurikabe",
+    "imageUrl": "https://images.pokemontcg.io/sv2/222_hires.png"
+  },
+  {
+    "id": "sv2-223",
+    "name": "Grafaiai",
+    "setName": "Paldea Evolved",
+    "number": "223",
+    "rarity": "Illustration Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/223_hires.png"
+  },
+  {
+    "id": "sv2-224",
+    "name": "Orthworm",
+    "setName": "Paldea Evolved",
+    "number": "224",
+    "rarity": "Illustration Rare",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv2/224_hires.png"
+  },
+  {
+    "id": "sv2-225",
+    "name": "Rookidee",
+    "setName": "Paldea Evolved",
+    "number": "225",
+    "rarity": "Illustration Rare",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv2/225_hires.png"
+  },
+  {
+    "id": "sv2-226",
+    "name": "Maushold",
+    "setName": "Paldea Evolved",
+    "number": "226",
+    "rarity": "Illustration Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv2/226_hires.png"
+  },
+  {
+    "id": "sv2-227",
+    "name": "Flamigo",
+    "setName": "Paldea Evolved",
+    "number": "227",
+    "rarity": "Illustration Rare",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/227_hires.png"
+  },
+  {
+    "id": "sv2-228",
+    "name": "Farigiraf",
+    "setName": "Paldea Evolved",
+    "number": "228",
+    "rarity": "Illustration Rare",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv2/228_hires.png"
+  },
+  {
+    "id": "sv2-229",
+    "name": "Dudunsparce",
+    "setName": "Paldea Evolved",
+    "number": "229",
+    "rarity": "Illustration Rare",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv2/229_hires.png"
+  },
+  {
+    "id": "sv2-230",
+    "name": "Forretress ex",
+    "setName": "Paldea Evolved",
+    "number": "230",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/230_hires.png"
+  },
+  {
+    "id": "sv2-231",
+    "name": "Meowscarada ex",
+    "setName": "Paldea Evolved",
+    "number": "231",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/231_hires.png"
+  },
+  {
+    "id": "sv2-232",
+    "name": "Wo-Chien ex",
+    "setName": "Paldea Evolved",
+    "number": "232",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/232_hires.png"
+  },
+  {
+    "id": "sv2-233",
+    "name": "Skeledirge ex",
+    "setName": "Paldea Evolved",
+    "number": "233",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/233_hires.png"
+  },
+  {
+    "id": "sv2-234",
+    "name": "Chi-Yu ex",
+    "setName": "Paldea Evolved",
+    "number": "234",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/sv2/234_hires.png"
+  },
+  {
+    "id": "sv2-235",
+    "name": "Quaquaval ex",
+    "setName": "Paldea Evolved",
+    "number": "235",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/235_hires.png"
+  },
+  {
+    "id": "sv2-236",
+    "name": "Chien-Pao ex",
+    "setName": "Paldea Evolved",
+    "number": "236",
+    "rarity": "Ultra Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv2/236_hires.png"
+  },
+  {
+    "id": "sv2-237",
+    "name": "Bellibolt ex",
+    "setName": "Paldea Evolved",
+    "number": "237",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Yamashita",
+    "imageUrl": "https://images.pokemontcg.io/sv2/237_hires.png"
+  },
+  {
+    "id": "sv2-238",
+    "name": "Slowking ex",
+    "setName": "Paldea Evolved",
+    "number": "238",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/238_hires.png"
+  },
+  {
+    "id": "sv2-239",
+    "name": "Dedenne ex",
+    "setName": "Paldea Evolved",
+    "number": "239",
+    "rarity": "Ultra Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv2/239_hires.png"
+  },
+  {
+    "id": "sv2-240",
+    "name": "Tinkaton ex",
+    "setName": "Paldea Evolved",
+    "number": "240",
+    "rarity": "Ultra Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/240_hires.png"
+  },
+  {
+    "id": "sv2-241",
+    "name": "Lycanroc ex",
+    "setName": "Paldea Evolved",
+    "number": "241",
+    "rarity": "Ultra Rare",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv2/241_hires.png"
+  },
+  {
+    "id": "sv2-242",
+    "name": "Annihilape ex",
+    "setName": "Paldea Evolved",
+    "number": "242",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Hiiragi",
+    "imageUrl": "https://images.pokemontcg.io/sv2/242_hires.png"
+  },
+  {
+    "id": "sv2-243",
+    "name": "Ting-Lu ex",
+    "setName": "Paldea Evolved",
+    "number": "243",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/243_hires.png"
+  },
+  {
+    "id": "sv2-244",
+    "name": "Paldean Clodsire ex",
+    "setName": "Paldea Evolved",
+    "number": "244",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/244_hires.png"
+  },
+  {
+    "id": "sv2-245",
+    "name": "Copperajah ex",
+    "setName": "Paldea Evolved",
+    "number": "245",
+    "rarity": "Ultra Rare",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sv2/245_hires.png"
+  },
+  {
+    "id": "sv2-246",
+    "name": "Noivern ex",
+    "setName": "Paldea Evolved",
+    "number": "246",
+    "rarity": "Ultra Rare",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sv2/246_hires.png"
+  },
+  {
+    "id": "sv2-247",
+    "name": "Squawkabilly ex",
+    "setName": "Paldea Evolved",
+    "number": "247",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/247_hires.png"
+  },
+  {
+    "id": "sv2-248",
+    "name": "Boss's Orders (Ghetsis)",
+    "setName": "Paldea Evolved",
+    "number": "248",
+    "rarity": "Ultra Rare",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/248_hires.png"
+  },
+  {
+    "id": "sv2-249",
+    "name": "Clavell",
+    "setName": "Paldea Evolved",
+    "number": "249",
+    "rarity": "Ultra Rare",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv2/249_hires.png"
+  },
+  {
+    "id": "sv2-250",
+    "name": "Dendra",
+    "setName": "Paldea Evolved",
+    "number": "250",
+    "rarity": "Ultra Rare",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv2/250_hires.png"
+  },
+  {
+    "id": "sv2-251",
+    "name": "Falkner",
+    "setName": "Paldea Evolved",
+    "number": "251",
+    "rarity": "Ultra Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/sv2/251_hires.png"
+  },
+  {
+    "id": "sv2-252",
+    "name": "Giacomo",
+    "setName": "Paldea Evolved",
+    "number": "252",
+    "rarity": "Ultra Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv2/252_hires.png"
+  },
+  {
+    "id": "sv2-253",
+    "name": "Grusha",
+    "setName": "Paldea Evolved",
+    "number": "253",
+    "rarity": "Ultra Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/253_hires.png"
+  },
+  {
+    "id": "sv2-254",
+    "name": "Iono",
+    "setName": "Paldea Evolved",
+    "number": "254",
+    "rarity": "Ultra Rare",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv2/254_hires.png"
+  },
+  {
+    "id": "sv2-255",
+    "name": "Saguaro",
+    "setName": "Paldea Evolved",
+    "number": "255",
+    "rarity": "Ultra Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv2/255_hires.png"
+  },
+  {
+    "id": "sv2-256",
+    "name": "Meowscarada ex",
+    "setName": "Paldea Evolved",
+    "number": "256",
+    "rarity": "Special Illustration Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv2/256_hires.png"
+  },
+  {
+    "id": "sv2-257",
+    "name": "Wo-Chien ex",
+    "setName": "Paldea Evolved",
+    "number": "257",
+    "rarity": "Special Illustration Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv2/257_hires.png"
+  },
+  {
+    "id": "sv2-258",
+    "name": "Skeledirge ex",
+    "setName": "Paldea Evolved",
+    "number": "258",
+    "rarity": "Special Illustration Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv2/258_hires.png"
+  },
+  {
+    "id": "sv2-259",
+    "name": "Chi-Yu ex",
+    "setName": "Paldea Evolved",
+    "number": "259",
+    "rarity": "Special Illustration Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/259_hires.png"
+  },
+  {
+    "id": "sv2-260",
+    "name": "Quaquaval ex",
+    "setName": "Paldea Evolved",
+    "number": "260",
+    "rarity": "Special Illustration Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv2/260_hires.png"
+  },
+  {
+    "id": "sv2-261",
+    "name": "Chien-Pao ex",
+    "setName": "Paldea Evolved",
+    "number": "261",
+    "rarity": "Special Illustration Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv2/261_hires.png"
+  },
+  {
+    "id": "sv2-262",
+    "name": "Tinkaton ex",
+    "setName": "Paldea Evolved",
+    "number": "262",
+    "rarity": "Special Illustration Rare",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv2/262_hires.png"
+  },
+  {
+    "id": "sv2-263",
+    "name": "Ting-Lu ex",
+    "setName": "Paldea Evolved",
+    "number": "263",
+    "rarity": "Special Illustration Rare",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv2/263_hires.png"
+  },
+  {
+    "id": "sv2-264",
+    "name": "Squawkabilly ex",
+    "setName": "Paldea Evolved",
+    "number": "264",
+    "rarity": "Special Illustration Rare",
+    "artist": "Amelicart",
+    "imageUrl": "https://images.pokemontcg.io/sv2/264_hires.png"
+  },
+  {
+    "id": "sv2-265",
+    "name": "Boss's Orders (Ghetsis)",
+    "setName": "Paldea Evolved",
+    "number": "265",
+    "rarity": "Special Illustration Rare",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv2/265_hires.png"
+  },
+  {
+    "id": "sv2-266",
+    "name": "Dendra",
+    "setName": "Paldea Evolved",
+    "number": "266",
+    "rarity": "Special Illustration Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/266_hires.png"
+  },
+  {
+    "id": "sv2-267",
+    "name": "Giacomo",
+    "setName": "Paldea Evolved",
+    "number": "267",
+    "rarity": "Special Illustration Rare",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv2/267_hires.png"
+  },
+  {
+    "id": "sv2-268",
+    "name": "Grusha",
+    "setName": "Paldea Evolved",
+    "number": "268",
+    "rarity": "Special Illustration Rare",
+    "artist": "DOM",
+    "imageUrl": "https://images.pokemontcg.io/sv2/268_hires.png"
+  },
+  {
+    "id": "sv2-269",
+    "name": "Iono",
+    "setName": "Paldea Evolved",
+    "number": "269",
+    "rarity": "Special Illustration Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv2/269_hires.png"
+  },
+  {
+    "id": "sv2-270",
+    "name": "Saguaro",
+    "setName": "Paldea Evolved",
+    "number": "270",
+    "rarity": "Special Illustration Rare",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv2/270_hires.png"
+  },
+  {
+    "id": "sv2-271",
+    "name": "Meowscarada ex",
+    "setName": "Paldea Evolved",
+    "number": "271",
+    "rarity": "Hyper Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/271_hires.png"
+  },
+  {
+    "id": "sv2-272",
+    "name": "Skeledirge ex",
+    "setName": "Paldea Evolved",
+    "number": "272",
+    "rarity": "Hyper Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/272_hires.png"
+  },
+  {
+    "id": "sv2-273",
+    "name": "Quaquaval ex",
+    "setName": "Paldea Evolved",
+    "number": "273",
+    "rarity": "Hyper Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/273_hires.png"
+  },
+  {
+    "id": "sv2-274",
+    "name": "Chien-Pao ex",
+    "setName": "Paldea Evolved",
+    "number": "274",
+    "rarity": "Hyper Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv2/274_hires.png"
+  },
+  {
+    "id": "sv2-275",
+    "name": "Ting-Lu ex",
+    "setName": "Paldea Evolved",
+    "number": "275",
+    "rarity": "Hyper Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv2/275_hires.png"
+  },
+  {
+    "id": "sv2-276",
+    "name": "Super Rod",
+    "setName": "Paldea Evolved",
+    "number": "276",
+    "rarity": "Hyper Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv2/276_hires.png"
+  },
+  {
+    "id": "sv2-277",
+    "name": "Superior Energy Retrieval",
+    "setName": "Paldea Evolved",
+    "number": "277",
+    "rarity": "Hyper Rare",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv2/277_hires.png"
+  },
+  {
+    "id": "sv2-278",
+    "name": "Basic Grass Energy",
+    "setName": "Paldea Evolved",
+    "number": "278",
+    "rarity": "Hyper Rare",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv2/278_hires.png"
+  },
+  {
+    "id": "sv2-279",
+    "name": "Basic Water Energy",
+    "setName": "Paldea Evolved",
+    "number": "279",
+    "rarity": "Hyper Rare",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv2/279_hires.png"
+  }
+]

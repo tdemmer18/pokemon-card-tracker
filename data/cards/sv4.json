@@ -1,0 +1,2396 @@
+[
+  {
+    "id": "sv4-1",
+    "name": "Surskit",
+    "setName": "Paradox Rift",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Yoriyuki Ikegami",
+    "imageUrl": "https://images.pokemontcg.io/sv4/1_hires.png"
+  },
+  {
+    "id": "sv4-2",
+    "name": "Masquerain",
+    "setName": "Paradox Rift",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv4/2_hires.png"
+  },
+  {
+    "id": "sv4-3",
+    "name": "Froslass ex",
+    "setName": "Paradox Rift",
+    "number": "3",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/3_hires.png"
+  },
+  {
+    "id": "sv4-4",
+    "name": "Pansage",
+    "setName": "Paradox Rift",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv4/4_hires.png"
+  },
+  {
+    "id": "sv4-5",
+    "name": "Simisage",
+    "setName": "Paradox Rift",
+    "number": "5",
+    "rarity": "Uncommon",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv4/5_hires.png"
+  },
+  {
+    "id": "sv4-6",
+    "name": "Dwebble",
+    "setName": "Paradox Rift",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Scav",
+    "imageUrl": "https://images.pokemontcg.io/sv4/6_hires.png"
+  },
+  {
+    "id": "sv4-7",
+    "name": "Crustle",
+    "setName": "Paradox Rift",
+    "number": "7",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/7_hires.png"
+  },
+  {
+    "id": "sv4-8",
+    "name": "Bounsweet",
+    "setName": "Paradox Rift",
+    "number": "8",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv4/8_hires.png"
+  },
+  {
+    "id": "sv4-9",
+    "name": "Steenee",
+    "setName": "Paradox Rift",
+    "number": "9",
+    "rarity": "Uncommon",
+    "artist": "Kariya",
+    "imageUrl": "https://images.pokemontcg.io/sv4/9_hires.png"
+  },
+  {
+    "id": "sv4-10",
+    "name": "Blipbug",
+    "setName": "Paradox Rift",
+    "number": "10",
+    "rarity": "Common",
+    "artist": "OKUBO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/10_hires.png"
+  },
+  {
+    "id": "sv4-11",
+    "name": "Dottler",
+    "setName": "Paradox Rift",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv4/11_hires.png"
+  },
+  {
+    "id": "sv4-12",
+    "name": "Orbeetle",
+    "setName": "Paradox Rift",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "Oku",
+    "imageUrl": "https://images.pokemontcg.io/sv4/12_hires.png"
+  },
+  {
+    "id": "sv4-13",
+    "name": "Nymble",
+    "setName": "Paradox Rift",
+    "number": "13",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/13_hires.png"
+  },
+  {
+    "id": "sv4-14",
+    "name": "Nymble",
+    "setName": "Paradox Rift",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv4/14_hires.png"
+  },
+  {
+    "id": "sv4-15",
+    "name": "Toedscool",
+    "setName": "Paradox Rift",
+    "number": "15",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv4/15_hires.png"
+  },
+  {
+    "id": "sv4-16",
+    "name": "Toedscool",
+    "setName": "Paradox Rift",
+    "number": "16",
+    "rarity": "Common",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv4/16_hires.png"
+  },
+  {
+    "id": "sv4-17",
+    "name": "Toedscruel",
+    "setName": "Paradox Rift",
+    "number": "17",
+    "rarity": "Uncommon",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/17_hires.png"
+  },
+  {
+    "id": "sv4-18",
+    "name": "Wo-Chien",
+    "setName": "Paradox Rift",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv4/18_hires.png"
+  },
+  {
+    "id": "sv4-19",
+    "name": "Magby",
+    "setName": "Paradox Rift",
+    "number": "19",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sv4/19_hires.png"
+  },
+  {
+    "id": "sv4-20",
+    "name": "Pansear",
+    "setName": "Paradox Rift",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "LINNE",
+    "imageUrl": "https://images.pokemontcg.io/sv4/20_hires.png"
+  },
+  {
+    "id": "sv4-21",
+    "name": "Simisear",
+    "setName": "Paradox Rift",
+    "number": "21",
+    "rarity": "Uncommon",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv4/21_hires.png"
+  },
+  {
+    "id": "sv4-22",
+    "name": "Volcanion",
+    "setName": "Paradox Rift",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv4/22_hires.png"
+  },
+  {
+    "id": "sv4-23",
+    "name": "Fuecoco",
+    "setName": "Paradox Rift",
+    "number": "23",
+    "rarity": "Common",
+    "artist": "Gemi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/23_hires.png"
+  },
+  {
+    "id": "sv4-24",
+    "name": "Crocalor",
+    "setName": "Paradox Rift",
+    "number": "24",
+    "rarity": "Uncommon",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/24_hires.png"
+  },
+  {
+    "id": "sv4-25",
+    "name": "Charcadet",
+    "setName": "Paradox Rift",
+    "number": "25",
+    "rarity": "Common",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv4/25_hires.png"
+  },
+  {
+    "id": "sv4-26",
+    "name": "Charcadet",
+    "setName": "Paradox Rift",
+    "number": "26",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv4/26_hires.png"
+  },
+  {
+    "id": "sv4-27",
+    "name": "Armarouge ex",
+    "setName": "Paradox Rift",
+    "number": "27",
+    "rarity": "Double Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/27_hires.png"
+  },
+  {
+    "id": "sv4-28",
+    "name": "Iron Moth",
+    "setName": "Paradox Rift",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv4/28_hires.png"
+  },
+  {
+    "id": "sv4-29",
+    "name": "Chi-Yu",
+    "setName": "Paradox Rift",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/29_hires.png"
+  },
+  {
+    "id": "sv4-30",
+    "name": "Horsea",
+    "setName": "Paradox Rift",
+    "number": "30",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv4/30_hires.png"
+  },
+  {
+    "id": "sv4-31",
+    "name": "Seadra",
+    "setName": "Paradox Rift",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/sv4/31_hires.png"
+  },
+  {
+    "id": "sv4-32",
+    "name": "Kingdra",
+    "setName": "Paradox Rift",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Tonji Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv4/32_hires.png"
+  },
+  {
+    "id": "sv4-33",
+    "name": "Remoraid",
+    "setName": "Paradox Rift",
+    "number": "33",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/sv4/33_hires.png"
+  },
+  {
+    "id": "sv4-34",
+    "name": "Octillery",
+    "setName": "Paradox Rift",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv4/34_hires.png"
+  },
+  {
+    "id": "sv4-35",
+    "name": "Feebas",
+    "setName": "Paradox Rift",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "Tetsu Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/35_hires.png"
+  },
+  {
+    "id": "sv4-36",
+    "name": "Milotic",
+    "setName": "Paradox Rift",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Atsuya Uki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/36_hires.png"
+  },
+  {
+    "id": "sv4-37",
+    "name": "Snorunt",
+    "setName": "Paradox Rift",
+    "number": "37",
+    "rarity": "Common",
+    "artist": "satoma",
+    "imageUrl": "https://images.pokemontcg.io/sv4/37_hires.png"
+  },
+  {
+    "id": "sv4-38",
+    "name": "Garchomp ex",
+    "setName": "Paradox Rift",
+    "number": "38",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/38_hires.png"
+  },
+  {
+    "id": "sv4-39",
+    "name": "Mantyke",
+    "setName": "Paradox Rift",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/39_hires.png"
+  },
+  {
+    "id": "sv4-40",
+    "name": "Palkia",
+    "setName": "Paradox Rift",
+    "number": "40",
+    "rarity": "Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/sv4/40_hires.png"
+  },
+  {
+    "id": "sv4-41",
+    "name": "Panpour",
+    "setName": "Paradox Rift",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "Natsumi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv4/41_hires.png"
+  },
+  {
+    "id": "sv4-42",
+    "name": "Simipour",
+    "setName": "Paradox Rift",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv4/42_hires.png"
+  },
+  {
+    "id": "sv4-43",
+    "name": "Vanillite",
+    "setName": "Paradox Rift",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/43_hires.png"
+  },
+  {
+    "id": "sv4-44",
+    "name": "Vanillish",
+    "setName": "Paradox Rift",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/sv4/44_hires.png"
+  },
+  {
+    "id": "sv4-45",
+    "name": "Vanilluxe",
+    "setName": "Paradox Rift",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Nelnal",
+    "imageUrl": "https://images.pokemontcg.io/sv4/45_hires.png"
+  },
+  {
+    "id": "sv4-46",
+    "name": "Tsareena ex",
+    "setName": "Paradox Rift",
+    "number": "46",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/46_hires.png"
+  },
+  {
+    "id": "sv4-47",
+    "name": "Wimpod",
+    "setName": "Paradox Rift",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/47_hires.png"
+  },
+  {
+    "id": "sv4-48",
+    "name": "Wimpod",
+    "setName": "Paradox Rift",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv4/48_hires.png"
+  },
+  {
+    "id": "sv4-49",
+    "name": "Golisopod",
+    "setName": "Paradox Rift",
+    "number": "49",
+    "rarity": "Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv4/49_hires.png"
+  },
+  {
+    "id": "sv4-50",
+    "name": "Golisopod ex",
+    "setName": "Paradox Rift",
+    "number": "50",
+    "rarity": "Double Rare",
+    "artist": "N-DESIGN Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/50_hires.png"
+  },
+  {
+    "id": "sv4-51",
+    "name": "Wiglett",
+    "setName": "Paradox Rift",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/51_hires.png"
+  },
+  {
+    "id": "sv4-52",
+    "name": "Wiglett",
+    "setName": "Paradox Rift",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv4/52_hires.png"
+  },
+  {
+    "id": "sv4-53",
+    "name": "Wugtrio",
+    "setName": "Paradox Rift",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv4/53_hires.png"
+  },
+  {
+    "id": "sv4-54",
+    "name": "Veluza",
+    "setName": "Paradox Rift",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/54_hires.png"
+  },
+  {
+    "id": "sv4-55",
+    "name": "Dondozo",
+    "setName": "Paradox Rift",
+    "number": "55",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv4/55_hires.png"
+  },
+  {
+    "id": "sv4-56",
+    "name": "Iron Bundle",
+    "setName": "Paradox Rift",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/56_hires.png"
+  },
+  {
+    "id": "sv4-57",
+    "name": "Chien-Pao",
+    "setName": "Paradox Rift",
+    "number": "57",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv4/57_hires.png"
+  },
+  {
+    "id": "sv4-58",
+    "name": "Mewtwo ex",
+    "setName": "Paradox Rift",
+    "number": "58",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv4/58_hires.png"
+  },
+  {
+    "id": "sv4-59",
+    "name": "Elekid",
+    "setName": "Paradox Rift",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/59_hires.png"
+  },
+  {
+    "id": "sv4-60",
+    "name": "Plusle",
+    "setName": "Paradox Rift",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sv4/60_hires.png"
+  },
+  {
+    "id": "sv4-61",
+    "name": "Minun",
+    "setName": "Paradox Rift",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv4/61_hires.png"
+  },
+  {
+    "id": "sv4-62",
+    "name": "Blitzle",
+    "setName": "Paradox Rift",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Shinji Kanda",
+    "imageUrl": "https://images.pokemontcg.io/sv4/62_hires.png"
+  },
+  {
+    "id": "sv4-63",
+    "name": "Zebstrika",
+    "setName": "Paradox Rift",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv4/63_hires.png"
+  },
+  {
+    "id": "sv4-64",
+    "name": "Joltik",
+    "setName": "Paradox Rift",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Kedamahadaitai Yawarakai",
+    "imageUrl": "https://images.pokemontcg.io/sv4/64_hires.png"
+  },
+  {
+    "id": "sv4-65",
+    "name": "Galvantula",
+    "setName": "Paradox Rift",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv4/65_hires.png"
+  },
+  {
+    "id": "sv4-66",
+    "name": "Zekrom",
+    "setName": "Paradox Rift",
+    "number": "66",
+    "rarity": "Rare",
+    "artist": "Shiburingaru",
+    "imageUrl": "https://images.pokemontcg.io/sv4/66_hires.png"
+  },
+  {
+    "id": "sv4-67",
+    "name": "Oricorio",
+    "setName": "Paradox Rift",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv4/67_hires.png"
+  },
+  {
+    "id": "sv4-68",
+    "name": "Tapu Koko ex",
+    "setName": "Paradox Rift",
+    "number": "68",
+    "rarity": "Double Rare",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv4/68_hires.png"
+  },
+  {
+    "id": "sv4-69",
+    "name": "Toxel",
+    "setName": "Paradox Rift",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv4/69_hires.png"
+  },
+  {
+    "id": "sv4-70",
+    "name": "Iron Hands ex",
+    "setName": "Paradox Rift",
+    "number": "70",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/70_hires.png"
+  },
+  {
+    "id": "sv4-71",
+    "name": "Natu",
+    "setName": "Paradox Rift",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/sv4/71_hires.png"
+  },
+  {
+    "id": "sv4-72",
+    "name": "Xatu",
+    "setName": "Paradox Rift",
+    "number": "72",
+    "rarity": "Rare",
+    "artist": "Tetsu Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/72_hires.png"
+  },
+  {
+    "id": "sv4-73",
+    "name": "Latios",
+    "setName": "Paradox Rift",
+    "number": "73",
+    "rarity": "Rare",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/73_hires.png"
+  },
+  {
+    "id": "sv4-74",
+    "name": "Deoxys",
+    "setName": "Paradox Rift",
+    "number": "74",
+    "rarity": "Rare",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv4/74_hires.png"
+  },
+  {
+    "id": "sv4-75",
+    "name": "Yamask",
+    "setName": "Paradox Rift",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/sv4/75_hires.png"
+  },
+  {
+    "id": "sv4-76",
+    "name": "Cofagrigus ex",
+    "setName": "Paradox Rift",
+    "number": "76",
+    "rarity": "Double Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/76_hires.png"
+  },
+  {
+    "id": "sv4-77",
+    "name": "Pumpkaboo",
+    "setName": "Paradox Rift",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/77_hires.png"
+  },
+  {
+    "id": "sv4-78",
+    "name": "Gourgeist",
+    "setName": "Paradox Rift",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "nisimono",
+    "imageUrl": "https://images.pokemontcg.io/sv4/78_hires.png"
+  },
+  {
+    "id": "sv4-79",
+    "name": "Flittle",
+    "setName": "Paradox Rift",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv4/79_hires.png"
+  },
+  {
+    "id": "sv4-80",
+    "name": "Flittle",
+    "setName": "Paradox Rift",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/80_hires.png"
+  },
+  {
+    "id": "sv4-81",
+    "name": "Espathra",
+    "setName": "Paradox Rift",
+    "number": "81",
+    "rarity": "Rare",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv4/81_hires.png"
+  },
+  {
+    "id": "sv4-82",
+    "name": "Tinkatink",
+    "setName": "Paradox Rift",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv4/82_hires.png"
+  },
+  {
+    "id": "sv4-83",
+    "name": "Tinkatink",
+    "setName": "Paradox Rift",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/83_hires.png"
+  },
+  {
+    "id": "sv4-84",
+    "name": "Tinkatuff",
+    "setName": "Paradox Rift",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv4/84_hires.png"
+  },
+  {
+    "id": "sv4-85",
+    "name": "Tinkaton",
+    "setName": "Paradox Rift",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/85_hires.png"
+  },
+  {
+    "id": "sv4-86",
+    "name": "Scream Tail",
+    "setName": "Paradox Rift",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/86_hires.png"
+  },
+  {
+    "id": "sv4-87",
+    "name": "Gimmighoul",
+    "setName": "Paradox Rift",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv4/87_hires.png"
+  },
+  {
+    "id": "sv4-88",
+    "name": "Gimmighoul",
+    "setName": "Paradox Rift",
+    "number": "88",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv4/88_hires.png"
+  },
+  {
+    "id": "sv4-89",
+    "name": "Iron Valiant ex",
+    "setName": "Paradox Rift",
+    "number": "89",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv4/89_hires.png"
+  },
+  {
+    "id": "sv4-90",
+    "name": "Onix",
+    "setName": "Paradox Rift",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "Shiburingaru",
+    "imageUrl": "https://images.pokemontcg.io/sv4/90_hires.png"
+  },
+  {
+    "id": "sv4-91",
+    "name": "Gligar",
+    "setName": "Paradox Rift",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv4/91_hires.png"
+  },
+  {
+    "id": "sv4-92",
+    "name": "Gliscor",
+    "setName": "Paradox Rift",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv4/92_hires.png"
+  },
+  {
+    "id": "sv4-93",
+    "name": "Groudon",
+    "setName": "Paradox Rift",
+    "number": "93",
+    "rarity": "Rare",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/sv4/93_hires.png"
+  },
+  {
+    "id": "sv4-94",
+    "name": "Gible",
+    "setName": "Paradox Rift",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/94_hires.png"
+  },
+  {
+    "id": "sv4-95",
+    "name": "Gabite",
+    "setName": "Paradox Rift",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv4/95_hires.png"
+  },
+  {
+    "id": "sv4-96",
+    "name": "Mienfoo",
+    "setName": "Paradox Rift",
+    "number": "96",
+    "rarity": "Common",
+    "artist": "Natsumi Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv4/96_hires.png"
+  },
+  {
+    "id": "sv4-97",
+    "name": "Mienshao",
+    "setName": "Paradox Rift",
+    "number": "97",
+    "rarity": "Uncommon",
+    "artist": "Mousho",
+    "imageUrl": "https://images.pokemontcg.io/sv4/97_hires.png"
+  },
+  {
+    "id": "sv4-98",
+    "name": "Hoopa ex",
+    "setName": "Paradox Rift",
+    "number": "98",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/98_hires.png"
+  },
+  {
+    "id": "sv4-99",
+    "name": "Minior",
+    "setName": "Paradox Rift",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "OKUBO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/99_hires.png"
+  },
+  {
+    "id": "sv4-100",
+    "name": "Toxtricity ex",
+    "setName": "Paradox Rift",
+    "number": "100",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/100_hires.png"
+  },
+  {
+    "id": "sv4-101",
+    "name": "Nacli",
+    "setName": "Paradox Rift",
+    "number": "101",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv4/101_hires.png"
+  },
+  {
+    "id": "sv4-102",
+    "name": "Nacli",
+    "setName": "Paradox Rift",
+    "number": "102",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/102_hires.png"
+  },
+  {
+    "id": "sv4-103",
+    "name": "Naclstack",
+    "setName": "Paradox Rift",
+    "number": "103",
+    "rarity": "Common",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/103_hires.png"
+  },
+  {
+    "id": "sv4-104",
+    "name": "Garganacl",
+    "setName": "Paradox Rift",
+    "number": "104",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv4/104_hires.png"
+  },
+  {
+    "id": "sv4-105",
+    "name": "Klawf",
+    "setName": "Paradox Rift",
+    "number": "105",
+    "rarity": "Uncommon",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv4/105_hires.png"
+  },
+  {
+    "id": "sv4-106",
+    "name": "Flamigo",
+    "setName": "Paradox Rift",
+    "number": "106",
+    "rarity": "Common",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv4/106_hires.png"
+  },
+  {
+    "id": "sv4-107",
+    "name": "Slither Wing",
+    "setName": "Paradox Rift",
+    "number": "107",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv4/107_hires.png"
+  },
+  {
+    "id": "sv4-108",
+    "name": "Sandy Shocks ex",
+    "setName": "Paradox Rift",
+    "number": "108",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/108_hires.png"
+  },
+  {
+    "id": "sv4-109",
+    "name": "Ting-Lu",
+    "setName": "Paradox Rift",
+    "number": "109",
+    "rarity": "Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/109_hires.png"
+  },
+  {
+    "id": "sv4-110",
+    "name": "Zubat",
+    "setName": "Paradox Rift",
+    "number": "110",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/110_hires.png"
+  },
+  {
+    "id": "sv4-111",
+    "name": "Golbat",
+    "setName": "Paradox Rift",
+    "number": "111",
+    "rarity": "Common",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/111_hires.png"
+  },
+  {
+    "id": "sv4-112",
+    "name": "Crobat",
+    "setName": "Paradox Rift",
+    "number": "112",
+    "rarity": "Uncommon",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/sv4/112_hires.png"
+  },
+  {
+    "id": "sv4-113",
+    "name": "Absol",
+    "setName": "Paradox Rift",
+    "number": "113",
+    "rarity": "Uncommon",
+    "artist": "Shinji Kanda",
+    "imageUrl": "https://images.pokemontcg.io/sv4/113_hires.png"
+  },
+  {
+    "id": "sv4-114",
+    "name": "Purrloin",
+    "setName": "Paradox Rift",
+    "number": "114",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sv4/114_hires.png"
+  },
+  {
+    "id": "sv4-115",
+    "name": "Liepard",
+    "setName": "Paradox Rift",
+    "number": "115",
+    "rarity": "Common",
+    "artist": "Yoshioka",
+    "imageUrl": "https://images.pokemontcg.io/sv4/115_hires.png"
+  },
+  {
+    "id": "sv4-116",
+    "name": "Trubbish",
+    "setName": "Paradox Rift",
+    "number": "116",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv4/116_hires.png"
+  },
+  {
+    "id": "sv4-117",
+    "name": "Garbodor",
+    "setName": "Paradox Rift",
+    "number": "117",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/sv4/117_hires.png"
+  },
+  {
+    "id": "sv4-118",
+    "name": "Yveltal",
+    "setName": "Paradox Rift",
+    "number": "118",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/118_hires.png"
+  },
+  {
+    "id": "sv4-119",
+    "name": "Nickit",
+    "setName": "Paradox Rift",
+    "number": "119",
+    "rarity": "Common",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv4/119_hires.png"
+  },
+  {
+    "id": "sv4-120",
+    "name": "Thievul",
+    "setName": "Paradox Rift",
+    "number": "120",
+    "rarity": "Rare",
+    "artist": "SIE NANAHARA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/120_hires.png"
+  },
+  {
+    "id": "sv4-121",
+    "name": "Morpeko",
+    "setName": "Paradox Rift",
+    "number": "121",
+    "rarity": "Rare",
+    "artist": "Cona Nitanda",
+    "imageUrl": "https://images.pokemontcg.io/sv4/121_hires.png"
+  },
+  {
+    "id": "sv4-122",
+    "name": "Lokix",
+    "setName": "Paradox Rift",
+    "number": "122",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv4/122_hires.png"
+  },
+  {
+    "id": "sv4-123",
+    "name": "Brute Bonnet",
+    "setName": "Paradox Rift",
+    "number": "123",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv4/123_hires.png"
+  },
+  {
+    "id": "sv4-124",
+    "name": "Roaring Moon ex",
+    "setName": "Paradox Rift",
+    "number": "124",
+    "rarity": "Double Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/124_hires.png"
+  },
+  {
+    "id": "sv4-125",
+    "name": "Steelix",
+    "setName": "Paradox Rift",
+    "number": "125",
+    "rarity": "Rare",
+    "artist": "Po-Suzuki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/125_hires.png"
+  },
+  {
+    "id": "sv4-126",
+    "name": "Jirachi",
+    "setName": "Paradox Rift",
+    "number": "126",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sv4/126_hires.png"
+  },
+  {
+    "id": "sv4-127",
+    "name": "Ferroseed",
+    "setName": "Paradox Rift",
+    "number": "127",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv4/127_hires.png"
+  },
+  {
+    "id": "sv4-128",
+    "name": "Ferrothorn",
+    "setName": "Paradox Rift",
+    "number": "128",
+    "rarity": "Uncommon",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/sv4/128_hires.png"
+  },
+  {
+    "id": "sv4-129",
+    "name": "Durant",
+    "setName": "Paradox Rift",
+    "number": "129",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/sv4/129_hires.png"
+  },
+  {
+    "id": "sv4-130",
+    "name": "Honedge",
+    "setName": "Paradox Rift",
+    "number": "130",
+    "rarity": "Common",
+    "artist": "aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/130_hires.png"
+  },
+  {
+    "id": "sv4-131",
+    "name": "Honedge",
+    "setName": "Paradox Rift",
+    "number": "131",
+    "rarity": "Common",
+    "artist": "Nagomi Nijo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/131_hires.png"
+  },
+  {
+    "id": "sv4-132",
+    "name": "Doublade",
+    "setName": "Paradox Rift",
+    "number": "132",
+    "rarity": "Common",
+    "artist": "Bun Toujo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/132_hires.png"
+  },
+  {
+    "id": "sv4-133",
+    "name": "Doublade",
+    "setName": "Paradox Rift",
+    "number": "133",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/133_hires.png"
+  },
+  {
+    "id": "sv4-134",
+    "name": "Aegislash",
+    "setName": "Paradox Rift",
+    "number": "134",
+    "rarity": "Rare",
+    "artist": "Jiro Sasumo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/134_hires.png"
+  },
+  {
+    "id": "sv4-135",
+    "name": "Aegislash ex",
+    "setName": "Paradox Rift",
+    "number": "135",
+    "rarity": "Double Rare",
+    "artist": "toriyufu",
+    "imageUrl": "https://images.pokemontcg.io/sv4/135_hires.png"
+  },
+  {
+    "id": "sv4-136",
+    "name": "Zacian",
+    "setName": "Paradox Rift",
+    "number": "136",
+    "rarity": "Rare",
+    "artist": "Tonji Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv4/136_hires.png"
+  },
+  {
+    "id": "sv4-137",
+    "name": "Skeledirge ex",
+    "setName": "Paradox Rift",
+    "number": "137",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/137_hires.png"
+  },
+  {
+    "id": "sv4-138",
+    "name": "Orthworm",
+    "setName": "Paradox Rift",
+    "number": "138",
+    "rarity": "Uncommon",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/138_hires.png"
+  },
+  {
+    "id": "sv4-139",
+    "name": "Gholdengo ex",
+    "setName": "Paradox Rift",
+    "number": "139",
+    "rarity": "Double Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/139_hires.png"
+  },
+  {
+    "id": "sv4-140",
+    "name": "Altaria ex",
+    "setName": "Paradox Rift",
+    "number": "140",
+    "rarity": "Double Rare",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/sv4/140_hires.png"
+  },
+  {
+    "id": "sv4-141",
+    "name": "Tatsugiri",
+    "setName": "Paradox Rift",
+    "number": "141",
+    "rarity": "Uncommon",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/141_hires.png"
+  },
+  {
+    "id": "sv4-142",
+    "name": "Porygon",
+    "setName": "Paradox Rift",
+    "number": "142",
+    "rarity": "Common",
+    "artist": "Taiga Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/142_hires.png"
+  },
+  {
+    "id": "sv4-143",
+    "name": "Porygon2",
+    "setName": "Paradox Rift",
+    "number": "143",
+    "rarity": "Common",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv4/143_hires.png"
+  },
+  {
+    "id": "sv4-144",
+    "name": "Porygon-Z",
+    "setName": "Paradox Rift",
+    "number": "144",
+    "rarity": "Rare",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/sv4/144_hires.png"
+  },
+  {
+    "id": "sv4-145",
+    "name": "Aipom",
+    "setName": "Paradox Rift",
+    "number": "145",
+    "rarity": "Common",
+    "artist": "aspara",
+    "imageUrl": "https://images.pokemontcg.io/sv4/145_hires.png"
+  },
+  {
+    "id": "sv4-146",
+    "name": "Ambipom",
+    "setName": "Paradox Rift",
+    "number": "146",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv4/146_hires.png"
+  },
+  {
+    "id": "sv4-147",
+    "name": "Miltank",
+    "setName": "Paradox Rift",
+    "number": "147",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv4/147_hires.png"
+  },
+  {
+    "id": "sv4-148",
+    "name": "Whismur",
+    "setName": "Paradox Rift",
+    "number": "148",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv4/148_hires.png"
+  },
+  {
+    "id": "sv4-149",
+    "name": "Loudred",
+    "setName": "Paradox Rift",
+    "number": "149",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/sv4/149_hires.png"
+  },
+  {
+    "id": "sv4-150",
+    "name": "Exploud",
+    "setName": "Paradox Rift",
+    "number": "150",
+    "rarity": "Uncommon",
+    "artist": "LINNE",
+    "imageUrl": "https://images.pokemontcg.io/sv4/150_hires.png"
+  },
+  {
+    "id": "sv4-151",
+    "name": "Spinda",
+    "setName": "Paradox Rift",
+    "number": "151",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/sv4/151_hires.png"
+  },
+  {
+    "id": "sv4-152",
+    "name": "Swablu",
+    "setName": "Paradox Rift",
+    "number": "152",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv4/152_hires.png"
+  },
+  {
+    "id": "sv4-153",
+    "name": "Tandemaus",
+    "setName": "Paradox Rift",
+    "number": "153",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/153_hires.png"
+  },
+  {
+    "id": "sv4-154",
+    "name": "Tandemaus",
+    "setName": "Paradox Rift",
+    "number": "154",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/154_hires.png"
+  },
+  {
+    "id": "sv4-155",
+    "name": "Maushold ex",
+    "setName": "Paradox Rift",
+    "number": "155",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/155_hires.png"
+  },
+  {
+    "id": "sv4-156",
+    "name": "Bombirdier ex",
+    "setName": "Paradox Rift",
+    "number": "156",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/156_hires.png"
+  },
+  {
+    "id": "sv4-157",
+    "name": "Cyclizar",
+    "setName": "Paradox Rift",
+    "number": "157",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/157_hires.png"
+  },
+  {
+    "id": "sv4-158",
+    "name": "Iron Jugulis",
+    "setName": "Paradox Rift",
+    "number": "158",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv4/158_hires.png"
+  },
+  {
+    "id": "sv4-159",
+    "name": "Ancient Booster Energy Capsule",
+    "setName": "Paradox Rift",
+    "number": "159",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/159_hires.png"
+  },
+  {
+    "id": "sv4-160",
+    "name": "Counter Catcher",
+    "setName": "Paradox Rift",
+    "number": "160",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv4/160_hires.png"
+  },
+  {
+    "id": "sv4-161",
+    "name": "Cursed Duster",
+    "setName": "Paradox Rift",
+    "number": "161",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/161_hires.png"
+  },
+  {
+    "id": "sv4-162",
+    "name": "Defiance Vest",
+    "setName": "Paradox Rift",
+    "number": "162",
+    "rarity": "Uncommon",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv4/162_hires.png"
+  },
+  {
+    "id": "sv4-163",
+    "name": "Earthen Vessel",
+    "setName": "Paradox Rift",
+    "number": "163",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/163_hires.png"
+  },
+  {
+    "id": "sv4-164",
+    "name": "Future Booster Energy Capsule",
+    "setName": "Paradox Rift",
+    "number": "164",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/164_hires.png"
+  },
+  {
+    "id": "sv4-165",
+    "name": "Larry",
+    "setName": "Paradox Rift",
+    "number": "165",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/165_hires.png"
+  },
+  {
+    "id": "sv4-166",
+    "name": "Luxurious Cape",
+    "setName": "Paradox Rift",
+    "number": "166",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv4/166_hires.png"
+  },
+  {
+    "id": "sv4-167",
+    "name": "Mela",
+    "setName": "Paradox Rift",
+    "number": "167",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/167_hires.png"
+  },
+  {
+    "id": "sv4-168",
+    "name": "Norman",
+    "setName": "Paradox Rift",
+    "number": "168",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/168_hires.png"
+  },
+  {
+    "id": "sv4-169",
+    "name": "Parasol Lady",
+    "setName": "Paradox Rift",
+    "number": "169",
+    "rarity": "Common",
+    "artist": "Cona Nitanda",
+    "imageUrl": "https://images.pokemontcg.io/sv4/169_hires.png"
+  },
+  {
+    "id": "sv4-170",
+    "name": "Professor Sada's Vitality",
+    "setName": "Paradox Rift",
+    "number": "170",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sv4/170_hires.png"
+  },
+  {
+    "id": "sv4-171",
+    "name": "Professor Turo's Scenario",
+    "setName": "Paradox Rift",
+    "number": "171",
+    "rarity": "Uncommon",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv4/171_hires.png"
+  },
+  {
+    "id": "sv4-172",
+    "name": "Rika",
+    "setName": "Paradox Rift",
+    "number": "172",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/172_hires.png"
+  },
+  {
+    "id": "sv4-173",
+    "name": "Roark",
+    "setName": "Paradox Rift",
+    "number": "173",
+    "rarity": "Uncommon",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/sv4/173_hires.png"
+  },
+  {
+    "id": "sv4-174",
+    "name": "Shauntal",
+    "setName": "Paradox Rift",
+    "number": "174",
+    "rarity": "Uncommon",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv4/174_hires.png"
+  },
+  {
+    "id": "sv4-175",
+    "name": "Snorlax Doll",
+    "setName": "Paradox Rift",
+    "number": "175",
+    "rarity": "Uncommon",
+    "artist": "AYUMI ODASHIMA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/175_hires.png"
+  },
+  {
+    "id": "sv4-176",
+    "name": "Technical Machine: Blindside",
+    "setName": "Paradox Rift",
+    "number": "176",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/176_hires.png"
+  },
+  {
+    "id": "sv4-177",
+    "name": "Technical Machine: Devolution",
+    "setName": "Paradox Rift",
+    "number": "177",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/177_hires.png"
+  },
+  {
+    "id": "sv4-178",
+    "name": "Technical Machine: Evolution",
+    "setName": "Paradox Rift",
+    "number": "178",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/178_hires.png"
+  },
+  {
+    "id": "sv4-179",
+    "name": "Technical Machine: Turbo Energize",
+    "setName": "Paradox Rift",
+    "number": "179",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/179_hires.png"
+  },
+  {
+    "id": "sv4-180",
+    "name": "Techno Radar",
+    "setName": "Paradox Rift",
+    "number": "180",
+    "rarity": "Uncommon",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/sv4/180_hires.png"
+  },
+  {
+    "id": "sv4-181",
+    "name": "Tulip",
+    "setName": "Paradox Rift",
+    "number": "181",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv4/181_hires.png"
+  },
+  {
+    "id": "sv4-182",
+    "name": "Medical Energy",
+    "setName": "Paradox Rift",
+    "number": "182",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv4/182_hires.png"
+  },
+  {
+    "id": "sv4-183",
+    "name": "Crustle",
+    "setName": "Paradox Rift",
+    "number": "183",
+    "rarity": "Illustration Rare",
+    "artist": "OKUBO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/183_hires.png"
+  },
+  {
+    "id": "sv4-184",
+    "name": "Dottler",
+    "setName": "Paradox Rift",
+    "number": "184",
+    "rarity": "Illustration Rare",
+    "artist": "Tetsu Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/184_hires.png"
+  },
+  {
+    "id": "sv4-185",
+    "name": "Toedscruel",
+    "setName": "Paradox Rift",
+    "number": "185",
+    "rarity": "Illustration Rare",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/185_hires.png"
+  },
+  {
+    "id": "sv4-186",
+    "name": "Magby",
+    "setName": "Paradox Rift",
+    "number": "186",
+    "rarity": "Illustration Rare",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv4/186_hires.png"
+  },
+  {
+    "id": "sv4-187",
+    "name": "Iron Moth",
+    "setName": "Paradox Rift",
+    "number": "187",
+    "rarity": "Illustration Rare",
+    "artist": "Takeshi Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/sv4/187_hires.png"
+  },
+  {
+    "id": "sv4-188",
+    "name": "Snorunt",
+    "setName": "Paradox Rift",
+    "number": "188",
+    "rarity": "Illustration Rare",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv4/188_hires.png"
+  },
+  {
+    "id": "sv4-189",
+    "name": "Mantyke",
+    "setName": "Paradox Rift",
+    "number": "189",
+    "rarity": "Illustration Rare",
+    "artist": "rika",
+    "imageUrl": "https://images.pokemontcg.io/sv4/189_hires.png"
+  },
+  {
+    "id": "sv4-190",
+    "name": "Vanillish",
+    "setName": "Paradox Rift",
+    "number": "190",
+    "rarity": "Illustration Rare",
+    "artist": "Taiga Kayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/190_hires.png"
+  },
+  {
+    "id": "sv4-191",
+    "name": "Wimpod",
+    "setName": "Paradox Rift",
+    "number": "191",
+    "rarity": "Illustration Rare",
+    "artist": "Oku",
+    "imageUrl": "https://images.pokemontcg.io/sv4/191_hires.png"
+  },
+  {
+    "id": "sv4-192",
+    "name": "Veluza",
+    "setName": "Paradox Rift",
+    "number": "192",
+    "rarity": "Illustration Rare",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/192_hires.png"
+  },
+  {
+    "id": "sv4-193",
+    "name": "Plusle",
+    "setName": "Paradox Rift",
+    "number": "193",
+    "rarity": "Illustration Rare",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv4/193_hires.png"
+  },
+  {
+    "id": "sv4-194",
+    "name": "Minun",
+    "setName": "Paradox Rift",
+    "number": "194",
+    "rarity": "Illustration Rare",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv4/194_hires.png"
+  },
+  {
+    "id": "sv4-195",
+    "name": "Blitzle",
+    "setName": "Paradox Rift",
+    "number": "195",
+    "rarity": "Illustration Rare",
+    "artist": "matazo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/195_hires.png"
+  },
+  {
+    "id": "sv4-196",
+    "name": "Joltik",
+    "setName": "Paradox Rift",
+    "number": "196",
+    "rarity": "Illustration Rare",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/196_hires.png"
+  },
+  {
+    "id": "sv4-197",
+    "name": "Espathra",
+    "setName": "Paradox Rift",
+    "number": "197",
+    "rarity": "Illustration Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/197_hires.png"
+  },
+  {
+    "id": "sv4-198",
+    "name": "Gimmighoul",
+    "setName": "Paradox Rift",
+    "number": "198",
+    "rarity": "Illustration Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/198_hires.png"
+  },
+  {
+    "id": "sv4-199",
+    "name": "Groudon",
+    "setName": "Paradox Rift",
+    "number": "199",
+    "rarity": "Illustration Rare",
+    "artist": "Nurikabe",
+    "imageUrl": "https://images.pokemontcg.io/sv4/199_hires.png"
+  },
+  {
+    "id": "sv4-200",
+    "name": "Mienshao",
+    "setName": "Paradox Rift",
+    "number": "200",
+    "rarity": "Illustration Rare",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv4/200_hires.png"
+  },
+  {
+    "id": "sv4-201",
+    "name": "Minior",
+    "setName": "Paradox Rift",
+    "number": "201",
+    "rarity": "Illustration Rare",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sv4/201_hires.png"
+  },
+  {
+    "id": "sv4-202",
+    "name": "Garganacl",
+    "setName": "Paradox Rift",
+    "number": "202",
+    "rarity": "Illustration Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/202_hires.png"
+  },
+  {
+    "id": "sv4-203",
+    "name": "Slither Wing",
+    "setName": "Paradox Rift",
+    "number": "203",
+    "rarity": "Illustration Rare",
+    "artist": "Takeshi Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/sv4/203_hires.png"
+  },
+  {
+    "id": "sv4-204",
+    "name": "Garbodor",
+    "setName": "Paradox Rift",
+    "number": "204",
+    "rarity": "Illustration Rare",
+    "artist": "Shinya Komatsu",
+    "imageUrl": "https://images.pokemontcg.io/sv4/204_hires.png"
+  },
+  {
+    "id": "sv4-205",
+    "name": "Yveltal",
+    "setName": "Paradox Rift",
+    "number": "205",
+    "rarity": "Illustration Rare",
+    "artist": "Masako Tomii",
+    "imageUrl": "https://images.pokemontcg.io/sv4/205_hires.png"
+  },
+  {
+    "id": "sv4-206",
+    "name": "Morpeko",
+    "setName": "Paradox Rift",
+    "number": "206",
+    "rarity": "Illustration Rare",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv4/206_hires.png"
+  },
+  {
+    "id": "sv4-207",
+    "name": "Brute Bonnet",
+    "setName": "Paradox Rift",
+    "number": "207",
+    "rarity": "Illustration Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv4/207_hires.png"
+  },
+  {
+    "id": "sv4-208",
+    "name": "Steelix",
+    "setName": "Paradox Rift",
+    "number": "208",
+    "rarity": "Illustration Rare",
+    "artist": "nisimono",
+    "imageUrl": "https://images.pokemontcg.io/sv4/208_hires.png"
+  },
+  {
+    "id": "sv4-209",
+    "name": "Ferrothorn",
+    "setName": "Paradox Rift",
+    "number": "209",
+    "rarity": "Illustration Rare",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv4/209_hires.png"
+  },
+  {
+    "id": "sv4-210",
+    "name": "Aegislash",
+    "setName": "Paradox Rift",
+    "number": "210",
+    "rarity": "Illustration Rare",
+    "artist": "Takumi Wada",
+    "imageUrl": "https://images.pokemontcg.io/sv4/210_hires.png"
+  },
+  {
+    "id": "sv4-211",
+    "name": "Aipom",
+    "setName": "Paradox Rift",
+    "number": "211",
+    "rarity": "Illustration Rare",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv4/211_hires.png"
+  },
+  {
+    "id": "sv4-212",
+    "name": "Loudred",
+    "setName": "Paradox Rift",
+    "number": "212",
+    "rarity": "Illustration Rare",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/sv4/212_hires.png"
+  },
+  {
+    "id": "sv4-213",
+    "name": "Swablu",
+    "setName": "Paradox Rift",
+    "number": "213",
+    "rarity": "Illustration Rare",
+    "artist": "Jiro Sasumo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/213_hires.png"
+  },
+  {
+    "id": "sv4-214",
+    "name": "Porygon-Z",
+    "setName": "Paradox Rift",
+    "number": "214",
+    "rarity": "Illustration Rare",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv4/214_hires.png"
+  },
+  {
+    "id": "sv4-215",
+    "name": "Cyclizar",
+    "setName": "Paradox Rift",
+    "number": "215",
+    "rarity": "Illustration Rare",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv4/215_hires.png"
+  },
+  {
+    "id": "sv4-216",
+    "name": "Iron Jugulis",
+    "setName": "Paradox Rift",
+    "number": "216",
+    "rarity": "Illustration Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/216_hires.png"
+  },
+  {
+    "id": "sv4-217",
+    "name": "Froslass ex",
+    "setName": "Paradox Rift",
+    "number": "217",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/217_hires.png"
+  },
+  {
+    "id": "sv4-218",
+    "name": "Armarouge ex",
+    "setName": "Paradox Rift",
+    "number": "218",
+    "rarity": "Ultra Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/218_hires.png"
+  },
+  {
+    "id": "sv4-219",
+    "name": "Garchomp ex",
+    "setName": "Paradox Rift",
+    "number": "219",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/219_hires.png"
+  },
+  {
+    "id": "sv4-220",
+    "name": "Tsareena ex",
+    "setName": "Paradox Rift",
+    "number": "220",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/220_hires.png"
+  },
+  {
+    "id": "sv4-221",
+    "name": "Golisopod ex",
+    "setName": "Paradox Rift",
+    "number": "221",
+    "rarity": "Ultra Rare",
+    "artist": "N-DESIGN Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv4/221_hires.png"
+  },
+  {
+    "id": "sv4-222",
+    "name": "Tapu Koko ex",
+    "setName": "Paradox Rift",
+    "number": "222",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/sv4/222_hires.png"
+  },
+  {
+    "id": "sv4-223",
+    "name": "Iron Hands ex",
+    "setName": "Paradox Rift",
+    "number": "223",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/223_hires.png"
+  },
+  {
+    "id": "sv4-224",
+    "name": "Cofagrigus ex",
+    "setName": "Paradox Rift",
+    "number": "224",
+    "rarity": "Ultra Rare",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sv4/224_hires.png"
+  },
+  {
+    "id": "sv4-225",
+    "name": "Iron Valiant ex",
+    "setName": "Paradox Rift",
+    "number": "225",
+    "rarity": "Ultra Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv4/225_hires.png"
+  },
+  {
+    "id": "sv4-226",
+    "name": "Hoopa ex",
+    "setName": "Paradox Rift",
+    "number": "226",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/226_hires.png"
+  },
+  {
+    "id": "sv4-227",
+    "name": "Toxtricity ex",
+    "setName": "Paradox Rift",
+    "number": "227",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/227_hires.png"
+  },
+  {
+    "id": "sv4-228",
+    "name": "Sandy Shocks ex",
+    "setName": "Paradox Rift",
+    "number": "228",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/228_hires.png"
+  },
+  {
+    "id": "sv4-229",
+    "name": "Roaring Moon ex",
+    "setName": "Paradox Rift",
+    "number": "229",
+    "rarity": "Ultra Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/229_hires.png"
+  },
+  {
+    "id": "sv4-230",
+    "name": "Aegislash ex",
+    "setName": "Paradox Rift",
+    "number": "230",
+    "rarity": "Ultra Rare",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/sv4/230_hires.png"
+  },
+  {
+    "id": "sv4-231",
+    "name": "Gholdengo ex",
+    "setName": "Paradox Rift",
+    "number": "231",
+    "rarity": "Ultra Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/231_hires.png"
+  },
+  {
+    "id": "sv4-232",
+    "name": "Altaria ex",
+    "setName": "Paradox Rift",
+    "number": "232",
+    "rarity": "Ultra Rare",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/sv4/232_hires.png"
+  },
+  {
+    "id": "sv4-233",
+    "name": "Maushold ex",
+    "setName": "Paradox Rift",
+    "number": "233",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/233_hires.png"
+  },
+  {
+    "id": "sv4-234",
+    "name": "Bombirdier ex",
+    "setName": "Paradox Rift",
+    "number": "234",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/234_hires.png"
+  },
+  {
+    "id": "sv4-235",
+    "name": "Larry",
+    "setName": "Paradox Rift",
+    "number": "235",
+    "rarity": "Ultra Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/235_hires.png"
+  },
+  {
+    "id": "sv4-236",
+    "name": "Mela",
+    "setName": "Paradox Rift",
+    "number": "236",
+    "rarity": "Ultra Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/236_hires.png"
+  },
+  {
+    "id": "sv4-237",
+    "name": "Norman",
+    "setName": "Paradox Rift",
+    "number": "237",
+    "rarity": "Ultra Rare",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/237_hires.png"
+  },
+  {
+    "id": "sv4-238",
+    "name": "Parasol Lady",
+    "setName": "Paradox Rift",
+    "number": "238",
+    "rarity": "Ultra Rare",
+    "artist": "Cona Nitanda",
+    "imageUrl": "https://images.pokemontcg.io/sv4/238_hires.png"
+  },
+  {
+    "id": "sv4-239",
+    "name": "Professor Sada's Vitality",
+    "setName": "Paradox Rift",
+    "number": "239",
+    "rarity": "Ultra Rare",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sv4/239_hires.png"
+  },
+  {
+    "id": "sv4-240",
+    "name": "Professor Turo's Scenario",
+    "setName": "Paradox Rift",
+    "number": "240",
+    "rarity": "Ultra Rare",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv4/240_hires.png"
+  },
+  {
+    "id": "sv4-241",
+    "name": "Rika",
+    "setName": "Paradox Rift",
+    "number": "241",
+    "rarity": "Ultra Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/241_hires.png"
+  },
+  {
+    "id": "sv4-242",
+    "name": "Roark",
+    "setName": "Paradox Rift",
+    "number": "242",
+    "rarity": "Ultra Rare",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/sv4/242_hires.png"
+  },
+  {
+    "id": "sv4-243",
+    "name": "Shauntal",
+    "setName": "Paradox Rift",
+    "number": "243",
+    "rarity": "Ultra Rare",
+    "artist": "En Morikura",
+    "imageUrl": "https://images.pokemontcg.io/sv4/243_hires.png"
+  },
+  {
+    "id": "sv4-244",
+    "name": "Tulip",
+    "setName": "Paradox Rift",
+    "number": "244",
+    "rarity": "Ultra Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv4/244_hires.png"
+  },
+  {
+    "id": "sv4-245",
+    "name": "Garchomp ex",
+    "setName": "Paradox Rift",
+    "number": "245",
+    "rarity": "Special Illustration Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/245_hires.png"
+  },
+  {
+    "id": "sv4-246",
+    "name": "Golisopod ex",
+    "setName": "Paradox Rift",
+    "number": "246",
+    "rarity": "Special Illustration Rare",
+    "artist": "Oku",
+    "imageUrl": "https://images.pokemontcg.io/sv4/246_hires.png"
+  },
+  {
+    "id": "sv4-247",
+    "name": "Tapu Koko ex",
+    "setName": "Paradox Rift",
+    "number": "247",
+    "rarity": "Special Illustration Rare",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv4/247_hires.png"
+  },
+  {
+    "id": "sv4-248",
+    "name": "Iron Hands ex",
+    "setName": "Paradox Rift",
+    "number": "248",
+    "rarity": "Special Illustration Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/248_hires.png"
+  },
+  {
+    "id": "sv4-249",
+    "name": "Iron Valiant ex",
+    "setName": "Paradox Rift",
+    "number": "249",
+    "rarity": "Special Illustration Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv4/249_hires.png"
+  },
+  {
+    "id": "sv4-250",
+    "name": "Sandy Shocks ex",
+    "setName": "Paradox Rift",
+    "number": "250",
+    "rarity": "Special Illustration Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv4/250_hires.png"
+  },
+  {
+    "id": "sv4-251",
+    "name": "Roaring Moon ex",
+    "setName": "Paradox Rift",
+    "number": "251",
+    "rarity": "Special Illustration Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/251_hires.png"
+  },
+  {
+    "id": "sv4-252",
+    "name": "Gholdengo ex",
+    "setName": "Paradox Rift",
+    "number": "252",
+    "rarity": "Special Illustration Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/252_hires.png"
+  },
+  {
+    "id": "sv4-253",
+    "name": "Altaria ex",
+    "setName": "Paradox Rift",
+    "number": "253",
+    "rarity": "Special Illustration Rare",
+    "artist": "Jiro Sasumo",
+    "imageUrl": "https://images.pokemontcg.io/sv4/253_hires.png"
+  },
+  {
+    "id": "sv4-254",
+    "name": "Mela",
+    "setName": "Paradox Rift",
+    "number": "254",
+    "rarity": "Special Illustration Rare",
+    "artist": "rika",
+    "imageUrl": "https://images.pokemontcg.io/sv4/254_hires.png"
+  },
+  {
+    "id": "sv4-255",
+    "name": "Parasol Lady",
+    "setName": "Paradox Rift",
+    "number": "255",
+    "rarity": "Special Illustration Rare",
+    "artist": "En Morikura",
+    "imageUrl": "https://images.pokemontcg.io/sv4/255_hires.png"
+  },
+  {
+    "id": "sv4-256",
+    "name": "Professor Sada's Vitality",
+    "setName": "Paradox Rift",
+    "number": "256",
+    "rarity": "Special Illustration Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv4/256_hires.png"
+  },
+  {
+    "id": "sv4-257",
+    "name": "Professor Turo's Scenario",
+    "setName": "Paradox Rift",
+    "number": "257",
+    "rarity": "Special Illustration Rare",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/257_hires.png"
+  },
+  {
+    "id": "sv4-258",
+    "name": "Rika",
+    "setName": "Paradox Rift",
+    "number": "258",
+    "rarity": "Special Illustration Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv4/258_hires.png"
+  },
+  {
+    "id": "sv4-259",
+    "name": "Tulip",
+    "setName": "Paradox Rift",
+    "number": "259",
+    "rarity": "Special Illustration Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv4/259_hires.png"
+  },
+  {
+    "id": "sv4-260",
+    "name": "Garchomp ex",
+    "setName": "Paradox Rift",
+    "number": "260",
+    "rarity": "Hyper Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv4/260_hires.png"
+  },
+  {
+    "id": "sv4-261",
+    "name": "Iron Valiant ex",
+    "setName": "Paradox Rift",
+    "number": "261",
+    "rarity": "Hyper Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv4/261_hires.png"
+  },
+  {
+    "id": "sv4-262",
+    "name": "Roaring Moon ex",
+    "setName": "Paradox Rift",
+    "number": "262",
+    "rarity": "Hyper Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv4/262_hires.png"
+  },
+  {
+    "id": "sv4-263",
+    "name": "Beach Court",
+    "setName": "Paradox Rift",
+    "number": "263",
+    "rarity": "Hyper Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv4/263_hires.png"
+  },
+  {
+    "id": "sv4-264",
+    "name": "Counter Catcher",
+    "setName": "Paradox Rift",
+    "number": "264",
+    "rarity": "Hyper Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv4/264_hires.png"
+  },
+  {
+    "id": "sv4-265",
+    "name": "Luxurious Cape",
+    "setName": "Paradox Rift",
+    "number": "265",
+    "rarity": "Hyper Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv4/265_hires.png"
+  },
+  {
+    "id": "sv4-266",
+    "name": "Reversal Energy",
+    "setName": "Paradox Rift",
+    "number": "266",
+    "rarity": "Hyper Rare",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv4/266_hires.png"
+  }
+]

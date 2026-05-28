@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "sm6-1",
+    "name": "Exeggcute",
+    "setName": "Forbidden Light",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sm6/1_hires.png"
+  },
+  {
+    "id": "sm6-2",
+    "name": "Alolan Exeggutor",
+    "setName": "Forbidden Light",
+    "number": "2",
+    "rarity": "Rare",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/sm6/2_hires.png"
+  },
+  {
+    "id": "sm6-2a",
+    "name": "Alolan Exeggutor",
+    "setName": "Forbidden Light",
+    "number": "2a",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sm6/2a_hires.png"
+  },
+  {
+    "id": "sm6-3",
+    "name": "Snover",
+    "setName": "Forbidden Light",
+    "number": "3",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/sm6/3_hires.png"
+  },
+  {
+    "id": "sm6-4",
+    "name": "Abomasnow",
+    "setName": "Forbidden Light",
+    "number": "4",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/sm6/4_hires.png"
+  },
+  {
+    "id": "sm6-5",
+    "name": "Scatterbug",
+    "setName": "Forbidden Light",
+    "number": "5",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/5_hires.png"
+  },
+  {
+    "id": "sm6-6",
+    "name": "Scatterbug",
+    "setName": "Forbidden Light",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm6/6_hires.png"
+  },
+  {
+    "id": "sm6-7",
+    "name": "Spewpa",
+    "setName": "Forbidden Light",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sm6/7_hires.png"
+  },
+  {
+    "id": "sm6-8",
+    "name": "Vivillon",
+    "setName": "Forbidden Light",
+    "number": "8",
+    "rarity": "Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sm6/8_hires.png"
+  },
+  {
+    "id": "sm6-9",
+    "name": "Skiddo",
+    "setName": "Forbidden Light",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/9_hires.png"
+  },
+  {
+    "id": "sm6-10",
+    "name": "Gogoat",
+    "setName": "Forbidden Light",
+    "number": "10",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sm6/10_hires.png"
+  },
+  {
+    "id": "sm6-11",
+    "name": "Pheromosa",
+    "setName": "Forbidden Light",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sm6/11_hires.png"
+  },
+  {
+    "id": "sm6-12",
+    "name": "Alolan Marowak",
+    "setName": "Forbidden Light",
+    "number": "12",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/12_hires.png"
+  },
+  {
+    "id": "sm6-13",
+    "name": "Heatran",
+    "setName": "Forbidden Light",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/sm6/13_hires.png"
+  },
+  {
+    "id": "sm6-14",
+    "name": "Fennekin",
+    "setName": "Forbidden Light",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm6/14_hires.png"
+  },
+  {
+    "id": "sm6-15",
+    "name": "Fennekin",
+    "setName": "Forbidden Light",
+    "number": "15",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sm6/15_hires.png"
+  },
+  {
+    "id": "sm6-16",
+    "name": "Braixen",
+    "setName": "Forbidden Light",
+    "number": "16",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sm6/16_hires.png"
+  },
+  {
+    "id": "sm6-17",
+    "name": "Delphox",
+    "setName": "Forbidden Light",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sm6/17_hires.png"
+  },
+  {
+    "id": "sm6-18",
+    "name": "Litleo",
+    "setName": "Forbidden Light",
+    "number": "18",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sm6/18_hires.png"
+  },
+  {
+    "id": "sm6-19",
+    "name": "Pyroar",
+    "setName": "Forbidden Light",
+    "number": "19",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sm6/19_hires.png"
+  },
+  {
+    "id": "sm6-20",
+    "name": "Palkia-GX",
+    "setName": "Forbidden Light",
+    "number": "20",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/20_hires.png"
+  },
+  {
+    "id": "sm6-21",
+    "name": "Froakie",
+    "setName": "Forbidden Light",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm6/21_hires.png"
+  },
+  {
+    "id": "sm6-22",
+    "name": "Froakie",
+    "setName": "Forbidden Light",
+    "number": "22",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/sm6/22_hires.png"
+  },
+  {
+    "id": "sm6-23",
+    "name": "Frogadier",
+    "setName": "Forbidden Light",
+    "number": "23",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sm6/23_hires.png"
+  },
+  {
+    "id": "sm6-24",
+    "name": "Greninja-GX",
+    "setName": "Forbidden Light",
+    "number": "24",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/24_hires.png"
+  },
+  {
+    "id": "sm6-25",
+    "name": "Clauncher",
+    "setName": "Forbidden Light",
+    "number": "25",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/sm6/25_hires.png"
+  },
+  {
+    "id": "sm6-26",
+    "name": "Clawitzer",
+    "setName": "Forbidden Light",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/sm6/26_hires.png"
+  },
+  {
+    "id": "sm6-27",
+    "name": "Amaura",
+    "setName": "Forbidden Light",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sm6/27_hires.png"
+  },
+  {
+    "id": "sm6-28",
+    "name": "Aurorus",
+    "setName": "Forbidden Light",
+    "number": "28",
+    "rarity": "Rare Holo",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/28_hires.png"
+  },
+  {
+    "id": "sm6-29",
+    "name": "Bergmite",
+    "setName": "Forbidden Light",
+    "number": "29",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sm6/29_hires.png"
+  },
+  {
+    "id": "sm6-30",
+    "name": "Avalugg",
+    "setName": "Forbidden Light",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sm6/30_hires.png"
+  },
+  {
+    "id": "sm6-31",
+    "name": "Volcanion ◇",
+    "setName": "Forbidden Light",
+    "number": "31",
+    "rarity": "Rare Prism Star",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sm6/31_hires.png"
+  },
+  {
+    "id": "sm6-32",
+    "name": "Dewpider",
+    "setName": "Forbidden Light",
+    "number": "32",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sm6/32_hires.png"
+  },
+  {
+    "id": "sm6-33",
+    "name": "Araquanid",
+    "setName": "Forbidden Light",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sm6/33_hires.png"
+  },
+  {
+    "id": "sm6-34",
+    "name": "Magnemite",
+    "setName": "Forbidden Light",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/sm6/34_hires.png"
+  },
+  {
+    "id": "sm6-35",
+    "name": "Magneton",
+    "setName": "Forbidden Light",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/35_hires.png"
+  },
+  {
+    "id": "sm6-36",
+    "name": "Magnezone",
+    "setName": "Forbidden Light",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Yoshinobu Saito",
+    "imageUrl": "https://images.pokemontcg.io/sm6/36_hires.png"
+  },
+  {
+    "id": "sm6-37",
+    "name": "Helioptile",
+    "setName": "Forbidden Light",
+    "number": "37",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sm6/37_hires.png"
+  },
+  {
+    "id": "sm6-38",
+    "name": "Heliolisk",
+    "setName": "Forbidden Light",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/sm6/38_hires.png"
+  },
+  {
+    "id": "sm6-39",
+    "name": "Xurkitree",
+    "setName": "Forbidden Light",
+    "number": "39",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sm6/39_hires.png"
+  },
+  {
+    "id": "sm6-40",
+    "name": "Rotom",
+    "setName": "Forbidden Light",
+    "number": "40",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sm6/40_hires.png"
+  },
+  {
+    "id": "sm6-41",
+    "name": "Uxie",
+    "setName": "Forbidden Light",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sm6/41_hires.png"
+  },
+  {
+    "id": "sm6-42",
+    "name": "Mesprit",
+    "setName": "Forbidden Light",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sm6/42_hires.png"
+  },
+  {
+    "id": "sm6-43",
+    "name": "Azelf",
+    "setName": "Forbidden Light",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sm6/43_hires.png"
+  },
+  {
+    "id": "sm6-44",
+    "name": "Espurr",
+    "setName": "Forbidden Light",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sm6/44_hires.png"
+  },
+  {
+    "id": "sm6-45",
+    "name": "Meowstic",
+    "setName": "Forbidden Light",
+    "number": "45",
+    "rarity": "Rare",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sm6/45_hires.png"
+  },
+  {
+    "id": "sm6-46",
+    "name": "Honedge",
+    "setName": "Forbidden Light",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm6/46_hires.png"
+  },
+  {
+    "id": "sm6-47",
+    "name": "Honedge",
+    "setName": "Forbidden Light",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/sm6/47_hires.png"
+  },
+  {
+    "id": "sm6-48",
+    "name": "Doublade",
+    "setName": "Forbidden Light",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/48_hires.png"
+  },
+  {
+    "id": "sm6-49",
+    "name": "Aegislash",
+    "setName": "Forbidden Light",
+    "number": "49",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sm6/49_hires.png"
+  },
+  {
+    "id": "sm6-50",
+    "name": "Inkay",
+    "setName": "Forbidden Light",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sm6/50_hires.png"
+  },
+  {
+    "id": "sm6-51",
+    "name": "Malamar",
+    "setName": "Forbidden Light",
+    "number": "51",
+    "rarity": "Rare",
+    "artist": "You Iribi",
+    "imageUrl": "https://images.pokemontcg.io/sm6/51_hires.png"
+  },
+  {
+    "id": "sm6-52",
+    "name": "Skrelp",
+    "setName": "Forbidden Light",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sm6/52_hires.png"
+  },
+  {
+    "id": "sm6-53",
+    "name": "Dragalge",
+    "setName": "Forbidden Light",
+    "number": "53",
+    "rarity": "Rare",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/sm6/53_hires.png"
+  },
+  {
+    "id": "sm6-54",
+    "name": "Hoopa",
+    "setName": "Forbidden Light",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/sm6/54_hires.png"
+  },
+  {
+    "id": "sm6-55",
+    "name": "Poipole",
+    "setName": "Forbidden Light",
+    "number": "55",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sm6/55_hires.png"
+  },
+  {
+    "id": "sm6-56",
+    "name": "Naganadel-GX",
+    "setName": "Forbidden Light",
+    "number": "56",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/56_hires.png"
+  },
+  {
+    "id": "sm6-57",
+    "name": "Cubone",
+    "setName": "Forbidden Light",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sm6/57_hires.png"
+  },
+  {
+    "id": "sm6-58",
+    "name": "Torterra",
+    "setName": "Forbidden Light",
+    "number": "58",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sm6/58_hires.png"
+  },
+  {
+    "id": "sm6-59",
+    "name": "Infernape",
+    "setName": "Forbidden Light",
+    "number": "59",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sm6/59_hires.png"
+  },
+  {
+    "id": "sm6-60",
+    "name": "Gible",
+    "setName": "Forbidden Light",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/sm6/60_hires.png"
+  },
+  {
+    "id": "sm6-61",
+    "name": "Gabite",
+    "setName": "Forbidden Light",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/61_hires.png"
+  },
+  {
+    "id": "sm6-62",
+    "name": "Garchomp",
+    "setName": "Forbidden Light",
+    "number": "62",
+    "rarity": "Rare Holo",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sm6/62_hires.png"
+  },
+  {
+    "id": "sm6-63",
+    "name": "Croagunk",
+    "setName": "Forbidden Light",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/sm6/63_hires.png"
+  },
+  {
+    "id": "sm6-64",
+    "name": "Toxicroak",
+    "setName": "Forbidden Light",
+    "number": "64",
+    "rarity": "Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/sm6/64_hires.png"
+  },
+  {
+    "id": "sm6-65",
+    "name": "Pancham",
+    "setName": "Forbidden Light",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/sm6/65_hires.png"
+  },
+  {
+    "id": "sm6-66",
+    "name": "Binacle",
+    "setName": "Forbidden Light",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sm6/66_hires.png"
+  },
+  {
+    "id": "sm6-67",
+    "name": "Barbaracle",
+    "setName": "Forbidden Light",
+    "number": "67",
+    "rarity": "Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/67_hires.png"
+  },
+  {
+    "id": "sm6-68",
+    "name": "Tyrunt",
+    "setName": "Forbidden Light",
+    "number": "68",
+    "rarity": "Uncommon",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/sm6/68_hires.png"
+  },
+  {
+    "id": "sm6-69",
+    "name": "Tyrantrum",
+    "setName": "Forbidden Light",
+    "number": "69",
+    "rarity": "Rare Holo",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/sm6/69_hires.png"
+  },
+  {
+    "id": "sm6-70",
+    "name": "Hawlucha",
+    "setName": "Forbidden Light",
+    "number": "70",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sm6/70_hires.png"
+  },
+  {
+    "id": "sm6-71",
+    "name": "Zygarde",
+    "setName": "Forbidden Light",
+    "number": "71",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sm6/71_hires.png"
+  },
+  {
+    "id": "sm6-72",
+    "name": "Zygarde",
+    "setName": "Forbidden Light",
+    "number": "72",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sm6/72_hires.png"
+  },
+  {
+    "id": "sm6-73",
+    "name": "Zygarde-GX",
+    "setName": "Forbidden Light",
+    "number": "73",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/73_hires.png"
+  },
+  {
+    "id": "sm6-74",
+    "name": "Diancie ◇",
+    "setName": "Forbidden Light",
+    "number": "74",
+    "rarity": "Rare Prism Star",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sm6/74_hires.png"
+  },
+  {
+    "id": "sm6-75",
+    "name": "Rockruff",
+    "setName": "Forbidden Light",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sm6/75_hires.png"
+  },
+  {
+    "id": "sm6-76",
+    "name": "Lycanroc",
+    "setName": "Forbidden Light",
+    "number": "76",
+    "rarity": "Rare",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sm6/76_hires.png"
+  },
+  {
+    "id": "sm6-77",
+    "name": "Buzzwole",
+    "setName": "Forbidden Light",
+    "number": "77",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/sm6/77_hires.png"
+  },
+  {
+    "id": "sm6-78",
+    "name": "Pangoro",
+    "setName": "Forbidden Light",
+    "number": "78",
+    "rarity": "Rare",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/sm6/78_hires.png"
+  },
+  {
+    "id": "sm6-79",
+    "name": "Yveltal-GX",
+    "setName": "Forbidden Light",
+    "number": "79",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/79_hires.png"
+  },
+  {
+    "id": "sm6-80",
+    "name": "Guzzlord",
+    "setName": "Forbidden Light",
+    "number": "80",
+    "rarity": "Rare Holo",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sm6/80_hires.png"
+  },
+  {
+    "id": "sm6-81",
+    "name": "Empoleon",
+    "setName": "Forbidden Light",
+    "number": "81",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sm6/81_hires.png"
+  },
+  {
+    "id": "sm6-82",
+    "name": "Dialga-GX",
+    "setName": "Forbidden Light",
+    "number": "82",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/82_hires.png"
+  },
+  {
+    "id": "sm6-83",
+    "name": "Flabébé",
+    "setName": "Forbidden Light",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sm6/83_hires.png"
+  },
+  {
+    "id": "sm6-84",
+    "name": "Flabébé",
+    "setName": "Forbidden Light",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm6/84_hires.png"
+  },
+  {
+    "id": "sm6-85",
+    "name": "Floette",
+    "setName": "Forbidden Light",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sm6/85_hires.png"
+  },
+  {
+    "id": "sm6-86",
+    "name": "Florges",
+    "setName": "Forbidden Light",
+    "number": "86",
+    "rarity": "Rare",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/sm6/86_hires.png"
+  },
+  {
+    "id": "sm6-87",
+    "name": "Sylveon",
+    "setName": "Forbidden Light",
+    "number": "87",
+    "rarity": "Rare",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/sm6/87_hires.png"
+  },
+  {
+    "id": "sm6-88",
+    "name": "Dedenne",
+    "setName": "Forbidden Light",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sm6/88_hires.png"
+  },
+  {
+    "id": "sm6-89",
+    "name": "Klefki",
+    "setName": "Forbidden Light",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/sm6/89_hires.png"
+  },
+  {
+    "id": "sm6-90",
+    "name": "Xerneas-GX",
+    "setName": "Forbidden Light",
+    "number": "90",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/90_hires.png"
+  },
+  {
+    "id": "sm6-91",
+    "name": "Goomy",
+    "setName": "Forbidden Light",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/sm6/91_hires.png"
+  },
+  {
+    "id": "sm6-92",
+    "name": "Goomy",
+    "setName": "Forbidden Light",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm6/92_hires.png"
+  },
+  {
+    "id": "sm6-93",
+    "name": "Sliggoo",
+    "setName": "Forbidden Light",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sm6/93_hires.png"
+  },
+  {
+    "id": "sm6-94",
+    "name": "Goodra",
+    "setName": "Forbidden Light",
+    "number": "94",
+    "rarity": "Rare Holo",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/sm6/94_hires.png"
+  },
+  {
+    "id": "sm6-95",
+    "name": "Ultra Necrozma-GX",
+    "setName": "Forbidden Light",
+    "number": "95",
+    "rarity": "Rare Holo GX",
+    "artist": "PLANETA Otani",
+    "imageUrl": "https://images.pokemontcg.io/sm6/95_hires.png"
+  },
+  {
+    "id": "sm6-96",
+    "name": "Arceus ◇",
+    "setName": "Forbidden Light",
+    "number": "96",
+    "rarity": "Rare Prism Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/sm6/96_hires.png"
+  },
+  {
+    "id": "sm6-97",
+    "name": "Bunnelby",
+    "setName": "Forbidden Light",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sm6/97_hires.png"
+  },
+  {
+    "id": "sm6-98",
+    "name": "Diggersby",
+    "setName": "Forbidden Light",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sm6/98_hires.png"
+  },
+  {
+    "id": "sm6-99",
+    "name": "Furfrou",
+    "setName": "Forbidden Light",
+    "number": "99",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sm6/99_hires.png"
+  },
+  {
+    "id": "sm6-100",
+    "name": "Noibat",
+    "setName": "Forbidden Light",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sm6/100_hires.png"
+  },
+  {
+    "id": "sm6-101",
+    "name": "Noivern",
+    "setName": "Forbidden Light",
+    "number": "101",
+    "rarity": "Rare",
+    "artist": "You Iribi",
+    "imageUrl": "https://images.pokemontcg.io/sm6/101_hires.png"
+  },
+  {
+    "id": "sm6-102",
+    "name": "Beast Ring",
+    "setName": "Forbidden Light",
+    "number": "102",
+    "rarity": "Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm6/102_hires.png"
+  },
+  {
+    "id": "sm6-102a",
+    "name": "Beast Ring",
+    "setName": "Forbidden Light",
+    "number": "102a",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/102a_hires.png"
+  },
+  {
+    "id": "sm6-103",
+    "name": "Bonnie",
+    "setName": "Forbidden Light",
+    "number": "103",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/sm6/103_hires.png"
+  },
+  {
+    "id": "sm6-104",
+    "name": "Crasher Wake",
+    "setName": "Forbidden Light",
+    "number": "104",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm6/104_hires.png"
+  },
+  {
+    "id": "sm6-105",
+    "name": "Diantha",
+    "setName": "Forbidden Light",
+    "number": "105",
+    "rarity": "Rare Holo",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm6/105_hires.png"
+  },
+  {
+    "id": "sm6-106",
+    "name": "Eneporter",
+    "setName": "Forbidden Light",
+    "number": "106",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm6/106_hires.png"
+  },
+  {
+    "id": "sm6-107",
+    "name": "Fossil Excavation Map",
+    "setName": "Forbidden Light",
+    "number": "107",
+    "rarity": "Uncommon",
+    "artist": "Yoshinobu Saito",
+    "imageUrl": "https://images.pokemontcg.io/sm6/107_hires.png"
+  },
+  {
+    "id": "sm6-108",
+    "name": "Judge",
+    "setName": "Forbidden Light",
+    "number": "108",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sm6/108_hires.png"
+  },
+  {
+    "id": "sm6-109",
+    "name": "Lady",
+    "setName": "Forbidden Light",
+    "number": "109",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/sm6/109_hires.png"
+  },
+  {
+    "id": "sm6-110",
+    "name": "Lysandre ◇",
+    "setName": "Forbidden Light",
+    "number": "110",
+    "rarity": "Rare Prism Star",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sm6/110_hires.png"
+  },
+  {
+    "id": "sm6-111",
+    "name": "Lysandre Labs",
+    "setName": "Forbidden Light",
+    "number": "111",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/sm6/111_hires.png"
+  },
+  {
+    "id": "sm6-112",
+    "name": "Metal Frying Pan",
+    "setName": "Forbidden Light",
+    "number": "112",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm6/112_hires.png"
+  },
+  {
+    "id": "sm6-112a",
+    "name": "Metal Frying Pan",
+    "setName": "Forbidden Light",
+    "number": "112a",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/sm6/112a_hires.png"
+  },
+  {
+    "id": "sm6-113",
+    "name": "Mysterious Treasure",
+    "setName": "Forbidden Light",
+    "number": "113",
+    "rarity": "Uncommon",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sm6/113_hires.png"
+  },
+  {
+    "id": "sm6-113a",
+    "name": "Mysterious Treasure",
+    "setName": "Forbidden Light",
+    "number": "113a",
+    "rarity": "Uncommon",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sm6/113a_hires.png"
+  },
+  {
+    "id": "sm6-114",
+    "name": "Ultra Recon Squad",
+    "setName": "Forbidden Light",
+    "number": "114",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sm6/114_hires.png"
+  },
+  {
+    "id": "sm6-115",
+    "name": "Ultra Space",
+    "setName": "Forbidden Light",
+    "number": "115",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/115_hires.png"
+  },
+  {
+    "id": "sm6-116",
+    "name": "Unidentified Fossil",
+    "setName": "Forbidden Light",
+    "number": "116",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm6/116_hires.png"
+  },
+  {
+    "id": "sm6-117",
+    "name": "Beast Energy ◇",
+    "setName": "Forbidden Light",
+    "number": "117",
+    "rarity": "Rare Prism Star",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sm6/117_hires.png"
+  },
+  {
+    "id": "sm6-118",
+    "name": "Unit Energy FightingDarknessFairy",
+    "setName": "Forbidden Light",
+    "number": "118",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sm6/118_hires.png"
+  },
+  {
+    "id": "sm6-119",
+    "name": "Palkia-GX",
+    "setName": "Forbidden Light",
+    "number": "119",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/119_hires.png"
+  },
+  {
+    "id": "sm6-120",
+    "name": "Greninja-GX",
+    "setName": "Forbidden Light",
+    "number": "120",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/120_hires.png"
+  },
+  {
+    "id": "sm6-121",
+    "name": "Naganadel-GX",
+    "setName": "Forbidden Light",
+    "number": "121",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/121_hires.png"
+  },
+  {
+    "id": "sm6-122",
+    "name": "Lucario-GX",
+    "setName": "Forbidden Light",
+    "number": "122",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/122_hires.png"
+  },
+  {
+    "id": "sm6-123",
+    "name": "Zygarde-GX",
+    "setName": "Forbidden Light",
+    "number": "123",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/123_hires.png"
+  },
+  {
+    "id": "sm6-124",
+    "name": "Yveltal-GX",
+    "setName": "Forbidden Light",
+    "number": "124",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/124_hires.png"
+  },
+  {
+    "id": "sm6-125",
+    "name": "Dialga-GX",
+    "setName": "Forbidden Light",
+    "number": "125",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/125_hires.png"
+  },
+  {
+    "id": "sm6-126",
+    "name": "Xerneas-GX",
+    "setName": "Forbidden Light",
+    "number": "126",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/126_hires.png"
+  },
+  {
+    "id": "sm6-127",
+    "name": "Ultra Necrozma-GX",
+    "setName": "Forbidden Light",
+    "number": "127",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/sm6/127_hires.png"
+  },
+  {
+    "id": "sm6-128",
+    "name": "Bonnie",
+    "setName": "Forbidden Light",
+    "number": "128",
+    "rarity": "Rare Ultra",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/sm6/128_hires.png"
+  },
+  {
+    "id": "sm6-129",
+    "name": "Crasher Wake",
+    "setName": "Forbidden Light",
+    "number": "129",
+    "rarity": "Rare Ultra",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sm6/129_hires.png"
+  },
+  {
+    "id": "sm6-130",
+    "name": "Diantha",
+    "setName": "Forbidden Light",
+    "number": "130",
+    "rarity": "Rare Ultra",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sm6/130_hires.png"
+  },
+  {
+    "id": "sm6-131",
+    "name": "Ultra Recon Squad",
+    "setName": "Forbidden Light",
+    "number": "131",
+    "rarity": "Rare Ultra",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/sm6/131_hires.png"
+  },
+  {
+    "id": "sm6-132",
+    "name": "Palkia-GX",
+    "setName": "Forbidden Light",
+    "number": "132",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/132_hires.png"
+  },
+  {
+    "id": "sm6-133",
+    "name": "Greninja-GX",
+    "setName": "Forbidden Light",
+    "number": "133",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/133_hires.png"
+  },
+  {
+    "id": "sm6-134",
+    "name": "Naganadel-GX",
+    "setName": "Forbidden Light",
+    "number": "134",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/134_hires.png"
+  },
+  {
+    "id": "sm6-135",
+    "name": "Lucario-GX",
+    "setName": "Forbidden Light",
+    "number": "135",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/135_hires.png"
+  },
+  {
+    "id": "sm6-136",
+    "name": "Zygarde-GX",
+    "setName": "Forbidden Light",
+    "number": "136",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/136_hires.png"
+  },
+  {
+    "id": "sm6-137",
+    "name": "Yveltal-GX",
+    "setName": "Forbidden Light",
+    "number": "137",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/137_hires.png"
+  },
+  {
+    "id": "sm6-138",
+    "name": "Dialga-GX",
+    "setName": "Forbidden Light",
+    "number": "138",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/138_hires.png"
+  },
+  {
+    "id": "sm6-139",
+    "name": "Xerneas-GX",
+    "setName": "Forbidden Light",
+    "number": "139",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm6/139_hires.png"
+  },
+  {
+    "id": "sm6-140",
+    "name": "Ultra Necrozma-GX",
+    "setName": "Forbidden Light",
+    "number": "140",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Igarashi",
+    "imageUrl": "https://images.pokemontcg.io/sm6/140_hires.png"
+  },
+  {
+    "id": "sm6-141",
+    "name": "Beast Ring",
+    "setName": "Forbidden Light",
+    "number": "141",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm6/141_hires.png"
+  },
+  {
+    "id": "sm6-142",
+    "name": "Eneporter",
+    "setName": "Forbidden Light",
+    "number": "142",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm6/142_hires.png"
+  },
+  {
+    "id": "sm6-143",
+    "name": "Energy Recycler",
+    "setName": "Forbidden Light",
+    "number": "143",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm6/143_hires.png"
+  },
+  {
+    "id": "sm6-144",
+    "name": "Metal Frying Pan",
+    "setName": "Forbidden Light",
+    "number": "144",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm6/144_hires.png"
+  },
+  {
+    "id": "sm6-145",
+    "name": "Mysterious Treasure",
+    "setName": "Forbidden Light",
+    "number": "145",
+    "rarity": "Rare Secret",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sm6/145_hires.png"
+  },
+  {
+    "id": "sm6-146",
+    "name": "Unit Energy FightingDarknessFairy",
+    "setName": "Forbidden Light",
+    "number": "146",
+    "rarity": "Rare Secret",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sm6/146_hires.png"
+  }
+]

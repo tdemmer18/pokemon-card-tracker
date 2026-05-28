@@ -1,0 +1,956 @@
+[
+  {
+    "id": "col1-1",
+    "name": "Clefable",
+    "setName": "Call of Legends",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/col1/1_hires.png"
+  },
+  {
+    "id": "col1-2",
+    "name": "Deoxys",
+    "setName": "Call of Legends",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/col1/2_hires.png"
+  },
+  {
+    "id": "col1-3",
+    "name": "Dialga",
+    "setName": "Call of Legends",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/col1/3_hires.png"
+  },
+  {
+    "id": "col1-4",
+    "name": "Espeon",
+    "setName": "Call of Legends",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/col1/4_hires.png"
+  },
+  {
+    "id": "col1-5",
+    "name": "Forretress",
+    "setName": "Call of Legends",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/col1/5_hires.png"
+  },
+  {
+    "id": "col1-6",
+    "name": "Groudon",
+    "setName": "Call of Legends",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/col1/6_hires.png"
+  },
+  {
+    "id": "col1-7",
+    "name": "Gyarados",
+    "setName": "Call of Legends",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/col1/7_hires.png"
+  },
+  {
+    "id": "col1-8",
+    "name": "Hitmontop",
+    "setName": "Call of Legends",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/col1/8_hires.png"
+  },
+  {
+    "id": "col1-9",
+    "name": "Ho-Oh",
+    "setName": "Call of Legends",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/col1/9_hires.png"
+  },
+  {
+    "id": "col1-10",
+    "name": "Houndoom",
+    "setName": "Call of Legends",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/col1/10_hires.png"
+  },
+  {
+    "id": "col1-11",
+    "name": "Jirachi",
+    "setName": "Call of Legends",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/col1/11_hires.png"
+  },
+  {
+    "id": "col1-12",
+    "name": "Kyogre",
+    "setName": "Call of Legends",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/col1/12_hires.png"
+  },
+  {
+    "id": "col1-13",
+    "name": "Leafeon",
+    "setName": "Call of Legends",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/col1/13_hires.png"
+  },
+  {
+    "id": "col1-14",
+    "name": "Lucario",
+    "setName": "Call of Legends",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Takashi Yamaguchi",
+    "imageUrl": "https://images.pokemontcg.io/col1/14_hires.png"
+  },
+  {
+    "id": "col1-15",
+    "name": "Lugia",
+    "setName": "Call of Legends",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/col1/15_hires.png"
+  },
+  {
+    "id": "col1-16",
+    "name": "Magmortar",
+    "setName": "Call of Legends",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/col1/16_hires.png"
+  },
+  {
+    "id": "col1-17",
+    "name": "Ninetales",
+    "setName": "Call of Legends",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/col1/17_hires.png"
+  },
+  {
+    "id": "col1-18",
+    "name": "Pachirisu",
+    "setName": "Call of Legends",
+    "number": "18",
+    "rarity": "Rare Holo",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/col1/18_hires.png"
+  },
+  {
+    "id": "col1-19",
+    "name": "Palkia",
+    "setName": "Call of Legends",
+    "number": "19",
+    "rarity": "Rare Holo",
+    "artist": "Daisuke Iwamoto",
+    "imageUrl": "https://images.pokemontcg.io/col1/19_hires.png"
+  },
+  {
+    "id": "col1-20",
+    "name": "Rayquaza",
+    "setName": "Call of Legends",
+    "number": "20",
+    "rarity": "Rare Holo",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/col1/20_hires.png"
+  },
+  {
+    "id": "col1-21",
+    "name": "Smeargle",
+    "setName": "Call of Legends",
+    "number": "21",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/col1/21_hires.png"
+  },
+  {
+    "id": "col1-22",
+    "name": "Umbreon",
+    "setName": "Call of Legends",
+    "number": "22",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/col1/22_hires.png"
+  },
+  {
+    "id": "col1-23",
+    "name": "Ampharos",
+    "setName": "Call of Legends",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/col1/23_hires.png"
+  },
+  {
+    "id": "col1-24",
+    "name": "Cleffa",
+    "setName": "Call of Legends",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/col1/24_hires.png"
+  },
+  {
+    "id": "col1-25",
+    "name": "Feraligatr",
+    "setName": "Call of Legends",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/col1/25_hires.png"
+  },
+  {
+    "id": "col1-26",
+    "name": "Granbull",
+    "setName": "Call of Legends",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/col1/26_hires.png"
+  },
+  {
+    "id": "col1-27",
+    "name": "Meganium",
+    "setName": "Call of Legends",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/col1/27_hires.png"
+  },
+  {
+    "id": "col1-28",
+    "name": "Mismagius",
+    "setName": "Call of Legends",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/28_hires.png"
+  },
+  {
+    "id": "col1-29",
+    "name": "Mr. Mime",
+    "setName": "Call of Legends",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/col1/29_hires.png"
+  },
+  {
+    "id": "col1-30",
+    "name": "Pidgeot",
+    "setName": "Call of Legends",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/30_hires.png"
+  },
+  {
+    "id": "col1-31",
+    "name": "Skarmory",
+    "setName": "Call of Legends",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/col1/31_hires.png"
+  },
+  {
+    "id": "col1-32",
+    "name": "Slowking",
+    "setName": "Call of Legends",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/col1/32_hires.png"
+  },
+  {
+    "id": "col1-33",
+    "name": "Snorlax",
+    "setName": "Call of Legends",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/col1/33_hires.png"
+  },
+  {
+    "id": "col1-34",
+    "name": "Tangrowth",
+    "setName": "Call of Legends",
+    "number": "34",
+    "rarity": "Rare",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/34_hires.png"
+  },
+  {
+    "id": "col1-35",
+    "name": "Typhlosion",
+    "setName": "Call of Legends",
+    "number": "35",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/col1/35_hires.png"
+  },
+  {
+    "id": "col1-36",
+    "name": "Tyrogue",
+    "setName": "Call of Legends",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/col1/36_hires.png"
+  },
+  {
+    "id": "col1-37",
+    "name": "Ursaring",
+    "setName": "Call of Legends",
+    "number": "37",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/col1/37_hires.png"
+  },
+  {
+    "id": "col1-38",
+    "name": "Weezing",
+    "setName": "Call of Legends",
+    "number": "38",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/col1/38_hires.png"
+  },
+  {
+    "id": "col1-39",
+    "name": "Zangoose",
+    "setName": "Call of Legends",
+    "number": "39",
+    "rarity": "Rare",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/col1/39_hires.png"
+  },
+  {
+    "id": "col1-40",
+    "name": "Bayleef",
+    "setName": "Call of Legends",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/col1/40_hires.png"
+  },
+  {
+    "id": "col1-41",
+    "name": "Croconaw",
+    "setName": "Call of Legends",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/col1/41_hires.png"
+  },
+  {
+    "id": "col1-42",
+    "name": "Donphan",
+    "setName": "Call of Legends",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/col1/42_hires.png"
+  },
+  {
+    "id": "col1-43",
+    "name": "Flaaffy",
+    "setName": "Call of Legends",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/col1/43_hires.png"
+  },
+  {
+    "id": "col1-44",
+    "name": "Flareon",
+    "setName": "Call of Legends",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/col1/44_hires.png"
+  },
+  {
+    "id": "col1-45",
+    "name": "Jolteon",
+    "setName": "Call of Legends",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/col1/45_hires.png"
+  },
+  {
+    "id": "col1-46",
+    "name": "Magby",
+    "setName": "Call of Legends",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/col1/46_hires.png"
+  },
+  {
+    "id": "col1-47",
+    "name": "Mime Jr.",
+    "setName": "Call of Legends",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/col1/47_hires.png"
+  },
+  {
+    "id": "col1-48",
+    "name": "Pidgeotto",
+    "setName": "Call of Legends",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/48_hires.png"
+  },
+  {
+    "id": "col1-49",
+    "name": "Quilava",
+    "setName": "Call of Legends",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/col1/49_hires.png"
+  },
+  {
+    "id": "col1-50",
+    "name": "Riolu",
+    "setName": "Call of Legends",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Takashi Yamaguchi",
+    "imageUrl": "https://images.pokemontcg.io/col1/50_hires.png"
+  },
+  {
+    "id": "col1-51",
+    "name": "Seviper",
+    "setName": "Call of Legends",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/col1/51_hires.png"
+  },
+  {
+    "id": "col1-52",
+    "name": "Vaporeon",
+    "setName": "Call of Legends",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/col1/52_hires.png"
+  },
+  {
+    "id": "col1-53",
+    "name": "Chikorita",
+    "setName": "Call of Legends",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/col1/53_hires.png"
+  },
+  {
+    "id": "col1-54",
+    "name": "Clefairy",
+    "setName": "Call of Legends",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/col1/54_hires.png"
+  },
+  {
+    "id": "col1-55",
+    "name": "Cyndaquil",
+    "setName": "Call of Legends",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/col1/55_hires.png"
+  },
+  {
+    "id": "col1-56",
+    "name": "Eevee",
+    "setName": "Call of Legends",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/col1/56_hires.png"
+  },
+  {
+    "id": "col1-57",
+    "name": "Hitmonchan",
+    "setName": "Call of Legends",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/col1/57_hires.png"
+  },
+  {
+    "id": "col1-58",
+    "name": "Hitmonlee",
+    "setName": "Call of Legends",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/col1/58_hires.png"
+  },
+  {
+    "id": "col1-59",
+    "name": "Houndour",
+    "setName": "Call of Legends",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/col1/59_hires.png"
+  },
+  {
+    "id": "col1-60",
+    "name": "Koffing",
+    "setName": "Call of Legends",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/col1/60_hires.png"
+  },
+  {
+    "id": "col1-61",
+    "name": "Magikarp",
+    "setName": "Call of Legends",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/col1/61_hires.png"
+  },
+  {
+    "id": "col1-62",
+    "name": "Magmar",
+    "setName": "Call of Legends",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/col1/62_hires.png"
+  },
+  {
+    "id": "col1-63",
+    "name": "Mareep",
+    "setName": "Call of Legends",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/col1/63_hires.png"
+  },
+  {
+    "id": "col1-64",
+    "name": "Mawile",
+    "setName": "Call of Legends",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/col1/64_hires.png"
+  },
+  {
+    "id": "col1-65",
+    "name": "Misdreavus",
+    "setName": "Call of Legends",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/65_hires.png"
+  },
+  {
+    "id": "col1-66",
+    "name": "Phanpy",
+    "setName": "Call of Legends",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/col1/66_hires.png"
+  },
+  {
+    "id": "col1-67",
+    "name": "Pidgey",
+    "setName": "Call of Legends",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/67_hires.png"
+  },
+  {
+    "id": "col1-68",
+    "name": "Pineco",
+    "setName": "Call of Legends",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/col1/68_hires.png"
+  },
+  {
+    "id": "col1-69",
+    "name": "Relicanth",
+    "setName": "Call of Legends",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/col1/69_hires.png"
+  },
+  {
+    "id": "col1-70",
+    "name": "Slowpoke",
+    "setName": "Call of Legends",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/col1/70_hires.png"
+  },
+  {
+    "id": "col1-71",
+    "name": "Snubbull",
+    "setName": "Call of Legends",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/col1/71_hires.png"
+  },
+  {
+    "id": "col1-72",
+    "name": "Tangela",
+    "setName": "Call of Legends",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/72_hires.png"
+  },
+  {
+    "id": "col1-73",
+    "name": "Teddiursa",
+    "setName": "Call of Legends",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/col1/73_hires.png"
+  },
+  {
+    "id": "col1-74",
+    "name": "Totodile",
+    "setName": "Call of Legends",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/col1/74_hires.png"
+  },
+  {
+    "id": "col1-75",
+    "name": "Vulpix",
+    "setName": "Call of Legends",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/col1/75_hires.png"
+  },
+  {
+    "id": "col1-76",
+    "name": "Cheerleader's Cheer",
+    "setName": "Call of Legends",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/col1/76_hires.png"
+  },
+  {
+    "id": "col1-77",
+    "name": "Copycat",
+    "setName": "Call of Legends",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/col1/77_hires.png"
+  },
+  {
+    "id": "col1-78",
+    "name": "Dual Ball",
+    "setName": "Call of Legends",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Takashi Yamaguchi",
+    "imageUrl": "https://images.pokemontcg.io/col1/78_hires.png"
+  },
+  {
+    "id": "col1-79",
+    "name": "Interviewer's Questions",
+    "setName": "Call of Legends",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/col1/79_hires.png"
+  },
+  {
+    "id": "col1-80",
+    "name": "Lost Remover",
+    "setName": "Call of Legends",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/col1/80_hires.png"
+  },
+  {
+    "id": "col1-81",
+    "name": "Lost World",
+    "setName": "Call of Legends",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/81_hires.png"
+  },
+  {
+    "id": "col1-82",
+    "name": "Professor Elm's Training Method",
+    "setName": "Call of Legends",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/col1/82_hires.png"
+  },
+  {
+    "id": "col1-83",
+    "name": "Professor Oak's New Theory",
+    "setName": "Call of Legends",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/col1/83_hires.png"
+  },
+  {
+    "id": "col1-84",
+    "name": "Research Record",
+    "setName": "Call of Legends",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/84_hires.png"
+  },
+  {
+    "id": "col1-85",
+    "name": "Sage's Training",
+    "setName": "Call of Legends",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/col1/85_hires.png"
+  },
+  {
+    "id": "col1-86",
+    "name": "Darkness Energy",
+    "setName": "Call of Legends",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/col1/86_hires.png"
+  },
+  {
+    "id": "col1-87",
+    "name": "Metal Energy",
+    "setName": "Call of Legends",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Kent Kanetsuna",
+    "imageUrl": "https://images.pokemontcg.io/col1/87_hires.png"
+  },
+  {
+    "id": "col1-88",
+    "name": "Grass Energy",
+    "setName": "Call of Legends",
+    "number": "88",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/col1/88_hires.png"
+  },
+  {
+    "id": "col1-89",
+    "name": "Fire Energy",
+    "setName": "Call of Legends",
+    "number": "89",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/col1/89_hires.png"
+  },
+  {
+    "id": "col1-90",
+    "name": "Water Energy",
+    "setName": "Call of Legends",
+    "number": "90",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/col1/90_hires.png"
+  },
+  {
+    "id": "col1-91",
+    "name": "Lightning Energy",
+    "setName": "Call of Legends",
+    "number": "91",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/col1/91_hires.png"
+  },
+  {
+    "id": "col1-92",
+    "name": "Psychic Energy",
+    "setName": "Call of Legends",
+    "number": "92",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/col1/92_hires.png"
+  },
+  {
+    "id": "col1-93",
+    "name": "Fighting Energy",
+    "setName": "Call of Legends",
+    "number": "93",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/col1/93_hires.png"
+  },
+  {
+    "id": "col1-94",
+    "name": "Darkness Energy",
+    "setName": "Call of Legends",
+    "number": "94",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/col1/94_hires.png"
+  },
+  {
+    "id": "col1-95",
+    "name": "Metal Energy",
+    "setName": "Call of Legends",
+    "number": "95",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/col1/95_hires.png"
+  },
+  {
+    "id": "col1-SL1",
+    "name": "Deoxys",
+    "setName": "Call of Legends",
+    "number": "SL1",
+    "rarity": "Rare Holo",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL1_hires.png"
+  },
+  {
+    "id": "col1-SL2",
+    "name": "Dialga",
+    "setName": "Call of Legends",
+    "number": "SL2",
+    "rarity": "Rare Holo",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL2_hires.png"
+  },
+  {
+    "id": "col1-SL3",
+    "name": "Entei",
+    "setName": "Call of Legends",
+    "number": "SL3",
+    "rarity": "Rare Holo",
+    "artist": "Yuri Umemura",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL3_hires.png"
+  },
+  {
+    "id": "col1-SL4",
+    "name": "Groudon",
+    "setName": "Call of Legends",
+    "number": "SL4",
+    "rarity": "Rare Holo",
+    "artist": "Yuri Umemura",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL4_hires.png"
+  },
+  {
+    "id": "col1-SL5",
+    "name": "Ho-Oh",
+    "setName": "Call of Legends",
+    "number": "SL5",
+    "rarity": "Rare Holo",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL5_hires.png"
+  },
+  {
+    "id": "col1-SL6",
+    "name": "Kyogre",
+    "setName": "Call of Legends",
+    "number": "SL6",
+    "rarity": "Rare Holo",
+    "artist": "Yuri Umemura",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL6_hires.png"
+  },
+  {
+    "id": "col1-SL7",
+    "name": "Lugia",
+    "setName": "Call of Legends",
+    "number": "SL7",
+    "rarity": "Rare Holo",
+    "artist": "Hideaki Hakozaki",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL7_hires.png"
+  },
+  {
+    "id": "col1-SL8",
+    "name": "Palkia",
+    "setName": "Call of Legends",
+    "number": "SL8",
+    "rarity": "Rare Holo",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL8_hires.png"
+  },
+  {
+    "id": "col1-SL9",
+    "name": "Raikou",
+    "setName": "Call of Legends",
+    "number": "SL9",
+    "rarity": "Rare Holo",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL9_hires.png"
+  },
+  {
+    "id": "col1-SL10",
+    "name": "Rayquaza",
+    "setName": "Call of Legends",
+    "number": "SL10",
+    "rarity": "Rare Holo",
+    "artist": "Noriko Hotta",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL10_hires.png"
+  },
+  {
+    "id": "col1-SL11",
+    "name": "Suicune",
+    "setName": "Call of Legends",
+    "number": "SL11",
+    "rarity": "Rare Holo",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/col1/SL11_hires.png"
+  }
+]

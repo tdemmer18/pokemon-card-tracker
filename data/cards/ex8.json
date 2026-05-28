@@ -1,0 +1,974 @@
+[
+  {
+    "id": "ex8-1",
+    "name": "Altaria",
+    "setName": "Deoxys",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex8/1_hires.png"
+  },
+  {
+    "id": "ex8-2",
+    "name": "Beautifly",
+    "setName": "Deoxys",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex8/2_hires.png"
+  },
+  {
+    "id": "ex8-3",
+    "name": "Breloom",
+    "setName": "Deoxys",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex8/3_hires.png"
+  },
+  {
+    "id": "ex8-4",
+    "name": "Camerupt",
+    "setName": "Deoxys",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex8/4_hires.png"
+  },
+  {
+    "id": "ex8-5",
+    "name": "Claydol",
+    "setName": "Deoxys",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex8/5_hires.png"
+  },
+  {
+    "id": "ex8-6",
+    "name": "Crawdaunt",
+    "setName": "Deoxys",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Tomoko Wakai",
+    "imageUrl": "https://images.pokemontcg.io/ex8/6_hires.png"
+  },
+  {
+    "id": "ex8-7",
+    "name": "Dusclops",
+    "setName": "Deoxys",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Tomoko Wakai",
+    "imageUrl": "https://images.pokemontcg.io/ex8/7_hires.png"
+  },
+  {
+    "id": "ex8-8",
+    "name": "Gyarados",
+    "setName": "Deoxys",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/8_hires.png"
+  },
+  {
+    "id": "ex8-9",
+    "name": "Jirachi",
+    "setName": "Deoxys",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex8/9_hires.png"
+  },
+  {
+    "id": "ex8-10",
+    "name": "Ludicolo",
+    "setName": "Deoxys",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex8/10_hires.png"
+  },
+  {
+    "id": "ex8-11",
+    "name": "Metagross",
+    "setName": "Deoxys",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/11_hires.png"
+  },
+  {
+    "id": "ex8-12",
+    "name": "Mightyena",
+    "setName": "Deoxys",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/12_hires.png"
+  },
+  {
+    "id": "ex8-13",
+    "name": "Ninjask",
+    "setName": "Deoxys",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex8/13_hires.png"
+  },
+  {
+    "id": "ex8-14",
+    "name": "Shedinja",
+    "setName": "Deoxys",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex8/14_hires.png"
+  },
+  {
+    "id": "ex8-15",
+    "name": "Slaking",
+    "setName": "Deoxys",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/15_hires.png"
+  },
+  {
+    "id": "ex8-16",
+    "name": "Deoxys",
+    "setName": "Deoxys",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/ex8/16_hires.png"
+  },
+  {
+    "id": "ex8-17",
+    "name": "Deoxys",
+    "setName": "Deoxys",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/ex8/17_hires.png"
+  },
+  {
+    "id": "ex8-18",
+    "name": "Deoxys",
+    "setName": "Deoxys",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/ex8/18_hires.png"
+  },
+  {
+    "id": "ex8-19",
+    "name": "Ludicolo",
+    "setName": "Deoxys",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex8/19_hires.png"
+  },
+  {
+    "id": "ex8-20",
+    "name": "Magcargo",
+    "setName": "Deoxys",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex8/20_hires.png"
+  },
+  {
+    "id": "ex8-21",
+    "name": "Pelipper",
+    "setName": "Deoxys",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex8/21_hires.png"
+  },
+  {
+    "id": "ex8-22",
+    "name": "Rayquaza",
+    "setName": "Deoxys",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex8/22_hires.png"
+  },
+  {
+    "id": "ex8-23",
+    "name": "Sableye",
+    "setName": "Deoxys",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex8/23_hires.png"
+  },
+  {
+    "id": "ex8-24",
+    "name": "Seaking",
+    "setName": "Deoxys",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex8/24_hires.png"
+  },
+  {
+    "id": "ex8-25",
+    "name": "Shiftry",
+    "setName": "Deoxys",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex8/25_hires.png"
+  },
+  {
+    "id": "ex8-26",
+    "name": "Skarmory",
+    "setName": "Deoxys",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex8/26_hires.png"
+  },
+  {
+    "id": "ex8-27",
+    "name": "Tropius",
+    "setName": "Deoxys",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex8/27_hires.png"
+  },
+  {
+    "id": "ex8-28",
+    "name": "Whiscash",
+    "setName": "Deoxys",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex8/28_hires.png"
+  },
+  {
+    "id": "ex8-29",
+    "name": "Xatu",
+    "setName": "Deoxys",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex8/29_hires.png"
+  },
+  {
+    "id": "ex8-30",
+    "name": "Donphan",
+    "setName": "Deoxys",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex8/30_hires.png"
+  },
+  {
+    "id": "ex8-31",
+    "name": "Golbat",
+    "setName": "Deoxys",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex8/31_hires.png"
+  },
+  {
+    "id": "ex8-32",
+    "name": "Grumpig",
+    "setName": "Deoxys",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex8/32_hires.png"
+  },
+  {
+    "id": "ex8-33",
+    "name": "Lombre",
+    "setName": "Deoxys",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex8/33_hires.png"
+  },
+  {
+    "id": "ex8-34",
+    "name": "Lombre",
+    "setName": "Deoxys",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex8/34_hires.png"
+  },
+  {
+    "id": "ex8-35",
+    "name": "Lotad",
+    "setName": "Deoxys",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex8/35_hires.png"
+  },
+  {
+    "id": "ex8-36",
+    "name": "Lunatone",
+    "setName": "Deoxys",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex8/36_hires.png"
+  },
+  {
+    "id": "ex8-37",
+    "name": "Magcargo",
+    "setName": "Deoxys",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex8/37_hires.png"
+  },
+  {
+    "id": "ex8-38",
+    "name": "Manectric",
+    "setName": "Deoxys",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex8/38_hires.png"
+  },
+  {
+    "id": "ex8-39",
+    "name": "Masquerain",
+    "setName": "Deoxys",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/39_hires.png"
+  },
+  {
+    "id": "ex8-40",
+    "name": "Metang",
+    "setName": "Deoxys",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/40_hires.png"
+  },
+  {
+    "id": "ex8-41",
+    "name": "Minun",
+    "setName": "Deoxys",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex8/41_hires.png"
+  },
+  {
+    "id": "ex8-42",
+    "name": "Nosepass",
+    "setName": "Deoxys",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex8/42_hires.png"
+  },
+  {
+    "id": "ex8-43",
+    "name": "Nuzleaf",
+    "setName": "Deoxys",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex8/43_hires.png"
+  },
+  {
+    "id": "ex8-44",
+    "name": "Plusle",
+    "setName": "Deoxys",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex8/44_hires.png"
+  },
+  {
+    "id": "ex8-45",
+    "name": "Shelgon",
+    "setName": "Deoxys",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex8/45_hires.png"
+  },
+  {
+    "id": "ex8-46",
+    "name": "Silcoon",
+    "setName": "Deoxys",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex8/46_hires.png"
+  },
+  {
+    "id": "ex8-47",
+    "name": "Solrock",
+    "setName": "Deoxys",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex8/47_hires.png"
+  },
+  {
+    "id": "ex8-48",
+    "name": "Starmie",
+    "setName": "Deoxys",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex8/48_hires.png"
+  },
+  {
+    "id": "ex8-49",
+    "name": "Swellow",
+    "setName": "Deoxys",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex8/49_hires.png"
+  },
+  {
+    "id": "ex8-50",
+    "name": "Vigoroth",
+    "setName": "Deoxys",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/50_hires.png"
+  },
+  {
+    "id": "ex8-51",
+    "name": "Weezing",
+    "setName": "Deoxys",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/51_hires.png"
+  },
+  {
+    "id": "ex8-52",
+    "name": "Bagon",
+    "setName": "Deoxys",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Takao Unno",
+    "imageUrl": "https://images.pokemontcg.io/ex8/52_hires.png"
+  },
+  {
+    "id": "ex8-53",
+    "name": "Baltoy",
+    "setName": "Deoxys",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Kenkichi Toyama",
+    "imageUrl": "https://images.pokemontcg.io/ex8/53_hires.png"
+  },
+  {
+    "id": "ex8-54",
+    "name": "Barboach",
+    "setName": "Deoxys",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex8/54_hires.png"
+  },
+  {
+    "id": "ex8-55",
+    "name": "Beldum",
+    "setName": "Deoxys",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/55_hires.png"
+  },
+  {
+    "id": "ex8-56",
+    "name": "Carvanha",
+    "setName": "Deoxys",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex8/56_hires.png"
+  },
+  {
+    "id": "ex8-57",
+    "name": "Corphish",
+    "setName": "Deoxys",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Takao Unno",
+    "imageUrl": "https://images.pokemontcg.io/ex8/57_hires.png"
+  },
+  {
+    "id": "ex8-58",
+    "name": "Duskull",
+    "setName": "Deoxys",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Tomoko Wakai",
+    "imageUrl": "https://images.pokemontcg.io/ex8/58_hires.png"
+  },
+  {
+    "id": "ex8-59",
+    "name": "Electrike",
+    "setName": "Deoxys",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/59_hires.png"
+  },
+  {
+    "id": "ex8-60",
+    "name": "Electrike",
+    "setName": "Deoxys",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Hiroki Fuchino",
+    "imageUrl": "https://images.pokemontcg.io/ex8/60_hires.png"
+  },
+  {
+    "id": "ex8-61",
+    "name": "Goldeen",
+    "setName": "Deoxys",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex8/61_hires.png"
+  },
+  {
+    "id": "ex8-62",
+    "name": "Koffing",
+    "setName": "Deoxys",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/62_hires.png"
+  },
+  {
+    "id": "ex8-63",
+    "name": "Lotad",
+    "setName": "Deoxys",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex8/63_hires.png"
+  },
+  {
+    "id": "ex8-64",
+    "name": "Magikarp",
+    "setName": "Deoxys",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex8/64_hires.png"
+  },
+  {
+    "id": "ex8-65",
+    "name": "Makuhita",
+    "setName": "Deoxys",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Asuka Iwashita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/65_hires.png"
+  },
+  {
+    "id": "ex8-66",
+    "name": "Natu",
+    "setName": "Deoxys",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex8/66_hires.png"
+  },
+  {
+    "id": "ex8-67",
+    "name": "Nincada",
+    "setName": "Deoxys",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex8/67_hires.png"
+  },
+  {
+    "id": "ex8-68",
+    "name": "Numel",
+    "setName": "Deoxys",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex8/68_hires.png"
+  },
+  {
+    "id": "ex8-69",
+    "name": "Phanpy",
+    "setName": "Deoxys",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex8/69_hires.png"
+  },
+  {
+    "id": "ex8-70",
+    "name": "Poochyena",
+    "setName": "Deoxys",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Aimi Tomita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/70_hires.png"
+  },
+  {
+    "id": "ex8-71",
+    "name": "Seedot",
+    "setName": "Deoxys",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex8/71_hires.png"
+  },
+  {
+    "id": "ex8-72",
+    "name": "Shroomish",
+    "setName": "Deoxys",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/ex8/72_hires.png"
+  },
+  {
+    "id": "ex8-73",
+    "name": "Slakoth",
+    "setName": "Deoxys",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Takao Unno",
+    "imageUrl": "https://images.pokemontcg.io/ex8/73_hires.png"
+  },
+  {
+    "id": "ex8-74",
+    "name": "Slugma",
+    "setName": "Deoxys",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/ex8/74_hires.png"
+  },
+  {
+    "id": "ex8-75",
+    "name": "Slugma",
+    "setName": "Deoxys",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex8/75_hires.png"
+  },
+  {
+    "id": "ex8-76",
+    "name": "Spoink",
+    "setName": "Deoxys",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex8/76_hires.png"
+  },
+  {
+    "id": "ex8-77",
+    "name": "Staryu",
+    "setName": "Deoxys",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex8/77_hires.png"
+  },
+  {
+    "id": "ex8-78",
+    "name": "Surskit",
+    "setName": "Deoxys",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/78_hires.png"
+  },
+  {
+    "id": "ex8-79",
+    "name": "Swablu",
+    "setName": "Deoxys",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex8/79_hires.png"
+  },
+  {
+    "id": "ex8-80",
+    "name": "Taillow",
+    "setName": "Deoxys",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex8/80_hires.png"
+  },
+  {
+    "id": "ex8-81",
+    "name": "Wingull",
+    "setName": "Deoxys",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex8/81_hires.png"
+  },
+  {
+    "id": "ex8-82",
+    "name": "Wurmple",
+    "setName": "Deoxys",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex8/82_hires.png"
+  },
+  {
+    "id": "ex8-83",
+    "name": "Zubat",
+    "setName": "Deoxys",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex8/83_hires.png"
+  },
+  {
+    "id": "ex8-84",
+    "name": "Balloon Berry",
+    "setName": "Deoxys",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex8/84_hires.png"
+  },
+  {
+    "id": "ex8-85",
+    "name": "Crystal Shard",
+    "setName": "Deoxys",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Jungo Suzuki",
+    "imageUrl": "https://images.pokemontcg.io/ex8/85_hires.png"
+  },
+  {
+    "id": "ex8-86",
+    "name": "Energy Charge",
+    "setName": "Deoxys",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex8/86_hires.png"
+  },
+  {
+    "id": "ex8-87",
+    "name": "Lady Outing",
+    "setName": "Deoxys",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex8/87_hires.png"
+  },
+  {
+    "id": "ex8-88",
+    "name": "Master Ball",
+    "setName": "Deoxys",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex8/88_hires.png"
+  },
+  {
+    "id": "ex8-89",
+    "name": "Meteor Falls",
+    "setName": "Deoxys",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex8/89_hires.png"
+  },
+  {
+    "id": "ex8-90",
+    "name": "Professor Cozmo's Discovery",
+    "setName": "Deoxys",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex8/90_hires.png"
+  },
+  {
+    "id": "ex8-91",
+    "name": "Space Center",
+    "setName": "Deoxys",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex8/91_hires.png"
+  },
+  {
+    "id": "ex8-92",
+    "name": "Strength Charm",
+    "setName": "Deoxys",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Keiji Kinebuchi",
+    "imageUrl": "https://images.pokemontcg.io/ex8/92_hires.png"
+  },
+  {
+    "id": "ex8-93",
+    "name": "Boost Energy",
+    "setName": "Deoxys",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex8/93_hires.png"
+  },
+  {
+    "id": "ex8-94",
+    "name": "Heal Energy",
+    "setName": "Deoxys",
+    "number": "94",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex8/94_hires.png"
+  },
+  {
+    "id": "ex8-95",
+    "name": "Scramble Energy",
+    "setName": "Deoxys",
+    "number": "95",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex8/95_hires.png"
+  },
+  {
+    "id": "ex8-96",
+    "name": "Crobat ex",
+    "setName": "Deoxys",
+    "number": "96",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex8/96_hires.png"
+  },
+  {
+    "id": "ex8-97",
+    "name": "Deoxys ex",
+    "setName": "Deoxys",
+    "number": "97",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/97_hires.png"
+  },
+  {
+    "id": "ex8-98",
+    "name": "Deoxys ex",
+    "setName": "Deoxys",
+    "number": "98",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/98_hires.png"
+  },
+  {
+    "id": "ex8-99",
+    "name": "Deoxys ex",
+    "setName": "Deoxys",
+    "number": "99",
+    "rarity": "Rare Holo EX",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex8/99_hires.png"
+  },
+  {
+    "id": "ex8-100",
+    "name": "Hariyama ex",
+    "setName": "Deoxys",
+    "number": "100",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex8/100_hires.png"
+  },
+  {
+    "id": "ex8-101",
+    "name": "Manectric ex",
+    "setName": "Deoxys",
+    "number": "101",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex8/101_hires.png"
+  },
+  {
+    "id": "ex8-102",
+    "name": "Rayquaza ex",
+    "setName": "Deoxys",
+    "number": "102",
+    "rarity": "Rare Holo EX",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex8/102_hires.png"
+  },
+  {
+    "id": "ex8-103",
+    "name": "Salamence ex",
+    "setName": "Deoxys",
+    "number": "103",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex8/103_hires.png"
+  },
+  {
+    "id": "ex8-104",
+    "name": "Sharpedo ex",
+    "setName": "Deoxys",
+    "number": "104",
+    "rarity": "Rare Holo EX",
+    "artist": "Hikaru Koike",
+    "imageUrl": "https://images.pokemontcg.io/ex8/104_hires.png"
+  },
+  {
+    "id": "ex8-105",
+    "name": "Latias ★",
+    "setName": "Deoxys",
+    "number": "105",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex8/105_hires.png"
+  },
+  {
+    "id": "ex8-106",
+    "name": "Latios ★",
+    "setName": "Deoxys",
+    "number": "106",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex8/106_hires.png"
+  },
+  {
+    "id": "ex8-107",
+    "name": "Rayquaza ★",
+    "setName": "Deoxys",
+    "number": "107",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex8/107_hires.png"
+  },
+  {
+    "id": "ex8-108",
+    "name": "Rocket's Raikou ex",
+    "setName": "Deoxys",
+    "number": "108",
+    "rarity": "Rare Secret",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex8/108_hires.png"
+  }
+]

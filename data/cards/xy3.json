@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "xy3-1",
+    "name": "Bellsprout",
+    "setName": "Furious Fists",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy3/1_hires.png"
+  },
+  {
+    "id": "xy3-2",
+    "name": "Weepinbell",
+    "setName": "Furious Fists",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/xy3/2_hires.png"
+  },
+  {
+    "id": "xy3-3",
+    "name": "Victreebel",
+    "setName": "Furious Fists",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/xy3/3_hires.png"
+  },
+  {
+    "id": "xy3-4",
+    "name": "Heracross-EX",
+    "setName": "Furious Fists",
+    "number": "4",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy3/4_hires.png"
+  },
+  {
+    "id": "xy3-5",
+    "name": "M Heracross-EX",
+    "setName": "Furious Fists",
+    "number": "5",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/5_hires.png"
+  },
+  {
+    "id": "xy3-6",
+    "name": "Shroomish",
+    "setName": "Furious Fists",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/xy3/6_hires.png"
+  },
+  {
+    "id": "xy3-7",
+    "name": "Leafeon",
+    "setName": "Furious Fists",
+    "number": "7",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/xy3/7_hires.png"
+  },
+  {
+    "id": "xy3-8",
+    "name": "Shelmet",
+    "setName": "Furious Fists",
+    "number": "8",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/xy3/8_hires.png"
+  },
+  {
+    "id": "xy3-9",
+    "name": "Accelgor",
+    "setName": "Furious Fists",
+    "number": "9",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/xy3/9_hires.png"
+  },
+  {
+    "id": "xy3-10",
+    "name": "Magmar",
+    "setName": "Furious Fists",
+    "number": "10",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/xy3/10_hires.png"
+  },
+  {
+    "id": "xy3-11",
+    "name": "Magmortar",
+    "setName": "Furious Fists",
+    "number": "11",
+    "rarity": "Rare",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/11_hires.png"
+  },
+  {
+    "id": "xy3-12",
+    "name": "Torchic",
+    "setName": "Furious Fists",
+    "number": "12",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/xy3/12_hires.png"
+  },
+  {
+    "id": "xy3-13",
+    "name": "Combusken",
+    "setName": "Furious Fists",
+    "number": "13",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/xy3/13_hires.png"
+  },
+  {
+    "id": "xy3-14",
+    "name": "Blaziken",
+    "setName": "Furious Fists",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/14_hires.png"
+  },
+  {
+    "id": "xy3-15",
+    "name": "Poliwag",
+    "setName": "Furious Fists",
+    "number": "15",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/xy3/15_hires.png"
+  },
+  {
+    "id": "xy3-16",
+    "name": "Poliwhirl",
+    "setName": "Furious Fists",
+    "number": "16",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy3/16_hires.png"
+  },
+  {
+    "id": "xy3-17",
+    "name": "Poliwrath",
+    "setName": "Furious Fists",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/xy3/17_hires.png"
+  },
+  {
+    "id": "xy3-18",
+    "name": "Politoed",
+    "setName": "Furious Fists",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/xy3/18_hires.png"
+  },
+  {
+    "id": "xy3-19",
+    "name": "Glaceon",
+    "setName": "Furious Fists",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy3/19_hires.png"
+  },
+  {
+    "id": "xy3-20",
+    "name": "Seismitoad-EX",
+    "setName": "Furious Fists",
+    "number": "20",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy3/20_hires.png"
+  },
+  {
+    "id": "xy3-21",
+    "name": "Cubchoo",
+    "setName": "Furious Fists",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/xy3/21_hires.png"
+  },
+  {
+    "id": "xy3-22",
+    "name": "Beartic",
+    "setName": "Furious Fists",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/22_hires.png"
+  },
+  {
+    "id": "xy3-23",
+    "name": "Clauncher",
+    "setName": "Furious Fists",
+    "number": "23",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/23_hires.png"
+  },
+  {
+    "id": "xy3-24",
+    "name": "Clawitzer",
+    "setName": "Furious Fists",
+    "number": "24",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/24_hires.png"
+  },
+  {
+    "id": "xy3-25",
+    "name": "Amaura",
+    "setName": "Furious Fists",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/25_hires.png"
+  },
+  {
+    "id": "xy3-26",
+    "name": "Aurorus",
+    "setName": "Furious Fists",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/26_hires.png"
+  },
+  {
+    "id": "xy3-27",
+    "name": "Pikachu",
+    "setName": "Furious Fists",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/xy3/27_hires.png"
+  },
+  {
+    "id": "xy3-28",
+    "name": "Raichu",
+    "setName": "Furious Fists",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/xy3/28_hires.png"
+  },
+  {
+    "id": "xy3-29",
+    "name": "Electabuzz",
+    "setName": "Furious Fists",
+    "number": "29",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy3/29_hires.png"
+  },
+  {
+    "id": "xy3-30",
+    "name": "Electivire",
+    "setName": "Furious Fists",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/30_hires.png"
+  },
+  {
+    "id": "xy3-31",
+    "name": "Plusle",
+    "setName": "Furious Fists",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/xy3/31_hires.png"
+  },
+  {
+    "id": "xy3-32",
+    "name": "Minun",
+    "setName": "Furious Fists",
+    "number": "32",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/xy3/32_hires.png"
+  },
+  {
+    "id": "xy3-33",
+    "name": "Thundurus",
+    "setName": "Furious Fists",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/xy3/33_hires.png"
+  },
+  {
+    "id": "xy3-34",
+    "name": "Dedenne",
+    "setName": "Furious Fists",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/34_hires.png"
+  },
+  {
+    "id": "xy3-35",
+    "name": "Drowzee",
+    "setName": "Furious Fists",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/xy3/35_hires.png"
+  },
+  {
+    "id": "xy3-36",
+    "name": "Hypno",
+    "setName": "Furious Fists",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/xy3/36_hires.png"
+  },
+  {
+    "id": "xy3-37",
+    "name": "Jynx",
+    "setName": "Furious Fists",
+    "number": "37",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy3/37_hires.png"
+  },
+  {
+    "id": "xy3-38",
+    "name": "Skorupi",
+    "setName": "Furious Fists",
+    "number": "38",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy3/38_hires.png"
+  },
+  {
+    "id": "xy3-39",
+    "name": "Gothita",
+    "setName": "Furious Fists",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/xy3/39_hires.png"
+  },
+  {
+    "id": "xy3-40",
+    "name": "Gothorita",
+    "setName": "Furious Fists",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/xy3/40_hires.png"
+  },
+  {
+    "id": "xy3-41",
+    "name": "Gothitelle",
+    "setName": "Furious Fists",
+    "number": "41",
+    "rarity": "Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/xy3/41_hires.png"
+  },
+  {
+    "id": "xy3-42",
+    "name": "Golett",
+    "setName": "Furious Fists",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/xy3/42_hires.png"
+  },
+  {
+    "id": "xy3-43",
+    "name": "Golurk",
+    "setName": "Furious Fists",
+    "number": "43",
+    "rarity": "Rare",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/43_hires.png"
+  },
+  {
+    "id": "xy3-44",
+    "name": "Machop",
+    "setName": "Furious Fists",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/xy3/44_hires.png"
+  },
+  {
+    "id": "xy3-45",
+    "name": "Machoke",
+    "setName": "Furious Fists",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/xy3/45_hires.png"
+  },
+  {
+    "id": "xy3-46",
+    "name": "Machamp",
+    "setName": "Furious Fists",
+    "number": "46",
+    "rarity": "Rare Holo",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/46_hires.png"
+  },
+  {
+    "id": "xy3-47",
+    "name": "Hitmonlee",
+    "setName": "Furious Fists",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/xy3/47_hires.png"
+  },
+  {
+    "id": "xy3-48",
+    "name": "Hitmonchan",
+    "setName": "Furious Fists",
+    "number": "48",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/xy3/48_hires.png"
+  },
+  {
+    "id": "xy3-49",
+    "name": "Hitmontop",
+    "setName": "Furious Fists",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy3/49_hires.png"
+  },
+  {
+    "id": "xy3-50",
+    "name": "Breloom",
+    "setName": "Furious Fists",
+    "number": "50",
+    "rarity": "Rare",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/xy3/50_hires.png"
+  },
+  {
+    "id": "xy3-51",
+    "name": "Makuhita",
+    "setName": "Furious Fists",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/51_hires.png"
+  },
+  {
+    "id": "xy3-52",
+    "name": "Hariyama",
+    "setName": "Furious Fists",
+    "number": "52",
+    "rarity": "Rare",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/52_hires.png"
+  },
+  {
+    "id": "xy3-53",
+    "name": "Trapinch",
+    "setName": "Furious Fists",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/xy3/53_hires.png"
+  },
+  {
+    "id": "xy3-54",
+    "name": "Lucario-EX",
+    "setName": "Furious Fists",
+    "number": "54",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy3/54_hires.png"
+  },
+  {
+    "id": "xy3-55",
+    "name": "M Lucario-EX",
+    "setName": "Furious Fists",
+    "number": "55",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/55_hires.png"
+  },
+  {
+    "id": "xy3-55a",
+    "name": "M Lucario-EX",
+    "setName": "Furious Fists",
+    "number": "55a",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/55a_hires.png"
+  },
+  {
+    "id": "xy3-56",
+    "name": "Mienfoo",
+    "setName": "Furious Fists",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/xy3/56_hires.png"
+  },
+  {
+    "id": "xy3-57",
+    "name": "Mienshao",
+    "setName": "Furious Fists",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/57_hires.png"
+  },
+  {
+    "id": "xy3-58",
+    "name": "Landorus",
+    "setName": "Furious Fists",
+    "number": "58",
+    "rarity": "Rare Holo",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/58_hires.png"
+  },
+  {
+    "id": "xy3-59",
+    "name": "Pancham",
+    "setName": "Furious Fists",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/59_hires.png"
+  },
+  {
+    "id": "xy3-60",
+    "name": "Pancham",
+    "setName": "Furious Fists",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/60_hires.png"
+  },
+  {
+    "id": "xy3-61",
+    "name": "Tyrunt",
+    "setName": "Furious Fists",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/61_hires.png"
+  },
+  {
+    "id": "xy3-62",
+    "name": "Tyrantrum",
+    "setName": "Furious Fists",
+    "number": "62",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/62_hires.png"
+  },
+  {
+    "id": "xy3-63",
+    "name": "Hawlucha",
+    "setName": "Furious Fists",
+    "number": "63",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/63_hires.png"
+  },
+  {
+    "id": "xy3-64",
+    "name": "Hawlucha-EX",
+    "setName": "Furious Fists",
+    "number": "64",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/64_hires.png"
+  },
+  {
+    "id": "xy3-65",
+    "name": "Drapion",
+    "setName": "Furious Fists",
+    "number": "65",
+    "rarity": "Rare",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/xy3/65_hires.png"
+  },
+  {
+    "id": "xy3-66",
+    "name": "Scraggy",
+    "setName": "Furious Fists",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/xy3/66_hires.png"
+  },
+  {
+    "id": "xy3-67",
+    "name": "Scrafty",
+    "setName": "Furious Fists",
+    "number": "67",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/xy3/67_hires.png"
+  },
+  {
+    "id": "xy3-68",
+    "name": "Pangoro",
+    "setName": "Furious Fists",
+    "number": "68",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/68_hires.png"
+  },
+  {
+    "id": "xy3-69",
+    "name": "Clefairy",
+    "setName": "Furious Fists",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/xy3/69_hires.png"
+  },
+  {
+    "id": "xy3-70",
+    "name": "Clefairy",
+    "setName": "Furious Fists",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/xy3/70_hires.png"
+  },
+  {
+    "id": "xy3-71",
+    "name": "Clefable",
+    "setName": "Furious Fists",
+    "number": "71",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/xy3/71_hires.png"
+  },
+  {
+    "id": "xy3-72",
+    "name": "Sylveon",
+    "setName": "Furious Fists",
+    "number": "72",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/72_hires.png"
+  },
+  {
+    "id": "xy3-73",
+    "name": "Klefki",
+    "setName": "Furious Fists",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/73_hires.png"
+  },
+  {
+    "id": "xy3-74",
+    "name": "Dragonite-EX",
+    "setName": "Furious Fists",
+    "number": "74",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy3/74_hires.png"
+  },
+  {
+    "id": "xy3-75",
+    "name": "Vibrava",
+    "setName": "Furious Fists",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy3/75_hires.png"
+  },
+  {
+    "id": "xy3-76",
+    "name": "Flygon",
+    "setName": "Furious Fists",
+    "number": "76",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/76_hires.png"
+  },
+  {
+    "id": "xy3-77",
+    "name": "Noivern",
+    "setName": "Furious Fists",
+    "number": "77",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/77_hires.png"
+  },
+  {
+    "id": "xy3-78",
+    "name": "Lickitung",
+    "setName": "Furious Fists",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/78_hires.png"
+  },
+  {
+    "id": "xy3-79",
+    "name": "Lickilicky",
+    "setName": "Furious Fists",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/xy3/79_hires.png"
+  },
+  {
+    "id": "xy3-80",
+    "name": "Eevee",
+    "setName": "Furious Fists",
+    "number": "80",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/xy3/80_hires.png"
+  },
+  {
+    "id": "xy3-81",
+    "name": "Slakoth",
+    "setName": "Furious Fists",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/xy3/81_hires.png"
+  },
+  {
+    "id": "xy3-82",
+    "name": "Vigoroth",
+    "setName": "Furious Fists",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/xy3/82_hires.png"
+  },
+  {
+    "id": "xy3-83",
+    "name": "Slaking",
+    "setName": "Furious Fists",
+    "number": "83",
+    "rarity": "Rare Holo",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy3/83_hires.png"
+  },
+  {
+    "id": "xy3-84",
+    "name": "Patrat",
+    "setName": "Furious Fists",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/xy3/84_hires.png"
+  },
+  {
+    "id": "xy3-85",
+    "name": "Watchog",
+    "setName": "Furious Fists",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/xy3/85_hires.png"
+  },
+  {
+    "id": "xy3-86",
+    "name": "Tornadus",
+    "setName": "Furious Fists",
+    "number": "86",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy3/86_hires.png"
+  },
+  {
+    "id": "xy3-87",
+    "name": "Noibat",
+    "setName": "Furious Fists",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/87_hires.png"
+  },
+  {
+    "id": "xy3-88",
+    "name": "Battle Reporter",
+    "setName": "Furious Fists",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/xy3/88_hires.png"
+  },
+  {
+    "id": "xy3-89",
+    "name": "Energy Switch",
+    "setName": "Furious Fists",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/89_hires.png"
+  },
+  {
+    "id": "xy3-90",
+    "name": "Fighting Stadium",
+    "setName": "Furious Fists",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/90_hires.png"
+  },
+  {
+    "id": "xy3-91",
+    "name": "Focus Sash",
+    "setName": "Furious Fists",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy3/91_hires.png"
+  },
+  {
+    "id": "xy3-92",
+    "name": "Fossil Researcher",
+    "setName": "Furious Fists",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy3/92_hires.png"
+  },
+  {
+    "id": "xy3-93",
+    "name": "Full Heal",
+    "setName": "Furious Fists",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/93_hires.png"
+  },
+  {
+    "id": "xy3-94",
+    "name": "Jaw Fossil",
+    "setName": "Furious Fists",
+    "number": "94",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy3/94_hires.png"
+  },
+  {
+    "id": "xy3-95",
+    "name": "Korrina",
+    "setName": "Furious Fists",
+    "number": "95",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/xy3/95_hires.png"
+  },
+  {
+    "id": "xy3-96",
+    "name": "Maintenance",
+    "setName": "Furious Fists",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy3/96_hires.png"
+  },
+  {
+    "id": "xy3-97",
+    "name": "Mountain Ring",
+    "setName": "Furious Fists",
+    "number": "97",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/97_hires.png"
+  },
+  {
+    "id": "xy3-98",
+    "name": "Sail Fossil",
+    "setName": "Furious Fists",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy3/98_hires.png"
+  },
+  {
+    "id": "xy3-99",
+    "name": "Sparkling Robe",
+    "setName": "Furious Fists",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy3/99_hires.png"
+  },
+  {
+    "id": "xy3-100",
+    "name": "Super Scoop Up",
+    "setName": "Furious Fists",
+    "number": "100",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/100_hires.png"
+  },
+  {
+    "id": "xy3-101",
+    "name": "Tool Retriever",
+    "setName": "Furious Fists",
+    "number": "101",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy3/101_hires.png"
+  },
+  {
+    "id": "xy3-102",
+    "name": "Training Center",
+    "setName": "Furious Fists",
+    "number": "102",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/102_hires.png"
+  },
+  {
+    "id": "xy3-103",
+    "name": "Herbal Energy",
+    "setName": "Furious Fists",
+    "number": "103",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/103_hires.png"
+  },
+  {
+    "id": "xy3-104",
+    "name": "Strong Energy",
+    "setName": "Furious Fists",
+    "number": "104",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/104_hires.png"
+  },
+  {
+    "id": "xy3-105",
+    "name": "Heracross-EX",
+    "setName": "Furious Fists",
+    "number": "105",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/105_hires.png"
+  },
+  {
+    "id": "xy3-106",
+    "name": "Seismitoad-EX",
+    "setName": "Furious Fists",
+    "number": "106",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/106_hires.png"
+  },
+  {
+    "id": "xy3-107",
+    "name": "Lucario-EX",
+    "setName": "Furious Fists",
+    "number": "107",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/107_hires.png"
+  },
+  {
+    "id": "xy3-108",
+    "name": "Dragonite-EX",
+    "setName": "Furious Fists",
+    "number": "108",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy3/108_hires.png"
+  },
+  {
+    "id": "xy3-109",
+    "name": "Battle Reporter",
+    "setName": "Furious Fists",
+    "number": "109",
+    "rarity": "Rare Ultra",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/xy3/109_hires.png"
+  },
+  {
+    "id": "xy3-110",
+    "name": "Fossil Researcher",
+    "setName": "Furious Fists",
+    "number": "110",
+    "rarity": "Rare Ultra",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy3/110_hires.png"
+  },
+  {
+    "id": "xy3-111",
+    "name": "Korrina",
+    "setName": "Furious Fists",
+    "number": "111",
+    "rarity": "Rare Ultra",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/xy3/111_hires.png"
+  },
+  {
+    "id": "xy3-112",
+    "name": "M Heracross-EX",
+    "setName": "Furious Fists",
+    "number": "112",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/112_hires.png"
+  },
+  {
+    "id": "xy3-113",
+    "name": "M Lucario-EX",
+    "setName": "Furious Fists",
+    "number": "113",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy3/113_hires.png"
+  }
+]

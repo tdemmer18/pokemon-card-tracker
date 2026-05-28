@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "swsh5-1",
+    "name": "Bellsprout",
+    "setName": "Battle Styles",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/1_hires.png"
+  },
+  {
+    "id": "swsh5-2",
+    "name": "Weepinbell",
+    "setName": "Battle Styles",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/2_hires.png"
+  },
+  {
+    "id": "swsh5-3",
+    "name": "Victreebel",
+    "setName": "Battle Styles",
+    "number": "3",
+    "rarity": "Rare",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/3_hires.png"
+  },
+  {
+    "id": "swsh5-4",
+    "name": "Cacnea",
+    "setName": "Battle Styles",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Kazuma Koda",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/4_hires.png"
+  },
+  {
+    "id": "swsh5-5",
+    "name": "Cacturne",
+    "setName": "Battle Styles",
+    "number": "5",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/5_hires.png"
+  },
+  {
+    "id": "swsh5-6",
+    "name": "Kricketune V",
+    "setName": "Battle Styles",
+    "number": "6",
+    "rarity": "Rare Holo V",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/6_hires.png"
+  },
+  {
+    "id": "swsh5-7",
+    "name": "Cherubi",
+    "setName": "Battle Styles",
+    "number": "7",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/7_hires.png"
+  },
+  {
+    "id": "swsh5-8",
+    "name": "Cherrim",
+    "setName": "Battle Styles",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/8_hires.png"
+  },
+  {
+    "id": "swsh5-9",
+    "name": "Carnivine",
+    "setName": "Battle Styles",
+    "number": "9",
+    "rarity": "Uncommon",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/9_hires.png"
+  },
+  {
+    "id": "swsh5-10",
+    "name": "Durant",
+    "setName": "Battle Styles",
+    "number": "10",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/10_hires.png"
+  },
+  {
+    "id": "swsh5-11",
+    "name": "Scatterbug",
+    "setName": "Battle Styles",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/11_hires.png"
+  },
+  {
+    "id": "swsh5-12",
+    "name": "Spewpa",
+    "setName": "Battle Styles",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/12_hires.png"
+  },
+  {
+    "id": "swsh5-13",
+    "name": "Vivillon",
+    "setName": "Battle Styles",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/13_hires.png"
+  },
+  {
+    "id": "swsh5-14",
+    "name": "Fomantis",
+    "setName": "Battle Styles",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/14_hires.png"
+  },
+  {
+    "id": "swsh5-15",
+    "name": "Lurantis",
+    "setName": "Battle Styles",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/15_hires.png"
+  },
+  {
+    "id": "swsh5-16",
+    "name": "Tapu Bulu",
+    "setName": "Battle Styles",
+    "number": "16",
+    "rarity": "Rare Holo",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/16_hires.png"
+  },
+  {
+    "id": "swsh5-17",
+    "name": "Blipbug",
+    "setName": "Battle Styles",
+    "number": "17",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/17_hires.png"
+  },
+  {
+    "id": "swsh5-18",
+    "name": "Flapple V",
+    "setName": "Battle Styles",
+    "number": "18",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/18_hires.png"
+  },
+  {
+    "id": "swsh5-19",
+    "name": "Flapple VMAX",
+    "setName": "Battle Styles",
+    "number": "19",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/19_hires.png"
+  },
+  {
+    "id": "swsh5-20",
+    "name": "Entei",
+    "setName": "Battle Styles",
+    "number": "20",
+    "rarity": "Rare Holo",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/20_hires.png"
+  },
+  {
+    "id": "swsh5-21",
+    "name": "Victini V",
+    "setName": "Battle Styles",
+    "number": "21",
+    "rarity": "Rare Holo V",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/21_hires.png"
+  },
+  {
+    "id": "swsh5-22",
+    "name": "Victini VMAX",
+    "setName": "Battle Styles",
+    "number": "22",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/22_hires.png"
+  },
+  {
+    "id": "swsh5-23",
+    "name": "Tepig",
+    "setName": "Battle Styles",
+    "number": "23",
+    "rarity": "Common",
+    "artist": "You Iribi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/23_hires.png"
+  },
+  {
+    "id": "swsh5-24",
+    "name": "Pignite",
+    "setName": "Battle Styles",
+    "number": "24",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/24_hires.png"
+  },
+  {
+    "id": "swsh5-25",
+    "name": "Emboar",
+    "setName": "Battle Styles",
+    "number": "25",
+    "rarity": "Rare Holo",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/25_hires.png"
+  },
+  {
+    "id": "swsh5-26",
+    "name": "Heatmor",
+    "setName": "Battle Styles",
+    "number": "26",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/26_hires.png"
+  },
+  {
+    "id": "swsh5-27",
+    "name": "Salandit",
+    "setName": "Battle Styles",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/27_hires.png"
+  },
+  {
+    "id": "swsh5-28",
+    "name": "Salazzle",
+    "setName": "Battle Styles",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/28_hires.png"
+  },
+  {
+    "id": "swsh5-29",
+    "name": "Sizzlipede",
+    "setName": "Battle Styles",
+    "number": "29",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/29_hires.png"
+  },
+  {
+    "id": "swsh5-30",
+    "name": "Centiskorch",
+    "setName": "Battle Styles",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/30_hires.png"
+  },
+  {
+    "id": "swsh5-31",
+    "name": "Horsea",
+    "setName": "Battle Styles",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/31_hires.png"
+  },
+  {
+    "id": "swsh5-32",
+    "name": "Seadra",
+    "setName": "Battle Styles",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/32_hires.png"
+  },
+  {
+    "id": "swsh5-33",
+    "name": "Kingdra",
+    "setName": "Battle Styles",
+    "number": "33",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/33_hires.png"
+  },
+  {
+    "id": "swsh5-34",
+    "name": "Galarian Mr. Mime",
+    "setName": "Battle Styles",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/34_hires.png"
+  },
+  {
+    "id": "swsh5-35",
+    "name": "Galarian Mr. Rime",
+    "setName": "Battle Styles",
+    "number": "35",
+    "rarity": "Rare",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/35_hires.png"
+  },
+  {
+    "id": "swsh5-36",
+    "name": "Remoraid",
+    "setName": "Battle Styles",
+    "number": "36",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/36_hires.png"
+  },
+  {
+    "id": "swsh5-37",
+    "name": "Octillery",
+    "setName": "Battle Styles",
+    "number": "37",
+    "rarity": "Rare Holo",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/37_hires.png"
+  },
+  {
+    "id": "swsh5-38",
+    "name": "Corphish",
+    "setName": "Battle Styles",
+    "number": "38",
+    "rarity": "Common",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/38_hires.png"
+  },
+  {
+    "id": "swsh5-39",
+    "name": "Crawdaunt",
+    "setName": "Battle Styles",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Hasegawa Saki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/39_hires.png"
+  },
+  {
+    "id": "swsh5-40",
+    "name": "Empoleon V",
+    "setName": "Battle Styles",
+    "number": "40",
+    "rarity": "Rare Holo V",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/40_hires.png"
+  },
+  {
+    "id": "swsh5-41",
+    "name": "Frillish",
+    "setName": "Battle Styles",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/41_hires.png"
+  },
+  {
+    "id": "swsh5-42",
+    "name": "Jellicent",
+    "setName": "Battle Styles",
+    "number": "42",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/42_hires.png"
+  },
+  {
+    "id": "swsh5-43",
+    "name": "Bruxish",
+    "setName": "Battle Styles",
+    "number": "43",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/43_hires.png"
+  },
+  {
+    "id": "swsh5-44",
+    "name": "Electabuzz",
+    "setName": "Battle Styles",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/44_hires.png"
+  },
+  {
+    "id": "swsh5-45",
+    "name": "Electivire",
+    "setName": "Battle Styles",
+    "number": "45",
+    "rarity": "Rare",
+    "artist": "Megumi Higuchi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/45_hires.png"
+  },
+  {
+    "id": "swsh5-46",
+    "name": "Shinx",
+    "setName": "Battle Styles",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/46_hires.png"
+  },
+  {
+    "id": "swsh5-47",
+    "name": "Luxio",
+    "setName": "Battle Styles",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Megumi Higuchi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/47_hires.png"
+  },
+  {
+    "id": "swsh5-48",
+    "name": "Luxray",
+    "setName": "Battle Styles",
+    "number": "48",
+    "rarity": "Rare Holo",
+    "artist": "Kazuma Koda",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/48_hires.png"
+  },
+  {
+    "id": "swsh5-49",
+    "name": "Pachirisu",
+    "setName": "Battle Styles",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/49_hires.png"
+  },
+  {
+    "id": "swsh5-50",
+    "name": "Tapu Koko V",
+    "setName": "Battle Styles",
+    "number": "50",
+    "rarity": "Rare Holo V",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/50_hires.png"
+  },
+  {
+    "id": "swsh5-51",
+    "name": "Tapu Koko VMAX",
+    "setName": "Battle Styles",
+    "number": "51",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/51_hires.png"
+  },
+  {
+    "id": "swsh5-52",
+    "name": "Yamper",
+    "setName": "Battle Styles",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/52_hires.png"
+  },
+  {
+    "id": "swsh5-53",
+    "name": "Boltund",
+    "setName": "Battle Styles",
+    "number": "53",
+    "rarity": "Rare",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/53_hires.png"
+  },
+  {
+    "id": "swsh5-54",
+    "name": "Galarian Slowpoke",
+    "setName": "Battle Styles",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/54_hires.png"
+  },
+  {
+    "id": "swsh5-55",
+    "name": "Spoink",
+    "setName": "Battle Styles",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/55_hires.png"
+  },
+  {
+    "id": "swsh5-56",
+    "name": "Grumpig",
+    "setName": "Battle Styles",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/56_hires.png"
+  },
+  {
+    "id": "swsh5-57",
+    "name": "Baltoy",
+    "setName": "Battle Styles",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/57_hires.png"
+  },
+  {
+    "id": "swsh5-58",
+    "name": "Claydol",
+    "setName": "Battle Styles",
+    "number": "58",
+    "rarity": "Rare",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/58_hires.png"
+  },
+  {
+    "id": "swsh5-59",
+    "name": "Chimecho",
+    "setName": "Battle Styles",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/59_hires.png"
+  },
+  {
+    "id": "swsh5-60",
+    "name": "Espurr",
+    "setName": "Battle Styles",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/60_hires.png"
+  },
+  {
+    "id": "swsh5-61",
+    "name": "Meowstic",
+    "setName": "Battle Styles",
+    "number": "61",
+    "rarity": "Rare Holo",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/61_hires.png"
+  },
+  {
+    "id": "swsh5-62",
+    "name": "Mimikyu V",
+    "setName": "Battle Styles",
+    "number": "62",
+    "rarity": "Rare Holo V",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/62_hires.png"
+  },
+  {
+    "id": "swsh5-63",
+    "name": "Necrozma V",
+    "setName": "Battle Styles",
+    "number": "63",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/63_hires.png"
+  },
+  {
+    "id": "swsh5-64",
+    "name": "Dottler",
+    "setName": "Battle Styles",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/64_hires.png"
+  },
+  {
+    "id": "swsh5-65",
+    "name": "Orbeetle",
+    "setName": "Battle Styles",
+    "number": "65",
+    "rarity": "Rare Holo",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/65_hires.png"
+  },
+  {
+    "id": "swsh5-66",
+    "name": "Mankey",
+    "setName": "Battle Styles",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/66_hires.png"
+  },
+  {
+    "id": "swsh5-67",
+    "name": "Primeape",
+    "setName": "Battle Styles",
+    "number": "67",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/67_hires.png"
+  },
+  {
+    "id": "swsh5-68",
+    "name": "Onix",
+    "setName": "Battle Styles",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/68_hires.png"
+  },
+  {
+    "id": "swsh5-69",
+    "name": "Cubone",
+    "setName": "Battle Styles",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "You Iribi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/69_hires.png"
+  },
+  {
+    "id": "swsh5-70",
+    "name": "Marowak",
+    "setName": "Battle Styles",
+    "number": "70",
+    "rarity": "Rare",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/70_hires.png"
+  },
+  {
+    "id": "swsh5-71",
+    "name": "Gligar",
+    "setName": "Battle Styles",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/71_hires.png"
+  },
+  {
+    "id": "swsh5-72",
+    "name": "Gliscor",
+    "setName": "Battle Styles",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/72_hires.png"
+  },
+  {
+    "id": "swsh5-73",
+    "name": "Timburr",
+    "setName": "Battle Styles",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/73_hires.png"
+  },
+  {
+    "id": "swsh5-74",
+    "name": "Gurdurr",
+    "setName": "Battle Styles",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/74_hires.png"
+  },
+  {
+    "id": "swsh5-75",
+    "name": "Conkeldurr",
+    "setName": "Battle Styles",
+    "number": "75",
+    "rarity": "Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/75_hires.png"
+  },
+  {
+    "id": "swsh5-76",
+    "name": "Mienfoo",
+    "setName": "Battle Styles",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/76_hires.png"
+  },
+  {
+    "id": "swsh5-77",
+    "name": "Mienshao",
+    "setName": "Battle Styles",
+    "number": "77",
+    "rarity": "Rare",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/77_hires.png"
+  },
+  {
+    "id": "swsh5-78",
+    "name": "Rolycoly",
+    "setName": "Battle Styles",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/78_hires.png"
+  },
+  {
+    "id": "swsh5-79",
+    "name": "Carkol",
+    "setName": "Battle Styles",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/79_hires.png"
+  },
+  {
+    "id": "swsh5-80",
+    "name": "Coalossal",
+    "setName": "Battle Styles",
+    "number": "80",
+    "rarity": "Rare Holo",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/80_hires.png"
+  },
+  {
+    "id": "swsh5-81",
+    "name": "Silicobra",
+    "setName": "Battle Styles",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/81_hires.png"
+  },
+  {
+    "id": "swsh5-82",
+    "name": "Sandaconda",
+    "setName": "Battle Styles",
+    "number": "82",
+    "rarity": "Rare Holo",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/82_hires.png"
+  },
+  {
+    "id": "swsh5-83",
+    "name": "Falinks",
+    "setName": "Battle Styles",
+    "number": "83",
+    "rarity": "Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/83_hires.png"
+  },
+  {
+    "id": "swsh5-84",
+    "name": "Stonjourner",
+    "setName": "Battle Styles",
+    "number": "84",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/84_hires.png"
+  },
+  {
+    "id": "swsh5-85",
+    "name": "Single Strike Urshifu V",
+    "setName": "Battle Styles",
+    "number": "85",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/85_hires.png"
+  },
+  {
+    "id": "swsh5-86",
+    "name": "Single Strike Urshifu VMAX",
+    "setName": "Battle Styles",
+    "number": "86",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/86_hires.png"
+  },
+  {
+    "id": "swsh5-87",
+    "name": "Rapid Strike Urshifu V",
+    "setName": "Battle Styles",
+    "number": "87",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/87_hires.png"
+  },
+  {
+    "id": "swsh5-88",
+    "name": "Rapid Strike Urshifu VMAX",
+    "setName": "Battle Styles",
+    "number": "88",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/88_hires.png"
+  },
+  {
+    "id": "swsh5-89",
+    "name": "Zubat",
+    "setName": "Battle Styles",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Asako Ito",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/89_hires.png"
+  },
+  {
+    "id": "swsh5-90",
+    "name": "Golbat",
+    "setName": "Battle Styles",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/90_hires.png"
+  },
+  {
+    "id": "swsh5-91",
+    "name": "Crobat",
+    "setName": "Battle Styles",
+    "number": "91",
+    "rarity": "Rare Holo",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/91_hires.png"
+  },
+  {
+    "id": "swsh5-92",
+    "name": "Galarian Slowbro",
+    "setName": "Battle Styles",
+    "number": "92",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/92_hires.png"
+  },
+  {
+    "id": "swsh5-93",
+    "name": "Murkrow",
+    "setName": "Battle Styles",
+    "number": "93",
+    "rarity": "Common",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/93_hires.png"
+  },
+  {
+    "id": "swsh5-94",
+    "name": "Honchkrow",
+    "setName": "Battle Styles",
+    "number": "94",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/94_hires.png"
+  },
+  {
+    "id": "swsh5-95",
+    "name": "Houndour",
+    "setName": "Battle Styles",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/95_hires.png"
+  },
+  {
+    "id": "swsh5-96",
+    "name": "Houndoom",
+    "setName": "Battle Styles",
+    "number": "96",
+    "rarity": "Rare Holo",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/96_hires.png"
+  },
+  {
+    "id": "swsh5-97",
+    "name": "Tyranitar V",
+    "setName": "Battle Styles",
+    "number": "97",
+    "rarity": "Rare Holo V",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/97_hires.png"
+  },
+  {
+    "id": "swsh5-98",
+    "name": "Morpeko",
+    "setName": "Battle Styles",
+    "number": "98",
+    "rarity": "Uncommon",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/98_hires.png"
+  },
+  {
+    "id": "swsh5-99",
+    "name": "Steelix",
+    "setName": "Battle Styles",
+    "number": "99",
+    "rarity": "Rare Holo",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/99_hires.png"
+  },
+  {
+    "id": "swsh5-100",
+    "name": "Mawile",
+    "setName": "Battle Styles",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/100_hires.png"
+  },
+  {
+    "id": "swsh5-101",
+    "name": "Bronzor",
+    "setName": "Battle Styles",
+    "number": "101",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/101_hires.png"
+  },
+  {
+    "id": "swsh5-102",
+    "name": "Bronzong",
+    "setName": "Battle Styles",
+    "number": "102",
+    "rarity": "Rare Holo",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/102_hires.png"
+  },
+  {
+    "id": "swsh5-103",
+    "name": "Pawniard",
+    "setName": "Battle Styles",
+    "number": "103",
+    "rarity": "Common",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/103_hires.png"
+  },
+  {
+    "id": "swsh5-104",
+    "name": "Bisharp",
+    "setName": "Battle Styles",
+    "number": "104",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/104_hires.png"
+  },
+  {
+    "id": "swsh5-105",
+    "name": "Honedge",
+    "setName": "Battle Styles",
+    "number": "105",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/105_hires.png"
+  },
+  {
+    "id": "swsh5-106",
+    "name": "Doublade",
+    "setName": "Battle Styles",
+    "number": "106",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/106_hires.png"
+  },
+  {
+    "id": "swsh5-107",
+    "name": "Aegislash",
+    "setName": "Battle Styles",
+    "number": "107",
+    "rarity": "Rare Holo",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/107_hires.png"
+  },
+  {
+    "id": "swsh5-108",
+    "name": "Aegislash",
+    "setName": "Battle Styles",
+    "number": "108",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/108_hires.png"
+  },
+  {
+    "id": "swsh5-109",
+    "name": "Corviknight V",
+    "setName": "Battle Styles",
+    "number": "109",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/109_hires.png"
+  },
+  {
+    "id": "swsh5-110",
+    "name": "Corviknight VMAX",
+    "setName": "Battle Styles",
+    "number": "110",
+    "rarity": "Rare Holo VMAX",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/110_hires.png"
+  },
+  {
+    "id": "swsh5-111",
+    "name": "Spearow",
+    "setName": "Battle Styles",
+    "number": "111",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/111_hires.png"
+  },
+  {
+    "id": "swsh5-112",
+    "name": "Fearow",
+    "setName": "Battle Styles",
+    "number": "112",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/112_hires.png"
+  },
+  {
+    "id": "swsh5-113",
+    "name": "Lickitung",
+    "setName": "Battle Styles",
+    "number": "113",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/113_hires.png"
+  },
+  {
+    "id": "swsh5-114",
+    "name": "Lickilicky",
+    "setName": "Battle Styles",
+    "number": "114",
+    "rarity": "Rare",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/114_hires.png"
+  },
+  {
+    "id": "swsh5-115",
+    "name": "Glameow",
+    "setName": "Battle Styles",
+    "number": "115",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/115_hires.png"
+  },
+  {
+    "id": "swsh5-116",
+    "name": "Purugly",
+    "setName": "Battle Styles",
+    "number": "116",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/116_hires.png"
+  },
+  {
+    "id": "swsh5-117",
+    "name": "Stoutland V",
+    "setName": "Battle Styles",
+    "number": "117",
+    "rarity": "Rare Holo V",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/117_hires.png"
+  },
+  {
+    "id": "swsh5-118",
+    "name": "Bouffalant",
+    "setName": "Battle Styles",
+    "number": "118",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/118_hires.png"
+  },
+  {
+    "id": "swsh5-119",
+    "name": "Drampa",
+    "setName": "Battle Styles",
+    "number": "119",
+    "rarity": "Rare",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/119_hires.png"
+  },
+  {
+    "id": "swsh5-120",
+    "name": "Indeedee",
+    "setName": "Battle Styles",
+    "number": "120",
+    "rarity": "Uncommon",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/120_hires.png"
+  },
+  {
+    "id": "swsh5-121",
+    "name": "Bruno",
+    "setName": "Battle Styles",
+    "number": "121",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/121_hires.png"
+  },
+  {
+    "id": "swsh5-122",
+    "name": "Camping Gear",
+    "setName": "Battle Styles",
+    "number": "122",
+    "rarity": "Uncommon",
+    "artist": "sadaji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/122_hires.png"
+  },
+  {
+    "id": "swsh5-123",
+    "name": "Cheryl",
+    "setName": "Battle Styles",
+    "number": "123",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/123_hires.png"
+  },
+  {
+    "id": "swsh5-124",
+    "name": "Energy Recycler",
+    "setName": "Battle Styles",
+    "number": "124",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/124_hires.png"
+  },
+  {
+    "id": "swsh5-125",
+    "name": "Escape Rope",
+    "setName": "Battle Styles",
+    "number": "125",
+    "rarity": "Uncommon",
+    "artist": "sadaji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/125_hires.png"
+  },
+  {
+    "id": "swsh5-126",
+    "name": "Exp. Share",
+    "setName": "Battle Styles",
+    "number": "126",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/126_hires.png"
+  },
+  {
+    "id": "swsh5-127",
+    "name": "Fan of Waves",
+    "setName": "Battle Styles",
+    "number": "127",
+    "rarity": "Uncommon",
+    "artist": "sadaji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/127_hires.png"
+  },
+  {
+    "id": "swsh5-128",
+    "name": "Korrina's Focus",
+    "setName": "Battle Styles",
+    "number": "128",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/128_hires.png"
+  },
+  {
+    "id": "swsh5-129",
+    "name": "Level Ball",
+    "setName": "Battle Styles",
+    "number": "129",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/129_hires.png"
+  },
+  {
+    "id": "swsh5-130",
+    "name": "Phoebe",
+    "setName": "Battle Styles",
+    "number": "130",
+    "rarity": "Uncommon",
+    "artist": "GAME FREAK inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/130_hires.png"
+  },
+  {
+    "id": "swsh5-131",
+    "name": "Rapid Strike Scroll of Swirls",
+    "setName": "Battle Styles",
+    "number": "131",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/131_hires.png"
+  },
+  {
+    "id": "swsh5-132",
+    "name": "Rapid Strike Style Mustard",
+    "setName": "Battle Styles",
+    "number": "132",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/132_hires.png"
+  },
+  {
+    "id": "swsh5-133",
+    "name": "Single Strike Scroll of Scorn",
+    "setName": "Battle Styles",
+    "number": "133",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/133_hires.png"
+  },
+  {
+    "id": "swsh5-134",
+    "name": "Single Strike Style Mustard",
+    "setName": "Battle Styles",
+    "number": "134",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/134_hires.png"
+  },
+  {
+    "id": "swsh5-135",
+    "name": "Sordward & Shielbert",
+    "setName": "Battle Styles",
+    "number": "135",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/135_hires.png"
+  },
+  {
+    "id": "swsh5-136",
+    "name": "Tool Jammer",
+    "setName": "Battle Styles",
+    "number": "136",
+    "rarity": "Uncommon",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/136_hires.png"
+  },
+  {
+    "id": "swsh5-137",
+    "name": "Tower of Darkness",
+    "setName": "Battle Styles",
+    "number": "137",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/137_hires.png"
+  },
+  {
+    "id": "swsh5-138",
+    "name": "Tower of Waters",
+    "setName": "Battle Styles",
+    "number": "138",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/138_hires.png"
+  },
+  {
+    "id": "swsh5-139",
+    "name": "Urn of Vitality",
+    "setName": "Battle Styles",
+    "number": "139",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/139_hires.png"
+  },
+  {
+    "id": "swsh5-140",
+    "name": "Rapid Strike Energy",
+    "setName": "Battle Styles",
+    "number": "140",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh5/140_hires.png"
+  },
+  {
+    "id": "swsh5-141",
+    "name": "Single Strike Energy",
+    "setName": "Battle Styles",
+    "number": "141",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh5/141_hires.png"
+  },
+  {
+    "id": "swsh5-142",
+    "name": "Kricketune V",
+    "setName": "Battle Styles",
+    "number": "142",
+    "rarity": "Rare Ultra",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/142_hires.png"
+  },
+  {
+    "id": "swsh5-143",
+    "name": "Flapple V",
+    "setName": "Battle Styles",
+    "number": "143",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/143_hires.png"
+  },
+  {
+    "id": "swsh5-144",
+    "name": "Victini V",
+    "setName": "Battle Styles",
+    "number": "144",
+    "rarity": "Rare Ultra",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/144_hires.png"
+  },
+  {
+    "id": "swsh5-145",
+    "name": "Empoleon V",
+    "setName": "Battle Styles",
+    "number": "145",
+    "rarity": "Rare Ultra",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/145_hires.png"
+  },
+  {
+    "id": "swsh5-146",
+    "name": "Empoleon V",
+    "setName": "Battle Styles",
+    "number": "146",
+    "rarity": "Rare Ultra",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/146_hires.png"
+  },
+  {
+    "id": "swsh5-147",
+    "name": "Tapu Koko V",
+    "setName": "Battle Styles",
+    "number": "147",
+    "rarity": "Rare Ultra",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/147_hires.png"
+  },
+  {
+    "id": "swsh5-148",
+    "name": "Mimikyu V",
+    "setName": "Battle Styles",
+    "number": "148",
+    "rarity": "Rare Ultra",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/148_hires.png"
+  },
+  {
+    "id": "swsh5-149",
+    "name": "Necrozma V",
+    "setName": "Battle Styles",
+    "number": "149",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/149_hires.png"
+  },
+  {
+    "id": "swsh5-150",
+    "name": "Single Strike Urshifu V",
+    "setName": "Battle Styles",
+    "number": "150",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/150_hires.png"
+  },
+  {
+    "id": "swsh5-151",
+    "name": "Single Strike Urshifu V",
+    "setName": "Battle Styles",
+    "number": "151",
+    "rarity": "Rare Ultra",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/151_hires.png"
+  },
+  {
+    "id": "swsh5-152",
+    "name": "Rapid Strike Urshifu V",
+    "setName": "Battle Styles",
+    "number": "152",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/152_hires.png"
+  },
+  {
+    "id": "swsh5-153",
+    "name": "Rapid Strike Urshifu V",
+    "setName": "Battle Styles",
+    "number": "153",
+    "rarity": "Rare Ultra",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/153_hires.png"
+  },
+  {
+    "id": "swsh5-154",
+    "name": "Tyranitar V",
+    "setName": "Battle Styles",
+    "number": "154",
+    "rarity": "Rare Ultra",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/154_hires.png"
+  },
+  {
+    "id": "swsh5-155",
+    "name": "Tyranitar V",
+    "setName": "Battle Styles",
+    "number": "155",
+    "rarity": "Rare Ultra",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/155_hires.png"
+  },
+  {
+    "id": "swsh5-156",
+    "name": "Corviknight V",
+    "setName": "Battle Styles",
+    "number": "156",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/156_hires.png"
+  },
+  {
+    "id": "swsh5-157",
+    "name": "Stoutland V",
+    "setName": "Battle Styles",
+    "number": "157",
+    "rarity": "Rare Ultra",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/157_hires.png"
+  },
+  {
+    "id": "swsh5-158",
+    "name": "Bruno",
+    "setName": "Battle Styles",
+    "number": "158",
+    "rarity": "Rare Ultra",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/158_hires.png"
+  },
+  {
+    "id": "swsh5-159",
+    "name": "Cheryl",
+    "setName": "Battle Styles",
+    "number": "159",
+    "rarity": "Rare Ultra",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/159_hires.png"
+  },
+  {
+    "id": "swsh5-160",
+    "name": "Korrina's Focus",
+    "setName": "Battle Styles",
+    "number": "160",
+    "rarity": "Rare Ultra",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/160_hires.png"
+  },
+  {
+    "id": "swsh5-161",
+    "name": "Phoebe",
+    "setName": "Battle Styles",
+    "number": "161",
+    "rarity": "Rare Ultra",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/161_hires.png"
+  },
+  {
+    "id": "swsh5-162",
+    "name": "Rapid Strike Style Mustard",
+    "setName": "Battle Styles",
+    "number": "162",
+    "rarity": "Rare Ultra",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/162_hires.png"
+  },
+  {
+    "id": "swsh5-163",
+    "name": "Single Strike Style Mustard",
+    "setName": "Battle Styles",
+    "number": "163",
+    "rarity": "Rare Ultra",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/163_hires.png"
+  },
+  {
+    "id": "swsh5-164",
+    "name": "Flapple VMAX",
+    "setName": "Battle Styles",
+    "number": "164",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/164_hires.png"
+  },
+  {
+    "id": "swsh5-165",
+    "name": "Victini VMAX",
+    "setName": "Battle Styles",
+    "number": "165",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/165_hires.png"
+  },
+  {
+    "id": "swsh5-166",
+    "name": "Tapu Koko VMAX",
+    "setName": "Battle Styles",
+    "number": "166",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/166_hires.png"
+  },
+  {
+    "id": "swsh5-167",
+    "name": "Single Strike Urshifu VMAX",
+    "setName": "Battle Styles",
+    "number": "167",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/167_hires.png"
+  },
+  {
+    "id": "swsh5-168",
+    "name": "Single Strike Urshifu VMAX",
+    "setName": "Battle Styles",
+    "number": "168",
+    "rarity": "Rare Rainbow",
+    "artist": "Kinu Nishimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/168_hires.png"
+  },
+  {
+    "id": "swsh5-169",
+    "name": "Rapid Strike Urshifu VMAX",
+    "setName": "Battle Styles",
+    "number": "169",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/169_hires.png"
+  },
+  {
+    "id": "swsh5-170",
+    "name": "Rapid Strike Urshifu VMAX",
+    "setName": "Battle Styles",
+    "number": "170",
+    "rarity": "Rare Rainbow",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/170_hires.png"
+  },
+  {
+    "id": "swsh5-171",
+    "name": "Corviknight VMAX",
+    "setName": "Battle Styles",
+    "number": "171",
+    "rarity": "Rare Rainbow",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/171_hires.png"
+  },
+  {
+    "id": "swsh5-172",
+    "name": "Bruno",
+    "setName": "Battle Styles",
+    "number": "172",
+    "rarity": "Rare Rainbow",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/172_hires.png"
+  },
+  {
+    "id": "swsh5-173",
+    "name": "Cheryl",
+    "setName": "Battle Styles",
+    "number": "173",
+    "rarity": "Rare Rainbow",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/173_hires.png"
+  },
+  {
+    "id": "swsh5-174",
+    "name": "Korrina's Focus",
+    "setName": "Battle Styles",
+    "number": "174",
+    "rarity": "Rare Rainbow",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/174_hires.png"
+  },
+  {
+    "id": "swsh5-175",
+    "name": "Phoebe",
+    "setName": "Battle Styles",
+    "number": "175",
+    "rarity": "Rare Rainbow",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/175_hires.png"
+  },
+  {
+    "id": "swsh5-176",
+    "name": "Rapid Strike Style Mustard",
+    "setName": "Battle Styles",
+    "number": "176",
+    "rarity": "Rare Rainbow",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/176_hires.png"
+  },
+  {
+    "id": "swsh5-177",
+    "name": "Single Strike Style Mustard",
+    "setName": "Battle Styles",
+    "number": "177",
+    "rarity": "Rare Rainbow",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/177_hires.png"
+  },
+  {
+    "id": "swsh5-178",
+    "name": "Octillery",
+    "setName": "Battle Styles",
+    "number": "178",
+    "rarity": "Rare Secret",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/178_hires.png"
+  },
+  {
+    "id": "swsh5-179",
+    "name": "Houndoom",
+    "setName": "Battle Styles",
+    "number": "179",
+    "rarity": "Rare Secret",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/179_hires.png"
+  },
+  {
+    "id": "swsh5-180",
+    "name": "Exp. Share",
+    "setName": "Battle Styles",
+    "number": "180",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/180_hires.png"
+  },
+  {
+    "id": "swsh5-181",
+    "name": "Level Ball",
+    "setName": "Battle Styles",
+    "number": "181",
+    "rarity": "Rare Secret",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/181_hires.png"
+  },
+  {
+    "id": "swsh5-182",
+    "name": "Rapid Strike Energy",
+    "setName": "Battle Styles",
+    "number": "182",
+    "rarity": "Rare Secret",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh5/182_hires.png"
+  },
+  {
+    "id": "swsh5-183",
+    "name": "Single Strike Energy",
+    "setName": "Battle Styles",
+    "number": "183",
+    "rarity": "Rare Secret",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh5/183_hires.png"
+  }
+]

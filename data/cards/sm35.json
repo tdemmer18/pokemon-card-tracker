@@ -1,0 +1,731 @@
+[
+  {
+    "id": "sm35-1",
+    "name": "Bulbasaur",
+    "setName": "Shining Legends",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sm35/1_hires.png"
+  },
+  {
+    "id": "sm35-2",
+    "name": "Ivysaur",
+    "setName": "Shining Legends",
+    "number": "2",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sm35/2_hires.png"
+  },
+  {
+    "id": "sm35-3",
+    "name": "Venusaur",
+    "setName": "Shining Legends",
+    "number": "3",
+    "rarity": "Uncommon",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sm35/3_hires.png"
+  },
+  {
+    "id": "sm35-4",
+    "name": "Shroomish",
+    "setName": "Shining Legends",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sm35/4_hires.png"
+  },
+  {
+    "id": "sm35-5",
+    "name": "Breloom",
+    "setName": "Shining Legends",
+    "number": "5",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sm35/5_hires.png"
+  },
+  {
+    "id": "sm35-6",
+    "name": "Carnivine",
+    "setName": "Shining Legends",
+    "number": "6",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sm35/6_hires.png"
+  },
+  {
+    "id": "sm35-7",
+    "name": "Shaymin",
+    "setName": "Shining Legends",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sm35/7_hires.png"
+  },
+  {
+    "id": "sm35-8",
+    "name": "Virizion",
+    "setName": "Shining Legends",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sm35/8_hires.png"
+  },
+  {
+    "id": "sm35-9",
+    "name": "Shining Genesect",
+    "setName": "Shining Legends",
+    "number": "9",
+    "rarity": "Rare Shining",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sm35/9_hires.png"
+  },
+  {
+    "id": "sm35-10",
+    "name": "Entei-GX",
+    "setName": "Shining Legends",
+    "number": "10",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/10_hires.png"
+  },
+  {
+    "id": "sm35-10a",
+    "name": "Entei-GX",
+    "setName": "Shining Legends",
+    "number": "10a",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/10a_hires.png"
+  },
+  {
+    "id": "sm35-11",
+    "name": "Torkoal",
+    "setName": "Shining Legends",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/sm35/11_hires.png"
+  },
+  {
+    "id": "sm35-12",
+    "name": "Larvesta",
+    "setName": "Shining Legends",
+    "number": "12",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sm35/12_hires.png"
+  },
+  {
+    "id": "sm35-13",
+    "name": "Volcarona",
+    "setName": "Shining Legends",
+    "number": "13",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sm35/13_hires.png"
+  },
+  {
+    "id": "sm35-14",
+    "name": "Reshiram",
+    "setName": "Shining Legends",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/sm35/14_hires.png"
+  },
+  {
+    "id": "sm35-15",
+    "name": "Litten",
+    "setName": "Shining Legends",
+    "number": "15",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sm35/15_hires.png"
+  },
+  {
+    "id": "sm35-16",
+    "name": "Torracat",
+    "setName": "Shining Legends",
+    "number": "16",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sm35/16_hires.png"
+  },
+  {
+    "id": "sm35-17",
+    "name": "Incineroar",
+    "setName": "Shining Legends",
+    "number": "17",
+    "rarity": "Uncommon",
+    "artist": "Emi Ando",
+    "imageUrl": "https://images.pokemontcg.io/sm35/17_hires.png"
+  },
+  {
+    "id": "sm35-18",
+    "name": "Totodile",
+    "setName": "Shining Legends",
+    "number": "18",
+    "rarity": "Common",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/sm35/18_hires.png"
+  },
+  {
+    "id": "sm35-19",
+    "name": "Croconaw",
+    "setName": "Shining Legends",
+    "number": "19",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sm35/19_hires.png"
+  },
+  {
+    "id": "sm35-20",
+    "name": "Feraligatr",
+    "setName": "Shining Legends",
+    "number": "20",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sm35/20_hires.png"
+  },
+  {
+    "id": "sm35-21",
+    "name": "Qwilfish",
+    "setName": "Shining Legends",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sm35/21_hires.png"
+  },
+  {
+    "id": "sm35-22",
+    "name": "Buizel",
+    "setName": "Shining Legends",
+    "number": "22",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sm35/22_hires.png"
+  },
+  {
+    "id": "sm35-23",
+    "name": "Floatzel",
+    "setName": "Shining Legends",
+    "number": "23",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/sm35/23_hires.png"
+  },
+  {
+    "id": "sm35-24",
+    "name": "Palkia",
+    "setName": "Shining Legends",
+    "number": "24",
+    "rarity": "Rare Holo",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/sm35/24_hires.png"
+  },
+  {
+    "id": "sm35-25",
+    "name": "Manaphy",
+    "setName": "Shining Legends",
+    "number": "25",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sm35/25_hires.png"
+  },
+  {
+    "id": "sm35-26",
+    "name": "Keldeo",
+    "setName": "Shining Legends",
+    "number": "26",
+    "rarity": "Rare Holo",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sm35/26_hires.png"
+  },
+  {
+    "id": "sm35-27",
+    "name": "Shining Volcanion",
+    "setName": "Shining Legends",
+    "number": "27",
+    "rarity": "Rare Shining",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sm35/27_hires.png"
+  },
+  {
+    "id": "sm35-28",
+    "name": "Pikachu",
+    "setName": "Shining Legends",
+    "number": "28",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sm35/28_hires.png"
+  },
+  {
+    "id": "sm35-29",
+    "name": "Raichu-GX",
+    "setName": "Shining Legends",
+    "number": "29",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/29_hires.png"
+  },
+  {
+    "id": "sm35-30",
+    "name": "Voltorb",
+    "setName": "Shining Legends",
+    "number": "30",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/sm35/30_hires.png"
+  },
+  {
+    "id": "sm35-31",
+    "name": "Electrode",
+    "setName": "Shining Legends",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/sm35/31_hires.png"
+  },
+  {
+    "id": "sm35-32",
+    "name": "Raikou",
+    "setName": "Shining Legends",
+    "number": "32",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sm35/32_hires.png"
+  },
+  {
+    "id": "sm35-33",
+    "name": "Plusle",
+    "setName": "Shining Legends",
+    "number": "33",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sm35/33_hires.png"
+  },
+  {
+    "id": "sm35-34",
+    "name": "Minun",
+    "setName": "Shining Legends",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sm35/34_hires.png"
+  },
+  {
+    "id": "sm35-35",
+    "name": "Zekrom",
+    "setName": "Shining Legends",
+    "number": "35",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sm35/35_hires.png"
+  },
+  {
+    "id": "sm35-36",
+    "name": "Ekans",
+    "setName": "Shining Legends",
+    "number": "36",
+    "rarity": "Common",
+    "artist": "DemizuPosuka",
+    "imageUrl": "https://images.pokemontcg.io/sm35/36_hires.png"
+  },
+  {
+    "id": "sm35-37",
+    "name": "Arbok",
+    "setName": "Shining Legends",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sm35/37_hires.png"
+  },
+  {
+    "id": "sm35-38",
+    "name": "Jynx",
+    "setName": "Shining Legends",
+    "number": "38",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sm35/38_hires.png"
+  },
+  {
+    "id": "sm35-39",
+    "name": "Mewtwo-GX",
+    "setName": "Shining Legends",
+    "number": "39",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/39_hires.png"
+  },
+  {
+    "id": "sm35-40",
+    "name": "Shining Mew",
+    "setName": "Shining Legends",
+    "number": "40",
+    "rarity": "Rare Shining",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sm35/40_hires.png"
+  },
+  {
+    "id": "sm35-41",
+    "name": "Latios",
+    "setName": "Shining Legends",
+    "number": "41",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sm35/41_hires.png"
+  },
+  {
+    "id": "sm35-42",
+    "name": "Shining Jirachi",
+    "setName": "Shining Legends",
+    "number": "42",
+    "rarity": "Rare Shining",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sm35/42_hires.png"
+  },
+  {
+    "id": "sm35-43",
+    "name": "Golett",
+    "setName": "Shining Legends",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/sm35/43_hires.png"
+  },
+  {
+    "id": "sm35-44",
+    "name": "Golurk",
+    "setName": "Shining Legends",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sm35/44_hires.png"
+  },
+  {
+    "id": "sm35-45",
+    "name": "Marshadow",
+    "setName": "Shining Legends",
+    "number": "45",
+    "rarity": "Rare Holo",
+    "artist": "Emi Ando",
+    "imageUrl": "https://images.pokemontcg.io/sm35/45_hires.png"
+  },
+  {
+    "id": "sm35-46",
+    "name": "Stunfisk",
+    "setName": "Shining Legends",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sm35/46_hires.png"
+  },
+  {
+    "id": "sm35-47",
+    "name": "Spiritomb",
+    "setName": "Shining Legends",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sm35/47_hires.png"
+  },
+  {
+    "id": "sm35-48",
+    "name": "Purrloin",
+    "setName": "Shining Legends",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sm35/48_hires.png"
+  },
+  {
+    "id": "sm35-49",
+    "name": "Liepard",
+    "setName": "Shining Legends",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sm35/49_hires.png"
+  },
+  {
+    "id": "sm35-50",
+    "name": "Scraggy",
+    "setName": "Shining Legends",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/sm35/50_hires.png"
+  },
+  {
+    "id": "sm35-51",
+    "name": "Scrafty",
+    "setName": "Shining Legends",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sm35/51_hires.png"
+  },
+  {
+    "id": "sm35-52",
+    "name": "Zorua",
+    "setName": "Shining Legends",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sm35/52_hires.png"
+  },
+  {
+    "id": "sm35-53",
+    "name": "Zoroark-GX",
+    "setName": "Shining Legends",
+    "number": "53",
+    "rarity": "Rare Holo GX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/53_hires.png"
+  },
+  {
+    "id": "sm35-54",
+    "name": "Yveltal",
+    "setName": "Shining Legends",
+    "number": "54",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sm35/54_hires.png"
+  },
+  {
+    "id": "sm35-55",
+    "name": "Hoopa",
+    "setName": "Shining Legends",
+    "number": "55",
+    "rarity": "Rare Holo",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/sm35/55_hires.png"
+  },
+  {
+    "id": "sm35-56",
+    "name": "Shining Rayquaza",
+    "setName": "Shining Legends",
+    "number": "56",
+    "rarity": "Rare Shining",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sm35/56_hires.png"
+  },
+  {
+    "id": "sm35-57",
+    "name": "Shining Arceus",
+    "setName": "Shining Legends",
+    "number": "57",
+    "rarity": "Rare Shining",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sm35/57_hires.png"
+  },
+  {
+    "id": "sm35-58",
+    "name": "Damage Mover",
+    "setName": "Shining Legends",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm35/58_hires.png"
+  },
+  {
+    "id": "sm35-59",
+    "name": "Energy Retrieval",
+    "setName": "Shining Legends",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm35/59_hires.png"
+  },
+  {
+    "id": "sm35-60",
+    "name": "Great Ball",
+    "setName": "Shining Legends",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/sm35/60_hires.png"
+  },
+  {
+    "id": "sm35-61",
+    "name": "Hau",
+    "setName": "Shining Legends",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm35/61_hires.png"
+  },
+  {
+    "id": "sm35-62",
+    "name": "Lillie",
+    "setName": "Shining Legends",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm35/62_hires.png"
+  },
+  {
+    "id": "sm35-63",
+    "name": "Pokémon Breeder",
+    "setName": "Shining Legends",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/sm35/63_hires.png"
+  },
+  {
+    "id": "sm35-64",
+    "name": "Pokémon Catcher",
+    "setName": "Shining Legends",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm35/64_hires.png"
+  },
+  {
+    "id": "sm35-65",
+    "name": "Sophocles",
+    "setName": "Shining Legends",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/sm35/65_hires.png"
+  },
+  {
+    "id": "sm35-66",
+    "name": "Super Scoop Up",
+    "setName": "Shining Legends",
+    "number": "66",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sm35/66_hires.png"
+  },
+  {
+    "id": "sm35-67",
+    "name": "Switch",
+    "setName": "Shining Legends",
+    "number": "67",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/sm35/67_hires.png"
+  },
+  {
+    "id": "sm35-68",
+    "name": "Ultra Ball",
+    "setName": "Shining Legends",
+    "number": "68",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/sm35/68_hires.png"
+  },
+  {
+    "id": "sm35-68a",
+    "name": "Ultra Ball",
+    "setName": "Shining Legends",
+    "number": "68a",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/sm35/68a_hires.png"
+  },
+  {
+    "id": "sm35-69",
+    "name": "Double Colorless Energy",
+    "setName": "Shining Legends",
+    "number": "69",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sm35/69_hires.png"
+  },
+  {
+    "id": "sm35-70",
+    "name": "Warp Energy",
+    "setName": "Shining Legends",
+    "number": "70",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sm35/70_hires.png"
+  },
+  {
+    "id": "sm35-71",
+    "name": "Entei-GX",
+    "setName": "Shining Legends",
+    "number": "71",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/71_hires.png"
+  },
+  {
+    "id": "sm35-72",
+    "name": "Mewtwo-GX",
+    "setName": "Shining Legends",
+    "number": "72",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/72_hires.png"
+  },
+  {
+    "id": "sm35-73",
+    "name": "Pokémon Breeder",
+    "setName": "Shining Legends",
+    "number": "73",
+    "rarity": "Rare Ultra",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sm35/73_hires.png"
+  },
+  {
+    "id": "sm35-74",
+    "name": "Entei-GX",
+    "setName": "Shining Legends",
+    "number": "74",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/74_hires.png"
+  },
+  {
+    "id": "sm35-75",
+    "name": "Raichu-GX",
+    "setName": "Shining Legends",
+    "number": "75",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/75_hires.png"
+  },
+  {
+    "id": "sm35-76",
+    "name": "Mewtwo-GX",
+    "setName": "Shining Legends",
+    "number": "76",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/76_hires.png"
+  },
+  {
+    "id": "sm35-77",
+    "name": "Zoroark-GX",
+    "setName": "Shining Legends",
+    "number": "77",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/77_hires.png"
+  },
+  {
+    "id": "sm35-77a",
+    "name": "Zoroark-GX",
+    "setName": "Shining Legends",
+    "number": "77a",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sm35/77a_hires.png"
+  },
+  {
+    "id": "sm35-78",
+    "name": "Mewtwo-GX",
+    "setName": "Shining Legends",
+    "number": "78",
+    "rarity": "Rare Secret",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/sm35/78_hires.png"
+  }
+]

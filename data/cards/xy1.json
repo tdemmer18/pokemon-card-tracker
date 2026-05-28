@@ -1,0 +1,1316 @@
+[
+  {
+    "id": "xy1-1",
+    "name": "Venusaur-EX",
+    "setName": "XY",
+    "number": "1",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy1/1_hires.png"
+  },
+  {
+    "id": "xy1-2",
+    "name": "M Venusaur-EX",
+    "setName": "XY",
+    "number": "2",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/2_hires.png"
+  },
+  {
+    "id": "xy1-3",
+    "name": "Weedle",
+    "setName": "XY",
+    "number": "3",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/xy1/3_hires.png"
+  },
+  {
+    "id": "xy1-4",
+    "name": "Kakuna",
+    "setName": "XY",
+    "number": "4",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/xy1/4_hires.png"
+  },
+  {
+    "id": "xy1-5",
+    "name": "Beedrill",
+    "setName": "XY",
+    "number": "5",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/xy1/5_hires.png"
+  },
+  {
+    "id": "xy1-6",
+    "name": "Ledyba",
+    "setName": "XY",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/xy1/6_hires.png"
+  },
+  {
+    "id": "xy1-7",
+    "name": "Ledian",
+    "setName": "XY",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/xy1/7_hires.png"
+  },
+  {
+    "id": "xy1-8",
+    "name": "Volbeat",
+    "setName": "XY",
+    "number": "8",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/8_hires.png"
+  },
+  {
+    "id": "xy1-9",
+    "name": "Illumise",
+    "setName": "XY",
+    "number": "9",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/9_hires.png"
+  },
+  {
+    "id": "xy1-10",
+    "name": "Pansage",
+    "setName": "XY",
+    "number": "10",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/xy1/10_hires.png"
+  },
+  {
+    "id": "xy1-11",
+    "name": "Simisage",
+    "setName": "XY",
+    "number": "11",
+    "rarity": "Rare",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/xy1/11_hires.png"
+  },
+  {
+    "id": "xy1-12",
+    "name": "Chespin",
+    "setName": "XY",
+    "number": "12",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/12_hires.png"
+  },
+  {
+    "id": "xy1-13",
+    "name": "Quilladin",
+    "setName": "XY",
+    "number": "13",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/13_hires.png"
+  },
+  {
+    "id": "xy1-14",
+    "name": "Chesnaught",
+    "setName": "XY",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/14_hires.png"
+  },
+  {
+    "id": "xy1-15",
+    "name": "Scatterbug",
+    "setName": "XY",
+    "number": "15",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/15_hires.png"
+  },
+  {
+    "id": "xy1-16",
+    "name": "Spewpa",
+    "setName": "XY",
+    "number": "16",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/16_hires.png"
+  },
+  {
+    "id": "xy1-17",
+    "name": "Vivillon",
+    "setName": "XY",
+    "number": "17",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/17_hires.png"
+  },
+  {
+    "id": "xy1-18",
+    "name": "Skiddo",
+    "setName": "XY",
+    "number": "18",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/18_hires.png"
+  },
+  {
+    "id": "xy1-19",
+    "name": "Gogoat",
+    "setName": "XY",
+    "number": "19",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/19_hires.png"
+  },
+  {
+    "id": "xy1-20",
+    "name": "Slugma",
+    "setName": "XY",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy1/20_hires.png"
+  },
+  {
+    "id": "xy1-21",
+    "name": "Magcargo",
+    "setName": "XY",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/21_hires.png"
+  },
+  {
+    "id": "xy1-22",
+    "name": "Pansear",
+    "setName": "XY",
+    "number": "22",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/xy1/22_hires.png"
+  },
+  {
+    "id": "xy1-23",
+    "name": "Simisear",
+    "setName": "XY",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/xy1/23_hires.png"
+  },
+  {
+    "id": "xy1-24",
+    "name": "Fennekin",
+    "setName": "XY",
+    "number": "24",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/24_hires.png"
+  },
+  {
+    "id": "xy1-25",
+    "name": "Braixen",
+    "setName": "XY",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/25_hires.png"
+  },
+  {
+    "id": "xy1-26",
+    "name": "Delphox",
+    "setName": "XY",
+    "number": "26",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/26_hires.png"
+  },
+  {
+    "id": "xy1-27",
+    "name": "Fletchinder",
+    "setName": "XY",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/27_hires.png"
+  },
+  {
+    "id": "xy1-28",
+    "name": "Talonflame",
+    "setName": "XY",
+    "number": "28",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/28_hires.png"
+  },
+  {
+    "id": "xy1-29",
+    "name": "Blastoise-EX",
+    "setName": "XY",
+    "number": "29",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy1/29_hires.png"
+  },
+  {
+    "id": "xy1-30",
+    "name": "M Blastoise-EX",
+    "setName": "XY",
+    "number": "30",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/30_hires.png"
+  },
+  {
+    "id": "xy1-31",
+    "name": "Shellder",
+    "setName": "XY",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/xy1/31_hires.png"
+  },
+  {
+    "id": "xy1-32",
+    "name": "Cloyster",
+    "setName": "XY",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/32_hires.png"
+  },
+  {
+    "id": "xy1-33",
+    "name": "Staryu",
+    "setName": "XY",
+    "number": "33",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/xy1/33_hires.png"
+  },
+  {
+    "id": "xy1-34",
+    "name": "Starmie",
+    "setName": "XY",
+    "number": "34",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/xy1/34_hires.png"
+  },
+  {
+    "id": "xy1-35",
+    "name": "Lapras",
+    "setName": "XY",
+    "number": "35",
+    "rarity": "Rare Holo",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/xy1/35_hires.png"
+  },
+  {
+    "id": "xy1-36",
+    "name": "Corsola",
+    "setName": "XY",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/xy1/36_hires.png"
+  },
+  {
+    "id": "xy1-37",
+    "name": "Panpour",
+    "setName": "XY",
+    "number": "37",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/xy1/37_hires.png"
+  },
+  {
+    "id": "xy1-38",
+    "name": "Simipour",
+    "setName": "XY",
+    "number": "38",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/xy1/38_hires.png"
+  },
+  {
+    "id": "xy1-39",
+    "name": "Froakie",
+    "setName": "XY",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/39_hires.png"
+  },
+  {
+    "id": "xy1-40",
+    "name": "Frogadier",
+    "setName": "XY",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/40_hires.png"
+  },
+  {
+    "id": "xy1-41",
+    "name": "Greninja",
+    "setName": "XY",
+    "number": "41",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/41_hires.png"
+  },
+  {
+    "id": "xy1-42",
+    "name": "Pikachu",
+    "setName": "XY",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/xy1/42_hires.png"
+  },
+  {
+    "id": "xy1-43",
+    "name": "Raichu",
+    "setName": "XY",
+    "number": "43",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/xy1/43_hires.png"
+  },
+  {
+    "id": "xy1-44",
+    "name": "Voltorb",
+    "setName": "XY",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/xy1/44_hires.png"
+  },
+  {
+    "id": "xy1-45",
+    "name": "Electrode",
+    "setName": "XY",
+    "number": "45",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/xy1/45_hires.png"
+  },
+  {
+    "id": "xy1-46",
+    "name": "Emolga-EX",
+    "setName": "XY",
+    "number": "46",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy1/46_hires.png"
+  },
+  {
+    "id": "xy1-47",
+    "name": "Ekans",
+    "setName": "XY",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/xy1/47_hires.png"
+  },
+  {
+    "id": "xy1-48",
+    "name": "Arbok",
+    "setName": "XY",
+    "number": "48",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy1/48_hires.png"
+  },
+  {
+    "id": "xy1-49",
+    "name": "Spoink",
+    "setName": "XY",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/xy1/49_hires.png"
+  },
+  {
+    "id": "xy1-50",
+    "name": "Grumpig",
+    "setName": "XY",
+    "number": "50",
+    "rarity": "Rare",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/xy1/50_hires.png"
+  },
+  {
+    "id": "xy1-51",
+    "name": "Venipede",
+    "setName": "XY",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/xy1/51_hires.png"
+  },
+  {
+    "id": "xy1-52",
+    "name": "Whirlipede",
+    "setName": "XY",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy1/52_hires.png"
+  },
+  {
+    "id": "xy1-53",
+    "name": "Scolipede",
+    "setName": "XY",
+    "number": "53",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/xy1/53_hires.png"
+  },
+  {
+    "id": "xy1-54",
+    "name": "Phantump",
+    "setName": "XY",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/54_hires.png"
+  },
+  {
+    "id": "xy1-55",
+    "name": "Trevenant",
+    "setName": "XY",
+    "number": "55",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/55_hires.png"
+  },
+  {
+    "id": "xy1-56",
+    "name": "Pumpkaboo",
+    "setName": "XY",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/56_hires.png"
+  },
+  {
+    "id": "xy1-57",
+    "name": "Gourgeist",
+    "setName": "XY",
+    "number": "57",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/57_hires.png"
+  },
+  {
+    "id": "xy1-58",
+    "name": "Diglett",
+    "setName": "XY",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/58_hires.png"
+  },
+  {
+    "id": "xy1-59",
+    "name": "Dugtrio",
+    "setName": "XY",
+    "number": "59",
+    "rarity": "Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy1/59_hires.png"
+  },
+  {
+    "id": "xy1-60",
+    "name": "Rhyhorn",
+    "setName": "XY",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/xy1/60_hires.png"
+  },
+  {
+    "id": "xy1-61",
+    "name": "Rhydon",
+    "setName": "XY",
+    "number": "61",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/xy1/61_hires.png"
+  },
+  {
+    "id": "xy1-62",
+    "name": "Rhyperior",
+    "setName": "XY",
+    "number": "62",
+    "rarity": "Rare Holo",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy1/62_hires.png"
+  },
+  {
+    "id": "xy1-63",
+    "name": "Lunatone",
+    "setName": "XY",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/63_hires.png"
+  },
+  {
+    "id": "xy1-64",
+    "name": "Solrock",
+    "setName": "XY",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/64_hires.png"
+  },
+  {
+    "id": "xy1-65",
+    "name": "Timburr",
+    "setName": "XY",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/xy1/65_hires.png"
+  },
+  {
+    "id": "xy1-66",
+    "name": "Gurdurr",
+    "setName": "XY",
+    "number": "66",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/xy1/66_hires.png"
+  },
+  {
+    "id": "xy1-67",
+    "name": "Conkeldurr",
+    "setName": "XY",
+    "number": "67",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/67_hires.png"
+  },
+  {
+    "id": "xy1-68",
+    "name": "Sableye",
+    "setName": "XY",
+    "number": "68",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/xy1/68_hires.png"
+  },
+  {
+    "id": "xy1-69",
+    "name": "Sandile",
+    "setName": "XY",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/xy1/69_hires.png"
+  },
+  {
+    "id": "xy1-70",
+    "name": "Krokorok",
+    "setName": "XY",
+    "number": "70",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/xy1/70_hires.png"
+  },
+  {
+    "id": "xy1-71",
+    "name": "Krookodile",
+    "setName": "XY",
+    "number": "71",
+    "rarity": "Rare",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/xy1/71_hires.png"
+  },
+  {
+    "id": "xy1-72",
+    "name": "Zorua",
+    "setName": "XY",
+    "number": "72",
+    "rarity": "Common",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy1/72_hires.png"
+  },
+  {
+    "id": "xy1-73",
+    "name": "Zoroark",
+    "setName": "XY",
+    "number": "73",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy1/73_hires.png"
+  },
+  {
+    "id": "xy1-74",
+    "name": "Inkay",
+    "setName": "XY",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/74_hires.png"
+  },
+  {
+    "id": "xy1-75",
+    "name": "Inkay",
+    "setName": "XY",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/75_hires.png"
+  },
+  {
+    "id": "xy1-76",
+    "name": "Malamar",
+    "setName": "XY",
+    "number": "76",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/76_hires.png"
+  },
+  {
+    "id": "xy1-77",
+    "name": "Malamar",
+    "setName": "XY",
+    "number": "77",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/77_hires.png"
+  },
+  {
+    "id": "xy1-78",
+    "name": "Yveltal",
+    "setName": "XY",
+    "number": "78",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/78_hires.png"
+  },
+  {
+    "id": "xy1-79",
+    "name": "Yveltal-EX",
+    "setName": "XY",
+    "number": "79",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/79_hires.png"
+  },
+  {
+    "id": "xy1-80",
+    "name": "Skarmory-EX",
+    "setName": "XY",
+    "number": "80",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy1/80_hires.png"
+  },
+  {
+    "id": "xy1-81",
+    "name": "Pawniard",
+    "setName": "XY",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/xy1/81_hires.png"
+  },
+  {
+    "id": "xy1-82",
+    "name": "Bisharp",
+    "setName": "XY",
+    "number": "82",
+    "rarity": "Rare",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/xy1/82_hires.png"
+  },
+  {
+    "id": "xy1-83",
+    "name": "Honedge",
+    "setName": "XY",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/83_hires.png"
+  },
+  {
+    "id": "xy1-84",
+    "name": "Doublade",
+    "setName": "XY",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/84_hires.png"
+  },
+  {
+    "id": "xy1-85",
+    "name": "Aegislash",
+    "setName": "XY",
+    "number": "85",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/85_hires.png"
+  },
+  {
+    "id": "xy1-86",
+    "name": "Aegislash",
+    "setName": "XY",
+    "number": "86",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/86_hires.png"
+  },
+  {
+    "id": "xy1-87",
+    "name": "Jigglypuff",
+    "setName": "XY",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/87_hires.png"
+  },
+  {
+    "id": "xy1-88",
+    "name": "Jigglypuff",
+    "setName": "XY",
+    "number": "88",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/xy1/88_hires.png"
+  },
+  {
+    "id": "xy1-89",
+    "name": "Wigglytuff",
+    "setName": "XY",
+    "number": "89",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/xy1/89_hires.png"
+  },
+  {
+    "id": "xy1-90",
+    "name": "Wigglytuff",
+    "setName": "XY",
+    "number": "90",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy1/90_hires.png"
+  },
+  {
+    "id": "xy1-91",
+    "name": "Mr. Mime",
+    "setName": "XY",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/xy1/91_hires.png"
+  },
+  {
+    "id": "xy1-92",
+    "name": "Spritzee",
+    "setName": "XY",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/92_hires.png"
+  },
+  {
+    "id": "xy1-93",
+    "name": "Aromatisse",
+    "setName": "XY",
+    "number": "93",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/93_hires.png"
+  },
+  {
+    "id": "xy1-94",
+    "name": "Swirlix",
+    "setName": "XY",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/94_hires.png"
+  },
+  {
+    "id": "xy1-95",
+    "name": "Slurpuff",
+    "setName": "XY",
+    "number": "95",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/95_hires.png"
+  },
+  {
+    "id": "xy1-96",
+    "name": "Xerneas",
+    "setName": "XY",
+    "number": "96",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/96_hires.png"
+  },
+  {
+    "id": "xy1-97",
+    "name": "Xerneas-EX",
+    "setName": "XY",
+    "number": "97",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/97_hires.png"
+  },
+  {
+    "id": "xy1-98",
+    "name": "Doduo",
+    "setName": "XY",
+    "number": "98",
+    "rarity": "Common",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/xy1/98_hires.png"
+  },
+  {
+    "id": "xy1-99",
+    "name": "Dodrio",
+    "setName": "XY",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/99_hires.png"
+  },
+  {
+    "id": "xy1-100",
+    "name": "Tauros",
+    "setName": "XY",
+    "number": "100",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/xy1/100_hires.png"
+  },
+  {
+    "id": "xy1-101",
+    "name": "Dunsparce",
+    "setName": "XY",
+    "number": "101",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/xy1/101_hires.png"
+  },
+  {
+    "id": "xy1-102",
+    "name": "Taillow",
+    "setName": "XY",
+    "number": "102",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/xy1/102_hires.png"
+  },
+  {
+    "id": "xy1-103",
+    "name": "Swellow",
+    "setName": "XY",
+    "number": "103",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/xy1/103_hires.png"
+  },
+  {
+    "id": "xy1-104",
+    "name": "Skitty",
+    "setName": "XY",
+    "number": "104",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy1/104_hires.png"
+  },
+  {
+    "id": "xy1-105",
+    "name": "Delcatty",
+    "setName": "XY",
+    "number": "105",
+    "rarity": "Uncommon",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/xy1/105_hires.png"
+  },
+  {
+    "id": "xy1-106",
+    "name": "Bidoof",
+    "setName": "XY",
+    "number": "106",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy1/106_hires.png"
+  },
+  {
+    "id": "xy1-107",
+    "name": "Bibarel",
+    "setName": "XY",
+    "number": "107",
+    "rarity": "Rare",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/xy1/107_hires.png"
+  },
+  {
+    "id": "xy1-108",
+    "name": "Lillipup",
+    "setName": "XY",
+    "number": "108",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/xy1/108_hires.png"
+  },
+  {
+    "id": "xy1-109",
+    "name": "Herdier",
+    "setName": "XY",
+    "number": "109",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/xy1/109_hires.png"
+  },
+  {
+    "id": "xy1-110",
+    "name": "Stoutland",
+    "setName": "XY",
+    "number": "110",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/xy1/110_hires.png"
+  },
+  {
+    "id": "xy1-111",
+    "name": "Bunnelby",
+    "setName": "XY",
+    "number": "111",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/111_hires.png"
+  },
+  {
+    "id": "xy1-112",
+    "name": "Diggersby",
+    "setName": "XY",
+    "number": "112",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/112_hires.png"
+  },
+  {
+    "id": "xy1-113",
+    "name": "Fletchling",
+    "setName": "XY",
+    "number": "113",
+    "rarity": "Common",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/113_hires.png"
+  },
+  {
+    "id": "xy1-114",
+    "name": "Furfrou",
+    "setName": "XY",
+    "number": "114",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/114_hires.png"
+  },
+  {
+    "id": "xy1-115",
+    "name": "Cassius",
+    "setName": "XY",
+    "number": "115",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/115_hires.png"
+  },
+  {
+    "id": "xy1-116",
+    "name": "Evosoda",
+    "setName": "XY",
+    "number": "116",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/116_hires.png"
+  },
+  {
+    "id": "xy1-117",
+    "name": "Fairy Garden",
+    "setName": "XY",
+    "number": "117",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/117_hires.png"
+  },
+  {
+    "id": "xy1-118",
+    "name": "Great Ball",
+    "setName": "XY",
+    "number": "118",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy1/118_hires.png"
+  },
+  {
+    "id": "xy1-119",
+    "name": "Hard Charm",
+    "setName": "XY",
+    "number": "119",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/119_hires.png"
+  },
+  {
+    "id": "xy1-120",
+    "name": "Max Revive",
+    "setName": "XY",
+    "number": "120",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/120_hires.png"
+  },
+  {
+    "id": "xy1-121",
+    "name": "Muscle Band",
+    "setName": "XY",
+    "number": "121",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/121_hires.png"
+  },
+  {
+    "id": "xy1-122",
+    "name": "Professor Sycamore",
+    "setName": "XY",
+    "number": "122",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/xy1/122_hires.png"
+  },
+  {
+    "id": "xy1-123",
+    "name": "Professor's Letter",
+    "setName": "XY",
+    "number": "123",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/123_hires.png"
+  },
+  {
+    "id": "xy1-124",
+    "name": "Red Card",
+    "setName": "XY",
+    "number": "124",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/124_hires.png"
+  },
+  {
+    "id": "xy1-125",
+    "name": "Roller Skates",
+    "setName": "XY",
+    "number": "125",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/125_hires.png"
+  },
+  {
+    "id": "xy1-126",
+    "name": "Shadow Circle",
+    "setName": "XY",
+    "number": "126",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/126_hires.png"
+  },
+  {
+    "id": "xy1-127",
+    "name": "Shauna",
+    "setName": "XY",
+    "number": "127",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/xy1/127_hires.png"
+  },
+  {
+    "id": "xy1-128",
+    "name": "Super Potion",
+    "setName": "XY",
+    "number": "128",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/128_hires.png"
+  },
+  {
+    "id": "xy1-129",
+    "name": "Team Flare Grunt",
+    "setName": "XY",
+    "number": "129",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/xy1/129_hires.png"
+  },
+  {
+    "id": "xy1-130",
+    "name": "Double Colorless Energy",
+    "setName": "XY",
+    "number": "130",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/130_hires.png"
+  },
+  {
+    "id": "xy1-131",
+    "name": "Rainbow Energy",
+    "setName": "XY",
+    "number": "131",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/131_hires.png"
+  },
+  {
+    "id": "xy1-132",
+    "name": "Grass Energy",
+    "setName": "XY",
+    "number": "132",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/132_hires.png"
+  },
+  {
+    "id": "xy1-133",
+    "name": "Fire Energy",
+    "setName": "XY",
+    "number": "133",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/133_hires.png"
+  },
+  {
+    "id": "xy1-134",
+    "name": "Water Energy",
+    "setName": "XY",
+    "number": "134",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/134_hires.png"
+  },
+  {
+    "id": "xy1-135",
+    "name": "Lightning Energy",
+    "setName": "XY",
+    "number": "135",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/135_hires.png"
+  },
+  {
+    "id": "xy1-136",
+    "name": "Psychic Energy",
+    "setName": "XY",
+    "number": "136",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/136_hires.png"
+  },
+  {
+    "id": "xy1-137",
+    "name": "Fighting Energy",
+    "setName": "XY",
+    "number": "137",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/137_hires.png"
+  },
+  {
+    "id": "xy1-138",
+    "name": "Darkness Energy",
+    "setName": "XY",
+    "number": "138",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/138_hires.png"
+  },
+  {
+    "id": "xy1-139",
+    "name": "Metal Energy",
+    "setName": "XY",
+    "number": "139",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/139_hires.png"
+  },
+  {
+    "id": "xy1-140",
+    "name": "Fairy Energy",
+    "setName": "XY",
+    "number": "140",
+    "rarity": "Common",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/xy1/140_hires.png"
+  },
+  {
+    "id": "xy1-141",
+    "name": "Venusaur-EX",
+    "setName": "XY",
+    "number": "141",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/141_hires.png"
+  },
+  {
+    "id": "xy1-142",
+    "name": "Blastoise-EX",
+    "setName": "XY",
+    "number": "142",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/142_hires.png"
+  },
+  {
+    "id": "xy1-143",
+    "name": "Emolga-EX",
+    "setName": "XY",
+    "number": "143",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/143_hires.png"
+  },
+  {
+    "id": "xy1-144",
+    "name": "Yveltal-EX",
+    "setName": "XY",
+    "number": "144",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/144_hires.png"
+  },
+  {
+    "id": "xy1-145",
+    "name": "Skarmory-EX",
+    "setName": "XY",
+    "number": "145",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy1/145_hires.png"
+  },
+  {
+    "id": "xy1-146",
+    "name": "Xerneas-EX",
+    "setName": "XY",
+    "number": "146",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy1/146_hires.png"
+  }
+]

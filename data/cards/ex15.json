@@ -1,0 +1,911 @@
+[
+  {
+    "id": "ex15-1",
+    "name": "Ampharos δ",
+    "setName": "Dragon Frontiers",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex15/1_hires.png"
+  },
+  {
+    "id": "ex15-2",
+    "name": "Feraligatr δ",
+    "setName": "Dragon Frontiers",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/2_hires.png"
+  },
+  {
+    "id": "ex15-3",
+    "name": "Heracross δ",
+    "setName": "Dragon Frontiers",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex15/3_hires.png"
+  },
+  {
+    "id": "ex15-4",
+    "name": "Meganium δ",
+    "setName": "Dragon Frontiers",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex15/4_hires.png"
+  },
+  {
+    "id": "ex15-5",
+    "name": "Milotic δ",
+    "setName": "Dragon Frontiers",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex15/5_hires.png"
+  },
+  {
+    "id": "ex15-6",
+    "name": "Nidoking δ",
+    "setName": "Dragon Frontiers",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex15/6_hires.png"
+  },
+  {
+    "id": "ex15-7",
+    "name": "Nidoqueen δ",
+    "setName": "Dragon Frontiers",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/7_hires.png"
+  },
+  {
+    "id": "ex15-8",
+    "name": "Ninetales δ",
+    "setName": "Dragon Frontiers",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex15/8_hires.png"
+  },
+  {
+    "id": "ex15-9",
+    "name": "Pinsir δ",
+    "setName": "Dragon Frontiers",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex15/9_hires.png"
+  },
+  {
+    "id": "ex15-10",
+    "name": "Snorlax δ",
+    "setName": "Dragon Frontiers",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex15/10_hires.png"
+  },
+  {
+    "id": "ex15-11",
+    "name": "Togetic δ",
+    "setName": "Dragon Frontiers",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/11_hires.png"
+  },
+  {
+    "id": "ex15-12",
+    "name": "Typhlosion δ",
+    "setName": "Dragon Frontiers",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex15/12_hires.png"
+  },
+  {
+    "id": "ex15-13",
+    "name": "Arbok δ",
+    "setName": "Dragon Frontiers",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex15/13_hires.png"
+  },
+  {
+    "id": "ex15-14",
+    "name": "Cloyster δ",
+    "setName": "Dragon Frontiers",
+    "number": "14",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex15/14_hires.png"
+  },
+  {
+    "id": "ex15-15",
+    "name": "Dewgong δ",
+    "setName": "Dragon Frontiers",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex15/15_hires.png"
+  },
+  {
+    "id": "ex15-16",
+    "name": "Gligar δ",
+    "setName": "Dragon Frontiers",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex15/16_hires.png"
+  },
+  {
+    "id": "ex15-17",
+    "name": "Jynx δ",
+    "setName": "Dragon Frontiers",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex15/17_hires.png"
+  },
+  {
+    "id": "ex15-18",
+    "name": "Ledian δ",
+    "setName": "Dragon Frontiers",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex15/18_hires.png"
+  },
+  {
+    "id": "ex15-19",
+    "name": "Lickitung δ",
+    "setName": "Dragon Frontiers",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex15/19_hires.png"
+  },
+  {
+    "id": "ex15-20",
+    "name": "Mantine δ",
+    "setName": "Dragon Frontiers",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex15/20_hires.png"
+  },
+  {
+    "id": "ex15-21",
+    "name": "Quagsire δ",
+    "setName": "Dragon Frontiers",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex15/21_hires.png"
+  },
+  {
+    "id": "ex15-22",
+    "name": "Seadra δ",
+    "setName": "Dragon Frontiers",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex15/22_hires.png"
+  },
+  {
+    "id": "ex15-23",
+    "name": "Tropius δ",
+    "setName": "Dragon Frontiers",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/ex15/23_hires.png"
+  },
+  {
+    "id": "ex15-24",
+    "name": "Vibrava δ",
+    "setName": "Dragon Frontiers",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex15/24_hires.png"
+  },
+  {
+    "id": "ex15-25",
+    "name": "Xatu δ",
+    "setName": "Dragon Frontiers",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/25_hires.png"
+  },
+  {
+    "id": "ex15-26",
+    "name": "Bayleef δ",
+    "setName": "Dragon Frontiers",
+    "number": "26",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex15/26_hires.png"
+  },
+  {
+    "id": "ex15-27",
+    "name": "Croconaw δ",
+    "setName": "Dragon Frontiers",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex15/27_hires.png"
+  },
+  {
+    "id": "ex15-28",
+    "name": "Dragonair δ",
+    "setName": "Dragon Frontiers",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/28_hires.png"
+  },
+  {
+    "id": "ex15-29",
+    "name": "Electabuzz δ",
+    "setName": "Dragon Frontiers",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex15/29_hires.png"
+  },
+  {
+    "id": "ex15-30",
+    "name": "Flaaffy δ",
+    "setName": "Dragon Frontiers",
+    "number": "30",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex15/30_hires.png"
+  },
+  {
+    "id": "ex15-31",
+    "name": "Horsea δ",
+    "setName": "Dragon Frontiers",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex15/31_hires.png"
+  },
+  {
+    "id": "ex15-32",
+    "name": "Kirlia",
+    "setName": "Dragon Frontiers",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex15/32_hires.png"
+  },
+  {
+    "id": "ex15-33",
+    "name": "Kirlia δ",
+    "setName": "Dragon Frontiers",
+    "number": "33",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex15/33_hires.png"
+  },
+  {
+    "id": "ex15-34",
+    "name": "Nidorina δ",
+    "setName": "Dragon Frontiers",
+    "number": "34",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex15/34_hires.png"
+  },
+  {
+    "id": "ex15-35",
+    "name": "Nidorino δ",
+    "setName": "Dragon Frontiers",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex15/35_hires.png"
+  },
+  {
+    "id": "ex15-36",
+    "name": "Quilava δ",
+    "setName": "Dragon Frontiers",
+    "number": "36",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex15/36_hires.png"
+  },
+  {
+    "id": "ex15-37",
+    "name": "Seadra δ",
+    "setName": "Dragon Frontiers",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex15/37_hires.png"
+  },
+  {
+    "id": "ex15-38",
+    "name": "Shelgon δ",
+    "setName": "Dragon Frontiers",
+    "number": "38",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex15/38_hires.png"
+  },
+  {
+    "id": "ex15-39",
+    "name": "Smeargle δ",
+    "setName": "Dragon Frontiers",
+    "number": "39",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/ex15/39_hires.png"
+  },
+  {
+    "id": "ex15-40",
+    "name": "Swellow δ",
+    "setName": "Dragon Frontiers",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/ex15/40_hires.png"
+  },
+  {
+    "id": "ex15-41",
+    "name": "Togepi δ",
+    "setName": "Dragon Frontiers",
+    "number": "41",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex15/41_hires.png"
+  },
+  {
+    "id": "ex15-42",
+    "name": "Vibrava δ",
+    "setName": "Dragon Frontiers",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex15/42_hires.png"
+  },
+  {
+    "id": "ex15-43",
+    "name": "Bagon δ",
+    "setName": "Dragon Frontiers",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex15/43_hires.png"
+  },
+  {
+    "id": "ex15-44",
+    "name": "Chikorita δ",
+    "setName": "Dragon Frontiers",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex15/44_hires.png"
+  },
+  {
+    "id": "ex15-45",
+    "name": "Cyndaquil δ",
+    "setName": "Dragon Frontiers",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/ex15/45_hires.png"
+  },
+  {
+    "id": "ex15-46",
+    "name": "Dratini δ",
+    "setName": "Dragon Frontiers",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex15/46_hires.png"
+  },
+  {
+    "id": "ex15-47",
+    "name": "Ekans δ",
+    "setName": "Dragon Frontiers",
+    "number": "47",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/ex15/47_hires.png"
+  },
+  {
+    "id": "ex15-48",
+    "name": "Elekid δ",
+    "setName": "Dragon Frontiers",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex15/48_hires.png"
+  },
+  {
+    "id": "ex15-49",
+    "name": "Feebas δ",
+    "setName": "Dragon Frontiers",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex15/49_hires.png"
+  },
+  {
+    "id": "ex15-50",
+    "name": "Horsea δ",
+    "setName": "Dragon Frontiers",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex15/50_hires.png"
+  },
+  {
+    "id": "ex15-51",
+    "name": "Larvitar",
+    "setName": "Dragon Frontiers",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex15/51_hires.png"
+  },
+  {
+    "id": "ex15-52",
+    "name": "Larvitar δ",
+    "setName": "Dragon Frontiers",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/52_hires.png"
+  },
+  {
+    "id": "ex15-53",
+    "name": "Ledyba δ",
+    "setName": "Dragon Frontiers",
+    "number": "53",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex15/53_hires.png"
+  },
+  {
+    "id": "ex15-54",
+    "name": "Mareep δ",
+    "setName": "Dragon Frontiers",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex15/54_hires.png"
+  },
+  {
+    "id": "ex15-55",
+    "name": "Natu δ",
+    "setName": "Dragon Frontiers",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex15/55_hires.png"
+  },
+  {
+    "id": "ex15-56",
+    "name": "Nidoran ♀ δ",
+    "setName": "Dragon Frontiers",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex15/56_hires.png"
+  },
+  {
+    "id": "ex15-57",
+    "name": "Nidoran ♂ δ",
+    "setName": "Dragon Frontiers",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex15/57_hires.png"
+  },
+  {
+    "id": "ex15-58",
+    "name": "Pupitar",
+    "setName": "Dragon Frontiers",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex15/58_hires.png"
+  },
+  {
+    "id": "ex15-59",
+    "name": "Pupitar δ",
+    "setName": "Dragon Frontiers",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/59_hires.png"
+  },
+  {
+    "id": "ex15-60",
+    "name": "Ralts",
+    "setName": "Dragon Frontiers",
+    "number": "60",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex15/60_hires.png"
+  },
+  {
+    "id": "ex15-61",
+    "name": "Ralts δ",
+    "setName": "Dragon Frontiers",
+    "number": "61",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/ex15/61_hires.png"
+  },
+  {
+    "id": "ex15-62",
+    "name": "Seel δ",
+    "setName": "Dragon Frontiers",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/ex15/62_hires.png"
+  },
+  {
+    "id": "ex15-63",
+    "name": "Shellder δ",
+    "setName": "Dragon Frontiers",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex15/63_hires.png"
+  },
+  {
+    "id": "ex15-64",
+    "name": "Smoochum δ",
+    "setName": "Dragon Frontiers",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex15/64_hires.png"
+  },
+  {
+    "id": "ex15-65",
+    "name": "Swablu δ",
+    "setName": "Dragon Frontiers",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex15/65_hires.png"
+  },
+  {
+    "id": "ex15-66",
+    "name": "Taillow δ",
+    "setName": "Dragon Frontiers",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/ex15/66_hires.png"
+  },
+  {
+    "id": "ex15-67",
+    "name": "Totodile δ",
+    "setName": "Dragon Frontiers",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Hisao Nakamura",
+    "imageUrl": "https://images.pokemontcg.io/ex15/67_hires.png"
+  },
+  {
+    "id": "ex15-68",
+    "name": "Trapinch δ",
+    "setName": "Dragon Frontiers",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/ex15/68_hires.png"
+  },
+  {
+    "id": "ex15-69",
+    "name": "Trapinch δ",
+    "setName": "Dragon Frontiers",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/ex15/69_hires.png"
+  },
+  {
+    "id": "ex15-70",
+    "name": "Vulpix δ",
+    "setName": "Dragon Frontiers",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Sachiko Adachi",
+    "imageUrl": "https://images.pokemontcg.io/ex15/70_hires.png"
+  },
+  {
+    "id": "ex15-71",
+    "name": "Wooper δ",
+    "setName": "Dragon Frontiers",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/ex15/71_hires.png"
+  },
+  {
+    "id": "ex15-72",
+    "name": "Buffer Piece",
+    "setName": "Dragon Frontiers",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "Katsura Tabata",
+    "imageUrl": "https://images.pokemontcg.io/ex15/72_hires.png"
+  },
+  {
+    "id": "ex15-73",
+    "name": "Copycat",
+    "setName": "Dragon Frontiers",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex15/73_hires.png"
+  },
+  {
+    "id": "ex15-74",
+    "name": "Holon Legacy",
+    "setName": "Dragon Frontiers",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex15/74_hires.png"
+  },
+  {
+    "id": "ex15-75",
+    "name": "Holon Mentor",
+    "setName": "Dragon Frontiers",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/75_hires.png"
+  },
+  {
+    "id": "ex15-76",
+    "name": "Island Hermit",
+    "setName": "Dragon Frontiers",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/ex15/76_hires.png"
+  },
+  {
+    "id": "ex15-77",
+    "name": "Mr. Stone's Project",
+    "setName": "Dragon Frontiers",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex15/77_hires.png"
+  },
+  {
+    "id": "ex15-78",
+    "name": "Old Rod",
+    "setName": "Dragon Frontiers",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex15/78_hires.png"
+  },
+  {
+    "id": "ex15-79",
+    "name": "Professor Elm's Training Method",
+    "setName": "Dragon Frontiers",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex15/79_hires.png"
+  },
+  {
+    "id": "ex15-80",
+    "name": "Professor Oak's Research",
+    "setName": "Dragon Frontiers",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex15/80_hires.png"
+  },
+  {
+    "id": "ex15-81",
+    "name": "Strength Charm",
+    "setName": "Dragon Frontiers",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex15/81_hires.png"
+  },
+  {
+    "id": "ex15-82",
+    "name": "TV Reporter",
+    "setName": "Dragon Frontiers",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/ex15/82_hires.png"
+  },
+  {
+    "id": "ex15-83",
+    "name": "Switch",
+    "setName": "Dragon Frontiers",
+    "number": "83",
+    "rarity": "Common",
+    "artist": "Hiromichi Sugiyama",
+    "imageUrl": "https://images.pokemontcg.io/ex15/83_hires.png"
+  },
+  {
+    "id": "ex15-84",
+    "name": "Holon Energy FF",
+    "setName": "Dragon Frontiers",
+    "number": "84",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex15/84_hires.png"
+  },
+  {
+    "id": "ex15-85",
+    "name": "Holon Energy GL",
+    "setName": "Dragon Frontiers",
+    "number": "85",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex15/85_hires.png"
+  },
+  {
+    "id": "ex15-86",
+    "name": "Holon Energy WP",
+    "setName": "Dragon Frontiers",
+    "number": "86",
+    "rarity": "Rare",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex15/86_hires.png"
+  },
+  {
+    "id": "ex15-87",
+    "name": "Boost Energy",
+    "setName": "Dragon Frontiers",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Shin-ichi Yoshikawa",
+    "imageUrl": "https://images.pokemontcg.io/ex15/87_hires.png"
+  },
+  {
+    "id": "ex15-88",
+    "name": "δ Rainbow Energy",
+    "setName": "Dragon Frontiers",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex15/88_hires.png"
+  },
+  {
+    "id": "ex15-89",
+    "name": "Scramble Energy",
+    "setName": "Dragon Frontiers",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "Takumi Akabane",
+    "imageUrl": "https://images.pokemontcg.io/ex15/89_hires.png"
+  },
+  {
+    "id": "ex15-90",
+    "name": "Altaria ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "90",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex15/90_hires.png"
+  },
+  {
+    "id": "ex15-91",
+    "name": "Dragonite ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "91",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex15/91_hires.png"
+  },
+  {
+    "id": "ex15-92",
+    "name": "Flygon ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "92",
+    "rarity": "Rare Holo EX",
+    "artist": "Nakaoka",
+    "imageUrl": "https://images.pokemontcg.io/ex15/92_hires.png"
+  },
+  {
+    "id": "ex15-93",
+    "name": "Gardevoir ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "93",
+    "rarity": "Rare Holo EX",
+    "artist": "Masahiko Ishii",
+    "imageUrl": "https://images.pokemontcg.io/ex15/93_hires.png"
+  },
+  {
+    "id": "ex15-94",
+    "name": "Kingdra ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "94",
+    "rarity": "Rare Holo EX",
+    "artist": "Masahiko Ishii",
+    "imageUrl": "https://images.pokemontcg.io/ex15/94_hires.png"
+  },
+  {
+    "id": "ex15-95",
+    "name": "Latias ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "95",
+    "rarity": "Rare Holo EX",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/ex15/95_hires.png"
+  },
+  {
+    "id": "ex15-96",
+    "name": "Latios ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "96",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex15/96_hires.png"
+  },
+  {
+    "id": "ex15-97",
+    "name": "Rayquaza ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "97",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex15/97_hires.png"
+  },
+  {
+    "id": "ex15-98",
+    "name": "Salamence ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "98",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/ex15/98_hires.png"
+  },
+  {
+    "id": "ex15-99",
+    "name": "Tyranitar ex δ",
+    "setName": "Dragon Frontiers",
+    "number": "99",
+    "rarity": "Rare Holo EX",
+    "artist": "Yusuke Shimada",
+    "imageUrl": "https://images.pokemontcg.io/ex15/99_hires.png"
+  },
+  {
+    "id": "ex15-100",
+    "name": "Charizard ★ δ",
+    "setName": "Dragon Frontiers",
+    "number": "100",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex15/100_hires.png"
+  },
+  {
+    "id": "ex15-101",
+    "name": "Mew ★ δ",
+    "setName": "Dragon Frontiers",
+    "number": "101",
+    "rarity": "Rare Holo Star",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/ex15/101_hires.png"
+  }
+]

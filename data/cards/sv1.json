@@ -1,0 +1,2324 @@
+[
+  {
+    "id": "sv1-1",
+    "name": "Pineco",
+    "setName": "Scarlet & Violet",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/1_hires.png"
+  },
+  {
+    "id": "sv1-2",
+    "name": "Heracross",
+    "setName": "Scarlet & Violet",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/2_hires.png"
+  },
+  {
+    "id": "sv1-3",
+    "name": "Shroomish",
+    "setName": "Scarlet & Violet",
+    "number": "3",
+    "rarity": "Common",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/3_hires.png"
+  },
+  {
+    "id": "sv1-4",
+    "name": "Breloom",
+    "setName": "Scarlet & Violet",
+    "number": "4",
+    "rarity": "Uncommon",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/sv1/4_hires.png"
+  },
+  {
+    "id": "sv1-5",
+    "name": "Cacnea",
+    "setName": "Scarlet & Violet",
+    "number": "5",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/5_hires.png"
+  },
+  {
+    "id": "sv1-6",
+    "name": "Cacturne",
+    "setName": "Scarlet & Violet",
+    "number": "6",
+    "rarity": "Uncommon",
+    "artist": "DOM",
+    "imageUrl": "https://images.pokemontcg.io/sv1/6_hires.png"
+  },
+  {
+    "id": "sv1-7",
+    "name": "Tropius",
+    "setName": "Scarlet & Violet",
+    "number": "7",
+    "rarity": "Common",
+    "artist": "aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/7_hires.png"
+  },
+  {
+    "id": "sv1-8",
+    "name": "Scatterbug",
+    "setName": "Scarlet & Violet",
+    "number": "8",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv1/8_hires.png"
+  },
+  {
+    "id": "sv1-9",
+    "name": "Spewpa",
+    "setName": "Scarlet & Violet",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/9_hires.png"
+  },
+  {
+    "id": "sv1-10",
+    "name": "Vivillon",
+    "setName": "Scarlet & Violet",
+    "number": "10",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv1/10_hires.png"
+  },
+  {
+    "id": "sv1-11",
+    "name": "Skiddo",
+    "setName": "Scarlet & Violet",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/11_hires.png"
+  },
+  {
+    "id": "sv1-12",
+    "name": "Gogoat",
+    "setName": "Scarlet & Violet",
+    "number": "12",
+    "rarity": "Common",
+    "artist": "Gemi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/12_hires.png"
+  },
+  {
+    "id": "sv1-13",
+    "name": "Sprigatito",
+    "setName": "Scarlet & Violet",
+    "number": "13",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv1/13_hires.png"
+  },
+  {
+    "id": "sv1-14",
+    "name": "Floragato",
+    "setName": "Scarlet & Violet",
+    "number": "14",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/14_hires.png"
+  },
+  {
+    "id": "sv1-15",
+    "name": "Meowscarada",
+    "setName": "Scarlet & Violet",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/15_hires.png"
+  },
+  {
+    "id": "sv1-16",
+    "name": "Tarountula",
+    "setName": "Scarlet & Violet",
+    "number": "16",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/16_hires.png"
+  },
+  {
+    "id": "sv1-17",
+    "name": "Tarountula",
+    "setName": "Scarlet & Violet",
+    "number": "17",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/17_hires.png"
+  },
+  {
+    "id": "sv1-18",
+    "name": "Tarountula",
+    "setName": "Scarlet & Violet",
+    "number": "18",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/18_hires.png"
+  },
+  {
+    "id": "sv1-19",
+    "name": "Spidops ex",
+    "setName": "Scarlet & Violet",
+    "number": "19",
+    "rarity": "Double Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/19_hires.png"
+  },
+  {
+    "id": "sv1-20",
+    "name": "Smoliv",
+    "setName": "Scarlet & Violet",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/20_hires.png"
+  },
+  {
+    "id": "sv1-21",
+    "name": "Smoliv",
+    "setName": "Scarlet & Violet",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/21_hires.png"
+  },
+  {
+    "id": "sv1-22",
+    "name": "Dolliv",
+    "setName": "Scarlet & Violet",
+    "number": "22",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv1/22_hires.png"
+  },
+  {
+    "id": "sv1-23",
+    "name": "Arboliva",
+    "setName": "Scarlet & Violet",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/23_hires.png"
+  },
+  {
+    "id": "sv1-24",
+    "name": "Toedscool",
+    "setName": "Scarlet & Violet",
+    "number": "24",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/24_hires.png"
+  },
+  {
+    "id": "sv1-25",
+    "name": "Toedscool",
+    "setName": "Scarlet & Violet",
+    "number": "25",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/25_hires.png"
+  },
+  {
+    "id": "sv1-26",
+    "name": "Toedscruel",
+    "setName": "Scarlet & Violet",
+    "number": "26",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/26_hires.png"
+  },
+  {
+    "id": "sv1-27",
+    "name": "Capsakid",
+    "setName": "Scarlet & Violet",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/27_hires.png"
+  },
+  {
+    "id": "sv1-28",
+    "name": "Capsakid",
+    "setName": "Scarlet & Violet",
+    "number": "28",
+    "rarity": "Common",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/28_hires.png"
+  },
+  {
+    "id": "sv1-29",
+    "name": "Scovillain",
+    "setName": "Scarlet & Violet",
+    "number": "29",
+    "rarity": "Uncommon",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv1/29_hires.png"
+  },
+  {
+    "id": "sv1-30",
+    "name": "Growlithe",
+    "setName": "Scarlet & Violet",
+    "number": "30",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv1/30_hires.png"
+  },
+  {
+    "id": "sv1-31",
+    "name": "Growlithe",
+    "setName": "Scarlet & Violet",
+    "number": "31",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/31_hires.png"
+  },
+  {
+    "id": "sv1-32",
+    "name": "Arcanine ex",
+    "setName": "Scarlet & Violet",
+    "number": "32",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/32_hires.png"
+  },
+  {
+    "id": "sv1-33",
+    "name": "Houndour",
+    "setName": "Scarlet & Violet",
+    "number": "33",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/33_hires.png"
+  },
+  {
+    "id": "sv1-34",
+    "name": "Houndoom",
+    "setName": "Scarlet & Violet",
+    "number": "34",
+    "rarity": "Common",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv1/34_hires.png"
+  },
+  {
+    "id": "sv1-35",
+    "name": "Torkoal",
+    "setName": "Scarlet & Violet",
+    "number": "35",
+    "rarity": "Uncommon",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv1/35_hires.png"
+  },
+  {
+    "id": "sv1-36",
+    "name": "Fuecoco",
+    "setName": "Scarlet & Violet",
+    "number": "36",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/36_hires.png"
+  },
+  {
+    "id": "sv1-37",
+    "name": "Crocalor",
+    "setName": "Scarlet & Violet",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/37_hires.png"
+  },
+  {
+    "id": "sv1-38",
+    "name": "Skeledirge",
+    "setName": "Scarlet & Violet",
+    "number": "38",
+    "rarity": "Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/38_hires.png"
+  },
+  {
+    "id": "sv1-39",
+    "name": "Charcadet",
+    "setName": "Scarlet & Violet",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv1/39_hires.png"
+  },
+  {
+    "id": "sv1-40",
+    "name": "Charcadet",
+    "setName": "Scarlet & Violet",
+    "number": "40",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/40_hires.png"
+  },
+  {
+    "id": "sv1-41",
+    "name": "Armarouge",
+    "setName": "Scarlet & Violet",
+    "number": "41",
+    "rarity": "Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/41_hires.png"
+  },
+  {
+    "id": "sv1-42",
+    "name": "Slowpoke",
+    "setName": "Scarlet & Violet",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv1/42_hires.png"
+  },
+  {
+    "id": "sv1-43",
+    "name": "Slowbro",
+    "setName": "Scarlet & Violet",
+    "number": "43",
+    "rarity": "Rare",
+    "artist": "Shinji Kanda",
+    "imageUrl": "https://images.pokemontcg.io/sv1/43_hires.png"
+  },
+  {
+    "id": "sv1-44",
+    "name": "Magikarp",
+    "setName": "Scarlet & Violet",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/44_hires.png"
+  },
+  {
+    "id": "sv1-45",
+    "name": "Gyarados ex",
+    "setName": "Scarlet & Violet",
+    "number": "45",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/45_hires.png"
+  },
+  {
+    "id": "sv1-46",
+    "name": "Buizel",
+    "setName": "Scarlet & Violet",
+    "number": "46",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv1/46_hires.png"
+  },
+  {
+    "id": "sv1-47",
+    "name": "Floatzel",
+    "setName": "Scarlet & Violet",
+    "number": "47",
+    "rarity": "Uncommon",
+    "artist": "Gemi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/47_hires.png"
+  },
+  {
+    "id": "sv1-48",
+    "name": "Alomomola",
+    "setName": "Scarlet & Violet",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Shinji Kanda",
+    "imageUrl": "https://images.pokemontcg.io/sv1/48_hires.png"
+  },
+  {
+    "id": "sv1-49",
+    "name": "Clauncher",
+    "setName": "Scarlet & Violet",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/sv1/49_hires.png"
+  },
+  {
+    "id": "sv1-50",
+    "name": "Clawitzer",
+    "setName": "Scarlet & Violet",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv1/50_hires.png"
+  },
+  {
+    "id": "sv1-51",
+    "name": "Bruxish",
+    "setName": "Scarlet & Violet",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "kurumitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/51_hires.png"
+  },
+  {
+    "id": "sv1-52",
+    "name": "Quaxly",
+    "setName": "Scarlet & Violet",
+    "number": "52",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv1/52_hires.png"
+  },
+  {
+    "id": "sv1-53",
+    "name": "Quaxwell",
+    "setName": "Scarlet & Violet",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/53_hires.png"
+  },
+  {
+    "id": "sv1-54",
+    "name": "Quaquaval",
+    "setName": "Scarlet & Violet",
+    "number": "54",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/54_hires.png"
+  },
+  {
+    "id": "sv1-55",
+    "name": "Wiglett",
+    "setName": "Scarlet & Violet",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/55_hires.png"
+  },
+  {
+    "id": "sv1-56",
+    "name": "Wiglett",
+    "setName": "Scarlet & Violet",
+    "number": "56",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/56_hires.png"
+  },
+  {
+    "id": "sv1-57",
+    "name": "Wugtrio",
+    "setName": "Scarlet & Violet",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/57_hires.png"
+  },
+  {
+    "id": "sv1-58",
+    "name": "Cetoddle",
+    "setName": "Scarlet & Violet",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/58_hires.png"
+  },
+  {
+    "id": "sv1-59",
+    "name": "Cetoddle",
+    "setName": "Scarlet & Violet",
+    "number": "59",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/59_hires.png"
+  },
+  {
+    "id": "sv1-60",
+    "name": "Cetitan",
+    "setName": "Scarlet & Violet",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv1/60_hires.png"
+  },
+  {
+    "id": "sv1-61",
+    "name": "Dondozo",
+    "setName": "Scarlet & Violet",
+    "number": "61",
+    "rarity": "Rare",
+    "artist": "Souichirou Gunjima",
+    "imageUrl": "https://images.pokemontcg.io/sv1/61_hires.png"
+  },
+  {
+    "id": "sv1-62",
+    "name": "Tatsugiri",
+    "setName": "Scarlet & Violet",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv1/62_hires.png"
+  },
+  {
+    "id": "sv1-63",
+    "name": "Magnemite",
+    "setName": "Scarlet & Violet",
+    "number": "63",
+    "rarity": "Common",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/63_hires.png"
+  },
+  {
+    "id": "sv1-64",
+    "name": "Magneton",
+    "setName": "Scarlet & Violet",
+    "number": "64",
+    "rarity": "Common",
+    "artist": "Shiburingaru",
+    "imageUrl": "https://images.pokemontcg.io/sv1/64_hires.png"
+  },
+  {
+    "id": "sv1-65",
+    "name": "Magnezone ex",
+    "setName": "Scarlet & Violet",
+    "number": "65",
+    "rarity": "Double Rare",
+    "artist": "hncl",
+    "imageUrl": "https://images.pokemontcg.io/sv1/65_hires.png"
+  },
+  {
+    "id": "sv1-66",
+    "name": "Mareep",
+    "setName": "Scarlet & Violet",
+    "number": "66",
+    "rarity": "Common",
+    "artist": "Narumi Sato",
+    "imageUrl": "https://images.pokemontcg.io/sv1/66_hires.png"
+  },
+  {
+    "id": "sv1-67",
+    "name": "Flaaffy",
+    "setName": "Scarlet & Violet",
+    "number": "67",
+    "rarity": "Uncommon",
+    "artist": "Kurata So",
+    "imageUrl": "https://images.pokemontcg.io/sv1/67_hires.png"
+  },
+  {
+    "id": "sv1-68",
+    "name": "Pachirisu",
+    "setName": "Scarlet & Violet",
+    "number": "68",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/sv1/68_hires.png"
+  },
+  {
+    "id": "sv1-69",
+    "name": "Rotom",
+    "setName": "Scarlet & Violet",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/69_hires.png"
+  },
+  {
+    "id": "sv1-70",
+    "name": "Rotom",
+    "setName": "Scarlet & Violet",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/70_hires.png"
+  },
+  {
+    "id": "sv1-71",
+    "name": "Toxel",
+    "setName": "Scarlet & Violet",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv1/71_hires.png"
+  },
+  {
+    "id": "sv1-72",
+    "name": "Toxtricity",
+    "setName": "Scarlet & Violet",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/72_hires.png"
+  },
+  {
+    "id": "sv1-73",
+    "name": "Pawmi",
+    "setName": "Scarlet & Violet",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/73_hires.png"
+  },
+  {
+    "id": "sv1-74",
+    "name": "Pawmi",
+    "setName": "Scarlet & Violet",
+    "number": "74",
+    "rarity": "Common",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/74_hires.png"
+  },
+  {
+    "id": "sv1-75",
+    "name": "Pawmo",
+    "setName": "Scarlet & Violet",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv1/75_hires.png"
+  },
+  {
+    "id": "sv1-76",
+    "name": "Pawmot",
+    "setName": "Scarlet & Violet",
+    "number": "76",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv1/76_hires.png"
+  },
+  {
+    "id": "sv1-77",
+    "name": "Wattrel",
+    "setName": "Scarlet & Violet",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv1/77_hires.png"
+  },
+  {
+    "id": "sv1-78",
+    "name": "Wattrel",
+    "setName": "Scarlet & Violet",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/78_hires.png"
+  },
+  {
+    "id": "sv1-79",
+    "name": "Kilowattrel",
+    "setName": "Scarlet & Violet",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/79_hires.png"
+  },
+  {
+    "id": "sv1-80",
+    "name": "Miraidon",
+    "setName": "Scarlet & Violet",
+    "number": "80",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/80_hires.png"
+  },
+  {
+    "id": "sv1-81",
+    "name": "Miraidon ex",
+    "setName": "Scarlet & Violet",
+    "number": "81",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/81_hires.png"
+  },
+  {
+    "id": "sv1-82",
+    "name": "Drowzee",
+    "setName": "Scarlet & Violet",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv1/82_hires.png"
+  },
+  {
+    "id": "sv1-83",
+    "name": "Hypno",
+    "setName": "Scarlet & Violet",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/83_hires.png"
+  },
+  {
+    "id": "sv1-84",
+    "name": "Ralts",
+    "setName": "Scarlet & Violet",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/84_hires.png"
+  },
+  {
+    "id": "sv1-85",
+    "name": "Kirlia",
+    "setName": "Scarlet & Violet",
+    "number": "85",
+    "rarity": "Common",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/sv1/85_hires.png"
+  },
+  {
+    "id": "sv1-86",
+    "name": "Gardevoir ex",
+    "setName": "Scarlet & Violet",
+    "number": "86",
+    "rarity": "Double Rare",
+    "artist": "N-DESIGN Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/86_hires.png"
+  },
+  {
+    "id": "sv1-87",
+    "name": "Shuppet",
+    "setName": "Scarlet & Violet",
+    "number": "87",
+    "rarity": "Common",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv1/87_hires.png"
+  },
+  {
+    "id": "sv1-88",
+    "name": "Banette ex",
+    "setName": "Scarlet & Violet",
+    "number": "88",
+    "rarity": "Double Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/88_hires.png"
+  },
+  {
+    "id": "sv1-89",
+    "name": "Drifloon",
+    "setName": "Scarlet & Violet",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/89_hires.png"
+  },
+  {
+    "id": "sv1-90",
+    "name": "Drifblim",
+    "setName": "Scarlet & Violet",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Yuu Nishida",
+    "imageUrl": "https://images.pokemontcg.io/sv1/90_hires.png"
+  },
+  {
+    "id": "sv1-91",
+    "name": "Flabébé",
+    "setName": "Scarlet & Violet",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv1/91_hires.png"
+  },
+  {
+    "id": "sv1-92",
+    "name": "Floette",
+    "setName": "Scarlet & Violet",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/92_hires.png"
+  },
+  {
+    "id": "sv1-93",
+    "name": "Florges",
+    "setName": "Scarlet & Violet",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv1/93_hires.png"
+  },
+  {
+    "id": "sv1-94",
+    "name": "Dedenne",
+    "setName": "Scarlet & Violet",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "zig",
+    "imageUrl": "https://images.pokemontcg.io/sv1/94_hires.png"
+  },
+  {
+    "id": "sv1-95",
+    "name": "Dedenne",
+    "setName": "Scarlet & Violet",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Nelnal",
+    "imageUrl": "https://images.pokemontcg.io/sv1/95_hires.png"
+  },
+  {
+    "id": "sv1-96",
+    "name": "Klefki",
+    "setName": "Scarlet & Violet",
+    "number": "96",
+    "rarity": "Rare",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv1/96_hires.png"
+  },
+  {
+    "id": "sv1-97",
+    "name": "Fidough",
+    "setName": "Scarlet & Violet",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/sv1/97_hires.png"
+  },
+  {
+    "id": "sv1-98",
+    "name": "Fidough",
+    "setName": "Scarlet & Violet",
+    "number": "98",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/sv1/98_hires.png"
+  },
+  {
+    "id": "sv1-99",
+    "name": "Dachsbun",
+    "setName": "Scarlet & Violet",
+    "number": "99",
+    "rarity": "Uncommon",
+    "artist": "You Iribi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/99_hires.png"
+  },
+  {
+    "id": "sv1-100",
+    "name": "Flittle",
+    "setName": "Scarlet & Violet",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv1/100_hires.png"
+  },
+  {
+    "id": "sv1-101",
+    "name": "Flittle",
+    "setName": "Scarlet & Violet",
+    "number": "101",
+    "rarity": "Common",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/101_hires.png"
+  },
+  {
+    "id": "sv1-102",
+    "name": "Flittle",
+    "setName": "Scarlet & Violet",
+    "number": "102",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/102_hires.png"
+  },
+  {
+    "id": "sv1-103",
+    "name": "Espathra",
+    "setName": "Scarlet & Violet",
+    "number": "103",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv1/103_hires.png"
+  },
+  {
+    "id": "sv1-104",
+    "name": "Greavard",
+    "setName": "Scarlet & Violet",
+    "number": "104",
+    "rarity": "Common",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/104_hires.png"
+  },
+  {
+    "id": "sv1-105",
+    "name": "Greavard",
+    "setName": "Scarlet & Violet",
+    "number": "105",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/105_hires.png"
+  },
+  {
+    "id": "sv1-106",
+    "name": "Houndstone",
+    "setName": "Scarlet & Violet",
+    "number": "106",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/106_hires.png"
+  },
+  {
+    "id": "sv1-107",
+    "name": "Mankey",
+    "setName": "Scarlet & Violet",
+    "number": "107",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/107_hires.png"
+  },
+  {
+    "id": "sv1-108",
+    "name": "Primeape",
+    "setName": "Scarlet & Violet",
+    "number": "108",
+    "rarity": "Common",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/sv1/108_hires.png"
+  },
+  {
+    "id": "sv1-109",
+    "name": "Annihilape",
+    "setName": "Scarlet & Violet",
+    "number": "109",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv1/109_hires.png"
+  },
+  {
+    "id": "sv1-110",
+    "name": "Meditite",
+    "setName": "Scarlet & Violet",
+    "number": "110",
+    "rarity": "Common",
+    "artist": "miki kudo",
+    "imageUrl": "https://images.pokemontcg.io/sv1/110_hires.png"
+  },
+  {
+    "id": "sv1-111",
+    "name": "Medicham",
+    "setName": "Scarlet & Violet",
+    "number": "111",
+    "rarity": "Uncommon",
+    "artist": "Jerky",
+    "imageUrl": "https://images.pokemontcg.io/sv1/111_hires.png"
+  },
+  {
+    "id": "sv1-112",
+    "name": "Riolu",
+    "setName": "Scarlet & Violet",
+    "number": "112",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sv1/112_hires.png"
+  },
+  {
+    "id": "sv1-113",
+    "name": "Riolu",
+    "setName": "Scarlet & Violet",
+    "number": "113",
+    "rarity": "Common",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/113_hires.png"
+  },
+  {
+    "id": "sv1-114",
+    "name": "Lucario",
+    "setName": "Scarlet & Violet",
+    "number": "114",
+    "rarity": "Uncommon",
+    "artist": "Nurikabe",
+    "imageUrl": "https://images.pokemontcg.io/sv1/114_hires.png"
+  },
+  {
+    "id": "sv1-115",
+    "name": "Sandile",
+    "setName": "Scarlet & Violet",
+    "number": "115",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv1/115_hires.png"
+  },
+  {
+    "id": "sv1-116",
+    "name": "Krokorok",
+    "setName": "Scarlet & Violet",
+    "number": "116",
+    "rarity": "Common",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/116_hires.png"
+  },
+  {
+    "id": "sv1-117",
+    "name": "Krookodile",
+    "setName": "Scarlet & Violet",
+    "number": "117",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/sv1/117_hires.png"
+  },
+  {
+    "id": "sv1-118",
+    "name": "Hawlucha",
+    "setName": "Scarlet & Violet",
+    "number": "118",
+    "rarity": "Rare",
+    "artist": "GOSSAN",
+    "imageUrl": "https://images.pokemontcg.io/sv1/118_hires.png"
+  },
+  {
+    "id": "sv1-119",
+    "name": "Silicobra",
+    "setName": "Scarlet & Violet",
+    "number": "119",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/119_hires.png"
+  },
+  {
+    "id": "sv1-120",
+    "name": "Sandaconda",
+    "setName": "Scarlet & Violet",
+    "number": "120",
+    "rarity": "Uncommon",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv1/120_hires.png"
+  },
+  {
+    "id": "sv1-121",
+    "name": "Stonjourner",
+    "setName": "Scarlet & Violet",
+    "number": "121",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv1/121_hires.png"
+  },
+  {
+    "id": "sv1-122",
+    "name": "Klawf",
+    "setName": "Scarlet & Violet",
+    "number": "122",
+    "rarity": "Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/122_hires.png"
+  },
+  {
+    "id": "sv1-123",
+    "name": "Great Tusk ex",
+    "setName": "Scarlet & Violet",
+    "number": "123",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/123_hires.png"
+  },
+  {
+    "id": "sv1-124",
+    "name": "Koraidon",
+    "setName": "Scarlet & Violet",
+    "number": "124",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/124_hires.png"
+  },
+  {
+    "id": "sv1-125",
+    "name": "Koraidon ex",
+    "setName": "Scarlet & Violet",
+    "number": "125",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv1/125_hires.png"
+  },
+  {
+    "id": "sv1-126",
+    "name": "Grimer",
+    "setName": "Scarlet & Violet",
+    "number": "126",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/126_hires.png"
+  },
+  {
+    "id": "sv1-127",
+    "name": "Muk",
+    "setName": "Scarlet & Violet",
+    "number": "127",
+    "rarity": "Uncommon",
+    "artist": "Haru Akasaka",
+    "imageUrl": "https://images.pokemontcg.io/sv1/127_hires.png"
+  },
+  {
+    "id": "sv1-128",
+    "name": "Seviper",
+    "setName": "Scarlet & Violet",
+    "number": "128",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv1/128_hires.png"
+  },
+  {
+    "id": "sv1-129",
+    "name": "Spiritomb",
+    "setName": "Scarlet & Violet",
+    "number": "129",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/sv1/129_hires.png"
+  },
+  {
+    "id": "sv1-130",
+    "name": "Croagunk",
+    "setName": "Scarlet & Violet",
+    "number": "130",
+    "rarity": "Common",
+    "artist": "Shiburingaru",
+    "imageUrl": "https://images.pokemontcg.io/sv1/130_hires.png"
+  },
+  {
+    "id": "sv1-131",
+    "name": "Toxicroak ex",
+    "setName": "Scarlet & Violet",
+    "number": "131",
+    "rarity": "Double Rare",
+    "artist": "Nisota Niso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/131_hires.png"
+  },
+  {
+    "id": "sv1-132",
+    "name": "Pawniard",
+    "setName": "Scarlet & Violet",
+    "number": "132",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv1/132_hires.png"
+  },
+  {
+    "id": "sv1-133",
+    "name": "Bisharp",
+    "setName": "Scarlet & Violet",
+    "number": "133",
+    "rarity": "Common",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/133_hires.png"
+  },
+  {
+    "id": "sv1-134",
+    "name": "Kingambit",
+    "setName": "Scarlet & Violet",
+    "number": "134",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv1/134_hires.png"
+  },
+  {
+    "id": "sv1-135",
+    "name": "Maschiff",
+    "setName": "Scarlet & Violet",
+    "number": "135",
+    "rarity": "Common",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/135_hires.png"
+  },
+  {
+    "id": "sv1-136",
+    "name": "Maschiff",
+    "setName": "Scarlet & Violet",
+    "number": "136",
+    "rarity": "Common",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv1/136_hires.png"
+  },
+  {
+    "id": "sv1-137",
+    "name": "Mabosstiff",
+    "setName": "Scarlet & Violet",
+    "number": "137",
+    "rarity": "Uncommon",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/137_hires.png"
+  },
+  {
+    "id": "sv1-138",
+    "name": "Bombirdier",
+    "setName": "Scarlet & Violet",
+    "number": "138",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/138_hires.png"
+  },
+  {
+    "id": "sv1-139",
+    "name": "Forretress",
+    "setName": "Scarlet & Violet",
+    "number": "139",
+    "rarity": "Uncommon",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/sv1/139_hires.png"
+  },
+  {
+    "id": "sv1-140",
+    "name": "Varoom",
+    "setName": "Scarlet & Violet",
+    "number": "140",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/140_hires.png"
+  },
+  {
+    "id": "sv1-141",
+    "name": "Varoom",
+    "setName": "Scarlet & Violet",
+    "number": "141",
+    "rarity": "Common",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/141_hires.png"
+  },
+  {
+    "id": "sv1-142",
+    "name": "Revavroom",
+    "setName": "Scarlet & Violet",
+    "number": "142",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/sv1/142_hires.png"
+  },
+  {
+    "id": "sv1-143",
+    "name": "Iron Treads ex",
+    "setName": "Scarlet & Violet",
+    "number": "143",
+    "rarity": "Double Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/143_hires.png"
+  },
+  {
+    "id": "sv1-144",
+    "name": "Chansey",
+    "setName": "Scarlet & Violet",
+    "number": "144",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/sv1/144_hires.png"
+  },
+  {
+    "id": "sv1-145",
+    "name": "Blissey",
+    "setName": "Scarlet & Violet",
+    "number": "145",
+    "rarity": "Uncommon",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/145_hires.png"
+  },
+  {
+    "id": "sv1-146",
+    "name": "Zangoose",
+    "setName": "Scarlet & Violet",
+    "number": "146",
+    "rarity": "Common",
+    "artist": "Yuya Oka",
+    "imageUrl": "https://images.pokemontcg.io/sv1/146_hires.png"
+  },
+  {
+    "id": "sv1-147",
+    "name": "Zangoose",
+    "setName": "Scarlet & Violet",
+    "number": "147",
+    "rarity": "Uncommon",
+    "artist": "aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/147_hires.png"
+  },
+  {
+    "id": "sv1-148",
+    "name": "Starly",
+    "setName": "Scarlet & Violet",
+    "number": "148",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/sv1/148_hires.png"
+  },
+  {
+    "id": "sv1-149",
+    "name": "Staravia",
+    "setName": "Scarlet & Violet",
+    "number": "149",
+    "rarity": "Common",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/149_hires.png"
+  },
+  {
+    "id": "sv1-150",
+    "name": "Staraptor",
+    "setName": "Scarlet & Violet",
+    "number": "150",
+    "rarity": "Uncommon",
+    "artist": "Atsushi Furusawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/150_hires.png"
+  },
+  {
+    "id": "sv1-151",
+    "name": "Skwovet",
+    "setName": "Scarlet & Violet",
+    "number": "151",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/sv1/151_hires.png"
+  },
+  {
+    "id": "sv1-152",
+    "name": "Greedent",
+    "setName": "Scarlet & Violet",
+    "number": "152",
+    "rarity": "Uncommon",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/152_hires.png"
+  },
+  {
+    "id": "sv1-153",
+    "name": "Indeedee",
+    "setName": "Scarlet & Violet",
+    "number": "153",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/153_hires.png"
+  },
+  {
+    "id": "sv1-154",
+    "name": "Lechonk",
+    "setName": "Scarlet & Violet",
+    "number": "154",
+    "rarity": "Common",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/154_hires.png"
+  },
+  {
+    "id": "sv1-155",
+    "name": "Lechonk",
+    "setName": "Scarlet & Violet",
+    "number": "155",
+    "rarity": "Common",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/155_hires.png"
+  },
+  {
+    "id": "sv1-156",
+    "name": "Lechonk",
+    "setName": "Scarlet & Violet",
+    "number": "156",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv1/156_hires.png"
+  },
+  {
+    "id": "sv1-157",
+    "name": "Oinkologne",
+    "setName": "Scarlet & Violet",
+    "number": "157",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/157_hires.png"
+  },
+  {
+    "id": "sv1-158",
+    "name": "Oinkologne ex",
+    "setName": "Scarlet & Violet",
+    "number": "158",
+    "rarity": "Double Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv1/158_hires.png"
+  },
+  {
+    "id": "sv1-159",
+    "name": "Tandemaus",
+    "setName": "Scarlet & Violet",
+    "number": "159",
+    "rarity": "Common",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/159_hires.png"
+  },
+  {
+    "id": "sv1-160",
+    "name": "Tandemaus",
+    "setName": "Scarlet & Violet",
+    "number": "160",
+    "rarity": "Common",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/160_hires.png"
+  },
+  {
+    "id": "sv1-161",
+    "name": "Maushold",
+    "setName": "Scarlet & Violet",
+    "number": "161",
+    "rarity": "Uncommon",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/161_hires.png"
+  },
+  {
+    "id": "sv1-162",
+    "name": "Squawkabilly",
+    "setName": "Scarlet & Violet",
+    "number": "162",
+    "rarity": "Common",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv1/162_hires.png"
+  },
+  {
+    "id": "sv1-163",
+    "name": "Cyclizar",
+    "setName": "Scarlet & Violet",
+    "number": "163",
+    "rarity": "Uncommon",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/163_hires.png"
+  },
+  {
+    "id": "sv1-164",
+    "name": "Cyclizar",
+    "setName": "Scarlet & Violet",
+    "number": "164",
+    "rarity": "Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/164_hires.png"
+  },
+  {
+    "id": "sv1-165",
+    "name": "Flamigo",
+    "setName": "Scarlet & Violet",
+    "number": "165",
+    "rarity": "Uncommon",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/165_hires.png"
+  },
+  {
+    "id": "sv1-166",
+    "name": "Arven",
+    "setName": "Scarlet & Violet",
+    "number": "166",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/166_hires.png"
+  },
+  {
+    "id": "sv1-167",
+    "name": "Beach Court",
+    "setName": "Scarlet & Violet",
+    "number": "167",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv1/167_hires.png"
+  },
+  {
+    "id": "sv1-168",
+    "name": "Crushing Hammer",
+    "setName": "Scarlet & Violet",
+    "number": "168",
+    "rarity": "Common",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv1/168_hires.png"
+  },
+  {
+    "id": "sv1-169",
+    "name": "Defiance Band",
+    "setName": "Scarlet & Violet",
+    "number": "169",
+    "rarity": "Uncommon",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/sv1/169_hires.png"
+  },
+  {
+    "id": "sv1-170",
+    "name": "Electric Generator",
+    "setName": "Scarlet & Violet",
+    "number": "170",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv1/170_hires.png"
+  },
+  {
+    "id": "sv1-171",
+    "name": "Energy Retrieval",
+    "setName": "Scarlet & Violet",
+    "number": "171",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/171_hires.png"
+  },
+  {
+    "id": "sv1-172",
+    "name": "Energy Search",
+    "setName": "Scarlet & Violet",
+    "number": "172",
+    "rarity": "Common",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv1/172_hires.png"
+  },
+  {
+    "id": "sv1-173",
+    "name": "Energy Switch",
+    "setName": "Scarlet & Violet",
+    "number": "173",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/173_hires.png"
+  },
+  {
+    "id": "sv1-174",
+    "name": "Exp. Share",
+    "setName": "Scarlet & Violet",
+    "number": "174",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv1/174_hires.png"
+  },
+  {
+    "id": "sv1-175",
+    "name": "Jacq",
+    "setName": "Scarlet & Violet",
+    "number": "175",
+    "rarity": "Uncommon",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/175_hires.png"
+  },
+  {
+    "id": "sv1-176",
+    "name": "Judge",
+    "setName": "Scarlet & Violet",
+    "number": "176",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/176_hires.png"
+  },
+  {
+    "id": "sv1-177",
+    "name": "Katy",
+    "setName": "Scarlet & Violet",
+    "number": "177",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/177_hires.png"
+  },
+  {
+    "id": "sv1-178",
+    "name": "Mesagoza",
+    "setName": "Scarlet & Violet",
+    "number": "178",
+    "rarity": "Uncommon",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv1/178_hires.png"
+  },
+  {
+    "id": "sv1-179",
+    "name": "Miriam",
+    "setName": "Scarlet & Violet",
+    "number": "179",
+    "rarity": "Uncommon",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv1/179_hires.png"
+  },
+  {
+    "id": "sv1-180",
+    "name": "Nemona",
+    "setName": "Scarlet & Violet",
+    "number": "180",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv1/180_hires.png"
+  },
+  {
+    "id": "sv1-181",
+    "name": "Nest Ball",
+    "setName": "Scarlet & Violet",
+    "number": "181",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv1/181_hires.png"
+  },
+  {
+    "id": "sv1-182",
+    "name": "Pal Pad",
+    "setName": "Scarlet & Violet",
+    "number": "182",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/182_hires.png"
+  },
+  {
+    "id": "sv1-183",
+    "name": "Penny",
+    "setName": "Scarlet & Violet",
+    "number": "183",
+    "rarity": "Uncommon",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/183_hires.png"
+  },
+  {
+    "id": "sv1-184",
+    "name": "Picnic Basket",
+    "setName": "Scarlet & Violet",
+    "number": "184",
+    "rarity": "Uncommon",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv1/184_hires.png"
+  },
+  {
+    "id": "sv1-185",
+    "name": "Poké Ball",
+    "setName": "Scarlet & Violet",
+    "number": "185",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/185_hires.png"
+  },
+  {
+    "id": "sv1-186",
+    "name": "Pokégear 3.0",
+    "setName": "Scarlet & Violet",
+    "number": "186",
+    "rarity": "Common",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv1/186_hires.png"
+  },
+  {
+    "id": "sv1-187",
+    "name": "Pokémon Catcher",
+    "setName": "Scarlet & Violet",
+    "number": "187",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/187_hires.png"
+  },
+  {
+    "id": "sv1-188",
+    "name": "Potion",
+    "setName": "Scarlet & Violet",
+    "number": "188",
+    "rarity": "Common",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv1/188_hires.png"
+  },
+  {
+    "id": "sv1-189",
+    "name": "Professor's Research (Professor Sada)",
+    "setName": "Scarlet & Violet",
+    "number": "189",
+    "rarity": "Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/189_hires.png"
+  },
+  {
+    "id": "sv1-190",
+    "name": "Professor's Research (Professor Turo)",
+    "setName": "Scarlet & Violet",
+    "number": "190",
+    "rarity": "Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/190_hires.png"
+  },
+  {
+    "id": "sv1-191",
+    "name": "Rare Candy",
+    "setName": "Scarlet & Violet",
+    "number": "191",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/191_hires.png"
+  },
+  {
+    "id": "sv1-192",
+    "name": "Rock Chestplate",
+    "setName": "Scarlet & Violet",
+    "number": "192",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv1/192_hires.png"
+  },
+  {
+    "id": "sv1-193",
+    "name": "Rocky Helmet",
+    "setName": "Scarlet & Violet",
+    "number": "193",
+    "rarity": "Uncommon",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv1/193_hires.png"
+  },
+  {
+    "id": "sv1-194",
+    "name": "Switch",
+    "setName": "Scarlet & Violet",
+    "number": "194",
+    "rarity": "Common",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/194_hires.png"
+  },
+  {
+    "id": "sv1-195",
+    "name": "Team Star Grunt",
+    "setName": "Scarlet & Violet",
+    "number": "195",
+    "rarity": "Uncommon",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/195_hires.png"
+  },
+  {
+    "id": "sv1-196",
+    "name": "Ultra Ball",
+    "setName": "Scarlet & Violet",
+    "number": "196",
+    "rarity": "Uncommon",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/sv1/196_hires.png"
+  },
+  {
+    "id": "sv1-197",
+    "name": "Vitality Band",
+    "setName": "Scarlet & Violet",
+    "number": "197",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/197_hires.png"
+  },
+  {
+    "id": "sv1-198",
+    "name": "Youngster",
+    "setName": "Scarlet & Violet",
+    "number": "198",
+    "rarity": "Uncommon",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/sv1/198_hires.png"
+  },
+  {
+    "id": "sv1-199",
+    "name": "Tarountula",
+    "setName": "Scarlet & Violet",
+    "number": "199",
+    "rarity": "Illustration Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv1/199_hires.png"
+  },
+  {
+    "id": "sv1-200",
+    "name": "Dolliv",
+    "setName": "Scarlet & Violet",
+    "number": "200",
+    "rarity": "Illustration Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv1/200_hires.png"
+  },
+  {
+    "id": "sv1-201",
+    "name": "Toedscool",
+    "setName": "Scarlet & Violet",
+    "number": "201",
+    "rarity": "Illustration Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/201_hires.png"
+  },
+  {
+    "id": "sv1-202",
+    "name": "Scovillain",
+    "setName": "Scarlet & Violet",
+    "number": "202",
+    "rarity": "Illustration Rare",
+    "artist": "KIYOTAKA OSHIYAMA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/202_hires.png"
+  },
+  {
+    "id": "sv1-203",
+    "name": "Armarouge",
+    "setName": "Scarlet & Violet",
+    "number": "203",
+    "rarity": "Illustration Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/203_hires.png"
+  },
+  {
+    "id": "sv1-204",
+    "name": "Slowpoke",
+    "setName": "Scarlet & Violet",
+    "number": "204",
+    "rarity": "Illustration Rare",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/204_hires.png"
+  },
+  {
+    "id": "sv1-205",
+    "name": "Clauncher",
+    "setName": "Scarlet & Violet",
+    "number": "205",
+    "rarity": "Illustration Rare",
+    "artist": "Shinya Komatsu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/205_hires.png"
+  },
+  {
+    "id": "sv1-206",
+    "name": "Wiglett",
+    "setName": "Scarlet & Violet",
+    "number": "206",
+    "rarity": "Illustration Rare",
+    "artist": "You Iribi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/206_hires.png"
+  },
+  {
+    "id": "sv1-207",
+    "name": "Dondozo",
+    "setName": "Scarlet & Violet",
+    "number": "207",
+    "rarity": "Illustration Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/207_hires.png"
+  },
+  {
+    "id": "sv1-208",
+    "name": "Pachirisu",
+    "setName": "Scarlet & Violet",
+    "number": "208",
+    "rarity": "Illustration Rare",
+    "artist": "zig",
+    "imageUrl": "https://images.pokemontcg.io/sv1/208_hires.png"
+  },
+  {
+    "id": "sv1-209",
+    "name": "Pawmot",
+    "setName": "Scarlet & Violet",
+    "number": "209",
+    "rarity": "Illustration Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/sv1/209_hires.png"
+  },
+  {
+    "id": "sv1-210",
+    "name": "Drowzee",
+    "setName": "Scarlet & Violet",
+    "number": "210",
+    "rarity": "Illustration Rare",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/sv1/210_hires.png"
+  },
+  {
+    "id": "sv1-211",
+    "name": "Ralts",
+    "setName": "Scarlet & Violet",
+    "number": "211",
+    "rarity": "Illustration Rare",
+    "artist": "Jiro Sasumo",
+    "imageUrl": "https://images.pokemontcg.io/sv1/211_hires.png"
+  },
+  {
+    "id": "sv1-212",
+    "name": "Kirlia",
+    "setName": "Scarlet & Violet",
+    "number": "212",
+    "rarity": "Illustration Rare",
+    "artist": "Jiro Sasumo",
+    "imageUrl": "https://images.pokemontcg.io/sv1/212_hires.png"
+  },
+  {
+    "id": "sv1-213",
+    "name": "Fidough",
+    "setName": "Scarlet & Violet",
+    "number": "213",
+    "rarity": "Illustration Rare",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/sv1/213_hires.png"
+  },
+  {
+    "id": "sv1-214",
+    "name": "Greavard",
+    "setName": "Scarlet & Violet",
+    "number": "214",
+    "rarity": "Illustration Rare",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/sv1/214_hires.png"
+  },
+  {
+    "id": "sv1-215",
+    "name": "Riolu",
+    "setName": "Scarlet & Violet",
+    "number": "215",
+    "rarity": "Illustration Rare",
+    "artist": "Nelnal",
+    "imageUrl": "https://images.pokemontcg.io/sv1/215_hires.png"
+  },
+  {
+    "id": "sv1-216",
+    "name": "Sandile",
+    "setName": "Scarlet & Violet",
+    "number": "216",
+    "rarity": "Illustration Rare",
+    "artist": "Nurikabe",
+    "imageUrl": "https://images.pokemontcg.io/sv1/216_hires.png"
+  },
+  {
+    "id": "sv1-217",
+    "name": "Klawf",
+    "setName": "Scarlet & Violet",
+    "number": "217",
+    "rarity": "Illustration Rare",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/sv1/217_hires.png"
+  },
+  {
+    "id": "sv1-218",
+    "name": "Mabosstiff",
+    "setName": "Scarlet & Violet",
+    "number": "218",
+    "rarity": "Illustration Rare",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv1/218_hires.png"
+  },
+  {
+    "id": "sv1-219",
+    "name": "Bombirdier",
+    "setName": "Scarlet & Violet",
+    "number": "219",
+    "rarity": "Illustration Rare",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/219_hires.png"
+  },
+  {
+    "id": "sv1-220",
+    "name": "Kingambit",
+    "setName": "Scarlet & Violet",
+    "number": "220",
+    "rarity": "Illustration Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/220_hires.png"
+  },
+  {
+    "id": "sv1-221",
+    "name": "Starly",
+    "setName": "Scarlet & Violet",
+    "number": "221",
+    "rarity": "Illustration Rare",
+    "artist": "saino misaki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/221_hires.png"
+  },
+  {
+    "id": "sv1-222",
+    "name": "Skwovet",
+    "setName": "Scarlet & Violet",
+    "number": "222",
+    "rarity": "Illustration Rare",
+    "artist": "Teeziro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/222_hires.png"
+  },
+  {
+    "id": "sv1-223",
+    "name": "Spidops ex",
+    "setName": "Scarlet & Violet",
+    "number": "223",
+    "rarity": "Ultra Rare",
+    "artist": "takuyoa",
+    "imageUrl": "https://images.pokemontcg.io/sv1/223_hires.png"
+  },
+  {
+    "id": "sv1-224",
+    "name": "Arcanine ex",
+    "setName": "Scarlet & Violet",
+    "number": "224",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/224_hires.png"
+  },
+  {
+    "id": "sv1-225",
+    "name": "Gyarados ex",
+    "setName": "Scarlet & Violet",
+    "number": "225",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/225_hires.png"
+  },
+  {
+    "id": "sv1-226",
+    "name": "Magnezone ex",
+    "setName": "Scarlet & Violet",
+    "number": "226",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/sv1/226_hires.png"
+  },
+  {
+    "id": "sv1-227",
+    "name": "Miraidon ex",
+    "setName": "Scarlet & Violet",
+    "number": "227",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/227_hires.png"
+  },
+  {
+    "id": "sv1-228",
+    "name": "Gardevoir ex",
+    "setName": "Scarlet & Violet",
+    "number": "228",
+    "rarity": "Ultra Rare",
+    "artist": "N-DESIGN Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/228_hires.png"
+  },
+  {
+    "id": "sv1-229",
+    "name": "Banette ex",
+    "setName": "Scarlet & Violet",
+    "number": "229",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/229_hires.png"
+  },
+  {
+    "id": "sv1-230",
+    "name": "Great Tusk ex",
+    "setName": "Scarlet & Violet",
+    "number": "230",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/230_hires.png"
+  },
+  {
+    "id": "sv1-231",
+    "name": "Koraidon ex",
+    "setName": "Scarlet & Violet",
+    "number": "231",
+    "rarity": "Ultra Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv1/231_hires.png"
+  },
+  {
+    "id": "sv1-232",
+    "name": "Toxicroak ex",
+    "setName": "Scarlet & Violet",
+    "number": "232",
+    "rarity": "Ultra Rare",
+    "artist": "PLANETA Hiiragi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/232_hires.png"
+  },
+  {
+    "id": "sv1-233",
+    "name": "Iron Treads ex",
+    "setName": "Scarlet & Violet",
+    "number": "233",
+    "rarity": "Ultra Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/233_hires.png"
+  },
+  {
+    "id": "sv1-234",
+    "name": "Oinkologne ex",
+    "setName": "Scarlet & Violet",
+    "number": "234",
+    "rarity": "Ultra Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv1/234_hires.png"
+  },
+  {
+    "id": "sv1-235",
+    "name": "Arven",
+    "setName": "Scarlet & Violet",
+    "number": "235",
+    "rarity": "Ultra Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/235_hires.png"
+  },
+  {
+    "id": "sv1-236",
+    "name": "Jacq",
+    "setName": "Scarlet & Violet",
+    "number": "236",
+    "rarity": "Ultra Rare",
+    "artist": "GIDORA",
+    "imageUrl": "https://images.pokemontcg.io/sv1/236_hires.png"
+  },
+  {
+    "id": "sv1-237",
+    "name": "Katy",
+    "setName": "Scarlet & Violet",
+    "number": "237",
+    "rarity": "Ultra Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/237_hires.png"
+  },
+  {
+    "id": "sv1-238",
+    "name": "Miriam",
+    "setName": "Scarlet & Violet",
+    "number": "238",
+    "rarity": "Ultra Rare",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/sv1/238_hires.png"
+  },
+  {
+    "id": "sv1-239",
+    "name": "Penny",
+    "setName": "Scarlet & Violet",
+    "number": "239",
+    "rarity": "Ultra Rare",
+    "artist": "yuu",
+    "imageUrl": "https://images.pokemontcg.io/sv1/239_hires.png"
+  },
+  {
+    "id": "sv1-240",
+    "name": "Professor's Research (Professor Sada)",
+    "setName": "Scarlet & Violet",
+    "number": "240",
+    "rarity": "Ultra Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/240_hires.png"
+  },
+  {
+    "id": "sv1-241",
+    "name": "Professor's Research (Professor Turo)",
+    "setName": "Scarlet & Violet",
+    "number": "241",
+    "rarity": "Ultra Rare",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/sv1/241_hires.png"
+  },
+  {
+    "id": "sv1-242",
+    "name": "Team Star Grunt",
+    "setName": "Scarlet & Violet",
+    "number": "242",
+    "rarity": "Ultra Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/sv1/242_hires.png"
+  },
+  {
+    "id": "sv1-243",
+    "name": "Spidops ex",
+    "setName": "Scarlet & Violet",
+    "number": "243",
+    "rarity": "Special Illustration Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/sv1/243_hires.png"
+  },
+  {
+    "id": "sv1-244",
+    "name": "Miraidon ex",
+    "setName": "Scarlet & Violet",
+    "number": "244",
+    "rarity": "Special Illustration Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/244_hires.png"
+  },
+  {
+    "id": "sv1-245",
+    "name": "Gardevoir ex",
+    "setName": "Scarlet & Violet",
+    "number": "245",
+    "rarity": "Special Illustration Rare",
+    "artist": "Jiro Sasumo",
+    "imageUrl": "https://images.pokemontcg.io/sv1/245_hires.png"
+  },
+  {
+    "id": "sv1-246",
+    "name": "Great Tusk ex",
+    "setName": "Scarlet & Violet",
+    "number": "246",
+    "rarity": "Special Illustration Rare",
+    "artist": "Pani Kobayashi",
+    "imageUrl": "https://images.pokemontcg.io/sv1/246_hires.png"
+  },
+  {
+    "id": "sv1-247",
+    "name": "Koraidon ex",
+    "setName": "Scarlet & Violet",
+    "number": "247",
+    "rarity": "Special Illustration Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/247_hires.png"
+  },
+  {
+    "id": "sv1-248",
+    "name": "Iron Treads ex",
+    "setName": "Scarlet & Violet",
+    "number": "248",
+    "rarity": "Special Illustration Rare",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/sv1/248_hires.png"
+  },
+  {
+    "id": "sv1-249",
+    "name": "Arven",
+    "setName": "Scarlet & Violet",
+    "number": "249",
+    "rarity": "Special Illustration Rare",
+    "artist": "kantaro",
+    "imageUrl": "https://images.pokemontcg.io/sv1/249_hires.png"
+  },
+  {
+    "id": "sv1-250",
+    "name": "Jacq",
+    "setName": "Scarlet & Violet",
+    "number": "250",
+    "rarity": "Special Illustration Rare",
+    "artist": "Oswaldo KATO",
+    "imageUrl": "https://images.pokemontcg.io/sv1/250_hires.png"
+  },
+  {
+    "id": "sv1-251",
+    "name": "Miriam",
+    "setName": "Scarlet & Violet",
+    "number": "251",
+    "rarity": "Special Illustration Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/sv1/251_hires.png"
+  },
+  {
+    "id": "sv1-252",
+    "name": "Penny",
+    "setName": "Scarlet & Violet",
+    "number": "252",
+    "rarity": "Special Illustration Rare",
+    "artist": "OKACHEKE",
+    "imageUrl": "https://images.pokemontcg.io/sv1/252_hires.png"
+  },
+  {
+    "id": "sv1-253",
+    "name": "Miraidon ex",
+    "setName": "Scarlet & Violet",
+    "number": "253",
+    "rarity": "Hyper Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/sv1/253_hires.png"
+  },
+  {
+    "id": "sv1-254",
+    "name": "Koraidon ex",
+    "setName": "Scarlet & Violet",
+    "number": "254",
+    "rarity": "Hyper Rare",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/sv1/254_hires.png"
+  },
+  {
+    "id": "sv1-255",
+    "name": "Nest Ball",
+    "setName": "Scarlet & Violet",
+    "number": "255",
+    "rarity": "Hyper Rare",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/sv1/255_hires.png"
+  },
+  {
+    "id": "sv1-256",
+    "name": "Rare Candy",
+    "setName": "Scarlet & Violet",
+    "number": "256",
+    "rarity": "Hyper Rare",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/sv1/256_hires.png"
+  },
+  {
+    "id": "sv1-257",
+    "name": "Basic Lightning Energy",
+    "setName": "Scarlet & Violet",
+    "number": "257",
+    "rarity": "Hyper Rare",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv1/257_hires.png"
+  },
+  {
+    "id": "sv1-258",
+    "name": "Basic Fighting Energy",
+    "setName": "Scarlet & Violet",
+    "number": "258",
+    "rarity": "Hyper Rare",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/sv1/258_hires.png"
+  }
+]

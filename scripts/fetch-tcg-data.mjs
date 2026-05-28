@@ -1,10 +1,43 @@
 // Downloads Pokemon TCG set + card metadata into local JSON snapshots so the
 // app can serve expansion data without hitting the slow/rate-limited live API.
 //
-// Usage:
-//   node scripts/fetch-tcg-data.mjs           # download, skipping sets already saved
-//   node scripts/fetch-tcg-data.mjs --force    # re-download every set
-//   POKEMON_TCG_API_KEY=xxx node scripts/fetch-tcg-data.mjs   # higher rate limits
+// =============================================================================
+// HOW TO UPDATE THE EXPANSION DATA IN THE FUTURE
+// =============================================================================
+// The app serves expansion packs and their cards from the snapshot files in
+// `data/` (data/expansions.json + data/cards/<setId>.json). The API routes read
+// these first and only fall back to the live pokemontcg.io API for sets that are
+// missing. So whenever a NEW set is released (roughly monthly) and you want it to
+// show up fast in the app, re-run this script to pull it into the snapshot.
+//
+// STEPS:
+//   1. (Recommended) Get a free API key from https://dev.pokemontcg.io/ — without
+//      one, requests are throttled and many sets time out.
+//   2. Run the downloader from the project root:
+//
+//        npm run fetch:tcg                              # incremental: only fetches
+//                                                       # sets not already in data/
+//
+//        POKEMON_TCG_API_KEY=your_key npm run fetch:tcg # faster + far fewer timeouts
+//
+//        npm run fetch:tcg -- --force                   # re-download EVERY set from
+//                                                       # scratch (use if data looks
+//                                                       # stale or corrupted)
+//
+//   3. If the run reports "Still missing N set(s)" at the end, that's just the
+//      flaky API timing out. Simply run the same command again — it skips what's
+//      already saved and retries only the missing ones. Using an API key (step 1)
+//      usually makes everything succeed on the first pass.
+//
+//   4. Commit the changed/new files under `data/` (and a `data/expansions.json`
+//      that now includes the new set). The new set will then load instantly.
+//
+// Notes:
+//   - Only card METADATA is stored (name, number, rarity, artist, image URL). The
+//     card IMAGES themselves still stream from their CDN at runtime — that part is
+//     already fast and is intentionally not downloaded.
+//   - This script needs no extra dependencies (plain Node + global fetch).
+// =============================================================================
 
 import { mkdir, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -27,7 +60,7 @@ async function fetchJson(url) {
   let lastError;
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     try {
-      const response = await fetch(url, { headers, signal: AbortSignal.timeout(30_000) });
+      const response = await fetch(url, { headers, signal: AbortSignal.timeout(60_000) });
       if (response.status === 429) {
         await sleep(2_000 * attempt);
         throw new Error("rate limited (429)");
@@ -93,6 +126,21 @@ async function existingCardSetIds() {
   }
 }
 
+const MAX_PASSES = 4;
+
+async function downloadSet(set) {
+  const rawCards = await fetchAllPages(
+    (page) =>
+      `${API_BASE}/cards?q=set.id:${set.id}&pageSize=${PAGE_SIZE}&page=${page}&select=${CARDS_SELECT}`,
+  );
+  const cards = rawCards
+    .map((card) => toCard(card, set.name))
+    .filter((card) => card.imageUrl)
+    .sort((a, b) => a.number.localeCompare(b.number, undefined, { numeric: true }));
+  await writeFile(path.join(cardsDir, `${set.id}.json`), `${JSON.stringify(cards, null, 2)}\n`);
+  return cards.length;
+}
+
 async function main() {
   await mkdir(cardsDir, { recursive: true });
 
@@ -105,30 +153,34 @@ async function main() {
   console.log(`Saved ${expansions.length} expansions.`);
 
   const alreadySaved = force ? new Set() : await existingCardSetIds();
-  let done = 0;
-  for (const set of rawSets) {
-    if (alreadySaved.has(set.id)) {
-      done += 1;
-      continue;
+  let pending = rawSets.filter((set) => !alreadySaved.has(set.id));
+  console.log(`${rawSets.length - pending.length} already saved, ${pending.length} to download.`);
+
+  for (let pass = 1; pass <= MAX_PASSES && pending.length > 0; pass += 1) {
+    if (pass > 1) {
+      console.log(`\nRetry pass ${pass} for ${pending.length} failed set(s)...`);
+      await sleep(3_000);
     }
-    try {
-      const rawCards = await fetchAllPages(
-        (page) =>
-          `${API_BASE}/cards?q=set.id:${set.id}&pageSize=${PAGE_SIZE}&page=${page}&select=${CARDS_SELECT}`,
-      );
-      const cards = rawCards
-        .map((card) => toCard(card, set.name))
-        .filter((card) => card.imageUrl)
-        .sort((a, b) => a.number.localeCompare(b.number, undefined, { numeric: true }));
-      await writeFile(path.join(cardsDir, `${set.id}.json`), `${JSON.stringify(cards, null, 2)}\n`);
-      done += 1;
-      console.log(`[${done}/${rawSets.length}] ${set.name} (${set.id}): ${cards.length} cards`);
-    } catch (error) {
-      console.error(`Failed ${set.name} (${set.id}): ${error?.message ?? error}`);
+    const stillPending = [];
+    for (const set of pending) {
+      try {
+        const count = await downloadSet(set);
+        console.log(`OK ${set.name} (${set.id}): ${count} cards`);
+      } catch (error) {
+        console.error(`Failed ${set.name} (${set.id}): ${error?.message ?? error}`);
+        stillPending.push(set);
+      }
     }
+    pending = stillPending;
   }
 
-  console.log("Done.");
+  if (pending.length > 0) {
+    console.log(`\nStill missing ${pending.length} set(s): ${pending.map((s) => s.id).join(", ")}`);
+    console.log("Re-run `npm run fetch:tcg` to retry just these.");
+    process.exitCode = 1;
+  } else {
+    console.log("\nDone. All sets saved.");
+  }
 }
 
 main().catch((error) => {

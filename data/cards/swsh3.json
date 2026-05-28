@@ -1,0 +1,1811 @@
+[
+  {
+    "id": "swsh3-1",
+    "name": "Butterfree V",
+    "setName": "Darkness Ablaze",
+    "number": "1",
+    "rarity": "Rare Holo V",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/1_hires.png"
+  },
+  {
+    "id": "swsh3-2",
+    "name": "Butterfree VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "2",
+    "rarity": "Rare Holo VMAX",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/2_hires.png"
+  },
+  {
+    "id": "swsh3-3",
+    "name": "Paras",
+    "setName": "Darkness Ablaze",
+    "number": "3",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/3_hires.png"
+  },
+  {
+    "id": "swsh3-4",
+    "name": "Parasect",
+    "setName": "Darkness Ablaze",
+    "number": "4",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/4_hires.png"
+  },
+  {
+    "id": "swsh3-5",
+    "name": "Carnivine",
+    "setName": "Darkness Ablaze",
+    "number": "5",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/5_hires.png"
+  },
+  {
+    "id": "swsh3-6",
+    "name": "Pansage",
+    "setName": "Darkness Ablaze",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/6_hires.png"
+  },
+  {
+    "id": "swsh3-7",
+    "name": "Simisage",
+    "setName": "Darkness Ablaze",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Hasegawa Saki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/7_hires.png"
+  },
+  {
+    "id": "swsh3-8",
+    "name": "Karrablast",
+    "setName": "Darkness Ablaze",
+    "number": "8",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/8_hires.png"
+  },
+  {
+    "id": "swsh3-9",
+    "name": "Shelmet",
+    "setName": "Darkness Ablaze",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/9_hires.png"
+  },
+  {
+    "id": "swsh3-10",
+    "name": "Accelgor",
+    "setName": "Darkness Ablaze",
+    "number": "10",
+    "rarity": "Rare",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/10_hires.png"
+  },
+  {
+    "id": "swsh3-11",
+    "name": "Rowlet",
+    "setName": "Darkness Ablaze",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/11_hires.png"
+  },
+  {
+    "id": "swsh3-12",
+    "name": "Dartrix",
+    "setName": "Darkness Ablaze",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/12_hires.png"
+  },
+  {
+    "id": "swsh3-13",
+    "name": "Decidueye",
+    "setName": "Darkness Ablaze",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/13_hires.png"
+  },
+  {
+    "id": "swsh3-14",
+    "name": "Bounsweet",
+    "setName": "Darkness Ablaze",
+    "number": "14",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/14_hires.png"
+  },
+  {
+    "id": "swsh3-15",
+    "name": "Steenee",
+    "setName": "Darkness Ablaze",
+    "number": "15",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/15_hires.png"
+  },
+  {
+    "id": "swsh3-16",
+    "name": "Tsareena",
+    "setName": "Darkness Ablaze",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "so-taro",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/16_hires.png"
+  },
+  {
+    "id": "swsh3-17",
+    "name": "Wimpod",
+    "setName": "Darkness Ablaze",
+    "number": "17",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/17_hires.png"
+  },
+  {
+    "id": "swsh3-18",
+    "name": "Golisopod",
+    "setName": "Darkness Ablaze",
+    "number": "18",
+    "rarity": "Rare Holo",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/18_hires.png"
+  },
+  {
+    "id": "swsh3-19",
+    "name": "Charizard V",
+    "setName": "Darkness Ablaze",
+    "number": "19",
+    "rarity": "Rare Holo V",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/19_hires.png"
+  },
+  {
+    "id": "swsh3-20",
+    "name": "Charizard VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "20",
+    "rarity": "Rare Holo VMAX",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/20_hires.png"
+  },
+  {
+    "id": "swsh3-21",
+    "name": "Houndoom V",
+    "setName": "Darkness Ablaze",
+    "number": "21",
+    "rarity": "Rare Holo V",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/21_hires.png"
+  },
+  {
+    "id": "swsh3-22",
+    "name": "Torchic",
+    "setName": "Darkness Ablaze",
+    "number": "22",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/22_hires.png"
+  },
+  {
+    "id": "swsh3-23",
+    "name": "Combusken",
+    "setName": "Darkness Ablaze",
+    "number": "23",
+    "rarity": "Uncommon",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/23_hires.png"
+  },
+  {
+    "id": "swsh3-24",
+    "name": "Blaziken",
+    "setName": "Darkness Ablaze",
+    "number": "24",
+    "rarity": "Rare Holo",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/24_hires.png"
+  },
+  {
+    "id": "swsh3-25",
+    "name": "Heatran",
+    "setName": "Darkness Ablaze",
+    "number": "25",
+    "rarity": "Rare Holo",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/25_hires.png"
+  },
+  {
+    "id": "swsh3-26",
+    "name": "Pansear",
+    "setName": "Darkness Ablaze",
+    "number": "26",
+    "rarity": "Common",
+    "artist": "Megumi Higuchi",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/26_hires.png"
+  },
+  {
+    "id": "swsh3-27",
+    "name": "Simisear",
+    "setName": "Darkness Ablaze",
+    "number": "27",
+    "rarity": "Uncommon",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/27_hires.png"
+  },
+  {
+    "id": "swsh3-28",
+    "name": "Galarian Darmanitan",
+    "setName": "Darkness Ablaze",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/28_hires.png"
+  },
+  {
+    "id": "swsh3-29",
+    "name": "Larvesta",
+    "setName": "Darkness Ablaze",
+    "number": "29",
+    "rarity": "Common",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/29_hires.png"
+  },
+  {
+    "id": "swsh3-30",
+    "name": "Volcarona",
+    "setName": "Darkness Ablaze",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/30_hires.png"
+  },
+  {
+    "id": "swsh3-31",
+    "name": "Fletchinder",
+    "setName": "Darkness Ablaze",
+    "number": "31",
+    "rarity": "Uncommon",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/31_hires.png"
+  },
+  {
+    "id": "swsh3-32",
+    "name": "Talonflame",
+    "setName": "Darkness Ablaze",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/32_hires.png"
+  },
+  {
+    "id": "swsh3-33",
+    "name": "Centiskorch V",
+    "setName": "Darkness Ablaze",
+    "number": "33",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/33_hires.png"
+  },
+  {
+    "id": "swsh3-34",
+    "name": "Centiskorch VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "34",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/34_hires.png"
+  },
+  {
+    "id": "swsh3-35",
+    "name": "Galarian Mr. Mime",
+    "setName": "Darkness Ablaze",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/35_hires.png"
+  },
+  {
+    "id": "swsh3-36",
+    "name": "Galarian Mr. Rime",
+    "setName": "Darkness Ablaze",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/36_hires.png"
+  },
+  {
+    "id": "swsh3-37",
+    "name": "Suicune",
+    "setName": "Darkness Ablaze",
+    "number": "37",
+    "rarity": "Rare Holo",
+    "artist": "so-taro",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/37_hires.png"
+  },
+  {
+    "id": "swsh3-38",
+    "name": "Feebas",
+    "setName": "Darkness Ablaze",
+    "number": "38",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/38_hires.png"
+  },
+  {
+    "id": "swsh3-39",
+    "name": "Milotic",
+    "setName": "Darkness Ablaze",
+    "number": "39",
+    "rarity": "Rare Holo",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/39_hires.png"
+  },
+  {
+    "id": "swsh3-40",
+    "name": "Relicanth",
+    "setName": "Darkness Ablaze",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/40_hires.png"
+  },
+  {
+    "id": "swsh3-41",
+    "name": "Panpour",
+    "setName": "Darkness Ablaze",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "ryoma uratsuka",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/41_hires.png"
+  },
+  {
+    "id": "swsh3-42",
+    "name": "Simipour",
+    "setName": "Darkness Ablaze",
+    "number": "42",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/42_hires.png"
+  },
+  {
+    "id": "swsh3-43",
+    "name": "Galarian Darumaka",
+    "setName": "Darkness Ablaze",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/43_hires.png"
+  },
+  {
+    "id": "swsh3-44",
+    "name": "Galarian Darmanitan",
+    "setName": "Darkness Ablaze",
+    "number": "44",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/44_hires.png"
+  },
+  {
+    "id": "swsh3-45",
+    "name": "Vanillite",
+    "setName": "Darkness Ablaze",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/45_hires.png"
+  },
+  {
+    "id": "swsh3-46",
+    "name": "Vanillish",
+    "setName": "Darkness Ablaze",
+    "number": "46",
+    "rarity": "Uncommon",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/46_hires.png"
+  },
+  {
+    "id": "swsh3-47",
+    "name": "Vanilluxe",
+    "setName": "Darkness Ablaze",
+    "number": "47",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/47_hires.png"
+  },
+  {
+    "id": "swsh3-48",
+    "name": "Cubchoo",
+    "setName": "Darkness Ablaze",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/48_hires.png"
+  },
+  {
+    "id": "swsh3-49",
+    "name": "Beartic",
+    "setName": "Darkness Ablaze",
+    "number": "49",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/49_hires.png"
+  },
+  {
+    "id": "swsh3-50",
+    "name": "Wishiwashi",
+    "setName": "Darkness Ablaze",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/50_hires.png"
+  },
+  {
+    "id": "swsh3-51",
+    "name": "Mareanie",
+    "setName": "Darkness Ablaze",
+    "number": "51",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/51_hires.png"
+  },
+  {
+    "id": "swsh3-52",
+    "name": "Toxapex",
+    "setName": "Darkness Ablaze",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/52_hires.png"
+  },
+  {
+    "id": "swsh3-53",
+    "name": "Dracovish",
+    "setName": "Darkness Ablaze",
+    "number": "53",
+    "rarity": "Rare Holo",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/53_hires.png"
+  },
+  {
+    "id": "swsh3-54",
+    "name": "Arctovish",
+    "setName": "Darkness Ablaze",
+    "number": "54",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/54_hires.png"
+  },
+  {
+    "id": "swsh3-55",
+    "name": "Mareep",
+    "setName": "Darkness Ablaze",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/55_hires.png"
+  },
+  {
+    "id": "swsh3-56",
+    "name": "Flaaffy",
+    "setName": "Darkness Ablaze",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/56_hires.png"
+  },
+  {
+    "id": "swsh3-57",
+    "name": "Ampharos",
+    "setName": "Darkness Ablaze",
+    "number": "57",
+    "rarity": "Rare",
+    "artist": "kodama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/57_hires.png"
+  },
+  {
+    "id": "swsh3-58",
+    "name": "Electrike",
+    "setName": "Darkness Ablaze",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Yumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/58_hires.png"
+  },
+  {
+    "id": "swsh3-59",
+    "name": "Manectric",
+    "setName": "Darkness Ablaze",
+    "number": "59",
+    "rarity": "Rare",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/59_hires.png"
+  },
+  {
+    "id": "swsh3-60",
+    "name": "Vikavolt V",
+    "setName": "Darkness Ablaze",
+    "number": "60",
+    "rarity": "Rare Holo V",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/60_hires.png"
+  },
+  {
+    "id": "swsh3-61",
+    "name": "Tapu Koko",
+    "setName": "Darkness Ablaze",
+    "number": "61",
+    "rarity": "Rare Holo",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/61_hires.png"
+  },
+  {
+    "id": "swsh3-62",
+    "name": "Toxel",
+    "setName": "Darkness Ablaze",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/62_hires.png"
+  },
+  {
+    "id": "swsh3-63",
+    "name": "Toxtricity",
+    "setName": "Darkness Ablaze",
+    "number": "63",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/63_hires.png"
+  },
+  {
+    "id": "swsh3-64",
+    "name": "Pincurchin",
+    "setName": "Darkness Ablaze",
+    "number": "64",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/64_hires.png"
+  },
+  {
+    "id": "swsh3-65",
+    "name": "Dracozolt",
+    "setName": "Darkness Ablaze",
+    "number": "65",
+    "rarity": "Rare",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/65_hires.png"
+  },
+  {
+    "id": "swsh3-66",
+    "name": "Arctozolt",
+    "setName": "Darkness Ablaze",
+    "number": "66",
+    "rarity": "Rare Holo",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/66_hires.png"
+  },
+  {
+    "id": "swsh3-67",
+    "name": "Jigglypuff",
+    "setName": "Darkness Ablaze",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Motofumi Fujiwara",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/67_hires.png"
+  },
+  {
+    "id": "swsh3-68",
+    "name": "Wigglytuff",
+    "setName": "Darkness Ablaze",
+    "number": "68",
+    "rarity": "Rare",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/68_hires.png"
+  },
+  {
+    "id": "swsh3-69",
+    "name": "Mew V",
+    "setName": "Darkness Ablaze",
+    "number": "69",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/69_hires.png"
+  },
+  {
+    "id": "swsh3-70",
+    "name": "Snubbull",
+    "setName": "Darkness Ablaze",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "otumami",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/70_hires.png"
+  },
+  {
+    "id": "swsh3-71",
+    "name": "Granbull",
+    "setName": "Darkness Ablaze",
+    "number": "71",
+    "rarity": "Rare",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/71_hires.png"
+  },
+  {
+    "id": "swsh3-72",
+    "name": "Lunatone",
+    "setName": "Darkness Ablaze",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/72_hires.png"
+  },
+  {
+    "id": "swsh3-73",
+    "name": "Gothita",
+    "setName": "Darkness Ablaze",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/73_hires.png"
+  },
+  {
+    "id": "swsh3-74",
+    "name": "Gothorita",
+    "setName": "Darkness Ablaze",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/74_hires.png"
+  },
+  {
+    "id": "swsh3-75",
+    "name": "Gothitelle",
+    "setName": "Darkness Ablaze",
+    "number": "75",
+    "rarity": "Rare",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/75_hires.png"
+  },
+  {
+    "id": "swsh3-76",
+    "name": "Golett",
+    "setName": "Darkness Ablaze",
+    "number": "76",
+    "rarity": "Common",
+    "artist": "Ryuta Fuse",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/76_hires.png"
+  },
+  {
+    "id": "swsh3-77",
+    "name": "Golurk",
+    "setName": "Darkness Ablaze",
+    "number": "77",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/77_hires.png"
+  },
+  {
+    "id": "swsh3-78",
+    "name": "Dedenne",
+    "setName": "Darkness Ablaze",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Shibuzoh.",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/78_hires.png"
+  },
+  {
+    "id": "swsh3-79",
+    "name": "Morelull",
+    "setName": "Darkness Ablaze",
+    "number": "79",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/79_hires.png"
+  },
+  {
+    "id": "swsh3-80",
+    "name": "Shiinotic",
+    "setName": "Darkness Ablaze",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/80_hires.png"
+  },
+  {
+    "id": "swsh3-81",
+    "name": "Mimikyu",
+    "setName": "Darkness Ablaze",
+    "number": "81",
+    "rarity": "Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/81_hires.png"
+  },
+  {
+    "id": "swsh3-82",
+    "name": "Sinistea",
+    "setName": "Darkness Ablaze",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/82_hires.png"
+  },
+  {
+    "id": "swsh3-83",
+    "name": "Polteageist",
+    "setName": "Darkness Ablaze",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/83_hires.png"
+  },
+  {
+    "id": "swsh3-84",
+    "name": "Diglett",
+    "setName": "Darkness Ablaze",
+    "number": "84",
+    "rarity": "Common",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/84_hires.png"
+  },
+  {
+    "id": "swsh3-85",
+    "name": "Dugtrio",
+    "setName": "Darkness Ablaze",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/85_hires.png"
+  },
+  {
+    "id": "swsh3-86",
+    "name": "Larvitar",
+    "setName": "Darkness Ablaze",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/86_hires.png"
+  },
+  {
+    "id": "swsh3-87",
+    "name": "Pupitar",
+    "setName": "Darkness Ablaze",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Sekio",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/87_hires.png"
+  },
+  {
+    "id": "swsh3-88",
+    "name": "Tyranitar",
+    "setName": "Darkness Ablaze",
+    "number": "88",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/88_hires.png"
+  },
+  {
+    "id": "swsh3-89",
+    "name": "Trapinch",
+    "setName": "Darkness Ablaze",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Asako Ito",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/89_hires.png"
+  },
+  {
+    "id": "swsh3-90",
+    "name": "Vibrava",
+    "setName": "Darkness Ablaze",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/90_hires.png"
+  },
+  {
+    "id": "swsh3-91",
+    "name": "Flygon",
+    "setName": "Darkness Ablaze",
+    "number": "91",
+    "rarity": "Rare",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/91_hires.png"
+  },
+  {
+    "id": "swsh3-92",
+    "name": "Solrock",
+    "setName": "Darkness Ablaze",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/92_hires.png"
+  },
+  {
+    "id": "swsh3-93",
+    "name": "Hippopotas",
+    "setName": "Darkness Ablaze",
+    "number": "93",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/93_hires.png"
+  },
+  {
+    "id": "swsh3-94",
+    "name": "Hippowdon",
+    "setName": "Darkness Ablaze",
+    "number": "94",
+    "rarity": "Rare",
+    "artist": "KEIICHIRO ITO",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/94_hires.png"
+  },
+  {
+    "id": "swsh3-95",
+    "name": "Rhyperior V",
+    "setName": "Darkness Ablaze",
+    "number": "95",
+    "rarity": "Rare Holo V",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/95_hires.png"
+  },
+  {
+    "id": "swsh3-96",
+    "name": "Diggersby",
+    "setName": "Darkness Ablaze",
+    "number": "96",
+    "rarity": "Rare",
+    "artist": "0313",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/96_hires.png"
+  },
+  {
+    "id": "swsh3-97",
+    "name": "Passimian",
+    "setName": "Darkness Ablaze",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "SATOSHI NAKAI",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/97_hires.png"
+  },
+  {
+    "id": "swsh3-98",
+    "name": "Galarian Sirfetch'd",
+    "setName": "Darkness Ablaze",
+    "number": "98",
+    "rarity": "Rare",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/98_hires.png"
+  },
+  {
+    "id": "swsh3-99",
+    "name": "Galarian Slowbro V",
+    "setName": "Darkness Ablaze",
+    "number": "99",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/99_hires.png"
+  },
+  {
+    "id": "swsh3-100",
+    "name": "Grimer",
+    "setName": "Darkness Ablaze",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/100_hires.png"
+  },
+  {
+    "id": "swsh3-101",
+    "name": "Muk",
+    "setName": "Darkness Ablaze",
+    "number": "101",
+    "rarity": "Rare",
+    "artist": "Eri Yamaki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/101_hires.png"
+  },
+  {
+    "id": "swsh3-102",
+    "name": "Spinarak",
+    "setName": "Darkness Ablaze",
+    "number": "102",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/102_hires.png"
+  },
+  {
+    "id": "swsh3-103",
+    "name": "Ariados",
+    "setName": "Darkness Ablaze",
+    "number": "103",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/103_hires.png"
+  },
+  {
+    "id": "swsh3-104",
+    "name": "Crobat V",
+    "setName": "Darkness Ablaze",
+    "number": "104",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/104_hires.png"
+  },
+  {
+    "id": "swsh3-105",
+    "name": "Darkrai",
+    "setName": "Darkness Ablaze",
+    "number": "105",
+    "rarity": "Rare Holo",
+    "artist": "nagimiso",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/105_hires.png"
+  },
+  {
+    "id": "swsh3-106",
+    "name": "Purrloin",
+    "setName": "Darkness Ablaze",
+    "number": "106",
+    "rarity": "Common",
+    "artist": "sowsow",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/106_hires.png"
+  },
+  {
+    "id": "swsh3-107",
+    "name": "Liepard",
+    "setName": "Darkness Ablaze",
+    "number": "107",
+    "rarity": "Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/107_hires.png"
+  },
+  {
+    "id": "swsh3-108",
+    "name": "Deino",
+    "setName": "Darkness Ablaze",
+    "number": "108",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/108_hires.png"
+  },
+  {
+    "id": "swsh3-109",
+    "name": "Zweilous",
+    "setName": "Darkness Ablaze",
+    "number": "109",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/109_hires.png"
+  },
+  {
+    "id": "swsh3-110",
+    "name": "Hydreigon",
+    "setName": "Darkness Ablaze",
+    "number": "110",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/110_hires.png"
+  },
+  {
+    "id": "swsh3-111",
+    "name": "Hoopa",
+    "setName": "Darkness Ablaze",
+    "number": "111",
+    "rarity": "Rare Holo",
+    "artist": "so-taro",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/111_hires.png"
+  },
+  {
+    "id": "swsh3-112",
+    "name": "Nickit",
+    "setName": "Darkness Ablaze",
+    "number": "112",
+    "rarity": "Common",
+    "artist": "Misa Tsutsui",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/112_hires.png"
+  },
+  {
+    "id": "swsh3-113",
+    "name": "Thievul",
+    "setName": "Darkness Ablaze",
+    "number": "113",
+    "rarity": "Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/113_hires.png"
+  },
+  {
+    "id": "swsh3-114",
+    "name": "Grimmsnarl V",
+    "setName": "Darkness Ablaze",
+    "number": "114",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/114_hires.png"
+  },
+  {
+    "id": "swsh3-115",
+    "name": "Grimmsnarl VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "115",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/115_hires.png"
+  },
+  {
+    "id": "swsh3-116",
+    "name": "Eternatus V",
+    "setName": "Darkness Ablaze",
+    "number": "116",
+    "rarity": "Rare Holo V",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/116_hires.png"
+  },
+  {
+    "id": "swsh3-117",
+    "name": "Eternatus VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "117",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/117_hires.png"
+  },
+  {
+    "id": "swsh3-118",
+    "name": "Scizor V",
+    "setName": "Darkness Ablaze",
+    "number": "118",
+    "rarity": "Rare Holo V",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/118_hires.png"
+  },
+  {
+    "id": "swsh3-119",
+    "name": "Scizor VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "119",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/119_hires.png"
+  },
+  {
+    "id": "swsh3-120",
+    "name": "Skarmory",
+    "setName": "Darkness Ablaze",
+    "number": "120",
+    "rarity": "Common",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/120_hires.png"
+  },
+  {
+    "id": "swsh3-121",
+    "name": "Aron",
+    "setName": "Darkness Ablaze",
+    "number": "121",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/121_hires.png"
+  },
+  {
+    "id": "swsh3-122",
+    "name": "Lairon",
+    "setName": "Darkness Ablaze",
+    "number": "122",
+    "rarity": "Uncommon",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/122_hires.png"
+  },
+  {
+    "id": "swsh3-123",
+    "name": "Aggron",
+    "setName": "Darkness Ablaze",
+    "number": "123",
+    "rarity": "Rare Holo",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/123_hires.png"
+  },
+  {
+    "id": "swsh3-124",
+    "name": "Escavalier",
+    "setName": "Darkness Ablaze",
+    "number": "124",
+    "rarity": "Rare",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/124_hires.png"
+  },
+  {
+    "id": "swsh3-125",
+    "name": "Klink",
+    "setName": "Darkness Ablaze",
+    "number": "125",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/125_hires.png"
+  },
+  {
+    "id": "swsh3-126",
+    "name": "Klang",
+    "setName": "Darkness Ablaze",
+    "number": "126",
+    "rarity": "Uncommon",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/126_hires.png"
+  },
+  {
+    "id": "swsh3-127",
+    "name": "Klinklang",
+    "setName": "Darkness Ablaze",
+    "number": "127",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/127_hires.png"
+  },
+  {
+    "id": "swsh3-128",
+    "name": "Galarian Stunfisk V",
+    "setName": "Darkness Ablaze",
+    "number": "128",
+    "rarity": "Rare Holo V",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/128_hires.png"
+  },
+  {
+    "id": "swsh3-129",
+    "name": "Meltan",
+    "setName": "Darkness Ablaze",
+    "number": "129",
+    "rarity": "Common",
+    "artist": "HYOGONOSUKE",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/129_hires.png"
+  },
+  {
+    "id": "swsh3-130",
+    "name": "Melmetal",
+    "setName": "Darkness Ablaze",
+    "number": "130",
+    "rarity": "Rare",
+    "artist": "NC Empire",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/130_hires.png"
+  },
+  {
+    "id": "swsh3-131",
+    "name": "Cufant",
+    "setName": "Darkness Ablaze",
+    "number": "131",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/131_hires.png"
+  },
+  {
+    "id": "swsh3-132",
+    "name": "Copperajah",
+    "setName": "Darkness Ablaze",
+    "number": "132",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/132_hires.png"
+  },
+  {
+    "id": "swsh3-133",
+    "name": "Kangaskhan",
+    "setName": "Darkness Ablaze",
+    "number": "133",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/133_hires.png"
+  },
+  {
+    "id": "swsh3-134",
+    "name": "Tauros",
+    "setName": "Darkness Ablaze",
+    "number": "134",
+    "rarity": "Common",
+    "artist": "Anesaki Dynamic",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/134_hires.png"
+  },
+  {
+    "id": "swsh3-135",
+    "name": "Sentret",
+    "setName": "Darkness Ablaze",
+    "number": "135",
+    "rarity": "Common",
+    "artist": "Mina Nakai",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/135_hires.png"
+  },
+  {
+    "id": "swsh3-136",
+    "name": "Furret",
+    "setName": "Darkness Ablaze",
+    "number": "136",
+    "rarity": "Uncommon",
+    "artist": "tetsuya koizumi",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/136_hires.png"
+  },
+  {
+    "id": "swsh3-137",
+    "name": "Dunsparce",
+    "setName": "Darkness Ablaze",
+    "number": "137",
+    "rarity": "Common",
+    "artist": "Kazuma Koda",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/137_hires.png"
+  },
+  {
+    "id": "swsh3-138",
+    "name": "Teddiursa",
+    "setName": "Darkness Ablaze",
+    "number": "138",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/138_hires.png"
+  },
+  {
+    "id": "swsh3-139",
+    "name": "Ursaring",
+    "setName": "Darkness Ablaze",
+    "number": "139",
+    "rarity": "Uncommon",
+    "artist": "Uta",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/139_hires.png"
+  },
+  {
+    "id": "swsh3-140",
+    "name": "Lugia",
+    "setName": "Darkness Ablaze",
+    "number": "140",
+    "rarity": "Rare",
+    "artist": "Hasuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/140_hires.png"
+  },
+  {
+    "id": "swsh3-141",
+    "name": "Skitty",
+    "setName": "Darkness Ablaze",
+    "number": "141",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/141_hires.png"
+  },
+  {
+    "id": "swsh3-142",
+    "name": "Delcatty",
+    "setName": "Darkness Ablaze",
+    "number": "142",
+    "rarity": "Rare",
+    "artist": "Tika Matsuno",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/142_hires.png"
+  },
+  {
+    "id": "swsh3-143",
+    "name": "Salamence V",
+    "setName": "Darkness Ablaze",
+    "number": "143",
+    "rarity": "Rare Holo V",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/143_hires.png"
+  },
+  {
+    "id": "swsh3-144",
+    "name": "Salamence VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "144",
+    "rarity": "Rare Holo VMAX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/144_hires.png"
+  },
+  {
+    "id": "swsh3-145",
+    "name": "Starly",
+    "setName": "Darkness Ablaze",
+    "number": "145",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/145_hires.png"
+  },
+  {
+    "id": "swsh3-146",
+    "name": "Staravia",
+    "setName": "Darkness Ablaze",
+    "number": "146",
+    "rarity": "Uncommon",
+    "artist": "chibi",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/146_hires.png"
+  },
+  {
+    "id": "swsh3-147",
+    "name": "Staraptor",
+    "setName": "Darkness Ablaze",
+    "number": "147",
+    "rarity": "Rare",
+    "artist": "AKIRA EGAWA",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/147_hires.png"
+  },
+  {
+    "id": "swsh3-148",
+    "name": "Ducklett",
+    "setName": "Darkness Ablaze",
+    "number": "148",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/148_hires.png"
+  },
+  {
+    "id": "swsh3-149",
+    "name": "Swanna",
+    "setName": "Darkness Ablaze",
+    "number": "149",
+    "rarity": "Rare",
+    "artist": "Taira Akitsu",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/149_hires.png"
+  },
+  {
+    "id": "swsh3-150",
+    "name": "Bunnelby",
+    "setName": "Darkness Ablaze",
+    "number": "150",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/150_hires.png"
+  },
+  {
+    "id": "swsh3-151",
+    "name": "Fletchling",
+    "setName": "Darkness Ablaze",
+    "number": "151",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/151_hires.png"
+  },
+  {
+    "id": "swsh3-152",
+    "name": "Skwovet",
+    "setName": "Darkness Ablaze",
+    "number": "152",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/152_hires.png"
+  },
+  {
+    "id": "swsh3-153",
+    "name": "Greedent",
+    "setName": "Darkness Ablaze",
+    "number": "153",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/153_hires.png"
+  },
+  {
+    "id": "swsh3-154",
+    "name": "Rookidee",
+    "setName": "Darkness Ablaze",
+    "number": "154",
+    "rarity": "Common",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/154_hires.png"
+  },
+  {
+    "id": "swsh3-155",
+    "name": "Corvisquire",
+    "setName": "Darkness Ablaze",
+    "number": "155",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/155_hires.png"
+  },
+  {
+    "id": "swsh3-156",
+    "name": "Corviknight",
+    "setName": "Darkness Ablaze",
+    "number": "156",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/156_hires.png"
+  },
+  {
+    "id": "swsh3-157",
+    "name": "Big Parasol",
+    "setName": "Darkness Ablaze",
+    "number": "157",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/157_hires.png"
+  },
+  {
+    "id": "swsh3-158",
+    "name": "Billowing Smoke",
+    "setName": "Darkness Ablaze",
+    "number": "158",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/158_hires.png"
+  },
+  {
+    "id": "swsh3-159",
+    "name": "Bird Keeper",
+    "setName": "Darkness Ablaze",
+    "number": "159",
+    "rarity": "Uncommon",
+    "artist": "Hideki Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/159_hires.png"
+  },
+  {
+    "id": "swsh3-160",
+    "name": "Cape of Toughness",
+    "setName": "Darkness Ablaze",
+    "number": "160",
+    "rarity": "Uncommon",
+    "artist": "inose yukie",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/160_hires.png"
+  },
+  {
+    "id": "swsh3-161",
+    "name": "Familiar Bell",
+    "setName": "Darkness Ablaze",
+    "number": "161",
+    "rarity": "Uncommon",
+    "artist": "sadaji",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/161_hires.png"
+  },
+  {
+    "id": "swsh3-162",
+    "name": "Glimwood Tangle",
+    "setName": "Darkness Ablaze",
+    "number": "162",
+    "rarity": "Uncommon",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/162_hires.png"
+  },
+  {
+    "id": "swsh3-163",
+    "name": "Kabu",
+    "setName": "Darkness Ablaze",
+    "number": "163",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/163_hires.png"
+  },
+  {
+    "id": "swsh3-164",
+    "name": "Old PC",
+    "setName": "Darkness Ablaze",
+    "number": "164",
+    "rarity": "Uncommon",
+    "artist": "Studio Bora Inc.",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/164_hires.png"
+  },
+  {
+    "id": "swsh3-165",
+    "name": "Piers",
+    "setName": "Darkness Ablaze",
+    "number": "165",
+    "rarity": "Uncommon",
+    "artist": "take",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/165_hires.png"
+  },
+  {
+    "id": "swsh3-166",
+    "name": "Pokémon Breeder's Nurturing",
+    "setName": "Darkness Ablaze",
+    "number": "166",
+    "rarity": "Uncommon",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/166_hires.png"
+  },
+  {
+    "id": "swsh3-167",
+    "name": "Rare Fossil",
+    "setName": "Darkness Ablaze",
+    "number": "167",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/167_hires.png"
+  },
+  {
+    "id": "swsh3-168",
+    "name": "Rose",
+    "setName": "Darkness Ablaze",
+    "number": "168",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ohmura",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/168_hires.png"
+  },
+  {
+    "id": "swsh3-169",
+    "name": "Rose Tower",
+    "setName": "Darkness Ablaze",
+    "number": "169",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/169_hires.png"
+  },
+  {
+    "id": "swsh3-170",
+    "name": "Spikemuth",
+    "setName": "Darkness Ablaze",
+    "number": "170",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/170_hires.png"
+  },
+  {
+    "id": "swsh3-171",
+    "name": "Struggle Gloves",
+    "setName": "Darkness Ablaze",
+    "number": "171",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/171_hires.png"
+  },
+  {
+    "id": "swsh3-172",
+    "name": "Turbo Patch",
+    "setName": "Darkness Ablaze",
+    "number": "172",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/172_hires.png"
+  },
+  {
+    "id": "swsh3-173",
+    "name": "Yell Horn",
+    "setName": "Darkness Ablaze",
+    "number": "173",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/173_hires.png"
+  },
+  {
+    "id": "swsh3-174",
+    "name": "Heat Fire Energy",
+    "setName": "Darkness Ablaze",
+    "number": "174",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh3/174_hires.png"
+  },
+  {
+    "id": "swsh3-175",
+    "name": "Hiding Darkness Energy",
+    "setName": "Darkness Ablaze",
+    "number": "175",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh3/175_hires.png"
+  },
+  {
+    "id": "swsh3-176",
+    "name": "Powerful Colorless Energy",
+    "setName": "Darkness Ablaze",
+    "number": "176",
+    "rarity": "Uncommon",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh3/176_hires.png"
+  },
+  {
+    "id": "swsh3-177",
+    "name": "Butterfree V",
+    "setName": "Darkness Ablaze",
+    "number": "177",
+    "rarity": "Rare Ultra",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/177_hires.png"
+  },
+  {
+    "id": "swsh3-178",
+    "name": "Houndoom V",
+    "setName": "Darkness Ablaze",
+    "number": "178",
+    "rarity": "Rare Ultra",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/178_hires.png"
+  },
+  {
+    "id": "swsh3-179",
+    "name": "Centiskorch V",
+    "setName": "Darkness Ablaze",
+    "number": "179",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/179_hires.png"
+  },
+  {
+    "id": "swsh3-180",
+    "name": "Vikavolt V",
+    "setName": "Darkness Ablaze",
+    "number": "180",
+    "rarity": "Rare Ultra",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/180_hires.png"
+  },
+  {
+    "id": "swsh3-181",
+    "name": "Rhyperior V",
+    "setName": "Darkness Ablaze",
+    "number": "181",
+    "rarity": "Rare Ultra",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/181_hires.png"
+  },
+  {
+    "id": "swsh3-182",
+    "name": "Crobat V",
+    "setName": "Darkness Ablaze",
+    "number": "182",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Mochizuki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/182_hires.png"
+  },
+  {
+    "id": "swsh3-183",
+    "name": "Scizor V",
+    "setName": "Darkness Ablaze",
+    "number": "183",
+    "rarity": "Rare Ultra",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/183_hires.png"
+  },
+  {
+    "id": "swsh3-184",
+    "name": "Galarian Stunfisk V",
+    "setName": "Darkness Ablaze",
+    "number": "184",
+    "rarity": "Rare Ultra",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/184_hires.png"
+  },
+  {
+    "id": "swsh3-185",
+    "name": "Salamence V",
+    "setName": "Darkness Ablaze",
+    "number": "185",
+    "rarity": "Rare Ultra",
+    "artist": "Saki Hayashiro",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/185_hires.png"
+  },
+  {
+    "id": "swsh3-186",
+    "name": "Kabu",
+    "setName": "Darkness Ablaze",
+    "number": "186",
+    "rarity": "Rare Ultra",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/186_hires.png"
+  },
+  {
+    "id": "swsh3-187",
+    "name": "Piers",
+    "setName": "Darkness Ablaze",
+    "number": "187",
+    "rarity": "Rare Ultra",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/187_hires.png"
+  },
+  {
+    "id": "swsh3-188",
+    "name": "Pokémon Breeder's Nurturing",
+    "setName": "Darkness Ablaze",
+    "number": "188",
+    "rarity": "Rare Ultra",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/188_hires.png"
+  },
+  {
+    "id": "swsh3-189",
+    "name": "Rose",
+    "setName": "Darkness Ablaze",
+    "number": "189",
+    "rarity": "Rare Ultra",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/189_hires.png"
+  },
+  {
+    "id": "swsh3-190",
+    "name": "Butterfree VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "190",
+    "rarity": "Rare Rainbow",
+    "artist": "aky CG Works",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/190_hires.png"
+  },
+  {
+    "id": "swsh3-191",
+    "name": "Centiskorch VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "191",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/191_hires.png"
+  },
+  {
+    "id": "swsh3-192",
+    "name": "Eternatus VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "192",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/192_hires.png"
+  },
+  {
+    "id": "swsh3-193",
+    "name": "Scizor VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "193",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/193_hires.png"
+  },
+  {
+    "id": "swsh3-194",
+    "name": "Salamence VMAX",
+    "setName": "Darkness Ablaze",
+    "number": "194",
+    "rarity": "Rare Rainbow",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/194_hires.png"
+  },
+  {
+    "id": "swsh3-195",
+    "name": "Pokémon Breeder's Nurturing",
+    "setName": "Darkness Ablaze",
+    "number": "195",
+    "rarity": "Rare Rainbow",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/195_hires.png"
+  },
+  {
+    "id": "swsh3-196",
+    "name": "Rose",
+    "setName": "Darkness Ablaze",
+    "number": "196",
+    "rarity": "Rare Rainbow",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/196_hires.png"
+  },
+  {
+    "id": "swsh3-197",
+    "name": "Rillaboom",
+    "setName": "Darkness Ablaze",
+    "number": "197",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/197_hires.png"
+  },
+  {
+    "id": "swsh3-198",
+    "name": "Coalossal",
+    "setName": "Darkness Ablaze",
+    "number": "198",
+    "rarity": "Rare Secret",
+    "artist": "PLANETA Tsuji",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/198_hires.png"
+  },
+  {
+    "id": "swsh3-199",
+    "name": "Big Parasol",
+    "setName": "Darkness Ablaze",
+    "number": "199",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/199_hires.png"
+  },
+  {
+    "id": "swsh3-200",
+    "name": "Turbo Patch",
+    "setName": "Darkness Ablaze",
+    "number": "200",
+    "rarity": "Rare Secret",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/swsh3/200_hires.png"
+  },
+  {
+    "id": "swsh3-201",
+    "name": "Capture Energy",
+    "setName": "Darkness Ablaze",
+    "number": "201",
+    "rarity": "Rare Secret",
+    "artist": null,
+    "imageUrl": "https://images.pokemontcg.io/swsh3/201_hires.png"
+  }
+]

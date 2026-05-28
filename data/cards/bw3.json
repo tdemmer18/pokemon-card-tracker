@@ -1,0 +1,920 @@
+[
+  {
+    "id": "bw3-1",
+    "name": "Sewaddle",
+    "setName": "Noble Victories",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw3/1_hires.png"
+  },
+  {
+    "id": "bw3-2",
+    "name": "Swadloon",
+    "setName": "Noble Victories",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw3/2_hires.png"
+  },
+  {
+    "id": "bw3-3",
+    "name": "Leavanny",
+    "setName": "Noble Victories",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/3_hires.png"
+  },
+  {
+    "id": "bw3-4",
+    "name": "Petilil",
+    "setName": "Noble Victories",
+    "number": "4",
+    "rarity": "Common",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/bw3/4_hires.png"
+  },
+  {
+    "id": "bw3-5",
+    "name": "Lilligant",
+    "setName": "Noble Victories",
+    "number": "5",
+    "rarity": "Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/bw3/5_hires.png"
+  },
+  {
+    "id": "bw3-6",
+    "name": "Dwebble",
+    "setName": "Noble Victories",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw3/6_hires.png"
+  },
+  {
+    "id": "bw3-7",
+    "name": "Crustle",
+    "setName": "Noble Victories",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/bw3/7_hires.png"
+  },
+  {
+    "id": "bw3-8",
+    "name": "Karrablast",
+    "setName": "Noble Victories",
+    "number": "8",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw3/8_hires.png"
+  },
+  {
+    "id": "bw3-9",
+    "name": "Foongus",
+    "setName": "Noble Victories",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw3/9_hires.png"
+  },
+  {
+    "id": "bw3-10",
+    "name": "Amoonguss",
+    "setName": "Noble Victories",
+    "number": "10",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/10_hires.png"
+  },
+  {
+    "id": "bw3-11",
+    "name": "Shelmet",
+    "setName": "Noble Victories",
+    "number": "11",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw3/11_hires.png"
+  },
+  {
+    "id": "bw3-12",
+    "name": "Accelgor",
+    "setName": "Noble Victories",
+    "number": "12",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/12_hires.png"
+  },
+  {
+    "id": "bw3-13",
+    "name": "Virizion",
+    "setName": "Noble Victories",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/13_hires.png"
+  },
+  {
+    "id": "bw3-14",
+    "name": "Victini",
+    "setName": "Noble Victories",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/14_hires.png"
+  },
+  {
+    "id": "bw3-15",
+    "name": "Victini",
+    "setName": "Noble Victories",
+    "number": "15",
+    "rarity": "Rare Holo",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw3/15_hires.png"
+  },
+  {
+    "id": "bw3-16",
+    "name": "Pansear",
+    "setName": "Noble Victories",
+    "number": "16",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw3/16_hires.png"
+  },
+  {
+    "id": "bw3-17",
+    "name": "Simisear",
+    "setName": "Noble Victories",
+    "number": "17",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw3/17_hires.png"
+  },
+  {
+    "id": "bw3-18",
+    "name": "Heatmor",
+    "setName": "Noble Victories",
+    "number": "18",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw3/18_hires.png"
+  },
+  {
+    "id": "bw3-19",
+    "name": "Larvesta",
+    "setName": "Noble Victories",
+    "number": "19",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/19_hires.png"
+  },
+  {
+    "id": "bw3-20",
+    "name": "Larvesta",
+    "setName": "Noble Victories",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw3/20_hires.png"
+  },
+  {
+    "id": "bw3-21",
+    "name": "Volcarona",
+    "setName": "Noble Victories",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw3/21_hires.png"
+  },
+  {
+    "id": "bw3-22",
+    "name": "Tympole",
+    "setName": "Noble Victories",
+    "number": "22",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw3/22_hires.png"
+  },
+  {
+    "id": "bw3-23",
+    "name": "Palpitoad",
+    "setName": "Noble Victories",
+    "number": "23",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw3/23_hires.png"
+  },
+  {
+    "id": "bw3-24",
+    "name": "Seismitoad",
+    "setName": "Noble Victories",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/24_hires.png"
+  },
+  {
+    "id": "bw3-25",
+    "name": "Tirtouga",
+    "setName": "Noble Victories",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/bw3/25_hires.png"
+  },
+  {
+    "id": "bw3-26",
+    "name": "Carracosta",
+    "setName": "Noble Victories",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw3/26_hires.png"
+  },
+  {
+    "id": "bw3-27",
+    "name": "Vanillite",
+    "setName": "Noble Victories",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw3/27_hires.png"
+  },
+  {
+    "id": "bw3-28",
+    "name": "Vanillish",
+    "setName": "Noble Victories",
+    "number": "28",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw3/28_hires.png"
+  },
+  {
+    "id": "bw3-29",
+    "name": "Vanilluxe",
+    "setName": "Noble Victories",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/29_hires.png"
+  },
+  {
+    "id": "bw3-30",
+    "name": "Frillish",
+    "setName": "Noble Victories",
+    "number": "30",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/bw3/30_hires.png"
+  },
+  {
+    "id": "bw3-31",
+    "name": "Jellicent",
+    "setName": "Noble Victories",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/31_hires.png"
+  },
+  {
+    "id": "bw3-32",
+    "name": "Cryogonal",
+    "setName": "Noble Victories",
+    "number": "32",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/32_hires.png"
+  },
+  {
+    "id": "bw3-33",
+    "name": "Cryogonal",
+    "setName": "Noble Victories",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/33_hires.png"
+  },
+  {
+    "id": "bw3-34",
+    "name": "Kyurem",
+    "setName": "Noble Victories",
+    "number": "34",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/34_hires.png"
+  },
+  {
+    "id": "bw3-35",
+    "name": "Blitzle",
+    "setName": "Noble Victories",
+    "number": "35",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw3/35_hires.png"
+  },
+  {
+    "id": "bw3-36",
+    "name": "Zebstrika",
+    "setName": "Noble Victories",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw3/36_hires.png"
+  },
+  {
+    "id": "bw3-37",
+    "name": "Emolga",
+    "setName": "Noble Victories",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw3/37_hires.png"
+  },
+  {
+    "id": "bw3-38",
+    "name": "Tynamo",
+    "setName": "Noble Victories",
+    "number": "38",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw3/38_hires.png"
+  },
+  {
+    "id": "bw3-39",
+    "name": "Tynamo",
+    "setName": "Noble Victories",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw3/39_hires.png"
+  },
+  {
+    "id": "bw3-40",
+    "name": "Eelektrik",
+    "setName": "Noble Victories",
+    "number": "40",
+    "rarity": "Uncommon",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw3/40_hires.png"
+  },
+  {
+    "id": "bw3-41",
+    "name": "Eelektross",
+    "setName": "Noble Victories",
+    "number": "41",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/41_hires.png"
+  },
+  {
+    "id": "bw3-42",
+    "name": "Stunfisk",
+    "setName": "Noble Victories",
+    "number": "42",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw3/42_hires.png"
+  },
+  {
+    "id": "bw3-43",
+    "name": "Victini",
+    "setName": "Noble Victories",
+    "number": "43",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw3/43_hires.png"
+  },
+  {
+    "id": "bw3-44",
+    "name": "Yamask",
+    "setName": "Noble Victories",
+    "number": "44",
+    "rarity": "Common",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw3/44_hires.png"
+  },
+  {
+    "id": "bw3-45",
+    "name": "Yamask",
+    "setName": "Noble Victories",
+    "number": "45",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw3/45_hires.png"
+  },
+  {
+    "id": "bw3-46",
+    "name": "Cofagrigus",
+    "setName": "Noble Victories",
+    "number": "46",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw3/46_hires.png"
+  },
+  {
+    "id": "bw3-47",
+    "name": "Cofagrigus",
+    "setName": "Noble Victories",
+    "number": "47",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/bw3/47_hires.png"
+  },
+  {
+    "id": "bw3-48",
+    "name": "Trubbish",
+    "setName": "Noble Victories",
+    "number": "48",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw3/48_hires.png"
+  },
+  {
+    "id": "bw3-49",
+    "name": "Garbodor",
+    "setName": "Noble Victories",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw3/49_hires.png"
+  },
+  {
+    "id": "bw3-50",
+    "name": "Solosis",
+    "setName": "Noble Victories",
+    "number": "50",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw3/50_hires.png"
+  },
+  {
+    "id": "bw3-51",
+    "name": "Duosion",
+    "setName": "Noble Victories",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw3/51_hires.png"
+  },
+  {
+    "id": "bw3-52",
+    "name": "Reuniclus",
+    "setName": "Noble Victories",
+    "number": "52",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/52_hires.png"
+  },
+  {
+    "id": "bw3-53",
+    "name": "Reuniclus",
+    "setName": "Noble Victories",
+    "number": "53",
+    "rarity": "Rare",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/bw3/53_hires.png"
+  },
+  {
+    "id": "bw3-54",
+    "name": "Elgyem",
+    "setName": "Noble Victories",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/bw3/54_hires.png"
+  },
+  {
+    "id": "bw3-55",
+    "name": "Elgyem",
+    "setName": "Noble Victories",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw3/55_hires.png"
+  },
+  {
+    "id": "bw3-56",
+    "name": "Beheeyem",
+    "setName": "Noble Victories",
+    "number": "56",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/56_hires.png"
+  },
+  {
+    "id": "bw3-57",
+    "name": "Litwick",
+    "setName": "Noble Victories",
+    "number": "57",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/57_hires.png"
+  },
+  {
+    "id": "bw3-58",
+    "name": "Litwick",
+    "setName": "Noble Victories",
+    "number": "58",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw3/58_hires.png"
+  },
+  {
+    "id": "bw3-59",
+    "name": "Lampent",
+    "setName": "Noble Victories",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/bw3/59_hires.png"
+  },
+  {
+    "id": "bw3-60",
+    "name": "Chandelure",
+    "setName": "Noble Victories",
+    "number": "60",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/bw3/60_hires.png"
+  },
+  {
+    "id": "bw3-61",
+    "name": "Gigalith",
+    "setName": "Noble Victories",
+    "number": "61",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw3/61_hires.png"
+  },
+  {
+    "id": "bw3-62",
+    "name": "Timburr",
+    "setName": "Noble Victories",
+    "number": "62",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/bw3/62_hires.png"
+  },
+  {
+    "id": "bw3-63",
+    "name": "Gurdurr",
+    "setName": "Noble Victories",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/bw3/63_hires.png"
+  },
+  {
+    "id": "bw3-64",
+    "name": "Conkeldurr",
+    "setName": "Noble Victories",
+    "number": "64",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/bw3/64_hires.png"
+  },
+  {
+    "id": "bw3-65",
+    "name": "Conkeldurr",
+    "setName": "Noble Victories",
+    "number": "65",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw3/65_hires.png"
+  },
+  {
+    "id": "bw3-66",
+    "name": "Archen",
+    "setName": "Noble Victories",
+    "number": "66",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/66_hires.png"
+  },
+  {
+    "id": "bw3-67",
+    "name": "Archeops",
+    "setName": "Noble Victories",
+    "number": "67",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw3/67_hires.png"
+  },
+  {
+    "id": "bw3-68",
+    "name": "Stunfisk",
+    "setName": "Noble Victories",
+    "number": "68",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/bw3/68_hires.png"
+  },
+  {
+    "id": "bw3-69",
+    "name": "Mienfoo",
+    "setName": "Noble Victories",
+    "number": "69",
+    "rarity": "Common",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/bw3/69_hires.png"
+  },
+  {
+    "id": "bw3-70",
+    "name": "Mienshao",
+    "setName": "Noble Victories",
+    "number": "70",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw3/70_hires.png"
+  },
+  {
+    "id": "bw3-71",
+    "name": "Golett",
+    "setName": "Noble Victories",
+    "number": "71",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/71_hires.png"
+  },
+  {
+    "id": "bw3-72",
+    "name": "Golurk",
+    "setName": "Noble Victories",
+    "number": "72",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw3/72_hires.png"
+  },
+  {
+    "id": "bw3-73",
+    "name": "Terrakion",
+    "setName": "Noble Victories",
+    "number": "73",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/73_hires.png"
+  },
+  {
+    "id": "bw3-74",
+    "name": "Landorus",
+    "setName": "Noble Victories",
+    "number": "74",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/74_hires.png"
+  },
+  {
+    "id": "bw3-75",
+    "name": "Pawniard",
+    "setName": "Noble Victories",
+    "number": "75",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw3/75_hires.png"
+  },
+  {
+    "id": "bw3-76",
+    "name": "Bisharp",
+    "setName": "Noble Victories",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw3/76_hires.png"
+  },
+  {
+    "id": "bw3-77",
+    "name": "Deino",
+    "setName": "Noble Victories",
+    "number": "77",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/bw3/77_hires.png"
+  },
+  {
+    "id": "bw3-78",
+    "name": "Zweilous",
+    "setName": "Noble Victories",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/78_hires.png"
+  },
+  {
+    "id": "bw3-79",
+    "name": "Hydreigon",
+    "setName": "Noble Victories",
+    "number": "79",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/79_hires.png"
+  },
+  {
+    "id": "bw3-80",
+    "name": "Escavalier",
+    "setName": "Noble Victories",
+    "number": "80",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw3/80_hires.png"
+  },
+  {
+    "id": "bw3-81",
+    "name": "Pawniard",
+    "setName": "Noble Victories",
+    "number": "81",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/bw3/81_hires.png"
+  },
+  {
+    "id": "bw3-82",
+    "name": "Bisharp",
+    "setName": "Noble Victories",
+    "number": "82",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/82_hires.png"
+  },
+  {
+    "id": "bw3-83",
+    "name": "Durant",
+    "setName": "Noble Victories",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/83_hires.png"
+  },
+  {
+    "id": "bw3-84",
+    "name": "Cobalion",
+    "setName": "Noble Victories",
+    "number": "84",
+    "rarity": "Rare Holo",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/84_hires.png"
+  },
+  {
+    "id": "bw3-85",
+    "name": "Audino",
+    "setName": "Noble Victories",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/bw3/85_hires.png"
+  },
+  {
+    "id": "bw3-86",
+    "name": "Axew",
+    "setName": "Noble Victories",
+    "number": "86",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/bw3/86_hires.png"
+  },
+  {
+    "id": "bw3-87",
+    "name": "Fraxure",
+    "setName": "Noble Victories",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/bw3/87_hires.png"
+  },
+  {
+    "id": "bw3-88",
+    "name": "Haxorus",
+    "setName": "Noble Victories",
+    "number": "88",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw3/88_hires.png"
+  },
+  {
+    "id": "bw3-89",
+    "name": "Druddigon",
+    "setName": "Noble Victories",
+    "number": "89",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/89_hires.png"
+  },
+  {
+    "id": "bw3-90",
+    "name": "Cover Fossil",
+    "setName": "Noble Victories",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/90_hires.png"
+  },
+  {
+    "id": "bw3-91",
+    "name": "Eviolite",
+    "setName": "Noble Victories",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/91_hires.png"
+  },
+  {
+    "id": "bw3-92",
+    "name": "N",
+    "setName": "Noble Victories",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/bw3/92_hires.png"
+  },
+  {
+    "id": "bw3-93",
+    "name": "Plume Fossil",
+    "setName": "Noble Victories",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/93_hires.png"
+  },
+  {
+    "id": "bw3-94",
+    "name": "Rocky Helmet",
+    "setName": "Noble Victories",
+    "number": "94",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/94_hires.png"
+  },
+  {
+    "id": "bw3-95",
+    "name": "Super Rod",
+    "setName": "Noble Victories",
+    "number": "95",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/95_hires.png"
+  },
+  {
+    "id": "bw3-96",
+    "name": "Xtransceiver",
+    "setName": "Noble Victories",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/bw3/96_hires.png"
+  },
+  {
+    "id": "bw3-97",
+    "name": "Virizion",
+    "setName": "Noble Victories",
+    "number": "97",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/97_hires.png"
+  },
+  {
+    "id": "bw3-98",
+    "name": "Victini",
+    "setName": "Noble Victories",
+    "number": "98",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/98_hires.png"
+  },
+  {
+    "id": "bw3-99",
+    "name": "Terrakion",
+    "setName": "Noble Victories",
+    "number": "99",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/99_hires.png"
+  },
+  {
+    "id": "bw3-100",
+    "name": "Cobalion",
+    "setName": "Noble Victories",
+    "number": "100",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/bw3/100_hires.png"
+  },
+  {
+    "id": "bw3-101",
+    "name": "N",
+    "setName": "Noble Victories",
+    "number": "101",
+    "rarity": "Rare Ultra",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/bw3/101_hires.png"
+  },
+  {
+    "id": "bw3-102",
+    "name": "Meowth",
+    "setName": "Noble Victories",
+    "number": "102",
+    "rarity": "Rare Secret",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/bw3/102_hires.png"
+  }
+]

@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "xy6-1",
+    "name": "Exeggcute",
+    "setName": "Roaring Skies",
+    "number": "1",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/xy6/1_hires.png"
+  },
+  {
+    "id": "xy6-2",
+    "name": "Exeggutor",
+    "setName": "Roaring Skies",
+    "number": "2",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/xy6/2_hires.png"
+  },
+  {
+    "id": "xy6-3",
+    "name": "Wurmple",
+    "setName": "Roaring Skies",
+    "number": "3",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/xy6/3_hires.png"
+  },
+  {
+    "id": "xy6-4",
+    "name": "Silcoon",
+    "setName": "Roaring Skies",
+    "number": "4",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/xy6/4_hires.png"
+  },
+  {
+    "id": "xy6-5",
+    "name": "Beautifly",
+    "setName": "Roaring Skies",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/xy6/5_hires.png"
+  },
+  {
+    "id": "xy6-6",
+    "name": "Cascoon",
+    "setName": "Roaring Skies",
+    "number": "6",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/xy6/6_hires.png"
+  },
+  {
+    "id": "xy6-7",
+    "name": "Dustox",
+    "setName": "Roaring Skies",
+    "number": "7",
+    "rarity": "Uncommon",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/xy6/7_hires.png"
+  },
+  {
+    "id": "xy6-8",
+    "name": "Dustox",
+    "setName": "Roaring Skies",
+    "number": "8",
+    "rarity": "Rare",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/xy6/8_hires.png"
+  },
+  {
+    "id": "xy6-9",
+    "name": "Nincada",
+    "setName": "Roaring Skies",
+    "number": "9",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/xy6/9_hires.png"
+  },
+  {
+    "id": "xy6-10",
+    "name": "Ninjask",
+    "setName": "Roaring Skies",
+    "number": "10",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/xy6/10_hires.png"
+  },
+  {
+    "id": "xy6-11",
+    "name": "Shedinja",
+    "setName": "Roaring Skies",
+    "number": "11",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/xy6/11_hires.png"
+  },
+  {
+    "id": "xy6-12",
+    "name": "Tropius",
+    "setName": "Roaring Skies",
+    "number": "12",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/xy6/12_hires.png"
+  },
+  {
+    "id": "xy6-13",
+    "name": "Victini",
+    "setName": "Roaring Skies",
+    "number": "13",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/xy6/13_hires.png"
+  },
+  {
+    "id": "xy6-14",
+    "name": "Fletchinder",
+    "setName": "Roaring Skies",
+    "number": "14",
+    "rarity": "Uncommon",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/xy6/14_hires.png"
+  },
+  {
+    "id": "xy6-15",
+    "name": "Talonflame",
+    "setName": "Roaring Skies",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/xy6/15_hires.png"
+  },
+  {
+    "id": "xy6-16",
+    "name": "Articuno",
+    "setName": "Roaring Skies",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy6/16_hires.png"
+  },
+  {
+    "id": "xy6-17",
+    "name": "Articuno",
+    "setName": "Roaring Skies",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/17_hires.png"
+  },
+  {
+    "id": "xy6-18",
+    "name": "Wingull",
+    "setName": "Roaring Skies",
+    "number": "18",
+    "rarity": "Common",
+    "artist": "MAHOU",
+    "imageUrl": "https://images.pokemontcg.io/xy6/18_hires.png"
+  },
+  {
+    "id": "xy6-19",
+    "name": "Pelipper",
+    "setName": "Roaring Skies",
+    "number": "19",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/xy6/19_hires.png"
+  },
+  {
+    "id": "xy6-20",
+    "name": "Pikachu",
+    "setName": "Roaring Skies",
+    "number": "20",
+    "rarity": "Common",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy6/20_hires.png"
+  },
+  {
+    "id": "xy6-21",
+    "name": "Voltorb",
+    "setName": "Roaring Skies",
+    "number": "21",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/xy6/21_hires.png"
+  },
+  {
+    "id": "xy6-22",
+    "name": "Electrode",
+    "setName": "Roaring Skies",
+    "number": "22",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/xy6/22_hires.png"
+  },
+  {
+    "id": "xy6-23",
+    "name": "Zapdos",
+    "setName": "Roaring Skies",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/xy6/23_hires.png"
+  },
+  {
+    "id": "xy6-24",
+    "name": "Electrike",
+    "setName": "Roaring Skies",
+    "number": "24",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/xy6/24_hires.png"
+  },
+  {
+    "id": "xy6-25",
+    "name": "Manectric",
+    "setName": "Roaring Skies",
+    "number": "25",
+    "rarity": "Uncommon",
+    "artist": "match",
+    "imageUrl": "https://images.pokemontcg.io/xy6/25_hires.png"
+  },
+  {
+    "id": "xy6-26",
+    "name": "Thundurus-EX",
+    "setName": "Roaring Skies",
+    "number": "26",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy6/26_hires.png"
+  },
+  {
+    "id": "xy6-27",
+    "name": "Natu",
+    "setName": "Roaring Skies",
+    "number": "27",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/xy6/27_hires.png"
+  },
+  {
+    "id": "xy6-28",
+    "name": "Natu",
+    "setName": "Roaring Skies",
+    "number": "28",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy6/28_hires.png"
+  },
+  {
+    "id": "xy6-29",
+    "name": "Xatu",
+    "setName": "Roaring Skies",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/xy6/29_hires.png"
+  },
+  {
+    "id": "xy6-30",
+    "name": "Shuppet",
+    "setName": "Roaring Skies",
+    "number": "30",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/xy6/30_hires.png"
+  },
+  {
+    "id": "xy6-31",
+    "name": "Banette",
+    "setName": "Roaring Skies",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "Aya Kusube",
+    "imageUrl": "https://images.pokemontcg.io/xy6/31_hires.png"
+  },
+  {
+    "id": "xy6-32",
+    "name": "Banette",
+    "setName": "Roaring Skies",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/xy6/32_hires.png"
+  },
+  {
+    "id": "xy6-33",
+    "name": "Deoxys",
+    "setName": "Roaring Skies",
+    "number": "33",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy6/33_hires.png"
+  },
+  {
+    "id": "xy6-34",
+    "name": "Gallade-EX",
+    "setName": "Roaring Skies",
+    "number": "34",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy6/34_hires.png"
+  },
+  {
+    "id": "xy6-35",
+    "name": "M Gallade-EX",
+    "setName": "Roaring Skies",
+    "number": "35",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/35_hires.png"
+  },
+  {
+    "id": "xy6-36",
+    "name": "Gligar",
+    "setName": "Roaring Skies",
+    "number": "36",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/xy6/36_hires.png"
+  },
+  {
+    "id": "xy6-37",
+    "name": "Gliscor",
+    "setName": "Roaring Skies",
+    "number": "37",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/xy6/37_hires.png"
+  },
+  {
+    "id": "xy6-38",
+    "name": "Binacle",
+    "setName": "Roaring Skies",
+    "number": "38",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy6/38_hires.png"
+  },
+  {
+    "id": "xy6-39",
+    "name": "Hawlucha",
+    "setName": "Roaring Skies",
+    "number": "39",
+    "rarity": "Common",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/xy6/39_hires.png"
+  },
+  {
+    "id": "xy6-40",
+    "name": "Absol",
+    "setName": "Roaring Skies",
+    "number": "40",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy6/40_hires.png"
+  },
+  {
+    "id": "xy6-41",
+    "name": "Inkay",
+    "setName": "Roaring Skies",
+    "number": "41",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/xy6/41_hires.png"
+  },
+  {
+    "id": "xy6-42",
+    "name": "Jirachi",
+    "setName": "Roaring Skies",
+    "number": "42",
+    "rarity": "Rare Holo",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/xy6/42_hires.png"
+  },
+  {
+    "id": "xy6-43",
+    "name": "Togepi",
+    "setName": "Roaring Skies",
+    "number": "43",
+    "rarity": "Common",
+    "artist": "HiRON",
+    "imageUrl": "https://images.pokemontcg.io/xy6/43_hires.png"
+  },
+  {
+    "id": "xy6-44",
+    "name": "Togetic",
+    "setName": "Roaring Skies",
+    "number": "44",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy6/44_hires.png"
+  },
+  {
+    "id": "xy6-45",
+    "name": "Togekiss",
+    "setName": "Roaring Skies",
+    "number": "45",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/xy6/45_hires.png"
+  },
+  {
+    "id": "xy6-46",
+    "name": "Togekiss",
+    "setName": "Roaring Skies",
+    "number": "46",
+    "rarity": "Rare Holo",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy6/46_hires.png"
+  },
+  {
+    "id": "xy6-47",
+    "name": "Carbink",
+    "setName": "Roaring Skies",
+    "number": "47",
+    "rarity": "Rare",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/xy6/47_hires.png"
+  },
+  {
+    "id": "xy6-48",
+    "name": "Klefki",
+    "setName": "Roaring Skies",
+    "number": "48",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy6/48_hires.png"
+  },
+  {
+    "id": "xy6-49",
+    "name": "Dratini",
+    "setName": "Roaring Skies",
+    "number": "49",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/xy6/49_hires.png"
+  },
+  {
+    "id": "xy6-50",
+    "name": "Dragonair",
+    "setName": "Roaring Skies",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/xy6/50_hires.png"
+  },
+  {
+    "id": "xy6-51",
+    "name": "Dragonite",
+    "setName": "Roaring Skies",
+    "number": "51",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy6/51_hires.png"
+  },
+  {
+    "id": "xy6-52",
+    "name": "Dragonite",
+    "setName": "Roaring Skies",
+    "number": "52",
+    "rarity": "Rare Holo",
+    "artist": "hatachu",
+    "imageUrl": "https://images.pokemontcg.io/xy6/52_hires.png"
+  },
+  {
+    "id": "xy6-53",
+    "name": "Altaria",
+    "setName": "Roaring Skies",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/xy6/53_hires.png"
+  },
+  {
+    "id": "xy6-54",
+    "name": "Bagon",
+    "setName": "Roaring Skies",
+    "number": "54",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/xy6/54_hires.png"
+  },
+  {
+    "id": "xy6-55",
+    "name": "Bagon",
+    "setName": "Roaring Skies",
+    "number": "55",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/xy6/55_hires.png"
+  },
+  {
+    "id": "xy6-56",
+    "name": "Shelgon",
+    "setName": "Roaring Skies",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/xy6/56_hires.png"
+  },
+  {
+    "id": "xy6-57",
+    "name": "Salamence",
+    "setName": "Roaring Skies",
+    "number": "57",
+    "rarity": "Rare Holo",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/xy6/57_hires.png"
+  },
+  {
+    "id": "xy6-58",
+    "name": "Latios-EX",
+    "setName": "Roaring Skies",
+    "number": "58",
+    "rarity": "Rare Holo EX",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/xy6/58_hires.png"
+  },
+  {
+    "id": "xy6-59",
+    "name": "M Latios-EX",
+    "setName": "Roaring Skies",
+    "number": "59",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/59_hires.png"
+  },
+  {
+    "id": "xy6-60",
+    "name": "Rayquaza-EX",
+    "setName": "Roaring Skies",
+    "number": "60",
+    "rarity": "Rare Holo EX",
+    "artist": "PLANETA",
+    "imageUrl": "https://images.pokemontcg.io/xy6/60_hires.png"
+  },
+  {
+    "id": "xy6-61",
+    "name": "M Rayquaza-EX",
+    "setName": "Roaring Skies",
+    "number": "61",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/61_hires.png"
+  },
+  {
+    "id": "xy6-62",
+    "name": "Hydreigon-EX",
+    "setName": "Roaring Skies",
+    "number": "62",
+    "rarity": "Rare Holo EX",
+    "artist": "Eske Yoshinob",
+    "imageUrl": "https://images.pokemontcg.io/xy6/62_hires.png"
+  },
+  {
+    "id": "xy6-63",
+    "name": "Reshiram",
+    "setName": "Roaring Skies",
+    "number": "63",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/xy6/63_hires.png"
+  },
+  {
+    "id": "xy6-64",
+    "name": "Zekrom",
+    "setName": "Roaring Skies",
+    "number": "64",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/xy6/64_hires.png"
+  },
+  {
+    "id": "xy6-65",
+    "name": "Spearow",
+    "setName": "Roaring Skies",
+    "number": "65",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/xy6/65_hires.png"
+  },
+  {
+    "id": "xy6-66",
+    "name": "Fearow",
+    "setName": "Roaring Skies",
+    "number": "66",
+    "rarity": "Uncommon",
+    "artist": "Satoshi Shirai",
+    "imageUrl": "https://images.pokemontcg.io/xy6/66_hires.png"
+  },
+  {
+    "id": "xy6-67",
+    "name": "Meowth",
+    "setName": "Roaring Skies",
+    "number": "67",
+    "rarity": "Common",
+    "artist": "Akira Komayama",
+    "imageUrl": "https://images.pokemontcg.io/xy6/67_hires.png"
+  },
+  {
+    "id": "xy6-68",
+    "name": "Dunsparce",
+    "setName": "Roaring Skies",
+    "number": "68",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/xy6/68_hires.png"
+  },
+  {
+    "id": "xy6-69",
+    "name": "Skarmory",
+    "setName": "Roaring Skies",
+    "number": "69",
+    "rarity": "Rare",
+    "artist": "Hitoshi Ariga",
+    "imageUrl": "https://images.pokemontcg.io/xy6/69_hires.png"
+  },
+  {
+    "id": "xy6-70",
+    "name": "Taillow",
+    "setName": "Roaring Skies",
+    "number": "70",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/xy6/70_hires.png"
+  },
+  {
+    "id": "xy6-71",
+    "name": "Swellow",
+    "setName": "Roaring Skies",
+    "number": "71",
+    "rarity": "Rare",
+    "artist": "Sanosuke Sakuma",
+    "imageUrl": "https://images.pokemontcg.io/xy6/71_hires.png"
+  },
+  {
+    "id": "xy6-72",
+    "name": "Swellow",
+    "setName": "Roaring Skies",
+    "number": "72",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/xy6/72_hires.png"
+  },
+  {
+    "id": "xy6-73",
+    "name": "Swablu",
+    "setName": "Roaring Skies",
+    "number": "73",
+    "rarity": "Common",
+    "artist": "Mizue",
+    "imageUrl": "https://images.pokemontcg.io/xy6/73_hires.png"
+  },
+  {
+    "id": "xy6-74",
+    "name": "Altaria",
+    "setName": "Roaring Skies",
+    "number": "74",
+    "rarity": "Rare",
+    "artist": "Naoki Saito",
+    "imageUrl": "https://images.pokemontcg.io/xy6/74_hires.png"
+  },
+  {
+    "id": "xy6-75",
+    "name": "Rayquaza-EX",
+    "setName": "Roaring Skies",
+    "number": "75",
+    "rarity": "Rare Holo EX",
+    "artist": "Ryota Murayama",
+    "imageUrl": "https://images.pokemontcg.io/xy6/75_hires.png"
+  },
+  {
+    "id": "xy6-76",
+    "name": "M Rayquaza-EX",
+    "setName": "Roaring Skies",
+    "number": "76",
+    "rarity": "Rare Holo EX",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/76_hires.png"
+  },
+  {
+    "id": "xy6-77",
+    "name": "Shaymin-EX",
+    "setName": "Roaring Skies",
+    "number": "77",
+    "rarity": "Rare Holo EX",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/xy6/77_hires.png"
+  },
+  {
+    "id": "xy6-77a",
+    "name": "Shaymin-EX",
+    "setName": "Roaring Skies",
+    "number": "77a",
+    "rarity": "Rare Ultra",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/xy6/77a_hires.png"
+  },
+  {
+    "id": "xy6-78",
+    "name": "Pidove",
+    "setName": "Roaring Skies",
+    "number": "78",
+    "rarity": "Common",
+    "artist": "kirisAki",
+    "imageUrl": "https://images.pokemontcg.io/xy6/78_hires.png"
+  },
+  {
+    "id": "xy6-79",
+    "name": "Tranquill",
+    "setName": "Roaring Skies",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "sui",
+    "imageUrl": "https://images.pokemontcg.io/xy6/79_hires.png"
+  },
+  {
+    "id": "xy6-80",
+    "name": "Unfezant",
+    "setName": "Roaring Skies",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Shigenori Negishi",
+    "imageUrl": "https://images.pokemontcg.io/xy6/80_hires.png"
+  },
+  {
+    "id": "xy6-81",
+    "name": "Unfezant",
+    "setName": "Roaring Skies",
+    "number": "81",
+    "rarity": "Rare",
+    "artist": "TOKIYA",
+    "imageUrl": "https://images.pokemontcg.io/xy6/81_hires.png"
+  },
+  {
+    "id": "xy6-82",
+    "name": "Fletchling",
+    "setName": "Roaring Skies",
+    "number": "82",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/xy6/82_hires.png"
+  },
+  {
+    "id": "xy6-83",
+    "name": "Gallade Spirit Link",
+    "setName": "Roaring Skies",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/83_hires.png"
+  },
+  {
+    "id": "xy6-84",
+    "name": "Healing Scarf",
+    "setName": "Roaring Skies",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy6/84_hires.png"
+  },
+  {
+    "id": "xy6-85",
+    "name": "Latios Spirit Link",
+    "setName": "Roaring Skies",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/85_hires.png"
+  },
+  {
+    "id": "xy6-86",
+    "name": "Mega Turbo",
+    "setName": "Roaring Skies",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy6/86_hires.png"
+  },
+  {
+    "id": "xy6-87",
+    "name": "Rayquaza Spirit Link",
+    "setName": "Roaring Skies",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/87_hires.png"
+  },
+  {
+    "id": "xy6-88",
+    "name": "Revive",
+    "setName": "Roaring Skies",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy6/88_hires.png"
+  },
+  {
+    "id": "xy6-89",
+    "name": "Sky Field",
+    "setName": "Roaring Skies",
+    "number": "89",
+    "rarity": "Uncommon",
+    "artist": "Ayaka Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/xy6/89_hires.png"
+  },
+  {
+    "id": "xy6-90",
+    "name": "Steven",
+    "setName": "Roaring Skies",
+    "number": "90",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/xy6/90_hires.png"
+  },
+  {
+    "id": "xy6-91",
+    "name": "Switch",
+    "setName": "Roaring Skies",
+    "number": "91",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/91_hires.png"
+  },
+  {
+    "id": "xy6-92",
+    "name": "Trainers' Mail",
+    "setName": "Roaring Skies",
+    "number": "92",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy6/92_hires.png"
+  },
+  {
+    "id": "xy6-92a",
+    "name": "Trainers' Mail",
+    "setName": "Roaring Skies",
+    "number": "92a",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy6/92a_hires.png"
+  },
+  {
+    "id": "xy6-93",
+    "name": "Ultra Ball",
+    "setName": "Roaring Skies",
+    "number": "93",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/93_hires.png"
+  },
+  {
+    "id": "xy6-94",
+    "name": "Wally",
+    "setName": "Roaring Skies",
+    "number": "94",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/xy6/94_hires.png"
+  },
+  {
+    "id": "xy6-95",
+    "name": "Wide Lens",
+    "setName": "Roaring Skies",
+    "number": "95",
+    "rarity": "Uncommon",
+    "artist": "Toyste Beach",
+    "imageUrl": "https://images.pokemontcg.io/xy6/95_hires.png"
+  },
+  {
+    "id": "xy6-96",
+    "name": "Winona",
+    "setName": "Roaring Skies",
+    "number": "96",
+    "rarity": "Uncommon",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/xy6/96_hires.png"
+  },
+  {
+    "id": "xy6-97",
+    "name": "Double Dragon Energy",
+    "setName": "Roaring Skies",
+    "number": "97",
+    "rarity": "Uncommon",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/97_hires.png"
+  },
+  {
+    "id": "xy6-98",
+    "name": "Thundurus-EX",
+    "setName": "Roaring Skies",
+    "number": "98",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy6/98_hires.png"
+  },
+  {
+    "id": "xy6-99",
+    "name": "Gallade-EX",
+    "setName": "Roaring Skies",
+    "number": "99",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy6/99_hires.png"
+  },
+  {
+    "id": "xy6-100",
+    "name": "M Gallade-EX",
+    "setName": "Roaring Skies",
+    "number": "100",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/100_hires.png"
+  },
+  {
+    "id": "xy6-101",
+    "name": "Latios-EX",
+    "setName": "Roaring Skies",
+    "number": "101",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy6/101_hires.png"
+  },
+  {
+    "id": "xy6-102",
+    "name": "M Latios-EX",
+    "setName": "Roaring Skies",
+    "number": "102",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/102_hires.png"
+  },
+  {
+    "id": "xy6-103",
+    "name": "Hydreigon-EX",
+    "setName": "Roaring Skies",
+    "number": "103",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy6/103_hires.png"
+  },
+  {
+    "id": "xy6-104",
+    "name": "Rayquaza-EX",
+    "setName": "Roaring Skies",
+    "number": "104",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy6/104_hires.png"
+  },
+  {
+    "id": "xy6-105",
+    "name": "M Rayquaza-EX",
+    "setName": "Roaring Skies",
+    "number": "105",
+    "rarity": "Rare Ultra",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/105_hires.png"
+  },
+  {
+    "id": "xy6-106",
+    "name": "Shaymin-EX",
+    "setName": "Roaring Skies",
+    "number": "106",
+    "rarity": "Rare Ultra",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/xy6/106_hires.png"
+  },
+  {
+    "id": "xy6-107",
+    "name": "Wally",
+    "setName": "Roaring Skies",
+    "number": "107",
+    "rarity": "Rare Ultra",
+    "artist": "Emi Ando",
+    "imageUrl": "https://images.pokemontcg.io/xy6/107_hires.png"
+  },
+  {
+    "id": "xy6-108",
+    "name": "Winona",
+    "setName": "Roaring Skies",
+    "number": "108",
+    "rarity": "Rare Ultra",
+    "artist": "Megumi Mizutani",
+    "imageUrl": "https://images.pokemontcg.io/xy6/108_hires.png"
+  },
+  {
+    "id": "xy6-109",
+    "name": "Energy Switch",
+    "setName": "Roaring Skies",
+    "number": "109",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/109_hires.png"
+  },
+  {
+    "id": "xy6-110",
+    "name": "VS Seeker",
+    "setName": "Roaring Skies",
+    "number": "110",
+    "rarity": "Rare Secret",
+    "artist": "5ban Graphics",
+    "imageUrl": "https://images.pokemontcg.io/xy6/110_hires.png"
+  }
+]

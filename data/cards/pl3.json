@@ -1,0 +1,1379 @@
+[
+  {
+    "id": "pl3-1",
+    "name": "Absol G",
+    "setName": "Supreme Victors",
+    "number": "1",
+    "rarity": "Rare Holo",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl3/1_hires.png"
+  },
+  {
+    "id": "pl3-2",
+    "name": "Blaziken FB",
+    "setName": "Supreme Victors",
+    "number": "2",
+    "rarity": "Rare Holo",
+    "artist": "Motofumi Fujiwara",
+    "imageUrl": "https://images.pokemontcg.io/pl3/2_hires.png"
+  },
+  {
+    "id": "pl3-3",
+    "name": "Drifblim FB",
+    "setName": "Supreme Victors",
+    "number": "3",
+    "rarity": "Rare Holo",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/pl3/3_hires.png"
+  },
+  {
+    "id": "pl3-4",
+    "name": "Electivire FB",
+    "setName": "Supreme Victors",
+    "number": "4",
+    "rarity": "Rare Holo",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/4_hires.png"
+  },
+  {
+    "id": "pl3-5",
+    "name": "Garchomp",
+    "setName": "Supreme Victors",
+    "number": "5",
+    "rarity": "Rare Holo",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/5_hires.png"
+  },
+  {
+    "id": "pl3-6",
+    "name": "Magmortar",
+    "setName": "Supreme Victors",
+    "number": "6",
+    "rarity": "Rare Holo",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl3/6_hires.png"
+  },
+  {
+    "id": "pl3-7",
+    "name": "Metagross",
+    "setName": "Supreme Victors",
+    "number": "7",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/7_hires.png"
+  },
+  {
+    "id": "pl3-8",
+    "name": "Rayquaza C",
+    "setName": "Supreme Victors",
+    "number": "8",
+    "rarity": "Rare Holo",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/8_hires.png"
+  },
+  {
+    "id": "pl3-9",
+    "name": "Regigigas FB",
+    "setName": "Supreme Victors",
+    "number": "9",
+    "rarity": "Rare Holo",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/pl3/9_hires.png"
+  },
+  {
+    "id": "pl3-10",
+    "name": "Rhyperior",
+    "setName": "Supreme Victors",
+    "number": "10",
+    "rarity": "Rare Holo",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl3/10_hires.png"
+  },
+  {
+    "id": "pl3-11",
+    "name": "Staraptor FB",
+    "setName": "Supreme Victors",
+    "number": "11",
+    "rarity": "Rare Holo",
+    "artist": "Hiroki Fuchino",
+    "imageUrl": "https://images.pokemontcg.io/pl3/11_hires.png"
+  },
+  {
+    "id": "pl3-12",
+    "name": "Swampert",
+    "setName": "Supreme Victors",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/12_hires.png"
+  },
+  {
+    "id": "pl3-13",
+    "name": "Venusaur",
+    "setName": "Supreme Victors",
+    "number": "13",
+    "rarity": "Rare Holo",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/13_hires.png"
+  },
+  {
+    "id": "pl3-14",
+    "name": "Yanmega",
+    "setName": "Supreme Victors",
+    "number": "14",
+    "rarity": "Rare Holo",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/14_hires.png"
+  },
+  {
+    "id": "pl3-15",
+    "name": "Arcanine G",
+    "setName": "Supreme Victors",
+    "number": "15",
+    "rarity": "Rare",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl3/15_hires.png"
+  },
+  {
+    "id": "pl3-16",
+    "name": "Articuno",
+    "setName": "Supreme Victors",
+    "number": "16",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/16_hires.png"
+  },
+  {
+    "id": "pl3-17",
+    "name": "Butterfree FB",
+    "setName": "Supreme Victors",
+    "number": "17",
+    "rarity": "Rare",
+    "artist": "Lee HyunJung",
+    "imageUrl": "https://images.pokemontcg.io/pl3/17_hires.png"
+  },
+  {
+    "id": "pl3-18",
+    "name": "Camerupt",
+    "setName": "Supreme Victors",
+    "number": "18",
+    "rarity": "Rare",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl3/18_hires.png"
+  },
+  {
+    "id": "pl3-19",
+    "name": "Camerupt G",
+    "setName": "Supreme Victors",
+    "number": "19",
+    "rarity": "Rare",
+    "artist": "Ryota Saito",
+    "imageUrl": "https://images.pokemontcg.io/pl3/19_hires.png"
+  },
+  {
+    "id": "pl3-20",
+    "name": "Charizard G",
+    "setName": "Supreme Victors",
+    "number": "20",
+    "rarity": "Rare",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/pl3/20_hires.png"
+  },
+  {
+    "id": "pl3-21",
+    "name": "Chimecho",
+    "setName": "Supreme Victors",
+    "number": "21",
+    "rarity": "Rare",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl3/21_hires.png"
+  },
+  {
+    "id": "pl3-22",
+    "name": "Claydol",
+    "setName": "Supreme Victors",
+    "number": "22",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/22_hires.png"
+  },
+  {
+    "id": "pl3-23",
+    "name": "Crawdaunt G",
+    "setName": "Supreme Victors",
+    "number": "23",
+    "rarity": "Rare",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/pl3/23_hires.png"
+  },
+  {
+    "id": "pl3-24",
+    "name": "Dewgong",
+    "setName": "Supreme Victors",
+    "number": "24",
+    "rarity": "Rare",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/24_hires.png"
+  },
+  {
+    "id": "pl3-25",
+    "name": "Dodrio",
+    "setName": "Supreme Victors",
+    "number": "25",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/25_hires.png"
+  },
+  {
+    "id": "pl3-26",
+    "name": "Dusknoir FB",
+    "setName": "Supreme Victors",
+    "number": "26",
+    "rarity": "Rare",
+    "artist": "Motofumi Fujiwara",
+    "imageUrl": "https://images.pokemontcg.io/pl3/26_hires.png"
+  },
+  {
+    "id": "pl3-27",
+    "name": "Empoleon FB",
+    "setName": "Supreme Victors",
+    "number": "27",
+    "rarity": "Rare",
+    "artist": "Hiroki Fuchino",
+    "imageUrl": "https://images.pokemontcg.io/pl3/27_hires.png"
+  },
+  {
+    "id": "pl3-28",
+    "name": "Exploud",
+    "setName": "Supreme Victors",
+    "number": "28",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/28_hires.png"
+  },
+  {
+    "id": "pl3-29",
+    "name": "Honchkrow",
+    "setName": "Supreme Victors",
+    "number": "29",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/29_hires.png"
+  },
+  {
+    "id": "pl3-30",
+    "name": "Lickilicky C",
+    "setName": "Supreme Victors",
+    "number": "30",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/30_hires.png"
+  },
+  {
+    "id": "pl3-31",
+    "name": "Lucario C",
+    "setName": "Supreme Victors",
+    "number": "31",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/31_hires.png"
+  },
+  {
+    "id": "pl3-32",
+    "name": "Lunatone",
+    "setName": "Supreme Victors",
+    "number": "32",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl3/32_hires.png"
+  },
+  {
+    "id": "pl3-33",
+    "name": "Mawile",
+    "setName": "Supreme Victors",
+    "number": "33",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/pl3/33_hires.png"
+  },
+  {
+    "id": "pl3-34",
+    "name": "Medicham",
+    "setName": "Supreme Victors",
+    "number": "34",
+    "rarity": "Rare",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/34_hires.png"
+  },
+  {
+    "id": "pl3-35",
+    "name": "Milotic C",
+    "setName": "Supreme Victors",
+    "number": "35",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/35_hires.png"
+  },
+  {
+    "id": "pl3-36",
+    "name": "Moltres",
+    "setName": "Supreme Victors",
+    "number": "36",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/36_hires.png"
+  },
+  {
+    "id": "pl3-37",
+    "name": "Mr. Mime",
+    "setName": "Supreme Victors",
+    "number": "37",
+    "rarity": "Rare",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/37_hires.png"
+  },
+  {
+    "id": "pl3-38",
+    "name": "Parasect",
+    "setName": "Supreme Victors",
+    "number": "38",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/38_hires.png"
+  },
+  {
+    "id": "pl3-39",
+    "name": "Primeape",
+    "setName": "Supreme Victors",
+    "number": "39",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl3/39_hires.png"
+  },
+  {
+    "id": "pl3-40",
+    "name": "Roserade C",
+    "setName": "Supreme Victors",
+    "number": "40",
+    "rarity": "Rare",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/40_hires.png"
+  },
+  {
+    "id": "pl3-41",
+    "name": "Sableye G",
+    "setName": "Supreme Victors",
+    "number": "41",
+    "rarity": "Rare",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl3/41_hires.png"
+  },
+  {
+    "id": "pl3-42",
+    "name": "Sandslash",
+    "setName": "Supreme Victors",
+    "number": "42",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/42_hires.png"
+  },
+  {
+    "id": "pl3-43",
+    "name": "Seaking",
+    "setName": "Supreme Victors",
+    "number": "43",
+    "rarity": "Rare",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/pl3/43_hires.png"
+  },
+  {
+    "id": "pl3-44",
+    "name": "Shedinja",
+    "setName": "Supreme Victors",
+    "number": "44",
+    "rarity": "Rare",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/44_hires.png"
+  },
+  {
+    "id": "pl3-45",
+    "name": "Solrock",
+    "setName": "Supreme Victors",
+    "number": "45",
+    "rarity": "Rare",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl3/45_hires.png"
+  },
+  {
+    "id": "pl3-46",
+    "name": "Spinda",
+    "setName": "Supreme Victors",
+    "number": "46",
+    "rarity": "Rare",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl3/46_hires.png"
+  },
+  {
+    "id": "pl3-47",
+    "name": "Wailord",
+    "setName": "Supreme Victors",
+    "number": "47",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl3/47_hires.png"
+  },
+  {
+    "id": "pl3-48",
+    "name": "Zapdos",
+    "setName": "Supreme Victors",
+    "number": "48",
+    "rarity": "Rare",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/48_hires.png"
+  },
+  {
+    "id": "pl3-49",
+    "name": "Altaria C",
+    "setName": "Supreme Victors",
+    "number": "49",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/49_hires.png"
+  },
+  {
+    "id": "pl3-50",
+    "name": "Arcanine",
+    "setName": "Supreme Victors",
+    "number": "50",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/50_hires.png"
+  },
+  {
+    "id": "pl3-51",
+    "name": "Bibarel",
+    "setName": "Supreme Victors",
+    "number": "51",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/51_hires.png"
+  },
+  {
+    "id": "pl3-52",
+    "name": "Breloom",
+    "setName": "Supreme Victors",
+    "number": "52",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/pl3/52_hires.png"
+  },
+  {
+    "id": "pl3-53",
+    "name": "Carnivine",
+    "setName": "Supreme Victors",
+    "number": "53",
+    "rarity": "Uncommon",
+    "artist": "Satoshi Ohta",
+    "imageUrl": "https://images.pokemontcg.io/pl3/53_hires.png"
+  },
+  {
+    "id": "pl3-54",
+    "name": "Chatot G",
+    "setName": "Supreme Victors",
+    "number": "54",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl3/54_hires.png"
+  },
+  {
+    "id": "pl3-55",
+    "name": "Cherrim",
+    "setName": "Supreme Victors",
+    "number": "55",
+    "rarity": "Uncommon",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/pl3/55_hires.png"
+  },
+  {
+    "id": "pl3-56",
+    "name": "Dragonite FB",
+    "setName": "Supreme Victors",
+    "number": "56",
+    "rarity": "Uncommon",
+    "artist": "Shin Nagasawa",
+    "imageUrl": "https://images.pokemontcg.io/pl3/56_hires.png"
+  },
+  {
+    "id": "pl3-57",
+    "name": "Drifblim",
+    "setName": "Supreme Victors",
+    "number": "57",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/57_hires.png"
+  },
+  {
+    "id": "pl3-58",
+    "name": "Floatzel",
+    "setName": "Supreme Victors",
+    "number": "58",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/58_hires.png"
+  },
+  {
+    "id": "pl3-59",
+    "name": "Gabite",
+    "setName": "Supreme Victors",
+    "number": "59",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl3/59_hires.png"
+  },
+  {
+    "id": "pl3-60",
+    "name": "Garchomp C",
+    "setName": "Supreme Victors",
+    "number": "60",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/60_hires.png"
+  },
+  {
+    "id": "pl3-61",
+    "name": "Hippopotas",
+    "setName": "Supreme Victors",
+    "number": "61",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/61_hires.png"
+  },
+  {
+    "id": "pl3-62",
+    "name": "Ivysaur",
+    "setName": "Supreme Victors",
+    "number": "62",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/62_hires.png"
+  },
+  {
+    "id": "pl3-63",
+    "name": "Lopunny",
+    "setName": "Supreme Victors",
+    "number": "63",
+    "rarity": "Uncommon",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/63_hires.png"
+  },
+  {
+    "id": "pl3-64",
+    "name": "Loudred",
+    "setName": "Supreme Victors",
+    "number": "64",
+    "rarity": "Uncommon",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/64_hires.png"
+  },
+  {
+    "id": "pl3-65",
+    "name": "Magmar",
+    "setName": "Supreme Victors",
+    "number": "65",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl3/65_hires.png"
+  },
+  {
+    "id": "pl3-66",
+    "name": "Manectric G",
+    "setName": "Supreme Victors",
+    "number": "66",
+    "rarity": "Uncommon",
+    "artist": "Ryota Saito",
+    "imageUrl": "https://images.pokemontcg.io/pl3/66_hires.png"
+  },
+  {
+    "id": "pl3-67",
+    "name": "Marshtomp",
+    "setName": "Supreme Victors",
+    "number": "67",
+    "rarity": "Uncommon",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl3/67_hires.png"
+  },
+  {
+    "id": "pl3-68",
+    "name": "Masquerain",
+    "setName": "Supreme Victors",
+    "number": "68",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/68_hires.png"
+  },
+  {
+    "id": "pl3-69",
+    "name": "Metang",
+    "setName": "Supreme Victors",
+    "number": "69",
+    "rarity": "Uncommon",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/pl3/69_hires.png"
+  },
+  {
+    "id": "pl3-70",
+    "name": "Milotic",
+    "setName": "Supreme Victors",
+    "number": "70",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl3/70_hires.png"
+  },
+  {
+    "id": "pl3-71",
+    "name": "Minun",
+    "setName": "Supreme Victors",
+    "number": "71",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/pl3/71_hires.png"
+  },
+  {
+    "id": "pl3-72",
+    "name": "Murkrow",
+    "setName": "Supreme Victors",
+    "number": "72",
+    "rarity": "Uncommon",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl3/72_hires.png"
+  },
+  {
+    "id": "pl3-73",
+    "name": "Ninjask",
+    "setName": "Supreme Victors",
+    "number": "73",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/73_hires.png"
+  },
+  {
+    "id": "pl3-74",
+    "name": "Numel",
+    "setName": "Supreme Victors",
+    "number": "74",
+    "rarity": "Uncommon",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/74_hires.png"
+  },
+  {
+    "id": "pl3-75",
+    "name": "Pinsir",
+    "setName": "Supreme Victors",
+    "number": "75",
+    "rarity": "Uncommon",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/75_hires.png"
+  },
+  {
+    "id": "pl3-76",
+    "name": "Plusle",
+    "setName": "Supreme Victors",
+    "number": "76",
+    "rarity": "Uncommon",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/pl3/76_hires.png"
+  },
+  {
+    "id": "pl3-77",
+    "name": "Raichu",
+    "setName": "Supreme Victors",
+    "number": "77",
+    "rarity": "Uncommon",
+    "artist": "Takao Unno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/77_hires.png"
+  },
+  {
+    "id": "pl3-78",
+    "name": "Raticate G",
+    "setName": "Supreme Victors",
+    "number": "78",
+    "rarity": "Uncommon",
+    "artist": "Ryota Saito",
+    "imageUrl": "https://images.pokemontcg.io/pl3/78_hires.png"
+  },
+  {
+    "id": "pl3-79",
+    "name": "Relicanth",
+    "setName": "Supreme Victors",
+    "number": "79",
+    "rarity": "Uncommon",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/pl3/79_hires.png"
+  },
+  {
+    "id": "pl3-80",
+    "name": "Rhydon",
+    "setName": "Supreme Victors",
+    "number": "80",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/80_hires.png"
+  },
+  {
+    "id": "pl3-81",
+    "name": "Roserade",
+    "setName": "Supreme Victors",
+    "number": "81",
+    "rarity": "Uncommon",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl3/81_hires.png"
+  },
+  {
+    "id": "pl3-82",
+    "name": "Rotom",
+    "setName": "Supreme Victors",
+    "number": "82",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl3/82_hires.png"
+  },
+  {
+    "id": "pl3-83",
+    "name": "Skarmory FB",
+    "setName": "Supreme Victors",
+    "number": "83",
+    "rarity": "Uncommon",
+    "artist": "Hironobu Yoshida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/83_hires.png"
+  },
+  {
+    "id": "pl3-84",
+    "name": "Spiritomb C",
+    "setName": "Supreme Victors",
+    "number": "84",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/84_hires.png"
+  },
+  {
+    "id": "pl3-85",
+    "name": "Staravia",
+    "setName": "Supreme Victors",
+    "number": "85",
+    "rarity": "Uncommon",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/85_hires.png"
+  },
+  {
+    "id": "pl3-86",
+    "name": "Togekiss C",
+    "setName": "Supreme Victors",
+    "number": "86",
+    "rarity": "Uncommon",
+    "artist": "kawayoo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/86_hires.png"
+  },
+  {
+    "id": "pl3-87",
+    "name": "Wailmer",
+    "setName": "Supreme Victors",
+    "number": "87",
+    "rarity": "Uncommon",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/87_hires.png"
+  },
+  {
+    "id": "pl3-88",
+    "name": "Yanma",
+    "setName": "Supreme Victors",
+    "number": "88",
+    "rarity": "Uncommon",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl3/88_hires.png"
+  },
+  {
+    "id": "pl3-89",
+    "name": "Baltoy",
+    "setName": "Supreme Victors",
+    "number": "89",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/89_hires.png"
+  },
+  {
+    "id": "pl3-90",
+    "name": "Beldum",
+    "setName": "Supreme Victors",
+    "number": "90",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/90_hires.png"
+  },
+  {
+    "id": "pl3-91",
+    "name": "Bidoof",
+    "setName": "Supreme Victors",
+    "number": "91",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/91_hires.png"
+  },
+  {
+    "id": "pl3-92",
+    "name": "Buizel",
+    "setName": "Supreme Victors",
+    "number": "92",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/92_hires.png"
+  },
+  {
+    "id": "pl3-93",
+    "name": "Bulbasaur",
+    "setName": "Supreme Victors",
+    "number": "93",
+    "rarity": "Common",
+    "artist": "Naoyo Kimura",
+    "imageUrl": "https://images.pokemontcg.io/pl3/93_hires.png"
+  },
+  {
+    "id": "pl3-94",
+    "name": "Buneary",
+    "setName": "Supreme Victors",
+    "number": "94",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/94_hires.png"
+  },
+  {
+    "id": "pl3-95",
+    "name": "Chatot",
+    "setName": "Supreme Victors",
+    "number": "95",
+    "rarity": "Common",
+    "artist": "Satoshi Ohta",
+    "imageUrl": "https://images.pokemontcg.io/pl3/95_hires.png"
+  },
+  {
+    "id": "pl3-96",
+    "name": "Cherubi",
+    "setName": "Supreme Victors",
+    "number": "96",
+    "rarity": "Common",
+    "artist": "Saya Tsuruta",
+    "imageUrl": "https://images.pokemontcg.io/pl3/96_hires.png"
+  },
+  {
+    "id": "pl3-97",
+    "name": "Chimchar",
+    "setName": "Supreme Victors",
+    "number": "97",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/97_hires.png"
+  },
+  {
+    "id": "pl3-98",
+    "name": "Chingling",
+    "setName": "Supreme Victors",
+    "number": "98",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/98_hires.png"
+  },
+  {
+    "id": "pl3-99",
+    "name": "Combee",
+    "setName": "Supreme Victors",
+    "number": "99",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/99_hires.png"
+  },
+  {
+    "id": "pl3-100",
+    "name": "Corphish",
+    "setName": "Supreme Victors",
+    "number": "100",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl3/100_hires.png"
+  },
+  {
+    "id": "pl3-101",
+    "name": "Croagunk",
+    "setName": "Supreme Victors",
+    "number": "101",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/101_hires.png"
+  },
+  {
+    "id": "pl3-102",
+    "name": "Doduo",
+    "setName": "Supreme Victors",
+    "number": "102",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/102_hires.png"
+  },
+  {
+    "id": "pl3-103",
+    "name": "Drifloon",
+    "setName": "Supreme Victors",
+    "number": "103",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/103_hires.png"
+  },
+  {
+    "id": "pl3-104",
+    "name": "Feebas",
+    "setName": "Supreme Victors",
+    "number": "104",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/104_hires.png"
+  },
+  {
+    "id": "pl3-105",
+    "name": "Geodude",
+    "setName": "Supreme Victors",
+    "number": "105",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/105_hires.png"
+  },
+  {
+    "id": "pl3-106",
+    "name": "Gible",
+    "setName": "Supreme Victors",
+    "number": "106",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/106_hires.png"
+  },
+  {
+    "id": "pl3-107",
+    "name": "Goldeen",
+    "setName": "Supreme Victors",
+    "number": "107",
+    "rarity": "Common",
+    "artist": "Kyoko Umemoto",
+    "imageUrl": "https://images.pokemontcg.io/pl3/107_hires.png"
+  },
+  {
+    "id": "pl3-108",
+    "name": "Growlithe",
+    "setName": "Supreme Victors",
+    "number": "108",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/108_hires.png"
+  },
+  {
+    "id": "pl3-109",
+    "name": "Kricketot",
+    "setName": "Supreme Victors",
+    "number": "109",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/109_hires.png"
+  },
+  {
+    "id": "pl3-110",
+    "name": "Magikarp",
+    "setName": "Supreme Victors",
+    "number": "110",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/110_hires.png"
+  },
+  {
+    "id": "pl3-111",
+    "name": "Magnemite",
+    "setName": "Supreme Victors",
+    "number": "111",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/111_hires.png"
+  },
+  {
+    "id": "pl3-112",
+    "name": "Mankey",
+    "setName": "Supreme Victors",
+    "number": "112",
+    "rarity": "Common",
+    "artist": "Kanako Eo",
+    "imageUrl": "https://images.pokemontcg.io/pl3/112_hires.png"
+  },
+  {
+    "id": "pl3-113",
+    "name": "Meditite",
+    "setName": "Supreme Victors",
+    "number": "113",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/113_hires.png"
+  },
+  {
+    "id": "pl3-114",
+    "name": "Meowth",
+    "setName": "Supreme Victors",
+    "number": "114",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/114_hires.png"
+  },
+  {
+    "id": "pl3-115",
+    "name": "Mime Jr.",
+    "setName": "Supreme Victors",
+    "number": "115",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl3/115_hires.png"
+  },
+  {
+    "id": "pl3-116",
+    "name": "Mudkip",
+    "setName": "Supreme Victors",
+    "number": "116",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/116_hires.png"
+  },
+  {
+    "id": "pl3-117",
+    "name": "Nincada",
+    "setName": "Supreme Victors",
+    "number": "117",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl3/117_hires.png"
+  },
+  {
+    "id": "pl3-118",
+    "name": "Pachirisu",
+    "setName": "Supreme Victors",
+    "number": "118",
+    "rarity": "Common",
+    "artist": "Kagemaru Himeno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/118_hires.png"
+  },
+  {
+    "id": "pl3-119",
+    "name": "Paras",
+    "setName": "Supreme Victors",
+    "number": "119",
+    "rarity": "Common",
+    "artist": "Yukiko Baba",
+    "imageUrl": "https://images.pokemontcg.io/pl3/119_hires.png"
+  },
+  {
+    "id": "pl3-120",
+    "name": "Pikachu",
+    "setName": "Supreme Victors",
+    "number": "120",
+    "rarity": "Common",
+    "artist": "Takao Unno",
+    "imageUrl": "https://images.pokemontcg.io/pl3/120_hires.png"
+  },
+  {
+    "id": "pl3-121",
+    "name": "Piplup",
+    "setName": "Supreme Victors",
+    "number": "121",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl3/121_hires.png"
+  },
+  {
+    "id": "pl3-122",
+    "name": "Rhyhorn",
+    "setName": "Supreme Victors",
+    "number": "122",
+    "rarity": "Common",
+    "artist": "Tomokazu Komiya",
+    "imageUrl": "https://images.pokemontcg.io/pl3/122_hires.png"
+  },
+  {
+    "id": "pl3-123",
+    "name": "Roselia",
+    "setName": "Supreme Victors",
+    "number": "123",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl3/123_hires.png"
+  },
+  {
+    "id": "pl3-124",
+    "name": "Sandshrew",
+    "setName": "Supreme Victors",
+    "number": "124",
+    "rarity": "Common",
+    "artist": "Suwama Chiaki",
+    "imageUrl": "https://images.pokemontcg.io/pl3/124_hires.png"
+  },
+  {
+    "id": "pl3-125",
+    "name": "Seel",
+    "setName": "Supreme Victors",
+    "number": "125",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/125_hires.png"
+  },
+  {
+    "id": "pl3-126",
+    "name": "Shinx",
+    "setName": "Supreme Victors",
+    "number": "126",
+    "rarity": "Common",
+    "artist": "Kouki Saitou",
+    "imageUrl": "https://images.pokemontcg.io/pl3/126_hires.png"
+  },
+  {
+    "id": "pl3-127",
+    "name": "Shroomish",
+    "setName": "Supreme Victors",
+    "number": "127",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/pl3/127_hires.png"
+  },
+  {
+    "id": "pl3-128",
+    "name": "Skorupi",
+    "setName": "Supreme Victors",
+    "number": "128",
+    "rarity": "Common",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl3/128_hires.png"
+  },
+  {
+    "id": "pl3-129",
+    "name": "Starly",
+    "setName": "Supreme Victors",
+    "number": "129",
+    "rarity": "Common",
+    "artist": "Mitsuhiro Arita",
+    "imageUrl": "https://images.pokemontcg.io/pl3/129_hires.png"
+  },
+  {
+    "id": "pl3-130",
+    "name": "Surskit",
+    "setName": "Supreme Victors",
+    "number": "130",
+    "rarity": "Common",
+    "artist": "Miki Tanaka",
+    "imageUrl": "https://images.pokemontcg.io/pl3/130_hires.png"
+  },
+  {
+    "id": "pl3-131",
+    "name": "Turtwig",
+    "setName": "Supreme Victors",
+    "number": "131",
+    "rarity": "Common",
+    "artist": "Atsuko Nishida",
+    "imageUrl": "https://images.pokemontcg.io/pl3/131_hires.png"
+  },
+  {
+    "id": "pl3-132",
+    "name": "Whismur",
+    "setName": "Supreme Victors",
+    "number": "132",
+    "rarity": "Common",
+    "artist": "Yuka Morii",
+    "imageUrl": "https://images.pokemontcg.io/pl3/132_hires.png"
+  },
+  {
+    "id": "pl3-133",
+    "name": "Zubat",
+    "setName": "Supreme Victors",
+    "number": "133",
+    "rarity": "Common",
+    "artist": "Masakazu Fukuda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/133_hires.png"
+  },
+  {
+    "id": "pl3-134",
+    "name": "Battle Tower",
+    "setName": "Supreme Victors",
+    "number": "134",
+    "rarity": "Uncommon",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/pl3/134_hires.png"
+  },
+  {
+    "id": "pl3-135",
+    "name": "Champion's Room",
+    "setName": "Supreme Victors",
+    "number": "135",
+    "rarity": "Uncommon",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl3/135_hires.png"
+  },
+  {
+    "id": "pl3-136",
+    "name": "Cynthia's Guidance",
+    "setName": "Supreme Victors",
+    "number": "136",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl3/136_hires.png"
+  },
+  {
+    "id": "pl3-137",
+    "name": "Cyrus's Initiative",
+    "setName": "Supreme Victors",
+    "number": "137",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl3/137_hires.png"
+  },
+  {
+    "id": "pl3-138",
+    "name": "Night Teleporter",
+    "setName": "Supreme Victors",
+    "number": "138",
+    "rarity": "Uncommon",
+    "artist": "Ryota Saito",
+    "imageUrl": "https://images.pokemontcg.io/pl3/138_hires.png"
+  },
+  {
+    "id": "pl3-139",
+    "name": "Palmer's Contribution",
+    "setName": "Supreme Victors",
+    "number": "139",
+    "rarity": "Uncommon",
+    "artist": "Ken Sugimori",
+    "imageUrl": "https://images.pokemontcg.io/pl3/139_hires.png"
+  },
+  {
+    "id": "pl3-140",
+    "name": "VS Seeker",
+    "setName": "Supreme Victors",
+    "number": "140",
+    "rarity": "Uncommon",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/pl3/140_hires.png"
+  },
+  {
+    "id": "pl3-141",
+    "name": "Absol G LV.X",
+    "setName": "Supreme Victors",
+    "number": "141",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Yusuke Ishikawa",
+    "imageUrl": "https://images.pokemontcg.io/pl3/141_hires.png"
+  },
+  {
+    "id": "pl3-142",
+    "name": "Blaziken FB LV.X",
+    "setName": "Supreme Victors",
+    "number": "142",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/142_hires.png"
+  },
+  {
+    "id": "pl3-143",
+    "name": "Charizard G LV.X",
+    "setName": "Supreme Victors",
+    "number": "143",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Wataru Kawahara",
+    "imageUrl": "https://images.pokemontcg.io/pl3/143_hires.png"
+  },
+  {
+    "id": "pl3-144",
+    "name": "Electivire FB LV.X",
+    "setName": "Supreme Victors",
+    "number": "144",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/144_hires.png"
+  },
+  {
+    "id": "pl3-145",
+    "name": "Garchomp C LV.X",
+    "setName": "Supreme Victors",
+    "number": "145",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl3/145_hires.png"
+  },
+  {
+    "id": "pl3-146",
+    "name": "Rayquaza C LV.X",
+    "setName": "Supreme Victors",
+    "number": "146",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Shizurow",
+    "imageUrl": "https://images.pokemontcg.io/pl3/146_hires.png"
+  },
+  {
+    "id": "pl3-147",
+    "name": "Staraptor FB LV.X",
+    "setName": "Supreme Victors",
+    "number": "147",
+    "rarity": "Rare Holo LV.X",
+    "artist": "Ryo Ueda",
+    "imageUrl": "https://images.pokemontcg.io/pl3/147_hires.png"
+  },
+  {
+    "id": "pl3-148",
+    "name": "Articuno",
+    "setName": "Supreme Victors",
+    "number": "148",
+    "rarity": "Rare Secret",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/pl3/148_hires.png"
+  },
+  {
+    "id": "pl3-149",
+    "name": "Moltres",
+    "setName": "Supreme Victors",
+    "number": "149",
+    "rarity": "Rare Secret",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/pl3/149_hires.png"
+  },
+  {
+    "id": "pl3-150",
+    "name": "Zapdos",
+    "setName": "Supreme Victors",
+    "number": "150",
+    "rarity": "Rare Secret",
+    "artist": "Toshinao Aoki",
+    "imageUrl": "https://images.pokemontcg.io/pl3/150_hires.png"
+  },
+  {
+    "id": "pl3-SH7",
+    "name": "Milotic",
+    "setName": "Supreme Victors",
+    "number": "SH7",
+    "rarity": "Rare",
+    "artist": "Hajime Kusajima",
+    "imageUrl": "https://images.pokemontcg.io/pl3/SH7_hires.png"
+  },
+  {
+    "id": "pl3-SH8",
+    "name": "Relicanth",
+    "setName": "Supreme Victors",
+    "number": "SH8",
+    "rarity": "Rare",
+    "artist": "Sumiyoshi Kizuki",
+    "imageUrl": "https://images.pokemontcg.io/pl3/SH8_hires.png"
+  },
+  {
+    "id": "pl3-SH9",
+    "name": "Yanma",
+    "setName": "Supreme Victors",
+    "number": "SH9",
+    "rarity": "Rare",
+    "artist": "Midori Harada",
+    "imageUrl": "https://images.pokemontcg.io/pl3/SH9_hires.png"
+  }
+]
