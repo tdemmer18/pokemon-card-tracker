@@ -1266,6 +1266,24 @@ a {
   transform: scale(0.92);
 }
 
+.scan-rescan-button {
+  display: block;
+  width: 100%;
+  margin: 12px 0 16px;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 14px;
+  border: 1px solid var(--line-strong);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.scan-rescan-button:hover {
+  background: color-mix(in srgb, var(--accent-soft) 60%, var(--surface-strong));
+}
+
 .scan-status {
   margin: 0 0 14px;
   color: var(--muted);

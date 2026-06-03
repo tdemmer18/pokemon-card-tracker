@@ -2150,6 +2150,22 @@ export default function HomePage() {
               </div>
             )}
 
+            {scanPreviewUrl && !isScanning ? (
+              <button
+                type="button"
+                className="scan-rescan-button"
+                onClick={() => {
+                  if (confirmedScanId) {
+                    setTcgCaughtStatus(confirmedScanId, false);
+                  }
+                  resetScannerState();
+                  void startCamera();
+                }}
+              >
+                {confirmedScanId ? "Wrong card? Undo & rescan" : "Rescan"}
+              </button>
+            ) : null}
+
             {scanMatches.length ? (
               <section className="sidebar-section">
                 <h2 className="sidebar-heading">Matches</h2>
@@ -2193,22 +2209,6 @@ export default function HomePage() {
                     );
                   })}
                 </div>
-              </section>
-            ) : null}
-
-            {scanPreviewUrl ? (
-              <section className="sidebar-section">
-                <button
-                  type="button"
-                  className="action-button action-button-wide"
-                  onClick={() => {
-                    resetScannerState();
-                    void startCamera();
-                  }}
-                  disabled={isScanning}
-                >
-                  Scan another card
-                </button>
               </section>
             ) : null}
 
