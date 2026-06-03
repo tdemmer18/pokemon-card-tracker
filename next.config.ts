@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
     "/api/expansion-cards": ["./data/cards/**"],
     "/api/scan-search": ["./data/cards/**"],
     "/api/scan-match": ["./data/card-hashes.json"],
+    "/api/scan-embed": ["./data/card-embeddings.bin", "./data/card-embeddings.meta.json"],
   },
   images: {
     remotePatterns: [

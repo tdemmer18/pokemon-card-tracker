@@ -93,6 +93,18 @@ type ScanMatch = {
   imageUrl: string;
   distance: number;
   confidence: number;
+  embedSimilarity?: number;
+};
+
+type EmbedMatch = {
+  id: string;
+  name: string;
+  setName: string;
+  setId: string;
+  number: string;
+  imageUrl: string;
+  similarity: number;
+  confidence: number;
 };
 
 type TcgExpansion = {
@@ -275,6 +287,14 @@ export default function HomePage() {
   const scanLastHashRef = useRef<string>("");
   const scanSteadyCountRef = useRef<number>(0);
   const scanCapturedRef = useRef<boolean>(false);
+  // Lazily loaded MobileNet model. Typed loose to avoid bundling tfjs types in
+  // the main build; the dynamic import resolves the real module at runtime.
+  const mobilenetModelRef = useRef<{
+    infer: (input: HTMLCanvasElement | HTMLImageElement, embedding?: boolean) => {
+      data: () => Promise<Float32Array>;
+      dispose: () => void;
+    };
+  } | null>(null);
   const expansionCardsCacheRef = useRef<Map<string, { cards: TcgCard[]; status: string }>>(new Map());
   const ownCaught = caughtByUser[currentUser] ?? {};
   const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
@@ -1053,6 +1073,43 @@ export default function HomePage() {
     }
   };
 
+  const loadMobileNet = async () => {
+    if (mobilenetModelRef.current) return mobilenetModelRef.current;
+    const [tf, mobilenet] = await Promise.all([
+      import("@tensorflow/tfjs"),
+      import("@tensorflow-models/mobilenet"),
+    ]);
+    await tf.ready();
+    const model = await mobilenet.load({ version: 2, alpha: 1.0 });
+    mobilenetModelRef.current = model as unknown as typeof mobilenetModelRef.current extends infer T
+      ? T
+      : never;
+    return mobilenetModelRef.current!;
+  };
+
+  const extractEmbedding = async (
+    image: HTMLImageElement,
+    crop: { x: number; y: number; width: number; height: number },
+  ): Promise<number[] | null> => {
+    try {
+      const canvas = document.createElement("canvas");
+      canvas.width = 224;
+      canvas.height = 224;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) return null;
+      ctx.drawImage(image, crop.x, crop.y, crop.width, crop.height, 0, 0, 224, 224);
+
+      const model = await loadMobileNet();
+      const tensor = model.infer(canvas, true);
+      const data = await tensor.data();
+      tensor.dispose();
+      return Array.from(data);
+    } catch (error) {
+      console.warn("mobilenet failed", error);
+      return null;
+    }
+  };
+
   const runScan = async (file: Blob) => {
     setIsScanning(true);
     setScanMatches([]);
@@ -1081,7 +1138,11 @@ export default function HomePage() {
       }
       const hashes = [...hashSet];
 
-      setScanStatus("Matching against the card library...");
+      setScanStatus("Loading visual model…");
+
+      const embeddingPromise = extractEmbedding(image, aimCrop);
+
+      setScanStatus("Matching against the card library…");
 
       const hashRequest = fetch("/api/scan-match", {
         method: "POST",
@@ -1092,42 +1153,118 @@ export default function HomePage() {
         message?: string;
       }>;
 
-      const [hashResult, ocrText] = await Promise.all([hashRequest, ocrFromBlob(file)]);
+      const embeddingRequest = embeddingPromise.then(async (embedding) => {
+        if (!embedding) {
+          return { matches: [] as EmbedMatch[], message: "embedding skipped" };
+        }
+        const response = await fetch("/api/scan-embed", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ embedding, topN: 25 }),
+        });
+        return (await response.json()) as { matches?: EmbedMatch[]; message?: string };
+      });
 
-      const matches = hashResult?.matches ?? [];
-      if (!matches.length) {
+      const [hashResult, embedResult, ocrText] = await Promise.all([
+        hashRequest,
+        embeddingRequest,
+        ocrFromBlob(file),
+      ]);
+
+      const hashMatches = hashResult?.matches ?? [];
+      const embedMatches = embedResult?.matches ?? [];
+
+      if (!hashMatches.length && !embedMatches.length) {
         setScanStatus(
-          hashResult?.message ??
+          embedResult?.message ??
+            hashResult?.message ??
             "No close matches. Try a sharper, glare-free photo of the full card.",
         );
         return;
       }
 
+      // Merge candidates by id, carrying whatever signals we have for each.
+      type Candidate = {
+        id: string;
+        name: string;
+        setName: string;
+        setId: string;
+        number: string;
+        imageUrl: string;
+        hashDistance: number | null;
+        embedSim: number | null;
+      };
+      const merged = new Map<string, Candidate>();
+      for (const match of hashMatches) {
+        merged.set(match.id, {
+          id: match.id,
+          name: match.name,
+          setName: match.setName,
+          setId: match.setId,
+          number: match.number,
+          imageUrl: match.imageUrl,
+          hashDistance: match.distance,
+          embedSim: null,
+        });
+      }
+      for (const match of embedMatches) {
+        const existing = merged.get(match.id);
+        if (existing) {
+          existing.embedSim = match.similarity;
+        } else {
+          merged.set(match.id, {
+            id: match.id,
+            name: match.name,
+            setName: match.setName,
+            setId: match.setId,
+            number: match.number,
+            imageUrl: match.imageUrl,
+            hashDistance: null,
+            embedSim: match.similarity,
+          });
+        }
+      }
+
       const ocrTokens = tokenizeText(ocrText);
-      const scored = matches.map((match) => {
-        const nameTokens = tokenizeText(match.name);
-        const setTokens = tokenizeText(match.setName);
+      const scored = [...merged.values()].map((candidate) => {
+        const nameTokens = tokenizeText(candidate.name);
+        const setTokens = tokenizeText(candidate.setName);
         let nameHits = 0;
-        for (const token of nameTokens) {
-          if (ocrTokens.has(token)) nameHits += 1;
-        }
+        for (const token of nameTokens) if (ocrTokens.has(token)) nameHits += 1;
         let setHits = 0;
-        for (const token of setTokens) {
-          if (ocrTokens.has(token)) setHits += 1;
-        }
+        for (const token of setTokens) if (ocrTokens.has(token)) setHits += 1;
         const nameRatio = nameTokens.size ? nameHits / nameTokens.size : 0;
         const setRatio = setTokens.size ? setHits / setTokens.size : 0;
-        // hash component: 1 at distance 0, 0 at distance >=32
-        const hashScore = Math.max(0, 1 - match.distance / 32);
+
+        // Hash: 1.0 at distance 0, decays to 0 by distance 32. Null → 0.
+        const hashScore = candidate.hashDistance === null
+          ? 0
+          : Math.max(0, 1 - candidate.hashDistance / 32);
+
+        // Embed cosine similarity is in [-1, 1]; clamp to [0, 1].
+        const embedScore = candidate.embedSim === null
+          ? 0
+          : Math.max(0, candidate.embedSim);
+
         const ocrBoost = nameRatio * 0.7 + setRatio * 0.3;
-        const composite = hashScore * 0.65 + ocrBoost * 0.35;
-        return { match, composite, nameHits, ocrBoost };
+
+        // MobileNet is the strongest signal; hash is the second; OCR rerank.
+        const composite = embedScore * 0.6 + hashScore * 0.2 + ocrBoost * 0.2;
+
+        return { candidate, composite, embedScore, hashScore, nameHits, ocrBoost };
       });
       scored.sort((left, right) => right.composite - left.composite);
 
-      const ranked = scored.slice(0, 8).map(({ match, composite }) => ({
-        ...match,
+      const ranked = scored.slice(0, 8).map(({ candidate, composite, embedScore }) => ({
+        id: candidate.id,
+        name: candidate.name,
+        setName: candidate.setName,
+        setId: candidate.setId,
+        number: candidate.number,
+        imageUrl: candidate.imageUrl,
+        distance: candidate.hashDistance ?? 64,
         confidence: Math.round(composite * 100),
+        embedSimilarity: embedScore,
       }));
 
       setScanMatches(ranked);
@@ -1135,17 +1272,21 @@ export default function HomePage() {
       const top = scored[0];
       const runnerUp = scored[1]?.composite ?? 0;
       const compositeLead = top.composite - runnerUp;
+      const embedLead = top.embedScore - (scored[1]?.embedScore ?? 0);
       const ocrAgrees = top.nameHits > 0;
-      const hashIsClose = top.match.distance <= 14;
+
       const isStrong =
-        (top.match.distance <= 6 && compositeLead >= 0.08) ||
-        (ocrAgrees && hashIsClose && compositeLead >= 0.06);
+        (top.embedScore >= 0.85 && embedLead >= 0.05) ||
+        (top.embedScore >= 0.7 && ocrAgrees && compositeLead >= 0.06) ||
+        (top.hashScore >= 0.85 && compositeLead >= 0.08);
 
       if (isStrong) {
-        setTcgCaughtStatus(top.match.id, true);
-        setConfirmedScanId(top.match.id);
+        setTcgCaughtStatus(top.candidate.id, true);
+        setConfirmedScanId(top.candidate.id);
         setScanStatus(
-          `Caught ${top.match.name} from ${top.match.setName} (${Math.round(top.composite * 100)}% confidence).`,
+          `Caught ${top.candidate.name} from ${top.candidate.setName} (${Math.round(
+            top.composite * 100,
+          )}% confidence).`,
         );
       } else {
         setScanStatus(
@@ -2033,7 +2174,12 @@ export default function HomePage() {
                         <div className="scan-match-copy">
                           <h3>{match.name}</h3>
                           <p>{match.setName} · {match.number}</p>
-                          <p className="scan-match-score">Match {match.confidence}% · dist {match.distance}</p>
+                          <p className="scan-match-score">
+                            {match.confidence}% match
+                            {typeof match.embedSimilarity === "number"
+                              ? ` · visual ${Math.round(match.embedSimilarity * 100)}%`
+                              : ""}
+                          </p>
                         </div>
                         <button
                           type="button"
