@@ -82,7 +82,20 @@ type TcgCard = {
 
 type TcgGalleryPokemon = Pick<PokemonEntry, "id" | "name" | "number">;
 type AppView = "deck" | "expansions" | "types";
-type BottomNavIconName = "deck" | "expansions" | "search" | "types";
+type BottomNavIconName = "deck" | "expansions" | "search" | "types" | "scan";
+
+type ScanMatch = {
+  id: string;
+  name: string;
+  setName: string;
+  setId: string;
+  number: string;
+  rarity: string | null;
+  artist: string | null;
+  imageUrl: string;
+  price?: TcgCardPrice | null;
+  score: number;
+};
 
 type TcgExpansion = {
   id: string;
@@ -122,6 +135,22 @@ function BottomNavIcon({ name }: { name: BottomNavIconName }) {
         <circle cx="8" cy="8.5" r="3.2" fill="none" stroke="currentColor" strokeWidth="2" />
         <circle cx="16" cy="8.5" r="3.2" fill="none" stroke="currentColor" strokeWidth="2" />
         <circle cx="12" cy="16" r="3.2" fill="none" stroke="currentColor" strokeWidth="2" />
+      </svg>
+    );
+  }
+
+  if (name === "scan") {
+    return (
+      <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+        <path
+          d="M4 8.5V7a2 2 0 0 1 2-2h2.2L9.5 3.5h5L15.8 5H18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8.5Z"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        />
+        <circle cx="12" cy="13" r="3.8" fill="none" stroke="currentColor" strokeWidth="2" />
       </svg>
     );
   }
@@ -230,8 +259,16 @@ export default function HomePage() {
   const [expansionsStatus, setExpansionsStatus] = useState("Expansion packs ready.");
   const [isExpansionCardsLoading, setIsExpansionCardsLoading] = useState(false);
   const [expansionCardsStatus, setExpansionCardsStatus] = useState("");
+  const [isScannerOpen, setIsScannerOpen] = useState(false);
+  const [isScanning, setIsScanning] = useState(false);
+  const [scanStatus, setScanStatus] = useState("Take a photo of a card to identify it.");
+  const [scanPreviewUrl, setScanPreviewUrl] = useState<string | null>(null);
+  const [scanMatches, setScanMatches] = useState<ScanMatch[]>([]);
+  const [scanOcrText, setScanOcrText] = useState("");
+  const [confirmedScanId, setConfirmedScanId] = useState<string | null>(null);
   const deckSearchInputRef = useRef<HTMLInputElement>(null);
   const expansionSearchInputRef = useRef<HTMLInputElement>(null);
+  const scanFileInputRef = useRef<HTMLInputElement>(null);
   const expansionCardsCacheRef = useRef<Map<string, { cards: TcgCard[]; status: string }>>(new Map());
   const ownCaught = caughtByUser[currentUser] ?? {};
   const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
@@ -263,6 +300,29 @@ export default function HomePage() {
       document.body.style.overflow = prevOverflow;
     };
   }, [isSettingsOpen]);
+
+  useEffect(() => {
+    if (!isScannerOpen) return;
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") closeScanner();
+    };
+    window.addEventListener("keydown", onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isScannerOpen]);
+
+  useEffect(() => {
+    return () => {
+      if (scanPreviewUrl && scanPreviewUrl.startsWith("blob:")) {
+        URL.revokeObjectURL(scanPreviewUrl);
+      }
+    };
+  }, [scanPreviewUrl]);
 
   useEffect(() => {
     if (!tcgGalleryPokemon) return;
@@ -719,6 +779,147 @@ export default function HomePage() {
       deckSearchInputRef.current?.focus();
       deckSearchInputRef.current?.select();
     }, 0);
+  };
+
+  const resetScannerState = () => {
+    setScanPreviewUrl((current) => {
+      if (current && current.startsWith("blob:")) {
+        URL.revokeObjectURL(current);
+      }
+      return null;
+    });
+    setScanMatches([]);
+    setScanOcrText("");
+    setConfirmedScanId(null);
+    setIsScanning(false);
+    setScanStatus("Take a photo of a card to identify it.");
+  };
+
+  const openScanner = () => {
+    resetScannerState();
+    setIsScannerOpen(true);
+    window.setTimeout(() => {
+      scanFileInputRef.current?.click();
+    }, 80);
+  };
+
+  const closeScanner = () => {
+    setIsScannerOpen(false);
+    resetScannerState();
+    if (scanFileInputRef.current) {
+      scanFileInputRef.current.value = "";
+    }
+  };
+
+  const parseCardText = (text: string): { name: string; number: string } => {
+    const lines = text
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+
+    let number = "";
+    for (const line of lines) {
+      const match = line.match(/(\d{1,4})\s*\/\s*(\d{1,4})/);
+      if (match) {
+        number = match[1];
+        break;
+      }
+    }
+
+    let name = "";
+    let bestScore = 0;
+    for (const line of lines.slice(0, 6)) {
+      const cleaned = line.replace(/[^A-Za-z' \-]/g, " ").replace(/\s+/g, " ").trim();
+      if (cleaned.length < 3) continue;
+      const letters = cleaned.replace(/[^A-Za-z]/g, "").length;
+      if (letters < 3) continue;
+      const score = letters * (cleaned === cleaned.toUpperCase() ? 1.2 : 1);
+      if (score > bestScore) {
+        bestScore = score;
+        name = cleaned;
+      }
+    }
+
+    return { name, number };
+  };
+
+  const runScan = async (file: File) => {
+    setIsScanning(true);
+    setScanMatches([]);
+    setScanOcrText("");
+    setConfirmedScanId(null);
+    setScanStatus("Reading card text...");
+
+    setScanPreviewUrl((current) => {
+      if (current && current.startsWith("blob:")) {
+        URL.revokeObjectURL(current);
+      }
+      return URL.createObjectURL(file);
+    });
+
+    try {
+      const tesseract = await import("tesseract.js");
+      const result = await tesseract.recognize(file, "eng");
+      const text = result.data.text ?? "";
+      setScanOcrText(text);
+
+      const { name, number } = parseCardText(text);
+      if (!name && !number) {
+        setScanStatus("Could not read any text. Try a sharper, well-lit photo.");
+        return;
+      }
+
+      setScanStatus(`Searching for ${[name, number].filter(Boolean).join(" · ") || "card"}...`);
+
+      const params = new URLSearchParams();
+      if (name) params.set("name", name);
+      if (number) params.set("number", number);
+
+      const response = await fetch(`/api/scan-search?${params.toString()}`);
+      const payload = (await response.json()) as { matches?: ScanMatch[]; message?: string };
+
+      if (!response.ok) {
+        setScanStatus(payload.message ?? "Search failed. Try again.");
+        return;
+      }
+
+      const matches = payload.matches ?? [];
+      if (!matches.length) {
+        setScanStatus(payload.message ?? "No matches found. Try a clearer photo.");
+        return;
+      }
+
+      setScanMatches(matches);
+      const top = matches[0];
+      if (top.score >= 80 && (matches.length === 1 || top.score - (matches[1]?.score ?? 0) >= 25)) {
+        setTcgCaughtStatus(top.id, true);
+        setConfirmedScanId(top.id);
+        setScanStatus(`Caught ${top.name} from ${top.setName}.`);
+      } else {
+        setScanStatus(
+          `Found ${matches.length} possible match${matches.length === 1 ? "" : "es"}. Pick one to catch.`,
+        );
+      }
+    } catch (error) {
+      console.error(error);
+      setScanStatus("Could not scan the card. Try again.");
+    } finally {
+      setIsScanning(false);
+    }
+  };
+
+  const handleScanFile = (event: FormEvent<HTMLInputElement>) => {
+    const input = event.currentTarget;
+    const file = input.files?.[0];
+    if (!file) return;
+    void runScan(file);
+    input.value = "";
+  };
+
+  const confirmScanMatch = (match: ScanMatch) => {
+    setTcgCaughtStatus(match.id, true);
+    setConfirmedScanId(match.id);
+    setScanStatus(`Caught ${match.name} from ${match.setName}.`);
   };
 
   const loadExpansions = async (force = false) => {
@@ -1358,6 +1559,130 @@ export default function HomePage() {
         </div>
       ) : null}
 
+      {isScannerOpen ? (
+        <div
+          className="settings-overlay scan-overlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Scan a card"
+          onClick={closeScanner}
+        >
+          <aside
+            className="settings-panel sidebar-card scan-panel"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <header className="settings-panel-header">
+              <h2 className="settings-panel-title">Scan a Card</h2>
+              <button
+                type="button"
+                className="settings-close"
+                onClick={closeScanner}
+                aria-label="Close scanner"
+              >
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M18.3 5.71a1 1 0 0 0-1.41 0L12 10.59 7.11 5.7a1 1 0 1 0-1.41 1.41L10.59 12 5.7 16.89a1 1 0 1 0 1.41 1.41L12 13.41l4.89 4.89a1 1 0 0 0 1.41-1.41L13.41 12l4.89-4.89a1 1 0 0 0 0-1.4Z"
+                  />
+                </svg>
+              </button>
+            </header>
+
+            <input
+              ref={scanFileInputRef}
+              type="file"
+              accept="image/*"
+              capture="environment"
+              className="scan-file-input"
+              onChange={handleScanFile}
+              aria-hidden="true"
+            />
+
+            <p className="scan-status">{scanStatus}</p>
+
+            {scanPreviewUrl ? (
+              <div className="scan-preview">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={scanPreviewUrl} alt="Captured card" />
+                {isScanning ? <div className="scan-preview-overlay">Scanning…</div> : null}
+              </div>
+            ) : (
+              <div className="scan-empty">
+                <button
+                  type="button"
+                  className="action-button action-button-wide"
+                  onClick={() => scanFileInputRef.current?.click()}
+                  disabled={isScanning}
+                >
+                  Take a photo
+                </button>
+              </div>
+            )}
+
+            {scanMatches.length ? (
+              <section className="sidebar-section">
+                <h2 className="sidebar-heading">Matches</h2>
+                <div className="scan-match-list">
+                  {scanMatches.map((match) => {
+                    const isCaught = Boolean(tcgCaughtByUser[currentUser]?.[match.id]);
+                    const isConfirmed = confirmedScanId === match.id;
+                    return (
+                      <article
+                        key={match.id}
+                        className={`scan-match-row ${isConfirmed ? "is-confirmed" : ""}`}
+                      >
+                        <Image
+                          src={match.imageUrl}
+                          alt={`${match.name} from ${match.setName}`}
+                          width={88}
+                          height={122}
+                          className="scan-match-image"
+                          sizes="88px"
+                          unoptimized
+                        />
+                        <div className="scan-match-copy">
+                          <h3>{match.name}</h3>
+                          <p>{match.setName} · {match.number}</p>
+                          <p className="scan-match-score">Confidence {match.score}%</p>
+                        </div>
+                        <button
+                          type="button"
+                          className={`scan-match-button ${isCaught ? "is-caught" : ""}`}
+                          onClick={() => confirmScanMatch(match)}
+                          aria-pressed={isCaught}
+                        >
+                          {isCaught ? "Caught" : "Catch"}
+                        </button>
+                      </article>
+                    );
+                  })}
+                </div>
+              </section>
+            ) : null}
+
+            {scanPreviewUrl ? (
+              <section className="sidebar-section">
+                <button
+                  type="button"
+                  className="action-button action-button-wide"
+                  onClick={() => scanFileInputRef.current?.click()}
+                  disabled={isScanning}
+                >
+                  Retake photo
+                </button>
+              </section>
+            ) : null}
+
+            {scanOcrText ? (
+              <details className="scan-ocr-details">
+                <summary>Show raw scanned text</summary>
+                <pre>{scanOcrText}</pre>
+              </details>
+            ) : null}
+          </aside>
+        </div>
+      ) : null}
+
       {tcgGalleryPokemon ? (
         <section
           className="tcg-gallery-overlay"
@@ -1927,6 +2252,16 @@ export default function HomePage() {
           title="Pokemon types"
         >
           <BottomNavIcon name="types" />
+        </button>
+        <button
+          type="button"
+          className={`bottom-nav-button ${isScannerOpen ? "is-active" : ""}`}
+          onClick={openScanner}
+          aria-label="Scan a card"
+          aria-pressed={isScannerOpen}
+          title="Scan a card"
+        >
+          <BottomNavIcon name="scan" />
         </button>
         <button
           type="button"

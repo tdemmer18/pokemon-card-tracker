@@ -1150,6 +1150,141 @@ a {
   background: transparent;
 }
 
+.scan-file-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scan-status {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.scan-preview {
+  position: relative;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface-strong);
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  display: grid;
+  place-items: center;
+}
+
+.scan-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.scan-preview-overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  backdrop-filter: blur(2px);
+}
+
+.scan-empty {
+  display: grid;
+  place-items: center;
+  padding: 20px 0 14px;
+}
+
+.scan-match-list {
+  display: grid;
+  gap: 10px;
+}
+
+.scan-match-row {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-strong);
+}
+
+.scan-match-row.is-confirmed {
+  border-color: var(--success);
+  background: color-mix(in srgb, var(--success-soft) 70%, var(--surface-strong));
+}
+
+.scan-match-image {
+  width: 88px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+  background: var(--surface);
+}
+
+.scan-match-copy {
+  min-width: 0;
+}
+
+.scan-match-copy h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.15;
+}
+
+.scan-match-copy p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.scan-match-score {
+  font-variant-numeric: tabular-nums;
+}
+
+.scan-match-button {
+  min-height: 36px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.scan-match-button.is-caught {
+  border-color: var(--success);
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+.scan-ocr-details {
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.scan-ocr-details pre {
+  margin: 8px 0 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--surface-strong);
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 180px;
+  overflow: auto;
+}
+
 .section-title {
   margin: 0;
   font-size: 1.4rem;

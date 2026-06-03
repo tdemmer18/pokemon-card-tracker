@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/api/expansions": ["./data/expansions.json"],
     "/api/expansion-cards": ["./data/cards/**"],
+    "/api/scan-search": ["./data/cards/**"],
   },
   images: {
     remotePatterns: [
