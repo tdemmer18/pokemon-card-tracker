@@ -263,9 +263,18 @@ export default function HomePage() {
   const [scanPreviewUrl, setScanPreviewUrl] = useState<string | null>(null);
   const [scanMatches, setScanMatches] = useState<ScanMatch[]>([]);
   const [confirmedScanId, setConfirmedScanId] = useState<string | null>(null);
+  const [scanCameraActive, setScanCameraActive] = useState(false);
+  const [scanCameraError, setScanCameraError] = useState<string | null>(null);
+  const [autoCaptureProgress, setAutoCaptureProgress] = useState(0);
   const deckSearchInputRef = useRef<HTMLInputElement>(null);
   const expansionSearchInputRef = useRef<HTMLInputElement>(null);
   const scanFileInputRef = useRef<HTMLInputElement>(null);
+  const scanVideoRef = useRef<HTMLVideoElement>(null);
+  const scanStreamRef = useRef<MediaStream | null>(null);
+  const scanFrameTimerRef = useRef<number | null>(null);
+  const scanLastHashRef = useRef<string>("");
+  const scanSteadyCountRef = useRef<number>(0);
+  const scanCapturedRef = useRef<boolean>(false);
   const expansionCardsCacheRef = useRef<Map<string, { cards: TcgCard[]; status: string }>>(new Map());
   const ownCaught = caughtByUser[currentUser] ?? {};
   const viewingTrainer = viewingAccount?.progress.currentUser ?? "";
@@ -778,7 +787,30 @@ export default function HomePage() {
     }, 0);
   };
 
-  const resetScannerState = () => {
+  const stopCamera = useCallback(() => {
+    if (scanFrameTimerRef.current !== null) {
+      window.clearInterval(scanFrameTimerRef.current);
+      scanFrameTimerRef.current = null;
+    }
+    const stream = scanStreamRef.current;
+    if (stream) {
+      for (const track of stream.getTracks()) {
+        track.stop();
+      }
+      scanStreamRef.current = null;
+    }
+    if (scanVideoRef.current) {
+      scanVideoRef.current.srcObject = null;
+    }
+    scanLastHashRef.current = "";
+    scanSteadyCountRef.current = 0;
+    scanCapturedRef.current = false;
+    setScanCameraActive(false);
+    setAutoCaptureProgress(0);
+  }, []);
+
+  const resetScannerState = useCallback(() => {
+    stopCamera();
     setScanPreviewUrl((current) => {
       if (current && current.startsWith("blob:")) {
         URL.revokeObjectURL(current);
@@ -788,15 +820,56 @@ export default function HomePage() {
     setScanMatches([]);
     setConfirmedScanId(null);
     setIsScanning(false);
-    setScanStatus("Take a photo of a card to identify it. Hold the card flat and fill the frame.");
-  };
+    setScanCameraError(null);
+    setScanStatus("Starting camera…");
+  }, [stopCamera]);
+
+  const startCamera = useCallback(async () => {
+    if (typeof navigator === "undefined" || !navigator.mediaDevices?.getUserMedia) {
+      setScanCameraError("Camera API not available in this browser.");
+      setScanStatus("Tap to upload a photo instead.");
+      return;
+    }
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: {
+          facingMode: { ideal: "environment" },
+          width: { ideal: 1280 },
+          height: { ideal: 1280 },
+        },
+        audio: false,
+      });
+      scanStreamRef.current = stream;
+      setScanCameraActive(true);
+      setScanCameraError(null);
+      setScanStatus("Aim at the card. Hold steady to auto-capture.");
+
+      // Wait until video element mounts and is ready.
+      window.setTimeout(async () => {
+        const video = scanVideoRef.current;
+        if (!video) return;
+        video.srcObject = stream;
+        try {
+          await video.play();
+        } catch {
+          // Some browsers need a user gesture; play will resume on next render.
+        }
+      }, 60);
+    } catch (error) {
+      console.warn("camera start failed", error);
+      const message =
+        error instanceof DOMException && error.name === "NotAllowedError"
+          ? "Camera permission denied. Tap to upload a photo instead."
+          : "Live camera unavailable. Tap to upload a photo instead.";
+      setScanCameraError(message);
+      setScanStatus(message);
+    }
+  }, []);
 
   const openScanner = () => {
     resetScannerState();
     setIsScannerOpen(true);
-    window.setTimeout(() => {
-      scanFileInputRef.current?.click();
-    }, 80);
+    void startCamera();
   };
 
   const closeScanner = () => {
@@ -964,6 +1037,110 @@ export default function HomePage() {
     void runScan(file);
     input.value = "";
   };
+
+  const captureFromVideo = useCallback(async () => {
+    const video = scanVideoRef.current;
+    if (!video) return;
+    const width = video.videoWidth;
+    const height = video.videoHeight;
+    if (!width || !height) return;
+
+    const canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+    ctx.drawImage(video, 0, 0);
+
+    stopCamera();
+
+    const blob = await new Promise<Blob | null>((resolve) =>
+      canvas.toBlob(resolve, "image/jpeg", 0.92),
+    );
+    if (!blob) {
+      setScanStatus("Could not capture frame. Try again.");
+      return;
+    }
+    await runScan(blob);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [stopCamera]);
+
+  // Frame-by-frame analysis: hash each ~150ms frame and watch for a steady
+  // run of low-distance hashes. When the camera has been still long enough
+  // we trigger the high-res capture.
+  useEffect(() => {
+    if (!scanCameraActive) return;
+
+    const STEADY_FRAMES_NEEDED = 4;
+    const FRAME_INTERVAL_MS = 160;
+    const STEADY_DISTANCE = 3;
+
+    const tick = () => {
+      const video = scanVideoRef.current;
+      if (!video || video.readyState < 2 || scanCapturedRef.current) return;
+      if (video.videoWidth === 0) return;
+
+      const small = document.createElement("canvas");
+      small.width = 9;
+      small.height = 8;
+      const ctx = small.getContext("2d");
+      if (!ctx) return;
+      ctx.drawImage(video, 0, 0, 9, 8);
+      const { data } = ctx.getImageData(0, 0, 9, 8);
+      const gray = new Uint8Array(72);
+      for (let i = 0; i < 72; i += 1) {
+        gray[i] = Math.round(
+          0.299 * data[i * 4] + 0.587 * data[i * 4 + 1] + 0.114 * data[i * 4 + 2],
+        );
+      }
+      let bits = "";
+      for (let y = 0; y < 8; y += 1) {
+        for (let x = 0; x < 8; x += 1) {
+          bits += gray[y * 9 + x] < gray[y * 9 + x + 1] ? "1" : "0";
+        }
+      }
+      let hex = "";
+      for (let i = 0; i < 64; i += 4) {
+        hex += parseInt(bits.slice(i, i + 4), 2).toString(16);
+      }
+
+      const previous = scanLastHashRef.current;
+      if (previous) {
+        let distance = 0;
+        for (let i = 0; i < hex.length; i += 1) {
+          let xor = parseInt(hex[i], 16) ^ parseInt(previous[i], 16);
+          while (xor) {
+            distance += xor & 1;
+            xor >>= 1;
+          }
+        }
+        if (distance <= STEADY_DISTANCE) {
+          scanSteadyCountRef.current += 1;
+        } else {
+          scanSteadyCountRef.current = 0;
+        }
+      }
+      scanLastHashRef.current = hex;
+
+      const progress = Math.min(scanSteadyCountRef.current / STEADY_FRAMES_NEEDED, 1);
+      setAutoCaptureProgress(progress);
+
+      if (scanSteadyCountRef.current >= STEADY_FRAMES_NEEDED) {
+        scanCapturedRef.current = true;
+        setScanStatus("Captured. Identifying card…");
+        void captureFromVideo();
+      }
+    };
+
+    const id = window.setInterval(tick, FRAME_INTERVAL_MS);
+    scanFrameTimerRef.current = id;
+    return () => {
+      window.clearInterval(id);
+      if (scanFrameTimerRef.current === id) {
+        scanFrameTimerRef.current = null;
+      }
+    };
+  }, [scanCameraActive, captureFromVideo]);
 
   const confirmScanMatch = (match: ScanMatch) => {
     setTcgCaughtStatus(match.id, true);
@@ -1649,7 +1826,40 @@ export default function HomePage() {
 
             <p className="scan-status">{scanStatus}</p>
 
-            {scanPreviewUrl ? (
+            {scanCameraActive && !scanPreviewUrl ? (
+              <div className="scan-camera">
+                <video
+                  ref={scanVideoRef}
+                  className="scan-camera-video"
+                  playsInline
+                  muted
+                  autoPlay
+                />
+                <div className="scan-aim" aria-hidden="true">
+                  <span className="scan-aim-corner scan-aim-corner-tl" />
+                  <span className="scan-aim-corner scan-aim-corner-tr" />
+                  <span className="scan-aim-corner scan-aim-corner-bl" />
+                  <span className="scan-aim-corner scan-aim-corner-br" />
+                </div>
+                <div
+                  className="scan-aim-progress"
+                  style={{ width: `${Math.round(autoCaptureProgress * 100)}%` }}
+                  aria-hidden="true"
+                />
+                <button
+                  type="button"
+                  className="scan-capture-button"
+                  onClick={() => {
+                    if (scanCapturedRef.current) return;
+                    scanCapturedRef.current = true;
+                    void captureFromVideo();
+                  }}
+                  aria-label="Capture card now"
+                >
+                  <span className="scan-capture-ring" />
+                </button>
+              </div>
+            ) : scanPreviewUrl ? (
               <div className="scan-preview">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={scanPreviewUrl} alt="Captured card" />
@@ -1663,7 +1873,7 @@ export default function HomePage() {
                   onClick={() => scanFileInputRef.current?.click()}
                   disabled={isScanning}
                 >
-                  Take a photo
+                  {scanCameraError ? "Upload a photo" : "Take a photo"}
                 </button>
               </div>
             )}
@@ -1714,10 +1924,13 @@ export default function HomePage() {
                 <button
                   type="button"
                   className="action-button action-button-wide"
-                  onClick={() => scanFileInputRef.current?.click()}
+                  onClick={() => {
+                    resetScannerState();
+                    void startCamera();
+                  }}
                   disabled={isScanning}
                 >
-                  Retake photo
+                  Scan another card
                 </button>
               </section>
             ) : null}
