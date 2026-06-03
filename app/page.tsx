@@ -1705,7 +1705,7 @@ export default function HomePage() {
 
             <div className="expansions-list">
               <article
-                className="expansion-row type-row"
+                className="expansion-row type-list-row"
                 key="__all"
                 onClick={() => openTypeDeck("All Types")}
                 role="button"
@@ -1739,7 +1739,7 @@ export default function HomePage() {
                 const accent = TYPE_ACCENTS[type] ?? "#94a3b8";
                 return (
                   <article
-                    className="expansion-row type-row"
+                    className="expansion-row type-list-row"
                     key={type}
                     onClick={() => openTypeDeck(type)}
                     role="button"
