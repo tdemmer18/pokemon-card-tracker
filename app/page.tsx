@@ -863,19 +863,19 @@ export default function HomePage() {
       const text = result.data.text ?? "";
       setScanOcrText(text);
 
-      const { name, number } = parseCardText(text);
-      if (!name && !number) {
-        setScanStatus("Could not read any text. Try a sharper, well-lit photo.");
+      if (!text.trim()) {
+        setScanStatus("Could not read any text from the photo. Try a sharper, well-lit shot.");
         return;
       }
 
-      setScanStatus(`Searching for ${[name, number].filter(Boolean).join(" · ") || "card"}...`);
+      const { name, number } = parseCardText(text);
+      setScanStatus("Matching against the card library...");
 
-      const params = new URLSearchParams();
-      if (name) params.set("name", name);
-      if (number) params.set("number", number);
-
-      const response = await fetch(`/api/scan-search?${params.toString()}`);
+      const response = await fetch("/api/scan-search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text, name, number }),
+      });
       const payload = (await response.json()) as { matches?: ScanMatch[]; message?: string };
 
       if (!response.ok) {
@@ -891,13 +891,14 @@ export default function HomePage() {
 
       setScanMatches(matches);
       const top = matches[0];
-      if (top.score >= 80 && (matches.length === 1 || top.score - (matches[1]?.score ?? 0) >= 25)) {
+      const runnerUp = matches[1]?.score ?? 0;
+      if (top.score >= 70 && (matches.length === 1 || top.score - runnerUp >= 20)) {
         setTcgCaughtStatus(top.id, true);
         setConfirmedScanId(top.id);
         setScanStatus(`Caught ${top.name} from ${top.setName}.`);
       } else {
         setScanStatus(
-          `Found ${matches.length} possible match${matches.length === 1 ? "" : "es"}. Pick one to catch.`,
+          `Found ${matches.length} possible match${matches.length === 1 ? "" : "es"}. Pick the right one to catch.`,
         );
       }
     } catch (error) {
@@ -1674,8 +1675,8 @@ export default function HomePage() {
             ) : null}
 
             {scanOcrText ? (
-              <details className="scan-ocr-details">
-                <summary>Show raw scanned text</summary>
+              <details className="scan-ocr-details" open={!scanMatches.length}>
+                <summary>Raw scanned text</summary>
                 <pre>{scanOcrText}</pre>
               </details>
             ) : null}

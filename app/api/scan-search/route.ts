@@ -17,12 +17,44 @@ type TcgCard = {
 type IndexedCard = TcgCard & {
   setId: string;
   nameKey: string;
+  nameTokens: string[];
   numberKey: string;
 };
 
 let cachedIndex: IndexedCard[] | null = null;
 let cacheBuiltAt = 0;
 const CACHE_TTL_MS = 5 * 60 * 1000;
+
+const STOP_TOKENS = new Set([
+  "the",
+  "and",
+  "for",
+  "from",
+  "with",
+  "this",
+  "that",
+  "ex",
+  "gx",
+  "vmax",
+  "vstar",
+  "tag",
+  "team",
+  "card",
+  "cards",
+  "pokemon",
+  "hp",
+  "weakness",
+  "resistance",
+  "retreat",
+  "damage",
+  "attack",
+  "ability",
+  "energy",
+  "trainer",
+  "stage",
+  "basic",
+  "evolves",
+]);
 
 function normalizeName(value: string): string {
   return value
@@ -34,6 +66,22 @@ function normalizeName(value: string): string {
 
 function normalizeNumber(value: string): string {
   return value.toLowerCase().replace(/^0+/, "").trim();
+}
+
+function tokenize(value: string): string[] {
+  return normalizeName(value)
+    .split(" ")
+    .filter((token) => token.length >= 3 && !STOP_TOKENS.has(token));
+}
+
+function extractNumbers(value: string): string[] {
+  const numbers = new Set<string>();
+  const pattern = /(\d{1,4})\s*[\/\\|]\s*(\d{1,4})/g;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(value)) !== null) {
+    numbers.add(normalizeNumber(match[1]));
+  }
+  return [...numbers];
 }
 
 async function buildIndex(): Promise<IndexedCard[]> {
@@ -53,10 +101,12 @@ async function buildIndex(): Promise<IndexedCard[]> {
       const cards = JSON.parse(await readFile(path.join(dir, file), "utf8")) as TcgCard[];
       if (!Array.isArray(cards)) continue;
       for (const card of cards) {
+        const nameKey = normalizeName(card.name);
         all.push({
           ...card,
           setId,
-          nameKey: normalizeName(card.name),
+          nameKey,
+          nameTokens: nameKey.split(" ").filter((token) => token.length >= 3),
           numberKey: normalizeNumber(card.number),
         });
       }
@@ -70,56 +120,87 @@ async function buildIndex(): Promise<IndexedCard[]> {
   return all;
 }
 
-function scoreCandidate(card: IndexedCard, nameTokens: string[], numberKey: string | null): number {
+function scoreCandidate(
+  card: IndexedCard,
+  scanTokenSet: Set<string>,
+  numberKeys: string[],
+  setNameTokenSet: Set<string>,
+): number {
   let score = 0;
-  if (numberKey && card.numberKey === numberKey) {
-    score += 60;
+
+  if (numberKeys.length && numberKeys.includes(card.numberKey)) {
+    score += 55;
   }
-  if (nameTokens.length) {
-    const cardTokens = card.nameKey.split(" ").filter(Boolean);
-    let hits = 0;
-    for (const token of nameTokens) {
-      if (token.length < 2) continue;
-      if (cardTokens.includes(token)) {
-        hits += 1;
-      } else if (card.nameKey.includes(token)) {
-        hits += 0.6;
+
+  if (card.nameTokens.length) {
+    let nameHits = 0;
+    for (const token of card.nameTokens) {
+      if (scanTokenSet.has(token)) {
+        nameHits += 1;
       }
     }
-    if (hits > 0) {
-      score += (hits / Math.max(nameTokens.length, 1)) * 40;
+    const nameRatio = nameHits / card.nameTokens.length;
+    score += nameRatio * 45;
+  }
+
+  if (setNameTokenSet.size) {
+    const setTokens = normalizeName(card.setName)
+      .split(" ")
+      .filter((token) => token.length >= 3 && !STOP_TOKENS.has(token));
+    let setHits = 0;
+    for (const token of setTokens) {
+      if (setNameTokenSet.has(token)) {
+        setHits += 1;
+      }
+    }
+    if (setTokens.length && setHits > 0) {
+      score += (setHits / setTokens.length) * 15;
     }
   }
+
   return score;
 }
 
-export async function GET(request: NextRequest) {
-  const url = new URL(request.url);
-  const rawName = url.searchParams.get("name") ?? "";
-  const rawNumber = url.searchParams.get("number") ?? "";
-  const setId = url.searchParams.get("setId");
+async function search({
+  text,
+  name,
+  number,
+  setId,
+}: {
+  text: string;
+  name: string;
+  number: string;
+  setId: string | null;
+}) {
+  const haystack = [text, name].filter(Boolean).join("\n");
+  const tokenSet = new Set(tokenize(haystack));
+  const setNameTokens = new Set(tokenize(text));
+  const numberKeys = extractNumbers(haystack);
+  if (number) {
+    const explicit = normalizeNumber(number);
+    if (explicit && !numberKeys.includes(explicit)) {
+      numberKeys.push(explicit);
+    }
+  }
 
-  const nameKey = normalizeName(rawName);
-  const nameTokens = nameKey.split(" ").filter((token) => token.length > 1);
-  const numberKey = rawNumber ? normalizeNumber(rawNumber) : null;
-
-  if (!nameTokens.length && !numberKey) {
-    return NextResponse.json(
-      { matches: [], message: "Provide a name or number to search for." },
-      { status: 400 },
-    );
+  if (!tokenSet.size && !numberKeys.length) {
+    return {
+      matches: [] as Array<ScanMatchResponse>,
+      message: "Could not read any text from the photo.",
+      status: 400,
+    };
   }
 
   const index = await buildIndex();
   const pool = setId ? index.filter((card) => card.setId === setId) : index;
 
   const scored = pool
-    .map((card) => ({ card, score: scoreCandidate(card, nameTokens, numberKey) }))
-    .filter((entry) => entry.score >= 30)
+    .map((card) => ({ card, score: scoreCandidate(card, tokenSet, numberKeys, setNameTokens) }))
+    .filter((entry) => entry.score >= 18)
     .sort((left, right) => right.score - left.score)
-    .slice(0, 8);
+    .slice(0, 10);
 
-  const matches = scored.map(({ card, score }) => ({
+  const matches: ScanMatchResponse[] = scored.map(({ card, score }) => ({
     id: card.id,
     name: card.name,
     setName: card.setName,
@@ -132,10 +213,57 @@ export async function GET(request: NextRequest) {
     score: Math.round(score),
   }));
 
-  return NextResponse.json({
+  return {
     matches,
     message: matches.length
       ? `Found ${matches.length} possible match${matches.length === 1 ? "" : "es"}.`
-      : "No matches found.",
+      : "No matches found. Try a clearer photo or include the card number.",
+    status: 200,
+  };
+}
+
+type ScanMatchResponse = {
+  id: string;
+  name: string;
+  setName: string;
+  setId: string;
+  number: string;
+  rarity: string | null;
+  artist: string | null;
+  imageUrl: string;
+  price: TcgCardPrice | null;
+  score: number;
+};
+
+export async function GET(request: NextRequest) {
+  const url = new URL(request.url);
+  const result = await search({
+    text: url.searchParams.get("text") ?? "",
+    name: url.searchParams.get("name") ?? "",
+    number: url.searchParams.get("number") ?? "",
+    setId: url.searchParams.get("setId"),
   });
+  return NextResponse.json(
+    { matches: result.matches, message: result.message },
+    { status: result.status },
+  );
+}
+
+export async function POST(request: NextRequest) {
+  const body = (await request.json().catch(() => ({}))) as {
+    text?: string;
+    name?: string;
+    number?: string;
+    setId?: string | null;
+  };
+  const result = await search({
+    text: body.text ?? "",
+    name: body.name ?? "",
+    number: body.number ?? "",
+    setId: body.setId ?? null,
+  });
+  return NextResponse.json(
+    { matches: result.matches, message: result.message },
+    { status: result.status },
+  );
 }
