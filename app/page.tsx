@@ -90,11 +90,9 @@ type ScanMatch = {
   setName: string;
   setId: string;
   number: string;
-  rarity: string | null;
-  artist: string | null;
   imageUrl: string;
-  price?: TcgCardPrice | null;
-  score: number;
+  distance: number;
+  confidence: number;
 };
 
 type TcgExpansion = {
@@ -264,7 +262,6 @@ export default function HomePage() {
   const [scanStatus, setScanStatus] = useState("Take a photo of a card to identify it.");
   const [scanPreviewUrl, setScanPreviewUrl] = useState<string | null>(null);
   const [scanMatches, setScanMatches] = useState<ScanMatch[]>([]);
-  const [scanOcrText, setScanOcrText] = useState("");
   const [confirmedScanId, setConfirmedScanId] = useState<string | null>(null);
   const deckSearchInputRef = useRef<HTMLInputElement>(null);
   const expansionSearchInputRef = useRef<HTMLInputElement>(null);
@@ -789,10 +786,9 @@ export default function HomePage() {
       return null;
     });
     setScanMatches([]);
-    setScanOcrText("");
     setConfirmedScanId(null);
     setIsScanning(false);
-    setScanStatus("Take a photo of a card to identify it.");
+    setScanStatus("Take a photo of a card to identify it. Hold the card flat and fill the frame.");
   };
 
   const openScanner = () => {
@@ -811,44 +807,86 @@ export default function HomePage() {
     }
   };
 
-  const parseCardText = (text: string): { name: string; number: string } => {
-    const lines = text
-      .split(/\r?\n/)
-      .map((line) => line.trim())
-      .filter(Boolean);
+  const loadImageFromBlob = (blob: Blob): Promise<HTMLImageElement> =>
+    new Promise((resolve, reject) => {
+      const objectUrl = URL.createObjectURL(blob);
+      const image = new window.Image();
+      image.onload = () => {
+        URL.revokeObjectURL(objectUrl);
+        resolve(image);
+      };
+      image.onerror = () => {
+        URL.revokeObjectURL(objectUrl);
+        reject(new Error("Could not decode image."));
+      };
+      image.src = objectUrl;
+    });
 
-    let number = "";
-    for (const line of lines) {
-      const match = line.match(/(\d{1,4})\s*\/\s*(\d{1,4})/);
-      if (match) {
-        number = match[1];
-        break;
+  // Client-side dHash matching the server-side build (9x8 grayscale, row
+  // adjacency compare). Returns 16 hex chars representing a 64-bit hash.
+  const computeDhashFromImage = (
+    image: HTMLImageElement,
+    crop?: { x: number; y: number; width: number; height: number },
+  ): string => {
+    const canvas = document.createElement("canvas");
+    canvas.width = 9;
+    canvas.height = 8;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) throw new Error("Canvas not available.");
+
+    const sourceX = crop?.x ?? 0;
+    const sourceY = crop?.y ?? 0;
+    const sourceW = crop?.width ?? image.naturalWidth;
+    const sourceH = crop?.height ?? image.naturalHeight;
+    ctx.drawImage(image, sourceX, sourceY, sourceW, sourceH, 0, 0, 9, 8);
+
+    const { data } = ctx.getImageData(0, 0, 9, 8);
+    const gray = new Uint8Array(72);
+    for (let i = 0; i < 72; i += 1) {
+      const r = data[i * 4];
+      const g = data[i * 4 + 1];
+      const b = data[i * 4 + 2];
+      gray[i] = Math.round(0.299 * r + 0.587 * g + 0.114 * b);
+    }
+
+    let bits = "";
+    for (let y = 0; y < 8; y += 1) {
+      for (let x = 0; x < 8; x += 1) {
+        bits += gray[y * 9 + x] < gray[y * 9 + x + 1] ? "1" : "0";
       }
     }
 
-    let name = "";
-    let bestScore = 0;
-    for (const line of lines.slice(0, 6)) {
-      const cleaned = line.replace(/[^A-Za-z' \-]/g, " ").replace(/\s+/g, " ").trim();
-      if (cleaned.length < 3) continue;
-      const letters = cleaned.replace(/[^A-Za-z]/g, "").length;
-      if (letters < 3) continue;
-      const score = letters * (cleaned === cleaned.toUpperCase() ? 1.2 : 1);
-      if (score > bestScore) {
-        bestScore = score;
-        name = cleaned;
-      }
+    let hex = "";
+    for (let i = 0; i < 64; i += 4) {
+      hex += parseInt(bits.slice(i, i + 4), 2).toString(16);
     }
-
-    return { name, number };
+    return hex;
   };
 
-  const runScan = async (file: File) => {
+  // Card aspect is 63:88 (~0.716). Crop a centered rectangle of that aspect
+  // from the captured photo so the hash isn't polluted by table / hand.
+  const centerCardCrop = (image: HTMLImageElement) => {
+    const cardRatio = 63 / 88;
+    const imgRatio = image.naturalWidth / image.naturalHeight;
+    let width: number;
+    let height: number;
+    if (imgRatio > cardRatio) {
+      height = image.naturalHeight;
+      width = Math.round(height * cardRatio);
+    } else {
+      width = image.naturalWidth;
+      height = Math.round(width / cardRatio);
+    }
+    const x = Math.round((image.naturalWidth - width) / 2);
+    const y = Math.round((image.naturalHeight - height) / 2);
+    return { x, y, width, height };
+  };
+
+  const runScan = async (file: Blob) => {
     setIsScanning(true);
     setScanMatches([]);
-    setScanOcrText("");
     setConfirmedScanId(null);
-    setScanStatus("Reading card text...");
+    setScanStatus("Analysing photo...");
 
     setScanPreviewUrl((current) => {
       if (current && current.startsWith("blob:")) {
@@ -858,47 +896,56 @@ export default function HomePage() {
     });
 
     try {
-      const tesseract = await import("tesseract.js");
-      const result = await tesseract.recognize(file, "eng");
-      const text = result.data.text ?? "";
-      setScanOcrText(text);
+      const image = await loadImageFromBlob(file);
+      const fullHash = computeDhashFromImage(image);
+      const croppedHash = computeDhashFromImage(image, centerCardCrop(image));
 
-      if (!text.trim()) {
-        setScanStatus("Could not read any text from the photo. Try a sharper, well-lit shot.");
-        return;
-      }
-
-      const { name, number } = parseCardText(text);
       setScanStatus("Matching against the card library...");
 
-      const response = await fetch("/api/scan-search", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text, name, number }),
-      });
-      const payload = (await response.json()) as { matches?: ScanMatch[]; message?: string };
+      const requests = [fullHash, croppedHash].map((hash) =>
+        fetch("/api/scan-match", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ hash, topN: 8 }),
+        }).then((response) => response.json()),
+      );
 
-      if (!response.ok) {
-        setScanStatus(payload.message ?? "Search failed. Try again.");
-        return;
+      const [fullResult, croppedResult] = (await Promise.all(requests)) as Array<{
+        matches?: ScanMatch[];
+        message?: string;
+      }>;
+
+      const merged = new Map<string, ScanMatch>();
+      for (const list of [croppedResult?.matches ?? [], fullResult?.matches ?? []]) {
+        for (const match of list) {
+          const existing = merged.get(match.id);
+          if (!existing || match.distance < existing.distance) {
+            merged.set(match.id, match);
+          }
+        }
       }
 
-      const matches = payload.matches ?? [];
+      const matches = [...merged.values()].sort((left, right) => left.distance - right.distance).slice(0, 8);
       if (!matches.length) {
-        setScanStatus(payload.message ?? "No matches found. Try a clearer photo.");
+        setScanStatus(
+          fullResult?.message ??
+            croppedResult?.message ??
+            "No close matches. Try a sharper, glare-free photo of the full card.",
+        );
         return;
       }
 
       setScanMatches(matches);
       const top = matches[0];
-      const runnerUp = matches[1]?.score ?? 0;
-      if (top.score >= 70 && (matches.length === 1 || top.score - runnerUp >= 20)) {
+      const runnerUp = matches[1]?.distance ?? 64;
+      const isStrong = top.distance <= 8 && runnerUp - top.distance >= 4;
+      if (isStrong) {
         setTcgCaughtStatus(top.id, true);
         setConfirmedScanId(top.id);
-        setScanStatus(`Caught ${top.name} from ${top.setName}.`);
+        setScanStatus(`Caught ${top.name} from ${top.setName} (${top.confidence}% match).`);
       } else {
         setScanStatus(
-          `Found ${matches.length} possible match${matches.length === 1 ? "" : "es"}. Pick the right one to catch.`,
+          `${matches.length} candidate${matches.length === 1 ? "" : "s"} found. Pick the right printing.`,
         );
       }
     } catch (error) {
@@ -908,6 +955,7 @@ export default function HomePage() {
       setIsScanning(false);
     }
   };
+
 
   const handleScanFile = (event: FormEvent<HTMLInputElement>) => {
     const input = event.currentTarget;
@@ -1644,7 +1692,7 @@ export default function HomePage() {
                         <div className="scan-match-copy">
                           <h3>{match.name}</h3>
                           <p>{match.setName} · {match.number}</p>
-                          <p className="scan-match-score">Confidence {match.score}%</p>
+                          <p className="scan-match-score">Match {match.confidence}% · dist {match.distance}</p>
                         </div>
                         <button
                           type="button"
@@ -1674,12 +1722,6 @@ export default function HomePage() {
               </section>
             ) : null}
 
-            {scanOcrText ? (
-              <details className="scan-ocr-details" open={!scanMatches.length}>
-                <summary>Raw scanned text</summary>
-                <pre>{scanOcrText}</pre>
-              </details>
-            ) : null}
           </aside>
         </div>
       ) : null}
