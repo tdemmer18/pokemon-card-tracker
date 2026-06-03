@@ -896,10 +896,13 @@ export default function HomePage() {
     });
 
   // Client-side dHash matching the server-side build (9x8 grayscale, row
-  // adjacency compare). Returns 16 hex chars representing a 64-bit hash.
+  // adjacency compare). Returns 16 hex chars representing a 64-bit hash. The
+  // optional `rotationDegrees` rotates the cropped region so we can probe at
+  // 0/90/180/270 in case the user holds the phone landscape.
   const computeDhashFromImage = (
     image: HTMLImageElement,
     crop?: { x: number; y: number; width: number; height: number },
+    rotationDegrees: 0 | 90 | 180 | 270 = 0,
   ): string => {
     const canvas = document.createElement("canvas");
     canvas.width = 9;
@@ -911,7 +914,26 @@ export default function HomePage() {
     const sourceY = crop?.y ?? 0;
     const sourceW = crop?.width ?? image.naturalWidth;
     const sourceH = crop?.height ?? image.naturalHeight;
-    ctx.drawImage(image, sourceX, sourceY, sourceW, sourceH, 0, 0, 9, 8);
+
+    if (rotationDegrees === 0) {
+      ctx.drawImage(image, sourceX, sourceY, sourceW, sourceH, 0, 0, 9, 8);
+    } else {
+      // Render the (cropped) source into an intermediate canvas at a sane
+      // size, then rotate that into the 9x8 target. Avoids floating point
+      // weirdness with very small rotated draws.
+      const intermediate = document.createElement("canvas");
+      intermediate.width = 72;
+      intermediate.height = 72;
+      const ictx = intermediate.getContext("2d");
+      if (!ictx) throw new Error("Canvas not available.");
+      ictx.drawImage(image, sourceX, sourceY, sourceW, sourceH, 0, 0, 72, 72);
+
+      ctx.save();
+      ctx.translate(4.5, 4);
+      ctx.rotate((rotationDegrees * Math.PI) / 180);
+      ctx.drawImage(intermediate, -4.5, -4, 9, 8);
+      ctx.restore();
+    }
 
     const { data } = ctx.getImageData(0, 0, 9, 8);
     const gray = new Uint8Array(72);
@@ -955,6 +977,82 @@ export default function HomePage() {
     return { x, y, width, height };
   };
 
+  // Tighter crop matching the on-screen aim rectangle (~72% of the smaller
+  // dimension, at card aspect). Used in addition to the full-frame crop above.
+  const aimRectCrop = (image: HTMLImageElement) => {
+    const cardRatio = 63 / 88;
+    const smaller = Math.min(image.naturalWidth, image.naturalHeight);
+    const target = smaller * 0.72;
+    let width = target * cardRatio;
+    let height = target;
+    if (height > image.naturalHeight) {
+      height = image.naturalHeight;
+      width = height * cardRatio;
+    }
+    if (width > image.naturalWidth) {
+      width = image.naturalWidth;
+      height = width / cardRatio;
+    }
+    return {
+      x: Math.round((image.naturalWidth - width) / 2),
+      y: Math.round((image.naturalHeight - height) / 2),
+      width: Math.round(width),
+      height: Math.round(height),
+    };
+  };
+
+  const normalizeText = (value: string): string =>
+    value
+      .toLowerCase()
+      .replace(/[‘’“”]/g, "")
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+
+  const tokenizeText = (value: string): Set<string> => {
+    const stop = new Set([
+      "the",
+      "and",
+      "for",
+      "this",
+      "that",
+      "from",
+      "with",
+      "hp",
+      "ex",
+      "gx",
+      "vmax",
+      "vstar",
+      "pokemon",
+      "stage",
+      "basic",
+      "evolves",
+      "weakness",
+      "resistance",
+      "retreat",
+      "energy",
+      "trainer",
+      "ability",
+      "attack",
+      "damage",
+    ]);
+    return new Set(
+      normalizeText(value)
+        .split(" ")
+        .filter((token) => token.length >= 3 && !stop.has(token)),
+    );
+  };
+
+  const ocrFromBlob = async (blob: Blob): Promise<string> => {
+    try {
+      const tesseract = await import("tesseract.js");
+      const result = await tesseract.recognize(blob, "eng");
+      return result.data.text ?? "";
+    } catch (error) {
+      console.warn("ocr failed", error);
+      return "";
+    }
+  };
+
   const runScan = async (file: Blob) => {
     setIsScanning(true);
     setScanMatches([]);
@@ -970,55 +1068,88 @@ export default function HomePage() {
 
     try {
       const image = await loadImageFromBlob(file);
-      const fullHash = computeDhashFromImage(image);
-      const croppedHash = computeDhashFromImage(image, centerCardCrop(image));
+      const fullCrop = { x: 0, y: 0, width: image.naturalWidth, height: image.naturalHeight };
+      const centerCrop = centerCardCrop(image);
+      const aimCrop = aimRectCrop(image);
+
+      const rotations: Array<0 | 90 | 180 | 270> = [0, 90, 180, 270];
+      const hashSet = new Set<string>();
+      for (const crop of [aimCrop, centerCrop, fullCrop]) {
+        for (const rotation of rotations) {
+          hashSet.add(computeDhashFromImage(image, crop, rotation));
+        }
+      }
+      const hashes = [...hashSet];
 
       setScanStatus("Matching against the card library...");
 
-      const requests = [fullHash, croppedHash].map((hash) =>
-        fetch("/api/scan-match", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ hash, topN: 8 }),
-        }).then((response) => response.json()),
-      );
-
-      const [fullResult, croppedResult] = (await Promise.all(requests)) as Array<{
+      const hashRequest = fetch("/api/scan-match", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ hashes, topN: 25 }),
+      }).then((response) => response.json()) as Promise<{
         matches?: ScanMatch[];
         message?: string;
       }>;
 
-      const merged = new Map<string, ScanMatch>();
-      for (const list of [croppedResult?.matches ?? [], fullResult?.matches ?? []]) {
-        for (const match of list) {
-          const existing = merged.get(match.id);
-          if (!existing || match.distance < existing.distance) {
-            merged.set(match.id, match);
-          }
-        }
-      }
+      const [hashResult, ocrText] = await Promise.all([hashRequest, ocrFromBlob(file)]);
 
-      const matches = [...merged.values()].sort((left, right) => left.distance - right.distance).slice(0, 8);
+      const matches = hashResult?.matches ?? [];
       if (!matches.length) {
         setScanStatus(
-          fullResult?.message ??
-            croppedResult?.message ??
+          hashResult?.message ??
             "No close matches. Try a sharper, glare-free photo of the full card.",
         );
         return;
       }
 
-      setScanMatches(matches);
-      const top = matches[0];
-      const runnerUp = matches[1]?.distance ?? 64;
-      const isStrong = top.distance <= 8 && runnerUp - top.distance >= 4;
+      const ocrTokens = tokenizeText(ocrText);
+      const scored = matches.map((match) => {
+        const nameTokens = tokenizeText(match.name);
+        const setTokens = tokenizeText(match.setName);
+        let nameHits = 0;
+        for (const token of nameTokens) {
+          if (ocrTokens.has(token)) nameHits += 1;
+        }
+        let setHits = 0;
+        for (const token of setTokens) {
+          if (ocrTokens.has(token)) setHits += 1;
+        }
+        const nameRatio = nameTokens.size ? nameHits / nameTokens.size : 0;
+        const setRatio = setTokens.size ? setHits / setTokens.size : 0;
+        // hash component: 1 at distance 0, 0 at distance >=32
+        const hashScore = Math.max(0, 1 - match.distance / 32);
+        const ocrBoost = nameRatio * 0.7 + setRatio * 0.3;
+        const composite = hashScore * 0.65 + ocrBoost * 0.35;
+        return { match, composite, nameHits, ocrBoost };
+      });
+      scored.sort((left, right) => right.composite - left.composite);
+
+      const ranked = scored.slice(0, 8).map(({ match, composite }) => ({
+        ...match,
+        confidence: Math.round(composite * 100),
+      }));
+
+      setScanMatches(ranked);
+
+      const top = scored[0];
+      const runnerUp = scored[1]?.composite ?? 0;
+      const compositeLead = top.composite - runnerUp;
+      const ocrAgrees = top.nameHits > 0;
+      const hashIsClose = top.match.distance <= 14;
+      const isStrong =
+        (top.match.distance <= 6 && compositeLead >= 0.08) ||
+        (ocrAgrees && hashIsClose && compositeLead >= 0.06);
+
       if (isStrong) {
-        setTcgCaughtStatus(top.id, true);
-        setConfirmedScanId(top.id);
-        setScanStatus(`Caught ${top.name} from ${top.setName} (${top.confidence}% match).`);
+        setTcgCaughtStatus(top.match.id, true);
+        setConfirmedScanId(top.match.id);
+        setScanStatus(
+          `Caught ${top.match.name} from ${top.match.setName} (${Math.round(top.composite * 100)}% confidence).`,
+        );
       } else {
         setScanStatus(
-          `${matches.length} candidate${matches.length === 1 ? "" : "s"} found. Pick the right printing.`,
+          `${ranked.length} candidate${ranked.length === 1 ? "" : "s"} found. Pick the right printing.`,
         );
       }
     } catch (error) {

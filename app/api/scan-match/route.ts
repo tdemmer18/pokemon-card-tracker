@@ -84,16 +84,27 @@ function hamming(a: Uint8Array, b: Uint8Array): number {
 export async function POST(request: NextRequest) {
   const body = (await request.json().catch(() => ({}))) as {
     hash?: string;
+    hashes?: string[];
     topN?: number;
   };
 
-  const hash = (body.hash ?? "").trim().toLowerCase();
-  const topN = Math.max(1, Math.min(Number(body.topN ?? 6), 20));
+  const probeHexes = (body.hashes && body.hashes.length
+    ? body.hashes
+    : body.hash
+      ? [body.hash]
+      : [])
+    .map((value) => value.trim().toLowerCase())
+    .filter(Boolean);
 
-  const probeBytes = hexToBytes(hash);
-  if (!probeBytes) {
+  const topN = Math.max(1, Math.min(Number(body.topN ?? 12), 30));
+
+  const probes = probeHexes
+    .map((hex) => hexToBytes(hex))
+    .filter((value): value is Uint8Array => value !== null);
+
+  if (!probes.length) {
     return NextResponse.json(
-      { matches: [], message: "Invalid hash." },
+      { matches: [], message: "No valid hashes provided." },
       { status: 400 },
     );
   }
@@ -110,20 +121,26 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  const totalBits = probeBytes.length * 8;
+  const totalBits = probes[0].length * 8;
   const heap: Match[] = [];
 
   for (const [id, entry] of Object.entries(index.hashes)) {
     const candidateBytes = hexToBytes(entry.hash);
     if (!candidateBytes) continue;
-    const distance = hamming(probeBytes, candidateBytes);
-    const confidence = Math.round(((totalBits - distance) / totalBits) * 100);
-    const match: Match = { ...entry, id, distance, confidence };
+    let bestDistance = Infinity;
+    for (const probe of probes) {
+      const distance = hamming(probe, candidateBytes);
+      if (distance < bestDistance) bestDistance = distance;
+    }
+    if (bestDistance === Infinity) continue;
+
+    const confidence = Math.round(((totalBits - bestDistance) / totalBits) * 100);
+    const match: Match = { ...entry, id, distance: bestDistance, confidence };
 
     if (heap.length < topN) {
       heap.push(match);
       heap.sort((left, right) => left.distance - right.distance);
-    } else if (distance < heap[heap.length - 1].distance) {
+    } else if (bestDistance < heap[heap.length - 1].distance) {
       heap[heap.length - 1] = match;
       heap.sort((left, right) => left.distance - right.distance);
     }
