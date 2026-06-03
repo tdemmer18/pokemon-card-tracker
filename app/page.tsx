@@ -81,8 +81,8 @@ type TcgCard = {
 };
 
 type TcgGalleryPokemon = Pick<PokemonEntry, "id" | "name" | "number">;
-type AppView = "deck" | "expansions";
-type BottomNavIconName = "deck" | "expansions" | "search";
+type AppView = "deck" | "expansions" | "types";
+type BottomNavIconName = "deck" | "expansions" | "search" | "types";
 
 type TcgExpansion = {
   id: string;
@@ -112,6 +112,16 @@ function BottomNavIcon({ name }: { name: BottomNavIconName }) {
       <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
         <path d="m12 3 8 4-8 4-8-4 8-4Z" fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth="2" />
         <path d="m4 12 8 4 8-4M4 17l8 4 8-4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+      </svg>
+    );
+  }
+
+  if (name === "types") {
+    return (
+      <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+        <circle cx="8" cy="8.5" r="3.2" fill="none" stroke="currentColor" strokeWidth="2" />
+        <circle cx="16" cy="8.5" r="3.2" fill="none" stroke="currentColor" strokeWidth="2" />
+        <circle cx="12" cy="16" r="3.2" fill="none" stroke="currentColor" strokeWidth="2" />
       </svg>
     );
   }
@@ -550,6 +560,27 @@ export default function HomePage() {
       visible: filteredEntries.length,
     };
   }, [entries.length, filteredEntries.length, viewedCaught]);
+
+  const typeProgress = useMemo(() => {
+    const counts = new Map<string, { caught: number; total: number }>();
+    for (const type of types) {
+      counts.set(type, { caught: 0, total: 0 });
+    }
+    for (const entry of entries) {
+      const isCaught = Boolean(viewedCaught[entry.id]);
+      for (const type of entry.types) {
+        const bucket = counts.get(type);
+        if (!bucket) continue;
+        bucket.total += 1;
+        if (isCaught) bucket.caught += 1;
+      }
+    }
+    return types.map((type) => {
+      const { caught, total } = counts.get(type) ?? { caught: 0, total: 0 };
+      const percentage = total ? Math.round((caught / total) * 100) : 0;
+      return { type, caught, total, percentage };
+    });
+  }, [entries, types, viewedCaught]);
   const tcgCaughtTotal = Object.values(tcgCaughtByUser[currentUser] ?? {}).filter(Boolean).length;
   const combinedCaughtTotal = stats.totalCaught + tcgCaughtTotal;
   const heroModeLabel = isCombinedProgress ? "Pokedex" : "All caught";
@@ -571,6 +602,19 @@ export default function HomePage() {
       );
     });
   }, [expansionSearch, expansions]);
+
+  const tcgCaughtBySet = useMemo(() => {
+    const counts: Record<string, number> = {};
+    const caught = tcgCaughtByUser[currentUser] ?? {};
+    for (const [cardId, isCaught] of Object.entries(caught)) {
+      if (!isCaught) continue;
+      const separator = cardId.indexOf("-");
+      if (separator <= 0) continue;
+      const setId = cardId.slice(0, separator);
+      counts[setId] = (counts[setId] ?? 0) + 1;
+    }
+    return counts;
+  }, [tcgCaughtByUser, currentUser]);
 
   const setCaughtStatus = (pokemonId: number, nextCaught: boolean) => {
     setCaughtByUser((current) => {
@@ -647,6 +691,20 @@ export default function HomePage() {
     setActiveView("deck");
     setSelectedExpansion(null);
     setStatus(`Viewing ${currentUser}'s deck.`);
+  };
+
+  const showTypes = () => {
+    setActiveView("types");
+    setSelectedExpansion(null);
+  };
+
+  const openTypeDeck = (type: string) => {
+    setTypeFilter(type);
+    setPage(1);
+    setActiveView("deck");
+    setSelectedExpansion(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setStatus(type === "All Types" ? "Showing all types." : `Filtering deck by ${type}.`);
   };
 
   const showSearch = () => {
@@ -1250,20 +1308,6 @@ export default function HomePage() {
 
                 <select
                   className="control"
-                  value={typeFilter}
-                  onChange={(event) => {
-                    setTypeFilter(event.target.value);
-                    setPage(1);
-                  }}
-                >
-                  <option value="All Types">All Types</option>
-                  {types.map((type) => (
-                    <option key={type} value={type}>{type}</option>
-                  ))}
-                </select>
-
-                <select
-                  className="control"
                   value={String(pageSize)}
                   onChange={(event) => {
                     setPageSize(Number(event.target.value));
@@ -1586,6 +1630,8 @@ export default function HomePage() {
                   <div className="expansions-list">
                     {filteredExpansions.map((expansion) => {
                       const cardTotal = expansion.printedTotal ?? expansion.total;
+                      const caughtCount = tcgCaughtBySet[expansion.id] ?? 0;
+                      const isComplete = Boolean(cardTotal) && caughtCount >= (cardTotal ?? 0);
 
                       return (
                         <article
@@ -1632,7 +1678,12 @@ export default function HomePage() {
                                 .join(" · ")}
                             </p>
                           </div>
-                          <span className="expansion-code">{expansion.code}</span>
+                          <div className="expansion-side">
+                            <span className={`expansion-progress ${isComplete ? "is-complete" : ""}`}>
+                              {caughtCount}/{cardTotal ?? "?"}
+                            </span>
+                            <span className="expansion-code">{expansion.code}</span>
+                          </div>
                         </article>
                       );
                     })}
@@ -1642,6 +1693,89 @@ export default function HomePage() {
                 )}
               </>
             )}
+          </section>
+        ) : activeView === "types" ? (
+          <section className="main-card expansions-card">
+            <header className="expansions-header">
+              <div>
+                <p className="hero-kicker">Pokemon Types</p>
+                <h2 className="section-title">All Types</h2>
+              </div>
+            </header>
+
+            <div className="expansions-list">
+              <article
+                className="expansion-row type-row"
+                key="__all"
+                onClick={() => openTypeDeck("All Types")}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    openTypeDeck("All Types");
+                  }
+                }}
+                aria-label="View all Pokemon regardless of type"
+              >
+                <div
+                  className="expansion-art type-art"
+                  style={{
+                    background:
+                      "linear-gradient(135deg, color-mix(in srgb, var(--accent) 32%, transparent), color-mix(in srgb, var(--accent) 8%, transparent))",
+                  }}
+                >
+                  <span className="type-art-label">ALL</span>
+                </div>
+                <div className="expansion-copy">
+                  <h3>All Types</h3>
+                  <p>Show every Pokemon</p>
+                  <p>{stats.totalCaught} / {stats.total} caught · {stats.percentage}%</p>
+                </div>
+                <span className="expansion-code">ALL</span>
+              </article>
+
+              {typeProgress.map(({ type, caught, total, percentage }) => {
+                const accent = TYPE_ACCENTS[type] ?? "#94a3b8";
+                return (
+                  <article
+                    className="expansion-row type-row"
+                    key={type}
+                    onClick={() => openTypeDeck(type)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        openTypeDeck(type);
+                      }
+                    }}
+                    aria-label={`View ${type} Pokemon`}
+                  >
+                    <div
+                      className="expansion-art type-art"
+                      style={{
+                        background: `linear-gradient(135deg, color-mix(in srgb, ${accent} 60%, transparent), color-mix(in srgb, ${accent} 14%, transparent))`,
+                        borderColor: accent,
+                      }}
+                    >
+                      <span className="type-art-label">{type.slice(0, 3).toUpperCase()}</span>
+                    </div>
+                    <div className="expansion-copy">
+                      <h3>{type}</h3>
+                      <p>{caught} / {total} caught</p>
+                      <p>{percentage}% complete</p>
+                    </div>
+                    <span
+                      className="expansion-code type-code"
+                      style={{ borderColor: accent, color: accent }}
+                    >
+                      {type.slice(0, 3).toUpperCase()}
+                    </span>
+                  </article>
+                );
+              })}
+            </div>
           </section>
         ) : (
           <section className="main-card">
@@ -1783,6 +1917,16 @@ export default function HomePage() {
           title="All expansion packs"
         >
           <BottomNavIcon name="expansions" />
+        </button>
+        <button
+          type="button"
+          className={`bottom-nav-button ${activeView === "types" ? "is-active" : ""}`}
+          onClick={showTypes}
+          aria-label="Pokemon types"
+          aria-pressed={activeView === "types"}
+          title="Pokemon types"
+        >
+          <BottomNavIcon name="types" />
         </button>
         <button
           type="button"

@@ -1084,6 +1084,30 @@ a {
   margin-top: 2px;
 }
 
+.expansion-side {
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+}
+
+.expansion-progress {
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.expansion-progress.is-complete {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  background: color-mix(in srgb, var(--accent) 24%, transparent);
+  color: var(--accent);
+}
+
 .expansion-code {
   justify-self: end;
   min-width: 44px;
@@ -1108,6 +1132,22 @@ a {
   color: var(--muted);
   padding: 24px;
   text-align: center;
+}
+
+.type-art {
+  border: 1px solid var(--line);
+}
+
+.type-art-label {
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+.type-code {
+  background: transparent;
 }
 
 .section-title {
