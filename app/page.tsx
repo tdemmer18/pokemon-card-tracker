@@ -185,6 +185,10 @@ function formatExpansionDate(value: string | null) {
   }).format(date);
 }
 
+function pokemonImageRoute(id: number) {
+  return `/api/pokemon-image/${id}`;
+}
+
 function userColor(name: string): string {
   if (name.trim().toLowerCase() === "owen") {
     return "#ff4f6d";
@@ -670,6 +674,12 @@ export default function HomePage() {
   const tcgCaughtTotal = Object.values(tcgCaughtByUser[currentUser] ?? {}).filter(Boolean).length;
   const combinedCaughtTotal = stats.totalCaught + tcgCaughtTotal;
   const heroModeLabel = isCombinedProgress ? "Pokedex" : "All caught";
+  const isShowingAllPokemon =
+    completion === "all" &&
+    generation === "All" &&
+    typeFilter === "All Types" &&
+    !search.trim() &&
+    pageSize === 0;
 
   const generationOptions = useMemo(
     () => ["All", ...[...new Set(entries.map((entry) => entry.generation))].sort((left, right) => left - right).map((value) => `Gen ${value}`)],
@@ -791,6 +801,19 @@ export default function HomePage() {
     setSelectedExpansion(null);
     window.scrollTo({ top: 0, behavior: "smooth" });
     setStatus(type === "All Types" ? "Showing all types." : `Filtering deck by ${type}.`);
+  };
+
+  const showAllPokemon = () => {
+    setSearch("");
+    setGeneration("All");
+    setCompletion("all");
+    setTypeFilter("All Types");
+    setPageSize(0);
+    setPage(1);
+    setActiveView("deck");
+    setSelectedExpansion(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setStatus(`Showing all ${entries.length} Pokemon.`);
   };
 
   const showSearch = () => {
@@ -1768,12 +1791,9 @@ export default function HomePage() {
           <div className="quick-toggle-row" aria-label="Pokemon visibility filter">
             <button
               type="button"
-              className={`quick-toggle-button ${completion === "all" ? "is-active" : ""}`}
-              onClick={() => {
-                setCompletion("all");
-                setPage(1);
-              }}
-              aria-pressed={completion === "all"}
+              className={`quick-toggle-button ${isShowingAllPokemon ? "is-active" : ""}`}
+              onClick={showAllPokemon}
+              aria-pressed={isShowingAllPokemon}
             >
               ALL
             </button>
@@ -2565,13 +2585,13 @@ export default function HomePage() {
               <article
                 className="expansion-row type-list-row"
                 key="__all"
-                onClick={() => openTypeDeck("All Types")}
+                onClick={showAllPokemon}
                 role="button"
                 tabIndex={0}
                 onKeyDown={(event) => {
                   if (event.key === "Enter" || event.key === " ") {
                     event.preventDefault();
-                    openTypeDeck("All Types");
+                    showAllPokemon();
                   }
                 }}
                 aria-label="View all Pokemon regardless of type"
@@ -2672,12 +2692,13 @@ export default function HomePage() {
                       <div className="pokemon-card-content">
                         <div className="pokemon-image-wrap">
                           <Image
-                            src={entry.imageUrl}
+                            src={pokemonImageRoute(entry.id)}
                             alt={entry.name}
                             width={132}
                             height={132}
                             className="pokemon-image"
                             priority={index < 8}
+                            unoptimized
                           />
                         </div>
 
